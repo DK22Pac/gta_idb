@@ -1,5 +1,5 @@
 10us,Module,Name,DemangledName,Type,Attributes,Comment
-0x401000,,_MD5Init,_MD5Init,,,
+0x401000,Test,_MD5Init,_MD5Init,,,
 0x40104A,,_MD5Update,_MD5Update,,,
 0x40118B,,_MD5Final,_MD5Final,,,
 0x4012E9,,_MD5Transform,_MD5Transform,,,
