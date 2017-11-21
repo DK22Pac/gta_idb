@@ -1,0 +1,28 @@
+{
+    "name": "eVehicleLightsFlags",
+    "module": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": true,
+    "comment": "",
+    "members": [
+        {
+            "value": "0x1",
+            "name": "VEHICLE_LIGHTS_TWIN"
+        },
+        {
+            "name": "VEHICLE_LIGHTS_IGNORE_DAMAGE",
+            "value": "0x4"
+        },
+        {
+            "name": "VEHICLE_LIGHTS_DISABLE_FRONT",
+            "value": "0x10"
+        },
+        {
+            "name": "VEHICLE_LIGHTS_DISABLE_REAR",
+            "value": "0x20"
+        }
+    ]
+}

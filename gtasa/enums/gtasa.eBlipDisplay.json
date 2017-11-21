@@ -1,0 +1,16 @@
+{
+    "name": "eBlipDisplay",
+    "module": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "value": 0,
+            "name": "eBlipDisplay_0"
+        }
+    ]
+}

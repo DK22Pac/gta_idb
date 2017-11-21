@@ -1,0 +1,20 @@
+{
+    "name": "RpAtomicVisibility",
+    "module": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": true,
+    "comment": "",
+    "members": [
+        {
+            "value": "0x1",
+            "name": "VISIBILITY_OK"
+        },
+        {
+            "name": "VISIBILITY_DAM",
+            "value": "0x2"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "name": "RwStreamType",
+    "module": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "value": "0x0",
+            "name": "rwNASTREAM"
+        },
+        {
+            "name": "rwSTREAMFILE",
+            "value": "0x1"
+        },
+        {
+            "name": "rwSTREAMFILENAME",
+            "value": "0x2"
+        },
+        {
+            "name": "rwSTREAMMEMORY",
+            "value": "0x3"
+        },
+        {
+            "name": "rwSTREAMCUSTOM",
+            "value": "0x4"
+        }
+    ]
+}

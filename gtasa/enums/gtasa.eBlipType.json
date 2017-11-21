@@ -1,0 +1,32 @@
+{
+    "name": "eBlipType",
+    "module": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "value": 1,
+            "name": "BLIP_CAR"
+        },
+        {
+            "name": "BLIP_CHAR",
+            "value": 2
+        },
+        {
+            "name": "BLIP_OBJECT",
+            "value": 3
+        },
+        {
+            "name": "BLIP_COORD",
+            "value": 4
+        },
+        {
+            "name": "BLIP_CONTACT_POINT",
+            "value": 5
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "eSystem",
+    "module": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "value": "0x0",
+            "name": "NULL"
+        }
+    ]
+}

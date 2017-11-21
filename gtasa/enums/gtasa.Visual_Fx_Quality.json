@@ -1,0 +1,28 @@
+{
+    "name": "Visual Fx Quality",
+    "module": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "value": "0x0",
+            "name": "FX_LOW"
+        },
+        {
+            "name": "FX_MEDIUM",
+            "value": "0x1"
+        },
+        {
+            "name": "FX_HIGH",
+            "value": "0x2"
+        },
+        {
+            "name": "FX_VERY_HIGH",
+            "value": "0x3"
+        }
+    ]
+}

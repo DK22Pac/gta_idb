@@ -1,0 +1,16 @@
+{
+    "name": "MACRO_CW",
+    "module": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": true,
+    "comment": "",
+    "members": [
+        {
+            "value": "0x80000000",
+            "name": "CW_USEDEFAULT"
+        }
+    ]
+}

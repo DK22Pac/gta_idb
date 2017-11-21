@@ -1,0 +1,28 @@
+{
+    "name": "MACRO_DIERR_NOAGGREGATION",
+    "module": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": true,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "value": 2147746064,
+            "name": "DIERR_NOAGGREGATION"
+        },
+        {
+            "name": "DIERR_OTHERAPPHASPRIO",
+            "value": 2147942405
+        },
+        {
+            "name": "DIERR_INPUTLOST",
+            "value": 2147942430
+        },
+        {
+            "name": "DIERR_ACQUIRED",
+            "value": 2147942570
+        }
+    ]
+}

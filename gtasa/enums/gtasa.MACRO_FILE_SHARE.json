@@ -1,0 +1,20 @@
+{
+    "name": "MACRO_FILE_SHARE",
+    "module": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": true,
+    "comment": "",
+    "members": [
+        {
+            "value": "0x2",
+            "name": "FILE_SHARE_WRITE"
+        },
+        {
+            "name": "FILE_SHARE_DELETE",
+            "value": "0x4"
+        }
+    ]
+}

@@ -1,0 +1,212 @@
+{
+    "name": "eWeaponType",
+    "module": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "value": "0x0",
+            "name": "WEAPON_UNARMED"
+        },
+        {
+            "name": "WEAPON_BRASSKNUCKLE",
+            "value": "0x1"
+        },
+        {
+            "name": "WEAPON_GOLFCLUB",
+            "value": "0x2"
+        },
+        {
+            "name": "WEAPON_NIGHTSTICK",
+            "value": "0x3"
+        },
+        {
+            "name": "WEAPON_KNIFE",
+            "value": "0x4"
+        },
+        {
+            "name": "WEAPON_BASEBALLBAT",
+            "value": "0x5"
+        },
+        {
+            "name": "WEAPON_SHOVEL",
+            "value": "0x6"
+        },
+        {
+            "name": "WEAPON_POOLCUE",
+            "value": "0x7"
+        },
+        {
+            "name": "WEAPON_KATANA",
+            "value": "0x8"
+        },
+        {
+            "name": "WEAPON_CHAINSAW",
+            "value": "0x9"
+        },
+        {
+            "name": "WEAPON_DILDO1",
+            "value": "0xA"
+        },
+        {
+            "name": "WEAPON_DILDO2",
+            "value": "0xB"
+        },
+        {
+            "name": "WEAPON_VIBE1",
+            "value": "0xC"
+        },
+        {
+            "name": "WEAPON_VIBE2",
+            "value": "0xD"
+        },
+        {
+            "name": "WEAPON_FLOWERS",
+            "value": "0xE"
+        },
+        {
+            "name": "WEAPON_CANE",
+            "value": "0xF"
+        },
+        {
+            "name": "WEAPON_GRENADE",
+            "value": "0x10"
+        },
+        {
+            "name": "WEAPON_TEARGAS",
+            "value": "0x11"
+        },
+        {
+            "name": "WEAPON_MOLOTOV",
+            "value": "0x12"
+        },
+        {
+            "name": "WEAPON_ROCKET",
+            "value": "0x13"
+        },
+        {
+            "name": "WEAPON_ROCKET_HS",
+            "value": "0x14"
+        },
+        {
+            "name": "WEAPON_FREEFALL_BOMB",
+            "value": "0x15"
+        },
+        {
+            "name": "WEAPON_PISTOL",
+            "value": "0x16"
+        },
+        {
+            "name": "WEAPON_PISTOL_SILENCED",
+            "value": "0x17"
+        },
+        {
+            "name": "WEAPON_DESERT_EAGLE",
+            "value": "0x18"
+        },
+        {
+            "name": "WEAPON_SHOTGUN",
+            "value": "0x19"
+        },
+        {
+            "name": "WEAPON_SAWNOFF",
+            "value": "0x1A"
+        },
+        {
+            "name": "WEAPON_SPAS12",
+            "value": "0x1B"
+        },
+        {
+            "name": "WEAPON_MICRO_UZI",
+            "value": "0x1C"
+        },
+        {
+            "name": "WEAPON_MP5",
+            "value": "0x1D"
+        },
+        {
+            "name": "WEAPON_AK47",
+            "value": "0x1E"
+        },
+        {
+            "name": "WEAPON_M4",
+            "value": "0x1F"
+        },
+        {
+            "name": "WEAPON_TEC9",
+            "value": "0x20"
+        },
+        {
+            "name": "WEAPON_COUNTRYRIFLE",
+            "value": "0x21"
+        },
+        {
+            "name": "WEAPON_SNIPERRIFLE",
+            "value": "0x22"
+        },
+        {
+            "name": "WEAPON_RLAUNCHER",
+            "value": "0x23"
+        },
+        {
+            "name": "WEAPON_RLAUNCHER_HS",
+            "value": "0x24"
+        },
+        {
+            "name": "WEAPON_FTHROWER",
+            "value": "0x25"
+        },
+        {
+            "name": "WEAPON_MINIGUN",
+            "value": "0x26"
+        },
+        {
+            "name": "WEAPON_SATCHEL_CHARGE",
+            "value": "0x27"
+        },
+        {
+            "name": "WEAPON_DETONATOR",
+            "value": "0x28"
+        },
+        {
+            "name": "WEAPON_SPRAYCAN",
+            "value": "0x29"
+        },
+        {
+            "name": "WEAPON_EXTINGUISHER",
+            "value": "0x2A"
+        },
+        {
+            "name": "WEAPON_CAMERA",
+            "value": "0x2B"
+        },
+        {
+            "name": "WEAPON_NIGHTVISION",
+            "value": "0x2C"
+        },
+        {
+            "value": "0x2D",
+            "name": "WEAPON_INFRARED"
+        },
+        {
+            "name": "WEAPON_PARACHUTE",
+            "value": "0x2E"
+        },
+        {
+            "name": "WEAPON_UNUSED",
+            "value": "0x2F"
+        },
+        {
+            "name": "WEAPON_ARMOUR",
+            "value": "0x30"
+        },
+        {
+            "name": "WEAPON_FLARE",
+            "value": "0x3A"
+        }
+    ]
+}
