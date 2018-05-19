@@ -1,0 +1,23 @@
+{
+    "name": "CMloModelInstance",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x50",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "base",
+            "type": "CPlaceable",
+            "offset": 0,
+            "size": "0x4C"
+        },
+        {
+            "name": "m_dwModelIndex",
+            "type": "int",
+            "offset": "0x4C",
+            "size": 4
+        }
+    ]
+}

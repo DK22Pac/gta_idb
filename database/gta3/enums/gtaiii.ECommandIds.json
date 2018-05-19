@@ -1,0 +1,5805 @@
+{
+    "name": "ECommandIds",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "NOP",
+            "value": "0x0"
+        },
+        {
+            "name": "WAIT",
+            "value": "0x1"
+        },
+        {
+            "name": "GOTO",
+            "value": "0x2"
+        },
+        {
+            "name": "SHAKE_CAM",
+            "value": "0x3"
+        },
+        {
+            "name": "SET_VAR_INT",
+            "value": "0x4"
+        },
+        {
+            "name": "SET_VAR_FLOAT",
+            "value": "0x5"
+        },
+        {
+            "name": "SET_LVAR_INT",
+            "value": "0x6"
+        },
+        {
+            "name": "SET_LVAR_FLOAT",
+            "value": "0x7"
+        },
+        {
+            "name": "ADD_VAL_TO_INT_VAR",
+            "value": "0x8"
+        },
+        {
+            "name": "ADD_VAL_TO_FLOAT_VAR",
+            "value": "0x9"
+        },
+        {
+            "name": "ADD_VAL_TO_INT_LVAR",
+            "value": "0xA"
+        },
+        {
+            "name": "ADD_VAL_TO_FLOAT_LVAR",
+            "value": "0xB"
+        },
+        {
+            "name": "SUB_VAL_FROM_INT_VAR",
+            "value": "0xC"
+        },
+        {
+            "name": "SUB_VAL_FROM_FLOAT_VAR",
+            "value": "0xD"
+        },
+        {
+            "name": "SUB_VAL_FROM_INT_LVAR",
+            "value": "0xE"
+        },
+        {
+            "name": "SUB_VAL_FROM_FLOAT_LVAR",
+            "value": "0xF"
+        },
+        {
+            "name": "MULT_INT_VAR_BY_VAL",
+            "value": "0x10"
+        },
+        {
+            "name": "MULT_FLOAT_VAR_BY_VAL",
+            "value": "0x11"
+        },
+        {
+            "name": "MULT_INT_LVAR_BY_VAL",
+            "value": "0x12"
+        },
+        {
+            "name": "MULT_FLOAT_LVAR_BY_VAL",
+            "value": "0x13"
+        },
+        {
+            "name": "DIV_INT_VAR_BY_VAL",
+            "value": "0x14"
+        },
+        {
+            "name": "DIV_FLOAT_VAR_BY_VAL",
+            "value": "0x15"
+        },
+        {
+            "name": "DIV_INT_LVAR_BY_VAL",
+            "value": "0x16"
+        },
+        {
+            "name": "DIV_FLOAT_LVAR_BY_VAL",
+            "value": "0x17"
+        },
+        {
+            "name": "IS_INT_VAR_GREATER_THAN_NUMBER",
+            "value": "0x18"
+        },
+        {
+            "name": "IS_INT_LVAR_GREATER_THAN_NUMBER",
+            "value": "0x19"
+        },
+        {
+            "name": "IS_NUMBER_GREATER_THAN_INT_VAR",
+            "value": "0x1A"
+        },
+        {
+            "name": "IS_NUMBER_GREATER_THAN_INT_LVAR",
+            "value": "0x1B"
+        },
+        {
+            "name": "IS_INT_VAR_GREATER_THAN_INT_VAR",
+            "value": "0x1C"
+        },
+        {
+            "name": "IS_INT_LVAR_GREATER_THAN_INT_LVAR",
+            "value": "0x1D"
+        },
+        {
+            "name": "IS_INT_VAR_GREATER_THAN_INT_LVAR",
+            "value": "0x1E"
+        },
+        {
+            "name": "IS_INT_LVAR_GREATER_THAN_INT_VAR",
+            "value": "0x1F"
+        },
+        {
+            "name": "IS_FLOAT_VAR_GREATER_THAN_NUMBER",
+            "value": "0x20"
+        },
+        {
+            "name": "IS_FLOAT_LVAR_GREATER_THAN_NUMBER",
+            "value": "0x21"
+        },
+        {
+            "name": "IS_NUMBER_GREATER_THAN_FLOAT_VAR",
+            "value": "0x22"
+        },
+        {
+            "name": "IS_NUMBER_GREATER_THAN_FLOAT_LVAR",
+            "value": "0x23"
+        },
+        {
+            "name": "IS_FLOAT_VAR_GREATER_THAN_FLOAT_VAR",
+            "value": "0x24"
+        },
+        {
+            "name": "IS_FLOAT_LVAR_GREATER_THAN_FLOAT_LVAR",
+            "value": "0x25"
+        },
+        {
+            "name": "IS_FLOAT_VAR_GREATER_THAN_FLOAT_LVAR",
+            "value": "0x26"
+        },
+        {
+            "name": "IS_FLOAT_LVAR_GREATER_THAN_FLOAT_VAR",
+            "value": "0x27"
+        },
+        {
+            "name": "IS_INT_VAR_GREATER_OR_EQUAL_TO_NUMBER",
+            "value": "0x28"
+        },
+        {
+            "name": "IS_INT_LVAR_GREATER_OR_EQUAL_TO_NUMBER",
+            "value": "0x29"
+        },
+        {
+            "name": "IS_NUMBER_GREATER_OR_EQUAL_TO_INT_VAR",
+            "value": "0x2A"
+        },
+        {
+            "name": "IS_NUMBER_GREATER_OR_EQUAL_TO_INT_LVAR",
+            "value": "0x2B"
+        },
+        {
+            "name": "IS_INT_VAR_GREATER_OR_EQUAL_TO_INT_VAR",
+            "value": "0x2C"
+        },
+        {
+            "name": "IS_INT_LVAR_GREATER_OR_EQUAL_TO_INT_LVAR",
+            "value": "0x2D"
+        },
+        {
+            "name": "IS_INT_VAR_GREATER_OR_EQUAL_TO_INT_LVAR",
+            "value": "0x2E"
+        },
+        {
+            "name": "IS_INT_LVAR_GREATER_OR_EQUAL_TO_INT_VAR",
+            "value": "0x2F"
+        },
+        {
+            "name": "IS_FLOAT_VAR_GREATER_OR_EQUAL_TO_NUMBER",
+            "value": "0x30"
+        },
+        {
+            "name": "IS_FLOAT_LVAR_GREATER_OR_EQUAL_TO_NUMBER",
+            "value": "0x31"
+        },
+        {
+            "name": "IS_NUMBER_GREATER_OR_EQUAL_TO_FLOAT_VAR",
+            "value": "0x32"
+        },
+        {
+            "name": "IS_NUMBER_GREATER_OR_EQUAL_TO_FLOAT_LVAR",
+            "value": "0x33"
+        },
+        {
+            "name": "IS_FLOAT_VAR_GREATER_OR_EQUAL_TO_FLOAT_VAR",
+            "value": "0x34"
+        },
+        {
+            "name": "IS_FLOAT_LVAR_GREATER_OR_EQUAL_TO_FLOAT_LVAR",
+            "value": "0x35"
+        },
+        {
+            "name": "IS_FLOAT_VAR_GREATER_OR_EQUAL_TO_FLOAT_LVAR",
+            "value": "0x36"
+        },
+        {
+            "name": "IS_FLOAT_LVAR_GREATER_OR_EQUAL_TO_FLOAT_VAR",
+            "value": "0x37"
+        },
+        {
+            "name": "IS_INT_VAR_EQUAL_TO_NUMBER",
+            "value": "0x38"
+        },
+        {
+            "name": "IS_INT_LVAR_EQUAL_TO_NUMBER",
+            "value": "0x39"
+        },
+        {
+            "name": "IS_INT_VAR_EQUAL_TO_INT_VAR",
+            "value": "0x3A"
+        },
+        {
+            "name": "IS_INT_LVAR_EQUAL_TO_INT_LVAR",
+            "value": "0x3B"
+        },
+        {
+            "name": "IS_INT_VAR_EQUAL_TO_INT_LVAR",
+            "value": "0x3C"
+        },
+        {
+            "name": "IS_INT_VAR_NOT_EQUAL_TO_NUMBER",
+            "value": "0x3D"
+        },
+        {
+            "name": "IS_INT_LVAR_NOT_EQUAL_TO_NUMBER",
+            "value": "0x3E"
+        },
+        {
+            "name": "IS_INT_VAR_NOT_EQUAL_TO_INT_VAR",
+            "value": "0x3F"
+        },
+        {
+            "name": "IS_INT_LVAR_NOT_EQUAL_TO_INT_LVAR",
+            "value": "0x40"
+        },
+        {
+            "name": "IS_INT_VAR_NOT_EQUAL_TO_INT_LVAR",
+            "value": "0x41"
+        },
+        {
+            "name": "IS_FLOAT_VAR_EQUAL_TO_NUMBER",
+            "value": "0x42"
+        },
+        {
+            "name": "IS_FLOAT_LVAR_EQUAL_TO_NUMBER",
+            "value": "0x43"
+        },
+        {
+            "name": "IS_FLOAT_VAR_EQUAL_TO_FLOAT_VAR",
+            "value": "0x44"
+        },
+        {
+            "name": "IS_FLOAT_LVAR_EQUAL_TO_FLOAT_LVAR",
+            "value": "0x45"
+        },
+        {
+            "name": "IS_FLOAT_VAR_EQUAL_TO_FLOAT_LVAR",
+            "value": "0x46"
+        },
+        {
+            "name": "IS_FLOAT_VAR_NOT_EQUAL_TO_NUMBER",
+            "value": "0x47"
+        },
+        {
+            "name": "IS_FLOAT_LVAR_NOT_EQUAL_TO_NUMBER",
+            "value": "0x48"
+        },
+        {
+            "name": "IS_FLOAT_VAR_NOT_EQUAL_TO_FLOAT_VAR",
+            "value": "0x49"
+        },
+        {
+            "name": "IS_FLOAT_LVAR_NOT_EQUAL_TO_FLOAT_LVAR",
+            "value": "0x4A"
+        },
+        {
+            "name": "IS_FLOAT_VAR_NOT_EQUAL_TO_FLOAT_LVAR",
+            "value": "0x4B"
+        },
+        {
+            "name": "GOTO_IF_TRUE",
+            "value": "0x4C"
+        },
+        {
+            "name": "GOTO_IF_FALSE",
+            "value": "0x4D"
+        },
+        {
+            "name": "TERMINATE_THIS_SCRIPT",
+            "value": "0x4E"
+        },
+        {
+            "name": "START_NEW_SCRIPT",
+            "value": "0x4F"
+        },
+        {
+            "name": "GOSUB",
+            "value": "0x50"
+        },
+        {
+            "name": "RETURN",
+            "value": "0x51"
+        },
+        {
+            "name": "LINE",
+            "value": "0x52"
+        },
+        {
+            "name": "CREATE_PLAYER",
+            "value": "0x53"
+        },
+        {
+            "name": "GET_PLAYER_COORDINATES",
+            "value": "0x54"
+        },
+        {
+            "name": "SET_PLAYER_COORDINATES",
+            "value": "0x55"
+        },
+        {
+            "name": "IS_PLAYER_IN_AREA_2D",
+            "value": "0x56"
+        },
+        {
+            "name": "IS_PLAYER_IN_AREA_3D",
+            "value": "0x57"
+        },
+        {
+            "name": "ADD_INT_VAR_TO_INT_VAR",
+            "value": "0x58"
+        },
+        {
+            "name": "ADD_FLOAT_VAR_TO_FLOAT_VAR",
+            "value": "0x59"
+        },
+        {
+            "name": "ADD_INT_LVAR_TO_INT_LVAR",
+            "value": "0x5A"
+        },
+        {
+            "name": "ADD_FLOAT_LVAR_TO_FLOAT_LVAR",
+            "value": "0x5B"
+        },
+        {
+            "name": "ADD_INT_VAR_TO_INT_LVAR",
+            "value": "0x5C"
+        },
+        {
+            "name": "ADD_FLOAT_VAR_TO_FLOAT_LVAR",
+            "value": "0x5D"
+        },
+        {
+            "name": "ADD_INT_LVAR_TO_INT_VAR",
+            "value": "0x5E"
+        },
+        {
+            "name": "ADD_FLOAT_LVAR_TO_FLOAT_VAR",
+            "value": "0x5F"
+        },
+        {
+            "name": "SUB_INT_VAR_FROM_INT_VAR",
+            "value": "0x60"
+        },
+        {
+            "name": "SUB_FLOAT_VAR_FROM_FLOAT_VAR",
+            "value": "0x61"
+        },
+        {
+            "name": "SUB_INT_LVAR_FROM_INT_LVAR",
+            "value": "0x62"
+        },
+        {
+            "name": "SUB_FLOAT_LVAR_FROM_FLOAT_LVAR",
+            "value": "0x63"
+        },
+        {
+            "name": "SUB_INT_VAR_FROM_INT_LVAR",
+            "value": "0x64"
+        },
+        {
+            "name": "SUB_FLOAT_VAR_FROM_FLOAT_LVAR",
+            "value": "0x65"
+        },
+        {
+            "name": "SUB_INT_LVAR_FROM_INT_VAR",
+            "value": "0x66"
+        },
+        {
+            "name": "SUB_FLOAT_LVAR_FROM_FLOAT_VAR",
+            "value": "0x67"
+        },
+        {
+            "name": "MULT_INT_VAR_BY_INT_VAR",
+            "value": "0x68"
+        },
+        {
+            "name": "MULT_FLOAT_VAR_BY_FLOAT_VAR",
+            "value": "0x69"
+        },
+        {
+            "name": "MULT_INT_LVAR_BY_INT_LVAR",
+            "value": "0x6A"
+        },
+        {
+            "name": "MULT_FLOAT_LVAR_BY_FLOAT_LVAR",
+            "value": "0x6B"
+        },
+        {
+            "name": "MULT_INT_VAR_BY_INT_LVAR",
+            "value": "0x6C"
+        },
+        {
+            "name": "MULT_FLOAT_VAR_BY_FLOAT_LVAR",
+            "value": "0x6D"
+        },
+        {
+            "name": "MULT_INT_LVAR_BY_INT_VAR",
+            "value": "0x6E"
+        },
+        {
+            "name": "MULT_FLOAT_LVAR_BY_FLOAT_VAR",
+            "value": "0x6F"
+        },
+        {
+            "name": "DIV_INT_VAR_BY_INT_VAR",
+            "value": "0x70"
+        },
+        {
+            "name": "DIV_FLOAT_VAR_BY_FLOAT_VAR",
+            "value": "0x71"
+        },
+        {
+            "name": "DIV_INT_LVAR_BY_INT_LVAR",
+            "value": "0x72"
+        },
+        {
+            "name": "DIV_FLOAT_LVAR_BY_FLOAT_LVAR",
+            "value": "0x73"
+        },
+        {
+            "name": "DIV_INT_VAR_BY_INT_LVAR",
+            "value": "0x74"
+        },
+        {
+            "name": "DIV_FLOAT_VAR_BY_FLOAT_LVAR",
+            "value": "0x75"
+        },
+        {
+            "name": "DIV_INT_LVAR_BY_INT_VAR",
+            "value": "0x76"
+        },
+        {
+            "name": "DIV_FLOAT_LVAR_BY_FLOAT_VAR",
+            "value": "0x77"
+        },
+        {
+            "name": "ADD_TIMED_VAL_TO_FLOAT_VAR",
+            "value": "0x78"
+        },
+        {
+            "name": "ADD_TIMED_VAL_TO_FLOAT_LVAR",
+            "value": "0x79"
+        },
+        {
+            "name": "ADD_TIMED_FLOAT_VAR_TO_FLOAT_VAR",
+            "value": "0x7A"
+        },
+        {
+            "name": "ADD_TIMED_FLOAT_LVAR_TO_FLOAT_LVAR",
+            "value": "0x7B"
+        },
+        {
+            "name": "ADD_TIMED_FLOAT_LVAR_TO_FLOAT_VAR",
+            "value": "0x7C"
+        },
+        {
+            "name": "ADD_TIMED_FLOAT_VAR_TO_FLOAT_LVAR",
+            "value": "0x7D"
+        },
+        {
+            "name": "SUB_TIMED_VAL_FROM_FLOAT_VAR",
+            "value": "0x7E"
+        },
+        {
+            "name": "SUB_TIMED_VAL_FROM_FLOAT_LVAR",
+            "value": "0x7F"
+        },
+        {
+            "name": "SUB_TIMED_FLOAT_VAR_FROM_FLOAT_VAR",
+            "value": "0x80"
+        },
+        {
+            "name": "SUB_TIMED_FLOAT_LVAR_FROM_FLOAT_LVAR",
+            "value": "0x81"
+        },
+        {
+            "name": "SUB_TIMED_FLOAT_LVAR_FROM_FLOAT_VAR",
+            "value": "0x82"
+        },
+        {
+            "name": "SUB_TIMED_FLOAT_VAR_FROM_FLOAT_LVAR",
+            "value": "0x83"
+        },
+        {
+            "name": "SET_VAR_INT_TO_VAR_INT",
+            "value": "0x84"
+        },
+        {
+            "name": "SET_LVAR_INT_TO_LVAR_INT",
+            "value": "0x85"
+        },
+        {
+            "name": "SET_VAR_FLOAT_TO_VAR_FLOAT",
+            "value": "0x86"
+        },
+        {
+            "name": "SET_LVAR_FLOAT_TO_LVAR_FLOAT",
+            "value": "0x87"
+        },
+        {
+            "name": "SET_VAR_FLOAT_TO_LVAR_FLOAT",
+            "value": "0x88"
+        },
+        {
+            "name": "SET_LVAR_FLOAT_TO_VAR_FLOAT",
+            "value": "0x89"
+        },
+        {
+            "name": "SET_VAR_INT_TO_LVAR_INT",
+            "value": "0x8A"
+        },
+        {
+            "name": "SET_LVAR_INT_TO_VAR_INT",
+            "value": "0x8B"
+        },
+        {
+            "name": "CSET_VAR_INT_TO_VAR_FLOAT",
+            "value": "0x8C"
+        },
+        {
+            "name": "CSET_VAR_FLOAT_TO_VAR_INT",
+            "value": "0x8D"
+        },
+        {
+            "name": "CSET_LVAR_INT_TO_VAR_FLOAT",
+            "value": "0x8E"
+        },
+        {
+            "name": "CSET_LVAR_FLOAT_TO_VAR_INT",
+            "value": "0x8F"
+        },
+        {
+            "name": "CSET_VAR_INT_TO_LVAR_FLOAT",
+            "value": "0x90"
+        },
+        {
+            "name": "CSET_VAR_FLOAT_TO_LVAR_INT",
+            "value": "0x91"
+        },
+        {
+            "name": "CSET_LVAR_INT_TO_LVAR_FLOAT",
+            "value": "0x92"
+        },
+        {
+            "name": "CSET_LVAR_FLOAT_TO_LVAR_INT",
+            "value": "0x93"
+        },
+        {
+            "name": "ABS_VAR_INT",
+            "value": "0x94"
+        },
+        {
+            "name": "ABS_LVAR_INT",
+            "value": "0x95"
+        },
+        {
+            "name": "ABS_VAR_FLOAT",
+            "value": "0x96"
+        },
+        {
+            "name": "ABS_LVAR_FLOAT",
+            "value": "0x97"
+        },
+        {
+            "name": "GENERATE_RANDOM_FLOAT",
+            "value": "0x98"
+        },
+        {
+            "name": "GENERATE_RANDOM_INT",
+            "value": "0x99"
+        },
+        {
+            "name": "CREATE_CHAR",
+            "value": "0x9A"
+        },
+        {
+            "name": "DELETE_CHAR",
+            "value": "0x9B"
+        },
+        {
+            "name": "CHAR_WANDER_DIR",
+            "value": "0x9C"
+        },
+        {
+            "name": "CHAR_WANDER_RANGE",
+            "value": "0x9D"
+        },
+        {
+            "name": "CHAR_FOLLOW_PATH",
+            "value": "0x9E"
+        },
+        {
+            "name": "CHAR_SET_IDLE",
+            "value": "0x9F"
+        },
+        {
+            "name": "GET_CHAR_COORDINATES",
+            "value": "0xA0"
+        },
+        {
+            "name": "SET_CHAR_COORDINATES",
+            "value": "0xA1"
+        },
+        {
+            "name": "IS_CHAR_STILL_ALIVE",
+            "value": "0xA2"
+        },
+        {
+            "name": "IS_CHAR_IN_AREA_2D",
+            "value": "0xA3"
+        },
+        {
+            "name": "IS_CHAR_IN_AREA_3D",
+            "value": "0xA4"
+        },
+        {
+            "name": "CREATE_CAR",
+            "value": "0xA5"
+        },
+        {
+            "name": "DELETE_CAR",
+            "value": "0xA6"
+        },
+        {
+            "name": "CAR_GOTO_COORDINATES",
+            "value": "0xA7"
+        },
+        {
+            "name": "CAR_WANDER_RANDOMLY",
+            "value": "0xA8"
+        },
+        {
+            "name": "CAR_SET_IDLE",
+            "value": "0xA9"
+        },
+        {
+            "name": "GET_CAR_COORDINATES",
+            "value": "0xAA"
+        },
+        {
+            "name": "SET_CAR_COORDINATES",
+            "value": "0xAB"
+        },
+        {
+            "name": "IS_CAR_STILL_ALIVE",
+            "value": "0xAC"
+        },
+        {
+            "name": "SET_CAR_CRUISE_SPEED",
+            "value": "0xAD"
+        },
+        {
+            "name": "SET_CAR_DRIVING_STYLE",
+            "value": "0xAE"
+        },
+        {
+            "name": "SET_CAR_MISSION",
+            "value": "0xAF"
+        },
+        {
+            "name": "IS_CAR_IN_AREA_2D",
+            "value": "0xB0"
+        },
+        {
+            "name": "IS_CAR_IN_AREA_3D",
+            "value": "0xB1"
+        },
+        {
+            "name": "SPECIAL_0",
+            "value": "0xB2"
+        },
+        {
+            "name": "SPECIAL_1",
+            "value": "0xB3"
+        },
+        {
+            "name": "SPECIAL_2",
+            "value": "0xB4"
+        },
+        {
+            "name": "SPECIAL_3",
+            "value": "0xB5"
+        },
+        {
+            "name": "SPECIAL_4",
+            "value": "0xB6"
+        },
+        {
+            "name": "SPECIAL_5",
+            "value": "0xB7"
+        },
+        {
+            "name": "SPECIAL_6",
+            "value": "0xB8"
+        },
+        {
+            "name": "SPECIAL_7",
+            "value": "0xB9"
+        },
+        {
+            "name": "PRINT_BIG",
+            "value": "0xBA"
+        },
+        {
+            "name": "PRINT",
+            "value": "0xBB"
+        },
+        {
+            "name": "PRINT_NOW",
+            "value": "0xBC"
+        },
+        {
+            "name": "PRINT_SOON",
+            "value": "0xBD"
+        },
+        {
+            "name": "CLEAR_PRINTS",
+            "value": "0xBE"
+        },
+        {
+            "name": "GET_TIME_OF_DAY",
+            "value": "0xBF"
+        },
+        {
+            "name": "SET_TIME_OF_DAY",
+            "value": "0xC0"
+        },
+        {
+            "name": "GET_MINUTES_TO_TIME_OF_DAY",
+            "value": "0xC1"
+        },
+        {
+            "name": "IS_POINT_ON_SCREEN",
+            "value": "0xC2"
+        },
+        {
+            "name": "DEBUG_ON",
+            "value": "0xC3"
+        },
+        {
+            "name": "DEBUG_OFF",
+            "value": "0xC4"
+        },
+        {
+            "name": "RETURN_TRUE",
+            "value": "0xC5"
+        },
+        {
+            "name": "RETURN_FALSE",
+            "value": "0xC6"
+        },
+        {
+            "name": "VAR_INT",
+            "value": "0xC7"
+        },
+        {
+            "name": "VAR_FLOAT",
+            "value": "0xC8"
+        },
+        {
+            "name": "LVAR_INT",
+            "value": "0xC9"
+        },
+        {
+            "name": "LVAR_FLOAT",
+            "value": "0xCA"
+        },
+        {
+            "name": "_OPCODE_00CB",
+            "value": "0xCB"
+        },
+        {
+            "name": "_OPCODE_00CC",
+            "value": "0xCC"
+        },
+        {
+            "name": "REPEAT",
+            "value": "0xCD"
+        },
+        {
+            "name": "ENDREPEAT",
+            "value": "0xCE"
+        },
+        {
+            "name": "IFNOT",
+            "value": "0xD0"
+        },
+        {
+            "name": "ELSE",
+            "value": "0xD1"
+        },
+        {
+            "name": "ENDIF",
+            "value": "0xD2"
+        },
+        {
+            "name": "WHILE",
+            "value": "0xD3"
+        },
+        {
+            "name": "WHILENOT",
+            "value": "0xD4"
+        },
+        {
+            "name": "ENDWHILE",
+            "value": "0xD5"
+        },
+        {
+            "name": "ANDOR",
+            "value": "0xD6"
+        },
+        {
+            "name": "LAUNCH_MISSION",
+            "value": "0xD7"
+        },
+        {
+            "name": "MISSION_HAS_FINISHED",
+            "value": "0xD8"
+        },
+        {
+            "name": "STORE_CAR_CHAR_IS_IN",
+            "value": "0xD9"
+        },
+        {
+            "name": "STORE_CAR_PLAYER_IS_IN",
+            "value": "0xDA"
+        },
+        {
+            "name": "IS_CHAR_IN_CAR",
+            "value": "0xDB"
+        },
+        {
+            "name": "IS_PLAYER_IN_CAR",
+            "value": "0xDC"
+        },
+        {
+            "name": "IS_CHAR_IN_MODEL",
+            "value": "0xDD"
+        },
+        {
+            "name": "IS_PLAYER_IN_MODEL",
+            "value": "0xDE"
+        },
+        {
+            "name": "IS_CHAR_IN_ANY_CAR",
+            "value": "0xDF"
+        },
+        {
+            "name": "IS_PLAYER_IN_ANY_CAR",
+            "value": "0xE0"
+        },
+        {
+            "name": "IS_BUTTON_PRESSED",
+            "value": "0xE1"
+        },
+        {
+            "name": "GET_PAD_STATE",
+            "value": "0xE2"
+        },
+        {
+            "name": "LOCATE_PLAYER_ANY_MEANS_2D",
+            "value": "0xE3"
+        },
+        {
+            "name": "LOCATE_PLAYER_ON_FOOT_2D",
+            "value": "0xE4"
+        },
+        {
+            "name": "LOCATE_PLAYER_IN_CAR_2D",
+            "value": "0xE5"
+        },
+        {
+            "name": "LOCATE_STOPPED_PLAYER_ANY_MEANS_2D",
+            "value": "0xE6"
+        },
+        {
+            "name": "LOCATE_STOPPED_PLAYER_ON_FOOT_2D",
+            "value": "0xE7"
+        },
+        {
+            "name": "LOCATE_STOPPED_PLAYER_IN_CAR_2D",
+            "value": "0xE8"
+        },
+        {
+            "name": "LOCATE_PLAYER_ANY_MEANS_CHAR_2D",
+            "value": "0xE9"
+        },
+        {
+            "name": "LOCATE_PLAYER_ON_FOOT_CHAR_2D",
+            "value": "0xEA"
+        },
+        {
+            "name": "LOCATE_PLAYER_IN_CAR_CHAR_2D",
+            "value": "0xEB"
+        },
+        {
+            "name": "LOCATE_CHAR_ANY_MEANS_2D",
+            "value": "0xEC"
+        },
+        {
+            "name": "LOCATE_CHAR_ON_FOOT_2D",
+            "value": "0xED"
+        },
+        {
+            "name": "LOCATE_CHAR_IN_CAR_2D",
+            "value": "0xEE"
+        },
+        {
+            "name": "LOCATE_STOPPED_CHAR_ANY_MEANS_2D",
+            "value": "0xEF"
+        },
+        {
+            "name": "LOCATE_STOPPED_CHAR_ON_FOOT_2D",
+            "value": "0xF0"
+        },
+        {
+            "name": "LOCATE_STOPPED_CHAR_IN_CAR_2D",
+            "value": "0xF1"
+        },
+        {
+            "name": "LOCATE_CHAR_ANY_MEANS_CHAR_2D",
+            "value": "0xF2"
+        },
+        {
+            "name": "LOCATE_CHAR_ON_FOOT_CHAR_2D",
+            "value": "0xF3"
+        },
+        {
+            "name": "LOCATE_CHAR_IN_CAR_CHAR_2D",
+            "value": "0xF4"
+        },
+        {
+            "name": "LOCATE_PLAYER_ANY_MEANS_3D",
+            "value": "0xF5"
+        },
+        {
+            "name": "LOCATE_PLAYER_ON_FOOT_3D",
+            "value": "0xF6"
+        },
+        {
+            "name": "LOCATE_PLAYER_IN_CAR_3D",
+            "value": "0xF7"
+        },
+        {
+            "name": "LOCATE_STOPPED_PLAYER_ANY_MEANS_3D",
+            "value": "0xF8"
+        },
+        {
+            "name": "LOCATE_STOPPED_PLAYER_ON_FOOT_3D",
+            "value": "0xF9"
+        },
+        {
+            "name": "LOCATE_STOPPED_PLAYER_IN_CAR_3D",
+            "value": "0xFA"
+        },
+        {
+            "name": "LOCATE_PLAYER_ANY_MEANS_CHAR_3D",
+            "value": "0xFB"
+        },
+        {
+            "name": "LOCATE_PLAYER_ON_FOOT_CHAR_3D",
+            "value": "0xFC"
+        },
+        {
+            "name": "LOCATE_PLAYER_IN_CAR_CHAR_3D",
+            "value": "0xFD"
+        },
+        {
+            "name": "LOCATE_CHAR_ANY_MEANS_3D",
+            "value": "0xFE"
+        },
+        {
+            "name": "LOCATE_CHAR_ON_FOOT_3D",
+            "value": "0xFF"
+        },
+        {
+            "name": "LOCATE_CHAR_IN_CAR_3D",
+            "value": "0x100"
+        },
+        {
+            "name": "LOCATE_STOPPED_CHAR_ANY_MEANS_3D",
+            "value": "0x101"
+        },
+        {
+            "name": "LOCATE_STOPPED_CHAR_ON_FOOT_3D",
+            "value": "0x102"
+        },
+        {
+            "name": "LOCATE_STOPPED_CHAR_IN_CAR_3D",
+            "value": "0x103"
+        },
+        {
+            "name": "LOCATE_CHAR_ANY_MEANS_CHAR_3D",
+            "value": "0x104"
+        },
+        {
+            "name": "LOCATE_CHAR_ON_FOOT_CHAR_3D",
+            "value": "0x105"
+        },
+        {
+            "name": "LOCATE_CHAR_IN_CAR_CHAR_3D",
+            "value": "0x106"
+        },
+        {
+            "name": "CREATE_OBJECT",
+            "value": "0x107"
+        },
+        {
+            "name": "DELETE_OBJECT",
+            "value": "0x108"
+        },
+        {
+            "name": "ADD_SCORE",
+            "value": "0x109"
+        },
+        {
+            "name": "IS_SCORE_GREATER",
+            "value": "0x10A"
+        },
+        {
+            "name": "STORE_SCORE",
+            "value": "0x10B"
+        },
+        {
+            "name": "GIVE_REMOTE_CONTROLLED_CAR_TO_PLAYER",
+            "value": "0x10C"
+        },
+        {
+            "name": "ALTER_WANTED_LEVEL",
+            "value": "0x10D"
+        },
+        {
+            "name": "ALTER_WANTED_LEVEL_NO_DROP",
+            "value": "0x10E"
+        },
+        {
+            "name": "IS_WANTED_LEVEL_GREATER",
+            "value": "0x10F"
+        },
+        {
+            "name": "CLEAR_WANTED_LEVEL",
+            "value": "0x110"
+        },
+        {
+            "name": "SET_DEATHARREST_STATE",
+            "value": "0x111"
+        },
+        {
+            "name": "HAS_DEATHARREST_BEEN_EXECUTED",
+            "value": "0x112"
+        },
+        {
+            "name": "ADD_AMMO_TO_PLAYER",
+            "value": "0x113"
+        },
+        {
+            "name": "ADD_AMMO_TO_CHAR",
+            "value": "0x114"
+        },
+        {
+            "name": "ADD_AMMO_TO_CAR",
+            "value": "0x115"
+        },
+        {
+            "name": "IS_PLAYER_STILL_ALIVE",
+            "value": "0x116"
+        },
+        {
+            "name": "IS_PLAYER_DEAD",
+            "value": "0x117"
+        },
+        {
+            "name": "IS_CHAR_DEAD",
+            "value": "0x118"
+        },
+        {
+            "name": "IS_CAR_DEAD",
+            "value": "0x119"
+        },
+        {
+            "name": "SET_CHAR_THREAT_SEARCH",
+            "value": "0x11A"
+        },
+        {
+            "name": "SET_CHAR_THREAT_REACTION",
+            "value": "0x11B"
+        },
+        {
+            "name": "SET_CHAR_OBJ_NO_OBJ",
+            "value": "0x11C"
+        },
+        {
+            "name": "ORDER_DRIVER_OUT_OF_CAR",
+            "value": "0x11D"
+        },
+        {
+            "name": "ORDER_CHAR_TO_DRIVE_CAR",
+            "value": "0x11E"
+        },
+        {
+            "name": "ADD_PATROL_POINT",
+            "value": "0x11F"
+        },
+        {
+            "name": "IS_PLAYER_IN_GANGZONE",
+            "value": "0x120"
+        },
+        {
+            "name": "IS_PLAYER_IN_ZONE",
+            "value": "0x121"
+        },
+        {
+            "name": "IS_PLAYER_PRESSING_HORN",
+            "value": "0x122"
+        },
+        {
+            "name": "HAS_CHAR_SPOTTED_PLAYER",
+            "value": "0x123"
+        },
+        {
+            "name": "ORDER_CHAR_TO_BACKDOOR",
+            "value": "0x124"
+        },
+        {
+            "name": "ADD_CHAR_TO_GANG",
+            "value": "0x125"
+        },
+        {
+            "name": "IS_CHAR_OBJECTIVE_PASSED",
+            "value": "0x126"
+        },
+        {
+            "name": "SET_CHAR_DRIVE_AGGRESSION",
+            "value": "0x127"
+        },
+        {
+            "name": "SET_CHAR_MAX_DRIVESPEED",
+            "value": "0x128"
+        },
+        {
+            "name": "CREATE_CHAR_INSIDE_CAR",
+            "value": "0x129"
+        },
+        {
+            "name": "WARP_PLAYER_FROM_CAR_TO_COORD",
+            "value": "0x12A"
+        },
+        {
+            "name": "MAKE_CHAR_DO_NOTHING",
+            "value": "0x12B"
+        },
+        {
+            "name": "SET_CHAR_INVINCIBLE",
+            "value": "0x12C"
+        },
+        {
+            "name": "SET_PLAYER_INVINCIBLE",
+            "value": "0x12D"
+        },
+        {
+            "name": "SET_CHAR_GRAPHIC_TYPE",
+            "value": "0x12E"
+        },
+        {
+            "name": "SET_PLAYER_GRAPHIC_TYPE",
+            "value": "0x12F"
+        },
+        {
+            "name": "HAS_PLAYER_BEEN_ARRESTED",
+            "value": "0x130"
+        },
+        {
+            "name": "STOP_CHAR_DRIVING",
+            "value": "0x131"
+        },
+        {
+            "name": "KILL_CHAR",
+            "value": "0x132"
+        },
+        {
+            "name": "SET_FAVOURITE_CAR_MODEL_FOR_CHAR",
+            "value": "0x133"
+        },
+        {
+            "name": "SET_CHAR_OCCUPATION",
+            "value": "0x134"
+        },
+        {
+            "name": "CHANGE_CAR_LOCK",
+            "value": "0x135"
+        },
+        {
+            "name": "SHAKE_CAM_WITH_POINT",
+            "value": "0x136"
+        },
+        {
+            "name": "IS_CAR_MODEL",
+            "value": "0x137"
+        },
+        {
+            "name": "IS_CAR_REMAP",
+            "value": "0x138"
+        },
+        {
+            "name": "HAS_CAR_JUST_SUNK",
+            "value": "0x139"
+        },
+        {
+            "name": "SET_CAR_NO_COLLIDE",
+            "value": "0x13A"
+        },
+        {
+            "name": "IS_CAR_DEAD_IN_AREA_2D",
+            "value": "0x13B"
+        },
+        {
+            "name": "IS_CAR_DEAD_IN_AREA_3D",
+            "value": "0x13C"
+        },
+        {
+            "name": "IS_TRAILER_ATTACHED",
+            "value": "0x13D"
+        },
+        {
+            "name": "IS_CAR_ON_TRAILER",
+            "value": "0x13E"
+        },
+        {
+            "name": "HAS_CAR_GOT_WEAPON",
+            "value": "0x13F"
+        },
+        {
+            "name": "PARK",
+            "value": "0x140"
+        },
+        {
+            "name": "HAS_PARK_FINISHED",
+            "value": "0x141"
+        },
+        {
+            "name": "KILL_ALL_PASSENGERS",
+            "value": "0x142"
+        },
+        {
+            "name": "SET_CAR_BULLETPROOF",
+            "value": "0x143"
+        },
+        {
+            "name": "SET_CAR_FLAMEPROOF",
+            "value": "0x144"
+        },
+        {
+            "name": "SET_CAR_ROCKETPROOF",
+            "value": "0x145"
+        },
+        {
+            "name": "IS_CARBOMB_ACTIVE",
+            "value": "0x146"
+        },
+        {
+            "name": "GIVE_CAR_ALARM",
+            "value": "0x147"
+        },
+        {
+            "name": "PUT_CAR_ON_TRAILER",
+            "value": "0x148"
+        },
+        {
+            "name": "IS_CAR_CRUSHED",
+            "value": "0x149"
+        },
+        {
+            "name": "CREATE_GANG_CAR",
+            "value": "0x14A"
+        },
+        {
+            "name": "CREATE_CAR_GENERATOR",
+            "value": "0x14B"
+        },
+        {
+            "name": "SWITCH_CAR_GENERATOR",
+            "value": "0x14C"
+        },
+        {
+            "name": "ADD_PAGER_MESSAGE",
+            "value": "0x14D"
+        },
+        {
+            "name": "DISPLAY_ONSCREEN_TIMER",
+            "value": "0x14E"
+        },
+        {
+            "name": "CLEAR_ONSCREEN_TIMER",
+            "value": "0x14F"
+        },
+        {
+            "name": "DISPLAY_ONSCREEN_COUNTER",
+            "value": "0x150"
+        },
+        {
+            "name": "CLEAR_ONSCREEN_COUNTER",
+            "value": "0x151"
+        },
+        {
+            "name": "SET_ZONE_CAR_INFO",
+            "value": "0x152"
+        },
+        {
+            "name": "IS_CHAR_IN_GANG_ZONE",
+            "value": "0x153"
+        },
+        {
+            "name": "IS_CHAR_IN_ZONE",
+            "value": "0x154"
+        },
+        {
+            "name": "SET_CAR_DENSITY",
+            "value": "0x155"
+        },
+        {
+            "name": "SET_PED_DENSITY",
+            "value": "0x156"
+        },
+        {
+            "name": "POINT_CAMERA_AT_PLAYER",
+            "value": "0x157"
+        },
+        {
+            "name": "POINT_CAMERA_AT_CAR",
+            "value": "0x158"
+        },
+        {
+            "name": "POINT_CAMERA_AT_CHAR",
+            "value": "0x159"
+        },
+        {
+            "name": "RESTORE_CAMERA",
+            "value": "0x15A"
+        },
+        {
+            "name": "SHAKE_PAD",
+            "value": "0x15B"
+        },
+        {
+            "name": "SET_ZONE_PED_INFO",
+            "value": "0x15C"
+        },
+        {
+            "name": "SET_TIME_SCALE",
+            "value": "0x15D"
+        },
+        {
+            "name": "IS_CAR_IN_AIR",
+            "value": "0x15E"
+        },
+        {
+            "name": "SET_FIXED_CAMERA_POSITION",
+            "value": "0x15F"
+        },
+        {
+            "name": "POINT_CAMERA_AT_POINT",
+            "value": "0x160"
+        },
+        {
+            "name": "ADD_BLIP_FOR_CAR_OLD",
+            "value": "0x161"
+        },
+        {
+            "name": "ADD_BLIP_FOR_CHAR_OLD",
+            "value": "0x162"
+        },
+        {
+            "name": "ADD_BLIP_FOR_OBJECT_OLD",
+            "value": "0x163"
+        },
+        {
+            "name": "REMOVE_BLIP",
+            "value": "0x164"
+        },
+        {
+            "name": "CHANGE_BLIP_COLOUR",
+            "value": "0x165"
+        },
+        {
+            "name": "DIM_BLIP",
+            "value": "0x166"
+        },
+        {
+            "name": "ADD_BLIP_FOR_COORD_OLD",
+            "value": "0x167"
+        },
+        {
+            "name": "CHANGE_BLIP_SCALE",
+            "value": "0x168"
+        },
+        {
+            "name": "SET_FADING_COLOUR",
+            "value": "0x169"
+        },
+        {
+            "name": "DO_FADE",
+            "value": "0x16A"
+        },
+        {
+            "name": "GET_FADING_STATUS",
+            "value": "0x16B"
+        },
+        {
+            "name": "ADD_HOSPITAL_RESTART",
+            "value": "0x16C"
+        },
+        {
+            "name": "ADD_POLICE_RESTART",
+            "value": "0x16D"
+        },
+        {
+            "name": "OVERRIDE_NEXT_RESTART",
+            "value": "0x16E"
+        },
+        {
+            "name": "DRAW_SHADOW",
+            "value": "0x16F"
+        },
+        {
+            "name": "GET_PLAYER_HEADING",
+            "value": "0x170"
+        },
+        {
+            "name": "SET_PLAYER_HEADING",
+            "value": "0x171"
+        },
+        {
+            "name": "GET_CHAR_HEADING",
+            "value": "0x172"
+        },
+        {
+            "name": "SET_CHAR_HEADING",
+            "value": "0x173"
+        },
+        {
+            "name": "GET_CAR_HEADING",
+            "value": "0x174"
+        },
+        {
+            "name": "SET_CAR_HEADING",
+            "value": "0x175"
+        },
+        {
+            "name": "GET_OBJECT_HEADING",
+            "value": "0x176"
+        },
+        {
+            "name": "SET_OBJECT_HEADING",
+            "value": "0x177"
+        },
+        {
+            "name": "IS_PLAYER_TOUCHING_OBJECT",
+            "value": "0x178"
+        },
+        {
+            "name": "IS_CHAR_TOUCHING_OBJECT",
+            "value": "0x179"
+        },
+        {
+            "name": "SET_PLAYER_AMMO",
+            "value": "0x17A"
+        },
+        {
+            "name": "SET_CHAR_AMMO",
+            "value": "0x17B"
+        },
+        {
+            "name": "SET_CAR_AMMO",
+            "value": "0x17C"
+        },
+        {
+            "name": "LOAD_CAMERA_SPLINE",
+            "value": "0x17D"
+        },
+        {
+            "name": "MOVE_CAMERA_ALONG_SPLINE",
+            "value": "0x17E"
+        },
+        {
+            "name": "GET_CAMERA_POSITION_ALONG_SPLINE",
+            "value": "0x17F"
+        },
+        {
+            "name": "DECLARE_MISSION_FLAG",
+            "value": "0x180"
+        },
+        {
+            "name": "DECLARE_MISSION_FLAG_FOR_CONTACT",
+            "value": "0x181"
+        },
+        {
+            "name": "DECLARE_BASE_BRIEF_ID_FOR_CONTACT",
+            "value": "0x182"
+        },
+        {
+            "name": "IS_PLAYER_HEALTH_GREATER",
+            "value": "0x183"
+        },
+        {
+            "name": "IS_CHAR_HEALTH_GREATER",
+            "value": "0x184"
+        },
+        {
+            "name": "IS_CAR_HEALTH_GREATER",
+            "value": "0x185"
+        },
+        {
+            "name": "ADD_BLIP_FOR_CAR",
+            "value": "0x186"
+        },
+        {
+            "name": "ADD_BLIP_FOR_CHAR",
+            "value": "0x187"
+        },
+        {
+            "name": "ADD_BLIP_FOR_OBJECT",
+            "value": "0x188"
+        },
+        {
+            "name": "ADD_BLIP_FOR_CONTACT_POINT",
+            "value": "0x189"
+        },
+        {
+            "name": "ADD_BLIP_FOR_COORD",
+            "value": "0x18A"
+        },
+        {
+            "name": "CHANGE_BLIP_DISPLAY",
+            "value": "0x18B"
+        },
+        {
+            "name": "ADD_ONE_OFF_SOUND",
+            "value": "0x18C"
+        },
+        {
+            "name": "ADD_CONTINUOUS_SOUND",
+            "value": "0x18D"
+        },
+        {
+            "name": "REMOVE_SOUND",
+            "value": "0x18E"
+        },
+        {
+            "name": "IS_CAR_STUCK_ON_ROOF",
+            "value": "0x18F"
+        },
+        {
+            "name": "ADD_UPSIDEDOWN_CAR_CHECK",
+            "value": "0x190"
+        },
+        {
+            "name": "REMOVE_UPSIDEDOWN_CAR_CHECK",
+            "value": "0x191"
+        },
+        {
+            "name": "SET_CHAR_OBJ_WAIT_ON_FOOT",
+            "value": "0x192"
+        },
+        {
+            "name": "SET_CHAR_OBJ_FLEE_ON_FOOT_TILL_SAFE",
+            "value": "0x193"
+        },
+        {
+            "name": "SET_CHAR_OBJ_GUARD_SPOT",
+            "value": "0x194"
+        },
+        {
+            "name": "SET_CHAR_OBJ_GUARD_AREA",
+            "value": "0x195"
+        },
+        {
+            "name": "SET_CHAR_OBJ_WAIT_IN_CAR",
+            "value": "0x196"
+        },
+        {
+            "name": "IS_PLAYER_IN_AREA_ON_FOOT_2D",
+            "value": "0x197"
+        },
+        {
+            "name": "IS_PLAYER_IN_AREA_IN_CAR_2D",
+            "value": "0x198"
+        },
+        {
+            "name": "IS_PLAYER_STOPPED_IN_AREA_2D",
+            "value": "0x199"
+        },
+        {
+            "name": "IS_PLAYER_STOPPED_IN_AREA_ON_FOOT_2D",
+            "value": "0x19A"
+        },
+        {
+            "name": "IS_PLAYER_STOPPED_IN_AREA_IN_CAR_2D",
+            "value": "0x19B"
+        },
+        {
+            "name": "IS_PLAYER_IN_AREA_ON_FOOT_3D",
+            "value": "0x19C"
+        },
+        {
+            "name": "IS_PLAYER_IN_AREA_IN_CAR_3D",
+            "value": "0x19D"
+        },
+        {
+            "name": "IS_PLAYER_STOPPED_IN_AREA_3D",
+            "value": "0x19E"
+        },
+        {
+            "name": "IS_PLAYER_STOPPED_IN_AREA_ON_FOOT_3D",
+            "value": "0x19F"
+        },
+        {
+            "name": "IS_PLAYER_STOPPED_IN_AREA_IN_CAR_3D",
+            "value": "0x1A0"
+        },
+        {
+            "name": "IS_CHAR_IN_AREA_ON_FOOT_2D",
+            "value": "0x1A1"
+        },
+        {
+            "name": "IS_CHAR_IN_AREA_IN_CAR_2D",
+            "value": "0x1A2"
+        },
+        {
+            "name": "IS_CHAR_STOPPED_IN_AREA_2D",
+            "value": "0x1A3"
+        },
+        {
+            "name": "IS_CHAR_STOPPED_IN_AREA_ON_FOOT_2D",
+            "value": "0x1A4"
+        },
+        {
+            "name": "IS_CHAR_STOPPED_IN_AREA_IN_CAR_2D",
+            "value": "0x1A5"
+        },
+        {
+            "name": "IS_CHAR_IN_AREA_ON_FOOT_3D",
+            "value": "0x1A6"
+        },
+        {
+            "name": "IS_CHAR_IN_AREA_IN_CAR_3D",
+            "value": "0x1A7"
+        },
+        {
+            "name": "IS_CHAR_STOPPED_IN_AREA_3D",
+            "value": "0x1A8"
+        },
+        {
+            "name": "IS_CHAR_STOPPED_IN_AREA_ON_FOOT_3D",
+            "value": "0x1A9"
+        },
+        {
+            "name": "IS_CHAR_STOPPED_IN_AREA_IN_CAR_3D",
+            "value": "0x1AA"
+        },
+        {
+            "name": "IS_CAR_STOPPED_IN_AREA_2D",
+            "value": "0x1AB"
+        },
+        {
+            "name": "IS_CAR_STOPPED_IN_AREA_3D",
+            "value": "0x1AC"
+        },
+        {
+            "name": "LOCATE_CAR_2D",
+            "value": "0x1AD"
+        },
+        {
+            "name": "LOCATE_STOPPED_CAR_2D",
+            "value": "0x1AE"
+        },
+        {
+            "name": "LOCATE_CAR_3D",
+            "value": "0x1AF"
+        },
+        {
+            "name": "LOCATE_STOPPED_CAR_3D",
+            "value": "0x1B0"
+        },
+        {
+            "name": "GIVE_WEAPON_TO_PLAYER",
+            "value": "0x1B1"
+        },
+        {
+            "name": "GIVE_WEAPON_TO_CHAR",
+            "value": "0x1B2"
+        },
+        {
+            "name": "GIVE_WEAPON_TO_CAR",
+            "value": "0x1B3"
+        },
+        {
+            "name": "SET_PLAYER_CONTROL",
+            "value": "0x1B4"
+        },
+        {
+            "name": "FORCE_WEATHER",
+            "value": "0x1B5"
+        },
+        {
+            "name": "FORCE_WEATHER_NOW",
+            "value": "0x1B6"
+        },
+        {
+            "name": "RELEASE_WEATHER",
+            "value": "0x1B7"
+        },
+        {
+            "name": "SET_CURRENT_PLAYER_WEAPON",
+            "value": "0x1B8"
+        },
+        {
+            "name": "SET_CURRENT_CHAR_WEAPON",
+            "value": "0x1B9"
+        },
+        {
+            "name": "SET_CURRENT_CAR_WEAPON",
+            "value": "0x1BA"
+        },
+        {
+            "name": "GET_OBJECT_COORDINATES",
+            "value": "0x1BB"
+        },
+        {
+            "name": "SET_OBJECT_COORDINATES",
+            "value": "0x1BC"
+        },
+        {
+            "name": "GET_GAME_TIMER",
+            "value": "0x1BD"
+        },
+        {
+            "name": "TURN_CHAR_TO_FACE_COORD",
+            "value": "0x1BE"
+        },
+        {
+            "name": "TURN_PLAYER_TO_FACE_COORD",
+            "value": "0x1BF"
+        },
+        {
+            "name": "STORE_WANTED_LEVEL",
+            "value": "0x1C0"
+        },
+        {
+            "name": "IS_CAR_STOPPED",
+            "value": "0x1C1"
+        },
+        {
+            "name": "MARK_CHAR_AS_NO_LONGER_NEEDED",
+            "value": "0x1C2"
+        },
+        {
+            "name": "MARK_CAR_AS_NO_LONGER_NEEDED",
+            "value": "0x1C3"
+        },
+        {
+            "name": "MARK_OBJECT_AS_NO_LONGER_NEEDED",
+            "value": "0x1C4"
+        },
+        {
+            "name": "DONT_REMOVE_CHAR",
+            "value": "0x1C5"
+        },
+        {
+            "name": "DONT_REMOVE_CAR",
+            "value": "0x1C6"
+        },
+        {
+            "name": "DONT_REMOVE_OBJECT",
+            "value": "0x1C7"
+        },
+        {
+            "name": "CREATE_CHAR_AS_PASSENGER",
+            "value": "0x1C8"
+        },
+        {
+            "name": "SET_CHAR_OBJ_KILL_CHAR_ON_FOOT",
+            "value": "0x1C9"
+        },
+        {
+            "name": "SET_CHAR_OBJ_KILL_PLAYER_ON_FOOT",
+            "value": "0x1CA"
+        },
+        {
+            "name": "SET_CHAR_OBJ_KILL_CHAR_ANY_MEANS",
+            "value": "0x1CB"
+        },
+        {
+            "name": "SET_CHAR_OBJ_KILL_PLAYER_ANY_MEANS",
+            "value": "0x1CC"
+        },
+        {
+            "name": "SET_CHAR_OBJ_FLEE_CHAR_ON_FOOT_TILL_SAFE",
+            "value": "0x1CD"
+        },
+        {
+            "name": "SET_CHAR_OBJ_FLEE_PLAYER_ON_FOOT_TILL_SAFE",
+            "value": "0x1CE"
+        },
+        {
+            "name": "SET_CHAR_OBJ_FLEE_CHAR_ON_FOOT_ALWAYS",
+            "value": "0x1CF"
+        },
+        {
+            "name": "SET_CHAR_OBJ_FLEE_PLAYER_ON_FOOT_ALWAYS",
+            "value": "0x1D0"
+        },
+        {
+            "name": "SET_CHAR_OBJ_GOTO_CHAR_ON_FOOT",
+            "value": "0x1D1"
+        },
+        {
+            "name": "SET_CHAR_OBJ_GOTO_PLAYER_ON_FOOT",
+            "value": "0x1D2"
+        },
+        {
+            "name": "SET_CHAR_OBJ_LEAVE_CAR",
+            "value": "0x1D3"
+        },
+        {
+            "name": "SET_CHAR_OBJ_ENTER_CAR_AS_PASSENGER",
+            "value": "0x1D4"
+        },
+        {
+            "name": "SET_CHAR_OBJ_ENTER_CAR_AS_DRIVER",
+            "value": "0x1D5"
+        },
+        {
+            "name": "SET_CHAR_OBJ_FOLLOW_CAR_IN_CAR",
+            "value": "0x1D6"
+        },
+        {
+            "name": "SET_CHAR_OBJ_FIRE_AT_OBJECT_FROM_VEHICLE",
+            "value": "0x1D7"
+        },
+        {
+            "name": "SET_CHAR_OBJ_DESTROY_OBJECT",
+            "value": "0x1D8"
+        },
+        {
+            "name": "SET_CHAR_OBJ_DESTROY_CAR",
+            "value": "0x1D9"
+        },
+        {
+            "name": "SET_CHAR_OBJ_GOTO_AREA_ON_FOOT",
+            "value": "0x1DA"
+        },
+        {
+            "name": "SET_CHAR_OBJ_GOTO_AREA_IN_CAR",
+            "value": "0x1DB"
+        },
+        {
+            "name": "SET_CHAR_OBJ_FOLLOW_CAR_ON_FOOT_WITH_OFFSET",
+            "value": "0x1DC"
+        },
+        {
+            "name": "SET_CHAR_OBJ_GUARD_ATTACK",
+            "value": "0x1DD"
+        },
+        {
+            "name": "SET_CHAR_AS_LEADER",
+            "value": "0x1DE"
+        },
+        {
+            "name": "SET_PLAYER_AS_LEADER",
+            "value": "0x1DF"
+        },
+        {
+            "name": "LEAVE_GROUP",
+            "value": "0x1E0"
+        },
+        {
+            "name": "SET_CHAR_OBJ_FOLLOW_ROUTE",
+            "value": "0x1E1"
+        },
+        {
+            "name": "ADD_ROUTE_POINT",
+            "value": "0x1E2"
+        },
+        {
+            "name": "PRINT_WITH_NUMBER_BIG",
+            "value": "0x1E3"
+        },
+        {
+            "name": "PRINT_WITH_NUMBER",
+            "value": "0x1E4"
+        },
+        {
+            "name": "PRINT_WITH_NUMBER_NOW",
+            "value": "0x1E5"
+        },
+        {
+            "name": "PRINT_WITH_NUMBER_SOON",
+            "value": "0x1E6"
+        },
+        {
+            "name": "SWITCH_ROADS_ON",
+            "value": "0x1E7"
+        },
+        {
+            "name": "SWITCH_ROADS_OFF",
+            "value": "0x1E8"
+        },
+        {
+            "name": "GET_NUMBER_OF_PASSENGERS",
+            "value": "0x1E9"
+        },
+        {
+            "name": "GET_MAXIMUM_NUMBER_OF_PASSENGERS",
+            "value": "0x1EA"
+        },
+        {
+            "name": "SET_CAR_DENSITY_MULTIPLIER",
+            "value": "0x1EB"
+        },
+        {
+            "name": "SET_CAR_HEAVY",
+            "value": "0x1EC"
+        },
+        {
+            "name": "CLEAR_CHAR_THREAT_SEARCH",
+            "value": "0x1ED"
+        },
+        {
+            "name": "ACTIVATE_CRANE",
+            "value": "0x1EE"
+        },
+        {
+            "name": "DEACTIVATE_CRANE",
+            "value": "0x1EF"
+        },
+        {
+            "name": "SET_MAX_WANTED_LEVEL",
+            "value": "0x1F0"
+        },
+        {
+            "name": "SAVE_VAR_INT",
+            "value": "0x1F1"
+        },
+        {
+            "name": "SAVE_VAR_FLOAT",
+            "value": "0x1F2"
+        },
+        {
+            "name": "IS_CAR_IN_AIR_PROPER",
+            "value": "0x1F3"
+        },
+        {
+            "name": "IS_CAR_UPSIDEDOWN",
+            "value": "0x1F4"
+        },
+        {
+            "name": "GET_PLAYER_CHAR",
+            "value": "0x1F5"
+        },
+        {
+            "name": "CANCEL_OVERRIDE_RESTART",
+            "value": "0x1F6"
+        },
+        {
+            "name": "SET_POLICE_IGNORE_PLAYER",
+            "value": "0x1F7"
+        },
+        {
+            "name": "ADD_PAGER_MESSAGE_WITH_NUMBER",
+            "value": "0x1F8"
+        },
+        {
+            "name": "START_KILL_FRENZY",
+            "value": "0x1F9"
+        },
+        {
+            "name": "READ_KILL_FRENZY_STATUS",
+            "value": "0x1FA"
+        },
+        {
+            "name": "SQRT",
+            "value": "0x1FB"
+        },
+        {
+            "name": "LOCATE_PLAYER_ANY_MEANS_CAR_2D",
+            "value": "0x1FC"
+        },
+        {
+            "name": "LOCATE_PLAYER_ON_FOOT_CAR_2D",
+            "value": "0x1FD"
+        },
+        {
+            "name": "LOCATE_PLAYER_IN_CAR_CAR_2D",
+            "value": "0x1FE"
+        },
+        {
+            "name": "LOCATE_PLAYER_ANY_MEANS_CAR_3D",
+            "value": "0x1FF"
+        },
+        {
+            "name": "LOCATE_PLAYER_ON_FOOT_CAR_3D",
+            "value": "0x200"
+        },
+        {
+            "name": "LOCATE_PLAYER_IN_CAR_CAR_3D",
+            "value": "0x201"
+        },
+        {
+            "name": "LOCATE_CHAR_ANY_MEANS_CAR_2D",
+            "value": "0x202"
+        },
+        {
+            "name": "LOCATE_CHAR_ON_FOOT_CAR_2D",
+            "value": "0x203"
+        },
+        {
+            "name": "LOCATE_CHAR_IN_CAR_CAR_2D",
+            "value": "0x204"
+        },
+        {
+            "name": "LOCATE_CHAR_ANY_MEANS_CAR_3D",
+            "value": "0x205"
+        },
+        {
+            "name": "LOCATE_CHAR_ON_FOOT_CAR_3D",
+            "value": "0x206"
+        },
+        {
+            "name": "LOCATE_CHAR_IN_CAR_CAR_3D",
+            "value": "0x207"
+        },
+        {
+            "name": "GENERATE_RANDOM_FLOAT_IN_RANGE",
+            "value": "0x208"
+        },
+        {
+            "name": "GENERATE_RANDOM_INT_IN_RANGE",
+            "value": "0x209"
+        },
+        {
+            "name": "LOCK_CAR_DOORS",
+            "value": "0x20A"
+        },
+        {
+            "name": "EXPLODE_CAR",
+            "value": "0x20B"
+        },
+        {
+            "name": "ADD_EXPLOSION",
+            "value": "0x20C"
+        },
+        {
+            "name": "IS_CAR_UPRIGHT",
+            "value": "0x20D"
+        },
+        {
+            "name": "TURN_CHAR_TO_FACE_CHAR",
+            "value": "0x20E"
+        },
+        {
+            "name": "TURN_CHAR_TO_FACE_PLAYER",
+            "value": "0x20F"
+        },
+        {
+            "name": "TURN_PLAYER_TO_FACE_CHAR",
+            "value": "0x210"
+        },
+        {
+            "name": "SET_CHAR_OBJ_GOTO_COORD_ON_FOOT",
+            "value": "0x211"
+        },
+        {
+            "name": "SET_CHAR_OBJ_GOTO_COORD_IN_CAR",
+            "value": "0x212"
+        },
+        {
+            "name": "CREATE_PICKUP",
+            "value": "0x213"
+        },
+        {
+            "name": "HAS_PICKUP_BEEN_COLLECTED",
+            "value": "0x214"
+        },
+        {
+            "name": "REMOVE_PICKUP",
+            "value": "0x215"
+        },
+        {
+            "name": "SET_TAXI_LIGHTS",
+            "value": "0x216"
+        },
+        {
+            "name": "PRINT_BIG_Q",
+            "value": "0x217"
+        },
+        {
+            "name": "PRINT_WITH_NUMBER_BIG_Q",
+            "value": "0x218"
+        },
+        {
+            "name": "SET_GARAGE",
+            "value": "0x219"
+        },
+        {
+            "name": "SET_GARAGE_WITH_CAR_MODEL",
+            "value": "0x21A"
+        },
+        {
+            "name": "SET_TARGET_CAR_FOR_MISSION_GARAGE",
+            "value": "0x21B"
+        },
+        {
+            "name": "IS_CAR_IN_MISSION_GARAGE",
+            "value": "0x21C"
+        },
+        {
+            "name": "SET_FREE_BOMBS",
+            "value": "0x21D"
+        },
+        {
+            "name": "SET_POWERPOINT",
+            "value": "0x21E"
+        },
+        {
+            "name": "SET_ALL_TAXI_LIGHTS",
+            "value": "0x21F"
+        },
+        {
+            "name": "IS_CAR_ARMED_WITH_ANY_BOMB",
+            "value": "0x220"
+        },
+        {
+            "name": "APPLY_BRAKES_TO_PLAYERS_CAR",
+            "value": "0x221"
+        },
+        {
+            "name": "SET_PLAYER_HEALTH",
+            "value": "0x222"
+        },
+        {
+            "name": "SET_CHAR_HEALTH",
+            "value": "0x223"
+        },
+        {
+            "name": "SET_CAR_HEALTH",
+            "value": "0x224"
+        },
+        {
+            "name": "GET_PLAYER_HEALTH",
+            "value": "0x225"
+        },
+        {
+            "name": "GET_CHAR_HEALTH",
+            "value": "0x226"
+        },
+        {
+            "name": "GET_CAR_HEALTH",
+            "value": "0x227"
+        },
+        {
+            "name": "IS_CAR_ARMED_WITH_BOMB",
+            "value": "0x228"
+        },
+        {
+            "name": "CHANGE_CAR_COLOUR",
+            "value": "0x229"
+        },
+        {
+            "name": "SWITCH_PED_ROADS_ON",
+            "value": "0x22A"
+        },
+        {
+            "name": "SWITCH_PED_ROADS_OFF",
+            "value": "0x22B"
+        },
+        {
+            "name": "CHAR_LOOK_AT_CHAR_ALWAYS",
+            "value": "0x22C"
+        },
+        {
+            "name": "CHAR_LOOK_AT_PLAYER_ALWAYS",
+            "value": "0x22D"
+        },
+        {
+            "name": "PLAYER_LOOK_AT_CHAR_ALWAYS",
+            "value": "0x22E"
+        },
+        {
+            "name": "STOP_CHAR_LOOKING",
+            "value": "0x22F"
+        },
+        {
+            "name": "STOP_PLAYER_LOOKING",
+            "value": "0x230"
+        },
+        {
+            "name": "SWITCH_HELICOPTER",
+            "value": "0x231"
+        },
+        {
+            "name": "SET_GANG_ATTITUDE",
+            "value": "0x232"
+        },
+        {
+            "name": "SET_GANG_GANG_ATTITUDE",
+            "value": "0x233"
+        },
+        {
+            "name": "SET_GANG_PLAYER_ATTITUDE",
+            "value": "0x234"
+        },
+        {
+            "name": "SET_GANG_PED_MODELS",
+            "value": "0x235"
+        },
+        {
+            "name": "SET_GANG_CAR_MODEL",
+            "value": "0x236"
+        },
+        {
+            "name": "SET_GANG_WEAPONS",
+            "value": "0x237"
+        },
+        {
+            "name": "SET_CHAR_OBJ_RUN_TO_AREA",
+            "value": "0x238"
+        },
+        {
+            "name": "SET_CHAR_OBJ_RUN_TO_COORD",
+            "value": "0x239"
+        },
+        {
+            "name": "IS_PLAYER_TOUCHING_OBJECT_ON_FOOT",
+            "value": "0x23A"
+        },
+        {
+            "name": "IS_CHAR_TOUCHING_OBJECT_ON_FOOT",
+            "value": "0x23B"
+        },
+        {
+            "name": "LOAD_SPECIAL_CHARACTER",
+            "value": "0x23C"
+        },
+        {
+            "name": "HAS_SPECIAL_CHARACTER_LOADED",
+            "value": "0x23D"
+        },
+        {
+            "name": "FLASH_CAR",
+            "value": "0x23E"
+        },
+        {
+            "name": "FLASH_CHAR",
+            "value": "0x23F"
+        },
+        {
+            "name": "FLASH_OBJECT",
+            "value": "0x240"
+        },
+        {
+            "name": "IS_PLAYER_IN_REMOTE_MODE",
+            "value": "0x241"
+        },
+        {
+            "name": "ARM_CAR_WITH_BOMB",
+            "value": "0x242"
+        },
+        {
+            "name": "SET_CHAR_PERSONALITY",
+            "value": "0x243"
+        },
+        {
+            "name": "SET_CUTSCENE_OFFSET",
+            "value": "0x244"
+        },
+        {
+            "name": "SET_ANIM_GROUP_FOR_CHAR",
+            "value": "0x245"
+        },
+        {
+            "name": "SET_ANIM_GROUP_FOR_PLAYER",
+            "value": "0x246"
+        },
+        {
+            "name": "REQUEST_MODEL",
+            "value": "0x247"
+        },
+        {
+            "name": "HAS_MODEL_LOADED",
+            "value": "0x248"
+        },
+        {
+            "name": "MARK_MODEL_AS_NO_LONGER_NEEDED",
+            "value": "0x249"
+        },
+        {
+            "name": "GRAB_PHONE",
+            "value": "0x24A"
+        },
+        {
+            "name": "SET_REPEATED_PHONE_MESSAGE",
+            "value": "0x24B"
+        },
+        {
+            "name": "SET_PHONE_MESSAGE",
+            "value": "0x24C"
+        },
+        {
+            "name": "HAS_PHONE_DISPLAYED_MESSAGE",
+            "value": "0x24D"
+        },
+        {
+            "name": "TURN_PHONE_OFF",
+            "value": "0x24E"
+        },
+        {
+            "name": "DRAW_CORONA",
+            "value": "0x24F"
+        },
+        {
+            "name": "DRAW_LIGHT",
+            "value": "0x250"
+        },
+        {
+            "name": "STORE_WEATHER",
+            "value": "0x251"
+        },
+        {
+            "name": "RESTORE_WEATHER",
+            "value": "0x252"
+        },
+        {
+            "name": "STORE_CLOCK",
+            "value": "0x253"
+        },
+        {
+            "name": "RESTORE_CLOCK",
+            "value": "0x254"
+        },
+        {
+            "name": "RESTART_CRITICAL_MISSION",
+            "value": "0x255"
+        },
+        {
+            "name": "IS_PLAYER_PLAYING",
+            "value": "0x256"
+        },
+        {
+            "name": "SET_COLL_OBJ_NO_OBJ",
+            "value": "0x257"
+        },
+        {
+            "name": "SET_COLL_OBJ_WAIT_ON_FOOT",
+            "value": "0x258"
+        },
+        {
+            "name": "SET_COLL_OBJ_FLEE_ON_FOOT_TILL_SAFE",
+            "value": "0x259"
+        },
+        {
+            "name": "SET_COLL_OBJ_GUARD_SPOT",
+            "value": "0x25A"
+        },
+        {
+            "name": "SET_COLL_OBJ_GUARD_AREA",
+            "value": "0x25B"
+        },
+        {
+            "name": "SET_COLL_OBJ_WAIT_IN_CAR",
+            "value": "0x25C"
+        },
+        {
+            "name": "SET_COLL_OBJ_KILL_CHAR_ON_FOOT",
+            "value": "0x25D"
+        },
+        {
+            "name": "SET_COLL_OBJ_KILL_PLAYER_ON_FOOT",
+            "value": "0x25E"
+        },
+        {
+            "name": "SET_COLL_OBJ_KILL_CHAR_ANY_MEANS",
+            "value": "0x25F"
+        },
+        {
+            "name": "SET_COLL_OBJ_KILL_PLAYER_ANY_MEANS",
+            "value": "0x260"
+        },
+        {
+            "name": "SET_COLL_OBJ_FLEE_CHAR_ON_FOOT_TILL_SAFE",
+            "value": "0x261"
+        },
+        {
+            "name": "SET_COLL_OBJ_FLEE_PLAYER_ON_FOOT_TILL_SAFE",
+            "value": "0x262"
+        },
+        {
+            "name": "SET_COLL_OBJ_FLEE_CHAR_ON_FOOT_ALWAYS",
+            "value": "0x263"
+        },
+        {
+            "name": "SET_COLL_OBJ_FLEE_PLAYER_ON_FOOT_ALWAYS",
+            "value": "0x264"
+        },
+        {
+            "name": "SET_COLL_OBJ_GOTO_CHAR_ON_FOOT",
+            "value": "0x265"
+        },
+        {
+            "name": "SET_COLL_OBJ_GOTO_PLAYER_ON_FOOT",
+            "value": "0x266"
+        },
+        {
+            "name": "SET_COLL_OBJ_LEAVE_CAR",
+            "value": "0x267"
+        },
+        {
+            "name": "SET_COLL_OBJ_ENTER_CAR_AS_PASSENGER",
+            "value": "0x268"
+        },
+        {
+            "name": "SET_COLL_OBJ_ENTER_CAR_AS_DRIVER",
+            "value": "0x269"
+        },
+        {
+            "name": "SET_COLL_OBJ_FOLLOW_CAR_IN_CAR",
+            "value": "0x26A"
+        },
+        {
+            "name": "SET_COLL_OBJ_FIRE_AT_OBJECT_FROM_VEHICLE",
+            "value": "0x26B"
+        },
+        {
+            "name": "SET_COLL_OBJ_DESTROY_OBJECT",
+            "value": "0x26C"
+        },
+        {
+            "name": "SET_COLL_OBJ_DESTROY_CAR",
+            "value": "0x26D"
+        },
+        {
+            "name": "SET_COLL_OBJ_GOTO_AREA_ON_FOOT",
+            "value": "0x26E"
+        },
+        {
+            "name": "SET_COLL_OBJ_GOTO_AREA_IN_CAR",
+            "value": "0x26F"
+        },
+        {
+            "name": "SET_COLL_OBJ_FOLLOW_CAR_ON_FOOT_WITH_OFFSET",
+            "value": "0x270"
+        },
+        {
+            "name": "SET_COLL_OBJ_GUARD_ATTACK",
+            "value": "0x271"
+        },
+        {
+            "name": "SET_COLL_OBJ_FOLLOW_ROUTE",
+            "value": "0x272"
+        },
+        {
+            "name": "SET_COLL_OBJ_GOTO_COORD_ON_FOOT",
+            "value": "0x273"
+        },
+        {
+            "name": "SET_COLL_OBJ_GOTO_COORD_IN_CAR",
+            "value": "0x274"
+        },
+        {
+            "name": "SET_COLL_OBJ_RUN_TO_AREA",
+            "value": "0x275"
+        },
+        {
+            "name": "SET_COLL_OBJ_RUN_TO_COORD",
+            "value": "0x276"
+        },
+        {
+            "name": "ADD_PEDS_IN_AREA_TO_COLL",
+            "value": "0x277"
+        },
+        {
+            "name": "ADD_PEDS_IN_VEHICLE_TO_COLL",
+            "value": "0x278"
+        },
+        {
+            "name": "CLEAR_COLL",
+            "value": "0x279"
+        },
+        {
+            "name": "IS_COLL_IN_CARS",
+            "value": "0x27A"
+        },
+        {
+            "name": "LOCATE_COLL_ANY_MEANS_2D",
+            "value": "0x27B"
+        },
+        {
+            "name": "LOCATE_COLL_ON_FOOT_2D",
+            "value": "0x27C"
+        },
+        {
+            "name": "LOCATE_COLL_IN_CAR_2D",
+            "value": "0x27D"
+        },
+        {
+            "name": "LOCATE_STOPPED_COLL_ANY_MEANS_2D",
+            "value": "0x27E"
+        },
+        {
+            "name": "LOCATE_STOPPED_COLL_ON_FOOT_2D",
+            "value": "0x27F"
+        },
+        {
+            "name": "LOCATE_STOPPED_COLL_IN_CAR_2D",
+            "value": "0x280"
+        },
+        {
+            "name": "LOCATE_COLL_ANY_MEANS_CHAR_2D",
+            "value": "0x281"
+        },
+        {
+            "name": "LOCATE_COLL_ON_FOOT_CHAR_2D",
+            "value": "0x282"
+        },
+        {
+            "name": "LOCATE_COLL_IN_CAR_CHAR_2D",
+            "value": "0x283"
+        },
+        {
+            "name": "LOCATE_COLL_ANY_MEANS_CAR_2D",
+            "value": "0x284"
+        },
+        {
+            "name": "LOCATE_COLL_ON_FOOT_CAR_2D",
+            "value": "0x285"
+        },
+        {
+            "name": "LOCATE_COLL_IN_CAR_CAR_2D",
+            "value": "0x286"
+        },
+        {
+            "name": "LOCATE_COLL_ANY_MEANS_PLAYER_2D",
+            "value": "0x287"
+        },
+        {
+            "name": "LOCATE_COLL_ON_FOOT_PLAYER_2D",
+            "value": "0x288"
+        },
+        {
+            "name": "LOCATE_COLL_IN_CAR_PLAYER_2D",
+            "value": "0x289"
+        },
+        {
+            "name": "IS_COLL_IN_AREA_2D",
+            "value": "0x28A"
+        },
+        {
+            "name": "IS_COLL_IN_AREA_ON_FOOT_2D",
+            "value": "0x28B"
+        },
+        {
+            "name": "IS_COLL_IN_AREA_IN_CAR_2D",
+            "value": "0x28C"
+        },
+        {
+            "name": "IS_COLL_STOPPED_IN_AREA_2D",
+            "value": "0x28D"
+        },
+        {
+            "name": "IS_COLL_STOPPED_IN_AREA_ON_FOOT_2D",
+            "value": "0x28E"
+        },
+        {
+            "name": "IS_COLL_STOPPED_IN_AREA_IN_CAR_2D",
+            "value": "0x28F"
+        },
+        {
+            "name": "GET_NUMBER_OF_PEDS_IN_COLL",
+            "value": "0x290"
+        },
+        {
+            "name": "SET_CHAR_HEED_THREATS",
+            "value": "0x291"
+        },
+        {
+            "name": "SET_PLAYER_HEED_THREATS",
+            "value": "0x292"
+        },
+        {
+            "name": "GET_CONTROLLER_MODE",
+            "value": "0x293"
+        },
+        {
+            "name": "SET_CAN_RESPRAY_CAR",
+            "value": "0x294"
+        },
+        {
+            "name": "IS_TAXI",
+            "value": "0x295"
+        },
+        {
+            "name": "UNLOAD_SPECIAL_CHARACTER",
+            "value": "0x296"
+        },
+        {
+            "name": "RESET_NUM_OF_MODELS_KILLED_BY_PLAYER",
+            "value": "0x297"
+        },
+        {
+            "name": "GET_NUM_OF_MODELS_KILLED_BY_PLAYER",
+            "value": "0x298"
+        },
+        {
+            "name": "ACTIVATE_GARAGE",
+            "value": "0x299"
+        },
+        {
+            "name": "SWITCH_TAXI_TIMER",
+            "value": "0x29A"
+        },
+        {
+            "name": "CREATE_OBJECT_NO_OFFSET",
+            "value": "0x29B"
+        },
+        {
+            "name": "IS_BOAT",
+            "value": "0x29C"
+        },
+        {
+            "name": "SET_CHAR_OBJ_GOTO_AREA_ANY_MEANS",
+            "value": "0x29D"
+        },
+        {
+            "name": "SET_COLL_OBJ_GOTO_AREA_ANY_MEANS",
+            "value": "0x29E"
+        },
+        {
+            "name": "IS_PLAYER_STOPPED",
+            "value": "0x29F"
+        },
+        {
+            "name": "IS_CHAR_STOPPED",
+            "value": "0x2A0"
+        },
+        {
+            "name": "MESSAGE_WAIT",
+            "value": "0x2A1"
+        },
+        {
+            "name": "ADD_PARTICLE_EFFECT",
+            "value": "0x2A2"
+        },
+        {
+            "name": "SWITCH_WIDESCREEN",
+            "value": "0x2A3"
+        },
+        {
+            "name": "ADD_SPRITE_BLIP_FOR_CAR",
+            "value": "0x2A4"
+        },
+        {
+            "name": "ADD_SPRITE_BLIP_FOR_CHAR",
+            "value": "0x2A5"
+        },
+        {
+            "name": "ADD_SPRITE_BLIP_FOR_OBJECT",
+            "value": "0x2A6"
+        },
+        {
+            "name": "ADD_SPRITE_BLIP_FOR_CONTACT_POINT",
+            "value": "0x2A7"
+        },
+        {
+            "name": "ADD_SPRITE_BLIP_FOR_COORD",
+            "value": "0x2A8"
+        },
+        {
+            "name": "SET_CHAR_ONLY_DAMAGED_BY_PLAYER",
+            "value": "0x2A9"
+        },
+        {
+            "name": "SET_CAR_ONLY_DAMAGED_BY_PLAYER",
+            "value": "0x2AA"
+        },
+        {
+            "name": "SET_CHAR_PROOFS",
+            "value": "0x2AB"
+        },
+        {
+            "name": "SET_CAR_PROOFS",
+            "value": "0x2AC"
+        },
+        {
+            "name": "IS_PLAYER_IN_ANGLED_AREA_2D",
+            "value": "0x2AD"
+        },
+        {
+            "name": "IS_PLAYER_IN_ANGLED_AREA_ON_FOOT_2D",
+            "value": "0x2AE"
+        },
+        {
+            "name": "IS_PLAYER_IN_ANGLED_AREA_IN_CAR_2D",
+            "value": "0x2AF"
+        },
+        {
+            "name": "IS_PLAYER_STOPPED_IN_ANGLED_AREA_2D",
+            "value": "0x2B0"
+        },
+        {
+            "name": "IS_PLAYER_STOPPED_IN_ANGLED_AREA_ON_FOOT_2D",
+            "value": "0x2B1"
+        },
+        {
+            "name": "IS_PLAYER_STOPPED_IN_ANGLED_AREA_IN_CAR_2D",
+            "value": "0x2B2"
+        },
+        {
+            "name": "IS_PLAYER_IN_ANGLED_AREA_3D",
+            "value": "0x2B3"
+        },
+        {
+            "name": "IS_PLAYER_IN_ANGLED_AREA_ON_FOOT_3D",
+            "value": "0x2B4"
+        },
+        {
+            "name": "IS_PLAYER_IN_ANGLED_AREA_IN_CAR_3D",
+            "value": "0x2B5"
+        },
+        {
+            "name": "IS_PLAYER_STOPPED_IN_ANGLED_AREA_3D",
+            "value": "0x2B6"
+        },
+        {
+            "name": "IS_PLAYER_STOPPED_IN_ANGLED_AREA_ON_FOOT_3D",
+            "value": "0x2B7"
+        },
+        {
+            "name": "IS_PLAYER_STOPPED_IN_ANGLED_AREA_IN_CAR_3D",
+            "value": "0x2B8"
+        },
+        {
+            "name": "DEACTIVATE_GARAGE",
+            "value": "0x2B9"
+        },
+        {
+            "name": "GET_NUMBER_OF_CARS_COLLECTED_BY_GARAGE",
+            "value": "0x2BA"
+        },
+        {
+            "name": "HAS_CAR_BEEN_TAKEN_TO_GARAGE",
+            "value": "0x2BB"
+        },
+        {
+            "name": "SET_SWAT_REQUIRED",
+            "value": "0x2BC"
+        },
+        {
+            "name": "SET_FBI_REQUIRED",
+            "value": "0x2BD"
+        },
+        {
+            "name": "SET_ARMY_REQUIRED",
+            "value": "0x2BE"
+        },
+        {
+            "name": "IS_CAR_IN_WATER",
+            "value": "0x2BF"
+        },
+        {
+            "name": "GET_CLOSEST_CHAR_NODE",
+            "value": "0x2C0"
+        },
+        {
+            "name": "GET_CLOSEST_CAR_NODE",
+            "value": "0x2C1"
+        },
+        {
+            "name": "CAR_GOTO_COORDINATES_ACCURATE",
+            "value": "0x2C2"
+        },
+        {
+            "name": "START_PACMAN_RACE",
+            "value": "0x2C3"
+        },
+        {
+            "name": "START_PACMAN_RECORD",
+            "value": "0x2C4"
+        },
+        {
+            "name": "GET_NUMBER_OF_POWER_PILLS_EATEN",
+            "value": "0x2C5"
+        },
+        {
+            "name": "CLEAR_PACMAN",
+            "value": "0x2C6"
+        },
+        {
+            "name": "START_PACMAN_SCRAMBLE",
+            "value": "0x2C7"
+        },
+        {
+            "name": "GET_NUMBER_OF_POWER_PILLS_CARRIED",
+            "value": "0x2C8"
+        },
+        {
+            "name": "CLEAR_NUMBER_OF_POWER_PILLS_CARRIED",
+            "value": "0x2C9"
+        },
+        {
+            "name": "IS_CAR_ON_SCREEN",
+            "value": "0x2CA"
+        },
+        {
+            "name": "IS_CHAR_ON_SCREEN",
+            "value": "0x2CB"
+        },
+        {
+            "name": "IS_OBJECT_ON_SCREEN",
+            "value": "0x2CC"
+        },
+        {
+            "name": "GOSUB_FILE",
+            "value": "0x2CD"
+        },
+        {
+            "name": "GET_GROUND_Z_FOR_3D_COORD",
+            "value": "0x2CE"
+        },
+        {
+            "name": "START_SCRIPT_FIRE",
+            "value": "0x2CF"
+        },
+        {
+            "name": "IS_SCRIPT_FIRE_EXTINGUISHED",
+            "value": "0x2D0"
+        },
+        {
+            "name": "REMOVE_SCRIPT_FIRE",
+            "value": "0x2D1"
+        },
+        {
+            "name": "SET_COMEDY_CONTROLS",
+            "value": "0x2D2"
+        },
+        {
+            "name": "BOAT_GOTO_COORDS",
+            "value": "0x2D3"
+        },
+        {
+            "name": "BOAT_STOP",
+            "value": "0x2D4"
+        },
+        {
+            "name": "IS_PLAYER_SHOOTING_IN_AREA",
+            "value": "0x2D5"
+        },
+        {
+            "name": "IS_CHAR_SHOOTING_IN_AREA",
+            "value": "0x2D6"
+        },
+        {
+            "name": "IS_CURRENT_PLAYER_WEAPON",
+            "value": "0x2D7"
+        },
+        {
+            "name": "IS_CURRENT_CHAR_WEAPON",
+            "value": "0x2D8"
+        },
+        {
+            "name": "CLEAR_NUMBER_OF_POWER_PILLS_EATEN",
+            "value": "0x2D9"
+        },
+        {
+            "name": "ADD_POWER_PILL",
+            "value": "0x2DA"
+        },
+        {
+            "name": "SET_BOAT_CRUISE_SPEED",
+            "value": "0x2DB"
+        },
+        {
+            "name": "GET_RANDOM_CHAR_IN_AREA",
+            "value": "0x2DC"
+        },
+        {
+            "name": "GET_RANDOM_CHAR_IN_ZONE",
+            "value": "0x2DD"
+        },
+        {
+            "name": "IS_PLAYER_IN_TAXI",
+            "value": "0x2DE"
+        },
+        {
+            "name": "IS_PLAYER_SHOOTING",
+            "value": "0x2DF"
+        },
+        {
+            "name": "IS_CHAR_SHOOTING",
+            "value": "0x2E0"
+        },
+        {
+            "name": "CREATE_MONEY_PICKUP",
+            "value": "0x2E1"
+        },
+        {
+            "name": "SET_CHAR_ACCURACY",
+            "value": "0x2E2"
+        },
+        {
+            "name": "GET_CAR_SPEED",
+            "value": "0x2E3"
+        },
+        {
+            "name": "LOAD_CUTSCENE",
+            "value": "0x2E4"
+        },
+        {
+            "name": "CREATE_CUTSCENE_OBJECT",
+            "value": "0x2E5"
+        },
+        {
+            "name": "SET_CUTSCENE_ANIM",
+            "value": "0x2E6"
+        },
+        {
+            "name": "START_CUTSCENE",
+            "value": "0x2E7"
+        },
+        {
+            "name": "GET_CUTSCENE_TIME",
+            "value": "0x2E8"
+        },
+        {
+            "name": "HAS_CUTSCENE_FINISHED",
+            "value": "0x2E9"
+        },
+        {
+            "name": "CLEAR_CUTSCENE",
+            "value": "0x2EA"
+        },
+        {
+            "name": "RESTORE_CAMERA_JUMPCUT",
+            "value": "0x2EB"
+        },
+        {
+            "name": "CREATE_COLLECTABLE1",
+            "value": "0x2EC"
+        },
+        {
+            "name": "SET_COLLECTABLE1_TOTAL",
+            "value": "0x2ED"
+        },
+        {
+            "name": "IS_PROJECTILE_IN_AREA",
+            "value": "0x2EE"
+        },
+        {
+            "name": "DESTROY_PROJECTILES_IN_AREA",
+            "value": "0x2EF"
+        },
+        {
+            "name": "DROP_MINE",
+            "value": "0x2F0"
+        },
+        {
+            "name": "DROP_NAUTICAL_MINE",
+            "value": "0x2F1"
+        },
+        {
+            "name": "IS_CHAR_MODEL",
+            "value": "0x2F2"
+        },
+        {
+            "name": "LOAD_SPECIAL_MODEL",
+            "value": "0x2F3"
+        },
+        {
+            "name": "CREATE_CUTSCENE_HEAD",
+            "value": "0x2F4"
+        },
+        {
+            "name": "SET_CUTSCENE_HEAD_ANIM",
+            "value": "0x2F5"
+        },
+        {
+            "name": "SIN",
+            "value": "0x2F6"
+        },
+        {
+            "name": "COS",
+            "value": "0x2F7"
+        },
+        {
+            "name": "GET_CAR_FORWARD_X",
+            "value": "0x2F8"
+        },
+        {
+            "name": "GET_CAR_FORWARD_Y",
+            "value": "0x2F9"
+        },
+        {
+            "name": "CHANGE_GARAGE_TYPE",
+            "value": "0x2FA"
+        },
+        {
+            "name": "ACTIVATE_CRUSHER_CRANE",
+            "value": "0x2FB"
+        },
+        {
+            "name": "PRINT_WITH_2_NUMBERS",
+            "value": "0x2FC"
+        },
+        {
+            "name": "PRINT_WITH_2_NUMBERS_NOW",
+            "value": "0x2FD"
+        },
+        {
+            "name": "PRINT_WITH_2_NUMBERS_SOON",
+            "value": "0x2FE"
+        },
+        {
+            "name": "PRINT_WITH_3_NUMBERS",
+            "value": "0x2FF"
+        },
+        {
+            "name": "PRINT_WITH_3_NUMBERS_NOW",
+            "value": "0x300"
+        },
+        {
+            "name": "PRINT_WITH_3_NUMBERS_SOON",
+            "value": "0x301"
+        },
+        {
+            "name": "PRINT_WITH_4_NUMBERS",
+            "value": "0x302"
+        },
+        {
+            "name": "PRINT_WITH_4_NUMBERS_NOW",
+            "value": "0x303"
+        },
+        {
+            "name": "PRINT_WITH_4_NUMBERS_SOON",
+            "value": "0x304"
+        },
+        {
+            "name": "PRINT_WITH_5_NUMBERS",
+            "value": "0x305"
+        },
+        {
+            "name": "PRINT_WITH_5_NUMBERS_NOW",
+            "value": "0x306"
+        },
+        {
+            "name": "PRINT_WITH_5_NUMBERS_SOON",
+            "value": "0x307"
+        },
+        {
+            "name": "PRINT_WITH_6_NUMBERS",
+            "value": "0x308"
+        },
+        {
+            "name": "PRINT_WITH_6_NUMBERS_NOW",
+            "value": "0x309"
+        },
+        {
+            "name": "PRINT_WITH_6_NUMBERS_SOON",
+            "value": "0x30A"
+        },
+        {
+            "name": "SET_CHAR_OBJ_FOLLOW_CHAR_IN_FORMATION",
+            "value": "0x30B"
+        },
+        {
+            "name": "PLAYER_MADE_PROGRESS",
+            "value": "0x30C"
+        },
+        {
+            "name": "SET_PROGRESS_TOTAL",
+            "value": "0x30D"
+        },
+        {
+            "name": "REGISTER_JUMP_DISTANCE",
+            "value": "0x30E"
+        },
+        {
+            "name": "REGISTER_JUMP_HEIGHT",
+            "value": "0x30F"
+        },
+        {
+            "name": "REGISTER_JUMP_FLIPS",
+            "value": "0x310"
+        },
+        {
+            "name": "REGISTER_JUMP_SPINS",
+            "value": "0x311"
+        },
+        {
+            "name": "REGISTER_JUMP_STUNT",
+            "value": "0x312"
+        },
+        {
+            "name": "REGISTER_UNIQUE_JUMP_FOUND",
+            "value": "0x313"
+        },
+        {
+            "name": "SET_UNIQUE_JUMPS_TOTAL",
+            "value": "0x314"
+        },
+        {
+            "name": "REGISTER_PASSENGER_DROPPED_OFF_TAXI",
+            "value": "0x315"
+        },
+        {
+            "name": "REGISTER_MONEY_MADE_TAXI",
+            "value": "0x316"
+        },
+        {
+            "name": "REGISTER_MISSION_GIVEN",
+            "value": "0x317"
+        },
+        {
+            "name": "REGISTER_MISSION_PASSED",
+            "value": "0x318"
+        },
+        {
+            "name": "SET_CHAR_RUNNING",
+            "value": "0x319"
+        },
+        {
+            "name": "REMOVE_ALL_SCRIPT_FIRES",
+            "value": "0x31A"
+        },
+        {
+            "name": "IS_FIRST_CAR_COLOUR",
+            "value": "0x31B"
+        },
+        {
+            "name": "IS_SECOND_CAR_COLOUR",
+            "value": "0x31C"
+        },
+        {
+            "name": "HAS_CHAR_BEEN_DAMAGED_BY_WEAPON",
+            "value": "0x31D"
+        },
+        {
+            "name": "HAS_CAR_BEEN_DAMAGED_BY_WEAPON",
+            "value": "0x31E"
+        },
+        {
+            "name": "IS_CHAR_IN_CHARS_GROUP",
+            "value": "0x31F"
+        },
+        {
+            "name": "IS_CHAR_IN_PLAYERS_GROUP",
+            "value": "0x320"
+        },
+        {
+            "name": "EXPLODE_CHAR_HEAD",
+            "value": "0x321"
+        },
+        {
+            "name": "EXPLODE_PLAYER_HEAD",
+            "value": "0x322"
+        },
+        {
+            "name": "ANCHOR_BOAT",
+            "value": "0x323"
+        },
+        {
+            "name": "SET_ZONE_GROUP",
+            "value": "0x324"
+        },
+        {
+            "name": "START_CAR_FIRE",
+            "value": "0x325"
+        },
+        {
+            "name": "START_CHAR_FIRE",
+            "value": "0x326"
+        },
+        {
+            "name": "GET_RANDOM_CAR_OF_TYPE_IN_AREA",
+            "value": "0x327"
+        },
+        {
+            "name": "GET_RANDOM_CAR_OF_TYPE_IN_ZONE",
+            "value": "0x328"
+        },
+        {
+            "name": "HAS_RESPRAY_HAPPENED",
+            "value": "0x329"
+        },
+        {
+            "name": "SET_CAMERA_ZOOM",
+            "value": "0x32A"
+        },
+        {
+            "name": "CREATE_PICKUP_WITH_AMMO",
+            "value": "0x32B"
+        },
+        {
+            "name": "SET_CAR_RAM_CAR",
+            "value": "0x32C"
+        },
+        {
+            "name": "SET_CAR_BLOCK_CAR",
+            "value": "0x32D"
+        },
+        {
+            "name": "SET_CHAR_OBJ_CATCH_TRAIN",
+            "value": "0x32E"
+        },
+        {
+            "name": "SET_COLL_OBJ_CATCH_TRAIN",
+            "value": "0x32F"
+        },
+        {
+            "name": "SET_PLAYER_NEVER_GETS_TIRED",
+            "value": "0x330"
+        },
+        {
+            "name": "SET_PLAYER_FAST_RELOAD",
+            "value": "0x331"
+        },
+        {
+            "name": "SET_CHAR_BLEEDING",
+            "value": "0x332"
+        },
+        {
+            "name": "SET_CAR_FUNNY_SUSPENSION",
+            "value": "0x333"
+        },
+        {
+            "name": "SET_CAR_BIG_WHEELS",
+            "value": "0x334"
+        },
+        {
+            "name": "SET_FREE_RESPRAYS",
+            "value": "0x335"
+        },
+        {
+            "name": "SET_PLAYER_VISIBLE",
+            "value": "0x336"
+        },
+        {
+            "name": "SET_CHAR_VISIBLE",
+            "value": "0x337"
+        },
+        {
+            "name": "SET_CAR_VISIBLE",
+            "value": "0x338"
+        },
+        {
+            "name": "IS_AREA_OCCUPIED",
+            "value": "0x339"
+        },
+        {
+            "name": "START_DRUG_RUN",
+            "value": "0x33A"
+        },
+        {
+            "name": "HAS_DRUG_RUN_BEEN_COMPLETED",
+            "value": "0x33B"
+        },
+        {
+            "name": "HAS_DRUG_PLANE_BEEN_SHOT_DOWN",
+            "value": "0x33C"
+        },
+        {
+            "name": "SAVE_PLAYER_FROM_FIRES",
+            "value": "0x33D"
+        },
+        {
+            "name": "DISPLAY_TEXT",
+            "value": "0x33E"
+        },
+        {
+            "name": "SET_TEXT_SCALE",
+            "value": "0x33F"
+        },
+        {
+            "name": "SET_TEXT_COLOUR",
+            "value": "0x340"
+        },
+        {
+            "name": "SET_TEXT_JUSTIFY",
+            "value": "0x341"
+        },
+        {
+            "name": "SET_TEXT_CENTRE",
+            "value": "0x342"
+        },
+        {
+            "name": "SET_TEXT_WRAPX",
+            "value": "0x343"
+        },
+        {
+            "name": "SET_TEXT_CENTRE_SIZE",
+            "value": "0x344"
+        },
+        {
+            "name": "SET_TEXT_BACKGROUND",
+            "value": "0x345"
+        },
+        {
+            "name": "SET_TEXT_BACKGROUND_COLOUR",
+            "value": "0x346"
+        },
+        {
+            "name": "SET_TEXT_BACKGROUND_ONLY_TEXT",
+            "value": "0x347"
+        },
+        {
+            "name": "SET_TEXT_PROPORTIONAL",
+            "value": "0x348"
+        },
+        {
+            "name": "SET_TEXT_FONT",
+            "value": "0x349"
+        },
+        {
+            "name": "INDUSTRIAL_PASSED",
+            "value": "0x34A"
+        },
+        {
+            "name": "COMMERCIAL_PASSED",
+            "value": "0x34B"
+        },
+        {
+            "name": "SUBURBAN_PASSED",
+            "value": "0x34C"
+        },
+        {
+            "name": "ROTATE_OBJECT",
+            "value": "0x34D"
+        },
+        {
+            "name": "SLIDE_OBJECT",
+            "value": "0x34E"
+        },
+        {
+            "name": "REMOVE_CHAR_ELEGANTLY",
+            "value": "0x34F"
+        },
+        {
+            "name": "SET_CHAR_STAY_IN_SAME_PLACE",
+            "value": "0x350"
+        },
+        {
+            "name": "IS_NASTY_GAME",
+            "value": "0x351"
+        },
+        {
+            "name": "UNDRESS_CHAR",
+            "value": "0x352"
+        },
+        {
+            "name": "DRESS_CHAR",
+            "value": "0x353"
+        },
+        {
+            "name": "START_CHASE_SCENE",
+            "value": "0x354"
+        },
+        {
+            "name": "STOP_CHASE_SCENE",
+            "value": "0x355"
+        },
+        {
+            "name": "IS_EXPLOSION_IN_AREA",
+            "value": "0x356"
+        },
+        {
+            "name": "IS_EXPLOSION_IN_ZONE",
+            "value": "0x357"
+        },
+        {
+            "name": "START_DRUG_DROP_OFF",
+            "value": "0x358"
+        },
+        {
+            "name": "HAS_DROP_OFF_PLANE_BEEN_SHOT_DOWN",
+            "value": "0x359"
+        },
+        {
+            "name": "FIND_DROP_OFF_PLANE_COORDINATES",
+            "value": "0x35A"
+        },
+        {
+            "name": "CREATE_FLOATING_PACKAGE",
+            "value": "0x35B"
+        },
+        {
+            "name": "PLACE_OBJECT_RELATIVE_TO_CAR",
+            "value": "0x35C"
+        },
+        {
+            "name": "MAKE_OBJECT_TARGETTABLE",
+            "value": "0x35D"
+        },
+        {
+            "name": "ADD_ARMOUR_TO_PLAYER",
+            "value": "0x35E"
+        },
+        {
+            "name": "ADD_ARMOUR_TO_CHAR",
+            "value": "0x35F"
+        },
+        {
+            "name": "OPEN_GARAGE",
+            "value": "0x360"
+        },
+        {
+            "name": "CLOSE_GARAGE",
+            "value": "0x361"
+        },
+        {
+            "name": "WARP_CHAR_FROM_CAR_TO_COORD",
+            "value": "0x362"
+        },
+        {
+            "name": "SET_VISIBILITY_OF_CLOSEST_OBJECT_OF_TYPE",
+            "value": "0x363"
+        },
+        {
+            "name": "HAS_CHAR_SPOTTED_CHAR",
+            "value": "0x364"
+        },
+        {
+            "name": "SET_CHAR_OBJ_HAIL_TAXI",
+            "value": "0x365"
+        },
+        {
+            "name": "HAS_OBJECT_BEEN_DAMAGED",
+            "value": "0x366"
+        },
+        {
+            "name": "START_KILL_FRENZY_HEADSHOT",
+            "value": "0x367"
+        },
+        {
+            "name": "ACTIVATE_MILITARY_CRANE",
+            "value": "0x368"
+        },
+        {
+            "name": "WARP_PLAYER_INTO_CAR",
+            "value": "0x369"
+        },
+        {
+            "name": "WARP_CHAR_INTO_CAR",
+            "value": "0x36A"
+        },
+        {
+            "name": "SWITCH_CAR_RADIO",
+            "value": "0x36B"
+        },
+        {
+            "name": "SET_AUDIO_STREAM",
+            "value": "0x36C"
+        },
+        {
+            "name": "PRINT_WITH_2_NUMBERS_BIG",
+            "value": "0x36D"
+        },
+        {
+            "name": "PRINT_WITH_3_NUMBERS_BIG",
+            "value": "0x36E"
+        },
+        {
+            "name": "PRINT_WITH_4_NUMBERS_BIG",
+            "value": "0x36F"
+        },
+        {
+            "name": "PRINT_WITH_5_NUMBERS_BIG",
+            "value": "0x370"
+        },
+        {
+            "name": "PRINT_WITH_6_NUMBERS_BIG",
+            "value": "0x371"
+        },
+        {
+            "name": "SET_CHAR_WAIT_STATE",
+            "value": "0x372"
+        },
+        {
+            "name": "SET_CAMERA_BEHIND_PLAYER",
+            "value": "0x373"
+        },
+        {
+            "name": "SET_MOTION_BLUR",
+            "value": "0x374"
+        },
+        {
+            "name": "PRINT_STRING_IN_STRING",
+            "value": "0x375"
+        },
+        {
+            "name": "CREATE_RANDOM_CHAR",
+            "value": "0x376"
+        },
+        {
+            "name": "SET_CHAR_OBJ_STEAL_ANY_CAR",
+            "value": "0x377"
+        },
+        {
+            "name": "SET_2_REPEATED_PHONE_MESSAGES",
+            "value": "0x378"
+        },
+        {
+            "name": "SET_2_PHONE_MESSAGES",
+            "value": "0x379"
+        },
+        {
+            "name": "SET_3_REPEATED_PHONE_MESSAGES",
+            "value": "0x37A"
+        },
+        {
+            "name": "SET_3_PHONE_MESSAGES",
+            "value": "0x37B"
+        },
+        {
+            "name": "SET_4_REPEATED_PHONE_MESSAGES",
+            "value": "0x37C"
+        },
+        {
+            "name": "SET_4_PHONE_MESSAGES",
+            "value": "0x37D"
+        },
+        {
+            "name": "IS_SNIPER_BULLET_IN_AREA",
+            "value": "0x37E"
+        },
+        {
+            "name": "GIVE_PLAYER_DETONATOR",
+            "value": "0x37F"
+        },
+        {
+            "name": "SET_COLL_OBJ_STEAL_ANY_CAR",
+            "value": "0x380"
+        },
+        {
+            "name": "SET_OBJECT_VELOCITY",
+            "value": "0x381"
+        },
+        {
+            "name": "SET_OBJECT_COLLISION",
+            "value": "0x382"
+        },
+        {
+            "name": "IS_ICECREAM_JINGLE_ON",
+            "value": "0x383"
+        },
+        {
+            "name": "PRINT_STRING_IN_STRING_NOW",
+            "value": "0x384"
+        },
+        {
+            "name": "PRINT_STRING_IN_STRING_SOON",
+            "value": "0x385"
+        },
+        {
+            "name": "SET_5_REPEATED_PHONE_MESSAGES",
+            "value": "0x386"
+        },
+        {
+            "name": "SET_5_PHONE_MESSAGES",
+            "value": "0x387"
+        },
+        {
+            "name": "SET_6_REPEATED_PHONE_MESSAGES",
+            "value": "0x388"
+        },
+        {
+            "name": "SET_6_PHONE_MESSAGES",
+            "value": "0x389"
+        },
+        {
+            "name": "IS_POINT_OBSCURED_BY_A_MISSION_ENTITY",
+            "value": "0x38A"
+        },
+        {
+            "name": "LOAD_ALL_MODELS_NOW",
+            "value": "0x38B"
+        },
+        {
+            "name": "ADD_TO_OBJECT_VELOCITY",
+            "value": "0x38C"
+        },
+        {
+            "name": "DRAW_SPRITE",
+            "value": "0x38D"
+        },
+        {
+            "name": "DRAW_RECT",
+            "value": "0x38E"
+        },
+        {
+            "name": "LOAD_SPRITE",
+            "value": "0x38F"
+        },
+        {
+            "name": "LOAD_TEXTURE_DICTIONARY",
+            "value": "0x390"
+        },
+        {
+            "name": "REMOVE_TEXTURE_DICTIONARY",
+            "value": "0x391"
+        },
+        {
+            "name": "SET_OBJECT_DYNAMIC",
+            "value": "0x392"
+        },
+        {
+            "name": "SET_CHAR_ANIM_SPEED",
+            "value": "0x393"
+        },
+        {
+            "name": "PLAY_MISSION_PASSED_TUNE",
+            "value": "0x394"
+        },
+        {
+            "name": "CLEAR_AREA",
+            "value": "0x395"
+        },
+        {
+            "name": "FREEZE_ONSCREEN_TIMER",
+            "value": "0x396"
+        },
+        {
+            "name": "SWITCH_CAR_SIREN",
+            "value": "0x397"
+        },
+        {
+            "name": "SWITCH_PED_ROADS_ON_ANGLED",
+            "value": "0x398"
+        },
+        {
+            "name": "SWITCH_PED_ROADS_OFF_ANGLED",
+            "value": "0x399"
+        },
+        {
+            "name": "SWITCH_ROADS_ON_ANGLED",
+            "value": "0x39A"
+        },
+        {
+            "name": "SWITCH_ROADS_OFF_ANGLED",
+            "value": "0x39B"
+        },
+        {
+            "name": "SET_CAR_WATERTIGHT",
+            "value": "0x39C"
+        },
+        {
+            "name": "ADD_MOVING_PARTICLE_EFFECT",
+            "value": "0x39D"
+        },
+        {
+            "name": "SET_CHAR_CANT_BE_DRAGGED_OUT",
+            "value": "0x39E"
+        },
+        {
+            "name": "TURN_CAR_TO_FACE_COORD",
+            "value": "0x39F"
+        },
+        {
+            "name": "IS_CRANE_LIFTING_CAR",
+            "value": "0x3A0"
+        },
+        {
+            "name": "DRAW_SPHERE",
+            "value": "0x3A1"
+        },
+        {
+            "name": "SET_CAR_STATUS",
+            "value": "0x3A2"
+        },
+        {
+            "name": "IS_CHAR_MALE",
+            "value": "0x3A3"
+        },
+        {
+            "name": "SCRIPT_NAME",
+            "value": "0x3A4"
+        },
+        {
+            "name": "CHANGE_GARAGE_TYPE_WITH_CAR_MODEL",
+            "value": "0x3A5"
+        },
+        {
+            "name": "FIND_DRUG_PLANE_COORDINATES",
+            "value": "0x3A6"
+        },
+        {
+            "name": "SAVE_INT_TO_DEBUG_FILE",
+            "value": "0x3A7"
+        },
+        {
+            "name": "SAVE_FLOAT_TO_DEBUG_FILE",
+            "value": "0x3A8"
+        },
+        {
+            "name": "SAVE_NEWLINE_TO_DEBUG_FILE",
+            "value": "0x3A9"
+        },
+        {
+            "name": "POLICE_RADIO_MESSAGE",
+            "value": "0x3AA"
+        },
+        {
+            "name": "SET_CAR_STRONG",
+            "value": "0x3AB"
+        },
+        {
+            "name": "REMOVE_ROUTE",
+            "value": "0x3AC"
+        },
+        {
+            "name": "SWITCH_RUBBISH",
+            "value": "0x3AD"
+        },
+        {
+            "name": "REMOVE_PARTICLE_EFFECTS_IN_AREA",
+            "value": "0x3AE"
+        },
+        {
+            "name": "SWITCH_STREAMING",
+            "value": "0x3AF"
+        },
+        {
+            "name": "IS_GARAGE_OPEN",
+            "value": "0x3B0"
+        },
+        {
+            "name": "IS_GARAGE_CLOSED",
+            "value": "0x3B1"
+        },
+        {
+            "name": "START_CATALINA_HELI",
+            "value": "0x3B2"
+        },
+        {
+            "name": "CATALINA_HELI_TAKE_OFF",
+            "value": "0x3B3"
+        },
+        {
+            "name": "REMOVE_CATALINA_HELI",
+            "value": "0x3B4"
+        },
+        {
+            "name": "HAS_CATALINA_HELI_BEEN_SHOT_DOWN",
+            "value": "0x3B5"
+        },
+        {
+            "name": "SWAP_NEAREST_BUILDING_MODEL",
+            "value": "0x3B6"
+        },
+        {
+            "name": "SWITCH_WORLD_PROCESSING",
+            "value": "0x3B7"
+        },
+        {
+            "name": "REMOVE_ALL_PLAYER_WEAPONS",
+            "value": "0x3B8"
+        },
+        {
+            "name": "GRAB_CATALINA_HELI",
+            "value": "0x3B9"
+        },
+        {
+            "name": "CLEAR_AREA_OF_CARS",
+            "value": "0x3BA"
+        },
+        {
+            "name": "SET_ROTATING_GARAGE_DOOR",
+            "value": "0x3BB"
+        },
+        {
+            "name": "ADD_SPHERE",
+            "value": "0x3BC"
+        },
+        {
+            "name": "REMOVE_SPHERE",
+            "value": "0x3BD"
+        },
+        {
+            "name": "CATALINA_HELI_FLY_AWAY",
+            "value": "0x3BE"
+        },
+        {
+            "name": "SET_EVERYONE_IGNORE_PLAYER",
+            "value": "0x3BF"
+        },
+        {
+            "name": "STORE_CAR_CHAR_IS_IN_NO_SAVE",
+            "value": "0x3C0"
+        },
+        {
+            "name": "STORE_CAR_PLAYER_IS_IN_NO_SAVE",
+            "value": "0x3C1"
+        },
+        {
+            "name": "IS_PHONE_DISPLAYING_MESSAGE",
+            "value": "0x3C2"
+        },
+        {
+            "name": "DISPLAY_ONSCREEN_TIMER_WITH_STRING",
+            "value": "0x3C3"
+        },
+        {
+            "name": "DISPLAY_ONSCREEN_COUNTER_WITH_STRING",
+            "value": "0x3C4"
+        },
+        {
+            "name": "CREATE_RANDOM_CAR_FOR_CAR_PARK",
+            "value": "0x3C5"
+        },
+        {
+            "name": "IS_COLLISION_IN_MEMORY",
+            "value": "0x3C6"
+        },
+        {
+            "name": "SET_WANTED_MULTIPLIER",
+            "value": "0x3C7"
+        },
+        {
+            "name": "SET_CAMERA_IN_FRONT_OF_PLAYER",
+            "value": "0x3C8"
+        },
+        {
+            "name": "IS_CAR_VISIBLY_DAMAGED",
+            "value": "0x3C9"
+        },
+        {
+            "name": "DOES_OBJECT_EXIST",
+            "value": "0x3CA"
+        },
+        {
+            "name": "LOAD_SCENE",
+            "value": "0x3CB"
+        },
+        {
+            "name": "ADD_STUCK_CAR_CHECK",
+            "value": "0x3CC"
+        },
+        {
+            "name": "REMOVE_STUCK_CAR_CHECK",
+            "value": "0x3CD"
+        },
+        {
+            "name": "IS_CAR_STUCK",
+            "value": "0x3CE"
+        },
+        {
+            "name": "LOAD_MISSION_AUDIO",
+            "value": "0x3CF"
+        },
+        {
+            "name": "HAS_MISSION_AUDIO_LOADED",
+            "value": "0x3D0"
+        },
+        {
+            "name": "PLAY_MISSION_AUDIO",
+            "value": "0x3D1"
+        },
+        {
+            "name": "HAS_MISSION_AUDIO_FINISHED",
+            "value": "0x3D2"
+        },
+        {
+            "name": "GET_CLOSEST_CAR_NODE_WITH_HEADING",
+            "value": "0x3D3"
+        },
+        {
+            "name": "HAS_IMPORT_GARAGE_SLOT_BEEN_FILLED",
+            "value": "0x3D4"
+        },
+        {
+            "name": "CLEAR_THIS_PRINT",
+            "value": "0x3D5"
+        },
+        {
+            "name": "CLEAR_THIS_BIG_PRINT",
+            "value": "0x3D6"
+        },
+        {
+            "name": "SET_MISSION_AUDIO_POSITION",
+            "value": "0x3D7"
+        },
+        {
+            "name": "ACTIVATE_SAVE_MENU",
+            "value": "0x3D8"
+        },
+        {
+            "name": "HAS_SAVE_GAME_FINISHED",
+            "value": "0x3D9"
+        },
+        {
+            "name": "NO_SPECIAL_CAMERA_FOR_THIS_GARAGE",
+            "value": "0x3DA"
+        },
+        {
+            "name": "ADD_BLIP_FOR_PICKUP_OLD",
+            "value": "0x3DB"
+        },
+        {
+            "name": "ADD_BLIP_FOR_PICKUP",
+            "value": "0x3DC"
+        },
+        {
+            "name": "ADD_SPRITE_BLIP_FOR_PICKUP",
+            "value": "0x3DD"
+        },
+        {
+            "name": "SET_PED_DENSITY_MULTIPLIER",
+            "value": "0x3DE"
+        },
+        {
+            "name": "FORCE_RANDOM_PED_TYPE",
+            "value": "0x3DF"
+        },
+        {
+            "name": "SET_TEXT_DRAW_BEFORE_FADE",
+            "value": "0x3E0"
+        },
+        {
+            "name": "GET_COLLECTABLE1S_COLLECTED",
+            "value": "0x3E1"
+        },
+        {
+            "name": "SET_CHAR_OBJ_LEAVE_ANY_CAR",
+            "value": "0x3E2"
+        },
+        {
+            "name": "SET_SPRITES_DRAW_BEFORE_FADE",
+            "value": "0x3E3"
+        },
+        {
+            "name": "SET_TEXT_RIGHT_JUSTIFY",
+            "value": "0x3E4"
+        },
+        {
+            "name": "PRINT_HELP",
+            "value": "0x3E5"
+        },
+        {
+            "name": "CLEAR_HELP",
+            "value": "0x3E6"
+        },
+        {
+            "name": "FLASH_HUD_OBJECT",
+            "value": "0x3E7"
+        },
+        {
+            "name": "FLASH_RADAR_BLIP",
+            "value": "0x3E8"
+        },
+        {
+            "name": "IS_CHAR_IN_CONTROL",
+            "value": "0x3E9"
+        },
+        {
+            "name": "SET_GENERATE_CARS_AROUND_CAMERA",
+            "value": "0x3EA"
+        },
+        {
+            "name": "CLEAR_SMALL_PRINTS",
+            "value": "0x3EB"
+        },
+        {
+            "name": "HAS_MILITARY_CRANE_COLLECTED_ALL_CARS",
+            "value": "0x3EC"
+        },
+        {
+            "name": "SET_UPSIDEDOWN_CAR_NOT_DAMAGED",
+            "value": "0x3ED"
+        },
+        {
+            "name": "CAN_PLAYER_START_MISSION",
+            "value": "0x3EE"
+        },
+        {
+            "name": "MAKE_PLAYER_SAFE_FOR_CUTSCENE",
+            "value": "0x3EF"
+        },
+        {
+            "name": "USE_TEXT_COMMANDS",
+            "value": "0x3F0"
+        },
+        {
+            "name": "SET_THREAT_FOR_PED_TYPE",
+            "value": "0x3F1"
+        },
+        {
+            "name": "CLEAR_THREAT_FOR_PED_TYPE",
+            "value": "0x3F2"
+        },
+        {
+            "name": "GET_CAR_COLOURS",
+            "value": "0x3F3"
+        },
+        {
+            "name": "SET_ALL_CARS_CAN_BE_DAMAGED",
+            "value": "0x3F4"
+        },
+        {
+            "name": "SET_CAR_CAN_BE_DAMAGED",
+            "value": "0x3F5"
+        },
+        {
+            "name": "MAKE_PLAYER_UNSAFE",
+            "value": "0x3F6"
+        },
+        {
+            "name": "LOAD_COLLISION",
+            "value": "0x3F7"
+        },
+        {
+            "name": "GET_BODY_CAST_HEALTH",
+            "value": "0x3F8"
+        },
+        {
+            "name": "SET_CHARS_CHATTING",
+            "value": "0x3F9"
+        },
+        {
+            "name": "MAKE_PLAYER_SAFE",
+            "value": "0x3FA"
+        },
+        {
+            "name": "SET_CAR_STAYS_IN_CURRENT_LEVEL",
+            "value": "0x3FB"
+        },
+        {
+            "name": "SET_CHAR_STAYS_IN_CURRENT_LEVEL",
+            "value": "0x3FC"
+        },
+        {
+            "name": "SET_DRUNK_INPUT_DELAY",
+            "value": "0x3FD"
+        },
+        {
+            "name": "SET_CHAR_MONEY",
+            "value": "0x3FE"
+        },
+        {
+            "name": "INCREASE_CHAR_MONEY",
+            "value": "0x3FF"
+        },
+        {
+            "name": "GET_OFFSET_FROM_OBJECT_IN_WORLD_COORDS",
+            "value": "0x400"
+        },
+        {
+            "name": "REGISTER_LIFE_SAVED",
+            "value": "0x401"
+        },
+        {
+            "name": "REGISTER_CRIMINAL_CAUGHT",
+            "value": "0x402"
+        },
+        {
+            "name": "REGISTER_AMBULANCE_LEVEL",
+            "value": "0x403"
+        },
+        {
+            "name": "REGISTER_FIRE_EXTINGUISHED",
+            "value": "0x404"
+        },
+        {
+            "name": "TURN_PHONE_ON",
+            "value": "0x405"
+        },
+        {
+            "name": "REGISTER_LONGEST_DODO_FLIGHT",
+            "value": "0x406"
+        },
+        {
+            "name": "GET_OFFSET_FROM_CAR_IN_WORLD_COORDS",
+            "value": "0x407"
+        },
+        {
+            "name": "SET_TOTAL_NUMBER_OF_KILL_FRENZIES",
+            "value": "0x408"
+        },
+        {
+            "name": "BLOW_UP_RC_BUGGY",
+            "value": "0x409"
+        },
+        {
+            "name": "REMOVE_CAR_FROM_CHASE",
+            "value": "0x40A"
+        },
+        {
+            "name": "IS_FRENCH_GAME",
+            "value": "0x40B"
+        },
+        {
+            "name": "IS_GERMAN_GAME",
+            "value": "0x40C"
+        },
+        {
+            "name": "CLEAR_MISSION_AUDIO",
+            "value": "0x40D"
+        },
+        {
+            "name": "SET_FADE_IN_AFTER_NEXT_ARREST",
+            "value": "0x40E"
+        },
+        {
+            "name": "SET_FADE_IN_AFTER_NEXT_DEATH",
+            "value": "0x40F"
+        },
+        {
+            "name": "SET_GANG_PED_MODEL_PREFERENCE",
+            "value": "0x410"
+        },
+        {
+            "name": "SET_CHAR_USE_PEDNODE_SEEK",
+            "value": "0x411"
+        },
+        {
+            "name": "SWITCH_VEHICLE_WEAPONS",
+            "value": "0x412"
+        },
+        {
+            "name": "SET_GET_OUT_OF_JAIL_FREE",
+            "value": "0x413"
+        },
+        {
+            "name": "SET_FREE_HEALTH_CARE",
+            "value": "0x414"
+        },
+        {
+            "name": "IS_CAR_DOOR_CLOSED",
+            "value": "0x415"
+        },
+        {
+            "name": "LOAD_AND_LAUNCH_MISSION",
+            "value": "0x416"
+        },
+        {
+            "name": "LOAD_AND_LAUNCH_MISSION_INTERNAL",
+            "value": "0x417"
+        },
+        {
+            "name": "SET_OBJECT_DRAW_LAST",
+            "value": "0x418"
+        },
+        {
+            "name": "GET_AMMO_IN_PLAYER_WEAPON",
+            "value": "0x419"
+        },
+        {
+            "name": "GET_AMMO_IN_CHAR_WEAPON",
+            "value": "0x41A"
+        },
+        {
+            "name": "REGISTER_KILL_FRENZY_PASSED",
+            "value": "0x41B"
+        },
+        {
+            "name": "SET_CHAR_SAY",
+            "value": "0x41C"
+        },
+        {
+            "name": "SET_NEAR_CLIP",
+            "value": "0x41D"
+        },
+        {
+            "name": "SET_RADIO_CHANNEL",
+            "value": "0x41E"
+        },
+        {
+            "name": "OVERRIDE_HOSPITAL_LEVEL",
+            "value": "0x41F"
+        },
+        {
+            "name": "OVERRIDE_POLICE_STATION_LEVEL",
+            "value": "0x420"
+        },
+        {
+            "name": "FORCE_RAIN",
+            "value": "0x421"
+        },
+        {
+            "name": "DOES_GARAGE_CONTAIN_CAR",
+            "value": "0x422"
+        },
+        {
+            "name": "SET_CAR_TRACTION",
+            "value": "0x423"
+        },
+        {
+            "name": "ARE_MEASUREMENTS_IN_METRES",
+            "value": "0x424"
+        },
+        {
+            "name": "CONVERT_METRES_TO_FEET",
+            "value": "0x425"
+        },
+        {
+            "name": "MARK_ROADS_BETWEEN_LEVELS",
+            "value": "0x426"
+        },
+        {
+            "name": "MARK_PED_ROADS_BETWEEN_LEVELS",
+            "value": "0x427"
+        },
+        {
+            "name": "SET_CAR_AVOID_LEVEL_TRANSITIONS",
+            "value": "0x428"
+        },
+        {
+            "name": "SET_CHAR_AVOID_LEVEL_TRANSITIONS",
+            "value": "0x429"
+        },
+        {
+            "name": "IS_THREAT_FOR_PED_TYPE",
+            "value": "0x42A"
+        },
+        {
+            "name": "CLEAR_AREA_OF_CHARS",
+            "value": "0x42B"
+        },
+        {
+            "name": "SET_TOTAL_NUMBER_OF_MISSIONS",
+            "value": "0x42C"
+        },
+        {
+            "name": "CONVERT_METRES_TO_FEET_INT",
+            "value": "0x42D"
+        },
+        {
+            "name": "REGISTER_FASTEST_TIME",
+            "value": "0x42E"
+        },
+        {
+            "name": "REGISTER_HIGHEST_SCORE",
+            "value": "0x42F"
+        },
+        {
+            "name": "WARP_CHAR_INTO_CAR_AS_PASSENGER",
+            "value": "0x430"
+        },
+        {
+            "name": "IS_CAR_PASSENGER_SEAT_FREE",
+            "value": "0x431"
+        },
+        {
+            "name": "GET_CHAR_IN_CAR_PASSENGER_SEAT",
+            "value": "0x432"
+        },
+        {
+            "name": "SET_CHAR_IS_CHRIS_CRIMINAL",
+            "value": "0x433"
+        },
+        {
+            "name": "START_CREDITS",
+            "value": "0x434"
+        },
+        {
+            "name": "STOP_CREDITS",
+            "value": "0x435"
+        },
+        {
+            "name": "ARE_CREDITS_FINISHED",
+            "value": "0x436"
+        },
+        {
+            "name": "CREATE_SINGLE_PARTICLE",
+            "value": "0x437"
+        },
+        {
+            "name": "SET_CHAR_IGNORE_LEVEL_TRANSITIONS",
+            "value": "0x438"
+        },
+        {
+            "name": "GET_CHASE_CAR",
+            "value": "0x439"
+        },
+        {
+            "name": "START_BOAT_FOAM_ANIMATION",
+            "value": "0x43A"
+        },
+        {
+            "name": "UPDATE_BOAT_FOAM_ANIMATION",
+            "value": "0x43B"
+        },
+        {
+            "name": "SET_MUSIC_DOES_FADE",
+            "value": "0x43C"
+        },
+        {
+            "name": "SET_INTRO_IS_PLAYING",
+            "value": "0x43D"
+        },
+        {
+            "name": "SET_PLAYER_HOOKER",
+            "value": "0x43E"
+        },
+        {
+            "name": "PLAY_END_OF_GAME_TUNE",
+            "value": "0x43F"
+        },
+        {
+            "name": "STOP_END_OF_GAME_TUNE",
+            "value": "0x440"
+        },
+        {
+            "name": "GET_CAR_MODEL",
+            "value": "0x441"
+        },
+        {
+            "name": "IS_PLAYER_SITTING_IN_CAR",
+            "value": "0x442"
+        },
+        {
+            "name": "IS_PLAYER_SITTING_IN_ANY_CAR",
+            "value": "0x443"
+        },
+        {
+            "name": "SET_SCRIPT_FIRE_AUDIO",
+            "value": "0x444"
+        },
+        {
+            "name": "ARE_ANY_CAR_CHEATS_ACTIVATED",
+            "value": "0x445"
+        },
+        {
+            "name": "SET_CHAR_SUFFERS_CRITICAL_HITS",
+            "value": "0x446"
+        },
+        {
+            "name": "IS_PLAYER_LIFTING_A_PHONE",
+            "value": "0x447"
+        },
+        {
+            "name": "IS_CHAR_SITTING_IN_CAR",
+            "value": "0x448"
+        },
+        {
+            "name": "IS_CHAR_SITTING_IN_ANY_CAR",
+            "value": "0x449"
+        },
+        {
+            "name": "IS_PLAYER_ON_FOOT",
+            "value": "0x44A"
+        },
+        {
+            "name": "IS_CHAR_ON_FOOT",
+            "value": "0x44B"
+        },
+        {
+            "name": "LOAD_COLLISION_WITH_SCREEN",
+            "value": "0x44C"
+        },
+        {
+            "name": "LOAD_SPLASH_SCREEN",
+            "value": "0x44D"
+        },
+        {
+            "name": "SET_CAR_IGNORE_LEVEL_TRANSITIONS",
+            "value": "0x44E"
+        },
+        {
+            "name": "MAKE_CRAIGS_CAR_A_BIT_STRONGER",
+            "value": "0x44F"
+        },
+        {
+            "name": "SET_JAMES_CAR_ON_PATH_TO_PLAYER",
+            "value": "0x450"
+        },
+        {
+            "name": "LOAD_END_OF_GAME_TUNE",
+            "value": "0x451"
+        },
+        {
+            "name": "ENABLE_PLAYER_CONTROL_CAMERA",
+            "value": "0x452"
+        },
+        {
+            "name": "SET_OBJECT_ROTATION",
+            "value": "0x453"
+        },
+        {
+            "name": "GET_DEBUG_CAMERA_COORDINATES",
+            "value": "0x454"
+        },
+        {
+            "name": "GET_DEBUG_CAMERA_FRONT_VECTOR",
+            "value": "0x455"
+        },
+        {
+            "name": "IS_PLAYER_TARGETTING_ANY_CHAR",
+            "value": "0x456"
+        },
+        {
+            "name": "IS_PLAYER_TARGETTING_CHAR",
+            "value": "0x457"
+        },
+        {
+            "name": "IS_PLAYER_TARGETTING_OBJECT",
+            "value": "0x458"
+        },
+        {
+            "name": "TERMINATE_ALL_SCRIPTS_WITH_THIS_NAME",
+            "value": "0x459"
+        },
+        {
+            "name": "DISPLAY_TEXT_WITH_NUMBER",
+            "value": "0x45A"
+        },
+        {
+            "name": "DISPLAY_TEXT_WITH_2_NUMBERS",
+            "value": "0x45B"
+        },
+        {
+            "name": "FAIL_CURRENT_MISSION",
+            "value": "0x45C"
+        },
+        {
+            "name": "GET_CLOSEST_OBJECT_OF_TYPE",
+            "value": "0x45D"
+        },
+        {
+            "name": "PLACE_OBJECT_RELATIVE_TO_OBJECT",
+            "value": "0x45E"
+        },
+        {
+            "name": "SET_ALL_OCCUPANTS_OF_CAR_LEAVE_CAR",
+            "value": "0x45F"
+        },
+        {
+            "name": "SET_INTERPOLATION_PARAMETERS",
+            "value": "0x460"
+        },
+        {
+            "name": "GET_CLOSEST_CAR_NODE_WITH_HEADING_TOWARDS_POINT",
+            "value": "0x461"
+        },
+        {
+            "name": "GET_CLOSEST_CAR_NODE_WITH_HEADING_AWAY_POINT",
+            "value": "0x462"
+        },
+        {
+            "name": "GET_DEBUG_CAMERA_POINT_AT",
+            "value": "0x463"
+        },
+        {
+            "name": "ATTACH_CHAR_TO_CAR",
+            "value": "0x464"
+        },
+        {
+            "name": "DETACH_CHAR_FROM_CAR",
+            "value": "0x465"
+        },
+        {
+            "name": "SET_CAR_CHANGE_LANE",
+            "value": "0x466"
+        },
+        {
+            "name": "CLEAR_CHAR_LAST_WEAPON_DAMAGE",
+            "value": "0x467"
+        },
+        {
+            "name": "CLEAR_CAR_LAST_WEAPON_DAMAGE",
+            "value": "0x468"
+        },
+        {
+            "name": "GET_RANDOM_COP_IN_AREA",
+            "value": "0x469"
+        },
+        {
+            "name": "GET_RANDOM_COP_IN_ZONE",
+            "value": "0x46A"
+        },
+        {
+            "name": "SET_CHAR_OBJ_FLEE_CAR",
+            "value": "0x46B"
+        },
+        {
+            "name": "GET_DRIVER_OF_CAR",
+            "value": "0x46C"
+        },
+        {
+            "name": "GET_NUMBER_OF_FOLLOWERS",
+            "value": "0x46D"
+        },
+        {
+            "name": "GIVE_REMOTE_CONTROLLED_MODEL_TO_PLAYER",
+            "value": "0x46E"
+        },
+        {
+            "name": "GET_CURRENT_PLAYER_WEAPON",
+            "value": "0x46F"
+        },
+        {
+            "name": "GET_CURRENT_CHAR_WEAPON",
+            "value": "0x470"
+        },
+        {
+            "name": "LOCATE_CHAR_ANY_MEANS_OBJECT_2D",
+            "value": "0x471"
+        },
+        {
+            "name": "LOCATE_CHAR_ON_FOOT_OBJECT_2D",
+            "value": "0x472"
+        },
+        {
+            "name": "LOCATE_CHAR_IN_CAR_OBJECT_2D",
+            "value": "0x473"
+        },
+        {
+            "name": "LOCATE_CHAR_ANY_MEANS_OBJECT_3D",
+            "value": "0x474"
+        },
+        {
+            "name": "LOCATE_CHAR_ON_FOOT_OBJECT_3D",
+            "value": "0x475"
+        },
+        {
+            "name": "LOCATE_CHAR_IN_CAR_OBJECT_3D",
+            "value": "0x476"
+        },
+        {
+            "name": "SET_CAR_TEMP_ACTION",
+            "value": "0x477"
+        },
+        {
+            "name": "SET_CAR_HANDBRAKE_TURN_RIGHT",
+            "value": "0x478"
+        },
+        {
+            "name": "SET_CAR_HANDBRAKE_STOP",
+            "value": "0x479"
+        },
+        {
+            "name": "IS_CHAR_ON_ANY_BIKE",
+            "value": "0x47A"
+        },
+        {
+            "name": "LOCATE_SNIPER_BULLET_2D",
+            "value": "0x47B"
+        },
+        {
+            "name": "LOCATE_SNIPER_BULLET_3D",
+            "value": "0x47C"
+        },
+        {
+            "name": "GET_NUMBER_OF_SEATS_IN_MODEL",
+            "value": "0x47D"
+        },
+        {
+            "name": "IS_PLAYER_ON_ANY_BIKE",
+            "value": "0x47E"
+        },
+        {
+            "name": "IS_CHAR_LYING_DOWN",
+            "value": "0x47F"
+        },
+        {
+            "name": "CAN_CHAR_SEE_DEAD_CHAR",
+            "value": "0x480"
+        },
+        {
+            "name": "SET_ENTER_CAR_RANGE_MULTIPLIER",
+            "value": "0x481"
+        },
+        {
+            "name": "SET_THREAT_REACTION_RANGE_MULTIPLIER",
+            "value": "0x482"
+        },
+        {
+            "name": "SET_CHAR_CEASE_ATTACK_TIMER",
+            "value": "0x483"
+        },
+        {
+            "name": "GET_REMOTE_CONTROLLED_CAR",
+            "value": "0x484"
+        },
+        {
+            "name": "IS_PC_VERSION",
+            "value": "0x485"
+        },
+        {
+            "name": "REPLAY",
+            "value": "0x486"
+        },
+        {
+            "name": "IS_REPLAY_PLAYING",
+            "value": "0x487"
+        },
+        {
+            "name": "IS_MODEL_AVAILABLE",
+            "value": "0x488"
+        },
+        {
+            "name": "SHUT_CHAR_UP",
+            "value": "0x489"
+        },
+        {
+            "name": "SET_ENABLE_RC_DETONATE",
+            "value": "0x48A"
+        },
+        {
+            "name": "SET_CAR_RANDOM_ROUTE_SEED",
+            "value": "0x48B"
+        },
+        {
+            "name": "IS_ANY_PICKUP_AT_COORDS",
+            "value": "0x48C"
+        },
+        {
+            "name": "GET_FIRST_PICKUP_COORDS",
+            "value": "0x48D"
+        },
+        {
+            "name": "GET_NEXT_PICKUP_COORDS",
+            "value": "0x48E"
+        },
+        {
+            "name": "REMOVE_ALL_CHAR_WEAPONS",
+            "value": "0x48F"
+        },
+        {
+            "name": "HAS_PLAYER_GOT_WEAPON",
+            "value": "0x490"
+        },
+        {
+            "name": "HAS_CHAR_GOT_WEAPON",
+            "value": "0x491"
+        },
+        {
+            "name": "IS_PLAYER_FACING_CHAR",
+            "value": "0x492"
+        },
+        {
+            "name": "SET_TANK_DETONATE_CARS",
+            "value": "0x493"
+        },
+        {
+            "name": "GET_POSITION_OF_ANALOGUE_STICKS",
+            "value": "0x494"
+        },
+        {
+            "name": "IS_CAR_ON_FIRE",
+            "value": "0x495"
+        },
+        {
+            "name": "IS_CAR_TYRE_BURST",
+            "value": "0x496"
+        },
+        {
+            "name": "SET_CAR_DRIVE_STRAIGHT_AHEAD",
+            "value": "0x497"
+        },
+        {
+            "name": "SET_CAR_WAIT",
+            "value": "0x498"
+        },
+        {
+            "name": "IS_PLAYER_STANDING_ON_A_VEHICLE",
+            "value": "0x499"
+        },
+        {
+            "name": "IS_PLAYER_FOOT_DOWN",
+            "value": "0x49A"
+        },
+        {
+            "name": "IS_CHAR_FOOT_DOWN",
+            "value": "0x49B"
+        },
+        {
+            "name": "INITIALISE_OBJECT_PATH",
+            "value": "0x49C"
+        },
+        {
+            "name": "START_OBJECT_ON_PATH",
+            "value": "0x49D"
+        },
+        {
+            "name": "SET_OBJECT_PATH_SPEED",
+            "value": "0x49E"
+        },
+        {
+            "name": "SET_OBJECT_PATH_POSITION",
+            "value": "0x49F"
+        },
+        {
+            "name": "GET_OBJECT_DISTANCE_ALONG_PATH",
+            "value": "0x4A0"
+        },
+        {
+            "name": "CLEAR_OBJECT_PATH",
+            "value": "0x4A1"
+        },
+        {
+            "name": "HELI_GOTO_COORDS",
+            "value": "0x4A2"
+        },
+        {
+            "name": "IS_INT_VAR_EQUAL_TO_CONSTANT",
+            "value": "0x4A3"
+        },
+        {
+            "name": "IS_INT_LVAR_EQUAL_TO_CONSTANT",
+            "value": "0x4A4"
+        },
+        {
+            "name": "GET_DEAD_CHAR_PICKUP_COORDS",
+            "value": "0x4A5"
+        },
+        {
+            "name": "CREATE_PROTECTION_PICKUP",
+            "value": "0x4A6"
+        },
+        {
+            "name": "IS_CHAR_IN_ANY_BOAT",
+            "value": "0x4A7"
+        },
+        {
+            "name": "IS_PLAYER_IN_ANY_BOAT",
+            "value": "0x4A8"
+        },
+        {
+            "name": "IS_CHAR_IN_ANY_HELI",
+            "value": "0x4A9"
+        },
+        {
+            "name": "IS_PLAYER_IN_ANY_HELI",
+            "value": "0x4AA"
+        },
+        {
+            "name": "IS_CHAR_IN_ANY_PLANE",
+            "value": "0x4AB"
+        },
+        {
+            "name": "IS_PLAYER_IN_ANY_PLANE",
+            "value": "0x4AC"
+        },
+        {
+            "name": "IS_CHAR_IN_WATER",
+            "value": "0x4AD"
+        },
+        {
+            "name": "SET_VAR_INT_TO_CONSTANT",
+            "value": "0x4AE"
+        },
+        {
+            "name": "SET_LVAR_INT_TO_CONSTANT",
+            "value": "0x4AF"
+        },
+        {
+            "name": "IS_INT_VAR_GREATER_THAN_CONSTANT",
+            "value": "0x4B0"
+        },
+        {
+            "name": "IS_INT_LVAR_GREATER_THAN_CONSTANT",
+            "value": "0x4B1"
+        },
+        {
+            "name": "IS_CONSTANT_GREATER_THAN_INT_VAR",
+            "value": "0x4B2"
+        },
+        {
+            "name": "IS_CONSTANT_GREATER_THAN_INT_LVAR",
+            "value": "0x4B3"
+        },
+        {
+            "name": "IS_INT_VAR_GREATER_OR_EQUAL_TO_CONSTANT",
+            "value": "0x4B4"
+        },
+        {
+            "name": "IS_INT_LVAR_GREATER_OR_EQUAL_TO_CONSTANT",
+            "value": "0x4B5"
+        },
+        {
+            "name": "IS_CONSTANT_GREATER_OR_EQUAL_TO_INT_VAR",
+            "value": "0x4B6"
+        },
+        {
+            "name": "IS_CONSTANT_GREATER_OR_EQUAL_TO_INT_LVAR",
+            "value": "0x4B7"
+        },
+        {
+            "name": "GET_CHAR_WEAPON_IN_SLOT",
+            "value": "0x4B8"
+        },
+        {
+            "name": "GET_CLOSEST_STRAIGHT_ROAD",
+            "value": "0x4B9"
+        },
+        {
+            "name": "SET_CAR_FORWARD_SPEED",
+            "value": "0x4BA"
+        },
+        {
+            "name": "SET_AREA_VISIBLE",
+            "value": "0x4BB"
+        },
+        {
+            "name": "SET_CUTSCENE_ANIM_TO_LOOP",
+            "value": "0x4BC"
+        },
+        {
+            "name": "MARK_CAR_AS_CONVOY_CAR",
+            "value": "0x4BD"
+        },
+        {
+            "name": "RESET_HAVOC_CAUSED_BY_PLAYER",
+            "value": "0x4BE"
+        },
+        {
+            "name": "GET_HAVOC_CAUSED_BY_PLAYER",
+            "value": "0x4BF"
+        },
+        {
+            "name": "CREATE_SCRIPT_ROADBLOCK",
+            "value": "0x4C0"
+        },
+        {
+            "name": "CLEAR_ALL_SCRIPT_ROADBLOCKS",
+            "value": "0x4C1"
+        },
+        {
+            "name": "SET_CHAR_OBJ_WALK_TO_CHAR",
+            "value": "0x4C2"
+        },
+        {
+            "name": "IS_PICKUP_IN_ZONE",
+            "value": "0x4C3"
+        },
+        {
+            "name": "GET_OFFSET_FROM_CHAR_IN_WORLD_COORDS",
+            "value": "0x4C4"
+        },
+        {
+            "name": "HAS_CHAR_BEEN_PHOTOGRAPHED",
+            "value": "0x4C5"
+        },
+        {
+            "name": "SET_CHAR_OBJ_AIM_GUN_AT_CHAR",
+            "value": "0x4C6"
+        },
+        {
+            "name": "SWITCH_SECURITY_CAMERA",
+            "value": "0x4C7"
+        },
+        {
+            "name": "IS_CHAR_IN_FLYING_VEHICLE",
+            "value": "0x4C8"
+        },
+        {
+            "name": "IS_PLAYER_IN_FLYING_VEHICLE",
+            "value": "0x4C9"
+        },
+        {
+            "name": "HAS_SONY_CD_BEEN_READ",
+            "value": "0x4CA"
+        },
+        {
+            "name": "GET_NUMBER_OF_SONY_CDS_READ",
+            "value": "0x4CB"
+        },
+        {
+            "name": "ADD_SHORT_RANGE_BLIP_FOR_COORD_OLD",
+            "value": "0x4CC"
+        },
+        {
+            "name": "ADD_SHORT_RANGE_BLIP_FOR_COORD",
+            "value": "0x4CD"
+        },
+        {
+            "name": "ADD_SHORT_RANGE_SPRITE_BLIP_FOR_COORD",
+            "value": "0x4CE"
+        },
+        {
+            "name": "ADD_MONEY_SPENT_ON_CLOTHES",
+            "value": "0x4CF"
+        },
+        {
+            "name": "SET_HELI_ORIENTATION",
+            "value": "0x4D0"
+        },
+        {
+            "name": "CLEAR_HELI_ORIENTATION",
+            "value": "0x4D1"
+        },
+        {
+            "name": "PLANE_GOTO_COORDS",
+            "value": "0x4D2"
+        },
+        {
+            "name": "GET_NTH_CLOSEST_CAR_NODE",
+            "value": "0x4D3"
+        },
+        {
+            "name": "GET_NTH_CLOSEST_CHAR_NODE",
+            "value": "0x4D4"
+        },
+        {
+            "name": "DRAW_WEAPONSHOP_CORONA",
+            "value": "0x4D5"
+        },
+        {
+            "name": "SET_ENABLE_RC_DETONATE_ON_CONTACT",
+            "value": "0x4D6"
+        },
+        {
+            "name": "FREEZE_CHAR_POSITION",
+            "value": "0x4D7"
+        },
+        {
+            "name": "SET_CHAR_DROWNS_IN_WATER",
+            "value": "0x4D8"
+        },
+        {
+            "name": "SET_OBJECT_RECORDS_COLLISIONS",
+            "value": "0x4D9"
+        },
+        {
+            "name": "HAS_OBJECT_COLLIDED_WITH_ANYTHING",
+            "value": "0x4DA"
+        },
+        {
+            "name": "REMOVE_RC_BUGGY",
+            "value": "0x4DB"
+        },
+        {
+            "name": "HAS_PHOTOGRAPH_BEEN_TAKEN",
+            "value": "0x4DC"
+        },
+        {
+            "name": "GET_CHAR_ARMOUR",
+            "value": "0x4DD"
+        },
+        {
+            "name": "SET_CHAR_ARMOUR",
+            "value": "0x4DE"
+        },
+        {
+            "name": "SET_HELI_STABILISER",
+            "value": "0x4DF"
+        },
+        {
+            "name": "SET_CAR_STRAIGHT_LINE_DISTANCE",
+            "value": "0x4E0"
+        },
+        {
+            "name": "POP_CAR_BOOT",
+            "value": "0x4E1"
+        },
+        {
+            "name": "SHUT_PLAYER_UP",
+            "value": "0x4E2"
+        },
+        {
+            "name": "SET_PLAYER_MOOD",
+            "value": "0x4E3"
+        },
+        {
+            "name": "REQUEST_COLLISION",
+            "value": "0x4E4"
+        },
+        {
+            "name": "LOCATE_OBJECT_2D",
+            "value": "0x4E5"
+        },
+        {
+            "name": "LOCATE_OBJECT_3D",
+            "value": "0x4E6"
+        },
+        {
+            "name": "IS_OBJECT_IN_WATER",
+            "value": "0x4E7"
+        },
+        {
+            "name": "SET_CHAR_OBJ_STEAL_ANY_CAR_EVEN_MISSION_CAR",
+            "value": "0x4E8"
+        },
+        {
+            "name": "IS_OBJECT_IN_AREA_2D",
+            "value": "0x4E9"
+        },
+        {
+            "name": "IS_OBJECT_IN_AREA_3D",
+            "value": "0x4EA"
+        },
+        {
+            "name": "SET_CHAR_CROUCH",
+            "value": "0x4EB"
+        },
+        {
+            "name": "SET_ZONE_CIVILIAN_CAR_INFO",
+            "value": "0x4EC"
+        },
+        {
+            "name": "REQUEST_ANIMATION",
+            "value": "0x4ED"
+        },
+        {
+            "name": "HAS_ANIMATION_LOADED",
+            "value": "0x4EE"
+        },
+        {
+            "name": "REMOVE_ANIMATION",
+            "value": "0x4EF"
+        },
+        {
+            "name": "IS_CHAR_WAITING_FOR_WORLD_COLLISION",
+            "value": "0x4F0"
+        },
+        {
+            "name": "IS_CAR_WAITING_FOR_WORLD_COLLISION",
+            "value": "0x4F1"
+        },
+        {
+            "name": "IS_OBJECT_WAITING_FOR_WORLD_COLLISION",
+            "value": "0x4F2"
+        },
+        {
+            "name": "SET_CHAR_SHUFFLE_INTO_DRIVERS_SEAT",
+            "value": "0x4F3"
+        },
+        {
+            "name": "ATTACH_CHAR_TO_OBJECT",
+            "value": "0x4F4"
+        },
+        {
+            "name": "SET_CHAR_AS_PLAYER_FRIEND",
+            "value": "0x4F5"
+        },
+        {
+            "name": "DISPLAY_NTH_ONSCREEN_COUNTER",
+            "value": "0x4F6"
+        },
+        {
+            "name": "DISPLAY_NTH_ONSCREEN_COUNTER_WITH_STRING",
+            "value": "0x4F7"
+        },
+        {
+            "name": "ADD_SET_PIECE",
+            "value": "0x4F8"
+        },
+        {
+            "name": "SET_EXTRA_COLOURS",
+            "value": "0x4F9"
+        },
+        {
+            "name": "CLEAR_EXTRA_COLOURS",
+            "value": "0x4FA"
+        },
+        {
+            "name": "CLOSE_CAR_BOOT",
+            "value": "0x4FB"
+        },
+        {
+            "name": "GET_WHEELIE_STATS",
+            "value": "0x4FC"
+        },
+        {
+            "name": "DISARM_CHAR",
+            "value": "0x4FD"
+        },
+        {
+            "name": "BURST_CAR_TYRE",
+            "value": "0x4FE"
+        },
+        {
+            "name": "IS_CHAR_OBJ_NO_OBJ",
+            "value": "0x4FF"
+        },
+        {
+            "name": "IS_PLAYER_WEARING",
+            "value": "0x500"
+        },
+        {
+            "name": "SET_PLAYER_CAN_DO_DRIVE_BY",
+            "value": "0x501"
+        },
+        {
+            "name": "SET_CHAR_OBJ_SPRINT_TO_COORD",
+            "value": "0x502"
+        },
+        {
+            "name": "CREATE_SWAT_ROPE",
+            "value": "0x503"
+        },
+        {
+            "name": "SET_FIRST_PERSON_CONTROL_CAMERA",
+            "value": "0x504"
+        },
+        {
+            "name": "GET_NEAREST_TYRE_TO_POINT",
+            "value": "0x505"
+        },
+        {
+            "name": "SET_CAR_MODEL_COMPONENTS",
+            "value": "0x506"
+        },
+        {
+            "name": "SWITCH_LIFT_CAMERA",
+            "value": "0x507"
+        },
+        {
+            "name": "CLOSE_ALL_CAR_DOORS",
+            "value": "0x508"
+        },
+        {
+            "name": "GET_DISTANCE_BETWEEN_COORDS_2D",
+            "value": "0x509"
+        },
+        {
+            "name": "GET_DISTANCE_BETWEEN_COORDS_3D",
+            "value": "0x50A"
+        },
+        {
+            "name": "POP_CAR_BOOT_USING_PHYSICS",
+            "value": "0x50B"
+        },
+        {
+            "name": "SET_FIRST_PERSON_WEAPON_CAMERA",
+            "value": "0x50C"
+        },
+        {
+            "name": "IS_CHAR_LEAVING_VEHICLE_TO_DIE",
+            "value": "0x50D"
+        },
+        {
+            "name": "SORT_OUT_OBJECT_COLLISION_WITH_CAR",
+            "value": "0x50E"
+        },
+        {
+            "name": "GET_MAX_WANTED_LEVEL",
+            "value": "0x50F"
+        },
+        {
+            "name": "IS_CHAR_WANDER_PATH_CLEAR",
+            "value": "0x510"
+        },
+        {
+            "name": "PRINT_HELP_WITH_NUMBER",
+            "value": "0x511"
+        },
+        {
+            "name": "PRINT_HELP_FOREVER",
+            "value": "0x512"
+        },
+        {
+            "name": "PRINT_HELP_FOREVER_WITH_NUMBER",
+            "value": "0x513"
+        },
+        {
+            "name": "SET_CHAR_CAN_BE_DAMAGED_BY_MEMBERS_OF_GANG",
+            "value": "0x514"
+        },
+        {
+            "name": "LOAD_AND_LAUNCH_MISSION_EXCLUSIVE",
+            "value": "0x515"
+        },
+        {
+            "name": "IS_MISSION_AUDIO_PLAYING",
+            "value": "0x516"
+        },
+        {
+            "name": "CREATE_LOCKED_PROPERTY_PICKUP",
+            "value": "0x517"
+        },
+        {
+            "name": "CREATE_FORSALE_PROPERTY_PICKUP",
+            "value": "0x518"
+        },
+        {
+            "name": "FREEZE_CAR_POSITION",
+            "value": "0x519"
+        },
+        {
+            "name": "HAS_CHAR_BEEN_DAMAGED_BY_CHAR",
+            "value": "0x51A"
+        },
+        {
+            "name": "HAS_CHAR_BEEN_DAMAGED_BY_CAR",
+            "value": "0x51B"
+        },
+        {
+            "name": "HAS_CAR_BEEN_DAMAGED_BY_CHAR",
+            "value": "0x51C"
+        },
+        {
+            "name": "HAS_CAR_BEEN_DAMAGED_BY_CAR",
+            "value": "0x51D"
+        },
+        {
+            "name": "GET_RADIO_CHANNEL",
+            "value": "0x51E"
+        },
+        {
+            "name": "DISPLAY_TEXT_WITH_3_NUMBERS",
+            "value": "0x51F"
+        },
+        {
+            "name": "IS_CAR_DROWNING_IN_WATER",
+            "value": "0x520"
+        },
+        {
+            "name": "IS_CHAR_DROWNING_IN_WATER",
+            "value": "0x521"
+        },
+        {
+            "name": "DISABLE_CUTSCENE_SHADOWS",
+            "value": "0x522"
+        },
+        {
+            "name": "HAS_GLASS_BEEN_SHATTERED_NEARBY",
+            "value": "0x523"
+        },
+        {
+            "name": "ATTACH_CUTSCENE_OBJECT_TO_BONE",
+            "value": "0x524"
+        },
+        {
+            "name": "ATTACH_CUTSCENE_OBJECT_TO_COMPONENT",
+            "value": "0x525"
+        },
+        {
+            "name": "SET_CHAR_STAY_IN_CAR_WHEN_JACKED",
+            "value": "0x526"
+        },
+        {
+            "name": "IS_MISSION_AUDIO_LOADING",
+            "value": "0x527"
+        },
+        {
+            "name": "ADD_MONEY_SPENT_ON_WEAPONS",
+            "value": "0x528"
+        },
+        {
+            "name": "ADD_MONEY_SPENT_ON_PROPERTY",
+            "value": "0x529"
+        },
+        {
+            "name": "ADD_MONEY_SPENT_ON_AUTO_PAINTING",
+            "value": "0x52A"
+        },
+        {
+            "name": "SET_CHAR_ANSWERING_MOBILE",
+            "value": "0x52B"
+        },
+        {
+            "name": "SET_PLAYER_DRUNKENNESS",
+            "value": "0x52C"
+        },
+        {
+            "name": "GET_PLAYER_DRUNKENNESS",
+            "value": "0x52D"
+        },
+        {
+            "name": "SET_PLAYER_DRUG_LEVEL",
+            "value": "0x52E"
+        },
+        {
+            "name": "GET_PLAYER_DRUG_LEVEL",
+            "value": "0x52F"
+        },
+        {
+            "name": "ADD_LOAN_SHARK_VISITS",
+            "value": "0x530"
+        },
+        {
+            "name": "ADD_STORES_KNOCKED_OFF",
+            "value": "0x531"
+        },
+        {
+            "name": "ADD_MOVIE_STUNTS",
+            "value": "0x532"
+        },
+        {
+            "name": "ADD_NUMBER_OF_ASSASSINATIONS",
+            "value": "0x533"
+        },
+        {
+            "name": "ADD_PIZZAS_DELIVERED",
+            "value": "0x534"
+        },
+        {
+            "name": "ADD_GARBAGE_PICKUPS",
+            "value": "0x535"
+        },
+        {
+            "name": "ADD_ICE_CREAMS_SOLD",
+            "value": "0x536"
+        },
+        {
+            "name": "SET_TOP_SHOOTING_RANGE_SCORE",
+            "value": "0x537"
+        },
+        {
+            "name": "ADD_SHOOTING_RANGE_RANK",
+            "value": "0x538"
+        },
+        {
+            "name": "ADD_MONEY_SPENT_ON_GAMBLING",
+            "value": "0x539"
+        },
+        {
+            "name": "ADD_MONEY_WON_ON_GAMBLING",
+            "value": "0x53A"
+        },
+        {
+            "name": "SET_LARGEST_GAMBLING_WIN",
+            "value": "0x53B"
+        },
+        {
+            "name": "SET_CHAR_IN_PLAYERS_GROUP_CAN_FIGHT",
+            "value": "0x53C"
+        },
+        {
+            "name": "CLEAR_CHAR_WAIT_STATE",
+            "value": "0x53D"
+        },
+        {
+            "name": "GET_RANDOM_CAR_OF_TYPE_IN_AREA_NO_SAVE",
+            "value": "0x53E"
+        },
+        {
+            "name": "SET_CAN_BURST_CAR_TYRES",
+            "value": "0x53F"
+        },
+        {
+            "name": "SET_PLAYER_AUTO_AIM",
+            "value": "0x540"
+        },
+        {
+            "name": "FIRE_HUNTER_GUN",
+            "value": "0x541"
+        },
+        {
+            "name": "SET_PROPERTY_AS_OWNED",
+            "value": "0x542"
+        },
+        {
+            "name": "ADD_BLOOD_RING_KILLS",
+            "value": "0x543"
+        },
+        {
+            "name": "SET_LONGEST_TIME_IN_BLOOD_RING",
+            "value": "0x544"
+        },
+        {
+            "name": "REMOVE_EVERYTHING_FOR_HUGE_CUTSCENE",
+            "value": "0x545"
+        },
+        {
+            "name": "IS_PLAYER_TOUCHING_VEHICLE",
+            "value": "0x546"
+        },
+        {
+            "name": "IS_CHAR_TOUCHING_VEHICLE",
+            "value": "0x547"
+        },
+        {
+            "name": "CHECK_FOR_PED_MODEL_AROUND_PLAYER",
+            "value": "0x548"
+        },
+        {
+            "name": "CLEAR_CHAR_FOLLOW_PATH",
+            "value": "0x549"
+        },
+        {
+            "name": "SET_CHAR_CAN_BE_SHOT_IN_VEHICLE",
+            "value": "0x54A"
+        },
+        {
+            "name": "ATTACH_CUTSCENE_OBJECT_TO_VEHICLE",
+            "value": "0x54B"
+        },
+        {
+            "name": "LOAD_MISSION_TEXT",
+            "value": "0x54C"
+        },
+        {
+            "name": "SET_TONIGHTS_EVENT",
+            "value": "0x54D"
+        },
+        {
+            "name": "CLEAR_CHAR_LAST_DAMAGE_ENTITY",
+            "value": "0x54E"
+        },
+        {
+            "name": "CLEAR_CAR_LAST_DAMAGE_ENTITY",
+            "value": "0x54F"
+        },
+        {
+            "name": "FREEZE_OBJECT_POSITION",
+            "value": "0x550"
+        },
+        {
+            "name": "SET_PLAYER_HAS_MET_DEBBIE_HARRY",
+            "value": "0x551"
+        },
+        {
+            "name": "SET_RIOT_INTENSITY",
+            "value": "0x552"
+        },
+        {
+            "name": "IS_CAR_IN_ANGLED_AREA_2D",
+            "value": "0x553"
+        },
+        {
+            "name": "IS_CAR_IN_ANGLED_AREA_3D",
+            "value": "0x554"
+        },
+        {
+            "name": "REMOVE_WEAPON_FROM_CHAR",
+            "value": "0x555"
+        },
+        {
+            "name": "SET_UP_TAXI_SHORTCUT",
+            "value": "0x556"
+        },
+        {
+            "name": "CLEAR_TAXI_SHORTCUT",
+            "value": "0x557"
+        },
+        {
+            "name": "SET_CHAR_OBJ_GOTO_CAR_ON_FOOT",
+            "value": "0x558"
+        },
+        {
+            "name": "GET_CLOSEST_WATER_NODE",
+            "value": "0x559"
+        },
+        {
+            "name": "ADD_PORN_LEAFLET_TO_RUBBISH",
+            "value": "0x55A"
+        },
+        {
+            "name": "CREATE_CLOTHES_PICKUP",
+            "value": "0x55B"
+        },
+        {
+            "name": "CHANGE_BLIP_THRESHOLD",
+            "value": "0x55C"
+        },
+        {
+            "name": "MAKE_PLAYER_FIRE_PROOF",
+            "value": "0x55D"
+        },
+        {
+            "name": "INCREASE_PLAYER_MAX_HEALTH",
+            "value": "0x55E"
+        },
+        {
+            "name": "INCREASE_PLAYER_MAX_ARMOUR",
+            "value": "0x55F"
+        },
+        {
+            "name": "CREATE_RANDOM_CHAR_AS_DRIVER",
+            "value": "0x560"
+        },
+        {
+            "name": "CREATE_RANDOM_CHAR_AS_PASSENGER",
+            "value": "0x561"
+        },
+        {
+            "name": "SET_CHAR_IGNORE_THREATS_BEHIND_OBJECTS",
+            "value": "0x562"
+        },
+        {
+            "name": "ENSURE_PLAYER_HAS_DRIVE_BY_WEAPON",
+            "value": "0x563"
+        },
+        {
+            "name": "MAKE_HELI_COME_CRASHING_DOWN",
+            "value": "0x564"
+        },
+        {
+            "name": "ADD_EXPLOSION_NO_SOUND",
+            "value": "0x565"
+        },
+        {
+            "name": "SET_OBJECT_AREA_VISIBLE",
+            "value": "0x566"
+        },
+        {
+            "name": "WAS_VEHICLE_EVER_POLICE",
+            "value": "0x567"
+        },
+        {
+            "name": "SET_CHAR_NEVER_TARGETTED",
+            "value": "0x568"
+        },
+        {
+            "name": "LOAD_UNCOMPRESSED_ANIM",
+            "value": "0x569"
+        },
+        {
+            "name": "WAS_CUTSCENE_SKIPPED",
+            "value": "0x56A"
+        },
+        {
+            "name": "SET_CHAR_CROUCH_WHEN_THREATENED",
+            "value": "0x56B"
+        },
+        {
+            "name": "IS_CHAR_IN_ANY_POLICE_VEHICLE",
+            "value": "0x56C"
+        },
+        {
+            "name": "DOES_CHAR_EXIST",
+            "value": "0x56D"
+        },
+        {
+            "name": "DOES_VEHICLE_EXIST",
+            "value": "0x56E"
+        },
+        {
+            "name": "ADD_SHORT_RANGE_BLIP_FOR_CONTACT_POINT",
+            "value": "0x56F"
+        },
+        {
+            "name": "ADD_SHORT_RANGE_SPRITE_BLIP_FOR_CONTACT_POINT",
+            "value": "0x570"
+        },
+        {
+            "name": "IS_CHAR_STUCK",
+            "value": "0x571"
+        },
+        {
+            "name": "SET_ALL_TAXIS_HAVE_NITRO",
+            "value": "0x572"
+        },
+        {
+            "name": "SET_CHAR_STOP_SHOOT_DONT_SEEK_ENTITY",
+            "value": "0x573"
+        },
+        {
+            "name": "FREEZE_CAR_POSITION_AND_DONT_LOAD_COLLISION",
+            "value": "0x574"
+        },
+        {
+            "name": "FREEZE_CHAR_POSITION_AND_DONT_LOAD_COLLISION",
+            "value": "0x575"
+        },
+        {
+            "name": "FREEZE_OBJECT_POSITION_AND_DONT_LOAD_COLLISION",
+            "value": "0x576"
+        },
+        {
+            "name": "SET_FADE_AND_JUMPCUT_AFTER_RC_EXPLOSION",
+            "value": "0x577"
+        },
+        {
+            "name": "REGISTER_VIGILANTE_LEVEL",
+            "value": "0x578"
+        },
+        {
+            "name": "CLEAR_ALL_CHAR_ANIMS",
+            "value": "0x579"
+        },
+        {
+            "name": "SET_MAXIMUM_NUMBER_OF_CARS_IN_GARAGE",
+            "value": "0x57A"
+        },
+        {
+            "name": "WANTED_STARS_ARE_FLASHING",
+            "value": "0x57B"
+        },
+        {
+            "name": "SET_ALLOW_HURRICANES",
+            "value": "0x57C"
+        },
+        {
+            "name": "PLAY_ANNOUNCEMENT",
+            "value": "0x57D"
+        },
+        {
+            "name": "SET_PLAYER_IS_IN_STADIUM",
+            "value": "0x57E"
+        },
+        {
+            "name": "GET_BUS_FARES_COLLECTED_BY_PLAYER",
+            "value": "0x57F"
+        },
+        {
+            "name": "SET_CHAR_OBJ_BUY_ICE_CREAM",
+            "value": "0x580"
+        },
+        {
+            "name": "DISPLAY_RADAR",
+            "value": "0x581"
+        },
+        {
+            "name": "REGISTER_BEST_POSITION",
+            "value": "0x582"
+        },
+        {
+            "name": "IS_PLAYER_IN_INFO_ZONE",
+            "value": "0x583"
+        },
+        {
+            "name": "CLEAR_CHAR_ICE_CREAM_PURCHASE",
+            "value": "0x584"
+        },
+        {
+            "name": "IS_IN_CAR_FIRE_BUTTON_PRESSED",
+            "value": "0x585"
+        },
+        {
+            "name": "HAS_CHAR_ATTEMPTED_ATTRACTOR",
+            "value": "0x586"
+        },
+        {
+            "name": "SET_LOAD_COLLISION_FOR_CAR_FLAG",
+            "value": "0x587"
+        },
+        {
+            "name": "SET_LOAD_COLLISION_FOR_CHAR_FLAG",
+            "value": "0x588"
+        },
+        {
+            "name": "SET_LOAD_COLLISION_FOR_OBJECT_FLAG",
+            "value": "0x589"
+        },
+        {
+            "name": "ADD_BIG_GUN_FLASH",
+            "value": "0x58A"
+        },
+        {
+            "name": "HAS_CHAR_BOUGHT_ICE_CREAM",
+            "value": "0x58B"
+        },
+        {
+            "name": "GET_PROGRESS_PERCENTAGE",
+            "value": "0x58C"
+        },
+        {
+            "name": "SET_SHORTCUT_PICKUP_POINT",
+            "value": "0x58D"
+        },
+        {
+            "name": "SET_SHORTCUT_DROPOFF_POINT_FOR_MISSION",
+            "value": "0x58E"
+        },
+        {
+            "name": "GET_RANDOM_ICE_CREAM_CUSTOMER_IN_AREA",
+            "value": "0x58F"
+        },
+        {
+            "name": "GET_RANDOM_ICE_CREAM_CUSTOMER_IN_ZONE",
+            "value": "0x590"
+        },
+        {
+            "name": "UNLOCK_ALL_CAR_DOORS_IN_AREA",
+            "value": "0x591"
+        },
+        {
+            "name": "SET_GANG_ATTACK_PLAYER_WITH_COPS",
+            "value": "0x592"
+        },
+        {
+            "name": "SET_CHAR_FRIGHTENED_IN_JACKED_CAR",
+            "value": "0x593"
+        },
+        {
+            "name": "SET_VEHICLE_TO_FADE_IN",
+            "value": "0x594"
+        },
+        {
+            "name": "REGISTER_ODDJOB_MISSION_PASSED",
+            "value": "0x595"
+        },
+        {
+            "name": "IS_PLAYER_IN_SHORTCUT_TAXI",
+            "value": "0x596"
+        },
+        {
+            "name": "IS_CHAR_DUCKING",
+            "value": "0x597"
+        },
+        {
+            "name": "CREATE_DUST_EFFECT_FOR_CUTSCENE_HELI",
+            "value": "0x598"
+        },
+        {
+            "name": "REGISTER_FIRE_LEVEL",
+            "value": "0x599"
+        },
+        {
+            "name": "IS_AUSTRALIAN_GAME",
+            "value": "0x59A"
+        },
+        {
+            "name": "DISARM_CAR_BOMB",
+            "value": "0x59B"
+        },
+        {
+            "name": "SET_ONSCREEN_COUNTER_FLASH_WHEN_FIRST_DISPLAYED",
+            "value": "0x59C"
+        },
+        {
+            "name": "SHUFFLE_CARD_DECKS",
+            "value": "0x59D"
+        },
+        {
+            "name": "FETCH_NEXT_CARD",
+            "value": "0x59E"
+        },
+        {
+            "name": "GET_OBJECT_VELOCITY",
+            "value": "0x59F"
+        },
+        {
+            "name": "IS_DEBUG_CAMERA_ON",
+            "value": "0x5A0"
+        },
+        {
+            "name": "ADD_TO_OBJECT_ROTATION_VELOCITY",
+            "value": "0x5A1"
+        },
+        {
+            "name": "SET_OBJECT_ROTATION_VELOCITY",
+            "value": "0x5A2"
+        },
+        {
+            "name": "IS_OBJECT_STATIC",
+            "value": "0x5A3"
+        },
+        {
+            "name": "GET_ANGLE_BETWEEN_2D_VECTORS",
+            "value": "0x5A4"
+        },
+        {
+            "name": "DO_2D_RECTANGLES_COLLIDE",
+            "value": "0x5A5"
+        },
+        {
+            "name": "GET_OBJECT_ROTATION_VELOCITY",
+            "value": "0x5A6"
+        },
+        {
+            "name": "ADD_VELOCITY_RELATIVE_TO_OBJECT_VELOCITY",
+            "value": "0x5A7"
+        },
+        {
+            "name": "GET_OBJECT_SPEED",
+            "value": "0x5A8"
+        }
+    ]
+}

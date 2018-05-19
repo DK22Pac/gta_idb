@@ -1,0 +1,17 @@
+{
+    "name": "CPlaceable",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x48",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_matrix",
+            "type": "CMatrix",
+            "offset": 0,
+            "size": "0x48"
+        }
+    ]
+}

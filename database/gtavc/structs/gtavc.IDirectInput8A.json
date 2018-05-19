@@ -1,0 +1,17 @@
+{
+    "name": "IDirectInput8A",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 4,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "vtable",
+            "type": "IDirectInput8A_vtable *",
+            "offset": 0,
+            "size": 4
+        }
+    ]
+}

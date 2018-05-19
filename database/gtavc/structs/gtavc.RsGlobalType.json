@@ -1,0 +1,77 @@
+{
+    "name": "RsGlobalType",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x44",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "appName",
+            "type": "char *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "maximumWidth",
+            "type": "int",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "maximumHeight",
+            "type": "int",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "screenWidth",
+            "type": "int",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "screenHeight",
+            "type": "int",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "maxFPS",
+            "type": "int",
+            "offset": "0x14",
+            "size": 4
+        },
+        {
+            "name": "quit",
+            "type": "int",
+            "offset": "0x18",
+            "size": 4
+        },
+        {
+            "name": "ps",
+            "type": "PsGlobalType *",
+            "offset": "0x1C",
+            "size": 4
+        },
+        {
+            "name": "keyboard",
+            "type": "RsInputDevice",
+            "offset": "0x20",
+            "size": "0xC"
+        },
+        {
+            "name": "mouse",
+            "type": "RsInputDevice",
+            "offset": "0x2C",
+            "size": "0xC"
+        },
+        {
+            "name": "pad",
+            "type": "RsInputDevice",
+            "offset": "0x38",
+            "size": "0xC"
+        }
+    ]
+}

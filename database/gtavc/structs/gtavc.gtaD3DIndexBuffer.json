@@ -1,0 +1,47 @@
+{
+    "name": "gtaD3DIndexBuffer",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x18",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "format",
+            "type": "int",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "field_4",
+            "type": "int",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "depth",
+            "type": "int",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "field_C",
+            "type": "int",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "field_10",
+            "type": "_DWORD",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "data",
+            "type": "_DWORD",
+            "offset": "0x14",
+            "size": 4
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "HWND__",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 4,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "unused",
+            "type": "int",
+            "offset": 0,
+            "size": 4
+        }
+    ]
+}

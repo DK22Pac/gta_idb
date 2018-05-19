@@ -1,0 +1,71 @@
+{
+    "name": "CDoor",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x24",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_fOpenAngle",
+            "type": "float",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "m_fClosedAngle",
+            "type": "float",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "m_bDirn",
+            "type": "_BYTE",
+            "offset": 8,
+            "size": 1
+        },
+        {
+            "name": "m_bAxis",
+            "type": "_BYTE",
+            "offset": 9,
+            "size": 1
+        },
+        {
+            "name": "m_bState",
+            "type": "_BYTE",
+            "offset": "0xA",
+            "size": 1
+        },
+        {
+            "name": "_padB",
+            "type": "_BYTE[1]",
+            "offset": "0xB",
+            "size": 1
+        },
+        {
+            "name": "m_fAngle",
+            "type": "float",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "m_fPrevAngle",
+            "type": "float",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "m_fAngVel",
+            "type": "float",
+            "offset": "0x14",
+            "size": 4
+        },
+        {
+            "name": "field_18",
+            "type": "CVector",
+            "offset": "0x18",
+            "size": "0xC"
+        }
+    ]
+}

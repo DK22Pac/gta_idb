@@ -1,0 +1,23 @@
+{
+    "name": "IFrame",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x1C",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_qOrientation",
+            "type": "RtQuat",
+            "offset": 0,
+            "size": "0x10"
+        },
+        {
+            "name": "m_vecTranslation",
+            "type": "RwV3d",
+            "offset": "0x10",
+            "size": "0xC"
+        }
+    ]
+}

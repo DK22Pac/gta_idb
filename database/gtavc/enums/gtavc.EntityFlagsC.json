@@ -1,0 +1,45 @@
+{
+    "name": "EntityFlagsC",
+    "module": "",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": true,
+    "comment": "",
+    "members": [
+        {
+            "name": "bEntUFlag17",
+            "value": "0x1"
+        },
+        {
+            "name": "bBulletProof",
+            "value": "0x2"
+        },
+        {
+            "name": "bFireProof",
+            "value": "0x4"
+        },
+        {
+            "name": "bCollisionProof",
+            "value": "0x8"
+        },
+        {
+            "name": "bEntUFlag21",
+            "value": "0x10"
+        },
+        {
+            "name": "bEntUFlag22",
+            "value": "0x20"
+        },
+        {
+            "name": "bEntUFlag23",
+            "value": "0x40"
+        },
+        {
+            "name": "bRemoveFromWorld",
+            "value": "0x80"
+        }
+    ]
+}

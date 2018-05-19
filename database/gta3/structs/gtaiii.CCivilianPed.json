@@ -1,0 +1,19 @@
+{
+    "name": "CCivilianPed",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x53C",
+    "alignment": 0,
+    "vtableAddress": "0x604F7C",
+    "vtableSize": 19,
+    "comment": "",
+    "members": [
+        {
+            "name": "ped",
+            "type": "CPed",
+            "offset": 0,
+            "size": "0x53C"
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "name": "__m64",
+    "module": "",
+    "scope": "",
+    "kind": "union",
+    "size": 8,
+    "alignment": 3,
+    "comment": "",
+    "members": [
+        {
+            "name": "m64_u64",
+            "type": "unsigned __int64",
+            "offset": 0,
+            "size": 8
+        },
+        {
+            "name": "m64_f32",
+            "type": "float[2]",
+            "offset": 0,
+            "size": 8
+        },
+        {
+            "name": "m64_i8",
+            "type": "__int8[8]",
+            "offset": 0,
+            "size": 8
+        },
+        {
+            "name": "m64_i16",
+            "type": "__int16[4]",
+            "offset": 0,
+            "size": 8
+        },
+        {
+            "name": "m64_i32",
+            "type": "__int32[2]",
+            "offset": 0,
+            "size": 8
+        },
+        {
+            "name": "m64_i64",
+            "type": "__int64",
+            "offset": 0,
+            "size": 8
+        },
+        {
+            "name": "m64_u8",
+            "type": "unsigned __int8[8]",
+            "offset": 0,
+            "size": 8
+        },
+        {
+            "name": "m64_u16",
+            "type": "unsigned __int16[4]",
+            "offset": 0,
+            "size": 8
+        },
+        {
+            "name": "m64_u32",
+            "type": "unsigned __int32[2]",
+            "offset": 0,
+            "size": 8
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "name": "CColTriangle",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 8,
+    "alignment": 1,
+    "comment": "",
+    "members": [
+        {
+            "name": "vert1",
+            "type": "_WORD",
+            "offset": 0,
+            "size": 2
+        },
+        {
+            "name": "vert2",
+            "type": "__int16",
+            "offset": 2,
+            "size": 2
+        },
+        {
+            "name": "vert3",
+            "type": "__int16",
+            "offset": 4,
+            "size": 2
+        },
+        {
+            "name": "material",
+            "type": "char",
+            "offset": 6,
+            "size": 1
+        },
+        {
+            "name": "light",
+            "type": "char",
+            "offset": 7,
+            "size": 1
+        }
+    ]
+}

@@ -1,0 +1,245 @@
+{
+    "name": "CPlayerInfo",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x13C",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "pPed",
+            "type": "CPed *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "m_pRemoteVehicle",
+            "type": "CVehicle *",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "f8",
+            "type": "_BYTE[88]",
+            "offset": 8,
+            "size": "0x58"
+        },
+        {
+            "name": "dword60",
+            "type": "_DWORD",
+            "offset": "0x60",
+            "size": 4
+        },
+        {
+            "name": "f64",
+            "type": "_BYTE[72]",
+            "offset": "0x64",
+            "size": "0x48"
+        },
+        {
+            "name": "m_dwScore",
+            "type": "_DWORD",
+            "offset": "0xAC",
+            "size": 4
+        },
+        {
+            "name": "dwordB0",
+            "type": "_DWORD",
+            "offset": "0xB0",
+            "size": 4
+        },
+        {
+            "name": "dwordB4",
+            "type": "_DWORD",
+            "offset": "0xB4",
+            "size": 4
+        },
+        {
+            "name": "dwordB8",
+            "type": "_DWORD",
+            "offset": "0xB8",
+            "size": 4
+        },
+        {
+            "name": "fBC",
+            "type": "_BYTE[4]",
+            "offset": "0xBC",
+            "size": 4
+        },
+        {
+            "name": "dwordC0",
+            "type": "_DWORD",
+            "offset": "0xC0",
+            "size": 4
+        },
+        {
+            "name": "byteC4",
+            "type": "_BYTE",
+            "offset": "0xC4",
+            "size": 1
+        },
+        {
+            "name": "fC5",
+            "type": "_BYTE[3]",
+            "offset": "0xC5",
+            "size": 3
+        },
+        {
+            "name": "dwordC8",
+            "type": "_DWORD",
+            "offset": "0xC8",
+            "size": 4
+        },
+        {
+            "name": "dwordCC",
+            "type": "_DWORD",
+            "offset": "0xCC",
+            "size": 4
+        },
+        {
+            "name": "dwordD0",
+            "type": "_DWORD",
+            "offset": "0xD0",
+            "size": 4
+        },
+        {
+            "name": "dwordD4",
+            "type": "_DWORD",
+            "offset": "0xD4",
+            "size": 4
+        },
+        {
+            "name": "byteD8",
+            "type": "_BYTE",
+            "offset": "0xD8",
+            "size": 1
+        },
+        {
+            "name": "fD9",
+            "type": "_BYTE[3]",
+            "offset": "0xD9",
+            "size": 3
+        },
+        {
+            "name": "dwordDC",
+            "type": "_DWORD",
+            "offset": "0xDC",
+            "size": 4
+        },
+        {
+            "name": "byteE0",
+            "type": "_BYTE",
+            "offset": "0xE0",
+            "size": 1
+        },
+        {
+            "name": "fE1",
+            "type": "char[3]",
+            "offset": "0xE1",
+            "size": 3
+        },
+        {
+            "name": "field_E4",
+            "type": "int",
+            "offset": "0xE4",
+            "size": 4
+        },
+        {
+            "name": "dwordE8",
+            "type": "_DWORD",
+            "offset": "0xE8",
+            "size": 4
+        },
+        {
+            "name": "dwordEC",
+            "type": "_DWORD",
+            "offset": "0xEC",
+            "size": 4
+        },
+        {
+            "name": "dwordF0",
+            "type": "_DWORD",
+            "offset": "0xF0",
+            "size": 4
+        },
+        {
+            "name": "dwordF4",
+            "type": "_DWORD",
+            "offset": "0xF4",
+            "size": 4
+        },
+        {
+            "name": "dwordF8",
+            "type": "_DWORD",
+            "offset": "0xF8",
+            "size": 4
+        },
+        {
+            "name": "wordFC",
+            "type": "_WORD",
+            "offset": "0xFC",
+            "size": 2
+        },
+        {
+            "name": "fFE",
+            "type": "_BYTE[2]",
+            "offset": "0xFE",
+            "size": 2
+        },
+        {
+            "name": "float100",
+            "type": "float",
+            "offset": "0x100",
+            "size": 4
+        },
+        {
+            "name": "dword104",
+            "type": "_DWORD",
+            "offset": "0x104",
+            "size": 4
+        },
+        {
+            "name": "dword108",
+            "type": "_DWORD",
+            "offset": "0x108",
+            "size": 4
+        },
+        {
+            "name": "f10C",
+            "type": "_BYTE[8]",
+            "offset": "0x10C",
+            "size": 8
+        },
+        {
+            "name": "byte114",
+            "type": "_BYTE",
+            "offset": "0x114",
+            "size": 1
+        },
+        {
+            "name": "byte115",
+            "type": "_BYTE",
+            "offset": "0x115",
+            "size": 1
+        },
+        {
+            "name": "byte116",
+            "type": "_BYTE",
+            "offset": "0x116",
+            "size": 1
+        },
+        {
+            "name": "byte117",
+            "type": "_BYTE",
+            "offset": "0x117",
+            "size": 1
+        },
+        {
+            "name": "field_118",
+            "type": "char[36]",
+            "offset": "0x118",
+            "size": "0x24"
+        }
+    ]
+}

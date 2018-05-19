@@ -1,0 +1,65 @@
+{
+    "name": "RwFreeList",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x28",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "freeListStack",
+            "type": "void **",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "freeListStackTop",
+            "type": "void **",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "firstBlock",
+            "type": "RwFreeBlock *",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "blockSize",
+            "type": "int",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "entrySize",
+            "type": "int",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "alignmentMinusOne",
+            "type": "int",
+            "offset": "0x14",
+            "size": 4
+        },
+        {
+            "name": "entriesPerBlock",
+            "type": "int",
+            "offset": "0x18",
+            "size": 4
+        },
+        {
+            "name": "entriesAllocated",
+            "type": "int",
+            "offset": "0x1C",
+            "size": 4
+        },
+        {
+            "name": "lFreeList",
+            "type": "RwLLLink",
+            "offset": "0x20",
+            "size": 8
+        }
+    ]
+}

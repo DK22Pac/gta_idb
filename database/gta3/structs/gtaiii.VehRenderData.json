@@ -1,0 +1,29 @@
+{
+    "name": "VehRenderData",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0xC",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_pVehicleModel",
+            "type": "CVehicleModelInfo *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "m_nPrimaryColMatLast",
+            "type": "int",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "m_nSecondaryColMatLast",
+            "type": "int",
+            "offset": 8,
+            "size": 4
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "name": "CWeapon",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x18",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "nWeaponId",
+            "type": "int",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "nWeaponState",
+            "type": "int",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "nAmmoLoaded",
+            "type": "int",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "nAmmoTotal",
+            "type": "int",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "dwNextShotTime",
+            "type": "int",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "bAddRotOffset",
+            "type": "char",
+            "offset": "0x14",
+            "size": 1
+        },
+        {
+            "name": "__f0015",
+            "type": "char[3]",
+            "offset": "0x15",
+            "size": 3
+        }
+    ]
+}

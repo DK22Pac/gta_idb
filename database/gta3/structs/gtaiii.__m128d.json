@@ -1,0 +1,17 @@
+{
+    "name": "__m128d",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x10",
+    "alignment": 4,
+    "comment": "",
+    "members": [
+        {
+            "name": "m128d_f64",
+            "type": "double[2]",
+            "offset": 0,
+            "size": "0x10"
+        }
+    ]
+}

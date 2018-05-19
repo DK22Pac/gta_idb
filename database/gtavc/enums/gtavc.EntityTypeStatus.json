@@ -1,0 +1,21 @@
+{
+    "name": "EntityTypeStatus",
+    "module": "",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": true,
+    "comment": "",
+    "members": [
+        {
+            "name": "nEntType",
+            "value": "0x7"
+        },
+        {
+            "name": "nControlStatus",
+            "value": "0xF8"
+        }
+    ]
+}

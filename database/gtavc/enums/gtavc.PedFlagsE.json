@@ -1,0 +1,45 @@
+{
+    "name": "PedFlagsE",
+    "module": "",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": true,
+    "comment": "",
+    "members": [
+        {
+            "name": "bKindaStayInSamePlace",
+            "value": "0x1"
+        },
+        {
+            "name": "bBeingChasedByPolice",
+            "value": "0x2"
+        },
+        {
+            "name": "bNotAllowedToDuck",
+            "value": "0x4"
+        },
+        {
+            "name": "bCrouchWhenShooting",
+            "value": "0x8"
+        },
+        {
+            "name": "bIsDucking",
+            "value": "0x10"
+        },
+        {
+            "name": "bGetUpAnimStarted",
+            "value": "0x20"
+        },
+        {
+            "name": "bDoBloodyFootprints",
+            "value": "0x40"
+        },
+        {
+            "name": "bPedFlags40",
+            "value": "0x80"
+        }
+    ]
+}

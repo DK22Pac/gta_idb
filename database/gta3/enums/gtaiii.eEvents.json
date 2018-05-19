@@ -1,0 +1,21 @@
+{
+    "name": "eEvents",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "EVENT_GUNSHOT",
+            "value": "0x4"
+        },
+        {
+            "name": "EVENT_DEAD_PED",
+            "value": "0x6"
+        }
+    ]
+}

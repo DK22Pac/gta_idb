@@ -1,0 +1,121 @@
+{
+    "name": "CTrain",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x2E4",
+    "alignment": 2,
+    "vtableAddress": "0x60EDDC",
+    "vtableSize": 35,
+    "comment": "",
+    "members": [
+        {
+            "name": "vehicle",
+            "type": "CVehicle",
+            "offset": 0,
+            "size": "0x288"
+        },
+        {
+            "name": "m_fCurrentSpeedLimit",
+            "type": "float",
+            "offset": "0x288",
+            "size": 4
+        },
+        {
+            "name": "m_nCarriageId",
+            "type": "unsigned __int16",
+            "offset": "0x28C",
+            "size": 2
+        },
+        {
+            "name": "m_nHideModel",
+            "type": "__int16",
+            "offset": "0x28E",
+            "size": 2
+        },
+        {
+            "name": "m_nCurrentPathPoint",
+            "type": "__int16",
+            "offset": "0x290",
+            "size": 2
+        },
+        {
+            "name": "m_nTrainId",
+            "type": "__int16",
+            "offset": "0x292",
+            "size": 2
+        },
+        {
+            "name": "m_fVelocity",
+            "type": "float",
+            "offset": "0x294",
+            "size": 4
+        },
+        {
+            "name": "m_bTrainDoorProcessing",
+            "type": "_BYTE",
+            "offset": "0x298",
+            "size": 1
+        },
+        {
+            "name": "m_bTrainDoorOpening",
+            "type": "_BYTE",
+            "offset": "0x299",
+            "size": 1
+        },
+        {
+            "name": "m_bFirstCarriage",
+            "type": "char",
+            "offset": "0x29A",
+            "size": 1
+        },
+        {
+            "name": "m_bLastCarriage",
+            "type": "char",
+            "offset": "0x29B",
+            "size": 1
+        },
+        {
+            "name": "m_bTrackId",
+            "type": "char",
+            "offset": "0x29C",
+            "size": 1
+        },
+        {
+            "name": "_pad29D",
+            "type": "char[3]",
+            "offset": "0x29D",
+            "size": 3
+        },
+        {
+            "name": "m_nTrainDoorProcessingTime",
+            "type": "_DWORD",
+            "offset": "0x2A0",
+            "size": 4
+        },
+        {
+            "name": "m_nDoorsState",
+            "type": "_WORD",
+            "offset": "0x2A4",
+            "size": 2
+        },
+        {
+            "name": "_pad2A6",
+            "type": "_BYTE[2]",
+            "offset": "0x2A6",
+            "size": 2
+        },
+        {
+            "name": "m_trainDoor",
+            "type": "CTrainDoor[2]",
+            "offset": "0x2A8",
+            "size": "0x30"
+        },
+        {
+            "name": "m_pTrainNode",
+            "type": "RwFrame *[3]",
+            "offset": "0x2D8",
+            "size": "0xC"
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "name": "CMatrix",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x48",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "right",
+            "type": "CVector",
+            "offset": 0,
+            "size": "0xC"
+        },
+        {
+            "name": "_padC",
+            "type": "int",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "top",
+            "type": "CVector",
+            "offset": "0x10",
+            "size": "0xC"
+        },
+        {
+            "name": "_pad1C",
+            "type": "int",
+            "offset": "0x1C",
+            "size": 4
+        },
+        {
+            "name": "at",
+            "type": "CVector",
+            "offset": "0x20",
+            "size": "0xC"
+        },
+        {
+            "name": "_pad2C",
+            "type": "int",
+            "offset": "0x2C",
+            "size": 4
+        },
+        {
+            "name": "pos",
+            "type": "CVector",
+            "offset": "0x30",
+            "size": "0xC"
+        },
+        {
+            "name": "_pad3C",
+            "type": "int",
+            "offset": "0x3C",
+            "size": 4
+        },
+        {
+            "name": "attachedMatrix",
+            "type": "CMatrix *",
+            "offset": "0x40",
+            "size": 4
+        },
+        {
+            "name": "bOwnsAttachedMatrix",
+            "type": "char",
+            "offset": "0x44",
+            "size": 1
+        },
+        {
+            "name": "_pad45",
+            "type": "char[3]",
+            "offset": "0x45",
+            "size": 3
+        }
+    ]
+}

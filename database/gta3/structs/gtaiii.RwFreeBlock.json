@@ -1,0 +1,17 @@
+{
+    "name": "RwFreeBlock",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 4,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "nextBlock",
+            "type": "void *",
+            "offset": 0,
+            "size": 4
+        }
+    ]
+}

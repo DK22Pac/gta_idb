@@ -1,0 +1,47 @@
+{
+    "name": "CProjectileInfo",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x1C",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_nWeaponType",
+            "type": "unsigned int",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "m_pCreator",
+            "type": "CEntity *",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "m_nDestroyTime",
+            "type": "int",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "m_bActive",
+            "type": "bool",
+            "offset": "0xC",
+            "size": 1
+        },
+        {
+            "name": "_padD",
+            "type": "char[3]",
+            "offset": "0xD",
+            "size": 3
+        },
+        {
+            "name": "m_vecPosn",
+            "type": "CVector",
+            "offset": "0x10",
+            "size": "0xC"
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "name": "PedFlagsD",
+    "module": "",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": true,
+    "comment": "",
+    "members": [
+        {
+            "name": "bPedFlags60a",
+            "value": "0x1"
+        },
+        {
+            "name": "bPedFlags60b",
+            "value": "0x2"
+        },
+        {
+            "name": "bPedIsBleeding",
+            "value": "0x4"
+        },
+        {
+            "name": "bStopAndShoot",
+            "value": "0x8"
+        },
+        {
+            "name": "bIsPedDieAnimPlaying",
+            "value": "0x10"
+        },
+        {
+            "name": "bPedFlags30",
+            "value": "0x20"
+        },
+        {
+            "name": "bPedFlags31",
+            "value": "0x40"
+        },
+        {
+            "name": "bPedFlags32",
+            "value": "0x80"
+        }
+    ]
+}

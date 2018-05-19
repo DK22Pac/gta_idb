@@ -1,0 +1,23 @@
+{
+    "name": "_LIST_ENTRY",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 8,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "Flink",
+            "type": "_LIST_ENTRY *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "Blink",
+            "type": "_LIST_ENTRY *",
+            "offset": 4,
+            "size": 4
+        }
+    ]
+}

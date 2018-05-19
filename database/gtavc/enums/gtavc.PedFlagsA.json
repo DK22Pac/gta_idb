@@ -1,0 +1,45 @@
+{
+    "name": "PedFlagsA",
+    "module": "",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": true,
+    "comment": "",
+    "members": [
+        {
+            "name": "bIsStanding",
+            "value": "0x1"
+        },
+        {
+            "name": "bWasStanding",
+            "value": "0x2"
+        },
+        {
+            "name": "bPedFlags03",
+            "value": "0x4"
+        },
+        {
+            "name": "bIsPointingGunAt",
+            "value": "0x8"
+        },
+        {
+            "name": "bIsLooking",
+            "value": "0x10"
+        },
+        {
+            "name": "bPedFlags06",
+            "value": "0x20"
+        },
+        {
+            "name": "bIsRestoringLook",
+            "value": "0x40"
+        },
+        {
+            "name": "bIsAimingGun",
+            "value": "0x80"
+        }
+    ]
+}

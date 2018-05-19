@@ -1,0 +1,47 @@
+{
+    "name": "RpClump",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0xD4",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "object",
+            "type": "RwObject",
+            "offset": 0,
+            "size": 8
+        },
+        {
+            "name": "atomicList",
+            "type": "RwLinkList",
+            "offset": 8,
+            "size": "0x40"
+        },
+        {
+            "name": "lightList",
+            "type": "RwLinkList",
+            "offset": "0x48",
+            "size": "0x40"
+        },
+        {
+            "name": "cameraList",
+            "type": "RwLinkList",
+            "offset": "0x88",
+            "size": "0x40"
+        },
+        {
+            "name": "inWorldLink",
+            "type": "RwLLLink",
+            "offset": "0xC8",
+            "size": 8
+        },
+        {
+            "name": "callback",
+            "type": "int",
+            "offset": "0xD0",
+            "size": 4
+        }
+    ]
+}

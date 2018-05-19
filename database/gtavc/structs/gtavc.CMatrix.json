@@ -1,0 +1,71 @@
+{
+    "name": "CMatrix",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x48",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "right",
+            "type": "CVector",
+            "offset": 0,
+            "size": "0xC"
+        },
+        {
+            "name": "pad0",
+            "type": "int",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "at",
+            "type": "CVector",
+            "offset": "0x10",
+            "size": "0xC"
+        },
+        {
+            "name": "pad1",
+            "type": "int",
+            "offset": "0x1C",
+            "size": 4
+        },
+        {
+            "name": "up",
+            "type": "CVector",
+            "offset": "0x20",
+            "size": "0xC"
+        },
+        {
+            "name": "pad2",
+            "type": "int",
+            "offset": "0x2C",
+            "size": 4
+        },
+        {
+            "name": "pos",
+            "type": "CVector",
+            "offset": "0x30",
+            "size": "0xC"
+        },
+        {
+            "name": "pad4",
+            "type": "int",
+            "offset": "0x3C",
+            "size": 4
+        },
+        {
+            "name": "pAttached",
+            "type": "int",
+            "offset": "0x40",
+            "size": 4
+        },
+        {
+            "name": "bDeleteOnDetach",
+            "type": "int",
+            "offset": "0x44",
+            "size": 4
+        }
+    ]
+}

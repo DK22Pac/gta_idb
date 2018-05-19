@@ -1,0 +1,45 @@
+{
+    "name": "PedFlagsI",
+    "module": "",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": true,
+    "comment": "",
+    "members": [
+        {
+            "name": "bShakeFist",
+            "value": "0x1"
+        },
+        {
+            "name": "bNoCriticalHits",
+            "value": "0x2"
+        },
+        {
+            "name": "bPedFlags67",
+            "value": "0x4"
+        },
+        {
+            "name": "bHasAlreadyBeenRecorded",
+            "value": "0x8"
+        },
+        {
+            "name": "bFallenDown",
+            "value": "0x10"
+        },
+        {
+            "name": "bUpdateMatricesRequired",
+            "value": "0x20"
+        },
+        {
+            "name": "bPedFlags71",
+            "value": "0x40"
+        },
+        {
+            "name": "bPedFlags72",
+            "value": "0x80"
+        }
+    ]
+}

@@ -1,0 +1,294 @@
+{
+    "name": "CPlayerPed",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x6D8",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "ped",
+            "type": "CPed",
+            "offset": 0,
+            "size": "0x5F4"
+        },
+        {
+            "name": "m_pWanted",
+            "type": "_DWORD",
+            "offset": "0x5F4",
+            "size": 4
+        },
+        {
+            "name": "field_5F8",
+            "type": "_DWORD",
+            "offset": "0x5F8",
+            "size": 4
+        },
+        {
+            "name": "field_5FC",
+            "type": "float",
+            "offset": "0x5FC",
+            "size": 4
+        },
+        {
+            "name": "field_600",
+            "type": "float",
+            "offset": "0x600",
+            "size": 4
+        },
+        {
+            "name": "field_604",
+            "type": "float",
+            "offset": "0x604",
+            "size": 4
+        },
+        {
+            "name": "field_608",
+            "type": "_DWORD",
+            "offset": "0x608",
+            "size": 4
+        },
+        {
+            "name": "m_nChosenWeapon",
+            "type": "_BYTE",
+            "offset": "0x60C",
+            "size": 1
+        },
+        {
+            "name": "field_60D",
+            "type": "_BYTE",
+            "offset": "0x60D",
+            "size": 1
+        },
+        {
+            "name": "field_60E",
+            "type": "_BYTE",
+            "offset": "0x60E",
+            "size": 1
+        },
+        {
+            "name": "field_610",
+            "type": "_DWORD",
+            "offset": "0x610",
+            "size": 4
+        },
+        {
+            "name": "field_614",
+            "type": "_DWORD",
+            "offset": "0x614",
+            "size": 4
+        },
+        {
+            "name": "field_618",
+            "type": "_DWORD",
+            "offset": "0x618",
+            "size": 4
+        },
+        {
+            "name": "field_61C",
+            "type": "_BYTE",
+            "offset": "0x61C",
+            "size": 1
+        },
+        {
+            "name": "field_620",
+            "type": "CPhysical *",
+            "offset": "0x620",
+            "size": 4,
+            "comment": "CPhysical *"
+        },
+        {
+            "name": "field_624",
+            "type": "_DWORD",
+            "offset": "0x624",
+            "size": 4
+        },
+        {
+            "name": "field_628",
+            "type": "_DWORD",
+            "offset": "0x628",
+            "size": 4
+        },
+        {
+            "name": "field_62C",
+            "type": "_DWORD",
+            "offset": "0x62C",
+            "size": 4
+        },
+        {
+            "name": "field_630",
+            "type": "_DWORD",
+            "offset": "0x630",
+            "size": 4
+        },
+        {
+            "name": "m_nAdrenalineEndTime",
+            "type": "int",
+            "offset": "0x634",
+            "size": 4
+        },
+        {
+            "name": "field_638",
+            "type": "char",
+            "offset": "0x638",
+            "size": 1
+        },
+        {
+            "name": "field_639",
+            "type": "char",
+            "offset": "0x639",
+            "size": 1
+        },
+        {
+            "name": "field_63A",
+            "type": "char",
+            "offset": "0x63A",
+            "size": 1
+        },
+        {
+            "name": "m_bAdrenaline",
+            "type": "unsigned __int8",
+            "offset": "0x63B",
+            "size": 1
+        },
+        {
+            "name": "field_63D",
+            "type": "char",
+            "offset": "0x63D",
+            "size": 1
+        },
+        {
+            "name": "field_63F",
+            "type": "_BYTE",
+            "offset": "0x63F",
+            "size": 1
+        },
+        {
+            "name": "field_640",
+            "type": "sPlayerPed12[6]",
+            "offset": "0x640",
+            "size": "0x48"
+        },
+        {
+            "name": "field_688",
+            "type": "_DWORD",
+            "offset": "0x688",
+            "size": 4
+        },
+        {
+            "name": "field_68C",
+            "type": "_DWORD",
+            "offset": "0x68C",
+            "size": 4
+        },
+        {
+            "name": "field_690",
+            "type": "_DWORD",
+            "offset": "0x690",
+            "size": 4
+        },
+        {
+            "name": "field_694",
+            "type": "_DWORD",
+            "offset": "0x694",
+            "size": 4
+        },
+        {
+            "name": "field_698",
+            "type": "_DWORD",
+            "offset": "0x698",
+            "size": 4
+        },
+        {
+            "name": "field_69C",
+            "type": "_DWORD",
+            "offset": "0x69C",
+            "size": 4
+        },
+        {
+            "name": "field_6A0",
+            "type": "_DWORD",
+            "offset": "0x6A0",
+            "size": 4
+        },
+        {
+            "name": "field_6A4",
+            "type": "_DWORD",
+            "offset": "0x6A4",
+            "size": 4
+        },
+        {
+            "name": "field_6A8",
+            "type": "_DWORD",
+            "offset": "0x6A8",
+            "size": 4
+        },
+        {
+            "name": "field_6AC",
+            "type": "_DWORD",
+            "offset": "0x6AC",
+            "size": 4
+        },
+        {
+            "name": "field_6B0",
+            "type": "_DWORD",
+            "offset": "0x6B0",
+            "size": 4
+        },
+        {
+            "name": "field_6B4",
+            "type": "_DWORD",
+            "offset": "0x6B4",
+            "size": 4
+        },
+        {
+            "name": "field_6B8",
+            "type": "_WORD",
+            "offset": "0x6B8",
+            "size": 2
+        },
+        {
+            "name": "field_6BC",
+            "type": "_DWORD",
+            "offset": "0x6BC",
+            "size": 4
+        },
+        {
+            "name": "field_6C0",
+            "type": "_DWORD",
+            "offset": "0x6C0",
+            "size": 4
+        },
+        {
+            "name": "field_6C4",
+            "type": "_DWORD",
+            "offset": "0x6C4",
+            "size": 4
+        },
+        {
+            "name": "field_6C8",
+            "type": "_DWORD",
+            "offset": "0x6C8",
+            "size": 4
+        },
+        {
+            "name": "field_6CC",
+            "type": "_DWORD",
+            "offset": "0x6CC",
+            "size": 4
+        },
+        {
+            "name": "field_6D0",
+            "type": "_DWORD",
+            "offset": "0x6D0",
+            "size": 4
+        },
+        {
+            "name": "field_6D4",
+            "type": "_DWORD",
+            "offset": "0x6D4",
+            "size": 4
+        }
+    ]
+}

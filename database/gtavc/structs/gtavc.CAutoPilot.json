@@ -1,0 +1,17 @@
+{
+    "name": "CAutoPilot",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x74",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "field_0",
+            "type": "char[116]",
+            "offset": 0,
+            "size": "0x74"
+        }
+    ]
+}

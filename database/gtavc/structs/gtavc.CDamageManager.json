@@ -1,0 +1,35 @@
+{
+    "name": "CDamageManager",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x18",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "uDamId",
+            "type": "int",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "bStates",
+            "type": "char[12]",
+            "offset": 4,
+            "size": "0xC"
+        },
+        {
+            "name": "uLightBits",
+            "type": "int",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "uPanelBits",
+            "type": "int",
+            "offset": "0x14",
+            "size": 4
+        }
+    ]
+}

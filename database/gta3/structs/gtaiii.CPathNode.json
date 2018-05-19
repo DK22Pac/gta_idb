@@ -1,0 +1,65 @@
+{
+    "name": "CPathNode",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0xC",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_wX",
+            "type": "__int16",
+            "offset": 0,
+            "size": 2
+        },
+        {
+            "name": "m_wY",
+            "type": "__int16",
+            "offset": 2,
+            "size": 2
+        },
+        {
+            "name": "m_wZ",
+            "type": "__int16",
+            "offset": 4,
+            "size": 2
+        },
+        {
+            "name": "m_bNodeType",
+            "type": "char",
+            "offset": 6,
+            "size": 1
+        },
+        {
+            "name": "m_bConnectedTo",
+            "type": "char",
+            "offset": 7,
+            "size": 1
+        },
+        {
+            "name": "m_nLanes1",
+            "type": "char",
+            "offset": 8,
+            "size": 1
+        },
+        {
+            "name": "m_nLanes2",
+            "type": "char",
+            "offset": 9,
+            "size": 1
+        },
+        {
+            "name": "m_bFlags",
+            "type": "char",
+            "offset": "0xA",
+            "size": 1
+        },
+        {
+            "name": "_padding",
+            "type": "char",
+            "offset": "0xB",
+            "size": 1
+        }
+    ]
+}

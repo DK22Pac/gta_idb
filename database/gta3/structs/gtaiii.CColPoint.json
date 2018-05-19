@@ -1,0 +1,65 @@
+{
+    "name": "CColPoint",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x28",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "point",
+            "type": "RwV3d",
+            "offset": 0,
+            "size": "0xC"
+        },
+        {
+            "name": "field_C",
+            "type": "DWORD",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "normal",
+            "type": "RwV3d",
+            "offset": "0x10",
+            "size": "0xC"
+        },
+        {
+            "name": "field_1C",
+            "type": "DWORD",
+            "offset": "0x1C",
+            "size": 4
+        },
+        {
+            "name": "surfaceTypeA",
+            "type": "BYTE",
+            "offset": "0x20",
+            "size": 1
+        },
+        {
+            "name": "pieceTypeA",
+            "type": "BYTE",
+            "offset": "0x21",
+            "size": 1
+        },
+        {
+            "name": "pieceTypeB",
+            "type": "BYTE",
+            "offset": "0x22",
+            "size": 1
+        },
+        {
+            "name": "surfaceTypeB",
+            "type": "BYTE",
+            "offset": "0x23",
+            "size": 1
+        },
+        {
+            "name": "depth",
+            "type": "int",
+            "offset": "0x24",
+            "size": 4
+        }
+    ]
+}

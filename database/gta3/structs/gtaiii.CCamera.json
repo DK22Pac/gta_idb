@@ -1,0 +1,805 @@
+{
+    "name": "CCamera",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0xE9D8",
+    "alignment": 0,
+    "vtableAddress": "0x5FDDB0",
+    "vtableSize": 1,
+    "comment": "",
+    "members": [
+        {
+            "name": "parent",
+            "type": "CPlaceable",
+            "offset": 0,
+            "size": "0x4C"
+        },
+        {
+            "name": "byte4C",
+            "type": "_BYTE",
+            "offset": "0x4C",
+            "size": 1
+        },
+        {
+            "name": "byte4D",
+            "type": "_BYTE",
+            "offset": "0x4D",
+            "size": 1
+        },
+        {
+            "name": "m_bDirectlyBehindForFollowPed_CamOnString",
+            "type": "_BYTE",
+            "offset": "0x4E",
+            "size": 1
+        },
+        {
+            "name": "m_bDirectlyInFrontForFollowPed_CamOnAString",
+            "type": "_BYTE",
+            "offset": "0x4F",
+            "size": 1
+        },
+        {
+            "name": "f50",
+            "type": "_BYTE[2]",
+            "offset": "0x50",
+            "size": 2
+        },
+        {
+            "name": "byte52",
+            "type": "_BYTE",
+            "offset": "0x52",
+            "size": 1
+        },
+        {
+            "name": "f53",
+            "type": "_BYTE[1]",
+            "offset": "0x53",
+            "size": 1
+        },
+        {
+            "name": "byte54",
+            "type": "_BYTE",
+            "offset": "0x54",
+            "size": 1
+        },
+        {
+            "name": "byte55",
+            "type": "_BYTE",
+            "offset": "0x55",
+            "size": 1
+        },
+        {
+            "name": "byte56",
+            "type": "_BYTE",
+            "offset": "0x56",
+            "size": 1
+        },
+        {
+            "name": "byte57",
+            "type": "_BYTE",
+            "offset": "0x57",
+            "size": 1
+        },
+        {
+            "name": "byte58",
+            "type": "_BYTE",
+            "offset": "0x58",
+            "size": 1
+        },
+        {
+            "name": "byte59",
+            "type": "_BYTE",
+            "offset": "0x59",
+            "size": 1
+        },
+        {
+            "name": "byte5A",
+            "type": "_BYTE",
+            "offset": "0x5A",
+            "size": 1
+        },
+        {
+            "name": "byte5B",
+            "type": "_BYTE",
+            "offset": "0x5B",
+            "size": 1
+        },
+        {
+            "name": "byte5C",
+            "type": "_BYTE",
+            "offset": "0x5C",
+            "size": 1
+        },
+        {
+            "name": "byte5D",
+            "type": "_BYTE",
+            "offset": "0x5D",
+            "size": 1
+        },
+        {
+            "name": "byte5E",
+            "type": "_BYTE",
+            "offset": "0x5E",
+            "size": 1
+        },
+        {
+            "name": "f5F",
+            "type": "_BYTE[1]",
+            "offset": "0x5F",
+            "size": 1
+        },
+        {
+            "name": "byte60",
+            "type": "_BYTE",
+            "offset": "0x60",
+            "size": 1
+        },
+        {
+            "name": "f61",
+            "type": "_BYTE[2]",
+            "offset": "0x61",
+            "size": 2
+        },
+        {
+            "name": "byte63",
+            "type": "_BYTE",
+            "offset": "0x63",
+            "size": 1
+        },
+        {
+            "name": "m_bNearClipScript",
+            "type": "_BYTE",
+            "offset": "0x64",
+            "size": 1
+        },
+        {
+            "name": "f65",
+            "type": "_BYTE[1]",
+            "offset": "0x65",
+            "size": 1
+        },
+        {
+            "name": "byte66",
+            "type": "_BYTE",
+            "offset": "0x66",
+            "size": 1
+        },
+        {
+            "name": "byte67",
+            "type": "_BYTE",
+            "offset": "0x67",
+            "size": 1
+        },
+        {
+            "name": "f68",
+            "type": "_BYTE[1]",
+            "offset": "0x68",
+            "size": 1
+        },
+        {
+            "name": "byte69",
+            "type": "_BYTE",
+            "offset": "0x69",
+            "size": 1
+        },
+        {
+            "name": "byte6A",
+            "type": "_BYTE",
+            "offset": "0x6A",
+            "size": 1
+        },
+        {
+            "name": "m_bZoomValueFollowPedScript",
+            "type": "_BYTE",
+            "offset": "0x6B",
+            "size": 1
+        },
+        {
+            "name": "m_bZoomValueCamStringScript",
+            "type": "_BYTE",
+            "offset": "0x6C",
+            "size": 1
+        },
+        {
+            "name": "byte6D",
+            "type": "_BYTE",
+            "offset": "0x6D",
+            "size": 1
+        },
+        {
+            "name": "f6E",
+            "type": "_BYTE[1]",
+            "offset": "0x6E",
+            "size": 1
+        },
+        {
+            "name": "m_bWideScreenOff",
+            "type": "_BYTE",
+            "offset": "0x6F",
+            "size": 1
+        },
+        {
+            "name": "m_bWideScreenOn",
+            "type": "_BYTE",
+            "offset": "0x70",
+            "size": 1
+        },
+        {
+            "name": "f71",
+            "type": "_BYTE[1]",
+            "offset": "0x71",
+            "size": 1
+        },
+        {
+            "name": "byte72",
+            "type": "_BYTE",
+            "offset": "0x72",
+            "size": 1
+        },
+        {
+            "name": "byte73",
+            "type": "_BYTE",
+            "offset": "0x73",
+            "size": 1
+        },
+        {
+            "name": "f74",
+            "type": "_BYTE[1]",
+            "offset": "0x74",
+            "size": 1
+        },
+        {
+            "name": "byte75",
+            "type": "_BYTE",
+            "offset": "0x75",
+            "size": 1
+        },
+        {
+            "name": "m_wCurrentCam",
+            "type": "char",
+            "offset": "0x76",
+            "size": 1
+        },
+        {
+            "name": "field_77",
+            "type": "char",
+            "offset": "0x77",
+            "size": 1
+        },
+        {
+            "name": "m_dwShakingTimerStart",
+            "type": "int",
+            "offset": "0x78",
+            "size": 4
+        },
+        {
+            "name": "f7C",
+            "type": "_BYTE[4]",
+            "offset": "0x7C",
+            "size": 4
+        },
+        {
+            "name": "dword80",
+            "type": "_DWORD",
+            "offset": "0x80",
+            "size": 4
+        },
+        {
+            "name": "f84",
+            "type": "_BYTE[5]",
+            "offset": "0x84",
+            "size": 5
+        },
+        {
+            "name": "byte89",
+            "type": "_BYTE",
+            "offset": "0x89",
+            "size": 1
+        },
+        {
+            "name": "f8A",
+            "type": "_BYTE[2]",
+            "offset": "0x8A",
+            "size": 2
+        },
+        {
+            "name": "dword8C",
+            "type": "_DWORD",
+            "offset": "0x8C",
+            "size": 4
+        },
+        {
+            "name": "dword90",
+            "type": "_DWORD",
+            "offset": "0x90",
+            "size": 4
+        },
+        {
+            "name": "dword94",
+            "type": "_DWORD",
+            "offset": "0x94",
+            "size": 4
+        },
+        {
+            "name": "f98",
+            "type": "int",
+            "offset": "0x98",
+            "size": 4
+        },
+        {
+            "name": "m_dwBlurBlue",
+            "type": "int",
+            "offset": "0x9C",
+            "size": 4
+        },
+        {
+            "name": "m_dwBlurGreen",
+            "type": "int",
+            "offset": "0xA0",
+            "size": 4
+        },
+        {
+            "name": "m_dwBlurRed",
+            "type": "int",
+            "offset": "0xA4",
+            "size": 4
+        },
+        {
+            "name": "m_dwBlurAlpha",
+            "type": "int",
+            "offset": "0xA8",
+            "size": 4
+        },
+        {
+            "name": "dwordAC",
+            "type": "_DWORD",
+            "offset": "0xAC",
+            "size": 4
+        },
+        {
+            "name": "dwordB0",
+            "type": "_DWORD",
+            "offset": "0xB0",
+            "size": 4
+        },
+        {
+            "name": "dwordB4",
+            "type": "_DWORD",
+            "offset": "0xB4",
+            "size": 4
+        },
+        {
+            "name": "fB8",
+            "type": "_BYTE[4]",
+            "offset": "0xB8",
+            "size": 4
+        },
+        {
+            "name": "dwordBC",
+            "type": "_DWORD",
+            "offset": "0xBC",
+            "size": 4
+        },
+        {
+            "name": "m_dwMotionBlurAlpha",
+            "type": "unsigned int",
+            "offset": "0xC0",
+            "size": 4
+        },
+        {
+            "name": "dwordC4",
+            "type": "_DWORD",
+            "offset": "0xC4",
+            "size": 4
+        },
+        {
+            "name": "dwordC8",
+            "type": "_DWORD",
+            "offset": "0xC8",
+            "size": 4
+        },
+        {
+            "name": "fCC",
+            "type": "_BYTE[12]",
+            "offset": "0xCC",
+            "size": "0xC"
+        },
+        {
+            "name": "dwordD8",
+            "type": "_DWORD",
+            "offset": "0xD8",
+            "size": 4
+        },
+        {
+            "name": "fDC",
+            "type": "_BYTE[4]",
+            "offset": "0xDC",
+            "size": 4
+        },
+        {
+            "name": "dwordE0",
+            "type": "_DWORD",
+            "offset": "0xE0",
+            "size": 4
+        },
+        {
+            "name": "fE4",
+            "type": "_BYTE[8]",
+            "offset": "0xE4",
+            "size": 8
+        },
+        {
+            "name": "dwordEC",
+            "type": "_DWORD",
+            "offset": "0xEC",
+            "size": 4
+        },
+        {
+            "name": "fF0",
+            "type": "_BYTE[44]",
+            "offset": "0xF0",
+            "size": "0x2C"
+        },
+        {
+            "name": "dword11C",
+            "type": "float",
+            "offset": "0x11C",
+            "size": 4
+        },
+        {
+            "name": "dword120",
+            "type": "_DWORD",
+            "offset": "0x120",
+            "size": 4
+        },
+        {
+            "name": "dword124",
+            "type": "_DWORD",
+            "offset": "0x124",
+            "size": 4
+        },
+        {
+            "name": "m_fShakingValue",
+            "type": "float",
+            "offset": "0x128",
+            "size": 4
+        },
+        {
+            "name": "m_fZoomValueCamStringScript",
+            "type": "float",
+            "offset": "0x12C",
+            "size": 4
+        },
+        {
+            "name": "dword130",
+            "type": "_DWORD",
+            "offset": "0x130",
+            "size": 4
+        },
+        {
+            "name": "dword134",
+            "type": "_DWORD",
+            "offset": "0x134",
+            "size": 4
+        },
+        {
+            "name": "m_fNearScreenScript",
+            "type": "float",
+            "offset": "0x138",
+            "size": 4
+        },
+        {
+            "name": "f13C",
+            "type": "_BYTE[8]",
+            "offset": "0x13C",
+            "size": 8
+        },
+        {
+            "name": "m_fZoomValueFollowPedScript",
+            "type": "float",
+            "offset": "0x144",
+            "size": 4
+        },
+        {
+            "name": "dword148",
+            "type": "_DWORD",
+            "offset": "0x148",
+            "size": 4
+        },
+        {
+            "name": "f14C",
+            "type": "float",
+            "offset": "0x14C",
+            "size": 4
+        },
+        {
+            "name": "dword150",
+            "type": "_DWORD",
+            "offset": "0x150",
+            "size": 4
+        },
+        {
+            "name": "dword154",
+            "type": "_DWORD",
+            "offset": "0x154",
+            "size": 4
+        },
+        {
+            "name": "f158",
+            "type": "_BYTE[8]",
+            "offset": "0x158",
+            "size": 8
+        },
+        {
+            "name": "dword160",
+            "type": "_DWORD",
+            "offset": "0x160",
+            "size": 4
+        },
+        {
+            "name": "dword164",
+            "type": "_DWORD",
+            "offset": "0x164",
+            "size": 4
+        },
+        {
+            "name": "f168",
+            "type": "_BYTE[44]",
+            "offset": "0x168",
+            "size": "0x2C"
+        },
+        {
+            "name": "dword194",
+            "type": "float",
+            "offset": "0x194",
+            "size": 4
+        },
+        {
+            "name": "dword198",
+            "type": "float",
+            "offset": "0x198",
+            "size": 4
+        },
+        {
+            "name": "dword19C",
+            "type": "float",
+            "offset": "0x19C",
+            "size": 4
+        },
+        {
+            "name": "dword1A0",
+            "type": "float",
+            "offset": "0x1A0",
+            "size": 4
+        },
+        {
+            "name": "m_asCams",
+            "type": "CCam[3]",
+            "offset": "0x1A4",
+            "size": "0x4EC"
+        },
+        {
+            "name": "field_690",
+            "type": "char[32]",
+            "offset": "0x690",
+            "size": "0x20"
+        },
+        {
+            "name": "dword6B0",
+            "type": "_DWORD",
+            "offset": "0x6B0",
+            "size": 4
+        },
+        {
+            "name": "dword6B4",
+            "type": "_DWORD",
+            "offset": "0x6B4",
+            "size": 4
+        },
+        {
+            "name": "dword6B8",
+            "type": "_DWORD",
+            "offset": "0x6B8",
+            "size": 4
+        },
+        {
+            "name": "f6BC",
+            "type": "char[12]",
+            "offset": "0x6BC",
+            "size": "0xC"
+        },
+        {
+            "name": "m_vAimingCoors",
+            "type": "CVector",
+            "offset": "0x6C8",
+            "size": "0xC"
+        },
+        {
+            "name": "field_6D4",
+            "type": "char[36]",
+            "offset": "0x6D4",
+            "size": "0x24"
+        },
+        {
+            "name": "m_vCamCutSceneOffset",
+            "type": "CVector",
+            "offset": "0x6F8",
+            "size": "0xC"
+        },
+        {
+            "name": "field_704",
+            "type": "char[108]",
+            "offset": "0x704",
+            "size": "0x6C"
+        },
+        {
+            "name": "m_vGameCamPosition",
+            "type": "CVector",
+            "offset": "0x770",
+            "size": "0xC"
+        },
+        {
+            "name": "field_77C",
+            "type": "char[36]",
+            "offset": "0x77C",
+            "size": "0x24"
+        },
+        {
+            "name": "m_pRwCamera",
+            "type": "RwCamera *",
+            "offset": "0x7A0",
+            "size": 4
+        },
+        {
+            "name": "m_pTargetEntity",
+            "type": "CEntity *",
+            "offset": "0x7A4",
+            "size": 4
+        },
+        {
+            "name": "f7A8",
+            "type": "_BYTE[57672]",
+            "offset": "0x7A8",
+            "size": "0xE148"
+        },
+        {
+            "name": "byteE8F0",
+            "type": "_BYTE",
+            "offset": "0xE8F0",
+            "size": 1
+        },
+        {
+            "name": "byteE8F1",
+            "type": "_BYTE",
+            "offset": "0xE8F1",
+            "size": 1
+        },
+        {
+            "name": "byteE8F2",
+            "type": "_BYTE",
+            "offset": "0xE8F2",
+            "size": 1
+        },
+        {
+            "name": "m_bFading",
+            "type": "_BYTE",
+            "offset": "0xE8F3",
+            "size": 1
+        },
+        {
+            "name": "byteE8F4",
+            "type": "_BYTE",
+            "offset": "0xE8F4",
+            "size": 1
+        },
+        {
+            "name": "fE8F5",
+            "type": "char[3]",
+            "offset": "0xE8F5",
+            "size": 3
+        },
+        {
+            "name": "field_E8F8",
+            "type": "CMatrix",
+            "offset": "0xE8F8",
+            "size": "0x48"
+        },
+        {
+            "name": "field_E940",
+            "type": "char[88]",
+            "offset": "0xE940",
+            "size": "0x58"
+        },
+        {
+            "name": "m_fFadingState",
+            "type": "float",
+            "offset": "0xE998",
+            "size": 4
+        },
+        {
+            "name": "dwordE99C",
+            "type": "_DWORD",
+            "offset": "0xE99C",
+            "size": 4
+        },
+        {
+            "name": "fE9A0",
+            "type": "_BYTE[4]",
+            "offset": "0xE9A0",
+            "size": 4
+        },
+        {
+            "name": "dwordE9A4",
+            "type": "_DWORD",
+            "offset": "0xE9A4",
+            "size": 4
+        },
+        {
+            "name": "dwordE9A8",
+            "type": "_DWORD",
+            "offset": "0xE9A8",
+            "size": 4
+        },
+        {
+            "name": "dwordE9AC",
+            "type": "_DWORD",
+            "offset": "0xE9AC",
+            "size": 4
+        },
+        {
+            "name": "dwordE9B0",
+            "type": "_DWORD",
+            "offset": "0xE9B0",
+            "size": 4
+        },
+        {
+            "name": "fE9B4",
+            "type": "_BYTE[16]",
+            "offset": "0xE9B4",
+            "size": "0x10"
+        },
+        {
+            "name": "dwordE9C4",
+            "type": "_DWORD",
+            "offset": "0xE9C4",
+            "size": 4
+        },
+        {
+            "name": "wordE9C8",
+            "type": "_WORD",
+            "offset": "0xE9C8",
+            "size": 2
+        },
+        {
+            "name": "fE9CA",
+            "type": "_BYTE[2]",
+            "offset": "0xE9CA",
+            "size": 2
+        },
+        {
+            "name": "wordE9CC",
+            "type": "_WORD",
+            "offset": "0xE9CC",
+            "size": 2
+        },
+        {
+            "name": "field_E9CE",
+            "type": "__int16",
+            "offset": "0xE9CE",
+            "size": 2
+        },
+        {
+            "name": "field_E9D0",
+            "type": "int",
+            "offset": "0xE9D0",
+            "size": 4
+        },
+        {
+            "name": "field_E9D4",
+            "type": "int",
+            "offset": "0xE9D4",
+            "size": 4
+        }
+    ]
+}

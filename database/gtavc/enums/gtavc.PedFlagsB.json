@@ -1,0 +1,45 @@
+{
+    "name": "PedFlagsB",
+    "module": "",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": true,
+    "comment": "",
+    "members": [
+        {
+            "name": "bIsRestoringGun",
+            "value": "0x1"
+        },
+        {
+            "name": "bCanPointGunAtTarget",
+            "value": "0x2"
+        },
+        {
+            "name": "bIsTalking",
+            "value": "0x4"
+        },
+        {
+            "name": "bIsInTheAir",
+            "value": "0x8"
+        },
+        {
+            "name": "bIsLanding",
+            "value": "0x10"
+        },
+        {
+            "name": "bIsRunning",
+            "value": "0x20"
+        },
+        {
+            "name": "bPedFlags15",
+            "value": "0x40"
+        },
+        {
+            "name": "bPedFlags16",
+            "value": "0x80"
+        }
+    ]
+}

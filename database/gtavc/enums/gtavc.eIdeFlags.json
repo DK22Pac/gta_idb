@@ -1,0 +1,57 @@
+{
+    "name": "eIdeFlags",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": true,
+    "comment": "",
+    "members": [
+        {
+            "name": "IDE_FLAG_1",
+            "value": 4
+        },
+        {
+            "name": "IDE_FLAG_2",
+            "value": 32
+        },
+        {
+            "name": "IDE_FLAG_4",
+            "value": 64
+        },
+        {
+            "name": "IDE_FLAG_8",
+            "value": 128
+        },
+        {
+            "name": "IDE_FLAG_16",
+            "value": 256
+        },
+        {
+            "name": "IDE_FLAG_32",
+            "value": 512
+        },
+        {
+            "name": "IDE_FLAG_64",
+            "value": 1024
+        },
+        {
+            "name": "IDE_FLAG_128",
+            "value": 2048
+        },
+        {
+            "name": "IDE_FLAG_256",
+            "value": 4096
+        },
+        {
+            "name": "IDE_FLAG_512",
+            "value": 8192
+        },
+        {
+            "name": "IDE_FLAG_1024",
+            "value": 16384
+        }
+    ]
+}

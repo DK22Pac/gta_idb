@@ -1,0 +1,19 @@
+{
+    "name": "CCutsceneObject",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x198",
+    "alignment": 0,
+    "vtableAddress": "0x604A60",
+    "vtableSize": 18,
+    "comment": "",
+    "members": [
+        {
+            "name": "object",
+            "type": "CObject",
+            "offset": 0,
+            "size": "0x198"
+        }
+    ]
+}

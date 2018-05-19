@@ -1,0 +1,23 @@
+{
+    "name": "CWeaponModelInfo",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x48",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "simple",
+            "type": "CSimpleModelInfo",
+            "offset": 0,
+            "size": "0x44"
+        },
+        {
+            "name": "m_pszAnimName",
+            "type": "int",
+            "offset": "0x44",
+            "size": 4
+        }
+    ]
+}

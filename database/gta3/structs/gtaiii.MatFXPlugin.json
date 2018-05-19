@@ -1,0 +1,23 @@
+{
+    "name": "MatFXPlugin",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x34",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_sExtension",
+            "type": "MatFXExtension[2]",
+            "offset": 0,
+            "size": "0x30"
+        },
+        {
+            "name": "pipelineType",
+            "type": "int",
+            "offset": "0x30",
+            "size": 4
+        }
+    ]
+}

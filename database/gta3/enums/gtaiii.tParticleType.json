@@ -1,0 +1,285 @@
+{
+    "name": "tParticleType",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "PARTICLE_SPARK",
+            "value": 0
+        },
+        {
+            "name": "PARTICLE_SPARK_SMALL",
+            "value": 1
+        },
+        {
+            "name": "PARTICLE_WHEEL_DIRT",
+            "value": 2
+        },
+        {
+            "name": "PARTICLE_WHEEL_WATER",
+            "value": 3
+        },
+        {
+            "name": "PARTICLE_BLOOD",
+            "value": 4
+        },
+        {
+            "name": "PARTICLE_BLOOD_SMALL",
+            "value": 5
+        },
+        {
+            "name": "PARTICLE_BLOOD_SPURT",
+            "value": 6
+        },
+        {
+            "name": "PARTICLE_DEBRIS",
+            "value": 7
+        },
+        {
+            "name": "PARTICLE_DEBRIS2",
+            "value": 8
+        },
+        {
+            "name": "PARTICLE_WATER",
+            "value": 9
+        },
+        {
+            "name": "PARTICLE_FLAME",
+            "value": 10
+        },
+        {
+            "name": "PARTICLE_FIREBALL",
+            "value": 11
+        },
+        {
+            "name": "PARTICLE_GUNFLASH",
+            "value": 12
+        },
+        {
+            "name": "PARTICLE_GUNFLASH_NOANIM",
+            "value": 13
+        },
+        {
+            "name": "PARTICLE_GUNSMOKE",
+            "value": 14
+        },
+        {
+            "name": "PARTICLE_GUNSMOKE2",
+            "value": 15
+        },
+        {
+            "name": "PARTICLE_SMOKE",
+            "value": 16
+        },
+        {
+            "name": "PARTICLE_SMOKE_SLOWMOTION",
+            "value": 17
+        },
+        {
+            "name": "PARTICLE_GARAGEPAINT_SPRAY",
+            "value": 18
+        },
+        {
+            "name": "PARTICLE_SHARD",
+            "value": 19
+        },
+        {
+            "name": "PARTICLE_SPLASH",
+            "value": 20
+        },
+        {
+            "name": "PARTICLE_CARFLAME",
+            "value": 21
+        },
+        {
+            "name": "PARTICLE_STEAM",
+            "value": 22
+        },
+        {
+            "name": "PARTICLE_STEAM2",
+            "value": 23
+        },
+        {
+            "name": "PARTICLE_STEAM_NY",
+            "value": 24
+        },
+        {
+            "name": "PARTICLE_STEAM_NY_SLOWMOTION",
+            "value": 25
+        },
+        {
+            "name": "PARTICLE_ENGINE_STEAM",
+            "value": 26
+        },
+        {
+            "name": "PARTICLE_RAINDROP",
+            "value": 27
+        },
+        {
+            "name": "PARTICLE_RAINDROP_SMALL",
+            "value": 28
+        },
+        {
+            "name": "PARTICLE_RAIN_SPLASH",
+            "value": 29
+        },
+        {
+            "name": "PARTICLE_RAIN_SPLASH_BIGGROW",
+            "value": 30
+        },
+        {
+            "name": "PARTICLE_RAIN_SPLASHUP",
+            "value": 31
+        },
+        {
+            "name": "PARTICLE_WATERSPRAY",
+            "value": 32
+        },
+        {
+            "name": "PARTICLE_EXPLOSION_MEDIUM",
+            "value": 33
+        },
+        {
+            "name": "PARTICLE_EXPLOSION_LARGE",
+            "value": 34
+        },
+        {
+            "name": "PARTICLE_EXPLOSION_MFAST",
+            "value": 35
+        },
+        {
+            "name": "PARTICLE_EXPLOSION_LFAST",
+            "value": 36
+        },
+        {
+            "name": "PARTICLE_CAR_SPLASH",
+            "value": 37
+        },
+        {
+            "name": "PARTICLE_BOAT_SPLASH",
+            "value": 38
+        },
+        {
+            "name": "PARTICLE_BOAT_THRUSTJET",
+            "value": 39
+        },
+        {
+            "name": "PARTICLE_BOAT_WAKE",
+            "value": 40
+        },
+        {
+            "name": "PARTICLE_WATER_HYDRANT",
+            "value": 41
+        },
+        {
+            "name": "PARTICLE_WATER_CANNON",
+            "value": 42
+        },
+        {
+            "name": "PARTICLE_EXTINGUISH_STEAM",
+            "value": 43
+        },
+        {
+            "name": "PARTICLE_PED_SPLASH",
+            "value": 44
+        },
+        {
+            "name": "PARTICLE_PEDFOOT_DUST",
+            "value": 45
+        },
+        {
+            "name": "PARTICLE_HELI_DUST",
+            "value": 46
+        },
+        {
+            "name": "PARTICLE_HELI_ATTACK",
+            "value": 47
+        },
+        {
+            "name": "PARTICLE_ENGINE_SMOKE",
+            "value": 48
+        },
+        {
+            "name": "PARTICLE_ENGINE_SMOKE2",
+            "value": 49
+        },
+        {
+            "name": "PARTICLE_CARFLAME_SMOKE",
+            "value": 50
+        },
+        {
+            "name": "PARTICLE_FIREBALL_SMOKE",
+            "value": 51
+        },
+        {
+            "name": "PARTICLE_PAINT_SMOKE",
+            "value": 52
+        },
+        {
+            "name": "PARTICLE_TREE_LEAVES",
+            "value": 53
+        },
+        {
+            "name": "PARTICLE_CARCOLLISION_DUST",
+            "value": 54
+        },
+        {
+            "name": "PARTICLE_CAR_DEBRIS",
+            "value": 55
+        },
+        {
+            "name": "PARTICLE_HELI_DEBRIS",
+            "value": 56
+        },
+        {
+            "name": "PARTICLE_EXHAUST_FUMES",
+            "value": 57
+        },
+        {
+            "name": "PARTICLE_RUBBER_SMOKE",
+            "value": 58
+        },
+        {
+            "name": "PARTICLE_BURNINGRUBBER_SMOKE",
+            "value": 59
+        },
+        {
+            "name": "PARTICLE_BULLETHIT_SMOKE",
+            "value": 60
+        },
+        {
+            "name": "PARTICLE_GUNSHELL_FIRST",
+            "value": 61
+        },
+        {
+            "name": "PARTICLE_GUNSHELL",
+            "value": 62
+        },
+        {
+            "name": "PARTICLE_GUNSHELL_BUMP1",
+            "value": 63
+        },
+        {
+            "name": "PARTICLE_GUNSHELL_BUMP2",
+            "value": 64
+        },
+        {
+            "name": "PARTICLE_TEST",
+            "value": 65
+        },
+        {
+            "name": "PARTICLE_BIRD_FRONT",
+            "value": 66
+        },
+        {
+            "name": "PARTICLE_RAINDROP_2D",
+            "value": 67
+        }
+    ]
+}

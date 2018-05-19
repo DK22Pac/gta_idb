@@ -1,0 +1,23 @@
+{
+    "name": "tmp_AnimsData",
+    "module": "",
+    "scope": "",
+    "kind": "struct",
+    "size": "0x44",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "hasMovement",
+            "type": "int",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "animNodes",
+            "type": "CAnimBlendNode *[16]",
+            "offset": 4,
+            "size": "0x40"
+        }
+    ]
+}

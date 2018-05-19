@@ -1,0 +1,23 @@
+{
+    "name": "C2dfxManager",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x19644",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "count",
+            "type": "int",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "objects",
+            "type": "C2dfx[2000]",
+            "offset": 4,
+            "size": "0x19640"
+        }
+    ]
+}

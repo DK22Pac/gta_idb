@@ -1,0 +1,59 @@
+{
+    "name": "__m128i",
+    "module": "",
+    "scope": "",
+    "kind": "union",
+    "size": "0x10",
+    "alignment": 4,
+    "comment": "",
+    "members": [
+        {
+            "name": "m128i_i8",
+            "type": "__int8[16]",
+            "offset": 0,
+            "size": "0x10"
+        },
+        {
+            "name": "m128i_i16",
+            "type": "__int16[8]",
+            "offset": 0,
+            "size": "0x10"
+        },
+        {
+            "name": "m128i_i32",
+            "type": "__int32[4]",
+            "offset": 0,
+            "size": "0x10"
+        },
+        {
+            "name": "m128i_i64",
+            "type": "__int64[2]",
+            "offset": 0,
+            "size": "0x10"
+        },
+        {
+            "name": "m128i_u8",
+            "type": "unsigned __int8[16]",
+            "offset": 0,
+            "size": "0x10"
+        },
+        {
+            "name": "m128i_u16",
+            "type": "unsigned __int16[8]",
+            "offset": 0,
+            "size": "0x10"
+        },
+        {
+            "name": "m128i_u32",
+            "type": "unsigned __int32[4]",
+            "offset": 0,
+            "size": "0x10"
+        },
+        {
+            "name": "m128i_u64",
+            "type": "unsigned __int64[2]",
+            "offset": 0,
+            "size": "0x10"
+        }
+    ]
+}

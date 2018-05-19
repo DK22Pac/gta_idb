@@ -1,0 +1,45 @@
+{
+    "name": "PedFlagsJ",
+    "module": "",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": true,
+    "comment": "",
+    "members": [
+        {
+            "name": "bPedFlags73",
+            "value": "0x1"
+        },
+        {
+            "name": "bPedFlags74",
+            "value": "0x2"
+        },
+        {
+            "name": "bPedFlags75",
+            "value": "0x4"
+        },
+        {
+            "name": "bPedFlags76",
+            "value": "0x8"
+        },
+        {
+            "name": "bPedFlags77",
+            "value": "0x10"
+        },
+        {
+            "name": "bMiamiViceCop",
+            "value": "0x20"
+        },
+        {
+            "name": "bMoneyHasBeenGivenByScript",
+            "value": "0x40"
+        },
+        {
+            "name": "bHasBeenPhotographed",
+            "value": "0x80"
+        }
+    ]
+}

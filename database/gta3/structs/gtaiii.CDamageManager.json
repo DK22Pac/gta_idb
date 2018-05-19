@@ -1,0 +1,59 @@
+{
+    "name": "CDamageManager",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x1C",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_fWheelDamageEffect",
+            "type": "_DWORD",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "dword4",
+            "type": "char",
+            "offset": 4,
+            "size": 1
+        },
+        {
+            "name": "field_5",
+            "type": "int",
+            "offset": 5,
+            "size": 4
+        },
+        {
+            "name": "m_bComponentStatus",
+            "type": "char[6]",
+            "offset": 9,
+            "size": 6
+        },
+        {
+            "name": "m_dwLightsStates",
+            "type": "_DWORD",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "m_cPanels",
+            "type": "_DWORD",
+            "offset": "0x14",
+            "size": 4
+        },
+        {
+            "name": "field_18",
+            "type": "char",
+            "offset": "0x18",
+            "size": 1
+        },
+        {
+            "name": "field_19",
+            "type": "char[3]",
+            "offset": "0x19",
+            "size": 3
+        }
+    ]
+}

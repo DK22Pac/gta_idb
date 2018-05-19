@@ -1,0 +1,29 @@
+{
+    "name": "CPtrNode",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0xC",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "f0",
+            "type": "_BYTE[4]",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "m_pNext",
+            "type": "_DWORD",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "m_pPrev",
+            "type": "_DWORD",
+            "offset": 8,
+            "size": 4
+        }
+    ]
+}

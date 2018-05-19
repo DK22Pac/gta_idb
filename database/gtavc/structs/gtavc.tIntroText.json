@@ -1,0 +1,119 @@
+{
+    "name": "tIntroText",
+    "module": "",
+    "scope": "",
+    "kind": "struct",
+    "size": "0xF4",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "fWidth",
+            "type": "float",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "fHeight",
+            "type": "float",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "color",
+            "type": "CRGBA",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "bJustify",
+            "type": "unsigned __int8",
+            "offset": "0xC",
+            "size": 1
+        },
+        {
+            "name": "bCenter",
+            "type": "unsigned __int8",
+            "offset": "0xD",
+            "size": 1
+        },
+        {
+            "name": "bBackground",
+            "type": "unsigned __int8",
+            "offset": "0xE",
+            "size": 1
+        },
+        {
+            "name": "bBackgroundOnlyText",
+            "type": "unsigned __int8",
+            "offset": "0xF",
+            "size": 1
+        },
+        {
+            "name": "fSize",
+            "type": "float",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "fCentreSize",
+            "type": "float",
+            "offset": "0x14",
+            "size": 4
+        },
+        {
+            "name": "backgroundColor",
+            "type": "CRGBA",
+            "offset": "0x18",
+            "size": 4
+        },
+        {
+            "name": "bProportional",
+            "type": "unsigned __int8",
+            "offset": "0x1C",
+            "size": 1
+        },
+        {
+            "name": "bDisable",
+            "type": "unsigned __int8",
+            "offset": "0x1D",
+            "size": 1
+        },
+        {
+            "name": "bRightJustify",
+            "type": "unsigned __int8",
+            "offset": "0x1E",
+            "size": 1
+        },
+        {
+            "name": "__pad",
+            "type": "char",
+            "offset": "0x1F",
+            "size": 1
+        },
+        {
+            "name": "fontStyle",
+            "type": "unsigned int",
+            "offset": "0x20",
+            "size": 4
+        },
+        {
+            "name": "x",
+            "type": "float",
+            "offset": "0x24",
+            "size": 4
+        },
+        {
+            "name": "y",
+            "type": "float",
+            "offset": "0x28",
+            "size": 4
+        },
+        {
+            "name": "text",
+            "type": "wchar_t[100]",
+            "offset": "0x2C",
+            "size": "0xC8"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "name": "tMenuPage",
+    "module": "",
+    "scope": "",
+    "kind": "struct",
+    "size": "0xE2",
+    "alignment": 1,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_szTitle",
+            "type": "char[8]",
+            "offset": 0,
+            "size": 8
+        },
+        {
+            "name": "m_nPreviousPage",
+            "type": "unsigned __int8",
+            "offset": 8,
+            "size": 1
+        },
+        {
+            "name": "m_nStartPage",
+            "type": "unsigned __int8",
+            "offset": 9,
+            "size": 1
+        },
+        {
+            "name": "m_aProps",
+            "type": "tMenuProp[12]",
+            "offset": "0xA",
+            "size": "0xD8"
+        }
+    ]
+}

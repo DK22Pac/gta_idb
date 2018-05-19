@@ -1,0 +1,59 @@
+{
+    "name": "CCivilianPed",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x648",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "ped",
+            "type": "CPed",
+            "offset": 0,
+            "size": "0x5F4"
+        },
+        {
+            "name": "field_5F4",
+            "type": "_BYTE",
+            "offset": "0x5F4",
+            "size": 1
+        },
+        {
+            "name": "field_5F8",
+            "type": "_DWORD",
+            "offset": "0x5F8",
+            "size": 4
+        },
+        {
+            "name": "field_5FC",
+            "type": "_BYTE",
+            "offset": "0x5FC",
+            "size": 1
+        },
+        {
+            "name": "field_5FD",
+            "type": "_BYTE",
+            "offset": "0x5FD",
+            "size": 1
+        },
+        {
+            "name": "field_5FE",
+            "type": "_BYTE[66]",
+            "offset": "0x5FE",
+            "size": "0x42"
+        },
+        {
+            "name": "field_640",
+            "type": "_BYTE",
+            "offset": "0x640",
+            "size": 1
+        },
+        {
+            "name": "field_644",
+            "type": "_DWORD",
+            "offset": "0x644",
+            "size": 4
+        }
+    ]
+}

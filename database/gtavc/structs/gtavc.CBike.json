@@ -1,0 +1,317 @@
+{
+    "name": "CBike",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x4EC",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "vehicle",
+            "type": "CVehicle",
+            "offset": 0,
+            "size": "0x2A0"
+        },
+        {
+            "name": "gap2A0",
+            "type": "_BYTE[32]",
+            "offset": "0x2A0",
+            "size": "0x20"
+        },
+        {
+            "name": "byte2C0",
+            "type": "_BYTE",
+            "offset": "0x2C0",
+            "size": 1
+        },
+        {
+            "name": "gap2C1",
+            "type": "_BYTE[67]",
+            "offset": "0x2C1",
+            "size": "0x43"
+        },
+        {
+            "name": "dword304",
+            "type": "_DWORD",
+            "offset": "0x304",
+            "size": 4
+        },
+        {
+            "name": "dword308",
+            "type": "_DWORD",
+            "offset": "0x308",
+            "size": 4
+        },
+        {
+            "name": "gap30C",
+            "type": "_BYTE[24]",
+            "offset": "0x30C",
+            "size": "0x18"
+        },
+        {
+            "name": "dword324",
+            "type": "_DWORD",
+            "offset": "0x324",
+            "size": 4
+        },
+        {
+            "name": "dword328",
+            "type": "_DWORD",
+            "offset": "0x328",
+            "size": 4
+        },
+        {
+            "name": "byte32C",
+            "type": "_BYTE",
+            "offset": "0x32C",
+            "size": 1
+        },
+        {
+            "name": "byte32D",
+            "type": "_BYTE",
+            "offset": "0x32D",
+            "size": 1
+        },
+        {
+            "name": "gap32E",
+            "type": "_BYTE[210]",
+            "offset": "0x32E",
+            "size": "0xD2"
+        },
+        {
+            "name": "dword400",
+            "type": "_DWORD",
+            "offset": "0x400",
+            "size": 4
+        },
+        {
+            "name": "dword404",
+            "type": "_DWORD",
+            "offset": "0x404",
+            "size": 4
+        },
+        {
+            "name": "dword408",
+            "type": "_DWORD",
+            "offset": "0x408",
+            "size": 4
+        },
+        {
+            "name": "byte40C",
+            "type": "_BYTE",
+            "offset": "0x40C",
+            "size": 1
+        },
+        {
+            "name": "byte40D",
+            "type": "_BYTE",
+            "offset": "0x40D",
+            "size": 1
+        },
+        {
+            "name": "byte40E",
+            "type": "_BYTE",
+            "offset": "0x40E",
+            "size": 1
+        },
+        {
+            "name": "byte40F",
+            "type": "_BYTE",
+            "offset": "0x40F",
+            "size": 1
+        },
+        {
+            "name": "dword410",
+            "type": "_DWORD",
+            "offset": "0x410",
+            "size": 4
+        },
+        {
+            "name": "dword414",
+            "type": "_DWORD",
+            "offset": "0x414",
+            "size": 4
+        },
+        {
+            "name": "dword418",
+            "type": "_DWORD",
+            "offset": "0x418",
+            "size": 4
+        },
+        {
+            "name": "dword41C",
+            "type": "_DWORD",
+            "offset": "0x41C",
+            "size": 4
+        },
+        {
+            "name": "gap420",
+            "type": "_BYTE[48]",
+            "offset": "0x420",
+            "size": "0x30"
+        },
+        {
+            "name": "dword450",
+            "type": "_DWORD",
+            "offset": "0x450",
+            "size": 4
+        },
+        {
+            "name": "dword454",
+            "type": "_DWORD",
+            "offset": "0x454",
+            "size": 4
+        },
+        {
+            "name": "dword458",
+            "type": "_DWORD",
+            "offset": "0x458",
+            "size": 4
+        },
+        {
+            "name": "dword45C",
+            "type": "_DWORD",
+            "offset": "0x45C",
+            "size": 4
+        },
+        {
+            "name": "dword460",
+            "type": "_DWORD",
+            "offset": "0x460",
+            "size": 4
+        },
+        {
+            "name": "float464",
+            "type": "float",
+            "offset": "0x464",
+            "size": 4
+        },
+        {
+            "name": "dword468",
+            "type": "_DWORD",
+            "offset": "0x468",
+            "size": 4
+        },
+        {
+            "name": "dword46C",
+            "type": "_DWORD",
+            "offset": "0x46C",
+            "size": 4
+        },
+        {
+            "name": "dword470",
+            "type": "_DWORD",
+            "offset": "0x470",
+            "size": 4
+        },
+        {
+            "name": "dword474",
+            "type": "_DWORD",
+            "offset": "0x474",
+            "size": 4
+        },
+        {
+            "name": "dword478",
+            "type": "_DWORD",
+            "offset": "0x478",
+            "size": 4
+        },
+        {
+            "name": "dword47C",
+            "type": "_DWORD",
+            "offset": "0x47C",
+            "size": 4
+        },
+        {
+            "name": "byte480",
+            "type": "_BYTE",
+            "offset": "0x480",
+            "size": 1
+        },
+        {
+            "name": "byte484",
+            "type": "_BYTE",
+            "offset": "0x484",
+            "size": 1
+        },
+        {
+            "name": "word486",
+            "type": "_WORD",
+            "offset": "0x486",
+            "size": 2
+        },
+        {
+            "name": "dword488",
+            "type": "_DWORD",
+            "offset": "0x488",
+            "size": 4
+        },
+        {
+            "name": "dword48C",
+            "type": "_DWORD",
+            "offset": "0x48C",
+            "size": 4
+        },
+        {
+            "name": "dword490",
+            "type": "_DWORD",
+            "offset": "0x490",
+            "size": 4
+        },
+        {
+            "name": "dword494",
+            "type": "_DWORD",
+            "offset": "0x494",
+            "size": 4
+        },
+        {
+            "name": "gap498",
+            "type": "_BYTE[64]",
+            "offset": "0x498",
+            "size": "0x40"
+        },
+        {
+            "name": "dword4D8",
+            "type": "_DWORD",
+            "offset": "0x4D8",
+            "size": 4
+        },
+        {
+            "name": "byte4DC",
+            "type": "_BYTE",
+            "offset": "0x4DC",
+            "size": 1
+        },
+        {
+            "name": "byte4DD",
+            "type": "_BYTE",
+            "offset": "0x4DD",
+            "size": 1
+        },
+        {
+            "name": "byte4DE",
+            "type": "_BYTE",
+            "offset": "0x4DE",
+            "size": 1
+        },
+        {
+            "name": "dword4E0",
+            "type": "_DWORD",
+            "offset": "0x4E0",
+            "size": 4
+        },
+        {
+            "name": "dword4E4",
+            "type": "_DWORD",
+            "offset": "0x4E4",
+            "size": 4
+        },
+        {
+            "name": "dword4E8",
+            "type": "_DWORD",
+            "offset": "0x4E8",
+            "size": 4
+        }
+    ]
+}

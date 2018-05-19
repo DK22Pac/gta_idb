@@ -1,0 +1,53 @@
+{
+    "name": "_TIME_ZONE_INFORMATION",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0xAC",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "Bias",
+            "type": "LONG",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "StandardName",
+            "type": "WCHAR[32]",
+            "offset": 4,
+            "size": "0x40"
+        },
+        {
+            "name": "StandardDate",
+            "type": "SYSTEMTIME",
+            "offset": "0x44",
+            "size": "0x10"
+        },
+        {
+            "name": "StandardBias",
+            "type": "LONG",
+            "offset": "0x54",
+            "size": 4
+        },
+        {
+            "name": "DaylightName",
+            "type": "WCHAR[32]",
+            "offset": "0x58",
+            "size": "0x40"
+        },
+        {
+            "name": "DaylightDate",
+            "type": "SYSTEMTIME",
+            "offset": "0x98",
+            "size": "0x10"
+        },
+        {
+            "name": "DaylightBias",
+            "type": "LONG",
+            "offset": "0xA8",
+            "size": 4
+        }
+    ]
+}

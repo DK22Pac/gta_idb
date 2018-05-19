@@ -1,0 +1,53 @@
+{
+    "name": "gtaD3DTexture",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x1C",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "format",
+            "type": "int",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "width",
+            "type": "int",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "numLevels",
+            "type": "int",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "depth",
+            "type": "int",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "m_nNumCreatedTextures",
+            "type": "_DWORD",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "field_14",
+            "type": "_DWORD",
+            "offset": "0x14",
+            "size": 4
+        },
+        {
+            "name": "textures",
+            "type": "IDirect3DTexture9 **",
+            "offset": "0x18",
+            "size": 4
+        }
+    ]
+}

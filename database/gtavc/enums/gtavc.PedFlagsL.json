@@ -1,0 +1,45 @@
+{
+    "name": "PedFlagsL",
+    "module": "",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": true,
+    "comment": "",
+    "members": [
+        {
+            "name": "bPedFlags89",
+            "value": "0x1"
+        },
+        {
+            "name": "bDoomAim",
+            "value": "0x2"
+        },
+        {
+            "name": "bCanBeShotInVehicle",
+            "value": "0x4"
+        },
+        {
+            "name": "bPedFlags92",
+            "value": "0x8"
+        },
+        {
+            "name": "bPedFlags93",
+            "value": "0x10"
+        },
+        {
+            "name": "bPedFlags94",
+            "value": "0x20"
+        },
+        {
+            "name": "bPedFlags95",
+            "value": "0x40"
+        },
+        {
+            "name": "bPedFlags96",
+            "value": "0x80"
+        }
+    ]
+}

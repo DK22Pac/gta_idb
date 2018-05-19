@@ -1,0 +1,17 @@
+{
+    "name": "CDummyObject",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x68",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "dummy",
+            "type": "CDummy",
+            "offset": 0,
+            "size": "0x68"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "name": "CEntryInfoNode",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x14",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_pPtrList",
+            "type": "CPtrList *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "m_pPtrNode",
+            "type": "CPtrNode *",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "m_pSector",
+            "type": "int",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "m_pNext",
+            "type": "CEntryInfoNode *",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "m_pPrev",
+            "type": "CEntryInfoNode *",
+            "offset": "0x10",
+            "size": 4
+        }
+    ]
+}

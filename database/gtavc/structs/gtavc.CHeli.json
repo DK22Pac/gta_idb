@@ -1,0 +1,248 @@
+{
+    "name": "CHeli",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x360",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "vehicle",
+            "type": "CVehicle",
+            "offset": 0,
+            "size": "0x2A0"
+        },
+        {
+            "name": "m_apModelNodes",
+            "type": "RwFrame *[8]",
+            "offset": "0x2A0",
+            "size": "0x20",
+            "comment": "RwFrame * [8]"
+        },
+        {
+            "name": "m_nHeliState",
+            "type": "_BYTE",
+            "offset": "0x2C0",
+            "size": 1,
+            "comment": "3 - HELI_STATE_EXPLODE"
+        },
+        {
+            "name": "_pad0",
+            "type": "_BYTE[3]",
+            "offset": "0x2C1",
+            "size": 3
+        },
+        {
+            "name": "m_fSearchLightX",
+            "type": "float",
+            "offset": "0x2C4",
+            "size": 4,
+            "comment": "world coors"
+        },
+        {
+            "name": "m_fSearchLightY",
+            "type": "float",
+            "offset": "0x2C8",
+            "size": 4
+        },
+        {
+            "name": "m_nExplosionTime",
+            "type": "int",
+            "offset": "0x2CC",
+            "size": 4,
+            "comment": "time when heli will be exploded"
+        },
+        {
+            "name": "field_2D0",
+            "type": "float",
+            "offset": "0x2D0",
+            "size": 4
+        },
+        {
+            "name": "m_fRotationX",
+            "type": "float",
+            "offset": "0x2D4",
+            "size": 4
+        },
+        {
+            "name": "m_fHeliForcedZ",
+            "type": "float",
+            "offset": "0x2D8",
+            "size": 4
+        },
+        {
+            "name": "m_fSearchLightIntensity",
+            "type": "float",
+            "offset": "0x2DC",
+            "size": 4,
+            "comment": "0.0f - 1.0f"
+        },
+        {
+            "name": "m_nHeliNumber",
+            "type": "_BYTE",
+            "offset": "0x2E0",
+            "size": 1
+        },
+        {
+            "name": "m_nHeliType",
+            "type": "char",
+            "offset": "0x2E1",
+            "size": 1,
+            "comment": "0 - randomly created, 1 - script, 2 - uses air path"
+        },
+        {
+            "name": "m_nHeliDestinationPoint",
+            "type": "_BYTE",
+            "offset": "0x2E2",
+            "size": 1,
+            "comment": "0 - 12"
+        },
+        {
+            "name": "m_nNumSwatPassengers",
+            "type": "_BYTE",
+            "offset": "0x2E3",
+            "size": 1,
+            "comment": "num swat peds & ropes to create, max 4"
+        },
+        {
+            "name": "m_anRopeLifeTime",
+            "type": "char[4]",
+            "offset": "0x2E4",
+            "size": 4,
+            "comment": "0 - 255"
+        },
+        {
+            "name": "field_2E8",
+            "type": "float[5]",
+            "offset": "0x2E8",
+            "size": "0x14"
+        },
+        {
+            "name": "field_2FC",
+            "type": "int[5]",
+            "offset": "0x2FC",
+            "size": "0x14"
+        },
+        {
+            "name": "field_310",
+            "type": "_DWORD",
+            "offset": "0x310",
+            "size": 4
+        },
+        {
+            "name": "field_314",
+            "type": "_DWORD",
+            "offset": "0x314",
+            "size": 4
+        },
+        {
+            "name": "field_318",
+            "type": "int",
+            "offset": "0x318",
+            "size": 4
+        },
+        {
+            "name": "field_31C",
+            "type": "int",
+            "offset": "0x31C",
+            "size": 4
+        },
+        {
+            "name": "field_320",
+            "type": "int",
+            "offset": "0x320",
+            "size": 4
+        },
+        {
+            "name": "m_nDamagePoints",
+            "type": "_DWORD",
+            "offset": "0x324",
+            "size": 4
+        },
+        {
+            "name": "m_fRotorAngle",
+            "type": "float",
+            "offset": "0x328",
+            "size": 4
+        },
+        {
+            "name": "field_32C",
+            "type": "float",
+            "offset": "0x32C",
+            "size": 4
+        },
+        {
+            "name": "field_330",
+            "type": "float",
+            "offset": "0x330",
+            "size": 4
+        },
+        {
+            "name": "field_334",
+            "type": "float",
+            "offset": "0x334",
+            "size": 4
+        },
+        {
+            "name": "field_338",
+            "type": "float",
+            "offset": "0x338",
+            "size": 4
+        },
+        {
+            "name": "field_33C",
+            "type": "float",
+            "offset": "0x33C",
+            "size": 4
+        },
+        {
+            "name": "field_340",
+            "type": "float",
+            "offset": "0x340",
+            "size": 4
+        },
+        {
+            "name": "field_344",
+            "type": "float",
+            "offset": "0x344",
+            "size": 4
+        },
+        {
+            "name": "field_348",
+            "type": "float",
+            "offset": "0x348",
+            "size": 4
+        },
+        {
+            "name": "field_34C",
+            "type": "_BYTE[8]",
+            "offset": "0x34C",
+            "size": 8
+        },
+        {
+            "name": "field_354",
+            "type": "int",
+            "offset": "0x354",
+            "size": 4
+        },
+        {
+            "name": "field_358",
+            "type": "float",
+            "offset": "0x358",
+            "size": 4
+        },
+        {
+            "name": "field_35C",
+            "type": "_BYTE",
+            "offset": "0x35C",
+            "size": 1
+        },
+        {
+            "name": "_pad1",
+            "type": "char[3]",
+            "offset": "0x35D",
+            "size": 3
+        }
+    ]
+}

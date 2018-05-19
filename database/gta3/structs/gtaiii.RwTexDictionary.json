@@ -1,0 +1,23 @@
+{
+    "name": "RwTexDictionary",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x50",
+    "alignment": 4,
+    "comment": "",
+    "members": [
+        {
+            "name": "object",
+            "type": "RwObject",
+            "offset": 0,
+            "size": 8
+        },
+        {
+            "name": "lInInstance",
+            "type": "RwLLLink[8]",
+            "offset": "0x10",
+            "size": "0x40"
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "name": "RwFrame",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0xF4",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "object",
+            "type": "RwObject",
+            "offset": 0,
+            "size": 8
+        },
+        {
+            "name": "inDirtyListLink",
+            "type": "RwLLLink",
+            "offset": 8,
+            "size": 8
+        },
+        {
+            "name": "modelling",
+            "type": "RwMatrix",
+            "offset": "0x10",
+            "size": "0x40"
+        },
+        {
+            "name": "ltm",
+            "type": "RwMatrix",
+            "offset": "0x50",
+            "size": "0x40"
+        },
+        {
+            "name": "objectList",
+            "type": "RwLinkList",
+            "offset": "0x90",
+            "size": "0x40"
+        },
+        {
+            "name": "child",
+            "type": "RwFrame *",
+            "offset": "0xD0",
+            "size": 4
+        },
+        {
+            "name": "next",
+            "type": "RwFrame *",
+            "offset": "0xD4",
+            "size": 4
+        },
+        {
+            "name": "root",
+            "type": "RwFrame *",
+            "offset": "0xD8",
+            "size": 4
+        },
+        {
+            "name": "pluginData",
+            "type": "char[8]",
+            "offset": "0xDC",
+            "size": 8
+        },
+        {
+            "name": "nodeName",
+            "type": "char[16]",
+            "offset": "0xE4",
+            "size": "0x10"
+        }
+    ]
+}

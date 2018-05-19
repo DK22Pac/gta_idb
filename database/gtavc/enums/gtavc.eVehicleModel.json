@@ -1,0 +1,441 @@
+{
+    "name": "eVehicleModel",
+    "module": "",
+    "scope": "",
+    "width": 4,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "MODEL_LANDSTAL",
+            "value": "0x82"
+        },
+        {
+            "name": "MODEL_IDAHO",
+            "value": "0x83"
+        },
+        {
+            "name": "MODEL_STINGER",
+            "value": "0x84"
+        },
+        {
+            "name": "MODEL_LINERUN",
+            "value": "0x85"
+        },
+        {
+            "name": "MODEL_PEREN",
+            "value": "0x86"
+        },
+        {
+            "name": "MODEL_SENTINEL",
+            "value": "0x87"
+        },
+        {
+            "name": "MODEL_RIO",
+            "value": "0x88"
+        },
+        {
+            "name": "MODEL_FIRETRUK",
+            "value": "0x89"
+        },
+        {
+            "name": "MODEL_TRASH",
+            "value": "0x8A"
+        },
+        {
+            "name": "MODEL_STRETCH",
+            "value": "0x8B"
+        },
+        {
+            "name": "MODEL_MANANA",
+            "value": "0x8C"
+        },
+        {
+            "name": "MODEL_INFERNUS",
+            "value": "0x8D"
+        },
+        {
+            "name": "MODEL_VOODOO",
+            "value": "0x8E"
+        },
+        {
+            "name": "MODEL_PONY",
+            "value": "0x8F"
+        },
+        {
+            "name": "MODEL_MULE",
+            "value": "0x90"
+        },
+        {
+            "name": "MODEL_CHEETAH",
+            "value": "0x91"
+        },
+        {
+            "name": "MODEL_AMBULAN",
+            "value": "0x92"
+        },
+        {
+            "name": "MODEL_FBICAR",
+            "value": "0x93"
+        },
+        {
+            "name": "MODEL_MOONBEAM",
+            "value": "0x94"
+        },
+        {
+            "name": "MODEL_ESPERANT",
+            "value": "0x95"
+        },
+        {
+            "name": "MODEL_TAXI",
+            "value": "0x96"
+        },
+        {
+            "name": "MODEL_WASHING",
+            "value": "0x97"
+        },
+        {
+            "name": "MODEL_BOBCAT",
+            "value": "0x98"
+        },
+        {
+            "name": "MODEL_MRWHOOP",
+            "value": "0x99"
+        },
+        {
+            "name": "MODEL_BFINJECT",
+            "value": "0x9A"
+        },
+        {
+            "name": "MODEL_HUNTER",
+            "value": "0x9B"
+        },
+        {
+            "name": "MODEL_POLICE",
+            "value": "0x9C"
+        },
+        {
+            "name": "MODEL_ENFORCER",
+            "value": "0x9D"
+        },
+        {
+            "name": "MODEL_SECURICA",
+            "value": "0x9E"
+        },
+        {
+            "name": "MODEL_BANSHEE",
+            "value": "0x9F"
+        },
+        {
+            "name": "MODEL_PREDATOR",
+            "value": "0xA0"
+        },
+        {
+            "name": "MODEL_BUS",
+            "value": "0xA1"
+        },
+        {
+            "name": "MODEL_RHINO",
+            "value": "0xA2"
+        },
+        {
+            "name": "MODEL_BARRACKS",
+            "value": "0xA3"
+        },
+        {
+            "name": "MODEL_CUBAN",
+            "value": "0xA4"
+        },
+        {
+            "name": "MODEL_CHOPPER",
+            "value": "0xA5"
+        },
+        {
+            "name": "MODEL_ANGEL",
+            "value": "0xA6"
+        },
+        {
+            "name": "MODEL_COACH",
+            "value": "0xA7"
+        },
+        {
+            "name": "MODEL_CABBIE",
+            "value": "0xA8"
+        },
+        {
+            "name": "MODEL_STALLION",
+            "value": "0xA9"
+        },
+        {
+            "name": "MODEL_RUMPO",
+            "value": "0xAA"
+        },
+        {
+            "name": "MODEL_RCBANDIT",
+            "value": "0xAB"
+        },
+        {
+            "name": "MODEL_ROMERO",
+            "value": "0xAC"
+        },
+        {
+            "name": "MODEL_PACKER",
+            "value": "0xAD"
+        },
+        {
+            "name": "MODEL_SENTXS",
+            "value": "0xAE"
+        },
+        {
+            "name": "MODEL_ADMIRAL",
+            "value": "0xAF"
+        },
+        {
+            "name": "MODEL_SQUALO",
+            "value": "0xB0"
+        },
+        {
+            "name": "MODEL_SEASPAR",
+            "value": "0xB1"
+        },
+        {
+            "name": "MODEL_PIZZABOY",
+            "value": "0xB2"
+        },
+        {
+            "name": "MODEL_GANGBUR",
+            "value": "0xB3"
+        },
+        {
+            "name": "MODEL_AIRTRAIN",
+            "value": "0xB4"
+        },
+        {
+            "name": "MODEL_DEADDODO",
+            "value": "0xB5"
+        },
+        {
+            "name": "MODEL_SPEEDER",
+            "value": "0xB6"
+        },
+        {
+            "name": "MODEL_REEFER",
+            "value": "0xB7"
+        },
+        {
+            "name": "MODEL_TROPIC",
+            "value": "0xB8"
+        },
+        {
+            "name": "MODEL_FLATBED",
+            "value": "0xB9"
+        },
+        {
+            "name": "MODEL_YANKEE",
+            "value": "0xBA"
+        },
+        {
+            "name": "MODEL_CADDY",
+            "value": "0xBB"
+        },
+        {
+            "name": "MODEL_ZEBRA",
+            "value": "0xBC"
+        },
+        {
+            "name": "MODEL_TOPFUN",
+            "value": "0xBD"
+        },
+        {
+            "name": "MODEL_SKIMMER",
+            "value": "0xBE"
+        },
+        {
+            "name": "MODEL_PCJ600",
+            "value": "0xBF"
+        },
+        {
+            "name": "MODEL_FAGGIO",
+            "value": "0xC0"
+        },
+        {
+            "name": "MODEL_FREEWAY",
+            "value": "0xC1"
+        },
+        {
+            "name": "MODEL_RCBARON",
+            "value": "0xC2"
+        },
+        {
+            "name": "MODEL_RCRAIDER",
+            "value": "0xC3"
+        },
+        {
+            "name": "MODEL_GLENDALE",
+            "value": "0xC4"
+        },
+        {
+            "name": "MODEL_OCEANIC",
+            "value": "0xC5"
+        },
+        {
+            "name": "MODEL_SANCHEZ",
+            "value": "0xC6"
+        },
+        {
+            "name": "MODEL_SPARROW",
+            "value": "0xC7"
+        },
+        {
+            "name": "MODEL_PATRIOT",
+            "value": "0xC8"
+        },
+        {
+            "name": "MODEL_LOVEFIST",
+            "value": "0xC9"
+        },
+        {
+            "name": "MODEL_COASTG",
+            "value": "0xCA"
+        },
+        {
+            "name": "MODEL_DINGHY",
+            "value": "0xCB"
+        },
+        {
+            "name": "MODEL_HERMES",
+            "value": "0xCC"
+        },
+        {
+            "name": "MODEL_SABRE",
+            "value": "0xCD"
+        },
+        {
+            "name": "MODEL_SABRETUR",
+            "value": "0xCE"
+        },
+        {
+            "name": "MODEL_PHEONIX",
+            "value": "0xCF"
+        },
+        {
+            "name": "MODEL_WALTON",
+            "value": "0xD0"
+        },
+        {
+            "name": "MODEL_REGINA",
+            "value": "0xD1"
+        },
+        {
+            "name": "MODEL_COMET",
+            "value": "0xD2"
+        },
+        {
+            "name": "MODEL_DELUXO",
+            "value": "0xD3"
+        },
+        {
+            "name": "MODEL_BURRITO",
+            "value": "0xD4"
+        },
+        {
+            "name": "MODEL_SPAND",
+            "value": "0xD5"
+        },
+        {
+            "name": "MODEL_MARQUIS",
+            "value": "0xD6"
+        },
+        {
+            "name": "MODEL_BAGGAGE",
+            "value": "0xD7"
+        },
+        {
+            "name": "MODEL_KAUFMAN",
+            "value": "0xD8"
+        },
+        {
+            "name": "MODEL_MAVERICK",
+            "value": "0xD9"
+        },
+        {
+            "name": "MODEL_VCNMAV",
+            "value": "0xDA"
+        },
+        {
+            "name": "MODEL_RANCHER",
+            "value": "0xDB"
+        },
+        {
+            "name": "MODEL_FBIRANCH",
+            "value": "0xDC"
+        },
+        {
+            "name": "MODEL_VIRGO",
+            "value": "0xDD"
+        },
+        {
+            "name": "MODEL_GREENWOO",
+            "value": "0xDE"
+        },
+        {
+            "name": "MODEL_JETMAX",
+            "value": "0xDF"
+        },
+        {
+            "name": "MODEL_HOTRING",
+            "value": "0xE0"
+        },
+        {
+            "name": "MODEL_SANDKING",
+            "value": "0xE1"
+        },
+        {
+            "name": "MODEL_BLISTAC",
+            "value": "0xE2"
+        },
+        {
+            "name": "MODEL_POLMAV",
+            "value": "0xE3"
+        },
+        {
+            "name": "MODEL_BOXVILLE",
+            "value": "0xE4"
+        },
+        {
+            "name": "MODEL_BENSON",
+            "value": "0xE5"
+        },
+        {
+            "name": "MODEL_MESA",
+            "value": "0xE6"
+        },
+        {
+            "name": "MODEL_RCGOBLIN",
+            "value": "0xE7"
+        },
+        {
+            "name": "MODEL_HOTRINA",
+            "value": "0xE8"
+        },
+        {
+            "name": "MODEL_HOTRINB",
+            "value": "0xE9"
+        },
+        {
+            "name": "MODEL_BLOODRA",
+            "value": "0xEA"
+        },
+        {
+            "name": "MODEL_BLOODRB",
+            "value": "0xEB"
+        },
+        {
+            "name": "MODEL_VICECHEE",
+            "value": "0xEC"
+        }
+    ]
+}

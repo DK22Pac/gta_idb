@@ -1,0 +1,65 @@
+{
+    "name": "_RTL_CRITICAL_SECTION_DEBUG",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x20",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "Type",
+            "type": "WORD",
+            "offset": 0,
+            "size": 2
+        },
+        {
+            "name": "CreatorBackTraceIndex",
+            "type": "WORD",
+            "offset": 2,
+            "size": 2
+        },
+        {
+            "name": "CriticalSection",
+            "type": "struct _RTL_CRITICAL_SECTION *",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "ProcessLocksList",
+            "type": "LIST_ENTRY",
+            "offset": 8,
+            "size": 8
+        },
+        {
+            "name": "EntryCount",
+            "type": "DWORD",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "ContentionCount",
+            "type": "DWORD",
+            "offset": "0x14",
+            "size": 4
+        },
+        {
+            "name": "Flags",
+            "type": "DWORD",
+            "offset": "0x18",
+            "size": 4
+        },
+        {
+            "name": "CreatorBackTraceIndexHigh",
+            "type": "WORD",
+            "offset": "0x1C",
+            "size": 2
+        },
+        {
+            "name": "SpareWORD",
+            "type": "WORD",
+            "offset": "0x1E",
+            "size": 2
+        }
+    ]
+}

@@ -1,0 +1,107 @@
+{
+    "name": "RwGlobals",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x18C",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "curCamera",
+            "type": "void *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "curWorld",
+            "type": "void *",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "renderFrame",
+            "type": "unsigned __int16",
+            "offset": 8,
+            "size": 2
+        },
+        {
+            "name": "lightFrame",
+            "type": "unsigned __int16",
+            "offset": "0xA",
+            "size": 2
+        },
+        {
+            "name": "pad",
+            "type": "unsigned __int16[2]",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "dOpenDevice",
+            "type": "RwDevice",
+            "offset": "0x10",
+            "size": "0x38"
+        },
+        {
+            "name": "stdFunc",
+            "type": "char[116]",
+            "offset": "0x48",
+            "size": "0x74"
+        },
+        {
+            "name": "dirtyFrameList",
+            "type": "RwLinkList",
+            "offset": "0xBC",
+            "size": "0x40"
+        },
+        {
+            "name": "fileFuncs",
+            "type": "RwFileFunctions",
+            "offset": "0xFC",
+            "size": "0x2C"
+        },
+        {
+            "name": "stringFuncs",
+            "type": "RwStringFunctions",
+            "offset": "0x128",
+            "size": "0x40"
+        },
+        {
+            "name": "memoryFuncs",
+            "type": "RwMemoryFunctions",
+            "offset": "0x168",
+            "size": "0x10"
+        },
+        {
+            "name": "memoryAlloc",
+            "type": "char[4]",
+            "offset": "0x178",
+            "size": 4
+        },
+        {
+            "name": "memoryFree",
+            "type": "char[4]",
+            "offset": "0x17C",
+            "size": 4
+        },
+        {
+            "name": "metrics",
+            "type": "RwMetrics *",
+            "offset": "0x180",
+            "size": 4
+        },
+        {
+            "name": "engineStatus",
+            "type": "RwEngineStatus",
+            "offset": "0x184",
+            "size": 4
+        },
+        {
+            "name": "resArenaInitSize",
+            "type": "unsigned int",
+            "offset": "0x188",
+            "size": 4
+        }
+    ]
+}

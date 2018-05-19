@@ -1,0 +1,23 @@
+{
+    "name": "CPager",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x164",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_nNumDisplayLetters",
+            "type": "_WORD",
+            "offset": 0,
+            "size": 2
+        },
+        {
+            "name": "m_messages",
+            "type": "PagerMessage[8]",
+            "offset": 4,
+            "size": "0x160"
+        }
+    ]
+}

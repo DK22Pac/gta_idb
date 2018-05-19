@@ -1,0 +1,99 @@
+{
+    "name": "CEntity",
+    "module": "CEntity",
+    "scope": "",
+    "kind": "class",
+    "size": "0x64",
+    "alignment": 2,
+    "vtableAddress": "0x5FE0A0",
+    "vtableSize": 17,
+    "comment": "",
+    "members": [
+        {
+            "name": "base",
+            "type": "CPlaceable",
+            "offset": 0,
+            "size": "0x4C",
+            "comment": " isbase:true"
+        },
+        {
+            "name": "m_pRwObject",
+            "type": "RpAtomic *",
+            "offset": "0x4C",
+            "size": 4
+        },
+        {
+            "name": "m_bTypeState",
+            "type": "char",
+            "offset": "0x50",
+            "size": 1
+        },
+        {
+            "name": "m_bFlags1",
+            "type": "char",
+            "offset": "0x51",
+            "size": 1
+        },
+        {
+            "name": "m_bFlags2",
+            "type": "char",
+            "offset": "0x52",
+            "size": 1
+        },
+        {
+            "name": "m_bFlags3",
+            "type": "char",
+            "offset": "0x53",
+            "size": 1
+        },
+        {
+            "name": "m_bFlags4",
+            "type": "char",
+            "offset": "0x54",
+            "size": 1
+        },
+        {
+            "name": "m_bFlags5",
+            "type": "char",
+            "offset": "0x55",
+            "size": 1
+        },
+        {
+            "name": "_pad56",
+            "type": "char[2]",
+            "offset": "0x56",
+            "size": 2
+        },
+        {
+            "name": "m_nScanCode",
+            "type": "__int16",
+            "offset": "0x58",
+            "size": 2
+        },
+        {
+            "name": "m_nRandomSeed",
+            "type": "__int16",
+            "offset": "0x5A",
+            "size": 2
+        },
+        {
+            "name": "m_nModelIndex",
+            "type": "__int16",
+            "offset": "0x5C",
+            "size": 2
+        },
+        {
+            "name": "m_nLevel",
+            "type": "__int16",
+            "offset": "0x5E",
+            "size": 2,
+            "comment": "-1 - ignore level transitions"
+        },
+        {
+            "name": "m_pFirstRef",
+            "type": "CReference *",
+            "offset": "0x60",
+            "size": 4
+        }
+    ]
+}

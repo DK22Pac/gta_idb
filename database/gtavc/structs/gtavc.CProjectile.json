@@ -1,0 +1,17 @@
+{
+    "name": "CProjectile",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x194",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "object",
+            "type": "CObject",
+            "offset": 0,
+            "size": "0x194"
+        }
+    ]
+}

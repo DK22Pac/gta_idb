@@ -1,0 +1,26 @@
+{
+    "name": "CPlaceable",
+    "module": "CPlaceable",
+    "scope": "",
+    "kind": "class",
+    "size": "0x4C",
+    "alignment": 0,
+    "hasVectorDeletingDtor": true,
+    "vtableAddress": "0x603808",
+    "vtableSize": 1,
+    "comment": "",
+    "members": [
+        {
+            "name": "vtable",
+            "type": "CEntityVMT *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "m_matrix",
+            "type": "CMatrix",
+            "offset": 4,
+            "size": "0x48"
+        }
+    ]
+}

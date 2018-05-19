@@ -1,0 +1,23 @@
+{
+    "name": "TimeModelStore",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0xA54",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_dwCount",
+            "type": "int",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "m_sObject",
+            "type": "CTimeModelInfo[30]",
+            "offset": 4,
+            "size": "0xA50"
+        }
+    ]
+}

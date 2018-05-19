@@ -1,0 +1,29 @@
+{
+    "name": "RsInputDevice",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0xC",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "inputDeviceType",
+            "type": "unsigned int",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "used",
+            "type": "unsigned int",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "inputEventHandler",
+            "type": "unsigned int",
+            "offset": 8,
+            "size": 4
+        }
+    ]
+}

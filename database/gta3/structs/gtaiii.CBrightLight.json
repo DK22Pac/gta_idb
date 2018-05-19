@@ -1,0 +1,47 @@
+{
+    "name": "CBrightLight",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x38",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "corners",
+            "type": "CVector[4]",
+            "offset": 0,
+            "size": "0x30"
+        },
+        {
+            "name": "cameraDistance",
+            "type": "float",
+            "offset": "0x30",
+            "size": 4
+        },
+        {
+            "name": "red",
+            "type": "char",
+            "offset": "0x34",
+            "size": 1
+        },
+        {
+            "name": "green",
+            "type": "char",
+            "offset": "0x35",
+            "size": 1
+        },
+        {
+            "name": "blue",
+            "type": "char",
+            "offset": "0x36",
+            "size": 1
+        },
+        {
+            "name": "alpha",
+            "type": "char",
+            "offset": "0x37",
+            "size": 1
+        }
+    ]
+}

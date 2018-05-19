@@ -1,0 +1,45 @@
+{
+    "name": "PedFlagsF",
+    "module": "",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": true,
+    "comment": "",
+    "members": [
+        {
+            "name": "bPedFlags41",
+            "value": "0x1"
+        },
+        {
+            "name": "bPedFlags42",
+            "value": "0x2"
+        },
+        {
+            "name": "bPedFlags43",
+            "value": "0x4"
+        },
+        {
+            "name": "bPedFlags44",
+            "value": "0x8"
+        },
+        {
+            "name": "bPedFlags45",
+            "value": "0x10"
+        },
+        {
+            "name": "bPedFlags46",
+            "value": "0x20"
+        },
+        {
+            "name": "bPedFlags47",
+            "value": "0x40"
+        },
+        {
+            "name": "bPedFlags48",
+            "value": "0x80"
+        }
+    ]
+}

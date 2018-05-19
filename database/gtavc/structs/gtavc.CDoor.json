@@ -1,0 +1,71 @@
+{
+    "name": "CDoor",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x24",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "fAngleInPosOne",
+            "type": "int",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "fAngleInPosTwo",
+            "type": "int",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "nAxisDirection",
+            "type": "char",
+            "offset": 8,
+            "size": 1
+        },
+        {
+            "name": "nAxis",
+            "type": "char",
+            "offset": 9,
+            "size": 1
+        },
+        {
+            "name": "nState",
+            "type": "char",
+            "offset": "0xA",
+            "size": 1
+        },
+        {
+            "name": "__f000B",
+            "type": "char",
+            "offset": "0xB",
+            "size": 1
+        },
+        {
+            "name": "fAngle",
+            "type": "int",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "fPrevAngle",
+            "type": "int",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "fVelAngle",
+            "type": "int",
+            "offset": "0x14",
+            "size": 4
+        },
+        {
+            "name": "vecVelocity",
+            "type": "CVector",
+            "offset": "0x18",
+            "size": "0xC"
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "name": "cVehicleParams",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x18",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "gap0",
+            "type": "_BYTE[4]",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "byte4",
+            "type": "_BYTE",
+            "offset": 4,
+            "size": 1
+        },
+        {
+            "name": "m_fDistToCamera",
+            "type": "float",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "pVehicle",
+            "type": "CVehicle *",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "gap10",
+            "type": "_BYTE[4]",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "m_nAudioDataId",
+            "type": "_DWORD",
+            "offset": "0x14",
+            "size": 4
+        }
+    ]
+}

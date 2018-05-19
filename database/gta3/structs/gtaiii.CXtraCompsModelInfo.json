@@ -1,0 +1,25 @@
+{
+    "name": "CXtraCompsModelInfo",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x38",
+    "alignment": 0,
+    "vtableAddress": "0x60AE24",
+    "vtableSize": 7,
+    "comment": "",
+    "members": [
+        {
+            "name": "clump",
+            "type": "CClumpModelInfo",
+            "offset": 0,
+            "size": "0x34"
+        },
+        {
+            "name": "dword34",
+            "type": "_DWORD",
+            "offset": "0x34",
+            "size": 4
+        }
+    ]
+}

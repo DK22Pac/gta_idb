@@ -1,0 +1,59 @@
+{
+    "name": "tMenuProp",
+    "module": "",
+    "scope": "",
+    "kind": "struct",
+    "size": "0x12",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_nAction",
+            "type": "unsigned __int16",
+            "offset": 0,
+            "size": 2
+        },
+        {
+            "name": "m_szTitle",
+            "type": "char[8]",
+            "offset": 2,
+            "size": 8
+        },
+        {
+            "name": "m_nType",
+            "type": "char",
+            "offset": "0xA",
+            "size": 1
+        },
+        {
+            "name": "m_nTargetPage",
+            "type": "char",
+            "offset": "0xB",
+            "size": 1
+        },
+        {
+            "name": "m_nX",
+            "type": "__int16",
+            "offset": "0xC",
+            "size": 2
+        },
+        {
+            "name": "m_nY",
+            "type": "__int16",
+            "offset": "0xE",
+            "size": 2
+        },
+        {
+            "name": "m_nAlign",
+            "type": "eMenuPageAlignment",
+            "offset": "0x10",
+            "size": 1
+        },
+        {
+            "name": "_pad11",
+            "type": "unsigned __int8",
+            "offset": "0x11",
+            "size": 1
+        }
+    ]
+}

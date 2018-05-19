@@ -1,0 +1,45 @@
+{
+    "name": "PedFlagsK",
+    "module": "",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": true,
+    "comment": "",
+    "members": [
+        {
+            "name": "bIsDrowning",
+            "value": "0x1"
+        },
+        {
+            "name": "bDrownsInWater",
+            "value": "0x2"
+        },
+        {
+            "name": "bStayBehindIfLeaderTooFar",
+            "value": "0x4"
+        },
+        {
+            "name": "bUsingExitCarTimer",
+            "value": "0x8"
+        },
+        {
+            "name": "bScriptPedIsPlayerAlly",
+            "value": "0x10"
+        },
+        {
+            "name": "bKnockedUpIntoAir",
+            "value": "0x20"
+        },
+        {
+            "name": "bDeadPedInFrontOfCar",
+            "value": "0x40"
+        },
+        {
+            "name": "bStayInCarOnJack",
+            "value": "0x80"
+        }
+    ]
+}

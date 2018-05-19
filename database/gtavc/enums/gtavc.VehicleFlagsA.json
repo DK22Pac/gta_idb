@@ -1,0 +1,45 @@
+{
+    "name": "VehicleFlagsA",
+    "module": "",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": true,
+    "comment": "",
+    "members": [
+        {
+            "name": "bVehicleFlags01",
+            "value": "0x1"
+        },
+        {
+            "name": "bVehicleFlags02",
+            "value": "0x2"
+        },
+        {
+            "name": "bVehicleFlags03",
+            "value": "0x4"
+        },
+        {
+            "name": "bIsLocked",
+            "value": "0x8"
+        },
+        {
+            "name": "bIsEngineOn",
+            "value": "0x10"
+        },
+        {
+            "name": "bBrakeLightsOn",
+            "value": "0x20"
+        },
+        {
+            "name": "bLightsOn",
+            "value": "0x40"
+        },
+        {
+            "name": "bVehicleFlags08",
+            "value": "0x80"
+        }
+    ]
+}

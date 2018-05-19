@@ -1,0 +1,33 @@
+{
+    "name": "RwEngineStatus",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "rwENGINESTATUSIDLE",
+            "value": "0x0"
+        },
+        {
+            "name": "rwENGINESTATUSINITED",
+            "value": "0x1"
+        },
+        {
+            "name": "rwENGINESTATUSOPENED",
+            "value": "0x2"
+        },
+        {
+            "name": "rwENGINESTATUSSTARTED",
+            "value": "0x3"
+        },
+        {
+            "name": "rwENGINESTATUSFORCEENUMSIZEINT",
+            "value": "0x7FFFFFFF"
+        }
+    ]
+}

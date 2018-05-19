@@ -1,0 +1,45 @@
+{
+    "name": "EntityFlagsB",
+    "module": "",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": true,
+    "comment": "",
+    "members": [
+        {
+            "name": "bEntUFlag09",
+            "value": "0x1"
+        },
+        {
+            "name": "bExplosionProof",
+            "value": "0x2"
+        },
+        {
+            "name": "bIsVisible",
+            "value": "0x4"
+        },
+        {
+            "name": "bHasCollided",
+            "value": "0x8"
+        },
+        {
+            "name": "bExplodedTexture",
+            "value": "0x10"
+        },
+        {
+            "name": "bEntUFlag14",
+            "value": "0x20"
+        },
+        {
+            "name": "bUseLevelSectors",
+            "value": "0x40"
+        },
+        {
+            "name": "bIsBigBuilding",
+            "value": "0x80"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "CClumpModelInfo",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x34",
+    "alignment": 0,
+    "vtableAddress": "0x60AE00",
+    "vtableSize": 7,
+    "comment": "",
+    "members": [
+        {
+            "name": "base",
+            "type": "CBaseModelInfo",
+            "offset": 0,
+            "size": "0x30"
+        },
+        {
+            "name": "m_pClump",
+            "type": "RpClump *",
+            "offset": "0x30",
+            "size": 4
+        }
+    ]
+}

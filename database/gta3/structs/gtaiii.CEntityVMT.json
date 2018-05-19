@@ -1,0 +1,113 @@
+{
+    "name": "CEntityVMT",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x44",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "scalarDtor",
+            "type": "int",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "Add",
+            "type": "int",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "Remove",
+            "type": "int",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "SetModelIndex",
+            "type": "int",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "SetModelIndexNoCreate",
+            "type": "int",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "CreateRwObject",
+            "type": "int",
+            "offset": "0x14",
+            "size": 4
+        },
+        {
+            "name": "DeleteRwObject",
+            "type": "char (__thiscall *)(CEntity *this)",
+            "offset": "0x18",
+            "size": 4
+        },
+        {
+            "name": "GetBoundRect",
+            "type": "RwRect *(__thiscall *)(CEntity *this, RwRect *rect)",
+            "offset": "0x1C",
+            "size": 4
+        },
+        {
+            "name": "field_1C",
+            "type": "int",
+            "offset": "0x20",
+            "size": 4
+        },
+        {
+            "name": "field_20",
+            "type": "int",
+            "offset": "0x24",
+            "size": 4
+        },
+        {
+            "name": "field_24",
+            "type": "int",
+            "offset": "0x28",
+            "size": 4
+        },
+        {
+            "name": "nullsub_405930",
+            "type": "int",
+            "offset": "0x2C",
+            "size": 4
+        },
+        {
+            "name": "PreRender",
+            "type": "int",
+            "offset": "0x30",
+            "size": 4
+        },
+        {
+            "name": "Render",
+            "type": "int",
+            "offset": "0x34",
+            "size": 4
+        },
+        {
+            "name": "SetupLighting",
+            "type": "int",
+            "offset": "0x38",
+            "size": 4
+        },
+        {
+            "name": "RemoveLighting",
+            "type": "int",
+            "offset": "0x3C",
+            "size": 4
+        },
+        {
+            "name": "field_3C",
+            "type": "int",
+            "offset": "0x40",
+            "size": 4
+        }
+    ]
+}

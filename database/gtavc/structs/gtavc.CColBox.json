@@ -1,0 +1,23 @@
+{
+    "name": "CColBox",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x18",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_vSup",
+            "type": "CVector",
+            "offset": 0,
+            "size": "0xC"
+        },
+        {
+            "name": "m_vInf",
+            "type": "CVector",
+            "offset": "0xC",
+            "size": "0xC"
+        }
+    ]
+}

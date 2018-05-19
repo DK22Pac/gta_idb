@@ -1,0 +1,125 @@
+{
+    "name": "COneSheet",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x44",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "field_0",
+            "type": "float",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "field_4",
+            "type": "float",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "field_8",
+            "type": "float",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "field_C",
+            "type": "float",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "field_10",
+            "type": "float",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "field_14",
+            "type": "float",
+            "offset": "0x14",
+            "size": 4
+        },
+        {
+            "name": "m_fGroundZ",
+            "type": "float",
+            "offset": "0x18",
+            "size": 4
+        },
+        {
+            "name": "m_bActive",
+            "type": "char",
+            "offset": "0x1C",
+            "size": 1
+        },
+        {
+            "name": "field_1D",
+            "type": "char",
+            "offset": "0x1D",
+            "size": 1
+        },
+        {
+            "name": "m_nTimer",
+            "type": "int",
+            "offset": "0x20",
+            "size": 4
+        },
+        {
+            "name": "field_24",
+            "type": "int",
+            "offset": "0x24",
+            "size": 4
+        },
+        {
+            "name": "field_28",
+            "type": "float",
+            "offset": "0x28",
+            "size": 4
+        },
+        {
+            "name": "field_2C",
+            "type": "float",
+            "offset": "0x2C",
+            "size": 4
+        },
+        {
+            "name": "field_30",
+            "type": "float",
+            "offset": "0x30",
+            "size": 4
+        },
+        {
+            "name": "field_34",
+            "type": "float",
+            "offset": "0x34",
+            "size": 4
+        },
+        {
+            "name": "field_38",
+            "type": "char",
+            "offset": "0x38",
+            "size": 1
+        },
+        {
+            "name": "field_39",
+            "type": "char",
+            "offset": "0x39",
+            "size": 1
+        },
+        {
+            "name": "m_pNext",
+            "type": "COneSheet *",
+            "offset": "0x3C",
+            "size": 4
+        },
+        {
+            "name": "m_pPrev",
+            "type": "COneSheet *",
+            "offset": "0x40",
+            "size": 4
+        }
+    ]
+}

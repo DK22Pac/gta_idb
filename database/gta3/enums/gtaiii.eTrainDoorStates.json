@@ -1,0 +1,29 @@
+{
+    "name": "eTrainDoorStates",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "TRAIN_DOOR_CLOSED",
+            "value": "0x0"
+        },
+        {
+            "name": "TRAIN_DOOR_OPENING",
+            "value": "0x1"
+        },
+        {
+            "name": "TRAIN_DOOR_OPENED",
+            "value": "0x2"
+        },
+        {
+            "name": "TRAIN_DOOR_CLOSING",
+            "value": "0x3"
+        }
+    ]
+}

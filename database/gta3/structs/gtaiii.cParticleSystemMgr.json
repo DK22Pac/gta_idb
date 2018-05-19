@@ -1,0 +1,17 @@
+{
+    "name": "cParticleSystemMgr",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x2420",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_particleSystems",
+            "type": "tParticleSystemData[68]",
+            "offset": 0,
+            "size": "0x2420"
+        }
+    ]
+}

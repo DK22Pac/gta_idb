@@ -1,0 +1,59 @@
+{
+    "name": "CPedModelInfo",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x48",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "clump",
+            "type": "CClumpModelInfo",
+            "offset": 0,
+            "size": "0x30"
+        },
+        {
+            "name": "m_nAnigGroupId",
+            "type": "int",
+            "offset": "0x30",
+            "size": 4
+        },
+        {
+            "name": "m_nPedType",
+            "type": "int",
+            "offset": "0x34",
+            "size": 4
+        },
+        {
+            "name": "m_nPedStatType",
+            "type": "int",
+            "offset": "0x38",
+            "size": 4
+        },
+        {
+            "name": "m_nCarsCanDriveMask",
+            "type": "int",
+            "offset": "0x3C",
+            "size": 4
+        },
+        {
+            "name": "m_pHitColModel",
+            "type": "CColModel *",
+            "offset": "0x40",
+            "size": 4
+        },
+        {
+            "name": "m_anPreferredRadioStations",
+            "type": "char[2]",
+            "offset": "0x44",
+            "size": 2
+        },
+        {
+            "name": "_pad46",
+            "type": "char[2]",
+            "offset": "0x46",
+            "size": 2
+        }
+    ]
+}

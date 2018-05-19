@@ -1,0 +1,29 @@
+{
+    "name": "CTxdEntry",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x18",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "dictionary",
+            "type": "_DWORD",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "dword4",
+            "type": "_DWORD",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "name",
+            "type": "char[16]",
+            "offset": 8,
+            "size": "0x10"
+        }
+    ]
+}

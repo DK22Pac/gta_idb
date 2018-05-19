@@ -1,0 +1,45 @@
+{
+    "name": "EntityFlagsE",
+    "module": "",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": true,
+    "comment": "",
+    "members": [
+        {
+            "name": "bEntUFlag33",
+            "value": "0x1"
+        },
+        {
+            "name": "bDontCastShadowsOn",
+            "value": "0x2"
+        },
+        {
+            "name": "bEntUFlag35",
+            "value": "0x4"
+        },
+        {
+            "name": "bIsStaticWaitingForCollision",
+            "value": "0x8"
+        },
+        {
+            "name": "bEntUFlag37",
+            "value": "0x10"
+        },
+        {
+            "name": "bEntUFlag38",
+            "value": "0x20"
+        },
+        {
+            "name": "bEntUFlag39",
+            "value": "0x40"
+        },
+        {
+            "name": "bEntUFlag40",
+            "value": "0x80"
+        }
+    ]
+}

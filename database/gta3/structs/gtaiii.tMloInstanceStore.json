@@ -1,0 +1,23 @@
+{
+    "name": "tMloInstanceStore",
+    "module": "",
+    "scope": "",
+    "kind": "struct",
+    "size": "0x54",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "count",
+            "type": "int",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "objects",
+            "type": "tMloInstance[1]",
+            "offset": 4,
+            "size": "0x50"
+        }
+    ]
+}

@@ -1,0 +1,1091 @@
+{
+    "name": "CPed",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x5F4",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "physical",
+            "type": "CPhysical",
+            "offset": 0,
+            "size": "0x120"
+        },
+        {
+            "name": "polyColliding",
+            "type": "CCollPoly",
+            "offset": "0x120",
+            "size": "0x28"
+        },
+        {
+            "name": "fCollisionSpeed",
+            "type": "int",
+            "offset": "0x148",
+            "size": 4
+        },
+        {
+            "name": "bfFlagsA",
+            "type": "char",
+            "offset": "0x14C",
+            "size": 1
+        },
+        {
+            "name": "bfFlagsB",
+            "type": "char",
+            "offset": "0x14D",
+            "size": 1
+        },
+        {
+            "name": "bfFlagsC",
+            "type": "char",
+            "offset": "0x14E",
+            "size": 1
+        },
+        {
+            "name": "bfFlagsD",
+            "type": "char",
+            "offset": "0x14F",
+            "size": 1
+        },
+        {
+            "name": "bfFlagsE",
+            "type": "char",
+            "offset": "0x150",
+            "size": 1
+        },
+        {
+            "name": "bfFlagsF",
+            "type": "char",
+            "offset": "0x151",
+            "size": 1
+        },
+        {
+            "name": "bfFlagsG",
+            "type": "char",
+            "offset": "0x152",
+            "size": 1
+        },
+        {
+            "name": "bfFlagsH",
+            "type": "char",
+            "offset": "0x153",
+            "size": 1
+        },
+        {
+            "name": "bfFlagsI",
+            "type": "char",
+            "offset": "0x154",
+            "size": 1
+        },
+        {
+            "name": "bfFlagsJ",
+            "type": "char",
+            "offset": "0x155",
+            "size": 1
+        },
+        {
+            "name": "bfFlagsK",
+            "type": "char",
+            "offset": "0x156",
+            "size": 1
+        },
+        {
+            "name": "bfFlagsL",
+            "type": "char",
+            "offset": "0x157",
+            "size": 1
+        },
+        {
+            "name": "bfFlagsM",
+            "type": "char",
+            "offset": "0x158",
+            "size": 1
+        },
+        {
+            "name": "_pad159",
+            "type": "char[3]",
+            "offset": "0x159",
+            "size": 3
+        },
+        {
+            "name": "bfGangFlags",
+            "type": "char",
+            "offset": "0x15C",
+            "size": 1
+        },
+        {
+            "name": "__f0159",
+            "type": "char[3]",
+            "offset": "0x15D",
+            "size": 3
+        },
+        {
+            "name": "bytePedStatus",
+            "type": "char",
+            "offset": "0x160",
+            "size": 1
+        },
+        {
+            "name": "__fx015D",
+            "type": "char[3]",
+            "offset": "0x161",
+            "size": 3
+        },
+        {
+            "name": "dwObjective",
+            "type": "int",
+            "offset": "0x164",
+            "size": 4
+        },
+        {
+            "name": "dwPrevObjective",
+            "type": "int",
+            "offset": "0x168",
+            "size": 4
+        },
+        {
+            "name": "pObjectiveEntity",
+            "type": "int",
+            "offset": "0x16C",
+            "size": 4
+        },
+        {
+            "name": "pObjectiveVehicle",
+            "type": "int",
+            "offset": "0x170",
+            "size": 4
+        },
+        {
+            "name": "vecObjective",
+            "type": "CVector",
+            "offset": "0x174",
+            "size": "0xC"
+        },
+        {
+            "name": "fObjectiveAngle",
+            "type": "int",
+            "offset": "0x180",
+            "size": 4
+        },
+        {
+            "name": "pGangLeader",
+            "type": "int",
+            "offset": "0x184",
+            "size": 4
+        },
+        {
+            "name": "dwPedFormation",
+            "type": "int",
+            "offset": "0x188",
+            "size": 4
+        },
+        {
+            "name": "dwFearFlags",
+            "type": "int",
+            "offset": "0x18C",
+            "size": 4
+        },
+        {
+            "name": "pThreatEntity",
+            "type": "int",
+            "offset": "0x190",
+            "size": 4
+        },
+        {
+            "name": "fEventOrThreatX",
+            "type": "int",
+            "offset": "0x194",
+            "size": 4
+        },
+        {
+            "name": "fEventOrThreatY",
+            "type": "int",
+            "offset": "0x198",
+            "size": 4
+        },
+        {
+            "name": "dwEventType",
+            "type": "int",
+            "offset": "0x19C",
+            "size": 4
+        },
+        {
+            "name": "pEventEntity",
+            "type": "int",
+            "offset": "0x1A0",
+            "size": 4
+        },
+        {
+            "name": "fAngleToEvent",
+            "type": "int",
+            "offset": "0x1A4",
+            "size": 4
+        },
+        {
+            "name": "m_apBones",
+            "type": "AnimBlendFrameData *[18]",
+            "offset": "0x1A8",
+            "size": "0x48"
+        },
+        {
+            "name": "pCurWeaponAtomic",
+            "type": "int",
+            "offset": "0x1F0",
+            "size": 4
+        },
+        {
+            "name": "dwAnimGroupId",
+            "type": "int",
+            "offset": "0x1F4",
+            "size": 4
+        },
+        {
+            "name": "pVehicleAnim",
+            "type": "int",
+            "offset": "0x1F8",
+            "size": 4
+        },
+        {
+            "name": "vecAnimMoveDelta",
+            "type": "CVector2D",
+            "offset": "0x1FC",
+            "size": 8
+        },
+        {
+            "name": "vecOffsetSeek",
+            "type": "CVector",
+            "offset": "0x204",
+            "size": "0xC"
+        },
+        {
+            "name": "stPedIK",
+            "type": "CPedIK",
+            "offset": "0x210",
+            "size": "0x28"
+        },
+        {
+            "name": "fActionX",
+            "type": "int",
+            "offset": "0x238",
+            "size": 4
+        },
+        {
+            "name": "fActionY",
+            "type": "int",
+            "offset": "0x23C",
+            "size": 4
+        },
+        {
+            "name": "dwActionTimer",
+            "type": "int",
+            "offset": "0x240",
+            "size": 4
+        },
+        {
+            "name": "dwAction",
+            "type": "int",
+            "offset": "0x244",
+            "size": 4
+        },
+        {
+            "name": "dwLastAction",
+            "type": "int",
+            "offset": "0x248",
+            "size": 4
+        },
+        {
+            "name": "dwMoveState",
+            "type": "int",
+            "offset": "0x24C",
+            "size": 4
+        },
+        {
+            "name": "dwStoredActionState",
+            "type": "int",
+            "offset": "0x250",
+            "size": 4
+        },
+        {
+            "name": "dwPrevActionState",
+            "type": "int",
+            "offset": "0x254",
+            "size": 4
+        },
+        {
+            "name": "dwWaitState",
+            "type": "int",
+            "offset": "0x258",
+            "size": 4
+        },
+        {
+            "name": "dwWaitTimer",
+            "type": "int",
+            "offset": "0x25C",
+            "size": 4
+        },
+        {
+            "name": "pPathNodesStates",
+            "type": "int[8]",
+            "offset": "0x260",
+            "size": "0x20"
+        },
+        {
+            "name": "wPathNodes",
+            "type": "__int16",
+            "offset": "0x280",
+            "size": 2
+        },
+        {
+            "name": "wCurPathNode",
+            "type": "__int16",
+            "offset": "0x282",
+            "size": 2
+        },
+        {
+            "name": "pPathRelEntity",
+            "type": "int",
+            "offset": "0x284",
+            "size": 4
+        },
+        {
+            "name": "pNextNodeEntity",
+            "type": "int",
+            "offset": "0x288",
+            "size": 4
+        },
+        {
+            "name": "dwPathNodeTimer",
+            "type": "int",
+            "offset": "0x28C",
+            "size": 4
+        },
+        {
+            "name": "stPathNodeStates",
+            "type": "CPathNode[8]",
+            "offset": "0x290",
+            "size": "0xA0"
+        },
+        {
+            "name": "pCurNodeState",
+            "type": "int",
+            "offset": "0x330",
+            "size": 4
+        },
+        {
+            "name": "bytePathState",
+            "type": "char",
+            "offset": "0x334",
+            "size": 1
+        },
+        {
+            "name": "__f0331",
+            "type": "char[3]",
+            "offset": "0x335",
+            "size": 3
+        },
+        {
+            "name": "pNextPathNode",
+            "type": "int",
+            "offset": "0x338",
+            "size": 4
+        },
+        {
+            "name": "pLastPathNode",
+            "type": "int",
+            "offset": "0x33C",
+            "size": 4
+        },
+        {
+            "name": "vecPathNextNode",
+            "type": "CVector",
+            "offset": "0x340",
+            "size": "0xC"
+        },
+        {
+            "name": "fPathNextNodeDir",
+            "type": "int",
+            "offset": "0x34C",
+            "size": 4
+        },
+        {
+            "name": "dwPathNodeType",
+            "type": "int",
+            "offset": "0x350",
+            "size": 4
+        },
+        {
+            "name": "fHealth",
+            "type": "int",
+            "offset": "0x354",
+            "size": 4
+        },
+        {
+            "name": "fArmour",
+            "type": "int",
+            "offset": "0x358",
+            "size": 4
+        },
+        {
+            "name": "dwShadowUpdateTimer",
+            "type": "int",
+            "offset": "0x35C",
+            "size": 4
+        },
+        {
+            "name": "wRouteLastPoint",
+            "type": "__int16",
+            "offset": "0x360",
+            "size": 2
+        },
+        {
+            "name": "wRoutePoints",
+            "type": "__int16",
+            "offset": "0x362",
+            "size": 2
+        },
+        {
+            "name": "wRoutePos",
+            "type": "__int16",
+            "offset": "0x364",
+            "size": 2
+        },
+        {
+            "name": "wRouteType",
+            "type": "__int16",
+            "offset": "0x366",
+            "size": 2
+        },
+        {
+            "name": "wRouteCurDir",
+            "type": "__int16",
+            "offset": "0x368",
+            "size": 2
+        },
+        {
+            "name": "__f0366",
+            "type": "char[2]",
+            "offset": "0x36A",
+            "size": 2
+        },
+        {
+            "name": "fMovedX",
+            "type": "int",
+            "offset": "0x36C",
+            "size": 4
+        },
+        {
+            "name": "fMovedY",
+            "type": "int",
+            "offset": "0x370",
+            "size": 4
+        },
+        {
+            "name": "fRotationCur",
+            "type": "float",
+            "offset": "0x374",
+            "size": 4
+        },
+        {
+            "name": "fRotationDest",
+            "type": "float",
+            "offset": "0x378",
+            "size": 4
+        },
+        {
+            "name": "fHeadingRate",
+            "type": "int",
+            "offset": "0x37C",
+            "size": 4
+        },
+        {
+            "name": "wEnterType",
+            "type": "__int16",
+            "offset": "0x380",
+            "size": 2
+        },
+        {
+            "name": "wWalkAroundType",
+            "type": "__int16",
+            "offset": "0x382",
+            "size": 2
+        },
+        {
+            "name": "pCurPhysSurface",
+            "type": "int",
+            "offset": "0x384",
+            "size": 4
+        },
+        {
+            "name": "vecOffsetFromPhysSurface",
+            "type": "CVector",
+            "offset": "0x388",
+            "size": "0xC"
+        },
+        {
+            "name": "pCurSurface",
+            "type": "int",
+            "offset": "0x394",
+            "size": 4
+        },
+        {
+            "name": "vecSeekVehicle",
+            "type": "CVector",
+            "offset": "0x398",
+            "size": "0xC"
+        },
+        {
+            "name": "pSeekTarget",
+            "type": "int",
+            "offset": "0x3A4",
+            "size": 4
+        },
+        {
+            "name": "pVehicle",
+            "type": "CVehicle *",
+            "offset": "0x3A8",
+            "size": 4
+        },
+        {
+            "name": "byteIsInVehicle",
+            "type": "char",
+            "offset": "0x3AC",
+            "size": 1
+        },
+        {
+            "name": "__f03A9",
+            "type": "char[3]",
+            "offset": "0x3AD",
+            "size": 3
+        },
+        {
+            "name": "fSeatPrecisionX",
+            "type": "int",
+            "offset": "0x3B0",
+            "size": 4
+        },
+        {
+            "name": "fSeatPrecisionY",
+            "type": "int",
+            "offset": "0x3B4",
+            "size": 4
+        },
+        {
+            "name": "pFromVehicle",
+            "type": "int",
+            "offset": "0x3B8",
+            "size": 4
+        },
+        {
+            "name": "pSeat",
+            "type": "int",
+            "offset": "0x3BC",
+            "size": 4
+        },
+        {
+            "name": "dwSeatType",
+            "type": "int",
+            "offset": "0x3C0",
+            "size": 4
+        },
+        {
+            "name": "byteHasPhone",
+            "type": "char",
+            "offset": "0x3C4",
+            "size": 1
+        },
+        {
+            "name": "__f03C1",
+            "type": "char",
+            "offset": "0x3C5",
+            "size": 1
+        },
+        {
+            "name": "wPhoneId",
+            "type": "__int16",
+            "offset": "0x3C6",
+            "size": 2
+        },
+        {
+            "name": "dwLookingForPhone",
+            "type": "int",
+            "offset": "0x3C8",
+            "size": 4
+        },
+        {
+            "name": "dwPhoneTalkTimer",
+            "type": "int",
+            "offset": "0x3CC",
+            "size": 4
+        },
+        {
+            "name": "pLastAccident",
+            "type": "int",
+            "offset": "0x3D0",
+            "size": 4
+        },
+        {
+            "name": "dwPedType",
+            "type": "int",
+            "offset": "0x3D4",
+            "size": 4
+        },
+        {
+            "name": "pPedStats",
+            "type": "int",
+            "offset": "0x3D8",
+            "size": 4
+        },
+        {
+            "name": "fFleeFromPosX",
+            "type": "int",
+            "offset": "0x3DC",
+            "size": 4
+        },
+        {
+            "name": "fFleeFromPosY",
+            "type": "int",
+            "offset": "0x3E0",
+            "size": 4
+        },
+        {
+            "name": "pFleeFrom",
+            "type": "int",
+            "offset": "0x3E4",
+            "size": 4
+        },
+        {
+            "name": "dwFleeTimer",
+            "type": "int",
+            "offset": "0x3E8",
+            "size": 4
+        },
+        {
+            "name": "pThreatEx",
+            "type": "int",
+            "offset": "0x3EC",
+            "size": 4
+        },
+        {
+            "name": "pLastThreatAt",
+            "type": "int",
+            "offset": "0x3F0",
+            "size": 4
+        },
+        {
+            "name": "dwLastThreatTimer",
+            "type": "int",
+            "offset": "0x3F4",
+            "size": 4
+        },
+        {
+            "name": "pVehicleColliding",
+            "type": "int",
+            "offset": "0x3F8",
+            "size": 4
+        },
+        {
+            "name": "byteStateUnused",
+            "type": "char",
+            "offset": "0x3FC",
+            "size": 1
+        },
+        {
+            "name": "__f03F9",
+            "type": "char[3]",
+            "offset": "0x3FD",
+            "size": 3
+        },
+        {
+            "name": "dwTimerUnused",
+            "type": "int",
+            "offset": "0x400",
+            "size": 4
+        },
+        {
+            "name": "pTargetUnused",
+            "type": "int",
+            "offset": "0x404",
+            "size": 4
+        },
+        {
+            "name": "stWeps",
+            "type": "CWeapon[10]",
+            "offset": "0x408",
+            "size": "0xF0"
+        },
+        {
+            "name": "dwAtchStoredWep",
+            "type": "int",
+            "offset": "0x4F8",
+            "size": 4
+        },
+        {
+            "name": "dwStoredGiveWep",
+            "type": "int",
+            "offset": "0x4FC",
+            "size": 4
+        },
+        {
+            "name": "dwStoredGiveAmmo",
+            "type": "int",
+            "offset": "0x500",
+            "size": 4
+        },
+        {
+            "name": "byteWepSlot",
+            "type": "char",
+            "offset": "0x504",
+            "size": 1
+        },
+        {
+            "name": "byteWepSkills",
+            "type": "unsigned __int8",
+            "offset": "0x505",
+            "size": 1
+        },
+        {
+            "name": "byteWepAccuracy",
+            "type": "char",
+            "offset": "0x506",
+            "size": 1
+        },
+        {
+            "name": "byteBodyPart",
+            "type": "char",
+            "offset": "0x507",
+            "size": 1
+        },
+        {
+            "name": "pPointGunAt",
+            "type": "int",
+            "offset": "0x508",
+            "size": 4
+        },
+        {
+            "name": "vecHitLastPos",
+            "type": "CVector",
+            "offset": "0x50C",
+            "size": "0xC"
+        },
+        {
+            "name": "dwHitCounter",
+            "type": "int",
+            "offset": "0x518",
+            "size": 4
+        },
+        {
+            "name": "dwLastHitState",
+            "type": "int",
+            "offset": "0x51C",
+            "size": 4
+        },
+        {
+            "name": "byteFightFlags1",
+            "type": "char",
+            "offset": "0x520",
+            "size": 1
+        },
+        {
+            "name": "byteFightFlags2",
+            "type": "char",
+            "offset": "0x521",
+            "size": 1
+        },
+        {
+            "name": "byteFightFlags3",
+            "type": "char",
+            "offset": "0x522",
+            "size": 1
+        },
+        {
+            "name": "byteBleedCounter",
+            "type": "char",
+            "offset": "0x523",
+            "size": 1
+        },
+        {
+            "name": "pPedFire",
+            "type": "int",
+            "offset": "0x524",
+            "size": 4
+        },
+        {
+            "name": "pPedFight",
+            "type": "int",
+            "offset": "0x528",
+            "size": 4
+        },
+        {
+            "name": "fLookDirection",
+            "type": "int",
+            "offset": "0x52C",
+            "size": 4
+        },
+        {
+            "name": "dwWepModelID",
+            "type": "int",
+            "offset": "0x530",
+            "size": 4
+        },
+        {
+            "name": "dwLeaveCarTimer",
+            "type": "int",
+            "offset": "0x534",
+            "size": 4
+        },
+        {
+            "name": "dwGetUpTimer",
+            "type": "int",
+            "offset": "0x538",
+            "size": 4
+        },
+        {
+            "name": "dwLookTimer",
+            "type": "int",
+            "offset": "0x53C",
+            "size": 4
+        },
+        {
+            "name": "dwStandardTimer",
+            "type": "int",
+            "offset": "0x540",
+            "size": 4
+        },
+        {
+            "name": "dwAttackTimer",
+            "type": "int",
+            "offset": "0x544",
+            "size": 4
+        },
+        {
+            "name": "dwLastHitTime",
+            "type": "int",
+            "offset": "0x548",
+            "size": 4
+        },
+        {
+            "name": "dwHitRecoverTimer",
+            "type": "int",
+            "offset": "0x54C",
+            "size": 4
+        },
+        {
+            "name": "dwObjectiveTimer",
+            "type": "int",
+            "offset": "0x550",
+            "size": 4
+        },
+        {
+            "name": "dwDuckTimer",
+            "type": "int",
+            "offset": "0x554",
+            "size": 4
+        },
+        {
+            "name": "dwDuckAndCoverTimer",
+            "type": "int",
+            "offset": "0x558",
+            "size": 4
+        },
+        {
+            "name": "dwBloodyTimer",
+            "type": "int",
+            "offset": "0x55C",
+            "size": 4
+        },
+        {
+            "name": "dwShotTime",
+            "type": "int",
+            "offset": "0x560",
+            "size": 4
+        },
+        {
+            "name": "dwShotTimeAdd",
+            "type": "int",
+            "offset": "0x564",
+            "size": 4
+        },
+        {
+            "name": "bytePanicCounter",
+            "type": "char",
+            "offset": "0x568",
+            "size": 1
+        },
+        {
+            "name": "byteDeadBleeding",
+            "type": "char",
+            "offset": "0x569",
+            "size": 1
+        },
+        {
+            "name": "byteBodyPartBleeding",
+            "type": "char",
+            "offset": "0x56A",
+            "size": 1
+        },
+        {
+            "name": "__f0567",
+            "type": "char",
+            "offset": "0x56B",
+            "size": 1
+        },
+        {
+            "name": "pNearPeds",
+            "type": "int[10]",
+            "offset": "0x56C",
+            "size": "0x28"
+        },
+        {
+            "name": "nNearPeds",
+            "type": "__int16",
+            "offset": "0x594",
+            "size": 2
+        },
+        {
+            "name": "wPedMoney",
+            "type": "__int16",
+            "offset": "0x596",
+            "size": 2
+        },
+        {
+            "name": "byteLastDamWep",
+            "type": "char",
+            "offset": "0x598",
+            "size": 1
+        },
+        {
+            "name": "__f0595",
+            "type": "char[3]",
+            "offset": "0x599",
+            "size": 3
+        },
+        {
+            "name": "pLastDamEntity",
+            "type": "int",
+            "offset": "0x59C",
+            "size": 4
+        },
+        {
+            "name": "pAttachedTo",
+            "type": "int",
+            "offset": "0x5A0",
+            "size": 4
+        },
+        {
+            "name": "vAtchOff",
+            "type": "CVector",
+            "offset": "0x5A4",
+            "size": "0xC"
+        },
+        {
+            "name": "wAtchType",
+            "type": "__int16",
+            "offset": "0x5B0",
+            "size": 2
+        },
+        {
+            "name": "_f05AE",
+            "type": "char[2]",
+            "offset": "0x5B2",
+            "size": 2
+        },
+        {
+            "name": "fAtchRot",
+            "type": "int",
+            "offset": "0x5B4",
+            "size": 4
+        },
+        {
+            "name": "dwAtchWepAmmo",
+            "type": "int",
+            "offset": "0x5B8",
+            "size": 4
+        },
+        {
+            "name": "dwThreatFlags",
+            "type": "int",
+            "offset": "0x5BC",
+            "size": 4
+        },
+        {
+            "name": "dwThreatCheck",
+            "type": "int",
+            "offset": "0x5C0",
+            "size": 4
+        },
+        {
+            "name": "dwLastThreatCheck",
+            "type": "int",
+            "offset": "0x5C4",
+            "size": 4
+        },
+        {
+            "name": "dwSayType",
+            "type": "int",
+            "offset": "0x5C8",
+            "size": 4
+        },
+        {
+            "name": "dwSayTimer",
+            "type": "int",
+            "offset": "0x5CC",
+            "size": 4
+        },
+        {
+            "name": "dwTalkTimerLast",
+            "type": "int",
+            "offset": "0x5D0",
+            "size": 4
+        },
+        {
+            "name": "dwTalkTimer",
+            "type": "int",
+            "offset": "0x5D4",
+            "size": 4
+        },
+        {
+            "name": "wTalkTypeLast",
+            "type": "__int16",
+            "offset": "0x5D8",
+            "size": 2
+        },
+        {
+            "name": "wTalkType",
+            "type": "__int16",
+            "offset": "0x5DA",
+            "size": 2
+        },
+        {
+            "name": "byteCanPedTalk",
+            "type": "char",
+            "offset": "0x5DC",
+            "size": 1
+        },
+        {
+            "name": "__f05D9",
+            "type": "char[3]",
+            "offset": "0x5DD",
+            "size": 3
+        },
+        {
+            "name": "dwPedLastComment",
+            "type": "int",
+            "offset": "0x5E0",
+            "size": 4
+        },
+        {
+            "name": "vecSeekPosEx",
+            "type": "CVector",
+            "offset": "0x5E4",
+            "size": "0xC"
+        },
+        {
+            "name": "fSeekExAngle",
+            "type": "int",
+            "offset": "0x5F0",
+            "size": 4
+        }
+    ]
+}

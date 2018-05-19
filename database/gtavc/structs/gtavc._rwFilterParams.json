@@ -1,0 +1,29 @@
+{
+    "name": "_rwFilterParams",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0xC",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "min",
+            "type": "int",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "mag",
+            "type": "int",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "mip",
+            "type": "int",
+            "offset": 8,
+            "size": 4
+        }
+    ]
+}

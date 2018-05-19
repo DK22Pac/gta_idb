@@ -1,0 +1,233 @@
+{
+    "name": "tParticleSystemData",
+    "module": "",
+    "scope": "",
+    "kind": "struct",
+    "size": "0x88",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_nId",
+            "type": "int",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "m_szName",
+            "type": "char[20]",
+            "offset": 4,
+            "size": "0x14"
+        },
+        {
+            "name": "m_fParticleCreateRange",
+            "type": "float",
+            "offset": "0x18",
+            "size": 4
+        },
+        {
+            "name": "m_fDefaultInitialRadius",
+            "type": "float",
+            "offset": "0x1C",
+            "size": 4
+        },
+        {
+            "name": "m_fExpansionRate",
+            "type": "float",
+            "offset": "0x20",
+            "size": 4
+        },
+        {
+            "name": "m_nZRotationInitialAngle",
+            "type": "__int16",
+            "offset": "0x24",
+            "size": 2
+        },
+        {
+            "name": "m_nZRotationAngleChangeAmount",
+            "type": "__int16",
+            "offset": "0x26",
+            "size": 2
+        },
+        {
+            "name": "m_nZRotationChangeTime",
+            "type": "__int16",
+            "offset": "0x28",
+            "size": 2
+        },
+        {
+            "name": "m_nZRadiusChangeTime",
+            "type": "__int16",
+            "offset": "0x2A",
+            "size": 2
+        },
+        {
+            "name": "m_fInitialZRadius",
+            "type": "float",
+            "offset": "0x2C",
+            "size": 4
+        },
+        {
+            "name": "m_fZRadiusChangeAmount",
+            "type": "float",
+            "offset": "0x30",
+            "size": 4
+        },
+        {
+            "name": "m_nFadeToBlackTime",
+            "type": "__int16",
+            "offset": "0x34",
+            "size": 2
+        },
+        {
+            "name": "m_nFadeToBlackAmount",
+            "type": "__int16",
+            "offset": "0x36",
+            "size": 2
+        },
+        {
+            "name": "m_nFadeToBlackInitialIntensity",
+            "type": "char",
+            "offset": "0x38",
+            "size": 1
+        },
+        {
+            "name": "m_nFadeAlphaInitialIntensity",
+            "type": "char",
+            "offset": "0x39",
+            "size": 1
+        },
+        {
+            "name": "m_nFadeAlphaTime",
+            "type": "__int16",
+            "offset": "0x3A",
+            "size": 2
+        },
+        {
+            "name": "m_nFadeAlphaAmount",
+            "type": "__int16",
+            "offset": "0x3C",
+            "size": 2
+        },
+        {
+            "name": "m_nStartAnimationFrame",
+            "type": "__int16",
+            "offset": "0x3E",
+            "size": 2
+        },
+        {
+            "name": "m_nFinalAnimationFrame",
+            "type": "__int16",
+            "offset": "0x40",
+            "size": 2
+        },
+        {
+            "name": "m_nAnimationSpeed",
+            "type": "__int16",
+            "offset": "0x42",
+            "size": 2
+        },
+        {
+            "name": "m_nRotationSpeed",
+            "type": "__int16",
+            "offset": "0x44",
+            "size": 2
+        },
+        {
+            "name": "m_fGravitationalAcceleration",
+            "type": "float",
+            "offset": "0x48",
+            "size": 4
+        },
+        {
+            "name": "m_nFrictionDecceleration",
+            "type": "int",
+            "offset": "0x4C",
+            "size": 4
+        },
+        {
+            "name": "m_nDefaultLifeSpan",
+            "type": "int",
+            "offset": "0x50",
+            "size": 4
+        },
+        {
+            "name": "m_fPositionRandomError",
+            "type": "float",
+            "offset": "0x54",
+            "size": 4
+        },
+        {
+            "name": "m_fVelocityRandomError",
+            "type": "float",
+            "offset": "0x58",
+            "size": 4
+        },
+        {
+            "name": "m_fExpansionRateError",
+            "type": "float",
+            "offset": "0x5C",
+            "size": 4
+        },
+        {
+            "name": "m_nRotationRateError",
+            "type": "int",
+            "offset": "0x60",
+            "size": 4
+        },
+        {
+            "name": "m_nLifeSpanErrorShape",
+            "type": "int",
+            "offset": "0x64",
+            "size": 4
+        },
+        {
+            "name": "m_fTrailLengthMultiplier",
+            "type": "float",
+            "offset": "0x68",
+            "size": 4
+        },
+        {
+            "name": "m_nFlags",
+            "type": "int",
+            "offset": "0x6C",
+            "size": 4
+        },
+        {
+            "name": "m_renderColor",
+            "type": "RwRGBA",
+            "offset": "0x70",
+            "size": 4
+        },
+        {
+            "name": "m_nInitialColorVariation",
+            "type": "char",
+            "offset": "0x74",
+            "size": 1
+        },
+        {
+            "name": "m_fadeDestinationColor",
+            "type": "RwRGBA",
+            "offset": "0x75",
+            "size": 4
+        },
+        {
+            "name": "m_nColorFadeTime",
+            "type": "int",
+            "offset": "0x7C",
+            "size": 4
+        },
+        {
+            "name": "m_pTexture",
+            "type": "int",
+            "offset": "0x80",
+            "size": 4
+        },
+        {
+            "name": "m_pParticles",
+            "type": "CParticle *",
+            "offset": "0x84",
+            "size": 4
+        }
+    ]
+}

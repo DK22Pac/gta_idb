@@ -1,0 +1,25 @@
+{
+    "name": "CCutsceneHead",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x19C",
+    "alignment": 2,
+    "vtableAddress": "0x6049E8",
+    "vtableSize": 18,
+    "comment": "",
+    "members": [
+        {
+            "name": "cutscene",
+            "type": "CCutsceneObject",
+            "offset": 0,
+            "size": "0x198"
+        },
+        {
+            "name": "m_pHeadFrame",
+            "type": "_DWORD",
+            "offset": "0x198",
+            "size": 4
+        }
+    ]
+}

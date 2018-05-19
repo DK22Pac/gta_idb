@@ -1,0 +1,42 @@
+{
+    "name": "CAnimBlendClumpData",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x14",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_pFirstAssocData",
+            "type": "AnimAssociationData *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "field_4",
+            "type": "_DWORD",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "m_nNumBones",
+            "type": "_DWORD",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "m_vecPosition",
+            "type": "CVector *",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "m_apBones",
+            "type": "AnimBlendFrameData *",
+            "offset": "0x10",
+            "size": 4,
+            "comment": "AnimBlendFrameData *"
+        }
+    ]
+}

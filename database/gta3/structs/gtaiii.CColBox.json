@@ -1,0 +1,23 @@
+{
+    "name": "CColBox",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x1C",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_box",
+            "type": "CBox",
+            "offset": 0,
+            "size": "0x18"
+        },
+        {
+            "name": "m_surface",
+            "type": "CColSurface",
+            "offset": "0x18",
+            "size": 4
+        }
+    ]
+}

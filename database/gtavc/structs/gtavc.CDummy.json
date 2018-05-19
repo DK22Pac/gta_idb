@@ -1,0 +1,23 @@
+{
+    "name": "CDummy",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x68",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "entity",
+            "type": "CEntity",
+            "offset": 0,
+            "size": "0x64"
+        },
+        {
+            "name": "field_64",
+            "type": "CEntryInfoList",
+            "offset": "0x64",
+            "size": 4
+        }
+    ]
+}

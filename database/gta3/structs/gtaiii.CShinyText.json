@@ -1,0 +1,35 @@
+{
+    "name": "CShinyText",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x58",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "corner",
+            "type": "CVector[4]",
+            "offset": 0,
+            "size": "0x30"
+        },
+        {
+            "name": "cornerTexCoords",
+            "type": "RwTexCoords[4]",
+            "offset": "0x30",
+            "size": "0x20"
+        },
+        {
+            "name": "distanceToCamera",
+            "type": "float",
+            "offset": "0x50",
+            "size": 4
+        },
+        {
+            "name": "color",
+            "type": "RwRGBA",
+            "offset": "0x54",
+            "size": 4
+        }
+    ]
+}

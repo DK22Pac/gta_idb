@@ -1,0 +1,65 @@
+{
+    "name": "PagerMessage",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x2C",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_pText",
+            "type": "int",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "m_nSpeedMs",
+            "type": "__int16",
+            "offset": 4,
+            "size": 2
+        },
+        {
+            "name": "m_nCurrentPosition",
+            "type": "__int16",
+            "offset": 6,
+            "size": 2
+        },
+        {
+            "name": "m_nStringLength",
+            "type": "__int16",
+            "offset": 8,
+            "size": 2
+        },
+        {
+            "name": "m_nPriority",
+            "type": "__int16",
+            "offset": "0xA",
+            "size": 2
+        },
+        {
+            "name": "m_nTimeToChangePosition",
+            "type": "int",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "field_10",
+            "type": "__int16",
+            "offset": "0x10",
+            "size": 2
+        },
+        {
+            "name": "_pad12",
+            "type": "__int16",
+            "offset": "0x12",
+            "size": 2
+        },
+        {
+            "name": "m_nNumber",
+            "type": "int[6]",
+            "offset": "0x14",
+            "size": "0x18"
+        }
+    ]
+}

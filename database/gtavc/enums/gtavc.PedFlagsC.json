@@ -1,0 +1,45 @@
+{
+    "name": "PedFlagsC",
+    "module": "",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": true,
+    "comment": "",
+    "members": [
+        {
+            "name": "bCanPedEnterSeekedCar",
+            "value": "0x1"
+        },
+        {
+            "name": "bRespondsToThreats",
+            "value": "0x2"
+        },
+        {
+            "name": "bRenderPedInCar",
+            "value": "0x4"
+        },
+        {
+            "name": "bPedFlags20",
+            "value": "0x8"
+        },
+        {
+            "name": "bUpdateAnimHeading",
+            "value": "0x10"
+        },
+        {
+            "name": "bRemoveHead",
+            "value": "0x20"
+        },
+        {
+            "name": "bFiringWeapon",
+            "value": "0x40"
+        },
+        {
+            "name": "bPedFlags24",
+            "value": "0x80"
+        }
+    ]
+}

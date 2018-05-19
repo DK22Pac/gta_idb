@@ -1,0 +1,49 @@
+{
+    "name": "CPedModelInfo",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x48",
+    "alignment": 0,
+    "vtableAddress": "0x60ADDC",
+    "vtableSize": 7,
+    "comment": "",
+    "members": [
+        {
+            "name": "clump",
+            "type": "CClumpModelInfo",
+            "offset": 0,
+            "size": "0x34"
+        },
+        {
+            "name": "m_dwAnimGroupId",
+            "type": "int",
+            "offset": "0x34",
+            "size": 4
+        },
+        {
+            "name": "m_dwPedtype",
+            "type": "int",
+            "offset": "0x38",
+            "size": 4
+        },
+        {
+            "name": "m_dwPedStatsType",
+            "type": "int",
+            "offset": "0x3C",
+            "size": 4
+        },
+        {
+            "name": "m_dwCarsCanDriveMask",
+            "type": "int",
+            "offset": "0x40",
+            "size": 4
+        },
+        {
+            "name": "m_pHitColModel",
+            "type": "_DWORD",
+            "offset": "0x44",
+            "size": 4
+        }
+    ]
+}

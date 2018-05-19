@@ -1,0 +1,203 @@
+{
+    "name": "CAutomobile",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x5DC",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "vehicle",
+            "type": "CVehicle",
+            "offset": 0,
+            "size": "0x2A0"
+        },
+        {
+            "name": "stDamage",
+            "type": "CDamageManager",
+            "offset": "0x2A0",
+            "size": "0x18"
+        },
+        {
+            "name": "bDamSwitch",
+            "type": "char",
+            "offset": "0x2B8",
+            "size": 1
+        },
+        {
+            "name": "__f02B5",
+            "type": "char[3]",
+            "offset": "0x2B9",
+            "size": 3
+        },
+        {
+            "name": "stDoors",
+            "type": "CDoor[6]",
+            "offset": "0x2BC",
+            "size": "0xD8"
+        },
+        {
+            "name": "m_aCarNodes",
+            "type": "int[20]",
+            "offset": "0x394",
+            "size": "0x50"
+        },
+        {
+            "name": "stWheels",
+            "type": "CWheel[4]",
+            "offset": "0x3E4",
+            "size": "0xA0"
+        },
+        {
+            "name": "fWheelSuspDist",
+            "type": "int[4]",
+            "offset": "0x484",
+            "size": "0x10"
+        },
+        {
+            "name": "fWheelSuspDistSoft",
+            "type": "int[4]",
+            "offset": "0x494",
+            "size": "0x10"
+        },
+        {
+            "name": "fWheelContactRate",
+            "type": "int[4]",
+            "offset": "0x4A4",
+            "size": "0x10"
+        },
+        {
+            "name": "__p04B0",
+            "type": "char[28]",
+            "offset": "0x4B4",
+            "size": "0x1C"
+        },
+        {
+            "name": "fWheelTotalRot",
+            "type": "int[4]",
+            "offset": "0x4D0",
+            "size": "0x10"
+        },
+        {
+            "name": "fWheelRot",
+            "type": "int[4]",
+            "offset": "0x4E0",
+            "size": "0x10"
+        },
+        {
+            "name": "__p04EC",
+            "type": "char[4]",
+            "offset": "0x4F0",
+            "size": 4
+        },
+        {
+            "name": "fNegSpeed",
+            "type": "int",
+            "offset": "0x4F4",
+            "size": 4
+        },
+        {
+            "name": "__p04F4",
+            "type": "char[9]",
+            "offset": "0x4F8",
+            "size": 9
+        },
+        {
+            "name": "bfFlagsX",
+            "type": "char",
+            "offset": "0x501",
+            "size": 1
+        },
+        {
+            "name": "__p04FE",
+            "type": "char[46]",
+            "offset": "0x502",
+            "size": "0x2E"
+        },
+        {
+            "name": "fWheelAngleMul",
+            "type": "int",
+            "offset": "0x530",
+            "size": 4
+        },
+        {
+            "name": "fAIGripMultiplier",
+            "type": "int",
+            "offset": "0x534",
+            "size": 4
+        },
+        {
+            "name": "__p0534",
+            "type": "char[120]",
+            "offset": "0x538",
+            "size": "0x78"
+        },
+        {
+            "name": "fSpecialWepRotH",
+            "type": "int",
+            "offset": "0x5B0",
+            "size": 4
+        },
+        {
+            "name": "fSpecialWepRotV",
+            "type": "int",
+            "offset": "0x5B4",
+            "size": 4
+        },
+        {
+            "name": "fSpecialSteering",
+            "type": "int",
+            "offset": "0x5B8",
+            "size": 4
+        },
+        {
+            "name": "fSpecialMoveState",
+            "type": "int",
+            "offset": "0x5BC",
+            "size": 4
+        },
+        {
+            "name": "uUnusedX",
+            "type": "int",
+            "offset": "0x5C0",
+            "size": 4
+        },
+        {
+            "name": "nWheelsOnGround",
+            "type": "char",
+            "offset": "0x5C4",
+            "size": 1
+        },
+        {
+            "name": "nRearWheelsOnGround",
+            "type": "char",
+            "offset": "0x5C5",
+            "size": 1
+        },
+        {
+            "name": "bytePrevRearWheelsOnGround",
+            "type": "char",
+            "offset": "0x5C6",
+            "size": 1
+        },
+        {
+            "name": "__f05C3",
+            "type": "char",
+            "offset": "0x5C7",
+            "size": 1
+        },
+        {
+            "name": "fSkidMarkDensity",
+            "type": "int",
+            "offset": "0x5C8",
+            "size": 4
+        },
+        {
+            "name": "nTireFriction",
+            "type": "int[4]",
+            "offset": "0x5CC",
+            "size": "0x10"
+        }
+    ]
+}

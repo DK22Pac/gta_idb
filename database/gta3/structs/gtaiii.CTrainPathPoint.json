@@ -1,0 +1,23 @@
+{
+    "name": "CTrainPathPoint",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x10",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "direction",
+            "type": "RwV3d",
+            "offset": 0,
+            "size": "0xC"
+        },
+        {
+            "name": "speed",
+            "type": "int",
+            "offset": "0xC",
+            "size": 4
+        }
+    ]
+}

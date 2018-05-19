@@ -1,0 +1,45 @@
+{
+    "name": "VehicleFlagsC",
+    "module": "",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": true,
+    "comment": "",
+    "members": [
+        {
+            "name": "bVehicleFlags17",
+            "value": "0x1"
+        },
+        {
+            "name": "bIsDamaged",
+            "value": "0x2"
+        },
+        {
+            "name": "bVehicleFlags19",
+            "value": "0x4"
+        },
+        {
+            "name": "bVehicleFlags20",
+            "value": "0x8"
+        },
+        {
+            "name": "bVehicleFlags21",
+            "value": "0x10"
+        },
+        {
+            "name": "bSpawnCops",
+            "value": "0x20"
+        },
+        {
+            "name": "bVehicleFlags23",
+            "value": "0x40"
+        },
+        {
+            "name": "bUsePlayerColModel",
+            "value": "0x80"
+        }
+    ]
+}

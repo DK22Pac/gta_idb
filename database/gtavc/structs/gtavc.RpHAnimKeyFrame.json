@@ -1,0 +1,35 @@
+{
+    "name": "RpHAnimKeyFrame",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x24",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "prevFrame",
+            "type": "RpHAnimKeyFrame *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "time",
+            "type": "float",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "q",
+            "type": "RtQuat",
+            "offset": 8,
+            "size": "0x10"
+        },
+        {
+            "name": "t",
+            "type": "RwV3d",
+            "offset": "0x18",
+            "size": "0xC"
+        }
+    ]
+}
