@@ -834,7 +834,7 @@
 0x7E9B08,,_ZN8CPickups9aMessagesE,CPickups::aMessages,tPickupMessage[16],,448,,,0
 0x7E9E08,,TempVertexBuffer,TempVertexBuffer,RxObjSpace3DVertex[512],,18432,,,0
 0x7EFE50,,_ZN9CParticle10m_CosTableE,CParticle::m_CosTable,float[1024],,4096,,,0
-0x7F0EA0,,_ZN11CTheScripts14IntroTextLinesE,CTheScripts::IntroTextLines,tIntroText[48],,11712,,,0
+0x7F0EA0,CTheScripts,_ZN11CTheScripts14IntroTextLinesE,CTheScripts::IntroTextLines,tIntroText[48],,11712,,,0
 0x7F3C60,,gOperatingSystem,gOperatingSystem,,,1,,,0
 0x7F3C68,,gPhysicalMemorySize,gPhysicalMemorySize,,,1,,,0
 0x7F3C6C,,gAvailablePhysicalMemorySize,gAvailablePhysicalMemorySize,,,1,,,0
@@ -1212,7 +1212,7 @@
 0xA10A38,,bObjInMainSCM,bObjInMainSCM,,,1,,,0
 0xA10A3C,CClock,_ZN6CClock20ms_nGameClockSecondsE,CClock::ms_nGameClockSeconds,unsigned __int16,,2,,,0
 0xA10A42,,_ZN8CWeather17ForcedWeatherTypeE,CWeather::ForcedWeatherType,,,1,,,0
-0xA10A48,,_ZN11CTheScripts31NumberOfIntroTextLinesThisFrameE,CTheScripts::NumberOfIntroTextLinesThisFrame,,,1,,,0
+0xA10A48,CTheScripts,_ZN11CTheScripts31NumberOfIntroTextLinesThisFrameE,CTheScripts::NumberOfIntroTextLinesThisFrame,__int16,,2,,,0
 0xA10A4C,,bInvertMouseV,bInvertMouseV,,,1,,,0
 0xA10A4D,,bInvertMouseH,bInvertMouseH,char,,1,,,0
 0xA10A50,,wDbgMenuSel,wDbgMenuSel,,,1,,,0

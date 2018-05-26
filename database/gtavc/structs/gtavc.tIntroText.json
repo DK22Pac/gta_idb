@@ -8,79 +8,79 @@
     "comment": "",
     "members": [
         {
-            "name": "fWidth",
+            "name": "m_fWidth",
             "type": "float",
             "offset": 0,
             "size": 4
         },
         {
-            "name": "fHeight",
+            "name": "m_fHeight",
             "type": "float",
             "offset": 4,
             "size": 4
         },
         {
-            "name": "color",
+            "name": "m_color",
             "type": "CRGBA",
             "offset": 8,
             "size": 4
         },
         {
-            "name": "bJustify",
+            "name": "m_bJustify",
             "type": "unsigned __int8",
             "offset": "0xC",
             "size": 1
         },
         {
-            "name": "bCenter",
+            "name": "m_bCenter",
             "type": "unsigned __int8",
             "offset": "0xD",
             "size": 1
         },
         {
-            "name": "bBackground",
+            "name": "m_bBackground",
             "type": "unsigned __int8",
             "offset": "0xE",
             "size": 1
         },
         {
-            "name": "bBackgroundOnlyText",
+            "name": "m_bBackgroundOnlyText",
             "type": "unsigned __int8",
             "offset": "0xF",
             "size": 1
         },
         {
-            "name": "fSize",
+            "name": "m_fSize",
             "type": "float",
             "offset": "0x10",
             "size": 4
         },
         {
-            "name": "fCentreSize",
+            "name": "m_fCentreSize",
             "type": "float",
             "offset": "0x14",
             "size": 4
         },
         {
-            "name": "backgroundColor",
+            "name": "m_backgroundColor",
             "type": "CRGBA",
             "offset": "0x18",
             "size": 4
         },
         {
-            "name": "bProportional",
+            "name": "m_bProportional",
             "type": "unsigned __int8",
             "offset": "0x1C",
             "size": 1
         },
         {
-            "name": "bDisable",
+            "name": "m_bDisable",
             "type": "unsigned __int8",
             "offset": "0x1D",
             "size": 1
         },
         {
-            "name": "bRightJustify",
+            "name": "m_bRightJustify",
             "type": "unsigned __int8",
             "offset": "0x1E",
             "size": 1
@@ -92,26 +92,20 @@
             "size": 1
         },
         {
-            "name": "fontStyle",
+            "name": "m_eFontstyle",
             "type": "unsigned int",
             "offset": "0x20",
             "size": 4
         },
         {
-            "name": "x",
-            "type": "float",
+            "name": "m_fX",
+            "type": "CVector2D",
             "offset": "0x24",
-            "size": 4
+            "size": 8
         },
         {
-            "name": "y",
-            "type": "float",
-            "offset": "0x28",
-            "size": 4
-        },
-        {
-            "name": "text",
-            "type": "wchar_t[100]",
+            "name": "m_szText",
+            "type": "__int16[100]",
             "offset": "0x2C",
             "size": "0xC8"
         }
