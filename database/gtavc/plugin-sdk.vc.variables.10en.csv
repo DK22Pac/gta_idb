@@ -275,6 +275,7 @@
 0x699EE4,,WeatherTypesList,WeatherTypesList,__int64[1],,8,,,0
 0x699F64,,WeatherTypesList_WithHurricanes,WeatherTypesList_WithHurricanes,__int64[1],,8,,,0
 0x69A130,,bUseRelativeMatrix,bUseRelativeMatrix,,,1,,,0
+0x69A140,,pExtraDirectionals,pExtraDirectionals,RpLight *[4],,16,,,0
 0x69A1C8,,dwAtomicVisibilityExtOffset,dwAtomicVisibilityExtOffset,,,1,,,0
 0x69A1CC,,dwFrameVisibilityExtOffset,dwFrameVisibilityExtOffset,,,1,,,0
 0x69A1D0,,dwClumpVisibilityExtOffset,dwClumpVisibilityExtOffset,,,1,,,0
@@ -661,6 +662,7 @@
 0x78A7A0,,NumLightsToDisable,NumLightsToDisable,,,1,,,0
 0x78A7A4,,MaxLightsToDisable,MaxLightsToDisable,,,1,,,0
 0x78A7A8,,gMemoryLimits,gMemoryLimits,,,1,,,0
+0x78CD80,CPointLights,_ZN12CPointLights15aCachedMapReadsE,CPointLights::aCachedMapReads,CVector[32],,384,,,0
 0x78D658,,cWaterLevel_ms_aWaterZs,cWaterLevel_ms_aWaterZs,float[48],,192,,,0
 0x78D718,,CAudioManager,CAudioManager,,,1,,,0
 0x792C70,,_ZN10CTimeCycle13m_VectorToSunE,CTimeCycle::m_VectorToSun,CVector[16],,192,,,0
@@ -831,6 +833,7 @@
 0x7E49D4,,pLastPedLookedAt,pLastPedLookedAt,,,1,,,0
 0x7E49D8,,bFirstPersonRunAboutActive,bFirstPersonRunAboutActive,,,1,,,0
 0x7E49DC,,stCams_2_3,stCams_2_3,,,1,,,0
+0x7E4FE0,CPointLights,_ZN12CPointLights7aLightsE,CPointLights::aLights,CPointLight[32],,1408,,,0
 0x7E9B08,,_ZN8CPickups9aMessagesE,CPickups::aMessages,tPickupMessage[16],,448,,,0
 0x7E9E08,,TempVertexBuffer,TempVertexBuffer,RxObjSpace3DVertex[512],,18432,,,0
 0x7EFE50,,_ZN9CParticle10m_CosTableE,CParticle::m_CosTable,float[1024],,4096,,,0
@@ -896,6 +899,7 @@
 0x93922B,,byteCarColA,byteCarColA,,,1,,,0
 0x943088,,_ZN9CParticle10m_SinTableE,CParticle::m_SinTable,float[1024],,4096,,,0
 0x944088,,RpHAnimAtomicGlobals,RpHAnimAtomicGlobals,,,1,,,0
+0x945850,CPointLights,_ZN12CPointLights21aCachedMapReadResultsE,CPointLights::aCachedMapReadResults,float[32],,128,,,0
 0x945D30,,pickup.vPos.X,pickup_vPos_X,float[1],,4,,,0
 0x945D34,,pickup.vPos.Y,pickup_vPos_Y,float[1],,4,,,0
 0x945D38,,pickup.vPos.Z,pickup_vPos_Z,float[1],,4,,,0
@@ -911,6 +915,7 @@
 0x945D5E,,pickup.uType,pickup_uType,char[1],,1,,,0
 0x945D5F,,pickup.bRemoved,pickup_bRemoved,,,1,,,0
 0x945D60,,pickup.bEffects,pickup_bEffects,,,1,,,0
+0x94AD18,,LightStrengths,LightStrengths,int[4],,16,,,0
 0x94AD28,,_ZN6CWorld7PlayersE,CWorld::Players,CPlayerInfo[1],,368,,,0
 0x94B1A0,,gAudio3dChannels,gAudio3dChannels,int[1],,4,,,0
 0x94B220,,CText,CText,_DWORD,,4,,,0
@@ -926,6 +931,7 @@
 0x94D78E,,bMouseButton5,bMouseButton5,,,1,,,0
 0x94D790,,fMousePosX,fMousePosX,,,1,,,0
 0x94D794,,fMousePosY,fMousePosY,,,1,,,0
+0x94DB48,,NumExtraDirLightsInWorld,NumExtraDirLightsInWorld,,,1,,,0
 0x94DB54,,_ZN9CSprite2d13RecipNearClipE,CSprite2d::RecipNearClip,,,1,,,0
 0x94DB58,,dwNumTiresPopped,dwNumTiresPopped,,,1,,,0
 0x94DB5C,,pSpriteRadarHardware,pSpriteRadarHardware,,,1,,,0
@@ -970,7 +976,7 @@
 0x974C08,,dwNumRampagesPassed,dwNumRampagesPassed,,,1,,,0
 0x974C0C,,dwNumRampagesTotal,dwNumRampagesTotal,,,1,,,0
 0x975088,,pWaterRasterSandy,pWaterRasterSandy,,,1,,,0
-0x9751B0,,_ZN12CPointLights9NumLightsE,CPointLights::NumLights,,,1,,,0
+0x9751B0,CPointLights,_ZN12CPointLights9NumLightsE,CPointLights::NumLights,unsigned int,,4,,,0
 0x9751BC,,pSpriteRadarLawyer,pSpriteRadarLawyer,,,1,,,0
 0x9751C4,,pClassArrayListFirst,pClassArrayListFirst,,,1,,,0
 0x9751C8,,pSpriteRadarArrow,pSpriteRadarArrow,,,1,,,0
@@ -1101,6 +1107,7 @@
 0x9B5EFC,,pSpriteRadarGun,pSpriteRadarGun,,,1,,,0
 0x9B5F08,,dwGameLoadState,dwGameLoadState,,,1,,,0
 0x9B5F0C,,pAnimBlendAssocGroups,pAnimBlendAssocGroups,,,1,,,0
+0x9B5F20,CPointLights,_ZN12CPointLights15NextCachedValueE,CPointLights::NextCachedValue,unsigned int,,4,,,0
 0x9B5F30,,dwStarsEvaded,dwStarsEvaded,,,1,,,0
 0x9B5F44,,fLongestStoppieDist,fLongestStoppieDist,,,1,,,0
 0x9B5F54,,pSpriteRadarLovefist,pSpriteRadarLovefist,,,1,,,0
@@ -1109,6 +1116,7 @@
 0x9B6A48,,fDistTravelledByHeli,fDistTravelledByHeli,,,1,,,0
 0x9B6A4C,,_ZN9CTxdStore11ms_pTxdPoolE,CTxdStore::ms_pTxdPool,,,1,,,0
 0x9B6A68,,pWaterRasterClear,pWaterRasterClear,,,1,,,0
+0x9B6A74,,gpPointlightRaster,gpPointlightRaster,struct RwRaster *,,4,,,0
 0x9B6A80,,dwCurrentCar,dwCurrentCar,,,1,,,0
 0x9B6A84,,dwFiresExtinguished,dwFiresExtinguished,,,1,,,0
 0x9B6A94,,_ZN8CWeather11WindClippedE,CWeather::WindClipped,,,1,,,0

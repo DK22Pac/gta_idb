@@ -21,7 +21,7 @@
         },
         {
             "name": "pMatrixArray",
-            "type": "RwMatrixTag *",
+            "type": "RwMatrix *",
             "offset": 8,
             "size": 4
         },

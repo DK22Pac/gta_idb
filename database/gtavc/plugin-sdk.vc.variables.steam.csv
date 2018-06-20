@@ -275,6 +275,7 @@
 0x699EE4,0x698EEC,WeatherTypesList
 0x699F64,0x698F6C,WeatherTypesList_WithHurricanes
 0x69A130,0x699130,bUseRelativeMatrix
+0x69A140,0x699140,pExtraDirectionals
 0x69A1C8,0x6991C8,dwAtomicVisibilityExtOffset
 0x69A1CC,0x6991CC,dwFrameVisibilityExtOffset
 0x69A1D0,0x6991D0,dwClumpVisibilityExtOffset
@@ -661,6 +662,7 @@
 0x78A7A0,0x7897A8,NumLightsToDisable
 0x78A7A4,0x7897AC,MaxLightsToDisable
 0x78A7A8,0x7897B0,gMemoryLimits
+0x78CD80,0x78BD88,CPointLights::aCachedMapReads
 0x78D658,0x78C660,cWaterLevel_ms_aWaterZs
 0x78D718,0x78C720,CAudioManager
 0x792C70,0x791C78,CTimeCycle::m_VectorToSun
@@ -831,6 +833,7 @@
 0x7E49D4,0x7E39DC,pLastPedLookedAt
 0x7E49D8,0x7E39E0,bFirstPersonRunAboutActive
 0x7E49DC,0x7E39E4,stCams_2_3
+0x7E4FE0,0x7E3FE8,CPointLights::aLights
 0x7E9B08,0x7E8B10,CPickups::aMessages
 0x7E9E08,0x7E8E10,TempVertexBuffer
 0x7EFE50,0x7EEE58,CParticle::m_CosTable
@@ -896,6 +899,7 @@
 0x93922B,0x938233,byteCarColA
 0x943088,0x942090,CParticle::m_SinTable
 0x944088,0x943090,RpHAnimAtomicGlobals
+0x945850,0x944858,CPointLights::aCachedMapReadResults
 0x945D30,0x944D38,pickup_vPos_X
 0x945D34,0x944D3C,pickup_vPos_Y
 0x945D38,0x944D40,pickup_vPos_Z
@@ -911,6 +915,7 @@
 0x945D5E,0x944D66,pickup_uType
 0x945D5F,0x944D67,pickup_bRemoved
 0x945D60,0x944D68,pickup_bEffects
+0x94AD18,0x949D20,LightStrengths
 0x94AD28,0x949D30,CWorld::Players
 0x94B1A0,0x94A1A8,gAudio3dChannels
 0x94B220,0x94A228,CText
@@ -926,6 +931,7 @@
 0x94D78E,0x94C796,bMouseButton5
 0x94D790,0x94C798,fMousePosX
 0x94D794,0x94C79C,fMousePosY
+0x94DB48,0x94CB50,NumExtraDirLightsInWorld
 0x94DB54,0x94CB5C,CSprite2d::RecipNearClip
 0x94DB58,0x94CB60,dwNumTiresPopped
 0x94DB5C,0x94CB64,pSpriteRadarHardware
@@ -1101,6 +1107,7 @@
 0x9B5EFC,0x9B4F04,pSpriteRadarGun
 0x9B5F08,0x9B4F10,dwGameLoadState
 0x9B5F0C,0x9B4F14,pAnimBlendAssocGroups
+0x9B5F20,0x9B4F28,CPointLights::NextCachedValue
 0x9B5F30,0x9B4F38,dwStarsEvaded
 0x9B5F44,0x9B4F4C,fLongestStoppieDist
 0x9B5F54,0x9B4F5C,pSpriteRadarLovefist
@@ -1109,6 +1116,7 @@
 0x9B6A48,0x9B5A50,fDistTravelledByHeli
 0x9B6A4C,0x9B5A54,CTxdStore::ms_pTxdPool
 0x9B6A68,0x9B5A70,pWaterRasterClear
+0x9B6A74,0x9B5A7C,gpPointlightRaster
 0x9B6A80,0x9B5A88,dwCurrentCar
 0x9B6A84,0x9B5A8C,dwFiresExtinguished
 0x9B6A94,0x9B5A9C,CWeather::WindClipped
