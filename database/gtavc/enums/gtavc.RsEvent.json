@@ -1,0 +1,137 @@
+{
+    "name": "RsEvent",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "rsCAMERASIZE",
+            "value": "0x0"
+        },
+        {
+            "name": "rsCOMMANDLINE",
+            "value": "0x1"
+        },
+        {
+            "name": "rsFILELOAD",
+            "value": "0x2"
+        },
+        {
+            "name": "rsINITDEBUG",
+            "value": "0x3"
+        },
+        {
+            "name": "rsINPUTDEVICEATTACH",
+            "value": "0x4"
+        },
+        {
+            "name": "rsLEFTBUTTONDOWN",
+            "value": "0x5"
+        },
+        {
+            "name": "rsLEFTBUTTONUP",
+            "value": "0x6"
+        },
+        {
+            "name": "rsMOUSEMOVE",
+            "value": "0x7"
+        },
+        {
+            "name": "rsMOUSEWHEELMOVE",
+            "value": "0x8"
+        },
+        {
+            "name": "rsPLUGINATTACH",
+            "value": "0x9"
+        },
+        {
+            "name": "rsREGISTERIMAGELOADER",
+            "value": "0xA"
+        },
+        {
+            "name": "rsRIGHTBUTTONDOWN",
+            "value": "0xB"
+        },
+        {
+            "name": "rsRIGHTBUTTONUP",
+            "value": "0xC"
+        },
+        {
+            "name": "rsRWINITIALIZE",
+            "value": "0xD"
+        },
+        {
+            "name": "rsRWTERMINATE",
+            "value": "0xE"
+        },
+        {
+            "name": "rsSELECTDEVICE",
+            "value": "0xF"
+        },
+        {
+            "name": "rsINITIALIZE",
+            "value": "0x10"
+        },
+        {
+            "name": "rsTERMINATE",
+            "value": "0x11"
+        },
+        {
+            "name": "rsIDLE",
+            "value": "0x12"
+        },
+        {
+            "name": "rsKEYDOWN",
+            "value": "0x13"
+        },
+        {
+            "name": "rsKEYUP",
+            "value": "0x14"
+        },
+        {
+            "name": "rsQUITAPP",
+            "value": "0x15"
+        },
+        {
+            "name": "rsPADBUTTONDOWN",
+            "value": "0x16"
+        },
+        {
+            "name": "rsPADBUTTONUP",
+            "value": "0x17"
+        },
+        {
+            "name": "rsPADANALOGUELEFT",
+            "value": "0x18"
+        },
+        {
+            "name": "rsPADANALOGUELEFTRESET",
+            "value": "0x19"
+        },
+        {
+            "name": "rsPADANALOGUERIGHT",
+            "value": "0x1A"
+        },
+        {
+            "name": "rsPADANALOGUERIGHTRESET",
+            "value": "0x1B"
+        },
+        {
+            "name": "rsPREINITCOMMANDLINE",
+            "value": "0x1C"
+        },
+        {
+            "name": "rsACTIVATE",
+            "value": "0x1D"
+        },
+        {
+            "name": "rsSETMEMORYFUNCS",
+            "value": "0x1E"
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "name": "eParticleSystemDataFlags",
+    "module": "tParticleSystemData",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": true,
+    "comment": "",
+    "members": [
+        {
+            "name": "PSYSTEM_Z_CHECK_FIRST",
+            "value": "0x1"
+        },
+        {
+            "name": "PSYSTEM_Z_CHECK_STEP",
+            "value": "0x2"
+        },
+        {
+            "name": "PSYSTEM_DRAW_OPAQUE",
+            "value": "0x4"
+        },
+        {
+            "name": "PSYSTEM_SCREEN_TRAIL",
+            "value": "0x8"
+        },
+        {
+            "name": "PSYSTEM_SPEED_TRAIL",
+            "value": "0x10"
+        },
+        {
+            "name": "PSYSTEM_RAND_VERT_V",
+            "value": "0x20"
+        },
+        {
+            "name": "PSYSTEM_CYCLE_ANIM",
+            "value": "0x40"
+        },
+        {
+            "name": "PSYSTEM_DRAW_DARK",
+            "value": "0x80"
+        },
+        {
+            "name": "PSYSTEM_VERT_TRAIL",
+            "value": "0x100"
+        },
+        {
+            "name": "PSYSTEM_DRAW_TOP_2_D",
+            "value": "0x400"
+        },
+        {
+            "name": "PSYSTEM_CLIP_OUT_2_D",
+            "value": "0x800"
+        },
+        {
+            "name": "PSYSTEM_Z_CHECK_BUMP",
+            "value": "0x1000"
+        },
+        {
+            "name": "PSYSTEM_Z_CHECK_BUMP_FIRST",
+            "value": "0x2000"
+        }
+    ]
+}

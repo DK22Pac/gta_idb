@@ -35,15 +35,18 @@
 0x689238,,Opcode000To100,Opcode000To100,,,1,,jump table for switch statement,0
 0x689514,,Opcode400To500,Opcode400To500,,,1,,jump table for switch statement,0
 0x6898F8,,Opcode700To800,Opcode700To800,,,1,,jump table for switch statement,0
+0x68A83C,,range,range,float,,4,,,0
 0x68AE2C,,fCamDistFromPlayer,fCamDistFromPlayer,float,,4,,,0
 0x68B360,,CDummy_VTable,CDummy_VTable,,,1,,,0
 0x68B5DC,,CEntity_VTable,CEntity_VTable,,,1,,,0
 0x68BD50,CFileMgr,_ZN8CFileMgr14ms_rootDirNameE,CFileMgr::ms_rootDirName,char[128],,128,,,0
+0x68BF04,,blue,blue,float,,4,,,0
 0x68D078,,fMultiplyByHalf,fMultiplyByHalf,,,1,,,0
 0x68DD64,CGame,_ZN5CGame9bDemoModeE,CGame::bDemoMode,const bool,,1,true,,0
 0x68DD68,CGame,_ZN5CGame9nastyGameE,CGame::nastyGame,const bool,,1,true,,0
 0x68DD84,,fDefaultFOV,fDefaultFOV,const float,,4,120.0f,,0
-0x68E4BC,,pSplashNameArray,pSplashNameArray,int[1],,4,,,0
+0x68E494,CGame,splashTxdId,splashTxdId,int,,4,,,0
+0x68E4BC,,pSplashNameArray,pSplashNameArray,const char *[4],,16,,,0
 0x68E810,,wMIDTrafficLight1,wMIDTrafficLight1,,,1,,,0
 0x68E814,,wMIDMTraffic4,wMIDMTraffic4,,,1,,,0
 0x68E818,,wMIDMTraffic1,wMIDMTraffic1,,,1,,,0
@@ -229,6 +232,7 @@
 0x6951A0,,RainbowB,RainbowB,char[6],,6,,,0
 0x695538,,gpCoronaTexture,gpCoronaTexture,int[9],,36,,,0
 0x69567C,,fCoronas_LightsMult,fCoronas_LightsMult,,,1,,,0
+0x695878,,green,green,float,,4,,,0
 0x69592C,,fCoronaWorldBorderLeft,fCoronaWorldBorderLeft,,,1,,,0
 0x695930,,fCoronaWorldBorderTop,fCoronaWorldBorderTop,,,1,,,0
 0x695934,,fCoronaWorldBorderRight,fCoronaWorldBorderRight,,,1,,,0
@@ -268,6 +272,10 @@
 0x698064,,CVehicleModelInfo_VTable,CVehicleModelInfo_VTable,,,1,,,0
 0x698094,,CClumpModelInfo_VTable,CClumpModelInfo_VTable,,,1,,,0
 0x6980C4,,CPedModelInfo_VTable,CPedModelInfo_VTable,,,1,,,0
+0x698300,CParticle,nParticleCreationInterval,nParticleCreationInterval,int,,4,,,0
+0x698304,CParticle,PARTICLE_WIND_TEST_SCALE,PARTICLE_WIND_TEST_SCALE,float,,4,,,0
+0x698308,CParticle,fParticleScaleLimit,fParticleScaleLimit,float,,4,,,0
+0x698780,CParticle,ParticleFilename,ParticleFilename,char *,,4,,,0
 0x699CB8,,dwDefaultVehicleColor,dwDefaultVehicleColor,,,1,,,0
 0x699EC0,,Windyness,Windyness,float[1],,4,,,0
 0x699EDC,,_ZN8CWeather11SoundHandleE,CWeather::SoundHandle,int,,4,,,0
@@ -275,10 +283,11 @@
 0x699EE4,,WeatherTypesList,WeatherTypesList,__int64[1],,8,,,0
 0x699F64,,WeatherTypesList_WithHurricanes,WeatherTypesList_WithHurricanes,__int64[1],,8,,,0
 0x69A130,,bUseRelativeMatrix,bUseRelativeMatrix,,,1,,,0
-0x69A140,,pExtraDirectionals,pExtraDirectionals,RpLight *[4],,16,,,0
+0x69A140,,pExtraDirectionals,pExtraDirectionals,,,1,,,0
 0x69A1C8,,dwAtomicVisibilityExtOffset,dwAtomicVisibilityExtOffset,,,1,,,0
 0x69A1CC,,dwFrameVisibilityExtOffset,dwFrameVisibilityExtOffset,,,1,,,0
 0x69A1D0,,dwClumpVisibilityExtOffset,dwClumpVisibilityExtOffset,,,1,,,0
+0x69A5DC,,red,red,float,,4,,,0
 0x69A644,,fCarMomentum,fCarMomentum,float,,4,,,0
 0x69A890,,fCarWorldBorderLeft,fCarWorldBorderLeft,,,1,,,0
 0x69A894,,fCarWorldBorderTop,fCarWorldBorderTop,,,1,,,0
@@ -303,6 +312,9 @@
 0x69CB1C,,?CDAPFN0506_CDAPFN0506_X_WaterLevelInitialise@@3UCDAPFN_PROPERTIES@@A,CDAPFN_PROPERTIES CDAPFN0506_CDAPFN0506_X_WaterLevelInitialise,,,1,,,0
 0x69CBA0,,rgbWaterClear,rgbWaterClear,,,1,,,0
 0x69CBA4,,rgbWaterSandy,rgbWaterSandy,,,1,,,0
+0x69D004,,size,size,float,,4,,,0
+0x69D010,,power,power,float,,4,,,0
+0x69D1C0,,step,step,const float,,4,0.7f,,0
 0x69D498,,fWeapon180,fWeapon180,,,1,,,0
 0x69D49C,,fWeaponOneDivPI,fWeaponOneDivPI,,,1,,,0
 0x69D4A0,,fWeaponPIDiv180,fWeaponPIDiv180,,,1,,,0
@@ -458,7 +470,7 @@
 0x75EF04,,st2deffectsModelStoreDListElem,st2deffectsModelStoreDListElem,,,1,,,0
 0x75EF10,,dwLoaded2deffects,dwLoaded2deffects,,,1,,,0
 0x75EF14,,st2deffectsModelInfo,st2deffectsModelInfo,,,1,,,0
-0x76E540,,stParticleData,stParticleData,,,1,,,0
+0x76E4EC,CParticle,gParticles,gParticles,CParticle[750],,66000,,,0
 0x77EF70,,dwHighestPrimaryMaterialCount,dwHighestPrimaryMaterialCount,,,1,,,0
 0x77EF74,,dwHighestSecondaryMaterialCount,dwHighestSecondaryMaterialCount,,,1,,,0
 0x77FA58,,pWaterTexClear,pWaterTexClear,,,1,,,0
@@ -667,10 +679,12 @@
 0x78D718,,CAudioManager,CAudioManager,,,1,,,0
 0x792C70,,_ZN10CTimeCycle13m_VectorToSunE,CTimeCycle::m_VectorToSun,CVector[16],,192,,,0
 0x792D30,,_ZN6CWorld11ms_aSectorsE,CWorld::ms_aSectors,CSector[6400],,256000,,,0
+0x7D18C0,,ref_posn,ref_posn,CVector,,12,,,0
 0x7D1DC0,,meshModule,meshModule,,,1,,,0
 0x7D35D8,,RtAnimInterpolatorInfoBlock,RtAnimInterpolatorInfoBlock,int[1],,4,,,0
 0x7D4040,,_ZN9CSprite2d10maVerticesE,CSprite2d::maVertices,RwD3D8Vertex,,28,,,0
 0x7D4120,,modelId,modelId,signed int[1072],,4288,,,0
+0x7D54A8,CParticle,_ZN9CParticle14ms_afRandTableE,CParticle::ms_afRandTable,float[20],,80,,,0
 0x7D54F8,,_ZN9CRenderer21ms_aVisibleEntityPtrsE,CRenderer::ms_aVisibleEntityPtrs,CEntity *[2000],,8000,,,0
 0x7D7438,,ScriptParams,ScriptParams,int[16],,64,,,0
 0x7D7C38,,_ZN11CFileLoader7ms_lineE,CFileLoader::ms_line,char[256],,256,,,0
@@ -836,7 +850,7 @@
 0x7E4FE0,CPointLights,_ZN12CPointLights7aLightsE,CPointLights::aLights,CPointLight[32],,1408,,,0
 0x7E9B08,,_ZN8CPickups9aMessagesE,CPickups::aMessages,tPickupMessage[16],,448,,,0
 0x7E9E08,,TempVertexBuffer,TempVertexBuffer,RxObjSpace3DVertex[512],,18432,,,0
-0x7EFE50,,_ZN9CParticle10m_CosTableE,CParticle::m_CosTable,float[1024],,4096,,,0
+0x7EFE50,CParticle,_ZN9CParticle10m_CosTableE,CParticle::m_CosTable,float[1024],,4096,,,0
 0x7F0EA0,CTheScripts,_ZN11CTheScripts14IntroTextLinesE,CTheScripts::IntroTextLines,tIntroText[48],,11712,,,0
 0x7F3C60,,gOperatingSystem,gOperatingSystem,,,1,,,0
 0x7F3C68,,gPhysicalMemorySize,gPhysicalMemorySize,,,1,,,0
@@ -853,7 +867,6 @@
 0x7FFD3C,,fWindSourceY,fWindSourceY,,,1,,,0
 0x7FFD40,,fWindSourceZ,fWindSourceZ,,,1,,,0
 0x7FFD44,,dwWindSourceType,dwWindSourceType,,,1,,,0
-0x7FFEE0,,buffer,buffer,char[1],,1,,,0
 0x8100B8,,pRpWorld,pRpWorld,int,,4,,,0
 0x8100BC,,pRwCamera,pRwCamera,int,,4,,,0
 0x8116A8,,nLoadModelIndex,nLoadModelIndex,int[1],,4,,,0
@@ -863,6 +876,7 @@
 0x8116D4,,nChannelDiskStatus,nChannelDiskStatus,int[1],,4,,,0
 0x8116D8,,nChannelRetryCount,nChannelRetryCount,int[1],,4,,,0
 0x811700,,dwChannelTwoStatus,dwChannelTwoStatus,,,1,,,0
+0x812658,,gpCarSplashRaster,gpCarSplashRaster,RwRaster *[4],,16,,,0
 0x813D10,,_ZN5CHeli6pHelisE,CHeli::pHelis,CHeli *[4],,16,,,0
 0x813D20,,stDxInput_hWnd,stDxInput_hWnd,,,1,,,0
 0x813D2C,,stDxInput_fMousePosX,stDxInput_fMousePosX,,,1,,,0
@@ -897,7 +911,7 @@
 0x939229,,byteCarColG,byteCarColG,,,1,,,0
 0x93922A,,byteCarColB,byteCarColB,,,1,,,0
 0x93922B,,byteCarColA,byteCarColA,,,1,,,0
-0x943088,,_ZN9CParticle10m_SinTableE,CParticle::m_SinTable,float[1024],,4096,,,0
+0x943088,CParticle,_ZN9CParticle10m_SinTableE,CParticle::m_SinTable,float[1024],,4096,,,0
 0x944088,,RpHAnimAtomicGlobals,RpHAnimAtomicGlobals,,,1,,,0
 0x945850,CPointLights,_ZN12CPointLights21aCachedMapReadResultsE,CPointLights::aCachedMapReadResults,float[32],,128,,,0
 0x945D30,,pickup.vPos.X,pickup_vPos_X,float[1],,4,,,0
@@ -946,7 +960,7 @@
 0x94DB9C,,dwGangKills8,dwGangKills8,,,1,,,0
 0x94DBA0,,dwGangKills9,dwGangKills9,,,1,,,0
 0x94DBAC,,dwNumCriminalsKilled,dwNumCriminalsKilled,,,1,,,0
-0x94DBE0,,_ZN6CPools14ms_pObjectPoolE,CPools::ms_pObjectPool,CPool *,,4,,,0
+0x94DBE0,CPools,_ZN6CPools14ms_pObjectPoolE,CPools::ms_pObjectPool,CPool *,"CPool<CObject, CCutsceneObject> *",4,,,0
 0x94DD1C,,_ZN10CSceneEdit7pActorsE_ptr,_ZN10CSceneEdit7pActorsE_ptr,int[1],,4,,,0
 0x94DD38,CDraw,_ZN5CDraw15ms_fAspectRatioE,CDraw::ms_fAspectRatio,float,,4,,,0
 0x94DD3C,,pSpriteRadarClub,pSpriteRadarClub,,,1,,,0
@@ -1002,10 +1016,11 @@
 0x9753AC,,dwKillsByOthers,dwKillsByOthers,,,1,,,0
 0x9753B0,,objectFlags,objectFlags,_DWORD,,4,,,0
 0x9753B4,,objects,objects,_DWORD,,4,,,0
-0x9753C0,,CPool_CColModel,CPool_CColModel,,,1,,,0
+0x9753BC,CParticle,numWaterDropOnScreen,numWaterDropOnScreen,unsigned int,,4,,,0
+0x9753C0,CPools,_ZN6CPools16ms_pColModelPoolE,CPools::ms_pColModelPool,CPool *,CPool<CColModel> *,4,,,0
 0x975404,,fPropertyDamage,fPropertyDamage,,,1,,,0
 0x975424,CTimer,_ZN6CTimer12ms_fTimeStepE,CTimer::ms_fTimeStep,float,,4,,,0
-0x975428,,CParticleMgr,CParticleMgr,int[1],,4,,,0
+0x975428,cParticleSystemMgr,mod_ParticleSystemManager,mod_ParticleSystemManager,cParticleSystemMgr,,12284,,,0
 0x97852C,,pSpriteRadarRWildstyle,pSpriteRadarRWildstyle,,,1,,,0
 0x978530,,dwMaxUniqueJumpCount,dwMaxUniqueJumpCount,,,1,,,0
 0x978534,CDraw,_ZN5CDraw13ms_fNearClipZE,CDraw::ms_fNearClipZ,float,,4,,,0
@@ -1029,7 +1044,7 @@
 0x97871C,,pModelReqLLFirst,pModelReqLLFirst,,,1,,,0
 0x978748,,_ZN11CTheScripts14OnAMissionFlagE,CTheScripts::OnAMissionFlag,,,1,,,0
 0x978754,,RtAnimAnimationFreeListSpace,RtAnimAnimationFreeListSpace,,,1,,,0
-0x978778,,CPool_CAudioScriptObj,CPool_CAudioScriptObj,,,1,,,0
+0x978778,CPools,_ZN6CPools25ms_pAudioScriptObjectPoolE,CPools::ms_pAudioScriptObjectPool,CPool *,CPool<cAudioScriptObject> *,4,,,0
 0x978794,,dwKillsByPlayer,dwKillsByPlayer,,,1,,,0
 0x978798,,ClumpOffset,ClumpOffset,,,1,,,0
 0x9787A8,,dwNumExplosivesFired,dwNumExplosivesFired,,,1,,,0
@@ -1039,7 +1054,7 @@
 0x978804,,pSpriteRadarRFlash,pSpriteRadarRFlash,,,1,,,0
 0x978810,CGame,_ZN5CGame8currAreaE,CGame::currArea,int,,4,,,0
 0x978824,,pSpriteRadarKent,pSpriteRadarKent,,,1,,,0
-0x978834,,_ZN6CPools17ms_pTreadablePoolE,CPools::ms_pTreadablePool,,,1,,,0
+0x978834,CPools,_ZN6CPools17ms_pTreadablePoolE,CPools::ms_pTreadablePool,CPool *,CPool<CTreadable> *,4,,,0
 0x978AA8,,CPager,CPager,,,1,,,0
 0x978D14,,dwBestJumpRotation,dwBestJumpRotation,,,1,,,0
 0x978D20,,CPlacename,CPlacename,,,1,,,0
@@ -1060,12 +1075,12 @@
 0x97F210,,fBestJumpDistance,fBestJumpDistance,,,1,,,0
 0x97F214,,_ZN9CSprite2d15nextBufferIndexE,CSprite2d::nextBufferIndex,,,1,,,0
 0x97F218,,pSpriteRadarCortez,pSpriteRadarCortez,,,1,,,0
-0x97F240,,_ZN6CPools16ms_pBuildingPoolE,CPools::ms_pBuildingPool,CPool *,,4,,,0
-0x97F25C,,_ZN6CPools13ms_pDummyPoolE,CPools::ms_pDummyPool,,,1,,,0
+0x97F240,CPools,_ZN6CPools16ms_pBuildingPoolE,CPools::ms_pBuildingPool,CPool *,CPool<CBuilding> *,4,,,0
+0x97F25C,CPools,_ZN6CPools13ms_pDummyPoolE,CPools::ms_pDummyPool,CPool *,CPool<CDummy> *,4,,,0
 0x97F264,CTimer,_ZN6CTimer13ms_fTimeScaleE,CTimer::ms_fTimeScale,float,,4,,,0
 0x97F274,CDraw,_ZN5CDraw15ms_fLODDistanceE,CDraw::ms_fLODDistance,float,,4,,,0
 0x97F278,,pSpriteRadarPhil,pSpriteRadarPhil,,,1,,,0
-0x97F2AC,,_ZN6CPools11ms_pPedPoolE,CPools::ms_pPedPool,CPool *,,4,,,0
+0x97F2AC,CPools,_ZN6CPools11ms_pPedPoolE,CPools::ms_pPedPool,CPool *,"CPool<CPed, CPlayerPed> *",4,,,0
 0x97F2B4,CClock,_ZN6CClock29ms_nMillisecondsPerGameMinuteE,CClock::ms_nMillisecondsPerGameMinute,unsigned int,,4,,,0
 0x97F2BC,,_ZN13CBrightLights15NumBrightLightsE,CBrightLights::NumBrightLights,,,1,,,0
 0x97F2C4,,dwChaseStat,dwChaseStat,,,1,,,0
@@ -1089,6 +1104,7 @@
 0x97F884,,nNumPriorityModelRequests,nNumPriorityModelRequests,,,1,,,0
 0x97F8A0,,stFireManager,stFireManager,,,1,,,0
 0x980024,,pSpriteRadarKCabs,pSpriteRadarKCabs,,,1,,,0
+0x98002C,CParticle,_ZN9CParticle17m_pUnusedListHeadE,CParticle::m_pUnusedListHead,CParticle *,,4,,,0
 0x980038,,cMusicManager,cMusicManager,,,1,,,0
 0x983B84,,lpZoneNameTextOld,lpZoneNameTextOld,,,1,,,0
 0x983B8C,,pWaterRasterWake,pWaterRasterWake,,,1,,,0
@@ -1137,7 +1153,7 @@
 0x9B6E50,,pSpriteRadarRKChat,pSpriteRadarRKChat,,,1,,,0
 0x9B6E58,,pLineOfSightIgnore,pLineOfSightIgnore,,,1,,,0
 0x9B6E5C,,CPathFind,CPathFind,int[1],,4,,,0
-0xA0CE94,,fSplashProgress,fSplashProgress,,,1,,,0
+0xA0CE94,,NumberOfChunksLoaded,NumberOfChunksLoaded,float,,4,,,0
 0xA0CFD0,,pSpriteRadarRVRock,pSpriteRadarRVRock,,,1,,,0
 0xA0CFD8,,fBestJumpHeight,fBestJumpHeight,,,1,,,0
 0xA0CFDC,,uStreamingMemUsed,uStreamingMemUsed,,,1,,,0
@@ -1168,7 +1184,7 @@
 0xA0D898,CTimer,_ZN6CTimer14m_FrameCounterE,CTimer::m_FrameCounter,unsigned int,,4,,,0
 0xA0D8B0,,_RwD3D8RasterExtOffset,_RwD3D8RasterExtOffset,,,1,,,0
 0xA0D8B4,,pColStore,pColStore,,,1,,,0
-0xA0D8BC,,_ZN6CPools21ms_pEntryInfoNodePoolE,CPools::ms_pEntryInfoNodePool,CPool *,,4,,,0
+0xA0D8BC,CPools,_ZN6CPools21ms_pEntryInfoNodePoolE,CPools::ms_pEntryInfoNodePool,CPool *,CPool<CEntryInfoNode> *,4,,,0
 0xA0D8D4,CRubbish,_ZN8CRubbish14EndStaticsListE,CRubbish::EndStaticsList,COneSheet,,68,,,0
 0xA0D96C,,CLinkList_CAnimBlendHierarchy,CLinkList_CAnimBlendHierarchy,,,1,,,0
 0xA0D9A4,,pSpriteRadarSave,pSpriteRadarSave,,,1,,,0
@@ -1192,13 +1208,13 @@
 0xA0FCF8,,dwLongest2WheelTime,dwLongest2WheelTime,,,1,,,0
 0xA0FCFC,,fDistTravelledByCar,fDistTravelledByCar,,,1,,,0
 0xA0FD04,,Present,Present,,,1,,,0
-0xA0FD38,,_ZN6CPools15ms_pPtrNodePoolE,CPools::ms_pPtrNodePool,,,1,,,0
+0xA0FD38,CPools,_ZN6CPools15ms_pPtrNodePoolE,CPools::ms_pPtrNodePool,CPool *,CPool<CPtrNode> *,4,,,0
 0xA0FD48,,gb_EAX_supported,gb_EAX_supported,,,1,,,0
 0xA0FD58,,pSpriteRadarTshirt,pSpriteRadarTshirt,,,1,,,0
 0xA0FD78,,pSpriteRadarSpray,pSpriteRadarSpray,,,1,,,0
 0xA0FD7C,,_ZN8CWeather8SunGlareE,CWeather::SunGlare,float,,4,,,0
 0xA0FDCC,,fWeaponBudget,fWeaponBudget,,,1,,,0
-0xA0FDE4,,_ZN6CPools15ms_pVehiclePoolE,CPools::ms_pVehiclePool,CPool *,,4,,,0
+0xA0FDE4,CPools,_ZN6CPools15ms_pVehiclePoolE,CPools::ms_pVehiclePool,CPool *,"CPool<CVehicle, CAutomobile> *",4,,,0
 0xA0FDEC,CClock,_ZN6CClock17ms_nLastClockTickE,CClock::ms_nLastClockTick,unsigned int,,4,,,0
 0xA1023C,,dwNumMissionAttempts,dwNumMissionAttempts,,,1,,,0
 0xA10240,,TimeStartedCountingForFade,TimeStartedCountingForFade,,,1,,,0
@@ -1207,6 +1223,7 @@
 0xA10680,CTimer,oldPcTimer,oldPcTimer,int,,4,,,0
 0xA1068C,,_ZN12CCutsceneMgr21ms_cutsceneLoadStatusE,CCutsceneMgr::ms_cutsceneLoadStatus,,,1,,,0
 0xA1069C,,nNumOfPeds,nNumOfPeds,,,1,,,0
+0xA106A4,,gpRainDropTex,gpRainDropTex,RwTexture *,,4,,,0
 0xA106AC,,stLinkList_CColModel,stLinkList_CColModel,,,1,,,0
 0xA1085C,,pSpriteRadarHaitians,pSpriteRadarHaitians,,,1,,,0
 0xA10860,,pWaterAtomicClear,pWaterAtomicClear,,,1,,,0
@@ -1292,6 +1309,7 @@
 0xA10B54,CRubbish,_ZN8CRubbish17bRubbishInvisibleE,CRubbish::bRubbishInvisible,,,1,,,0
 0xA10B56,,StillToFadeOut,StillToFadeOut,,,1,,,0
 0xA10B5D,CClock,_ZN6CClock27ms_Stored_nGameClockMinutesE,CClock::ms_Stored_nGameClockMinutes,unsigned __int8,,1,,,0
+0xA10B5E,CGame,g_SlowMode,g_SlowMode,bool,,1,,,0
 0xA10B5F,,bChtFannyMagnet,bChtFannyMagnet,,,1,,,0
 0xA10B63,,_ZN12CCutsceneMgr21ms_cutsceneProcessingE,CCutsceneMgr::ms_cutsceneProcessing,,,1,,,0
 0xA10B64,,bCurCutsceneHasAnimFile,bCurCutsceneHasAnimFile,,,1,,,0
