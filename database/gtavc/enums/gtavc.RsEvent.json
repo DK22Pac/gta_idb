@@ -4,134 +4,138 @@
     "scope": "",
     "width": 0,
     "isClass": false,
-    "isHexademical": true,
+    "isHexademical": false,
     "isSigned": false,
     "isBitfield": false,
     "comment": "",
     "members": [
         {
             "name": "rsCAMERASIZE",
-            "value": "0x0"
+            "value": 0
         },
         {
             "name": "rsCOMMANDLINE",
-            "value": "0x1"
+            "value": 1
         },
         {
             "name": "rsFILELOAD",
-            "value": "0x2"
+            "value": 2
         },
         {
             "name": "rsINITDEBUG",
-            "value": "0x3"
+            "value": 3
         },
         {
             "name": "rsINPUTDEVICEATTACH",
-            "value": "0x4"
+            "value": 4
         },
         {
             "name": "rsLEFTBUTTONDOWN",
-            "value": "0x5"
+            "value": 5
         },
         {
             "name": "rsLEFTBUTTONUP",
-            "value": "0x6"
+            "value": 6
         },
         {
             "name": "rsMOUSEMOVE",
-            "value": "0x7"
+            "value": 7
         },
         {
             "name": "rsMOUSEWHEELMOVE",
-            "value": "0x8"
+            "value": 8
         },
         {
             "name": "rsPLUGINATTACH",
-            "value": "0x9"
+            "value": 9
         },
         {
             "name": "rsREGISTERIMAGELOADER",
-            "value": "0xA"
+            "value": 10
         },
         {
             "name": "rsRIGHTBUTTONDOWN",
-            "value": "0xB"
+            "value": 11
         },
         {
             "name": "rsRIGHTBUTTONUP",
-            "value": "0xC"
+            "value": 12
         },
         {
             "name": "rsRWINITIALIZE",
-            "value": "0xD"
+            "value": 21
         },
         {
             "name": "rsRWTERMINATE",
-            "value": "0xE"
+            "value": 22
         },
         {
             "name": "rsSELECTDEVICE",
-            "value": "0xF"
+            "value": 23
         },
         {
             "name": "rsINITIALIZE",
-            "value": "0x10"
+            "value": 24
         },
         {
             "name": "rsTERMINATE",
-            "value": "0x11"
+            "value": 25
         },
         {
             "name": "rsIDLE",
-            "value": "0x12"
+            "value": 26
+        },
+        {
+            "name": "rsRENDER",
+            "value": 27
         },
         {
             "name": "rsKEYDOWN",
-            "value": "0x13"
+            "value": 28
         },
         {
             "name": "rsKEYUP",
-            "value": "0x14"
+            "value": 29
         },
         {
             "name": "rsQUITAPP",
-            "value": "0x15"
+            "value": 30
         },
         {
             "name": "rsPADBUTTONDOWN",
-            "value": "0x16"
+            "value": 31
         },
         {
             "name": "rsPADBUTTONUP",
-            "value": "0x17"
+            "value": 32
         },
         {
             "name": "rsPADANALOGUELEFT",
-            "value": "0x18"
+            "value": 33
         },
         {
             "name": "rsPADANALOGUELEFTRESET",
-            "value": "0x19"
+            "value": 34
         },
         {
             "name": "rsPADANALOGUERIGHT",
-            "value": "0x1A"
+            "value": 35
         },
         {
             "name": "rsPADANALOGUERIGHTRESET",
-            "value": "0x1B"
+            "value": 36
         },
         {
             "name": "rsPREINITCOMMANDLINE",
-            "value": "0x1C"
+            "value": 37
         },
         {
             "name": "rsACTIVATE",
-            "value": "0x1D"
+            "value": 38
         },
         {
             "name": "rsSETMEMORYFUNCS",
-            "value": "0x1E"
+            "value": 39
         }
     ]
 }

@@ -1,0 +1,137 @@
+{
+    "name": "CPad",
+    "module": "CPad",
+    "scope": "",
+    "kind": "class",
+    "size": "0x114",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "NewState",
+            "type": "CControllerState",
+            "offset": 0,
+            "size": "0x2A"
+        },
+        {
+            "name": "OldState",
+            "type": "CControllerState",
+            "offset": "0x2A",
+            "size": "0x2A"
+        },
+        {
+            "name": "SteeringLeftRightBuffer",
+            "type": "__int16[10]",
+            "offset": "0x54",
+            "size": "0x14"
+        },
+        {
+            "name": "DrunkDrivingBufferUsed",
+            "type": "int",
+            "offset": "0x68",
+            "size": 4
+        },
+        {
+            "name": "PCTempKeyState",
+            "type": "CControllerState",
+            "offset": "0x6C",
+            "size": "0x2A"
+        },
+        {
+            "name": "PCTempJoyState",
+            "type": "CControllerState",
+            "offset": "0x96",
+            "size": "0x2A"
+        },
+        {
+            "name": "PCTempMouseState",
+            "type": "CControllerState",
+            "offset": "0xC0",
+            "size": "0x2A"
+        },
+        {
+            "name": "field_EA",
+            "type": "__int16",
+            "offset": "0xEA",
+            "size": 2
+        },
+        {
+            "name": "Mode",
+            "type": "__int16",
+            "offset": "0xEC",
+            "size": 2
+        },
+        {
+            "name": "ShakeDur",
+            "type": "__int16",
+            "offset": "0xEE",
+            "size": 2
+        },
+        {
+            "name": "DisablePlayerControls",
+            "type": "__int16",
+            "offset": "0xF0",
+            "size": 2
+        },
+        {
+            "name": "ShakeFreq",
+            "type": "char",
+            "offset": "0xF2",
+            "size": 1
+        },
+        {
+            "name": "bHornHistory",
+            "type": "char[5]",
+            "offset": "0xF3",
+            "size": 5
+        },
+        {
+            "name": "iCurrHornHistory",
+            "type": "char",
+            "offset": "0xF8",
+            "size": 1
+        },
+        {
+            "name": "JustOutOfFrontEnd",
+            "type": "char",
+            "offset": "0xF9",
+            "size": 1
+        },
+        {
+            "name": "bApplyBrakes",
+            "type": "char",
+            "offset": "0xFA",
+            "size": 1
+        },
+        {
+            "name": "field_FB",
+            "type": "char[12]",
+            "offset": "0xFB",
+            "size": "0xC"
+        },
+        {
+            "name": "_pad107",
+            "type": "char",
+            "offset": "0x107",
+            "size": 1
+        },
+        {
+            "name": "LastTimeTouched",
+            "type": "int",
+            "offset": "0x108",
+            "size": 4
+        },
+        {
+            "name": "AverageWeapon",
+            "type": "int",
+            "offset": "0x10C",
+            "size": 4
+        },
+        {
+            "name": "AverageEntries",
+            "type": "int",
+            "offset": "0x110",
+            "size": 4
+        }
+    ]
+}

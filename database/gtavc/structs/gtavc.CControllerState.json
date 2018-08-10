@@ -1,0 +1,137 @@
+{
+    "name": "CControllerState",
+    "module": "CControllerState",
+    "scope": "",
+    "kind": "class",
+    "size": "0x2A",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "LeftStickX",
+            "type": "__int16",
+            "offset": 0,
+            "size": 2
+        },
+        {
+            "name": "LeftStickY",
+            "type": "__int16",
+            "offset": 2,
+            "size": 2
+        },
+        {
+            "name": "RightStickX",
+            "type": "__int16",
+            "offset": 4,
+            "size": 2
+        },
+        {
+            "name": "RightStickY",
+            "type": "__int16",
+            "offset": 6,
+            "size": 2
+        },
+        {
+            "name": "LeftShoulder1",
+            "type": "__int16",
+            "offset": 8,
+            "size": 2
+        },
+        {
+            "name": "LeftShoulder2",
+            "type": "__int16",
+            "offset": "0xA",
+            "size": 2
+        },
+        {
+            "name": "RightShoulder1",
+            "type": "__int16",
+            "offset": "0xC",
+            "size": 2
+        },
+        {
+            "name": "RightShoulder2",
+            "type": "__int16",
+            "offset": "0xE",
+            "size": 2
+        },
+        {
+            "name": "DPadUp",
+            "type": "__int16",
+            "offset": "0x10",
+            "size": 2
+        },
+        {
+            "name": "DPadDown",
+            "type": "__int16",
+            "offset": "0x12",
+            "size": 2
+        },
+        {
+            "name": "DPadLeft",
+            "type": "__int16",
+            "offset": "0x14",
+            "size": 2
+        },
+        {
+            "name": "DPadRight",
+            "type": "__int16",
+            "offset": "0x16",
+            "size": 2
+        },
+        {
+            "name": "Start",
+            "type": "__int16",
+            "offset": "0x18",
+            "size": 2
+        },
+        {
+            "name": "Select",
+            "type": "__int16",
+            "offset": "0x1A",
+            "size": 2
+        },
+        {
+            "name": "ButtonSquare",
+            "type": "__int16",
+            "offset": "0x1C",
+            "size": 2
+        },
+        {
+            "name": "ButtonTriangle",
+            "type": "__int16",
+            "offset": "0x1E",
+            "size": 2
+        },
+        {
+            "name": "ButtonCross",
+            "type": "__int16",
+            "offset": "0x20",
+            "size": 2
+        },
+        {
+            "name": "ButtonCircle",
+            "type": "__int16",
+            "offset": "0x22",
+            "size": 2
+        },
+        {
+            "name": "ShockButtonL",
+            "type": "__int16",
+            "offset": "0x24",
+            "size": 2
+        },
+        {
+            "name": "ShockButtonR",
+            "type": "__int16",
+            "offset": "0x26",
+            "size": 2
+        },
+        {
+            "name": "RadioTrackSkip",
+            "type": "__int16",
+            "offset": "0x28",
+            "size": 2
+        }
+    ]
+}
