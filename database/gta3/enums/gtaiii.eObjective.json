@@ -1,0 +1,157 @@
+{
+    "name": "eObjective",
+    "module": "",
+    "scope": "",
+    "width": 4,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "OBJECTIVE_NONE",
+            "value": 0
+        },
+        {
+            "name": "OBJECTIVE_IDLE",
+            "value": 1
+        },
+        {
+            "name": "OBJECTIVE_FLEE_TILL_SAFE",
+            "value": 2
+        },
+        {
+            "name": "OBJECTIVE_GUARD_SPOT",
+            "value": 3
+        },
+        {
+            "name": "OBJECTIVE_4",
+            "value": 4
+        },
+        {
+            "name": "OBJECTIVE_WAIT_IN_CAR",
+            "value": 5
+        },
+        {
+            "name": "OBJECTIVE_6",
+            "value": 6
+        },
+        {
+            "name": "OBJECTIVE_KILL_CHAR_ON_FOOT",
+            "value": 7
+        },
+        {
+            "name": "OBJECTIVE_KILL_CHAR_ANY_MEANS",
+            "value": 8
+        },
+        {
+            "name": "OBJECTIVE_FLEE_CHAR_ON_FOOT_TILL_SAFE",
+            "value": 9
+        },
+        {
+            "name": "OBJECTIVE_FLEE_CHAR_ON_FOOT_ALWAYS",
+            "value": 10
+        },
+        {
+            "name": "OBJECTIVE_GOTO_CHAR_ON_FOOT",
+            "value": 11
+        },
+        {
+            "name": "OBJECTIVE_FOLLOW_PED_IN_FORMATION",
+            "value": 12
+        },
+        {
+            "name": "OBJECTIVE_LEAVE_VEHICLE",
+            "value": 13
+        },
+        {
+            "name": "OBJECTIVE_ENTER_CAR_AS_PASSANGER",
+            "value": 14
+        },
+        {
+            "name": "OBJECTIVE_ENTER_CAR_AS_DRIVER",
+            "value": 15
+        },
+        {
+            "name": "OBJECTIVE_10",
+            "value": 16
+        },
+        {
+            "name": "OBJECTIVE_11",
+            "value": 17
+        },
+        {
+            "name": "OBJECTIVE_12",
+            "value": 18
+        },
+        {
+            "name": "OBJECTIVE_DESTROY_CAR",
+            "value": 19
+        },
+        {
+            "name": "OBJECTIVE_GOTO_AREA_ANY_MEANS",
+            "value": 20
+        },
+        {
+            "name": "OBJECTIVE_GOTO_AREA_ON_FOOT",
+            "value": 21
+        },
+        {
+            "name": "OBJECTIVE_RUN_TO_AREA",
+            "value": 22
+        },
+        {
+            "name": "OBJECTIVE_17",
+            "value": 23
+        },
+        {
+            "name": "OBJECTIVE_18",
+            "value": 24
+        },
+        {
+            "name": "OBJECTIVE_FIGHT_CHAR",
+            "value": 25
+        },
+        {
+            "name": "OBJECTIVE_FOLLOW_LEADER",
+            "value": 26
+        },
+        {
+            "name": "OBJECTIVE_FOLLOW_ROUTE",
+            "value": 27
+        },
+        {
+            "name": "OBJECTIVE_SOLICIT",
+            "value": 28
+        },
+        {
+            "name": "OBJECTIVE_HAIL_TAXI",
+            "value": 29
+        },
+        {
+            "name": "OBJECTIVE_CATCH_TRAIN",
+            "value": 30
+        },
+        {
+            "name": "OBJECTIVE_BUY_ICE_CREAM",
+            "value": 31
+        },
+        {
+            "name": "OBJECTIVE_STEAL_ANY_CAR",
+            "value": 32
+        },
+        {
+            "name": "OBJECTIVE_MUG",
+            "value": 33
+        },
+        {
+            "name": "OBJECTIVE_FLEE_CAR",
+            "value": 34
+        },
+        {
+            "name": "OBJECTIVE_23",
+            "value": 35
+        }
+    ]
+}

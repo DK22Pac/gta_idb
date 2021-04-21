@@ -1,0 +1,117 @@
+{
+    "name": "AssocGroupId",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "ANIM_STD_PED",
+            "value": "0x0"
+        },
+        {
+            "name": "ANIM_PLAYER_PED",
+            "value": "0x1"
+        },
+        {
+            "name": "ANIM_PLAYER_ROCKET_PED",
+            "value": "0x2"
+        },
+        {
+            "name": "ANIM_PLAYER_1ARMED_PED",
+            "value": "0x3"
+        },
+        {
+            "name": "ANIM_PLAYER_2ARMED_PED",
+            "value": "0x4"
+        },
+        {
+            "name": "ANIM_PLAYER_BBBAT_PED",
+            "value": "0x5"
+        },
+        {
+            "name": "ANIM_SHUFFLE_PED",
+            "value": "0x6"
+        },
+        {
+            "name": "ANIM_OLD_PED",
+            "value": "0x7"
+        },
+        {
+            "name": "ANIM_GANG1_PED",
+            "value": "0x8"
+        },
+        {
+            "name": "ANIM_GANG2_PED",
+            "value": "0x9"
+        },
+        {
+            "name": "ANIM_FAT_PED",
+            "value": "0xA"
+        },
+        {
+            "name": "ANIM_OLDFAT_PED",
+            "value": "0xB"
+        },
+        {
+            "name": "ANIM_STD_WOMANPED",
+            "value": "0xC"
+        },
+        {
+            "name": "ANIM_SHOPPING_WOMANPED",
+            "value": "0xD"
+        },
+        {
+            "name": "ANIM_BUSY_WOMANPED",
+            "value": "0xE"
+        },
+        {
+            "name": "ANIM_SEXY_WOMANPED",
+            "value": "0xF"
+        },
+        {
+            "name": "ANIM_OLD_WOMANPED",
+            "value": "0x10"
+        },
+        {
+            "name": "ANIM_FAT_WOMANPED",
+            "value": "0x11"
+        },
+        {
+            "name": "ANIM_PANIC_CHUNKYPED",
+            "value": "0x12"
+        },
+        {
+            "name": "ASSOCGROUP_PLAYERBACK",
+            "value": "0x13"
+        },
+        {
+            "name": "ASSOCGROUP_PLAYERLEFT",
+            "value": "0x14"
+        },
+        {
+            "name": "ASSOCGROUP_PLAYERRIGHT",
+            "value": "0x15"
+        },
+        {
+            "name": "ASSOCGROUP_ROCKETBACK",
+            "value": "0x16"
+        },
+        {
+            "name": "ASSOCGROUP_ROCKETLEFT",
+            "value": "0x17"
+        },
+        {
+            "name": "ASSOCGROUP_ROCKETRIGHT",
+            "value": "0x18"
+        },
+        {
+            "name": "ASSOCGROUP_TOTALASSOCGROUPS",
+            "value": "0x19"
+        }
+    ]
+}

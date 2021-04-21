@@ -1,0 +1,49 @@
+{
+    "name": "CAnimBlendSequence",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x2C",
+    "alignment": 2,
+    "vtableAddress": "0x5EA060",
+    "vtableSize": 1,
+    "comment": "",
+    "members": [
+        {
+            "name": "vtable",
+            "type": "_DWORD",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "m_nFlags",
+            "type": "_DWORD",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "name",
+            "type": "char[24]",
+            "offset": 8,
+            "size": "0x18"
+        },
+        {
+            "name": "m_nFrameCount",
+            "type": "int",
+            "offset": "0x20",
+            "size": 4
+        },
+        {
+            "name": "m_apFrames",
+            "type": "_DWORD",
+            "offset": "0x24",
+            "size": 4
+        },
+        {
+            "name": "dword28",
+            "type": "_DWORD",
+            "offset": "0x28",
+            "size": 4
+        }
+    ]
+}

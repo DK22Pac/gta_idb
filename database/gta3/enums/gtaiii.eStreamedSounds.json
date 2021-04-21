@@ -1,0 +1,805 @@
+{
+    "name": "eStreamedSounds",
+    "module": "",
+    "scope": "",
+    "width": 4,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "STREAMED_SOUND_RADIO_HEAD",
+            "value": 0
+        },
+        {
+            "name": "STREAMED_SOUND_RADIO_CLASSIC",
+            "value": 1
+        },
+        {
+            "name": "STREAMED_SOUND_RADIO_KJAH",
+            "value": 2
+        },
+        {
+            "name": "STREAMED_SOUND_RADIO_RISE",
+            "value": 3
+        },
+        {
+            "name": "STREAMED_SOUND_RADIO_LIPS",
+            "value": 4
+        },
+        {
+            "name": "STREAMED_SOUND_RADIO_GAME",
+            "value": 5
+        },
+        {
+            "name": "STREAMED_SOUND_RADIO_MSX",
+            "value": 6
+        },
+        {
+            "name": "STREAMED_SOUND_RADIO_FLASH",
+            "value": 7
+        },
+        {
+            "name": "STREAMED_SOUND_RADIO_CHAT",
+            "value": 8
+        },
+        {
+            "name": "STREAMED_SOUND_RADIO_MP3_PLAYER",
+            "value": 9
+        },
+        {
+            "name": "STREAMED_SOUND_RADIO_POLICE",
+            "value": 10
+        },
+        {
+            "name": "STREAMED_SOUND_CITY_AMBIENT",
+            "value": 11
+        },
+        {
+            "name": "STREAMED_SOUND_WATER_AMBIENT",
+            "value": 12
+        },
+        {
+            "name": "STREAMED_SOUND_ANNOUNCE_COMMERCIAL_OPEN",
+            "value": 13
+        },
+        {
+            "name": "STREAMED_SOUND_ANNOUNCE_SUBURBAN_OPEN",
+            "value": 14
+        },
+        {
+            "name": "STREAMED_SOUND_NEWS_INTRO",
+            "value": 15
+        },
+        {
+            "name": "STREAMED_SOUND_BANK_INTRO",
+            "value": 16
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_LUIGI1_LG",
+            "value": 17
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_LUIGI2_DSB",
+            "value": 18
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_LUIGI3_DM",
+            "value": 19
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_LUIGI4_PAP",
+            "value": 20
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_LUIGI5_TFB",
+            "value": 21
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_JOEY0_DM2",
+            "value": 22
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_JOEY1_LFL",
+            "value": 23
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_JOEY2_KCL",
+            "value": 24
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_JOEY3_VH",
+            "value": 25
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_JOEY4_ETH",
+            "value": 26
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_JOEY5_DST",
+            "value": 27
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_JOEY6_TBJ",
+            "value": 28
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_TONI1_TOL",
+            "value": 29
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_TONI2_TPU",
+            "value": 30
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_TONI3_MAS",
+            "value": 31
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_TONI4_TAT",
+            "value": 32
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_TONI5_BF",
+            "value": 33
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_SAL0_MAS",
+            "value": 34
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_SAL1_PF",
+            "value": 35
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_SAL2_CTG",
+            "value": 36
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_SAL3_RTC",
+            "value": 37
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_SAL5_LRQ",
+            "value": 38
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_SAL4_BDBA",
+            "value": 39
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_SAL4_BDBB",
+            "value": 40
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_SAL2_CTG2",
+            "value": 41
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_SAL4_BDBD",
+            "value": 42
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_SAL5_LRQB",
+            "value": 43
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_SAL5_LRQC",
+            "value": 44
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_ASUKA_1_SSO",
+            "value": 45
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_ASUKA_2_PP",
+            "value": 46
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_ASUKA_3_SS",
+            "value": 47
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_ASUKA_4_PDR",
+            "value": 48
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_ASUKA_5_K2FT",
+            "value": 49
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_KENJI1_KBO",
+            "value": 50
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_KENJI2_GIS",
+            "value": 51
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_KENJI3_DS",
+            "value": 52
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_KENJI4_SHI",
+            "value": 53
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_KENJI5_SD",
+            "value": 54
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_RAY0_PDR2",
+            "value": 55
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_RAY1_SW",
+            "value": 56
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_RAY2_AP",
+            "value": 57
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_RAY3_ED",
+            "value": 58
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_RAY4_GF",
+            "value": 59
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_RAY5_PB",
+            "value": 60
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_RAY6_MM",
+            "value": 61
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_DONALD1_STOG",
+            "value": 62
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_DONALD2_KK",
+            "value": 63
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_DONALD3_ADO",
+            "value": 64
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_DONALD5_ES",
+            "value": 65
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_DONALD7_MLD",
+            "value": 66
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_DONALD4_GTA",
+            "value": 67
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_DONALD4_GTA2",
+            "value": 68
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_DONALD6_STS",
+            "value": 69
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_ASUKA6_BAIT",
+            "value": 70
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_ASUKA7_ETG",
+            "value": 71
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_ASUKA8_PS",
+            "value": 72
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_ASUKA9_ASD",
+            "value": 73
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_KENJI4_SHI2",
+            "value": 74
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_CATALINA1_TEX",
+            "value": 75
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_ELBURRO1_PH1",
+            "value": 76
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_ELBURRO2_PH2",
+            "value": 77
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_ELBURRO3_PH3",
+            "value": 78
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_ELBURRO4_PH4",
+            "value": 79
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_YARDIE_PH1",
+            "value": 80
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_YARDIE_PH2",
+            "value": 81
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_YARDIE_PH3",
+            "value": 82
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_YARDIE_PH4",
+            "value": 83
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_HOODS_PH1",
+            "value": 84
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_HOODS_PH2",
+            "value": 85
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_HOODS_PH3",
+            "value": 86
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_HOODS_PH4",
+            "value": 87
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_HOODS_PH5",
+            "value": 88
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_MARTY_PH1",
+            "value": 89
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_MARTY_PH2",
+            "value": 90
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_MARTY_PH3",
+            "value": 91
+        },
+        {
+            "name": "STREAMED_SOUND_CUTSCENE_MARTY_PH4",
+            "value": 92
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_COMPLETED",
+            "value": 93
+        },
+        {
+            "name": "STREAMED_SOUND_GAME_COMPLETED",
+            "value": 94
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_LIB_A1",
+            "value": 95
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_LIB_A2",
+            "value": 96
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_LIB_A",
+            "value": 97
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_LIB_B",
+            "value": 98
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_LIB_C",
+            "value": 99
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_LIB_D",
+            "value": 100
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_L2_A",
+            "value": 101
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_J4T_1",
+            "value": 102
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_J4T_2",
+            "value": 103
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_J4T_3",
+            "value": 104
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_J4T_4",
+            "value": 105
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_J4_A",
+            "value": 106
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_J4_B",
+            "value": 107
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_J4_C",
+            "value": 108
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_J4_D",
+            "value": 109
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_J4_E",
+            "value": 110
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_J4_F",
+            "value": 111
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_J6_1",
+            "value": 112
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_J6_A",
+            "value": 113
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_J6_B",
+            "value": 114
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_J6_C",
+            "value": 115
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_J6_D",
+            "value": 116
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_T4_A",
+            "value": 117
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_S1_A",
+            "value": 118
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_S1_A1",
+            "value": 119
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_S1_B",
+            "value": 120
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_S1_C",
+            "value": 121
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_S1_C1",
+            "value": 122
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_S1_D",
+            "value": 123
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_S1_E",
+            "value": 124
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_S1_F",
+            "value": 125
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_S1_G",
+            "value": 126
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_S1_H",
+            "value": 127
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_S1_I",
+            "value": 128
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_S1_J",
+            "value": 129
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_S1_K",
+            "value": 130
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_S1_L",
+            "value": 131
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_S3_A",
+            "value": 132
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_S3_B",
+            "value": 133
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_EL3_A",
+            "value": 134
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_MF1_A",
+            "value": 135
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_MF2_A",
+            "value": 136
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_MF3_A",
+            "value": 137
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_MF3_B",
+            "value": 138
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_MF3_B1",
+            "value": 139
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_MF3_C",
+            "value": 140
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_MF4_A",
+            "value": 141
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_MF4_B",
+            "value": 142
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_MF4_C",
+            "value": 143
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_A1_A",
+            "value": 144
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_A3_A",
+            "value": 145
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_A5_A",
+            "value": 146
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_A4_A",
+            "value": 147
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_A4_B",
+            "value": 148
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_A4_C",
+            "value": 149
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_A4_D",
+            "value": 150
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_K1_A",
+            "value": 151
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_K3_A",
+            "value": 152
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_R1_A",
+            "value": 153
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_R2_A",
+            "value": 154
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_R2_B",
+            "value": 155
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_R2_C",
+            "value": 156
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_R2_D",
+            "value": 157
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_R2_E",
+            "value": 158
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_R2_F",
+            "value": 159
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_R2_G",
+            "value": 160
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_R2_H",
+            "value": 161
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_R5_A",
+            "value": 162
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_R6_A",
+            "value": 163
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_R6_A1",
+            "value": 164
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_R6_B",
+            "value": 165
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_LO2_A",
+            "value": 166
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_LO6_A",
+            "value": 167
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_YD2_A",
+            "value": 168
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_YD2_B",
+            "value": 169
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_YD2_C",
+            "value": 170
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_YD2_C1",
+            "value": 171
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_YD2_D",
+            "value": 172
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_YD2_E",
+            "value": 173
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_YD2_F",
+            "value": 174
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_YD2_G",
+            "value": 175
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_YD2_H",
+            "value": 176
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_YD2_ASS",
+            "value": 177
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_YD2_OK",
+            "value": 178
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_H5_A",
+            "value": 179
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_H5_B",
+            "value": 180
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_H5_C",
+            "value": 181
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_AMMU_A",
+            "value": 182
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_AMMU_B",
+            "value": 183
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_AMMU_C",
+            "value": 184
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_DOOR_1",
+            "value": 185
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_DOOR_2",
+            "value": 186
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_DOOR_3",
+            "value": 187
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_DOOR_4",
+            "value": 188
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_DOOR_5",
+            "value": 189
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_DOOR_6",
+            "value": 190
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_T3_A",
+            "value": 191
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_T3_B",
+            "value": 192
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_T3_C",
+            "value": 193
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_K1_B",
+            "value": 194
+        },
+        {
+            "name": "STREAMED_SOUND_MISSION_CAT1",
+            "value": 195
+        },
+        {
+            "name": "TOTAL_STREAMED_SOUNDS",
+            "value": 196
+        },
+        {
+            "name": "NO_STREAMED_SOUND",
+            "value": 197
+        }
+    ]
+}

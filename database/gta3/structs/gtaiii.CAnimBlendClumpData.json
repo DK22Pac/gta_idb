@@ -1,0 +1,35 @@
+{
+    "name": "CAnimBlendClumpData",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x14",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_associationsList",
+            "type": "RwLinkList",
+            "offset": 0,
+            "size": 8
+        },
+        {
+            "name": "m_nNumBones",
+            "type": "int",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "m_pvecPedPosition",
+            "type": "CVector *",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "m_pBones",
+            "type": "AnimBlendFrameData *",
+            "offset": "0x10",
+            "size": 4
+        }
+    ]
+}

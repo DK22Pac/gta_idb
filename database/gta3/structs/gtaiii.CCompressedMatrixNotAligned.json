@@ -1,0 +1,29 @@
+{
+    "name": "CCompressedMatrixNotAligned",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x12",
+    "alignment": 1,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_vecPosition",
+            "type": "CVector",
+            "offset": 0,
+            "size": "0xC"
+        },
+        {
+            "name": "m_bvecRight",
+            "type": "char[3]",
+            "offset": "0xC",
+            "size": 3
+        },
+        {
+            "name": "m_bvecUp",
+            "type": "char[3]",
+            "offset": "0xF",
+            "size": 3
+        }
+    ]
+}

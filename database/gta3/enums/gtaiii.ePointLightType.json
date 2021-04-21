@@ -1,0 +1,33 @@
+{
+    "name": "ePointLightType",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "POINTLIGHT_DEFAULT",
+            "value": "0x0"
+        },
+        {
+            "name": "POINTLIGHT_DIRECTIONAL",
+            "value": "0x1"
+        },
+        {
+            "name": "POINTLIGHT_2",
+            "value": "0x2"
+        },
+        {
+            "name": "POINTLIGHT_3",
+            "value": "0x3"
+        },
+        {
+            "name": "POINTLIGHT_4",
+            "value": "0x4"
+        }
+    ]
+}

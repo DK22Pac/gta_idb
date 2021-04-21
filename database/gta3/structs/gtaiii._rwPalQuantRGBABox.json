@@ -1,0 +1,23 @@
+{
+    "name": "_rwPalQuantRGBABox",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x20",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "col0",
+            "type": "RwInt32[4]",
+            "offset": 0,
+            "size": "0x10"
+        },
+        {
+            "name": "col1",
+            "type": "RwInt32[4]",
+            "offset": "0x10",
+            "size": "0x10"
+        }
+    ]
+}

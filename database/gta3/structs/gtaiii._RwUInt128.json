@@ -1,0 +1,23 @@
+{
+    "name": "_RwUInt128",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x10",
+    "alignment": 3,
+    "comment": "",
+    "members": [
+        {
+            "name": "bottom",
+            "type": "RwUInt64",
+            "offset": 0,
+            "size": 8
+        },
+        {
+            "name": "top",
+            "type": "RwUInt64",
+            "offset": 8,
+            "size": 8
+        }
+    ]
+}

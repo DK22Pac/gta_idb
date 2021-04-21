@@ -9,37 +9,37 @@
     "members": [
         {
             "name": "numTriangles",
-            "type": "unsigned int",
+            "type": "RwUInt32",
             "offset": 0,
             "size": 4
         },
         {
             "name": "numProcTriangles",
-            "type": "unsigned int",
+            "type": "RwUInt32",
             "offset": 4,
             "size": 4
         },
         {
             "name": "numVertices",
-            "type": "unsigned int",
+            "type": "RwUInt32",
             "offset": 8,
             "size": 4
         },
         {
             "name": "numTextureUploads",
-            "type": "unsigned int",
+            "type": "RwUInt32",
             "offset": "0xC",
             "size": 4
         },
         {
             "name": "sizeTextureUploads",
-            "type": "unsigned int",
+            "type": "RwUInt32",
             "offset": "0x10",
             "size": 4
         },
         {
             "name": "numResourceAllocs",
-            "type": "unsigned int",
+            "type": "RwUInt32",
             "offset": "0x14",
             "size": 4
         },

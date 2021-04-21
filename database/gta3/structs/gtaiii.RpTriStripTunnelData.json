@@ -1,0 +1,35 @@
+{
+    "name": "RpTriStripTunnelData",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x10",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "quality",
+            "type": "RwReal",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "lengthLimit",
+            "type": "RwUInt32",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "costCB",
+            "type": "RpTriStripCostCallBack",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "data",
+            "type": "void *",
+            "offset": "0xC",
+            "size": 4
+        }
+    ]
+}

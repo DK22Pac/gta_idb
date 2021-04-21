@@ -1,0 +1,97 @@
+{
+    "name": "eRadarSprite",
+    "module": "",
+    "scope": "",
+    "width": 2,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "RADAR_SPRITE_NONE",
+            "value": 0
+        },
+        {
+            "name": "RADAR_SPRITE_ASUKA",
+            "value": 1
+        },
+        {
+            "name": "RADAR_SPRITE_BOMB",
+            "value": 2
+        },
+        {
+            "name": "RADAR_SPRITE_CAT",
+            "value": 3
+        },
+        {
+            "name": "RADAR_SPRITE_CENTRE",
+            "value": 4
+        },
+        {
+            "name": "RADAR_SPRITE_COPCAR",
+            "value": 5
+        },
+        {
+            "name": "RADAR_SPRITE_DON",
+            "value": 6
+        },
+        {
+            "name": "RADAR_SPRITE_EIGHT",
+            "value": 7
+        },
+        {
+            "name": "RADAR_SPRITE_EL",
+            "value": 8
+        },
+        {
+            "name": "RADAR_SPRITE_ICE",
+            "value": 9
+        },
+        {
+            "name": "RADAR_SPRITE_JOEY",
+            "value": 10
+        },
+        {
+            "name": "RADAR_SPRITE_KENJI",
+            "value": 11
+        },
+        {
+            "name": "RADAR_SPRITE_LIZ",
+            "value": 12
+        },
+        {
+            "name": "RADAR_SPRITE_LUIGI",
+            "value": 13
+        },
+        {
+            "name": "RADAR_SPRITE_NORTH",
+            "value": 14
+        },
+        {
+            "name": "RADAR_SPRITE_RAY",
+            "value": 15
+        },
+        {
+            "name": "RADAR_SPRITE_SAL",
+            "value": 16
+        },
+        {
+            "name": "RADAR_SPRITE_SAVE",
+            "value": 17
+        },
+        {
+            "name": "RADAR_SPRITE_SPRAY",
+            "value": 18
+        },
+        {
+            "name": "RADAR_SPRITE_TONY",
+            "value": 19
+        },
+        {
+            "name": "RADAR_SPRITE_WEAPON",
+            "value": 20
+        }
+    ]
+}

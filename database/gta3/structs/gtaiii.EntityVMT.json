@@ -1,0 +1,41 @@
+{
+    "name": "EntityVMT",
+    "module": "",
+    "scope": "",
+    "kind": "union",
+    "size": 4,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "placeable",
+            "type": "CPlaceableVMT *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "particleobject",
+            "type": "CParticleObjectVMT *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "instance",
+            "type": "CInstanceVMT *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "camera",
+            "type": "CCameraVMT *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "entity",
+            "type": "CEntityVMT *",
+            "offset": 0,
+            "size": 4
+        }
+    ]
+}

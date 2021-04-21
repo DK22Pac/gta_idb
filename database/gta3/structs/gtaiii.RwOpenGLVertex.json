@@ -1,0 +1,263 @@
+{
+    "name": "RwOpenGLVertex",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0xA8",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "float0",
+            "type": "float",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "float4",
+            "type": "float",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "float8",
+            "type": "float",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "floatC",
+            "type": "float",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "dword10",
+            "type": "_DWORD",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "float14",
+            "type": "float",
+            "offset": "0x14",
+            "size": 4
+        },
+        {
+            "name": "float18",
+            "type": "float",
+            "offset": "0x18",
+            "size": 4
+        },
+        {
+            "name": "float1C",
+            "type": "float",
+            "offset": "0x1C",
+            "size": 4
+        },
+        {
+            "name": "float20",
+            "type": "float",
+            "offset": "0x20",
+            "size": 4
+        },
+        {
+            "name": "float24",
+            "type": "float",
+            "offset": "0x24",
+            "size": 4
+        },
+        {
+            "name": "float28",
+            "type": "float",
+            "offset": "0x28",
+            "size": 4
+        },
+        {
+            "name": "dword2C",
+            "type": "_DWORD",
+            "offset": "0x2C",
+            "size": 4
+        },
+        {
+            "name": "float30",
+            "type": "float",
+            "offset": "0x30",
+            "size": 4
+        },
+        {
+            "name": "float34",
+            "type": "float",
+            "offset": "0x34",
+            "size": 4
+        },
+        {
+            "name": "float38",
+            "type": "float",
+            "offset": "0x38",
+            "size": 4
+        },
+        {
+            "name": "float3C",
+            "type": "float",
+            "offset": "0x3C",
+            "size": 4
+        },
+        {
+            "name": "float40",
+            "type": "float",
+            "offset": "0x40",
+            "size": 4
+        },
+        {
+            "name": "float44",
+            "type": "float",
+            "offset": "0x44",
+            "size": 4
+        },
+        {
+            "name": "dword48",
+            "type": "_DWORD",
+            "offset": "0x48",
+            "size": 4
+        },
+        {
+            "name": "float4C",
+            "type": "float",
+            "offset": "0x4C",
+            "size": 4
+        },
+        {
+            "name": "float50",
+            "type": "float",
+            "offset": "0x50",
+            "size": 4
+        },
+        {
+            "name": "float54",
+            "type": "float",
+            "offset": "0x54",
+            "size": 4
+        },
+        {
+            "name": "float58",
+            "type": "float",
+            "offset": "0x58",
+            "size": 4
+        },
+        {
+            "name": "float5C",
+            "type": "float",
+            "offset": "0x5C",
+            "size": 4
+        },
+        {
+            "name": "float60",
+            "type": "float",
+            "offset": "0x60",
+            "size": 4
+        },
+        {
+            "name": "dword64",
+            "type": "_DWORD",
+            "offset": "0x64",
+            "size": 4
+        },
+        {
+            "name": "float68",
+            "type": "float",
+            "offset": "0x68",
+            "size": 4
+        },
+        {
+            "name": "float6C",
+            "type": "float",
+            "offset": "0x6C",
+            "size": 4
+        },
+        {
+            "name": "float70",
+            "type": "float",
+            "offset": "0x70",
+            "size": 4
+        },
+        {
+            "name": "float74",
+            "type": "float",
+            "offset": "0x74",
+            "size": 4
+        },
+        {
+            "name": "float78",
+            "type": "float",
+            "offset": "0x78",
+            "size": 4
+        },
+        {
+            "name": "float7C",
+            "type": "float",
+            "offset": "0x7C",
+            "size": 4
+        },
+        {
+            "name": "dword80",
+            "type": "_DWORD",
+            "offset": "0x80",
+            "size": 4
+        },
+        {
+            "name": "float84",
+            "type": "float",
+            "offset": "0x84",
+            "size": 4
+        },
+        {
+            "name": "float88",
+            "type": "float",
+            "offset": "0x88",
+            "size": 4
+        },
+        {
+            "name": "float8C",
+            "type": "float",
+            "offset": "0x8C",
+            "size": 4
+        },
+        {
+            "name": "float90",
+            "type": "float",
+            "offset": "0x90",
+            "size": 4
+        },
+        {
+            "name": "float94",
+            "type": "float",
+            "offset": "0x94",
+            "size": 4
+        },
+        {
+            "name": "float98",
+            "type": "float",
+            "offset": "0x98",
+            "size": 4
+        },
+        {
+            "name": "dword9C",
+            "type": "_DWORD",
+            "offset": "0x9C",
+            "size": 4
+        },
+        {
+            "name": "floatA0",
+            "type": "float",
+            "offset": "0xA0",
+            "size": 4
+        },
+        {
+            "name": "floatA4",
+            "type": "float",
+            "offset": "0xA4",
+            "size": 4
+        }
+    ]
+}

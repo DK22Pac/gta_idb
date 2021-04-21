@@ -1,0 +1,29 @@
+{
+    "name": "eLights",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "LIGHT_FRONT_LEFT",
+            "value": 0
+        },
+        {
+            "name": "LIGHT_FRONT_RIGHT",
+            "value": 1
+        },
+        {
+            "name": "LIGHT_REAR_LEFT",
+            "value": 2
+        },
+        {
+            "name": "LIGHT_REAR_RIGHT",
+            "value": 3
+        }
+    ]
+}

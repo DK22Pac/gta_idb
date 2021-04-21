@@ -1,0 +1,23 @@
+{
+    "name": "RwStreamFile",
+    "module": "",
+    "scope": "",
+    "kind": "union",
+    "size": 4,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "fpFile",
+            "type": "void *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "constfpFile",
+            "type": "const void *",
+            "offset": 0,
+            "size": 4
+        }
+    ]
+}

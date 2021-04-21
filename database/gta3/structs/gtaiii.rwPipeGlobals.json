@@ -1,0 +1,89 @@
+{
+    "name": "rwPipeGlobals",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x60",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "pipesFreeList",
+            "type": "RwFreeList *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "defaultRenderState",
+            "type": "RxRenderStateVector",
+            "offset": 4,
+            "size": "0x2C"
+        },
+        {
+            "name": "allPipelines",
+            "type": "RwLinkList",
+            "offset": "0x30",
+            "size": 8
+        },
+        {
+            "name": "maxNodesPerPipe",
+            "type": "RwUInt32",
+            "offset": "0x38",
+            "size": 4
+        },
+        {
+            "name": "currentAtomicPipeline",
+            "type": "RxPipeline *",
+            "offset": "0x3C",
+            "size": 4
+        },
+        {
+            "name": "currentWorldSectorPipeline",
+            "type": "RxPipeline *",
+            "offset": "0x40",
+            "size": 4
+        },
+        {
+            "name": "currentMaterialPipeline",
+            "type": "RxPipeline *",
+            "offset": "0x44",
+            "size": 4
+        },
+        {
+            "name": "genericAtomicPipeline",
+            "type": "RxPipeline *",
+            "offset": "0x48",
+            "size": 4
+        },
+        {
+            "name": "genericWorldSectorPipeline",
+            "type": "RxPipeline *",
+            "offset": "0x4C",
+            "size": 4
+        },
+        {
+            "name": "genericMaterialPipeline",
+            "type": "RxPipeline *",
+            "offset": "0x50",
+            "size": 4
+        },
+        {
+            "name": "platformAtomicPipeline",
+            "type": "RxPipeline *",
+            "offset": "0x54",
+            "size": 4
+        },
+        {
+            "name": "platformWorldSectorPipeline",
+            "type": "RxPipeline *",
+            "offset": "0x58",
+            "size": 4
+        },
+        {
+            "name": "platformMaterialPipeline",
+            "type": "RxPipeline *",
+            "offset": "0x5C",
+            "size": 4
+        }
+    ]
+}

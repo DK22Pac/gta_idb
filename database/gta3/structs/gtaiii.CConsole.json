@@ -1,0 +1,29 @@
+{
+    "name": "CConsole",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x2BC",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "byte0",
+            "type": "_BYTE",
+            "offset": 0,
+            "size": 1
+        },
+        {
+            "name": "byte1",
+            "type": "_BYTE",
+            "offset": 1,
+            "size": 1
+        },
+        {
+            "name": "byte2",
+            "type": "_BYTE[698]",
+            "offset": 2,
+            "size": "0x2BA"
+        }
+    ]
+}

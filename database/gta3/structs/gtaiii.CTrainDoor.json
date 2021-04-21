@@ -4,7 +4,7 @@
     "scope": "",
     "kind": "class",
     "size": "0x18",
-    "alignment": 2,
+    "alignment": 0,
     "comment": "",
     "members": [
         {
@@ -21,19 +21,19 @@
         },
         {
             "name": "m_nDirn",
-            "type": "char",
+            "type": "unsigned __int8",
             "offset": 8,
             "size": 1
         },
         {
             "name": "m_nState",
-            "type": "_BYTE",
+            "type": "unsigned __int8",
             "offset": 9,
             "size": 1
         },
         {
             "name": "m_nAxis",
-            "type": "char",
+            "type": "unsigned __int8",
             "offset": "0xA",
             "size": 1
         },

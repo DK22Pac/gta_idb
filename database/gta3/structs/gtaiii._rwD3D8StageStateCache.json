@@ -1,0 +1,53 @@
+{
+    "name": "_rwD3D8StageStateCache",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x18",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "curTexRaster",
+            "type": "RwRaster *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "filterMode",
+            "type": "RwTextureFilterMode",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "texAddressU",
+            "type": "RwTextureAddressMode",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "texAddressV",
+            "type": "RwTextureAddressMode",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "borderColor",
+            "type": "RwUInt32",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "maxAnisotropy",
+            "type": "RwInt8",
+            "offset": "0x14",
+            "size": 1
+        },
+        {
+            "name": "_pad15",
+            "type": "char[3]",
+            "offset": "0x15",
+            "size": 3
+        }
+    ]
+}

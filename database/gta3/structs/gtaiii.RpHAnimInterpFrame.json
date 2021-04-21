@@ -1,0 +1,35 @@
+{
+    "name": "RpHAnimInterpFrame",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x24",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "keyFrame1",
+            "type": "RpHAnimKeyFrame *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "keyFrame2",
+            "type": "RpHAnimKeyFrame *",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "q",
+            "type": "RtQuat",
+            "offset": 8,
+            "size": "0x10"
+        },
+        {
+            "name": "t",
+            "type": "RwV3d",
+            "offset": "0x18",
+            "size": "0xC"
+        }
+    ]
+}

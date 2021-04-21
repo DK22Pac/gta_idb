@@ -1,0 +1,121 @@
+{
+    "name": "eCarMission",
+    "module": "",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "MISSION_NONE",
+            "value": 0
+        },
+        {
+            "name": "MISSION_CRUISE",
+            "value": 1
+        },
+        {
+            "name": "MISSION_RAMPLAYER_FARAWAY",
+            "value": 2
+        },
+        {
+            "name": "MISSION_RAMPLAYER_CLOSE",
+            "value": 3
+        },
+        {
+            "name": "MISSION_BLOCKPLAYER_FARAWAY",
+            "value": 4
+        },
+        {
+            "name": "MISSION_BLOCKPLAYER_CLOSE",
+            "value": 5
+        },
+        {
+            "name": "MISSION_BLOCKPLAYER_HANDBRAKESTOP",
+            "value": 6
+        },
+        {
+            "name": "MISSION_WAITFORDELETION",
+            "value": 7
+        },
+        {
+            "name": "MISSION_GOTOCOORDS",
+            "value": 8
+        },
+        {
+            "name": "MISSION_GOTOCOORDS_STRAIGHT",
+            "value": 9
+        },
+        {
+            "name": "MISSION_EMERGENCYVEHICLE_STOP",
+            "value": 10
+        },
+        {
+            "name": "MISSION_STOP_FOREVER",
+            "value": 11
+        },
+        {
+            "name": "MISSION_GOTOCOORDS_ACCURATE",
+            "value": 12
+        },
+        {
+            "name": "MISSION_GOTO_COORDS_STRAIGHT_ACCURATE",
+            "value": 13
+        },
+        {
+            "name": "MISSION_GOTOCOORDS_ASTHECROWSWIMS",
+            "value": 14
+        },
+        {
+            "name": "MISSION_RAMCAR_FARAWAY",
+            "value": 15
+        },
+        {
+            "name": "MISSION_RAMCAR_CLOSE",
+            "value": 16
+        },
+        {
+            "name": "MISSION_BLOCKCAR_FARAWAY",
+            "value": 17
+        },
+        {
+            "name": "MISSION_BLOCKCAR_CLOSE",
+            "value": 18
+        },
+        {
+            "name": "MISSION_BLOCKCAR_HANDBRAKESTOP",
+            "value": 19
+        },
+        {
+            "name": "MISSION_HELI_FLYTOCOORS",
+            "value": 20
+        },
+        {
+            "name": "MISSION_ATTACKPLAYER",
+            "value": 21
+        },
+        {
+            "name": "MISSION_PLANE_FLYTOCOORS",
+            "value": 22
+        },
+        {
+            "name": "MISSION_HELI_LAND",
+            "value": 23
+        },
+        {
+            "name": "MISSION_SLOWLY_DRIVE_TOWARDS_PLAYER_1",
+            "value": 24
+        },
+        {
+            "name": "MISSION_SLOWLY_DRIVE_TOWARDS_PLAYER_2",
+            "value": 25
+        },
+        {
+            "name": "MISSION_BLOCKPLAYER_FORWARDANDBACK",
+            "value": 26
+        }
+    ]
+}

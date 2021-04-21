@@ -1,0 +1,23 @@
+{
+    "name": "uVehicleFlags3",
+    "module": "",
+    "scope": "",
+    "kind": "union",
+    "size": 1,
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "bOccupantsHaveBeenGenerated",
+            "type": "unsigned __int8",
+            "offset": 0,
+            "size": 1
+        },
+        {
+            "name": "b26",
+            "type": "unsigned __int8",
+            "offset": 0,
+            "size": 1
+        }
+    ]
+}

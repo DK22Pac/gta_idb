@@ -1,0 +1,85 @@
+{
+    "name": "D3DMULTISAMPLE_TYPE",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "SAMPLE_NONE",
+            "value": "0x0"
+        },
+        {
+            "name": "SAMPLE_NONMASKABLE",
+            "value": "0x1"
+        },
+        {
+            "name": "SAMPLE_2_SAMPLES",
+            "value": "0x2"
+        },
+        {
+            "name": "SAMPLE_3_SAMPLES",
+            "value": "0x3"
+        },
+        {
+            "name": "SAMPLE_4_SAMPLES",
+            "value": "0x4"
+        },
+        {
+            "name": "SAMPLE_5_SAMPLES",
+            "value": "0x5"
+        },
+        {
+            "name": "SAMPLE_6_SAMPLES",
+            "value": "0x6"
+        },
+        {
+            "name": "SAMPLE_7_SAMPLES",
+            "value": "0x7"
+        },
+        {
+            "name": "SAMPLE_8_SAMPLES",
+            "value": "0x8"
+        },
+        {
+            "name": "SAMPLE_9_SAMPLES",
+            "value": "0x9"
+        },
+        {
+            "name": "SAMPLE_10_SAMPLES",
+            "value": "0xA"
+        },
+        {
+            "name": "SAMPLE_11_SAMPLES",
+            "value": "0xB"
+        },
+        {
+            "name": "SAMPLE_12_SAMPLES",
+            "value": "0xC"
+        },
+        {
+            "name": "SAMPLE_13_SAMPLES",
+            "value": "0xD"
+        },
+        {
+            "name": "SAMPLE_14_SAMPLES",
+            "value": "0xE"
+        },
+        {
+            "name": "SAMPLE_15_SAMPLES",
+            "value": "0xF"
+        },
+        {
+            "name": "SAMPLE_16_SAMPLES",
+            "value": "0x10"
+        },
+        {
+            "name": "SAMPLE_FORCE_DWORD",
+            "value": "0xFFFFFFFF"
+        }
+    ]
+}

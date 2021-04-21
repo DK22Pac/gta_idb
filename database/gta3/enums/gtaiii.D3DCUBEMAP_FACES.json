@@ -1,0 +1,41 @@
+{
+    "name": "D3DCUBEMAP_FACES",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "D3DCUBEMAP_FACE_POSITIVE_X",
+            "value": "0x0"
+        },
+        {
+            "name": "D3DCUBEMAP_FACE_NEGATIVE_X",
+            "value": "0x1"
+        },
+        {
+            "name": "D3DCUBEMAP_FACE_POSITIVE_Y",
+            "value": "0x2"
+        },
+        {
+            "name": "D3DCUBEMAP_FACE_NEGATIVE_Y",
+            "value": "0x3"
+        },
+        {
+            "name": "D3DCUBEMAP_FACE_POSITIVE_Z",
+            "value": "0x4"
+        },
+        {
+            "name": "D3DCUBEMAP_FACE_NEGATIVE_Z",
+            "value": "0x5"
+        },
+        {
+            "name": "D3DCUBEMAP_FACE_FORCE_DWORD",
+            "value": "0xFFFFFFFF"
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "name": "CSimpleModelInfoVMT",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x18",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "destructor",
+            "type": "void (__thiscall *)(CSimpleModelInfo *, int)",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "Shutdown",
+            "type": "void (__thiscall *)(CSimpleModelInfo *)",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "DeleteRwObject",
+            "type": "void (__thiscall *)(CSimpleModelInfo *)",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "CreateInstance",
+            "type": "uRwObject (__thiscall *)(CSimpleModelInfo *)",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "CreateInstance_",
+            "type": "RwObject *(__thiscall *)(CSimpleModelInfo *, RwMatrix *)",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "GetRwObject",
+            "type": "RpAtomic *(__thiscall *)(CSimpleModelInfo *)",
+            "offset": "0x14",
+            "size": 4
+        }
+    ]
+}

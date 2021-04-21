@@ -1,0 +1,59 @@
+{
+    "name": "TriBinEntry",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x24",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "tri",
+            "type": "RwUInt32",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "edge",
+            "type": "Edge *[3]",
+            "offset": 4,
+            "size": "0xC"
+        },
+        {
+            "name": "next",
+            "type": "TriBinEntry *",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "prev",
+            "type": "TriBinEntry *",
+            "offset": "0x14",
+            "size": 4
+        },
+        {
+            "name": "used",
+            "type": "RwBool",
+            "offset": "0x18",
+            "size": 4
+        },
+        {
+            "name": "used2",
+            "type": "RwBool",
+            "offset": "0x1C",
+            "size": 4
+        },
+        {
+            "name": "adjCount",
+            "type": "RwUInt8",
+            "offset": "0x20",
+            "size": 1
+        },
+        {
+            "name": "_pad21",
+            "type": "char[3]",
+            "offset": "0x21",
+            "size": 3
+        }
+    ]
+}

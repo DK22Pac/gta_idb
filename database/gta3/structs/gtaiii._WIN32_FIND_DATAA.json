@@ -57,7 +57,7 @@
         },
         {
             "name": "cFileName",
-            "type": "CHAR[260]",
+            "type": "char[260]",
             "offset": "0x2C",
             "size": "0x104"
         },

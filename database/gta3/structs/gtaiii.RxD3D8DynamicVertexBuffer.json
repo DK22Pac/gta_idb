@@ -1,0 +1,47 @@
+{
+    "name": "RxD3D8DynamicVertexBuffer",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x18",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "fvf",
+            "type": "RwUInt32",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "size",
+            "type": "RwUInt32",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "used",
+            "type": "RwUInt32",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "vertexBuffer",
+            "type": "IDirect3DVertexBuffer8 *",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "variableAddress",
+            "type": "DWORD *",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "next",
+            "type": "RxD3D8DynamicVertexBuffer *",
+            "offset": "0x14",
+            "size": 4
+        }
+    ]
+}

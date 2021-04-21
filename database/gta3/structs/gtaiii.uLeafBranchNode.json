@@ -1,0 +1,23 @@
+{
+    "name": "uLeafBranchNode",
+    "module": "",
+    "scope": "",
+    "kind": "union",
+    "size": "0x5C",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "Leaf",
+            "type": "LeafNode",
+            "offset": 0,
+            "size": "0x5C"
+        },
+        {
+            "name": "Branch",
+            "type": "BranchNode",
+            "offset": 0,
+            "size": "0x5C"
+        }
+    ]
+}

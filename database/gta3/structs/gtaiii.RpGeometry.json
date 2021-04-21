@@ -3,7 +3,7 @@
     "module": "",
     "scope": "",
     "kind": "class",
-    "size": "0x60",
+    "size": "0x6C",
     "alignment": 2,
     "comment": "",
     "members": [
@@ -15,43 +15,43 @@
         },
         {
             "name": "flags",
-            "type": "int",
+            "type": "RwUInt32",
             "offset": 8,
             "size": 4
         },
         {
             "name": "lockedSinceLastInst",
-            "type": "__int16",
+            "type": "RwUInt16",
             "offset": "0xC",
             "size": 2
         },
         {
             "name": "refCount",
-            "type": "__int16",
+            "type": "RwInt16",
             "offset": "0xE",
             "size": 2
         },
         {
             "name": "numTriangles",
-            "type": "int",
+            "type": "RwInt32",
             "offset": "0x10",
             "size": 4
         },
         {
             "name": "numVertices",
-            "type": "int",
+            "type": "RwInt32",
             "offset": "0x14",
             "size": 4
         },
         {
             "name": "numMorphTargets",
-            "type": "int",
+            "type": "RwInt32",
             "offset": "0x18",
             "size": 4
         },
         {
             "name": "numTexCoordSets",
-            "type": "int",
+            "type": "RwInt32",
             "offset": "0x1C",
             "size": 4
         },
@@ -63,38 +63,44 @@
         },
         {
             "name": "triangles",
-            "type": "int",
+            "type": "RpTriangle *",
             "offset": "0x2C",
             "size": 4
         },
         {
             "name": "preLitLum",
-            "type": "int",
+            "type": "RwRGBA *",
             "offset": "0x30",
             "size": 4
         },
         {
             "name": "texCoords",
-            "type": "int[8]",
+            "type": "RwTexCoords *[8]",
             "offset": "0x34",
             "size": "0x20"
         },
         {
-            "name": "mesh",
-            "type": "void *",
+            "name": "ignoredSurfaceProps",
+            "type": "RwSurfaceProperties",
             "offset": "0x54",
+            "size": "0xC"
+        },
+        {
+            "name": "mesh",
+            "type": "RpMeshHeader *",
+            "offset": "0x60",
             "size": 4
         },
         {
-            "name": "resEntry",
-            "type": "void *",
-            "offset": "0x58",
+            "name": "repEntry",
+            "type": "RwResEntry *",
+            "offset": "0x64",
             "size": 4
         },
         {
             "name": "morphTarget",
-            "type": "int",
-            "offset": "0x5C",
+            "type": "RpMorphTarget *",
+            "offset": "0x68",
             "size": 4
         }
     ]

@@ -1,0 +1,29 @@
+{
+    "name": "RpBuildMesh",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0xC",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "triangleBufferSize",
+            "type": "RwUInt32",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "numTriangles",
+            "type": "RwUInt32",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "meshTriangles",
+            "type": "RpBuildMeshTriangle *",
+            "offset": 8,
+            "size": 4
+        }
+    ]
+}

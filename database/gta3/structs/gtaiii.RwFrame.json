@@ -3,7 +3,7 @@
     "module": "",
     "scope": "",
     "kind": "class",
-    "size": "0xF4",
+    "size": "0xC4",
     "alignment": 0,
     "comment": "",
     "members": [
@@ -35,37 +35,37 @@
             "name": "objectList",
             "type": "RwLinkList",
             "offset": "0x90",
-            "size": "0x40"
+            "size": 8
         },
         {
             "name": "child",
             "type": "RwFrame *",
-            "offset": "0xD0",
+            "offset": "0x98",
             "size": 4
         },
         {
             "name": "next",
             "type": "RwFrame *",
-            "offset": "0xD4",
+            "offset": "0x9C",
             "size": 4
         },
         {
             "name": "root",
             "type": "RwFrame *",
-            "offset": "0xD8",
+            "offset": "0xA0",
             "size": 4
         },
         {
             "name": "pluginData",
             "type": "char[8]",
-            "offset": "0xDC",
+            "offset": "0xA4",
             "size": 8
         },
         {
             "name": "nodeName",
-            "type": "char[16]",
-            "offset": "0xE4",
-            "size": "0x10"
+            "type": "char[24]",
+            "offset": "0xAC",
+            "size": "0x18"
         }
     ]
 }

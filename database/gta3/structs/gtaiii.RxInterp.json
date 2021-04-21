@@ -1,0 +1,35 @@
+{
+    "name": "RxInterp",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0xC",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "originalVert",
+            "type": "RxVertexIndex",
+            "offset": 0,
+            "size": 2
+        },
+        {
+            "name": "parentVert1",
+            "type": "RxVertexIndex",
+            "offset": 2,
+            "size": 2
+        },
+        {
+            "name": "parentVert2",
+            "type": "RxVertexIndex",
+            "offset": 4,
+            "size": 2
+        },
+        {
+            "name": "interp",
+            "type": "RwReal",
+            "offset": 8,
+            "size": 4
+        }
+    ]
+}

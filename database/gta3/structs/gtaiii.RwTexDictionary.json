@@ -3,8 +3,8 @@
     "module": "",
     "scope": "",
     "kind": "class",
-    "size": "0x50",
-    "alignment": 4,
+    "size": "0x18",
+    "alignment": 2,
     "comment": "",
     "members": [
         {
@@ -14,10 +14,16 @@
             "size": 8
         },
         {
+            "name": "texturesInDict",
+            "type": "RwLinkList",
+            "offset": 8,
+            "size": 8
+        },
+        {
             "name": "lInInstance",
-            "type": "RwLLLink[8]",
+            "type": "RwLLLink",
             "offset": "0x10",
-            "size": "0x40"
+            "size": 8
         }
     ]
 }

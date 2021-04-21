@@ -1,0 +1,293 @@
+{
+    "name": "eVehicleIndex",
+    "module": "",
+    "scope": "",
+    "width": 4,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "VEHICLE_LANDSTAL",
+            "value": 0
+        },
+        {
+            "name": "VEHICLE_IDAHO",
+            "value": 1
+        },
+        {
+            "name": "VEHICLE_STINGER",
+            "value": 2
+        },
+        {
+            "name": "VEHICLE_LINERUN",
+            "value": 3
+        },
+        {
+            "name": "VEHICLE_PEREN",
+            "value": 4
+        },
+        {
+            "name": "VEHICLE_SENTINEL",
+            "value": 5
+        },
+        {
+            "name": "VEHICLE_PATRIOT",
+            "value": 6
+        },
+        {
+            "name": "VEHICLE_FIRETRUK",
+            "value": 7
+        },
+        {
+            "name": "VEHICLE_TRASH",
+            "value": 8
+        },
+        {
+            "name": "VEHICLE_STRETCH",
+            "value": 9
+        },
+        {
+            "name": "VEHICLE_MANANA",
+            "value": 10
+        },
+        {
+            "name": "VEHICLE_INFERNUS",
+            "value": 11
+        },
+        {
+            "name": "VEHICLE_BLISTA",
+            "value": 12
+        },
+        {
+            "name": "VEHICLE_PONY",
+            "value": 13
+        },
+        {
+            "name": "VEHICLE_MULE",
+            "value": 14
+        },
+        {
+            "name": "VEHICLE_CHEETAH",
+            "value": 15
+        },
+        {
+            "name": "VEHICLE_AMBULAN",
+            "value": 16
+        },
+        {
+            "name": "VEHICLE_FBICAR",
+            "value": 17
+        },
+        {
+            "name": "VEHICLE_MOONBEAM",
+            "value": 18
+        },
+        {
+            "name": "VEHICLE_ESPERANT",
+            "value": 19
+        },
+        {
+            "name": "VEHICLE_TAXI",
+            "value": 20
+        },
+        {
+            "name": "VEHICLE_KURUMA",
+            "value": 21
+        },
+        {
+            "name": "VEHICLE_BOBCAT",
+            "value": 22
+        },
+        {
+            "name": "VEHICLE_MRWHOOP",
+            "value": 23
+        },
+        {
+            "name": "VEHICLE_BFINJECT",
+            "value": 24
+        },
+        {
+            "name": "VEHICLE_CORPSE",
+            "value": 25
+        },
+        {
+            "name": "VEHICLE_POLICE",
+            "value": 26
+        },
+        {
+            "name": "VEHICLE_ENFORCER",
+            "value": 27
+        },
+        {
+            "name": "VEHICLE_SECURICA",
+            "value": 28
+        },
+        {
+            "name": "VEHICLE_BANSHEE",
+            "value": 29
+        },
+        {
+            "name": "VEHICLE_PREDATOR",
+            "value": 30
+        },
+        {
+            "name": "VEHICLE_BUS",
+            "value": 31
+        },
+        {
+            "name": "VEHICLE_RHINO",
+            "value": 32
+        },
+        {
+            "name": "VEHICLE_BARRACKS",
+            "value": 33
+        },
+        {
+            "name": "VEHICLE_TRAINS",
+            "value": 34
+        },
+        {
+            "name": "VEHICLE_CHOPPER",
+            "value": 35
+        },
+        {
+            "name": "VEHICLE_DODO",
+            "value": 36
+        },
+        {
+            "name": "VEHICLE_COACH",
+            "value": 37
+        },
+        {
+            "name": "VEHICLE_CABBIE",
+            "value": 38
+        },
+        {
+            "name": "VEHICLE_STALLION",
+            "value": 39
+        },
+        {
+            "name": "VEHICLE_RUMPO",
+            "value": 40
+        },
+        {
+            "name": "VEHICLE_RCBANDIT",
+            "value": 41
+        },
+        {
+            "name": "VEHICLE_BELLYUP",
+            "value": 42
+        },
+        {
+            "name": "VEHICLE_MRWONGS",
+            "value": 43
+        },
+        {
+            "name": "VEHICLE_MAFIA",
+            "value": 44
+        },
+        {
+            "name": "VEHICLE_YARDIE",
+            "value": 45
+        },
+        {
+            "name": "VEHICLE_YAKUZA",
+            "value": 46
+        },
+        {
+            "name": "VEHICLE_DIABLOS",
+            "value": 47
+        },
+        {
+            "name": "VEHICLE_COLUMB",
+            "value": 48
+        },
+        {
+            "name": "VEHICLE_HOODS",
+            "value": 49
+        },
+        {
+            "name": "VEHICLE_AIRTRAIN",
+            "value": 50
+        },
+        {
+            "name": "VEHICLE_DEADDODO",
+            "value": 51
+        },
+        {
+            "name": "VEHICLE_SPEEDER",
+            "value": 52
+        },
+        {
+            "name": "VEHICLE_REEFER",
+            "value": 53
+        },
+        {
+            "name": "VEHICLE_PANLANT",
+            "value": 54
+        },
+        {
+            "name": "VEHICLE_FLATBED",
+            "value": 55
+        },
+        {
+            "name": "VEHICLE_YANKEE",
+            "value": 56
+        },
+        {
+            "name": "VEHICLE_ESCAPE",
+            "value": 57
+        },
+        {
+            "name": "VEHICLE_BORGNINE",
+            "value": 58
+        },
+        {
+            "name": "VEHICLE_TOYZ",
+            "value": 59
+        },
+        {
+            "name": "VEHICLE_GHOST",
+            "value": 60
+        },
+        {
+            "name": "VEHICLE_151",
+            "value": 61
+        },
+        {
+            "name": "VEHICLE_152",
+            "value": 62
+        },
+        {
+            "name": "VEHICLE_153",
+            "value": 63
+        },
+        {
+            "name": "VEHICLE_154",
+            "value": 64
+        },
+        {
+            "name": "VEHICLE_155",
+            "value": 65
+        },
+        {
+            "name": "VEHICLE_156",
+            "value": 66
+        },
+        {
+            "name": "VEHICLE_157",
+            "value": 67
+        },
+        {
+            "name": "VEHICLE_158",
+            "value": 68
+        },
+        {
+            "name": "VEHICLE_159",
+            "value": 69
+        }
+    ]
+}

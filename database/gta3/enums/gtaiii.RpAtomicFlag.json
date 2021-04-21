@@ -1,0 +1,25 @@
+{
+    "name": "RpAtomicFlag",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "rpATOMICCOLLISIONTEST",
+            "value": "0x1"
+        },
+        {
+            "name": "rpATOMICRENDER",
+            "value": "0x4"
+        },
+        {
+            "name": "rpATOMICFLAGFORCEENUMSIZEINT",
+            "value": "0x7FFFFFFF"
+        }
+    ]
+}

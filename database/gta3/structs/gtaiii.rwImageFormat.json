@@ -1,0 +1,41 @@
+{
+    "name": "rwImageFormat",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x34",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "lcExtension",
+            "type": "RwChar[20]",
+            "offset": 0,
+            "size": "0x14"
+        },
+        {
+            "name": "ucExtension",
+            "type": "RwChar[20]",
+            "offset": "0x14",
+            "size": "0x14"
+        },
+        {
+            "name": "readImage",
+            "type": "RwImageCallBackRead",
+            "offset": "0x28",
+            "size": 4
+        },
+        {
+            "name": "writeImage",
+            "type": "RwImageCallBackWrite",
+            "offset": "0x2C",
+            "size": 4
+        },
+        {
+            "name": "nextFormat",
+            "type": "rwImageFormat *",
+            "offset": "0x30",
+            "size": 4
+        }
+    ]
+}

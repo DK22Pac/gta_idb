@@ -1,0 +1,25 @@
+{
+    "name": "eDriveType",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "DRIVE_TYPE_4x4",
+            "value": 52
+        },
+        {
+            "name": "DRIVE_TYPE_FRONT",
+            "value": 70
+        },
+        {
+            "name": "DRIVE_TYPE_BACK",
+            "value": 82
+        }
+    ]
+}

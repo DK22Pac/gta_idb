@@ -1,0 +1,57 @@
+{
+    "name": "RwClipFlag",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "rwXLOCLIP",
+            "value": "0x1"
+        },
+        {
+            "name": "rwXHICLIP",
+            "value": "0x2"
+        },
+        {
+            "name": "rwXCLIP",
+            "value": "0x3"
+        },
+        {
+            "name": "rwYLOCLIP",
+            "value": "0x4"
+        },
+        {
+            "name": "rwYHICLIP",
+            "value": "0x8"
+        },
+        {
+            "name": "rwYCLIP",
+            "value": "0xC"
+        },
+        {
+            "name": "rwZLOCLIP",
+            "value": "0x10"
+        },
+        {
+            "name": "rwZHICLIP",
+            "value": "0x20"
+        },
+        {
+            "name": "rwZCLIP",
+            "value": "0x30"
+        },
+        {
+            "name": "rwCLIPMASK",
+            "value": "0x3F"
+        },
+        {
+            "name": "rwCLIPFLAGFORCEENUMSIZEINT",
+            "value": "0x7FFFFFFF"
+        }
+    ]
+}

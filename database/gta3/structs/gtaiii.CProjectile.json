@@ -1,0 +1,19 @@
+{
+    "name": "CProjectile",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x198",
+    "alignment": 2,
+    "vtableAddress": "0x5F8048",
+    "vtableSize": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "object",
+            "type": "CObject",
+            "offset": 0,
+            "size": "0x198"
+        }
+    ]
+}

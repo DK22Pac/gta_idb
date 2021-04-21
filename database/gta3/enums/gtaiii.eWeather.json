@@ -1,0 +1,29 @@
+{
+    "name": "eWeather",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "WEATHER_SUNNY",
+            "value": "0x0"
+        },
+        {
+            "name": "WEATHER_CLOUDY",
+            "value": "0x1"
+        },
+        {
+            "name": "WEATHER_RAINY",
+            "value": "0x2"
+        },
+        {
+            "name": "WEATHER_FOGGY",
+            "value": "0x3"
+        }
+    ]
+}

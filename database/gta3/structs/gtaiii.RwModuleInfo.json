@@ -1,0 +1,23 @@
+{
+    "name": "RwModuleInfo",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 8,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "globalsOffset",
+            "type": "RwInt32",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "numInstances",
+            "type": "RwInt32",
+            "offset": 4,
+            "size": 4
+        }
+    ]
+}

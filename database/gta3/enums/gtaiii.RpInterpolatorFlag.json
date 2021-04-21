@@ -1,0 +1,29 @@
+{
+    "name": "RpInterpolatorFlag",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "rpINTERPOLATORDIRTYINSTANCE",
+            "value": "0x1"
+        },
+        {
+            "name": "rpINTERPOLATORDIRTYSPHERE",
+            "value": "0x2"
+        },
+        {
+            "name": "rpINTERPOLATORNOFRAMEDIRTY",
+            "value": "0x4"
+        },
+        {
+            "name": "rpINTERPOLATORFLAGFORCEENUMSIZEINT",
+            "value": "0x7FFFFFFF"
+        }
+    ]
+}

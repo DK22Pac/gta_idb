@@ -4,78 +4,78 @@
     "scope": "",
     "kind": "class",
     "size": "0x204",
-    "alignment": 0,
+    "alignment": 2,
     "comment": "",
     "members": [
         {
-            "name": "m_dwChaosLevel",
-            "type": "_DWORD",
+            "name": "m_nChaosLevel",
+            "type": "unsigned int",
             "offset": 0,
             "size": 4
         },
         {
-            "name": "m_dwUpdateTimer",
-            "type": "_DWORD",
+            "name": "m_nLastTimeWantedDecreased",
+            "type": "unsigned int",
             "offset": 4,
             "size": 4
         },
         {
-            "name": "dword8",
-            "type": "_DWORD",
+            "name": "m_LastTimeWantedLevelChanged",
+            "type": "unsigned int",
             "offset": 8,
             "size": 4
         },
         {
-            "name": "dwordC",
+            "name": "m_fMultiplier",
             "type": "float",
             "offset": "0xC",
             "size": 4
         },
         {
-            "name": "m_bCopPursuitTotalNum",
-            "type": "_BYTE",
+            "name": "m_nCopsInPursuit",
+            "type": "unsigned __int8",
             "offset": "0x10",
             "size": 1
         },
         {
-            "name": "byte11",
-            "type": "_BYTE",
+            "name": "m_nMaxCopsInPursuit",
+            "type": "unsigned __int8",
             "offset": "0x11",
             "size": 1
         },
         {
-            "name": "byte12",
-            "type": "_BYTE",
+            "name": "m_nMaxCopCarsInPursuit",
+            "type": "unsigned __int8",
             "offset": "0x12",
             "size": 1
         },
         {
-            "name": "byte13",
-            "type": "_BYTE",
+            "name": "m_nCopsBeatingSuspect",
+            "type": "unsigned __int8",
             "offset": "0x13",
             "size": 1
         },
         {
-            "name": "word14",
-            "type": "_WORD",
+            "name": "m_nChanceOnRoadBlock",
+            "type": "unsigned __int16",
             "offset": "0x14",
             "size": 2
         },
         {
-            "name": "m_bFlags",
-            "type": "_BYTE",
+            "name": "m_nWantedFlags",
+            "type": "unsigned __int8",
             "offset": "0x16",
             "size": 1
         },
         {
-            "name": "_pad",
-            "type": "_BYTE[1]",
+            "name": "_pad17",
+            "type": "char[1]",
             "offset": "0x17",
             "size": 1
         },
         {
-            "name": "m_dwCurrWantedLevel",
-            "type": "_DWORD",
+            "name": "m_nWantedLevel",
+            "type": "int",
             "offset": "0x18",
             "size": 4
         },
@@ -86,8 +86,8 @@
             "size": "0x1C0"
         },
         {
-            "name": "m_apCopPursuit",
-            "type": "CPed *[10]",
+            "name": "m_apCopsInPursuit",
+            "type": "CCopPed *[10]",
             "offset": "0x1DC",
             "size": "0x28"
         }

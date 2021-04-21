@@ -1,0 +1,17 @@
+{
+    "name": "RpClumpChunkInfo33000",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 4,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "numAtomics",
+            "type": "RwInt32",
+            "offset": 0,
+            "size": 4
+        }
+    ]
+}

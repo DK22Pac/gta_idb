@@ -1,0 +1,21 @@
+{
+    "name": "RwErrorCodeCommon",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": true,
+    "comment": "",
+    "members": [
+        {
+            "name": "E_RW_LASTERROR",
+            "value": "0x7FFFFFFF"
+        },
+        {
+            "name": "E_RW_NOERROR",
+            "value": "0x80000000"
+        }
+    ]
+}

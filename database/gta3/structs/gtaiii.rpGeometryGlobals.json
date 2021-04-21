@@ -1,0 +1,17 @@
+{
+    "name": "rpGeometryGlobals",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 4,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "geomFreeList",
+            "type": "RwFreeList *",
+            "offset": 0,
+            "size": 4
+        }
+    ]
+}

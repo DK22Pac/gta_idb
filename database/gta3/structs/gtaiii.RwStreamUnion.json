@@ -1,0 +1,29 @@
+{
+    "name": "RwStreamUnion",
+    "module": "",
+    "scope": "",
+    "kind": "union",
+    "size": "0x14",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "memory",
+            "type": "RwStreamMemory",
+            "offset": 0,
+            "size": "0xC"
+        },
+        {
+            "name": "file",
+            "type": "RwStreamFile",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "custom",
+            "type": "RwStreamCustom",
+            "offset": 0,
+            "size": "0x14"
+        }
+    ]
+}

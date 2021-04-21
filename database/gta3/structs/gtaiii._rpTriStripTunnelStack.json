@@ -1,0 +1,29 @@
+{
+    "name": "_rpTriStripTunnelStack",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0xC",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "edge",
+            "type": "RpTriStripEdge *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "polygon",
+            "type": "RpTriStripPolygon *",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "length",
+            "type": "RwUInt32",
+            "offset": 8,
+            "size": 4
+        }
+    ]
+}

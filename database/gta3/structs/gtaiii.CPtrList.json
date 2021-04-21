@@ -1,0 +1,17 @@
+{
+    "name": "CPtrList",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 4,
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_pLast",
+            "type": "CPtrNode *",
+            "offset": 0,
+            "size": 4
+        }
+    ]
+}

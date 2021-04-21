@@ -1,0 +1,23 @@
+{
+    "name": "SimpleModelStore",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x5CC64",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_nCount",
+            "type": "int",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "m_sObject",
+            "type": "CSimpleModelInfo[5000]",
+            "offset": 4,
+            "size": "0x5CC60"
+        }
+    ]
+}

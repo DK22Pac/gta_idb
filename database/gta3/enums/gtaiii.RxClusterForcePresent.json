@@ -1,0 +1,21 @@
+{
+    "name": "RxClusterForcePresent",
+    "module": "",
+    "scope": "",
+    "width": 4,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "rxCLALLOWABSENT",
+            "value": "0x0"
+        },
+        {
+            "name": "rxCLFORCEPRESENT",
+            "value": "0x1"
+        }
+    ]
+}

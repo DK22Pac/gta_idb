@@ -1,0 +1,29 @@
+{
+    "name": "D3DCULL",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "D3DCULL_",
+            "value": "0x0"
+        },
+        {
+            "name": "D3DCULL_NONE",
+            "value": "0x1"
+        },
+        {
+            "name": "D3DCULL_CW",
+            "value": "0x2"
+        },
+        {
+            "name": "D3DCULL_CCW",
+            "value": "0x3"
+        }
+    ]
+}

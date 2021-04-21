@@ -1,0 +1,29 @@
+{
+    "name": "ColorSoundForScanner",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0xC",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_eColor1",
+            "type": "eAudioSamples",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "m_eColor2",
+            "type": "eAudioSamples",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "m_eColor3",
+            "type": "eAudioSamples",
+            "offset": 8,
+            "size": 4
+        }
+    ]
+}

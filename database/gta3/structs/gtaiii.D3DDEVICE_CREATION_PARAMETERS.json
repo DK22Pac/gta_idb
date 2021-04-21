@@ -1,0 +1,35 @@
+{
+    "name": "D3DDEVICE_CREATION_PARAMETERS",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x10",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "AdapterOrdinal",
+            "type": "UINT",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "DeviceType",
+            "type": "D3DDEVTYPE",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "hFocusWindow",
+            "type": "HWND",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "BehaviorFlags",
+            "type": "DWORD",
+            "offset": "0xC",
+            "size": 4
+        }
+    ]
+}

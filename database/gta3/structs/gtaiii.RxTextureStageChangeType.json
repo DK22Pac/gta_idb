@@ -1,0 +1,23 @@
+{
+    "name": "RxTextureStageChangeType",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 8,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "stage",
+            "type": "RwUInt32",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "type",
+            "type": "D3DTEXTURESTAGESTATETYPE",
+            "offset": 4,
+            "size": 4
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "name": "_MatFXInfo",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0xC",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "dword_661890",
+            "type": "DWORD",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "dword_661894",
+            "type": "RwInt32",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "freelist",
+            "type": "RwFreeList *",
+            "offset": 8,
+            "size": 4
+        }
+    ]
+}

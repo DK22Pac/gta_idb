@@ -1,0 +1,23 @@
+{
+    "name": "rpWorldGlobals",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0xC",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "worldListFreeList",
+            "type": "RwFreeList *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "worldListHead",
+            "type": "RwLinkList",
+            "offset": 4,
+            "size": 8
+        }
+    ]
+}

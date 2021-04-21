@@ -1,6 +1,6 @@
 {
     "name": "CColPoint",
-    "module": "",
+    "module": "CColPoint",
     "scope": "",
     "kind": "class",
     "size": "0x28",
@@ -8,56 +8,56 @@
     "comment": "",
     "members": [
         {
-            "name": "point",
-            "type": "RwV3d",
+            "name": "m_vecPoint",
+            "type": "CVector",
             "offset": 0,
             "size": "0xC"
         },
         {
             "name": "field_C",
-            "type": "DWORD",
+            "type": "float",
             "offset": "0xC",
             "size": 4
         },
         {
-            "name": "normal",
-            "type": "RwV3d",
+            "name": "m_vecNormal",
+            "type": "CVector",
             "offset": "0x10",
             "size": "0xC"
         },
         {
             "name": "field_1C",
-            "type": "DWORD",
+            "type": "float",
             "offset": "0x1C",
             "size": 4
         },
         {
-            "name": "surfaceTypeA",
-            "type": "BYTE",
+            "name": "m_nSurfaceTypeA",
+            "type": "unsigned __int8",
             "offset": "0x20",
             "size": 1
         },
         {
-            "name": "pieceTypeA",
-            "type": "BYTE",
+            "name": "m_nPieceTypeA",
+            "type": "unsigned __int8",
             "offset": "0x21",
             "size": 1
         },
         {
-            "name": "pieceTypeB",
-            "type": "BYTE",
+            "name": "m_nSurfaceTypeB",
+            "type": "unsigned __int8",
             "offset": "0x22",
             "size": 1
         },
         {
-            "name": "surfaceTypeB",
-            "type": "BYTE",
+            "name": "m_nPieceTypeB",
+            "type": "unsigned __int8",
             "offset": "0x23",
             "size": 1
         },
         {
-            "name": "depth",
-            "type": "int",
+            "name": "m_fCollisionRadius",
+            "type": "float",
             "offset": "0x24",
             "size": 4
         }

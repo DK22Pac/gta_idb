@@ -1,0 +1,29 @@
+{
+    "name": "rxEmbeddedPacketState",
+    "module": "",
+    "scope": "",
+    "width": 4,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "rxPKST_PACKETLESS",
+            "value": 0
+        },
+        {
+            "name": "rxPKST_UNUSED",
+            "value": 1
+        },
+        {
+            "name": "rxPKST_INUSE",
+            "value": 2
+        },
+        {
+            "name": "rxPKST_PENDING",
+            "value": 3
+        }
+    ]
+}

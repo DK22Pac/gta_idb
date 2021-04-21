@@ -1,0 +1,45 @@
+{
+    "name": "RpMatFXMaterialFlags",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "rpMATFXEFFECTNULL",
+            "value": "0x0"
+        },
+        {
+            "name": "rpMATFXEFFECTBUMPMAP",
+            "value": "0x1"
+        },
+        {
+            "name": "rpMATFXEFFECTENVMAP",
+            "value": "0x2"
+        },
+        {
+            "name": "rpMATFXEFFECTBUMPENVMAP",
+            "value": "0x3"
+        },
+        {
+            "name": "rpMATFXEFFECTDUAL",
+            "value": "0x4"
+        },
+        {
+            "name": "rpMATFXNUMEFFECTS",
+            "value": "0x4"
+        },
+        {
+            "name": "rpMATFXEFFECTMAX",
+            "value": "0x5"
+        },
+        {
+            "name": "rpMATFXFORCEENUMSIZEINT",
+            "value": "0x7FFFFFFF"
+        }
+    ]
+}

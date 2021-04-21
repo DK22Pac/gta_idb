@@ -4,13 +4,13 @@
     "scope": "",
     "kind": "class",
     "size": "0x1F8",
-    "alignment": 2,
-    "vtableAddress": "0x60ADB8",
-    "vtableSize": 7,
+    "alignment": 0,
+    "vtableAddress": "0x5FDFD8",
+    "vtableSize": 0,
     "comment": "",
     "members": [
         {
-            "name": "base",
+            "name": "clumpmodelinfo",
             "type": "CClumpModelInfo",
             "offset": 0,
             "size": "0x34"
@@ -35,13 +35,13 @@
         },
         {
             "name": "m_nVehicleType",
-            "type": "int",
+            "type": "unsigned int",
             "offset": "0x58",
             "size": 4
         },
         {
             "name": "m_nWheelModelIndex",
-            "type": "DWORD",
+            "type": "int",
             "offset": "0x5C",
             "size": 4
         },
@@ -53,7 +53,7 @@
         },
         {
             "name": "m_nNumDoors",
-            "type": "DWORD",
+            "type": "unsigned int",
             "offset": "0x64",
             "size": 4
         },
@@ -65,73 +65,73 @@
         },
         {
             "name": "m_nVehicleClass",
-            "type": "int",
+            "type": "unsigned int",
             "offset": "0x6C",
             "size": 4
         },
         {
             "name": "m_nLvl",
-            "type": "int",
+            "type": "unsigned int",
             "offset": "0x70",
             "size": 4
         },
         {
             "name": "m_vecDummyPos",
-            "type": "RwV3d[10]",
+            "type": "CVector[10]",
             "offset": "0x74",
             "size": "0x78"
         },
         {
-            "name": "m_nComprules",
-            "type": "int",
+            "name": "m_nCompRulesBits",
+            "type": "unsigned int",
             "offset": "0xEC",
             "size": 4
         },
         {
-            "name": "__unused",
+            "name": "m_fBikeSteerAngle",
             "type": "float",
             "offset": "0xF0",
             "size": 4
         },
         {
-            "name": "m_pMaterialPrimary",
+            "name": "m_apMaterialsPrimary",
             "type": "RpMaterial *[26]",
             "offset": "0xF4",
             "size": "0x68"
         },
         {
-            "name": "m_pMaterialSecondary",
+            "name": "m_apMaterialsSecondary",
             "type": "RpMaterial *[26]",
             "offset": "0x15C",
             "size": "0x68"
         },
         {
             "name": "m_bPrimaryColorId",
-            "type": "unsigned __int8[8]",
+            "type": "char[8]",
             "offset": "0x1C4",
             "size": 8
         },
         {
             "name": "m_bSecondaryColorId",
-            "type": "unsigned __int8[8]",
+            "type": "char[8]",
             "offset": "0x1CC",
             "size": 8
         },
         {
             "name": "m_nNumColorVariations",
-            "type": "char",
+            "type": "unsigned __int8",
             "offset": "0x1D4",
             "size": 1
         },
         {
             "name": "m_nLastColorVariation",
-            "type": "char",
+            "type": "unsigned __int8",
             "offset": "0x1D5",
             "size": 1
         },
         {
             "name": "m_nCurrentColorId",
-            "type": "BYTE[2]",
+            "type": "char[2]",
             "offset": "0x1D6",
             "size": 2
         },
@@ -142,7 +142,7 @@
             "size": 4
         },
         {
-            "name": "m_pExtra",
+            "name": "m_apExtras",
             "type": "RpAtomic *[6]",
             "offset": "0x1DC",
             "size": "0x18"

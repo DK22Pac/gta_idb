@@ -3,8 +3,8 @@
     "module": "",
     "scope": "",
     "kind": "class",
-    "size": "0x99",
-    "alignment": 0,
+    "size": "0x70",
+    "alignment": 2,
     "comment": "",
     "members": [
         {
@@ -15,7 +15,7 @@
         },
         {
             "name": "repEntry",
-            "type": "int",
+            "type": "RwResEntry *",
             "offset": "0x14",
             "size": 4
         },
@@ -33,7 +33,7 @@
         },
         {
             "name": "worldBoundingSphere",
-            "type": "void *[4]",
+            "type": "RwSphere",
             "offset": "0x2C",
             "size": "0x10"
         },
@@ -50,46 +50,40 @@
             "size": 8
         },
         {
-            "name": "renderCallback",
-            "type": "int (__cdecl *)(_DWORD)",
+            "name": "renderCallBack",
+            "type": "RpAtomicCallBackRender",
             "offset": "0x48",
             "size": 4
         },
         {
             "name": "interpolator",
-            "type": "int",
+            "type": "RpInterpolator",
             "offset": "0x4C",
-            "size": 4
+            "size": "0x14"
         },
         {
             "name": "renderFrame",
-            "type": "__int16",
-            "offset": "0x50",
+            "type": "RwUInt16",
+            "offset": "0x60",
             "size": 2
         },
         {
             "name": "pad",
-            "type": "__int16",
-            "offset": "0x52",
+            "type": "RwUInt16",
+            "offset": "0x62",
             "size": 2
         },
         {
             "name": "llWorldSectorsInAtomic",
             "type": "RwLinkList",
-            "offset": "0x54",
-            "size": "0x40"
+            "offset": "0x64",
+            "size": 8
         },
         {
             "name": "pipeline",
-            "type": "int",
-            "offset": "0x94",
+            "type": "RxPipeline *",
+            "offset": "0x6C",
             "size": 4
-        },
-        {
-            "name": "field_70",
-            "type": "char",
-            "offset": "0x98",
-            "size": 1
         }
     ]
 }

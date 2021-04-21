@@ -4,54 +4,54 @@
     "scope": "",
     "kind": "class",
     "size": "0x58",
-    "alignment": 2,
+    "alignment": 0,
     "comment": "",
     "members": [
         {
-            "name": "m_sphere",
+            "name": "m_boundSphere",
             "type": "CColSphere",
             "offset": 0,
             "size": "0x14"
         },
         {
-            "name": "m_box",
+            "name": "m_boundBox",
             "type": "CColBox",
             "offset": "0x14",
             "size": "0x1C"
         },
         {
             "name": "m_nNumOfSpheres",
-            "type": "_WORD",
+            "type": "unsigned __int16",
             "offset": "0x30",
             "size": 2
         },
         {
             "name": "m_nNumOfLines",
-            "type": "__int16",
+            "type": "unsigned __int16",
             "offset": "0x32",
             "size": 2
         },
         {
             "name": "m_nNumOfBoxes",
-            "type": "_WORD",
+            "type": "unsigned __int16",
             "offset": "0x34",
             "size": 2
         },
         {
             "name": "m_nNumOfTriangles",
-            "type": "_WORD",
+            "type": "unsigned __int16",
             "offset": "0x36",
             "size": 2
         },
         {
             "name": "m_nColLevel",
-            "type": "int",
+            "type": "eLevelName",
             "offset": "0x38",
             "size": 4
         },
         {
             "name": "m_nFlags",
-            "type": "char",
+            "type": "unsigned __int8",
             "offset": "0x3C",
             "size": 1
         },
@@ -63,37 +63,37 @@
         },
         {
             "name": "m_pSpheres",
-            "type": "_DWORD",
+            "type": "CColSphere *",
             "offset": "0x40",
             "size": 4
         },
         {
             "name": "m_pLines",
-            "type": "int",
+            "type": "CColLine *",
             "offset": "0x44",
             "size": 4
         },
         {
             "name": "m_pBoxes",
-            "type": "_DWORD",
+            "type": "CColBox *",
             "offset": "0x48",
             "size": 4
         },
         {
             "name": "m_pVertices",
-            "type": "CVector *",
+            "type": "CompressedVector *",
             "offset": "0x4C",
             "size": 4
         },
         {
             "name": "m_pTriangles",
-            "type": "_DWORD",
+            "type": "CColTriangle *",
             "offset": "0x50",
             "size": 4
         },
         {
             "name": "m_pTrianglePlanes",
-            "type": "_DWORD",
+            "type": "CColTrianglePlane *",
             "offset": "0x54",
             "size": 4
         }

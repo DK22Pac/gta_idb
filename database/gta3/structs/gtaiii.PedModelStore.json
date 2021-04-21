@@ -3,21 +3,21 @@
     "module": "",
     "scope": "",
     "kind": "class",
-    "size": "0xEC44",
-    "alignment": 0,
+    "size": "0x1954",
+    "alignment": 2,
     "comment": "",
     "members": [
         {
-            "name": "m_dwCount",
+            "name": "m_nCount",
             "type": "int",
             "offset": 0,
             "size": 4
         },
         {
             "name": "m_sObject",
-            "type": "CVehicleModelInfo[120]",
+            "type": "CPedModelInfo[90]",
             "offset": 4,
-            "size": "0xEC40"
+            "size": "0x1950"
         }
     ]
 }

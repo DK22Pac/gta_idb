@@ -1,0 +1,29 @@
+{
+    "name": "RwStreamMemory",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0xC",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "position",
+            "type": "RwUInt32",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "nSize",
+            "type": "RwUInt32",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "memBlock",
+            "type": "RwUInt8 *",
+            "offset": 8,
+            "size": 4
+        }
+    ]
+}

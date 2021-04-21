@@ -1,0 +1,23 @@
+{
+    "name": "RpClumpLightExt",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0xC",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "clump",
+            "type": "RpClump *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "inClumpLink",
+            "type": "RwLLLink",
+            "offset": 4,
+            "size": 8
+        }
+    ]
+}

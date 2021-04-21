@@ -4,7 +4,7 @@
     "scope": "",
     "kind": "class",
     "size": "0x14",
-    "alignment": 0,
+    "alignment": 2,
     "comment": "",
     "members": [
         {
@@ -15,25 +15,25 @@
         },
         {
             "name": "closestX",
-            "type": "char",
+            "type": "RwUInt8",
             "offset": "0x10",
             "size": 1
         },
         {
             "name": "closestY",
-            "type": "char",
+            "type": "RwUInt8",
             "offset": "0x11",
             "size": 1
         },
         {
             "name": "closestZ",
-            "type": "char",
+            "type": "RwUInt8",
             "offset": "0x12",
             "size": 1
         },
         {
             "name": "pad",
-            "type": "char",
+            "type": "RwUInt8",
             "offset": "0x13",
             "size": 1
         }

@@ -1,0 +1,143 @@
+{
+    "name": "CFontDetails",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x44",
+    "alignment": 1,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_Color",
+            "type": "CRGBA",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "m_vecScale",
+            "type": "CVector2D",
+            "offset": 4,
+            "size": 8
+        },
+        {
+            "name": "m_fSlant",
+            "type": "float",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "m_vecSlantRefPoint",
+            "type": "CVector2D",
+            "offset": "0x10",
+            "size": 8
+        },
+        {
+            "name": "m_bJustify",
+            "type": "bool",
+            "offset": "0x18",
+            "size": 1
+        },
+        {
+            "name": "m_bCentre",
+            "type": "bool",
+            "offset": "0x19",
+            "size": 1
+        },
+        {
+            "name": "m_bRightJustify",
+            "type": "bool",
+            "offset": "0x1A",
+            "size": 1
+        },
+        {
+            "name": "m_bBackground",
+            "type": "bool",
+            "offset": "0x1B",
+            "size": 1
+        },
+        {
+            "name": "m_bBackGroundOnlyText",
+            "type": "bool",
+            "offset": "0x1C",
+            "size": 1
+        },
+        {
+            "name": "m_bProp",
+            "type": "bool",
+            "offset": "0x1D",
+            "size": 1
+        },
+        {
+            "name": "_pad1E",
+            "type": "char[2]",
+            "offset": "0x1E",
+            "size": 2
+        },
+        {
+            "name": "m_fAlphaFade",
+            "type": "float",
+            "offset": "0x20",
+            "size": 4
+        },
+        {
+            "name": "m_BackgroundColor",
+            "type": "CRGBA",
+            "offset": "0x24",
+            "size": 4
+        },
+        {
+            "name": "m_fWrapX",
+            "type": "float",
+            "offset": "0x28",
+            "size": 4
+        },
+        {
+            "name": "m_fCentreSize",
+            "type": "float",
+            "offset": "0x2C",
+            "size": 4
+        },
+        {
+            "name": "m_fRightJustifyWrap",
+            "type": "float",
+            "offset": "0x30",
+            "size": 4
+        },
+        {
+            "name": "m_nStyle",
+            "type": "__int16",
+            "offset": "0x34",
+            "size": 2
+        },
+        {
+            "name": "_pad36",
+            "type": "char[2]",
+            "offset": "0x36",
+            "size": 2
+        },
+        {
+            "name": "m_nBank",
+            "type": "int",
+            "offset": "0x38",
+            "size": 4
+        },
+        {
+            "name": "m_nDropShadowPosition",
+            "type": "__int16",
+            "offset": "0x3C",
+            "size": 2
+        },
+        {
+            "name": "m_DropColor",
+            "type": "CRGBA",
+            "offset": "0x3E",
+            "size": 4
+        },
+        {
+            "name": "_pad42",
+            "type": "char[2]",
+            "offset": "0x42",
+            "size": 2
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "D3DMATRIX",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x40",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "m",
+            "type": "float[4][4]",
+            "offset": 0,
+            "size": "0x40"
+        }
+    ]
+}

@@ -4,9 +4,9 @@
     "scope": "",
     "kind": "class",
     "size": "0xE9D8",
-    "alignment": 0,
-    "vtableAddress": "0x5FDDB0",
-    "vtableSize": 1,
+    "alignment": 2,
+    "vtableAddress": "0x5F0EB8",
+    "vtableSize": 0,
     "comment": "",
     "members": [
         {
@@ -16,470 +16,566 @@
             "size": "0x4C"
         },
         {
-            "name": "byte4C",
-            "type": "_BYTE",
+            "name": "m_bAboveGroundTrainNodesLoaded",
+            "type": "bool",
             "offset": "0x4C",
             "size": 1
         },
         {
-            "name": "byte4D",
-            "type": "_BYTE",
+            "name": "m_bBelowGroundTrainNodesLoaded",
+            "type": "bool",
             "offset": "0x4D",
             "size": 1
         },
         {
-            "name": "m_bDirectlyBehindForFollowPed_CamOnString",
-            "type": "_BYTE",
+            "name": "m_bCamDirectlyBehind",
+            "type": "bool",
             "offset": "0x4E",
             "size": 1
         },
         {
-            "name": "m_bDirectlyInFrontForFollowPed_CamOnAString",
-            "type": "_BYTE",
+            "name": "m_bCamDirectlyInFront",
+            "type": "bool",
             "offset": "0x4F",
             "size": 1
         },
         {
-            "name": "f50",
-            "type": "_BYTE[2]",
+            "name": "m_bCameraJustRestored",
+            "type": "bool",
             "offset": "0x50",
-            "size": 2
+            "size": 1
         },
         {
-            "name": "byte52",
-            "type": "_BYTE",
+            "name": "m_bCutsceneFinished",
+            "type": "bool",
+            "offset": "0x51",
+            "size": 1
+        },
+        {
+            "name": "m_bCullZoneChecksOn",
+            "type": "bool",
             "offset": "0x52",
             "size": 1
         },
         {
-            "name": "f53",
-            "type": "_BYTE[1]",
+            "name": "m_bFirstPersonBeingUsed",
+            "type": "bool",
             "offset": "0x53",
             "size": 1
         },
         {
-            "name": "byte54",
-            "type": "_BYTE",
+            "name": "m_bJustJumpedOutOf1stPersonBecauseOfTarget",
+            "type": "bool",
             "offset": "0x54",
             "size": 1
         },
         {
-            "name": "byte55",
-            "type": "_BYTE",
+            "name": "m_bIdleOn",
+            "type": "bool",
             "offset": "0x55",
             "size": 1
         },
         {
-            "name": "byte56",
-            "type": "_BYTE",
+            "name": "m_bInATunnelAndABigVehicle",
+            "type": "bool",
             "offset": "0x56",
             "size": 1
         },
         {
-            "name": "byte57",
-            "type": "_BYTE",
+            "name": "m_bInitialNodeFound",
+            "type": "bool",
             "offset": "0x57",
             "size": 1
         },
         {
-            "name": "byte58",
-            "type": "_BYTE",
+            "name": "m_bInitialNoNodeStaticsSet",
+            "type": "bool",
             "offset": "0x58",
             "size": 1
         },
         {
-            "name": "byte59",
-            "type": "_BYTE",
+            "name": "m_bIgnoreFadingStuffForMusic",
+            "type": "bool",
             "offset": "0x59",
             "size": 1
         },
         {
-            "name": "byte5A",
-            "type": "_BYTE",
+            "name": "m_bPlayerIsInGarage",
+            "type": "bool",
             "offset": "0x5A",
             "size": 1
         },
         {
-            "name": "byte5B",
-            "type": "_BYTE",
+            "name": "m_bJustCameOutOfGarage",
+            "type": "bool",
             "offset": "0x5B",
             "size": 1
         },
         {
-            "name": "byte5C",
-            "type": "_BYTE",
+            "name": "m_bJustInitalised",
+            "type": "bool",
             "offset": "0x5C",
             "size": 1
         },
         {
-            "name": "byte5D",
-            "type": "_BYTE",
+            "name": "m_bJust_Switched",
+            "type": "bool",
             "offset": "0x5D",
             "size": 1
         },
         {
-            "name": "byte5E",
-            "type": "_BYTE",
+            "name": "m_bLookingAtPlayer",
+            "type": "bool",
             "offset": "0x5E",
             "size": 1
         },
         {
-            "name": "f5F",
-            "type": "_BYTE[1]",
+            "name": "m_bLookingAtVector",
+            "type": "bool",
             "offset": "0x5F",
             "size": 1
         },
         {
-            "name": "byte60",
-            "type": "_BYTE",
+            "name": "m_bMoveCamToAvoidGeom",
+            "type": "bool",
             "offset": "0x60",
             "size": 1
         },
         {
-            "name": "f61",
-            "type": "_BYTE[2]",
+            "name": "m_bObbeCinematicPedCamOn",
+            "type": "bool",
             "offset": "0x61",
-            "size": 2
+            "size": 1
         },
         {
-            "name": "byte63",
-            "type": "_BYTE",
+            "name": "m_bObbeCinematicCarCamOn",
+            "type": "bool",
+            "offset": "0x62",
+            "size": 1
+        },
+        {
+            "name": "m_bRestoreByJumpCut",
+            "type": "bool",
             "offset": "0x63",
             "size": 1
         },
         {
-            "name": "m_bNearClipScript",
-            "type": "_BYTE",
+            "name": "m_bUseNearClipScript",
+            "type": "bool",
             "offset": "0x64",
             "size": 1
         },
         {
-            "name": "f65",
-            "type": "_BYTE[1]",
+            "name": "m_bStartInterScript",
+            "type": "bool",
             "offset": "0x65",
             "size": 1
         },
         {
-            "name": "byte66",
-            "type": "_BYTE",
+            "name": "m_bStartingSpline",
+            "type": "bool",
             "offset": "0x66",
             "size": 1
         },
         {
-            "name": "byte67",
-            "type": "_BYTE",
+            "name": "m_bTargetJustBeenOnTrain",
+            "type": "bool",
             "offset": "0x67",
             "size": 1
         },
         {
-            "name": "f68",
-            "type": "_BYTE[1]",
+            "name": "m_bTargetJustCameOffTrain",
+            "type": "bool",
             "offset": "0x68",
             "size": 1
         },
         {
-            "name": "byte69",
-            "type": "_BYTE",
+            "name": "m_bUseSpecialFovTrain",
+            "type": "bool",
             "offset": "0x69",
             "size": 1
         },
         {
-            "name": "byte6A",
-            "type": "_BYTE",
+            "name": "m_bUseTransitionBeta",
+            "type": "bool",
             "offset": "0x6A",
             "size": 1
         },
         {
-            "name": "m_bZoomValueFollowPedScript",
-            "type": "_BYTE",
+            "name": "m_bUseScriptZoomValuePed",
+            "type": "bool",
             "offset": "0x6B",
             "size": 1
         },
         {
-            "name": "m_bZoomValueCamStringScript",
-            "type": "_BYTE",
+            "name": "m_bUseScriptZoomValueCar",
+            "type": "bool",
             "offset": "0x6C",
             "size": 1
         },
         {
-            "name": "byte6D",
-            "type": "_BYTE",
+            "name": "m_bWaitForInterpolToFinish",
+            "type": "bool",
             "offset": "0x6D",
             "size": 1
         },
         {
-            "name": "f6E",
-            "type": "_BYTE[1]",
+            "name": "m_bItsOkToLookJustAtThePlayer",
+            "type": "bool",
             "offset": "0x6E",
             "size": 1
         },
         {
-            "name": "m_bWideScreenOff",
-            "type": "_BYTE",
+            "name": "m_bWantsToSwitchWidescreenOff",
+            "type": "bool",
             "offset": "0x6F",
             "size": 1
         },
         {
             "name": "m_bWideScreenOn",
-            "type": "_BYTE",
+            "type": "bool",
             "offset": "0x70",
             "size": 1
         },
         {
-            "name": "f71",
-            "type": "_BYTE[1]",
+            "name": "m_b1rstPersonRunCloseToAWall",
+            "type": "bool",
             "offset": "0x71",
             "size": 1
         },
         {
-            "name": "byte72",
-            "type": "_BYTE",
+            "name": "m_bHeadBob",
+            "type": "bool",
             "offset": "0x72",
             "size": 1
         },
         {
-            "name": "byte73",
-            "type": "_BYTE",
+            "name": "m_bFailedCullZoneTestPreviously",
+            "type": "bool",
             "offset": "0x73",
             "size": 1
         },
         {
-            "name": "f74",
-            "type": "_BYTE[1]",
+            "name": "m_bFadeTargetIsSplashScreen",
+            "type": "bool",
             "offset": "0x74",
             "size": 1
         },
         {
-            "name": "byte75",
-            "type": "_BYTE",
+            "name": "m_bWorldViewerBeingUsed",
+            "type": "bool",
             "offset": "0x75",
             "size": 1
         },
         {
-            "name": "m_wCurrentCam",
-            "type": "char",
+            "name": "m_nActiveCam",
+            "type": "unsigned __int8",
             "offset": "0x76",
             "size": 1
         },
         {
-            "name": "field_77",
+            "name": "_pad77",
             "type": "char",
             "offset": "0x77",
             "size": 1
         },
         {
-            "name": "m_dwShakingTimerStart",
-            "type": "int",
+            "name": "m_nCamShakeStart",
+            "type": "unsigned int",
             "offset": "0x78",
             "size": 4
         },
         {
-            "name": "f7C",
-            "type": "_BYTE[4]",
+            "name": "m_nFirstPersonCamLastInputTime",
+            "type": "unsigned int",
             "offset": "0x7C",
             "size": 4
         },
         {
-            "name": "dword80",
-            "type": "_DWORD",
+            "name": "m_nLongestTimeInMill",
+            "type": "unsigned int",
             "offset": "0x80",
             "size": 4
         },
         {
-            "name": "f84",
-            "type": "_BYTE[5]",
+            "name": "m_nNumberOfTrainCamNodes",
+            "type": "unsigned int",
             "offset": "0x84",
-            "size": 5
+            "size": 4
         },
         {
-            "name": "byte89",
-            "type": "_BYTE",
+            "name": "m_bTransitionJUSTStarted",
+            "type": "bool",
+            "offset": "0x88",
+            "size": 1
+        },
+        {
+            "name": "m_bTransitionState",
+            "type": "unsigned __int8",
             "offset": "0x89",
             "size": 1
         },
         {
-            "name": "f8A",
-            "type": "_BYTE[2]",
+            "name": "_pad8A",
+            "type": "char[2]",
             "offset": "0x8A",
             "size": 2
         },
         {
-            "name": "dword8C",
-            "type": "_DWORD",
+            "name": "m_nTimeLastChange",
+            "type": "unsigned int",
             "offset": "0x8C",
             "size": 4
         },
         {
-            "name": "dword90",
-            "type": "_DWORD",
+            "name": "m_nTimeWeLeftIdle_StillNoInput",
+            "type": "unsigned int",
             "offset": "0x90",
             "size": 4
         },
         {
-            "name": "dword94",
-            "type": "_DWORD",
+            "name": "m_nTimeTransitionStart",
+            "type": "unsigned int",
             "offset": "0x94",
             "size": 4
         },
         {
-            "name": "f98",
-            "type": "int",
+            "name": "m_nTransitionDuration",
+            "type": "unsigned int",
             "offset": "0x98",
             "size": 4
         },
         {
-            "name": "m_dwBlurBlue",
-            "type": "int",
+            "name": "m_nBlurBlue",
+            "type": "unsigned int",
             "offset": "0x9C",
             "size": 4
         },
         {
-            "name": "m_dwBlurGreen",
-            "type": "int",
+            "name": "m_nBlurGreen",
+            "type": "unsigned int",
             "offset": "0xA0",
             "size": 4
         },
         {
-            "name": "m_dwBlurRed",
-            "type": "int",
+            "name": "m_nBlurRed",
+            "type": "unsigned int",
             "offset": "0xA4",
             "size": 4
         },
         {
-            "name": "m_dwBlurAlpha",
-            "type": "int",
+            "name": "m_nBlurType",
+            "type": "unsigned int",
             "offset": "0xA8",
             "size": 4
         },
         {
             "name": "dwordAC",
-            "type": "_DWORD",
+            "type": "int",
             "offset": "0xAC",
             "size": 4
         },
         {
-            "name": "dwordB0",
-            "type": "_DWORD",
+            "name": "m_nWorkOutSpeedThisNumFrames",
+            "type": "unsigned int",
             "offset": "0xB0",
             "size": 4
         },
         {
-            "name": "dwordB4",
-            "type": "_DWORD",
+            "name": "m_nNumFramesSoFar",
+            "type": "unsigned int",
             "offset": "0xB4",
             "size": 4
         },
         {
-            "name": "fB8",
-            "type": "_BYTE[4]",
+            "name": "m_nCurrentTrainCamNode",
+            "type": "unsigned int",
             "offset": "0xB8",
             "size": 4
         },
         {
-            "name": "dwordBC",
-            "type": "_DWORD",
+            "name": "m_nMotionBlur",
+            "type": "unsigned int",
             "offset": "0xBC",
             "size": 4
         },
         {
-            "name": "m_dwMotionBlurAlpha",
+            "name": "m_nMotionBlurAlpha",
             "type": "unsigned int",
             "offset": "0xC0",
             "size": 4
         },
         {
-            "name": "dwordC4",
-            "type": "_DWORD",
+            "name": "m_nCheckCullZoneThisNumFrames",
+            "type": "int",
             "offset": "0xC4",
             "size": 4
         },
         {
-            "name": "dwordC8",
-            "type": "_DWORD",
+            "name": "m_nZoneCullFrameNumWereAt",
+            "type": "int",
             "offset": "0xC8",
             "size": 4
         },
         {
-            "name": "fCC",
-            "type": "_BYTE[12]",
+            "name": "m_nWhoIsInControlOfTheCamera",
+            "type": "unsigned int",
             "offset": "0xCC",
-            "size": "0xC"
+            "size": 4
         },
         {
-            "name": "dwordD8",
-            "type": "_DWORD",
+            "name": "m_fCamFrontXNorm",
+            "type": "float",
+            "offset": "0xD0",
+            "size": 4
+        },
+        {
+            "name": "m_fCamFrontYNorm",
+            "type": "float",
+            "offset": "0xD4",
+            "size": 4
+        },
+        {
+            "name": "m_fCarZoomIndicator",
+            "type": "float",
             "offset": "0xD8",
             "size": 4
         },
         {
-            "name": "fDC",
-            "type": "_BYTE[4]",
+            "name": "m_fCarZoomValue",
+            "type": "float",
             "offset": "0xDC",
             "size": 4
         },
         {
-            "name": "dwordE0",
-            "type": "_DWORD",
+            "name": "m_fCarZoomValueSmooth",
+            "type": "float",
             "offset": "0xE0",
             "size": 4
         },
         {
-            "name": "fE4",
-            "type": "_BYTE[8]",
+            "name": "m_fDistanceToWater",
+            "type": "float",
             "offset": "0xE4",
-            "size": 8
+            "size": 4
         },
         {
-            "name": "dwordEC",
-            "type": "_DWORD",
+            "name": "m_fFOVDuringInter",
+            "type": "float",
+            "offset": "0xE8",
+            "size": 4
+        },
+        {
+            "name": "m_fLODDistMultiplier",
+            "type": "float",
             "offset": "0xEC",
             "size": 4
         },
         {
-            "name": "fF0",
-            "type": "_BYTE[44]",
+            "name": "m_fGenerationDistMultiplier",
+            "type": "float",
             "offset": "0xF0",
-            "size": "0x2C"
+            "size": 4
         },
         {
-            "name": "dword11C",
+            "name": "m_fAlphaSpeedAtStartInter",
+            "type": "float",
+            "offset": "0xF4",
+            "size": 4
+        },
+        {
+            "name": "m_fAlphaWhenInterPol",
+            "type": "float",
+            "offset": "0xF8",
+            "size": 4
+        },
+        {
+            "name": "m_fAlphaDuringInterPol",
+            "type": "float",
+            "offset": "0xFC",
+            "size": 4
+        },
+        {
+            "name": "m_fBetaDuringInterPol",
+            "type": "float",
+            "offset": "0x100",
+            "size": 4
+        },
+        {
+            "name": "m_fBetaSpeedAtStartInter",
+            "type": "float",
+            "offset": "0x104",
+            "size": 4
+        },
+        {
+            "name": "m_fBetaWhenInterPol",
+            "type": "float",
+            "offset": "0x108",
+            "size": 4
+        },
+        {
+            "name": "m_fFOVWhenInterPol",
+            "type": "float",
+            "offset": "0x10C",
+            "size": 4
+        },
+        {
+            "name": "m_fFOVSpeedAtStartInter",
+            "type": "float",
+            "offset": "0x110",
+            "size": 4
+        },
+        {
+            "name": "m_fStartingBetaForInterPol",
+            "type": "float",
+            "offset": "0x114",
+            "size": 4
+        },
+        {
+            "name": "m_fStartingAlphaForInterPol",
+            "type": "float",
+            "offset": "0x118",
+            "size": 4
+        },
+        {
+            "name": "m_fPedOrientForBehindOrInFront",
             "type": "float",
             "offset": "0x11C",
             "size": 4
         },
         {
-            "name": "dword120",
-            "type": "_DWORD",
+            "name": "m_fCameraAverageSpeed",
+            "type": "float",
             "offset": "0x120",
             "size": 4
         },
         {
-            "name": "dword124",
-            "type": "_DWORD",
+            "name": "m_fCameraSpeedSoFar",
+            "type": "float",
             "offset": "0x124",
             "size": 4
         },
         {
-            "name": "m_fShakingValue",
+            "name": "m_fCamShakeForce",
             "type": "float",
             "offset": "0x128",
             "size": 4
         },
         {
-            "name": "m_fZoomValueCamStringScript",
+            "name": "m_fCarZoomValueScript",
             "type": "float",
             "offset": "0x12C",
             "size": 4
         },
         {
-            "name": "dword130",
-            "type": "_DWORD",
+            "name": "m_fFovForTrain",
+            "type": "float",
             "offset": "0x130",
             "size": 4
         },
         {
-            "name": "dword134",
-            "type": "_DWORD",
+            "name": "m_fFOV_Wide_Screen",
+            "type": "float",
             "offset": "0x134",
             "size": 4
         },
@@ -490,85 +586,157 @@
             "size": 4
         },
         {
-            "name": "f13C",
-            "type": "_BYTE[8]",
+            "name": "m_fOldBetaDiff",
+            "type": "float",
             "offset": "0x13C",
-            "size": 8
+            "size": 4
         },
         {
-            "name": "m_fZoomValueFollowPedScript",
+            "name": "m_fPedZoomValue",
+            "type": "float",
+            "offset": "0x140",
+            "size": 4
+        },
+        {
+            "name": "m_fPedZoomValueSmooth",
             "type": "float",
             "offset": "0x144",
             "size": 4
         },
         {
-            "name": "dword148",
-            "type": "_DWORD",
+            "name": "m_fPedZoomValueScript",
+            "type": "float",
             "offset": "0x148",
             "size": 4
         },
         {
-            "name": "f14C",
+            "name": "m_fPositionAlongSpline",
             "type": "float",
             "offset": "0x14C",
             "size": 4
         },
         {
-            "name": "dword150",
-            "type": "_DWORD",
+            "name": "m_fScreenReductionPercentage",
+            "type": "float",
             "offset": "0x150",
             "size": 4
         },
         {
-            "name": "dword154",
-            "type": "_DWORD",
+            "name": "m_fScreenReductionSpeed",
+            "type": "float",
             "offset": "0x154",
             "size": 4
         },
         {
-            "name": "f158",
-            "type": "_BYTE[8]",
+            "name": "m_fAlphaForPlayerAnim1rstPerson",
+            "type": "float",
             "offset": "0x158",
-            "size": 8
+            "size": 4
         },
         {
-            "name": "dword160",
-            "type": "_DWORD",
+            "name": "m_fOrientation",
+            "type": "float",
+            "offset": "0x15C",
+            "size": 4
+        },
+        {
+            "name": "m_fPedZoomIndicator",
+            "type": "float",
             "offset": "0x160",
             "size": 4
         },
         {
-            "name": "dword164",
-            "type": "_DWORD",
+            "name": "m_fPlayerExhaustion",
+            "type": "float",
             "offset": "0x164",
             "size": 4
         },
         {
-            "name": "f168",
-            "type": "_BYTE[44]",
+            "name": "m_fSoundDistUp",
+            "type": "float",
             "offset": "0x168",
-            "size": "0x2C"
+            "size": 4
         },
         {
-            "name": "dword194",
+            "name": "field_16C",
+            "type": "float",
+            "offset": "0x16C",
+            "size": 4
+        },
+        {
+            "name": "field_170",
+            "type": "float",
+            "offset": "0x170",
+            "size": 4
+        },
+        {
+            "name": "m_fSoundDistUpAsRead",
+            "type": "float",
+            "offset": "0x174",
+            "size": 4
+        },
+        {
+            "name": "field_178",
+            "type": "float",
+            "offset": "0x178",
+            "size": 4
+        },
+        {
+            "name": "field_17C",
+            "type": "float",
+            "offset": "0x17C",
+            "size": 4
+        },
+        {
+            "name": "m_fSoundDistUpAsReadOld",
+            "type": "float",
+            "offset": "0x180",
+            "size": 4
+        },
+        {
+            "name": "field_184",
+            "type": "float",
+            "offset": "0x184",
+            "size": 4
+        },
+        {
+            "name": "field_188",
+            "type": "float",
+            "offset": "0x188",
+            "size": 4
+        },
+        {
+            "name": "m_fWideScreenReductionAmount",
+            "type": "float",
+            "offset": "0x18C",
+            "size": 4
+        },
+        {
+            "name": "m_fStartingFOVForInterPol",
+            "type": "float",
+            "offset": "0x190",
+            "size": 4
+        },
+        {
+            "name": "m_fMouseAccelHorzntal",
             "type": "float",
             "offset": "0x194",
             "size": 4
         },
         {
-            "name": "dword198",
+            "name": "m_fMouseAccelVertical",
             "type": "float",
             "offset": "0x198",
             "size": 4
         },
         {
-            "name": "dword19C",
+            "name": "m_f3rdPersonCHairMultX",
             "type": "float",
             "offset": "0x19C",
             "size": 4
         },
         {
-            "name": "dword1A0",
+            "name": "m_f3rdPersonCHairMultY",
             "type": "float",
             "offset": "0x1A0",
             "size": 4
@@ -580,46 +748,64 @@
             "size": "0x4EC"
         },
         {
-            "name": "field_690",
-            "type": "char[32]",
+            "name": "m_pGaragePlayer",
+            "type": "CGarage *",
             "offset": "0x690",
-            "size": "0x20"
+            "size": 4
         },
         {
-            "name": "dword6B0",
-            "type": "_DWORD",
+            "name": "m_pGarageVehicle",
+            "type": "CVehicle *",
+            "offset": "0x694",
+            "size": 4
+        },
+        {
+            "name": "m_PlayerMode",
+            "type": "CQueuedMode",
+            "offset": "0x698",
+            "size": "0xC"
+        },
+        {
+            "name": "m_playerWeaponMode",
+            "type": "CQueuedMode",
+            "offset": "0x6A4",
+            "size": "0xC"
+        },
+        {
+            "name": "m_vecPreviousCameraPosition",
+            "type": "CVector",
             "offset": "0x6B0",
-            "size": 4
+            "size": "0xC"
         },
         {
-            "name": "dword6B4",
-            "type": "_DWORD",
-            "offset": "0x6B4",
-            "size": 4
-        },
-        {
-            "name": "dword6B8",
-            "type": "_DWORD",
-            "offset": "0x6B8",
-            "size": 4
-        },
-        {
-            "name": "f6BC",
-            "type": "char[12]",
+            "name": "m_vecRealPreviousCameraPosition",
+            "type": "CVector",
             "offset": "0x6BC",
             "size": "0xC"
         },
         {
-            "name": "m_vAimingCoors",
+            "name": "m_vecAimingTargetCoors",
             "type": "CVector",
             "offset": "0x6C8",
             "size": "0xC"
         },
         {
-            "name": "field_6D4",
-            "type": "char[36]",
+            "name": "m_vecFixedModeVector",
+            "type": "CVector",
             "offset": "0x6D4",
-            "size": "0x24"
+            "size": "0xC"
+        },
+        {
+            "name": "m_vecFixedModeSource",
+            "type": "CVector",
+            "offset": "0x6E0",
+            "size": "0xC"
+        },
+        {
+            "name": "m_vecFixedModeUpOffSet",
+            "type": "CVector",
+            "offset": "0x6EC",
+            "size": "0xC"
         },
         {
             "name": "m_vCamCutSceneOffset",
@@ -628,22 +814,82 @@
             "size": "0xC"
         },
         {
-            "name": "field_704",
-            "type": "char[108]",
+            "name": "m_vecStartingSourceForInterPol",
+            "type": "CVector",
             "offset": "0x704",
-            "size": "0x6C"
+            "size": "0xC"
         },
         {
-            "name": "m_vGameCamPosition",
+            "name": "m_vecStartingTargetForInterPol",
+            "type": "CVector",
+            "offset": "0x710",
+            "size": "0xC"
+        },
+        {
+            "name": "m_vecStartingUpForInterPol",
+            "type": "CVector",
+            "offset": "0x71C",
+            "size": "0xC"
+        },
+        {
+            "name": "m_vecSourceSpeedOverOneFrame",
+            "type": "CVector",
+            "offset": "0x728",
+            "size": "0xC"
+        },
+        {
+            "name": "m_vecTargetSpeedOverOneFrame",
+            "type": "CVector",
+            "offset": "0x734",
+            "size": "0xC"
+        },
+        {
+            "name": "m_vecUpOverOneFrame",
+            "type": "CVector",
+            "offset": "0x740",
+            "size": "0xC"
+        },
+        {
+            "name": "m_vecSourceWhenInterPol",
+            "type": "CVector",
+            "offset": "0x74C",
+            "size": "0xC"
+        },
+        {
+            "name": "m_vecUpWhenInterPol",
+            "type": "CVector",
+            "offset": "0x758",
+            "size": "0xC"
+        },
+        {
+            "name": "m_vecClearGeometryVec",
+            "type": "CVector",
+            "offset": "0x764",
+            "size": "0xC"
+        },
+        {
+            "name": "m_vecGameCamPos",
             "type": "CVector",
             "offset": "0x770",
             "size": "0xC"
         },
         {
-            "name": "field_77C",
-            "type": "char[36]",
+            "name": "m_vecSourceDuringInter",
+            "type": "CVector",
             "offset": "0x77C",
-            "size": "0x24"
+            "size": "0xC"
+        },
+        {
+            "name": "m_vecTargetDuringInter",
+            "type": "CVector",
+            "offset": "0x788",
+            "size": "0xC"
+        },
+        {
+            "name": "m_vecUpDuringInter",
+            "type": "CVector",
+            "offset": "0x794",
+            "size": "0xC"
         },
         {
             "name": "m_pRwCamera",
@@ -658,146 +904,206 @@
             "size": 4
         },
         {
-            "name": "f7A8",
-            "type": "_BYTE[57672]",
+            "name": "m_aPathSplines",
+            "type": "CPathSplines[4]",
             "offset": "0x7A8",
-            "size": "0xE148"
+            "size": "0x3200"
         },
         {
-            "name": "byteE8F0",
-            "type": "_BYTE",
+            "name": "m_asTrainCamNodes",
+            "type": "CTrainCamNode[800]",
+            "offset": "0x39A8",
+            "size": "0xAF00"
+        },
+        {
+            "name": "m_mMatInverse",
+            "type": "CMatrix",
+            "offset": "0xE8A8",
+            "size": "0x48"
+        },
+        {
+            "name": "m_bGarageFixedCamPositionSet",
+            "type": "bool",
             "offset": "0xE8F0",
             "size": 1
         },
         {
-            "name": "byteE8F1",
-            "type": "_BYTE",
+            "name": "m_bDoingSpecialInterPolation",
+            "type": "bool",
             "offset": "0xE8F1",
             "size": 1
         },
         {
-            "name": "byteE8F2",
-            "type": "_BYTE",
+            "name": "m_bScriptParametersSetForInterPol",
+            "type": "bool",
             "offset": "0xE8F2",
             "size": 1
         },
         {
             "name": "m_bFading",
-            "type": "_BYTE",
+            "type": "bool",
             "offset": "0xE8F3",
             "size": 1
         },
         {
-            "name": "byteE8F4",
-            "type": "_BYTE",
+            "name": "m_bMusicFading",
+            "type": "bool",
             "offset": "0xE8F4",
             "size": 1
         },
         {
-            "name": "fE8F5",
+            "name": "_padE8F5",
             "type": "char[3]",
             "offset": "0xE8F5",
             "size": 3
         },
         {
-            "name": "field_E8F8",
+            "name": "m_mViewMatrix",
             "type": "CMatrix",
             "offset": "0xE8F8",
             "size": "0x48"
         },
         {
-            "name": "field_E940",
-            "type": "char[88]",
+            "name": "m_avecFrustumNormals",
+            "type": "CVector[4]",
             "offset": "0xE940",
-            "size": "0x58"
+            "size": "0x30"
         },
         {
-            "name": "m_fFadingState",
+            "name": "m_vecOldSourceForInter",
+            "type": "CVector",
+            "offset": "0xE970",
+            "size": "0xC"
+        },
+        {
+            "name": "m_vecOldFrontForInter",
+            "type": "CVector",
+            "offset": "0xE97C",
+            "size": "0xC"
+        },
+        {
+            "name": "m_vecOldUpForInter",
+            "type": "CVector",
+            "offset": "0xE988",
+            "size": "0xC"
+        },
+        {
+            "name": "m_fOldFOVForInter",
+            "type": "float",
+            "offset": "0xE994",
+            "size": 4
+        },
+        {
+            "name": "m_fFadeAlpha",
             "type": "float",
             "offset": "0xE998",
             "size": 4
         },
         {
-            "name": "dwordE99C",
-            "type": "_DWORD",
+            "name": "m_fEffectsFaderScalingFactor",
+            "type": "float",
             "offset": "0xE99C",
             "size": 4
         },
         {
-            "name": "fE9A0",
-            "type": "_BYTE[4]",
+            "name": "m_fFadeDuration",
+            "type": "float",
             "offset": "0xE9A0",
             "size": 4
         },
         {
-            "name": "dwordE9A4",
-            "type": "_DWORD",
+            "name": "m_fTimeToFadeMusic",
+            "type": "float",
             "offset": "0xE9A4",
             "size": 4
         },
         {
-            "name": "dwordE9A8",
-            "type": "_DWORD",
+            "name": "m_fFractionInterToStopMoving",
+            "type": "float",
             "offset": "0xE9A8",
             "size": 4
         },
         {
-            "name": "dwordE9AC",
-            "type": "_DWORD",
+            "name": "m_fFractionInterToStopCatchUp",
+            "type": "float",
             "offset": "0xE9AC",
             "size": 4
         },
         {
-            "name": "dwordE9B0",
-            "type": "_DWORD",
+            "name": "m_fGaitSwayBuffer",
+            "type": "float",
             "offset": "0xE9B0",
             "size": 4
         },
         {
-            "name": "fE9B4",
-            "type": "_BYTE[16]",
+            "name": "m_fScriptPercentageInterToStopMoving",
+            "type": "float",
             "offset": "0xE9B4",
-            "size": "0x10"
+            "size": 4
         },
         {
-            "name": "dwordE9C4",
-            "type": "_DWORD",
+            "name": "m_fScriptPercentageInterToCatchUp",
+            "type": "float",
+            "offset": "0xE9B8",
+            "size": 4
+        },
+        {
+            "name": "m_nScriptTimeForInterPolation",
+            "type": "unsigned int",
+            "offset": "0xE9BC",
+            "size": 4
+        },
+        {
+            "name": "m_nFadeInOutFlag",
+            "type": "unsigned __int16",
+            "offset": "0xE9C0",
+            "size": 2
+        },
+        {
+            "name": "_padE9C2",
+            "type": "__int16",
+            "offset": "0xE9C2",
+            "size": 2
+        },
+        {
+            "name": "m_nModeObbeCamIsInForCar",
+            "type": "int",
             "offset": "0xE9C4",
             "size": 4
         },
         {
-            "name": "wordE9C8",
-            "type": "_WORD",
+            "name": "m_nModeToGoTo",
+            "type": "__int16",
             "offset": "0xE9C8",
             "size": 2
         },
         {
-            "name": "fE9CA",
-            "type": "_BYTE[2]",
+            "name": "m_nMusicFadingDirection",
+            "type": "__int16",
             "offset": "0xE9CA",
             "size": 2
         },
         {
-            "name": "wordE9CC",
-            "type": "_WORD",
+            "name": "m_nTypeOfSwitch",
+            "type": "__int16",
             "offset": "0xE9CC",
             "size": 2
         },
         {
-            "name": "field_E9CE",
+            "name": "_padE9CE",
             "type": "__int16",
             "offset": "0xE9CE",
             "size": 2
         },
         {
-            "name": "field_E9D0",
-            "type": "int",
+            "name": "m_nFadeStartTime",
+            "type": "unsigned int",
             "offset": "0xE9D0",
             "size": 4
         },
         {
-            "name": "field_E9D4",
-            "type": "int",
+            "name": "m_nTimeToWaitToFadeMusic",
+            "type": "unsigned int",
             "offset": "0xE9D4",
             "size": 4
         }

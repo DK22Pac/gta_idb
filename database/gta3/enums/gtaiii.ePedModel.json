@@ -1,0 +1,329 @@
+{
+    "name": "ePedModel",
+    "module": "",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "MODEL_NULL",
+            "value": 0
+        },
+        {
+            "name": "MODEL_COP",
+            "value": 1
+        },
+        {
+            "name": "MODEL_SWAT",
+            "value": 2
+        },
+        {
+            "name": "MODEL_FBI",
+            "value": 3
+        },
+        {
+            "name": "MODEL_ARMY",
+            "value": 4
+        },
+        {
+            "name": "MODEL_MEDIC",
+            "value": 5
+        },
+        {
+            "name": "MODEL_FIREMAN",
+            "value": 6
+        },
+        {
+            "name": "MODEL_MALE01",
+            "value": 7
+        },
+        {
+            "name": "MODEL_TAXI_D",
+            "value": 8
+        },
+        {
+            "name": "MODEL_PIMP",
+            "value": 9
+        },
+        {
+            "name": "MODEL_GANG01",
+            "value": 10
+        },
+        {
+            "name": "MODEL_GANG02",
+            "value": 11
+        },
+        {
+            "name": "MODEL_GANG03",
+            "value": 12
+        },
+        {
+            "name": "MODEL_GANG04",
+            "value": 13
+        },
+        {
+            "name": "MODEL_GANG05",
+            "value": 14
+        },
+        {
+            "name": "MODEL_GANG06",
+            "value": 15
+        },
+        {
+            "name": "MODEL_GANG07",
+            "value": 16
+        },
+        {
+            "name": "MODEL_GANG08",
+            "value": 17
+        },
+        {
+            "name": "MODEL_GANG09",
+            "value": 18
+        },
+        {
+            "name": "MODEL_GANG10",
+            "value": 19
+        },
+        {
+            "name": "MODEL_GANG11",
+            "value": 20
+        },
+        {
+            "name": "MODEL_GANG12",
+            "value": 21
+        },
+        {
+            "name": "MODEL_GANG13",
+            "value": 22
+        },
+        {
+            "name": "MODEL_GANG14",
+            "value": 23
+        },
+        {
+            "name": "MODEL_CRIMINAL01",
+            "value": 24
+        },
+        {
+            "name": "MODEL_CRIMINAL02",
+            "value": 25
+        },
+        {
+            "name": "MODEL_MALE02",
+            "value": 30
+        },
+        {
+            "name": "MODEL_MALE03",
+            "value": 31
+        },
+        {
+            "name": "MODEL_FATMALE01",
+            "value": 32
+        },
+        {
+            "name": "MODEL_FATMALE02",
+            "value": 33
+        },
+        {
+            "name": "MODEL_FEMALE01",
+            "value": 34
+        },
+        {
+            "name": "MODEL_FEMALE02",
+            "value": 35
+        },
+        {
+            "name": "MODEL_FEMALE03",
+            "value": 36
+        },
+        {
+            "name": "MODEL_FATFEMALE01",
+            "value": 37
+        },
+        {
+            "name": "MODEL_FATFEMALE02",
+            "value": 38
+        },
+        {
+            "name": "MODEL_PROSTITUTE",
+            "value": 39
+        },
+        {
+            "name": "MODEL_PROSTITUTE2",
+            "value": 40
+        },
+        {
+            "name": "MODEL_P_MAN1",
+            "value": 41
+        },
+        {
+            "name": "MODEL_P_MAN2",
+            "value": 42
+        },
+        {
+            "name": "MODEL_P_WOM1",
+            "value": 43
+        },
+        {
+            "name": "MODEL_P_WOM2",
+            "value": 44
+        },
+        {
+            "name": "MODEL_CT_MAN1",
+            "value": 45
+        },
+        {
+            "name": "MODEL_CT_MAN2",
+            "value": 46
+        },
+        {
+            "name": "MODEL_CT_WOM1",
+            "value": 47
+        },
+        {
+            "name": "MODEL_CT_WOM2",
+            "value": 48
+        },
+        {
+            "name": "MODEL_LI_MAN1",
+            "value": 49
+        },
+        {
+            "name": "MODEL_LI_MAN2",
+            "value": 50
+        },
+        {
+            "name": "MODEL_LI_WOM1",
+            "value": 51
+        },
+        {
+            "name": "MODEL_LI_WOM2",
+            "value": 52
+        },
+        {
+            "name": "MODEL_DOCKER1",
+            "value": 53
+        },
+        {
+            "name": "MODEL_DOCKER2",
+            "value": 54
+        },
+        {
+            "name": "MODEL_SCUM_MAN",
+            "value": 55
+        },
+        {
+            "name": "MODEL_SCUM_WOM",
+            "value": 56
+        },
+        {
+            "name": "MODEL_WORKER1",
+            "value": 57
+        },
+        {
+            "name": "MODEL_WORKER2",
+            "value": 58
+        },
+        {
+            "name": "MODEL_B_MAN1",
+            "value": 59
+        },
+        {
+            "name": "MODEL_B_MAN2",
+            "value": 60
+        },
+        {
+            "name": "MODEL_B_MAN3",
+            "value": 61
+        },
+        {
+            "name": "MODEL_B_WOM1",
+            "value": 62
+        },
+        {
+            "name": "MODEL_B_WOM2",
+            "value": 63
+        },
+        {
+            "name": "MODEL_B_WOM3",
+            "value": 64
+        },
+        {
+            "name": "MODEL_MOD_MAN",
+            "value": 65
+        },
+        {
+            "name": "MODEL_MOD_WOM",
+            "value": 66
+        },
+        {
+            "name": "MODEL_ST_MAN",
+            "value": 67
+        },
+        {
+            "name": "MODEL_ST_WOM",
+            "value": 68
+        },
+        {
+            "name": "MODEL_FAN_MAN1",
+            "value": 69
+        },
+        {
+            "name": "MODEL_FAN_MAN2",
+            "value": 70
+        },
+        {
+            "name": "MODEL_FAN_WOM",
+            "value": 71
+        },
+        {
+            "name": "MODEL_HOS_MAN",
+            "value": 72
+        },
+        {
+            "name": "MODEL_HOS_WOM",
+            "value": 73
+        },
+        {
+            "name": "MODEL_CONST1",
+            "value": 74
+        },
+        {
+            "name": "MODEL_CONST2",
+            "value": 75
+        },
+        {
+            "name": "MODEL_SHOPPER1",
+            "value": 76
+        },
+        {
+            "name": "MODEL_SHOPPER2",
+            "value": 77
+        },
+        {
+            "name": "MODEL_SHOPPER3",
+            "value": 78
+        },
+        {
+            "name": "MODEL_STUD_MAN",
+            "value": 79
+        },
+        {
+            "name": "MODEL_STUD_WOM",
+            "value": 80
+        },
+        {
+            "name": "MODEL_CAS_MAN",
+            "value": 81
+        },
+        {
+            "name": "MODEL_CAS_WOM",
+            "value": 82
+        }
+    ]
+}

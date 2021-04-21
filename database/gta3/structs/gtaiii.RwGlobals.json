@@ -3,7 +3,7 @@
     "module": "",
     "scope": "",
     "kind": "class",
-    "size": "0x18C",
+    "size": "0x154",
     "alignment": 2,
     "comment": "",
     "members": [
@@ -21,19 +21,19 @@
         },
         {
             "name": "renderFrame",
-            "type": "unsigned __int16",
+            "type": "RwUInt16",
             "offset": 8,
             "size": 2
         },
         {
             "name": "lightFrame",
-            "type": "unsigned __int16",
+            "type": "RwUInt16",
             "offset": "0xA",
             "size": 2
         },
         {
-            "name": "pad",
-            "type": "unsigned __int16[2]",
+            "name": "_pad",
+            "type": "RwInt32",
             "offset": "0xC",
             "size": 4
         },
@@ -45,7 +45,7 @@
         },
         {
             "name": "stdFunc",
-            "type": "char[116]",
+            "type": "RwStandardFunc[29]",
             "offset": "0x48",
             "size": "0x74"
         },
@@ -53,54 +53,54 @@
             "name": "dirtyFrameList",
             "type": "RwLinkList",
             "offset": "0xBC",
-            "size": "0x40"
+            "size": 8
         },
         {
             "name": "fileFuncs",
             "type": "RwFileFunctions",
-            "offset": "0xFC",
+            "offset": "0xC4",
             "size": "0x2C"
         },
         {
             "name": "stringFuncs",
             "type": "RwStringFunctions",
-            "offset": "0x128",
+            "offset": "0xF0",
             "size": "0x40"
         },
         {
             "name": "memoryFuncs",
             "type": "RwMemoryFunctions",
-            "offset": "0x168",
+            "offset": "0x130",
             "size": "0x10"
         },
         {
             "name": "memoryAlloc",
-            "type": "char[4]",
-            "offset": "0x178",
+            "type": "RwMemoryAllocFn",
+            "offset": "0x140",
             "size": 4
         },
         {
             "name": "memoryFree",
-            "type": "char[4]",
-            "offset": "0x17C",
+            "type": "RwMemoryFreeFn",
+            "offset": "0x144",
             "size": 4
         },
         {
             "name": "metrics",
             "type": "RwMetrics *",
-            "offset": "0x180",
+            "offset": "0x148",
             "size": 4
         },
         {
             "name": "engineStatus",
             "type": "RwEngineStatus",
-            "offset": "0x184",
+            "offset": "0x14C",
             "size": 4
         },
         {
             "name": "resArenaInitSize",
-            "type": "unsigned int",
-            "offset": "0x188",
+            "type": "RwUInt32",
+            "offset": "0x150",
             "size": 4
         }
     ]

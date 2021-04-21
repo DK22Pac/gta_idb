@@ -1,0 +1,23 @@
+{
+    "name": "RsKeyStatus",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 8,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "keyScanCode",
+            "type": "RwInt32",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "keyCharCode",
+            "type": "RwInt32",
+            "offset": 4,
+            "size": 4
+        }
+    ]
+}

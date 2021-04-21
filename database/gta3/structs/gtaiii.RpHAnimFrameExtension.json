@@ -1,0 +1,23 @@
+{
+    "name": "RpHAnimFrameExtension",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 8,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "id",
+            "type": "RwInt32",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "hierarchy",
+            "type": "RpHAnimHierarchy *",
+            "offset": 4,
+            "size": 4
+        }
+    ]
+}

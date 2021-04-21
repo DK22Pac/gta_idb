@@ -1,0 +1,25 @@
+{
+    "name": "tWaterLevel",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "FLOATER_ABOVE_WATER",
+            "value": "0x0"
+        },
+        {
+            "name": "FLOATER_IN_WATER",
+            "value": "0x1"
+        },
+        {
+            "name": "FLOATER_UNDER_WATER",
+            "value": "0x2"
+        }
+    ]
+}

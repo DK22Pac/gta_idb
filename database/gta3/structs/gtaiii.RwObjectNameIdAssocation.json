@@ -4,7 +4,7 @@
     "scope": "",
     "kind": "class",
     "size": "0xC",
-    "alignment": 0,
+    "alignment": 2,
     "comment": "",
     "members": [
         {
@@ -14,14 +14,14 @@
             "size": 4
         },
         {
-            "name": "m_dwId",
-            "type": "int",
+            "name": "m_nHierarchyId",
+            "type": "unsigned int",
             "offset": 4,
             "size": 4
         },
         {
-            "name": "m_dwFlags",
-            "type": "int",
+            "name": "m_nFlags",
+            "type": "unsigned int",
             "offset": 8,
             "size": 4
         }

@@ -1,0 +1,29 @@
+{
+    "name": "RpD3D8AttenuationParams",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0xC",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "constant",
+            "type": "RwReal",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "linear",
+            "type": "RwReal",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "quadratic",
+            "type": "RwReal",
+            "offset": 8,
+            "size": 4
+        }
+    ]
+}

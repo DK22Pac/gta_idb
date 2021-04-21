@@ -1,0 +1,53 @@
+{
+    "name": "RpWorldChunkInfoSector",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x28",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "matListWindowBase",
+            "type": "RwInt32",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "numPolygons",
+            "type": "RwInt32",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "numVertices",
+            "type": "RwInt32",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "inf",
+            "type": "RwV3d",
+            "offset": "0xC",
+            "size": "0xC"
+        },
+        {
+            "name": "sup",
+            "type": "RwV3d",
+            "offset": "0x18",
+            "size": "0xC"
+        },
+        {
+            "name": "collSectorPresent",
+            "type": "char",
+            "offset": "0x24",
+            "size": 1
+        },
+        {
+            "name": "unused",
+            "type": "char",
+            "offset": "0x25",
+            "size": 1
+        }
+    ]
+}

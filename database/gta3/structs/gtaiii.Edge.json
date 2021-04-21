@@ -1,0 +1,41 @@
+{
+    "name": "Edge",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x10",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "v1",
+            "type": "RwUInt16",
+            "offset": 0,
+            "size": 2
+        },
+        {
+            "name": "v2",
+            "type": "RwUInt16",
+            "offset": 2,
+            "size": 2
+        },
+        {
+            "name": "tri1",
+            "type": "TriBinEntry *",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "tri2",
+            "type": "TriBinEntry *",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "next",
+            "type": "Edge *",
+            "offset": "0xC",
+            "size": 4
+        }
+    ]
+}

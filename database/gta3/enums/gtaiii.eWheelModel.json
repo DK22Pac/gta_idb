@@ -1,0 +1,41 @@
+{
+    "name": "eWheelModel",
+    "module": "",
+    "scope": "",
+    "width": 4,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "MODEL_WHEEL_SPORT",
+            "value": 160
+        },
+        {
+            "name": "MODEL_WHEEL_SALOON",
+            "value": 161
+        },
+        {
+            "name": "MODEL_WHEEL_LIGHTVAN",
+            "value": 162
+        },
+        {
+            "name": "MODEL_WHEEL_CLASSIC",
+            "value": 163
+        },
+        {
+            "name": "MODEL_WHEEL_ALLOY",
+            "value": 164
+        },
+        {
+            "name": "MODEL_WHEEL_LIGHTTRUCK",
+            "value": 165
+        },
+        {
+            "name": "MODEL_WHEEL_SMALLCAR",
+            "value": 166
+        }
+    ]
+}

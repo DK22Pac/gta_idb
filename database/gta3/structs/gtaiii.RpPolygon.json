@@ -1,0 +1,23 @@
+{
+    "name": "RpPolygon",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 8,
+    "alignment": 1,
+    "comment": "",
+    "members": [
+        {
+            "name": "matIndex",
+            "type": "RwUInt16",
+            "offset": 0,
+            "size": 2
+        },
+        {
+            "name": "vertIndex",
+            "type": "RwUInt16[3]",
+            "offset": 2,
+            "size": 6
+        }
+    ]
+}

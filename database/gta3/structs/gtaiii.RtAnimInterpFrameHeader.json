@@ -1,0 +1,23 @@
+{
+    "name": "RtAnimInterpFrameHeader",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 8,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "keyFrame1",
+            "type": "RtAnimKeyFrameHeader *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "keyFrame2",
+            "type": "RtAnimKeyFrameHeader *",
+            "offset": 4,
+            "size": 4
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "name": "eStreamingFlags",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": true,
+    "comment": "",
+    "members": [
+        {
+            "name": "GAME_REQUIRED",
+            "value": "0x2"
+        },
+        {
+            "name": "MISSION_REQUIRED",
+            "value": "0x4"
+        },
+        {
+            "name": "KEEP_IN_MEMORY",
+            "value": "0x8"
+        },
+        {
+            "name": "PRIORITY_REQUEST",
+            "value": "0x10"
+        }
+    ]
+}

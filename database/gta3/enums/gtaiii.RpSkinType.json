@@ -1,0 +1,33 @@
+{
+    "name": "RpSkinType",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "rpNASKINTYPE",
+            "value": "0x0"
+        },
+        {
+            "name": "rpSKINTYPEGENERIC",
+            "value": "0x1"
+        },
+        {
+            "name": "rpSKINTYPEMATFX",
+            "value": "0x2"
+        },
+        {
+            "name": "rpSKINTYPETOON",
+            "value": "0x3"
+        },
+        {
+            "name": "rpSKINTYPEFORCEENUMSIZEINT",
+            "value": "0x7FFFFFFF"
+        }
+    ]
+}

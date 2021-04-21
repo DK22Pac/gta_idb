@@ -1,0 +1,41 @@
+{
+    "name": "RwStreamCustom",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x14",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "sfnclose",
+            "type": "rwCustomStreamFnClose",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "sfnread",
+            "type": "rwCustomStreamFnRead",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "sfnwrite",
+            "type": "rwCustomStreamFnWrite",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "sfnskip",
+            "type": "rwCustomStreamFnSkip",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "data",
+            "type": "void *",
+            "offset": "0x10",
+            "size": 4
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "name": "CPickup",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x1C",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_nPickupType",
+            "type": "char",
+            "offset": 0,
+            "size": 1
+        },
+        {
+            "name": "m_bRemoved",
+            "type": "bool",
+            "offset": 1,
+            "size": 1
+        },
+        {
+            "name": "m_nMoneyPerDay",
+            "type": "_WORD",
+            "offset": 2,
+            "size": 2
+        },
+        {
+            "name": "m_pObject",
+            "type": "CObject *",
+            "offset": 4,
+            "size": 4,
+            "comment": "CObject*"
+        },
+        {
+            "name": "m_nRegenerationTime",
+            "type": "int",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "m_nModelIndex",
+            "type": "__int16",
+            "offset": "0xC",
+            "size": 2
+        },
+        {
+            "name": "m_nReferenceIndex",
+            "type": "__int16",
+            "offset": "0xE",
+            "size": 2
+        },
+        {
+            "name": "m_vecPosition",
+            "type": "CVector",
+            "offset": "0x10",
+            "size": "0xC"
+        }
+    ]
+}

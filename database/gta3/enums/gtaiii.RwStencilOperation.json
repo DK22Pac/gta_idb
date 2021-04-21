@@ -1,0 +1,53 @@
+{
+    "name": "RwStencilOperation",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "rwSTENCILOPERATIONNASTENCILOPERATION",
+            "value": "0x0"
+        },
+        {
+            "name": "rwSTENCILOPERATIONKEEP",
+            "value": "0x1"
+        },
+        {
+            "name": "rwSTENCILOPERATIONZERO",
+            "value": "0x2"
+        },
+        {
+            "name": "rwSTENCILOPERATIONREPLACE",
+            "value": "0x3"
+        },
+        {
+            "name": "rwSTENCILOPERATIONINCRSAT",
+            "value": "0x4"
+        },
+        {
+            "name": "rwSTENCILOPERATIONDECRSAT",
+            "value": "0x5"
+        },
+        {
+            "name": "rwSTENCILOPERATIONINVERT",
+            "value": "0x6"
+        },
+        {
+            "name": "rwSTENCILOPERATIONINCR",
+            "value": "0x7"
+        },
+        {
+            "name": "rwSTENCILOPERATIONDECR",
+            "value": "0x8"
+        },
+        {
+            "name": "rwSTENCILOPERATIONFORCEENUMSIZEINT",
+            "value": "0x7FFFFFFF"
+        }
+    ]
+}

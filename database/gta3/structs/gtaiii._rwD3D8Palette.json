@@ -1,0 +1,23 @@
+{
+    "name": "_rwD3D8Palette",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x404",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "entries",
+            "type": "PALETTEENTRY[256]",
+            "offset": 0,
+            "size": "0x400"
+        },
+        {
+            "name": "globalindex",
+            "type": "RwInt32",
+            "offset": "0x400",
+            "size": 4
+        }
+    ]
+}

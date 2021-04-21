@@ -1,0 +1,33 @@
+{
+    "name": "eWantedFlags",
+    "module": "",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": true,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_bPoliceBackOff",
+            "value": "0x1"
+        },
+        {
+            "name": "m_bPoliceBackOffGarage",
+            "value": "0x2"
+        },
+        {
+            "name": "m_bSwatRequired",
+            "value": "0x4"
+        },
+        {
+            "name": "m_bFbiRequired",
+            "value": "0x8"
+        },
+        {
+            "name": "m_bArmyRequired",
+            "value": "0x10"
+        }
+    ]
+}

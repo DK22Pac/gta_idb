@@ -1,0 +1,109 @@
+{
+    "name": "RwCoreDeviceSystemFn",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "rwDEVICESYSTEMOPEN",
+            "value": "0x0"
+        },
+        {
+            "name": "rwDEVICESYSTEMCLOSE",
+            "value": "0x1"
+        },
+        {
+            "name": "rwDEVICESYSTEMSTART",
+            "value": "0x2"
+        },
+        {
+            "name": "rwDEVICESYSTEMSTOP",
+            "value": "0x3"
+        },
+        {
+            "name": "rwDEVICESYSTEMREGISTER",
+            "value": "0x4"
+        },
+        {
+            "name": "rwDEVICESYSTEMGETNUMMODES",
+            "value": "0x5"
+        },
+        {
+            "name": "rwDEVICESYSTEMGETMODEINFO",
+            "value": "0x6"
+        },
+        {
+            "name": "rwDEVICESYSTEMUSEMODE",
+            "value": "0x7"
+        },
+        {
+            "name": "rwDEVICESYSTEMFOCUS",
+            "value": "0x8"
+        },
+        {
+            "name": "rwDEVICESYSTEMINITPIPELINE",
+            "value": "0x9"
+        },
+        {
+            "name": "rwDEVICESYSTEMGETMODE",
+            "value": "0xA"
+        },
+        {
+            "name": "rwDEVICESYSTEMSTANDARDS",
+            "value": "0xB"
+        },
+        {
+            "name": "rwDEVICESYSTEMGETTEXMEMSIZE",
+            "value": "0xC"
+        },
+        {
+            "name": "rwDEVICESYSTEMGETNUMSUBSYSTEMS",
+            "value": "0xD"
+        },
+        {
+            "name": "rwDEVICESYSTEMGETSUBSYSTEMINFO",
+            "value": "0xE"
+        },
+        {
+            "name": "rwDEVICESYSTEMGETCURRENTSUBSYSTEM",
+            "value": "0xF"
+        },
+        {
+            "name": "rwDEVICESYSTEMSETSUBSYSTEM",
+            "value": "0x10"
+        },
+        {
+            "name": "rwDEVICESYSTEMFINALIZESTART",
+            "value": "0x11"
+        },
+        {
+            "name": "rwDEVICESYSTEMINITIATESTOP",
+            "value": "0x12"
+        },
+        {
+            "name": "rwDEVICESYSTEMGETMAXTEXTURESIZE",
+            "value": "0x13"
+        },
+        {
+            "name": "rwDEVICESYSTEMRXPIPELINEREQUESTPIPE",
+            "value": "0x14"
+        },
+        {
+            "name": "rwDEVICESYSTEMGETMETRICBLOCK",
+            "value": "0x15"
+        },
+        {
+            "name": "rwDEVICESYSTEMDD",
+            "value": "0x1000"
+        },
+        {
+            "name": "rwCOREDEVICESYSTEMFNFORCEENUMSIZEINT",
+            "value": "0x7FFFFFFF"
+        }
+    ]
+}

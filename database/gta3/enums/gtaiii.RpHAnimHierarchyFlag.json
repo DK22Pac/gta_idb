@@ -1,0 +1,37 @@
+{
+    "name": "RpHAnimHierarchyFlag",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "rpHANIMHIERARCHYSUBHIERARCHY",
+            "value": "0x1"
+        },
+        {
+            "name": "rpHANIMHIERARCHYNOMATRICES",
+            "value": "0x2"
+        },
+        {
+            "name": "rpHANIMHIERARCHYUPDATEMODELLINGMATRICES",
+            "value": "0x1000"
+        },
+        {
+            "name": "rpHANIMHIERARCHYUPDATELTMS",
+            "value": "0x2000"
+        },
+        {
+            "name": "rpHANIMHIERARCHYLOCALSPACEMATRICES",
+            "value": "0x4000"
+        },
+        {
+            "name": "rpHANIMHIERARCHYFLAGFORCEENUMSIZEINT",
+            "value": "0x7FFFFFFF"
+        }
+    ]
+}

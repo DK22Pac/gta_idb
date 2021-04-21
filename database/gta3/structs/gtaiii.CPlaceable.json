@@ -5,19 +5,18 @@
     "kind": "class",
     "size": "0x4C",
     "alignment": 0,
-    "hasVectorDeletingDtor": true,
-    "vtableAddress": "0x603808",
-    "vtableSize": 1,
+    "vtableAddress": "0x5F6A28",
+    "vtableSize": 0,
     "comment": "",
     "members": [
         {
             "name": "vtable",
-            "type": "CEntityVMT *",
+            "type": "EntityVMT",
             "offset": 0,
             "size": 4
         },
         {
-            "name": "m_matrix",
+            "name": "matrix",
             "type": "CMatrix",
             "offset": 4,
             "size": "0x48"

@@ -1,0 +1,35 @@
+{
+    "name": "CPool_CDummy",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x10",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_pObjects",
+            "type": "CDummyPed *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "m_byteMap",
+            "type": "BYTE *",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "m_nSize",
+            "type": "int",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "m_nFirstFree",
+            "type": "int",
+            "offset": "0xC",
+            "size": 4
+        }
+    ]
+}

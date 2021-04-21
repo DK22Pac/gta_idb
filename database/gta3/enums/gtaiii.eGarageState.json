@@ -1,0 +1,41 @@
+{
+    "name": "eGarageState",
+    "module": "",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "GARAGE_STATE_CLOSED",
+            "value": 0
+        },
+        {
+            "name": "GARAGE_STATE_OPEN",
+            "value": 1
+        },
+        {
+            "name": "GARAGE_STATE_CLOSING",
+            "value": 2
+        },
+        {
+            "name": "GARAGE_STATE_OPENING",
+            "value": 3
+        },
+        {
+            "name": "GARAGE_STATE_WAITING_PLAYER_TO_EXIT",
+            "value": 4
+        },
+        {
+            "name": "GARAGE_STATE_CLOSED_DROPPED_CAR",
+            "value": 5
+        },
+        {
+            "name": "GARAGE_STATE_CAR_CRUSHER",
+            "value": 6
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "name": "CClumpModelInfoVMT",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x1C",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "destructor",
+            "type": "void (__thiscall *)(CClumpModelInfo *, int)",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "Shutdown",
+            "type": "void (__thiscall *)(CClumpModelInfo *)",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "DeleteRwObject",
+            "type": "void (__thiscall *)(CClumpModelInfo *)",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "CreateInstance",
+            "type": "RwObject *(__thiscall *)(CClumpModelInfo *)",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "CreateInstance_",
+            "type": "RwObject *(__thiscall *)(CClumpModelInfo *, RwMatrix *)",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "GetRwObject",
+            "type": "RpClump *(__thiscall *)(CClumpModelInfo *)",
+            "offset": "0x14",
+            "size": 4
+        },
+        {
+            "name": "SetClump",
+            "type": "void (__thiscall *)(CClumpModelInfo *, RpClump *)",
+            "offset": "0x18",
+            "size": 4
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "name": "RpLightChunkInfo",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x18",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "radius",
+            "type": "RwReal",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "red",
+            "type": "RwReal",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "green",
+            "type": "RwReal",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "blue",
+            "type": "RwReal",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "minusCosAngle",
+            "type": "RwReal",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "typeAndFlags",
+            "type": "RwUInt32",
+            "offset": "0x14",
+            "size": 4
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "name": "eShadowType",
+    "module": "",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "SHADOW_DEFAULT",
+            "value": 1
+        },
+        {
+            "name": "SHADOW_ADDITIVE",
+            "value": 2
+        },
+        {
+            "name": "SHADOW_INVCOLOR",
+            "value": 3
+        },
+        {
+            "name": "SHADOW_OIL_1",
+            "value": 4
+        },
+        {
+            "name": "SHADOW_OIL_2",
+            "value": 5
+        },
+        {
+            "name": "SHADOW_OIL_3",
+            "value": 6
+        },
+        {
+            "name": "SHADOW_OIL_4",
+            "value": 7
+        },
+        {
+            "name": "SHADOW_OIL_5",
+            "value": 8
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "uSimple",
+    "module": "",
+    "scope": "",
+    "kind": "union",
+    "size": 4,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_pLodModelInfo",
+            "type": "CTimeModelInfo *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "m_fLargestLodDistance",
+            "type": "float[1]",
+            "offset": 0,
+            "size": 4
+        }
+    ]
+}

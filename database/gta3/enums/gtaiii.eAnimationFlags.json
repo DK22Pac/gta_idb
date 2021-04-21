@@ -1,0 +1,65 @@
+{
+    "name": "eAnimationFlags",
+    "module": "",
+    "scope": "",
+    "width": 4,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": true,
+    "comment": "",
+    "members": [
+        {
+            "name": "ANIMATION_STARTED",
+            "value": "0x1"
+        },
+        {
+            "name": "ANIMATION_LOOPED",
+            "value": "0x2"
+        },
+        {
+            "name": "ANIMATION_HASPARTIALBLEND",
+            "value": "0x4"
+        },
+        {
+            "name": "ANIMATION_FLAG8",
+            "value": "0x8"
+        },
+        {
+            "name": "ANIMATION_PARTIAL",
+            "value": "0x10"
+        },
+        {
+            "name": "ANIMATION_MOVEMENT",
+            "value": "0x20"
+        },
+        {
+            "name": "ANIMATION_CUTSCENEANIM",
+            "value": "0x40"
+        },
+        {
+            "name": "ANIMATION_FLAG80",
+            "value": "0x80"
+        },
+        {
+            "name": "ANIMATION_FLAG100",
+            "value": "0x100"
+        },
+        {
+            "name": "ANIMATION_FLAG200",
+            "value": "0x200"
+        },
+        {
+            "name": "ANIMATION_FLAG400",
+            "value": "0x400"
+        },
+        {
+            "name": "ANIMATION_FLAG800",
+            "value": "0x800"
+        },
+        {
+            "name": "ANIMATION_PLAYER_LR",
+            "value": "0x1000"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "name": "RxExecutionContext",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x18",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "pipeline",
+            "type": "RxPipeline *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "currentNode",
+            "type": "RxPipelineNode *",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "exitCode",
+            "type": "RwInt32",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "pad",
+            "type": "RwUInt32",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "params",
+            "type": "RxPipelineNodeParam",
+            "offset": "0x10",
+            "size": 8
+        }
+    ]
+}

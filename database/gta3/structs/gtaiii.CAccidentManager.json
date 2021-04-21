@@ -1,0 +1,17 @@
+{
+    "name": "CAccidentManager",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0xF0",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "aAccident",
+            "type": "CAccident[20]",
+            "offset": 0,
+            "size": "0xF0"
+        }
+    ]
+}

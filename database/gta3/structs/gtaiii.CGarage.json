@@ -1,0 +1,227 @@
+{
+    "name": "CGarage",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x8C",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_nType",
+            "type": "eGarageType",
+            "offset": 0,
+            "size": 1
+        },
+        {
+            "name": "m_nState",
+            "type": "eGarageState",
+            "offset": 1,
+            "size": 1
+        },
+        {
+            "name": "field_2",
+            "type": "char",
+            "offset": 2,
+            "size": 1
+        },
+        {
+            "name": "m_bLockup",
+            "type": "bool",
+            "offset": 3,
+            "size": 1
+        },
+        {
+            "name": "m_bIsDeActivate",
+            "type": "bool",
+            "offset": 4,
+            "size": 1
+        },
+        {
+            "name": "m_bHasResprayHappened",
+            "type": "bool",
+            "offset": 5,
+            "size": 1
+        },
+        {
+            "name": "_pad6",
+            "type": "char[2]",
+            "offset": 6,
+            "size": 2
+        },
+        {
+            "name": "m_nVehicleModelIndex",
+            "type": "int",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "m_pDoorOne",
+            "type": "CObject *",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "m_pDoorTwo",
+            "type": "CObject *",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "m_nIndexDoorOne",
+            "type": "char",
+            "offset": "0x14",
+            "size": 1
+        },
+        {
+            "name": "m_nIndexDoorTwo",
+            "type": "char",
+            "offset": "0x15",
+            "size": 1
+        },
+        {
+            "name": "field_16",
+            "type": "bool",
+            "offset": "0x16",
+            "size": 1
+        },
+        {
+            "name": "field_17",
+            "type": "bool",
+            "offset": "0x17",
+            "size": 1
+        },
+        {
+            "name": "field_18",
+            "type": "char",
+            "offset": "0x18",
+            "size": 1
+        },
+        {
+            "name": "m_bDoorSwingOpen",
+            "type": "bool",
+            "offset": "0x19",
+            "size": 1
+        },
+        {
+            "name": "m_bCameraFollowsPlayer",
+            "type": "bool",
+            "offset": "0x1A",
+            "size": 1
+        },
+        {
+            "name": "_pad1B",
+            "type": "char",
+            "offset": "0x1B",
+            "size": 1
+        },
+        {
+            "name": "m_fLeftCoord",
+            "type": "float",
+            "offset": "0x1C",
+            "size": 4
+        },
+        {
+            "name": "m_fRightCoord",
+            "type": "float",
+            "offset": "0x20",
+            "size": 4
+        },
+        {
+            "name": "m_fFrontCoord",
+            "type": "float",
+            "offset": "0x24",
+            "size": 4
+        },
+        {
+            "name": "m_fBackCoord",
+            "type": "float",
+            "offset": "0x28",
+            "size": 4
+        },
+        {
+            "name": "m_fUpCoord",
+            "type": "float",
+            "offset": "0x2C",
+            "size": 4
+        },
+        {
+            "name": "m_fDownCoord",
+            "type": "float",
+            "offset": "0x30",
+            "size": 4
+        },
+        {
+            "name": "m_fDoorCurrentAngle",
+            "type": "float",
+            "offset": "0x34",
+            "size": 4
+        },
+        {
+            "name": "m_fDoorOpenAngle",
+            "type": "float",
+            "offset": "0x38",
+            "size": 4
+        },
+        {
+            "name": "m_vecDoorOnePosnXY",
+            "type": "CVector2D",
+            "offset": "0x3C",
+            "size": 8
+        },
+        {
+            "name": "m_vecDoorTwoPosnXY",
+            "type": "CVector2D",
+            "offset": "0x44",
+            "size": 8
+        },
+        {
+            "name": "m_fDoorOnePosnZ",
+            "type": "float",
+            "offset": "0x4C",
+            "size": 4
+        },
+        {
+            "name": "m_fDoorTwoPosnZ",
+            "type": "float",
+            "offset": "0x50",
+            "size": 4
+        },
+        {
+            "name": "m_nTimeToOpen",
+            "type": "int",
+            "offset": "0x54",
+            "size": 4
+        },
+        {
+            "name": "m_bHasThisCarBeenCollected",
+            "type": "bool",
+            "offset": "0x58",
+            "size": 1
+        },
+        {
+            "name": "_pad59",
+            "type": "char[3]",
+            "offset": "0x59",
+            "size": 3
+        },
+        {
+            "name": "m_pTargetCar",
+            "type": "CAutomobile *",
+            "offset": "0x5C",
+            "size": 4
+        },
+        {
+            "name": "i19",
+            "type": "int",
+            "offset": "0x60",
+            "size": 4
+        },
+        {
+            "name": "m_storedCar",
+            "type": "CStoredCar",
+            "offset": "0x64",
+            "size": "0x28"
+        }
+    ]
+}

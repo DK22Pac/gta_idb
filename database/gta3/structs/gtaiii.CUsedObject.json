@@ -1,0 +1,23 @@
+{
+    "name": "CUsedObject",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x1C",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_szName",
+            "type": "unsigned __int8[24]",
+            "offset": 0,
+            "size": "0x18"
+        },
+        {
+            "name": "m_nIndex",
+            "type": "int",
+            "offset": "0x18",
+            "size": 4
+        }
+    ]
+}

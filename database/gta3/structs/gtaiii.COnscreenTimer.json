@@ -1,0 +1,35 @@
+{
+    "name": "COnscreenTimer",
+    "module": "COnscreenTimer",
+    "scope": "",
+    "kind": "class",
+    "size": "0x78",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_sEntries",
+            "type": "COnscreenTimerEntry[1]",
+            "offset": 0,
+            "size": "0x74"
+        },
+        {
+            "name": "m_bDisplay",
+            "type": "bool",
+            "offset": "0x74",
+            "size": 1
+        },
+        {
+            "name": "m_bDisabled",
+            "type": "bool",
+            "offset": "0x75",
+            "size": 1
+        },
+        {
+            "name": "_pad76",
+            "type": "char[2]",
+            "offset": "0x76",
+            "size": 2
+        }
+    ]
+}

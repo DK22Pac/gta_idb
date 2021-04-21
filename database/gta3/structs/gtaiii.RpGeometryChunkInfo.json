@@ -1,0 +1,35 @@
+{
+    "name": "RpGeometryChunkInfo",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x10",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "format",
+            "type": "RwInt32",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "numTriangles",
+            "type": "RwInt32",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "numVertices",
+            "type": "RwInt32",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "numMorphTargets",
+            "type": "RwInt32",
+            "offset": "0xC",
+            "size": 4
+        }
+    ]
+}

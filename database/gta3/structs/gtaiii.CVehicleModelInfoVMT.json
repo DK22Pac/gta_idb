@@ -1,0 +1,53 @@
+{
+    "name": "CVehicleModelInfoVMT",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x1C",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "destructor",
+            "type": "void (__thiscall *)(CVehicleModelInfo *, int)",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "Shutdown",
+            "type": "void (__thiscall *)(CVehicleModelInfo *)",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "DeleteRwObject",
+            "type": "void (__thiscall *)(CVehicleModelInfo *)",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "CreateInstance",
+            "type": "uRwObject (__thiscall *)(CVehicleModelInfo *)",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "CreateInstance_",
+            "type": "RwObject *(__thiscall *)(CVehicleModelInfo *, RwMatrix *)",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "GetRwObject",
+            "type": "RpClump *(__thiscall *)(CVehicleModelInfo *)",
+            "offset": "0x14",
+            "size": 4
+        },
+        {
+            "name": "SetClump",
+            "type": "void (__thiscall *)(CVehicleModelInfo *, RpClump *)",
+            "offset": "0x18",
+            "size": 4
+        }
+    ]
+}

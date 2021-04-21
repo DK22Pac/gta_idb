@@ -4,44 +4,50 @@
     "scope": "",
     "kind": "class",
     "size": "0x18",
-    "alignment": 0,
+    "alignment": 2,
     "comment": "",
     "members": [
         {
-            "name": "m_dwType",
-            "type": "int",
+            "name": "m_nType",
+            "type": "eWeaponType",
             "offset": 0,
             "size": 4
         },
         {
             "name": "m_nState",
-            "type": "int",
+            "type": "unsigned int",
             "offset": 4,
             "size": 4
         },
         {
-            "name": "m_dwAmmoInClip",
+            "name": "m_nAmmoInClip",
             "type": "int",
             "offset": 8,
             "size": 4
         },
         {
-            "name": "m_dwTotalAmmo",
-            "type": "int",
+            "name": "m_nTotalAmmo",
+            "type": "unsigned int",
             "offset": "0xC",
             "size": 4
         },
         {
-            "name": "m_dwTimeNextShot",
-            "type": "int",
+            "name": "m_nNextShotTime",
+            "type": "unsigned int",
             "offset": "0x10",
             "size": 4
         },
         {
-            "name": "field_14",
-            "type": "int",
+            "name": "bAddRotOffset",
+            "type": "bool",
             "offset": "0x14",
-            "size": 4
+            "size": 1
+        },
+        {
+            "name": "_pad15",
+            "type": "char[3]",
+            "offset": "0x15",
+            "size": 3
         }
     ]
 }

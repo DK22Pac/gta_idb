@@ -1,0 +1,29 @@
+{
+    "name": "RwCameraClearMode",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "rwCAMERACLEARIMAGE",
+            "value": "0x1"
+        },
+        {
+            "name": "rwCAMERACLEARZ",
+            "value": "0x2"
+        },
+        {
+            "name": "rwCAMERACLEARSTENCIL",
+            "value": "0x4"
+        },
+        {
+            "name": "rwCAMERACLEARMODEFORCEENUMSIZEINT",
+            "value": "0x7FFFFFFF"
+        }
+    ]
+}

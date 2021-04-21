@@ -1,0 +1,49 @@
+{
+    "name": "RwPlatformID",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "rwID_PCD3D7",
+            "value": "0x1"
+        },
+        {
+            "name": "rwID_PCOGL",
+            "value": "0x2"
+        },
+        {
+            "name": "rwID_MAC",
+            "value": "0x3"
+        },
+        {
+            "name": "rwID_PS2",
+            "value": "0x4"
+        },
+        {
+            "name": "rwID_XBOX",
+            "value": "0x5"
+        },
+        {
+            "name": "rwID_GAMECUBE",
+            "value": "0x6"
+        },
+        {
+            "name": "rwID_SOFTRAS",
+            "value": "0x7"
+        },
+        {
+            "name": "rwID_PCD3D8",
+            "value": "0x8"
+        },
+        {
+            "name": "rwPLATFROMIDFORCEENUMSIZEINT",
+            "value": "0x7FFFFFFF"
+        }
+    ]
+}

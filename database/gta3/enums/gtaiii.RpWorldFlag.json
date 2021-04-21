@@ -1,0 +1,69 @@
+{
+    "name": "RpWorldFlag",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "rpWORLDTRISTRIP",
+            "value": "0x1"
+        },
+        {
+            "name": "rpWORLDPOSITIONS",
+            "value": "0x2"
+        },
+        {
+            "name": "rpWORLDTEXTURED",
+            "value": "0x4"
+        },
+        {
+            "name": "rpWORLDPRELIT",
+            "value": "0x8"
+        },
+        {
+            "name": "rpWORLDNORMALS",
+            "value": "0x10"
+        },
+        {
+            "name": "rpWORLDLIGHT",
+            "value": "0x20"
+        },
+        {
+            "name": "rpWORLDMODULATEMATERIALCOLOR",
+            "value": "0x40"
+        },
+        {
+            "name": "rpWORLDTEXTURED2",
+            "value": "0x80"
+        },
+        {
+            "name": "rpWORLDFLAGSMASK",
+            "value": "0xFF"
+        },
+        {
+            "name": "rpWORLDNATIVE",
+            "value": "0x1000000"
+        },
+        {
+            "name": "rpWORLDNATIVEINSTANCE",
+            "value": "0x2000000"
+        },
+        {
+            "name": "rpWORLDNATIVEFLAGSMASK",
+            "value": "0xF000000"
+        },
+        {
+            "name": "rpWORLDSECTORSOVERLAP",
+            "value": "0x40000000"
+        },
+        {
+            "name": "rpWORLDFLAGFORCEENUMSIZEINT",
+            "value": "0x7FFFFFFF"
+        }
+    ]
+}

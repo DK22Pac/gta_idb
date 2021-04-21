@@ -1,0 +1,709 @@
+{
+    "name": "AnimationId",
+    "module": "",
+    "scope": "",
+    "width": 4,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "ANIMATION_WALK_CIVI",
+            "value": 0
+        },
+        {
+            "name": "ANIMATION_RUN_CIVI",
+            "value": 1
+        },
+        {
+            "name": "ANIMATION_SPRINT_PANIC",
+            "value": 2
+        },
+        {
+            "name": "ANIMATION_IDLE_STANCE",
+            "value": 3
+        },
+        {
+            "name": "ANIMATION_WALK_START",
+            "value": 4
+        },
+        {
+            "name": "ANIMATION_RUN_STOP",
+            "value": 5
+        },
+        {
+            "name": "ANIMATION_RUN_STOPR",
+            "value": 6
+        },
+        {
+            "name": "ANIMATION_IDLE_HBHB",
+            "value": 7
+        },
+        {
+            "name": "ANIMATION_IDLE_HBHB2",
+            "value": 8
+        },
+        {
+            "name": "ANIMATION_IDLE_TIRED",
+            "value": 9
+        },
+        {
+            "name": "ANIMATION_ARMED",
+            "value": 10
+        },
+        {
+            "name": "ANIMATION_IDLE_CHAT",
+            "value": 11
+        },
+        {
+            "name": "ANIMATION_IDLE_TAXI",
+            "value": 12
+        },
+        {
+            "name": "ANIMATION_KO_SHOT_FRONT",
+            "value": 13
+        },
+        {
+            "name": "ANIMATION_KO_SHOT_FRONT2",
+            "value": 14
+        },
+        {
+            "name": "ANIMATION_KO_SHOT_FRONT3",
+            "value": 15
+        },
+        {
+            "name": "ANIMATION_KO_SHOT_FRONT4",
+            "value": 16
+        },
+        {
+            "name": "ANIMATION_KO_SHOT_FACE",
+            "value": 17
+        },
+        {
+            "name": "ANIMATION_KO_SHOT_STOM",
+            "value": 18
+        },
+        {
+            "name": "ANIMATION_KO_SHOT_ARML",
+            "value": 19
+        },
+        {
+            "name": "ANIMATION_KO_SHOT_ARMR",
+            "value": 20
+        },
+        {
+            "name": "ANIMATION_KO_SHOT_LEGL",
+            "value": 21
+        },
+        {
+            "name": "ANIMATION_KO_SHOT_LEGR",
+            "value": 22
+        },
+        {
+            "name": "ANIMATION_KO_LEFT",
+            "value": 23
+        },
+        {
+            "name": "ANIMATION_KO_RIGHT",
+            "value": 24
+        },
+        {
+            "name": "ANIMATION_KO_SKID_FRONT",
+            "value": 25
+        },
+        {
+            "name": "ANIMATION_KO_SPIN_R",
+            "value": 26
+        },
+        {
+            "name": "ANIMATION_KO_SKID_BACK",
+            "value": 27
+        },
+        {
+            "name": "ANIMATION_KO_SPIN_L",
+            "value": 28
+        },
+        {
+            "name": "ANIMATION_SHOT_PARTIAL",
+            "value": 29
+        },
+        {
+            "name": "ANIMATION_SHOT_LEFTP",
+            "value": 30
+        },
+        {
+            "name": "ANIMATION_SHOT_PARTIAL2",
+            "value": 31
+        },
+        {
+            "name": "ANIMATION_SHOT_RIGHTP",
+            "value": 32
+        },
+        {
+            "name": "ANIMATION_HIT_FRONT",
+            "value": 33
+        },
+        {
+            "name": "ANIMATION_HIT_L",
+            "value": 34
+        },
+        {
+            "name": "ANIMATION_HIT_BACK",
+            "value": 35
+        },
+        {
+            "name": "ANIMATION_HIT_R",
+            "value": 36
+        },
+        {
+            "name": "ANIMATION_FLOOR_HIT",
+            "value": 37
+        },
+        {
+            "name": "ANIMATION_HIT_BODYBLOW",
+            "value": 38
+        },
+        {
+            "name": "ANIMATION_HIT_CHEST",
+            "value": 39
+        },
+        {
+            "name": "ANIMATION_HIT_HEAD",
+            "value": 40
+        },
+        {
+            "name": "ANIMATION_HIT_WALK",
+            "value": 41
+        },
+        {
+            "name": "ANIMATION_HIT_WALL",
+            "value": 42
+        },
+        {
+            "name": "ANIMATION_FLOOR_HIT_F",
+            "value": 43
+        },
+        {
+            "name": "ANIMATION_HIT_BEHIND",
+            "value": 44
+        },
+        {
+            "name": "ANIMATION_PUNCHR",
+            "value": 45
+        },
+        {
+            "name": "ANIMATION_KICK_FLOOR",
+            "value": 46
+        },
+        {
+            "name": "ANIMATION_WEAPON_BAT_H",
+            "value": 47
+        },
+        {
+            "name": "ANIMATION_WEAPON_BAT_V",
+            "value": 48
+        },
+        {
+            "name": "ANIMATION_WEAPON_HGUN_BO",
+            "value": 49
+        },
+        {
+            "name": "ANIMATION_WEAPON_AK_BODY",
+            "value": 50
+        },
+        {
+            "name": "ANIMATION_WEAPON_PUMP",
+            "value": 51
+        },
+        {
+            "name": "ANIMATION_WEAPON_SNIPER",
+            "value": 52
+        },
+        {
+            "name": "ANIMATION_WEAPON_THROW",
+            "value": 53
+        },
+        {
+            "name": "ANIMATION_WEAPON_THROWU",
+            "value": 54
+        },
+        {
+            "name": "ANIMATION_WEAPON_START_T",
+            "value": 55
+        },
+        {
+            "name": "ANIMATION_BOMBER_1",
+            "value": 56
+        },
+        {
+            "name": "ANIMATION_WEAPON_HRUN_RL",
+            "value": 57
+        },
+        {
+            "name": "ANIMATION_WEAPON_AK_RLOA",
+            "value": 58
+        },
+        {
+            "name": "ANIMATION_FPS_PUNCH",
+            "value": 59
+        },
+        {
+            "name": "ANIMATION_FPS_BAT",
+            "value": 60
+        },
+        {
+            "name": "ANIMATION_FPS_UZI",
+            "value": 61
+        },
+        {
+            "name": "ANIMATION_FPS_PUMP",
+            "value": 62
+        },
+        {
+            "name": "ANIMATION_FPS_AK",
+            "value": 63
+        },
+        {
+            "name": "ANIMATION_FPS_M16",
+            "value": 64
+        },
+        {
+            "name": "ANIMATION_FPS_ROCKET",
+            "value": 65
+        },
+        {
+            "name": "ANIMATION_FIGHT_IDLE",
+            "value": 66
+        },
+        {
+            "name": "ANIMATION_FIGHT2_IDLE",
+            "value": 67
+        },
+        {
+            "name": "ANIMATION_FIGHTSH_F",
+            "value": 68
+        },
+        {
+            "name": "ANIMATION_FIGHT_BODYBLOW",
+            "value": 69
+        },
+        {
+            "name": "ANIMATION_FIGHT_HEAD",
+            "value": 70
+        },
+        {
+            "name": "ANIMATION_FIGHT_KICK",
+            "value": 71
+        },
+        {
+            "name": "ANIMATION_FIGHT_KNEE",
+            "value": 72
+        },
+        {
+            "name": "ANIMATION_FIGHT_LHOOK",
+            "value": 73
+        },
+        {
+            "name": "ANIMATION_FIGHT_PUNCH",
+            "value": 74
+        },
+        {
+            "name": "ANIMATION_FIGHT_RNDHSE",
+            "value": 75
+        },
+        {
+            "name": "ANIMATION_FIGHT_LNGKCK",
+            "value": 76
+        },
+        {
+            "name": "ANIMATION_FIGHT_PPUNCH",
+            "value": 77
+        },
+        {
+            "name": "ANIMATION_CAR_JACKED_RHS",
+            "value": 78
+        },
+        {
+            "name": "ANIMATION_CAR_LJACKED_RHS",
+            "value": 79
+        },
+        {
+            "name": "ANIMATION_CAR_JACKED_LHS",
+            "value": 80
+        },
+        {
+            "name": "ANIMATION_CAR_LJACKED_LHS",
+            "value": 81
+        },
+        {
+            "name": "ANIMATION_CAR_QJACK",
+            "value": 82
+        },
+        {
+            "name": "ANIMATION_CAR_QJACKED",
+            "value": 83
+        },
+        {
+            "name": "ANIMATION_CAR_ALIGN_LHS",
+            "value": 84
+        },
+        {
+            "name": "ANIMATION_CAR_ALIGN_HI_LHS",
+            "value": 85
+        },
+        {
+            "name": "ANIMATION_CAR_OPEN_LHS",
+            "value": 86
+        },
+        {
+            "name": "ANIMATION_CAR_DOORLOCKED_LHS",
+            "value": 87
+        },
+        {
+            "name": "ANIMATION_CAR_PULLOUT_LHS",
+            "value": 88
+        },
+        {
+            "name": "ANIMATION_CAR_PULLOUT_L_LHS",
+            "value": 89
+        },
+        {
+            "name": "ANIMATION_CAR_GETIN_LHS",
+            "value": 90
+        },
+        {
+            "name": "ANIMATION_CAR_GETINL_LHS",
+            "value": 91
+        },
+        {
+            "name": "ANIMATION_CAR_CLOSEDOOR_LHS",
+            "value": 92
+        },
+        {
+            "name": "ANIMATION_CAR_CLOSEDOORL_LHS",
+            "value": 93
+        },
+        {
+            "name": "ANIMATION_CAR_ROLLDOOR",
+            "value": 94
+        },
+        {
+            "name": "ANIMATION_CAR_ROLLDOORL0",
+            "value": 95
+        },
+        {
+            "name": "ANIMATION_CAR_GETOUT_LHS",
+            "value": 96
+        },
+        {
+            "name": "ANIMATION_CAR_GETOUTL_LHS",
+            "value": 97
+        },
+        {
+            "name": "ANIMATION_CAR_CLOSE_LHS",
+            "value": 98
+        },
+        {
+            "name": "ANIMATION_CAR_ALIGN_RHS",
+            "value": 99
+        },
+        {
+            "name": "ANIMATION_CAR_ALIGNHI_RHS",
+            "value": 100
+        },
+        {
+            "name": "ANIMATION_CAR_OPEN_RHS",
+            "value": 101
+        },
+        {
+            "name": "ANIMATION_CAR_DOORLOCKED_RHS",
+            "value": 102
+        },
+        {
+            "name": "ANIMATION_PULLOUT_RHS",
+            "value": 103
+        },
+        {
+            "name": "ANIMATION_PULLOUTL_RHS",
+            "value": 104
+        },
+        {
+            "name": "ANIMATION_GETIN_RHS",
+            "value": 105
+        },
+        {
+            "name": "ANIMATION_GETINL_RHS",
+            "value": 106
+        },
+        {
+            "name": "ANIMATION_CLOSEDOOR_RHS",
+            "value": 107
+        },
+        {
+            "name": "ANIMATION_CLOSEDOORL_RHS",
+            "value": 108
+        },
+        {
+            "name": "ANIMATION_CAR_SHUFFLE_RHS",
+            "value": 109
+        },
+        {
+            "name": "ANIMATION_CAR_LSHUFFLE_RHS",
+            "value": 110
+        },
+        {
+            "name": "ANIMATION_CAR_SIT",
+            "value": 111
+        },
+        {
+            "name": "ANIMATION_CAR_LSIT",
+            "value": 112
+        },
+        {
+            "name": "ANIMATION_CAR_SITP",
+            "value": 113
+        },
+        {
+            "name": "ANIMATION_CAR_SITPL0",
+            "value": 114
+        },
+        {
+            "name": "ANIMATION_DRIVE_L",
+            "value": 115
+        },
+        {
+            "name": "ANIMATION_DRIVE_R",
+            "value": 116
+        },
+        {
+            "name": "ANIMATION_DRIVE_LO_L",
+            "value": 117
+        },
+        {
+            "name": "ANIMATION_DRIVE_LO_R",
+            "value": 118
+        },
+        {
+            "name": "ANIMATION_DRIVEBY_L",
+            "value": 119
+        },
+        {
+            "name": "ANIMATION_DRIVEBY_R",
+            "value": 120
+        },
+        {
+            "name": "ANIMATION_CAR_LB",
+            "value": 121
+        },
+        {
+            "name": "ANIMATION_DRIVE_BOAT",
+            "value": 122
+        },
+        {
+            "name": "ANIMATION_CAR_GETOUT_RHS",
+            "value": 123
+        },
+        {
+            "name": "ANIMATION_CAR_GETOUTL_RHS",
+            "value": 124
+        },
+        {
+            "name": "ANIMATION_CAR_CLOSE_RHS",
+            "value": 125
+        },
+        {
+            "name": "ANIMATION_CAR_HOOKERTALK",
+            "value": 126
+        },
+        {
+            "name": "ANIMATION_COACH_OPENL",
+            "value": 127
+        },
+        {
+            "name": "ANIMATION_COACH_OPENR",
+            "value": 128
+        },
+        {
+            "name": "ANIMATION_COACH_INL",
+            "value": 129
+        },
+        {
+            "name": "ANIMATION_COACH_INR",
+            "value": 130
+        },
+        {
+            "name": "ANIMATION_COACH_OUTL",
+            "value": 131
+        },
+        {
+            "name": "ANIMATION_TRAIN_GETIN",
+            "value": 132
+        },
+        {
+            "name": "ANIMATION_TRAIN_GETOUT",
+            "value": 133
+        },
+        {
+            "name": "ANIMATION_CAR_CRAWLOUT_RHS",
+            "value": 134
+        },
+        {
+            "name": "ANIMATION_CAR_CRAWLOUT_RHS2",
+            "value": 135
+        },
+        {
+            "name": "ANIMATION_VAN_OPENL",
+            "value": 136
+        },
+        {
+            "name": "ANIMATION_VAN_GETINL",
+            "value": 137
+        },
+        {
+            "name": "ANIMATION_VAN_CLOSEL",
+            "value": 138
+        },
+        {
+            "name": "ANIMATION_VAN_GETOUTL",
+            "value": 139
+        },
+        {
+            "name": "ANIMATION_VAN_OPEN",
+            "value": 140
+        },
+        {
+            "name": "ANIMATION_VAN_GETIN",
+            "value": 141
+        },
+        {
+            "name": "ANIMATION_VAN_CLOSE",
+            "value": 142
+        },
+        {
+            "name": "ANIMATION_VAN_GETOUT",
+            "value": 143
+        },
+        {
+            "name": "ANIMATION_GETUP1",
+            "value": 144
+        },
+        {
+            "name": "ANIMATION_GETUP2",
+            "value": 145
+        },
+        {
+            "name": "ANIMATION_GETUP3",
+            "value": 146
+        },
+        {
+            "name": "ANIMATION_GETUP_FRONT",
+            "value": 147
+        },
+        {
+            "name": "ANIMATION_JUMP_LAUNCH",
+            "value": 148
+        },
+        {
+            "name": "ANIMATION_JUMP_GLIDE",
+            "value": 149
+        },
+        {
+            "name": "ANIMATION_JUMP_LAND",
+            "value": 150
+        },
+        {
+            "name": "ANIMATION_FALL_FALL",
+            "value": 151
+        },
+        {
+            "name": "ANIMATION_FALL_GLIDE",
+            "value": 152
+        },
+        {
+            "name": "ANIMATION_FALL_LAND",
+            "value": 153
+        },
+        {
+            "name": "ANIMATION_FALL_COLLAPSE",
+            "value": 154
+        },
+        {
+            "name": "ANIMATION_EV_STEP",
+            "value": 155
+        },
+        {
+            "name": "ANIMATION_EV_DIVE",
+            "value": 156
+        },
+        {
+            "name": "ANIMATION_XPRESS_SCRATCH",
+            "value": 157
+        },
+        {
+            "name": "ANIMATION_ROADCROSS",
+            "value": 158
+        },
+        {
+            "name": "ANIMATION_TURN_180",
+            "value": 159
+        },
+        {
+            "name": "ANIMATION_ARRESTGUN",
+            "value": 160
+        },
+        {
+            "name": "ANIMATION_DROWN",
+            "value": 161
+        },
+        {
+            "name": "ANIMATION_CPR",
+            "value": 162
+        },
+        {
+            "name": "ANIMATION_DUCK_DOWN",
+            "value": 163
+        },
+        {
+            "name": "ANIMATION_DUCK_LOW",
+            "value": 164
+        },
+        {
+            "name": "ANIMATION_RBLOCK_CSHOOT",
+            "value": 165
+        },
+        {
+            "name": "ANIMATION_WEAPON_THROWU_2",
+            "value": 166
+        },
+        {
+            "name": "ANIMATION_HANDSUP",
+            "value": 167
+        },
+        {
+            "name": "ANIMATION_HANDS_COWER",
+            "value": 168
+        },
+        {
+            "name": "ANIMATION_FUCKU",
+            "value": 169
+        },
+        {
+            "name": "ANIMATION_PHONE_IN",
+            "value": 170
+        },
+        {
+            "name": "ANIMATION_PHONE_OUT",
+            "value": 171
+        },
+        {
+            "name": "ANIMATION_PHONE_TALK",
+            "value": 172
+        },
+        {
+            "name": "ANIMATION_TOTAL_ANIMATIONS",
+            "value": 173
+        }
+    ]
+}

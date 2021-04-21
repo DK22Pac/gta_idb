@@ -1,0 +1,33 @@
+{
+    "name": "eBombState",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "BOMB_TIMED_NOT_ACTIVATED",
+            "value": 1
+        },
+        {
+            "name": "BOMB_IGNITION",
+            "value": 2
+        },
+        {
+            "name": "BOMB_STICKY",
+            "value": 3
+        },
+        {
+            "name": "BOMB_TIMED_ACTIVATED",
+            "value": 4
+        },
+        {
+            "name": "BOMB_IGNITION_ACTIVATED",
+            "value": 5
+        }
+    ]
+}

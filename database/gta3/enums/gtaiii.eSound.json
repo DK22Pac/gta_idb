@@ -1,0 +1,685 @@
+{
+    "name": "eSound",
+    "module": "",
+    "scope": "",
+    "width": 2,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "SOUND_CAR_DOOR_CLOSE_BONNET",
+            "value": 0
+        },
+        {
+            "name": "SOUND_CAR_DOOR_CLOSE_BUMPER",
+            "value": 1
+        },
+        {
+            "name": "SOUND_CAR_DOOR_CLOSE_FRONT_LEFT",
+            "value": 2
+        },
+        {
+            "name": "SOUND_CAR_DOOR_CLOSE_FRONT_RIGHT",
+            "value": 3
+        },
+        {
+            "name": "SOUND_CAR_DOOR_CLOSE_BACK_LEFT",
+            "value": 4
+        },
+        {
+            "name": "SOUND_CAR_DOOR_CLOSE_BACK_RIGHT",
+            "value": 5
+        },
+        {
+            "name": "SOUND_CAR_DOOR_OPEN_BONNET",
+            "value": 6
+        },
+        {
+            "name": "SOUND_CAR_DOOR_OPEN_BUMPER",
+            "value": 7
+        },
+        {
+            "name": "SOUND_CAR_DOOR_OPEN_FRONT_LEFT",
+            "value": 8
+        },
+        {
+            "name": "SOUND_CAR_DOOR_OPEN_FRONT_RIGHT",
+            "value": 9
+        },
+        {
+            "name": "SOUND_CAR_DOOR_OPEN_BACK_LEFT",
+            "value": 10
+        },
+        {
+            "name": "SOUND_CAR_DOOR_OPEN_BACK_RIGHT",
+            "value": 11
+        },
+        {
+            "name": "SOUND_CAR_WINDSHIELD_CRACK",
+            "value": 12
+        },
+        {
+            "name": "SOUND_CAR_JUMP",
+            "value": 13
+        },
+        {
+            "name": "SOUND_E",
+            "value": 14
+        },
+        {
+            "name": "SOUND_F",
+            "value": 15
+        },
+        {
+            "name": "SOUND_CAR_ENGINE_START",
+            "value": 16
+        },
+        {
+            "name": "SOUND_CAR_LIGHT_BREAK",
+            "value": 17
+        },
+        {
+            "name": "SOUND_CAR_HYDRALIC_1",
+            "value": 18
+        },
+        {
+            "name": "SOUND_CAR_HYDRALIC_2",
+            "value": 19
+        },
+        {
+            "name": "SOUND_CAR_HYDRALIC_3",
+            "value": 20
+        },
+        {
+            "name": "SOUND_CAR_JERK",
+            "value": 21
+        },
+        {
+            "name": "SOUND_CAR_SPLASH",
+            "value": 22
+        },
+        {
+            "name": "SOUND_17",
+            "value": 23
+        },
+        {
+            "name": "SOUND_18",
+            "value": 24
+        },
+        {
+            "name": "SOUND_19",
+            "value": 25
+        },
+        {
+            "name": "SOUND_CAR_TANK_TURRET_ROTATE",
+            "value": 26
+        },
+        {
+            "name": "SOUND_CAR_BOMB_TICK",
+            "value": 27
+        },
+        {
+            "name": "SOUND_PLANE_ON_GROUND",
+            "value": 28
+        },
+        {
+            "name": "SOUND_STEP_START",
+            "value": 29
+        },
+        {
+            "name": "SOUND_STEP_END",
+            "value": 30
+        },
+        {
+            "name": "SOUND_FALL_LAND",
+            "value": 31
+        },
+        {
+            "name": "SOUND_FALL_COLLAPSE",
+            "value": 32
+        },
+        {
+            "name": "SOUND_21",
+            "value": 33
+        },
+        {
+            "name": "SOUND_22",
+            "value": 34
+        },
+        {
+            "name": "SOUND_23",
+            "value": 35
+        },
+        {
+            "name": "SOUND_24",
+            "value": 36
+        },
+        {
+            "name": "SOUND_25",
+            "value": 37
+        },
+        {
+            "name": "SOUND_26",
+            "value": 38
+        },
+        {
+            "name": "SOUND_WEAPON_PUNCH_ATTACK",
+            "value": 39
+        },
+        {
+            "name": "SOUND_28",
+            "value": 40
+        },
+        {
+            "name": "SOUND_29",
+            "value": 41
+        },
+        {
+            "name": "SOUND_2A",
+            "value": 42
+        },
+        {
+            "name": "SOUND_2B",
+            "value": 43
+        },
+        {
+            "name": "SOUND_2C",
+            "value": 44
+        },
+        {
+            "name": "SOUND_2D",
+            "value": 45
+        },
+        {
+            "name": "SOUND_WEAPON_BAT_ATTACK",
+            "value": 46
+        },
+        {
+            "name": "SOUND_WEAPON_SHOT_FIRED",
+            "value": 47
+        },
+        {
+            "name": "SOUND_WEAPON_RELOAD",
+            "value": 48
+        },
+        {
+            "name": "SOUND_31",
+            "value": 49
+        },
+        {
+            "name": "SOUND_32",
+            "value": 50
+        },
+        {
+            "name": "SOUND_33",
+            "value": 51
+        },
+        {
+            "name": "SOUND_WEAPON_FLAMETHROWER_FIRE",
+            "value": 52
+        },
+        {
+            "name": "SOUND_WEAPON_SNIPER_SHOT_NO_ZOOM",
+            "value": 53
+        },
+        {
+            "name": "SOUND_WEAPON_ROCKET_SHOT_NO_ZOOM",
+            "value": 54
+        },
+        {
+            "name": "SOUND_WEAPON_HIT_PED",
+            "value": 55
+        },
+        {
+            "name": "SOUND_WEAPON_HIT_VEHICLE",
+            "value": 56
+        },
+        {
+            "name": "SOUND_GARAGE_NO_MONEY",
+            "value": 57
+        },
+        {
+            "name": "SOUND_GARAGE_BAD_VEHICLE",
+            "value": 58
+        },
+        {
+            "name": "SOUND_GARAGE_OPENING",
+            "value": 59
+        },
+        {
+            "name": "SOUND_3C",
+            "value": 60
+        },
+        {
+            "name": "SOUND_GARAGE_BOMB1_SET",
+            "value": 61
+        },
+        {
+            "name": "SOUND_GARAGE_BOMB2_SET",
+            "value": 62
+        },
+        {
+            "name": "SOUND_GARAGE_BOMB3_SET",
+            "value": 63
+        },
+        {
+            "name": "SOUND_40",
+            "value": 64
+        },
+        {
+            "name": "SOUND_41",
+            "value": 65
+        },
+        {
+            "name": "SOUND_GARAGE_VEHICLE_DECLINED",
+            "value": 66
+        },
+        {
+            "name": "SOUND_GARAGE_VEHICLE_ACCEPTED",
+            "value": 67
+        },
+        {
+            "name": "SOUND_GARAGE_DOOR_CLOSED",
+            "value": 68
+        },
+        {
+            "name": "SOUND_GARAGE_DOOR_OPENED",
+            "value": 69
+        },
+        {
+            "name": "SOUND_CRANE_PICKUP",
+            "value": 70
+        },
+        {
+            "name": "SOUND_PICKUP_WEAPON_BOUGHT",
+            "value": 71
+        },
+        {
+            "name": "SOUND_PICKUP_WEAPON",
+            "value": 72
+        },
+        {
+            "name": "SOUND_PICKUP_HEALTH",
+            "value": 73
+        },
+        {
+            "name": "SOUND_4A",
+            "value": 74
+        },
+        {
+            "name": "SOUND_4B",
+            "value": 75
+        },
+        {
+            "name": "SOUND_PICKUP_ADRENALINE",
+            "value": 76
+        },
+        {
+            "name": "SOUND_PICKUP_ARMOUR",
+            "value": 77
+        },
+        {
+            "name": "SOUND_PICKUP_BONUS",
+            "value": 78
+        },
+        {
+            "name": "SOUND_PICKUP_MONEY",
+            "value": 79
+        },
+        {
+            "name": "SOUND_PICKUP_HIDDEN_PACKAGE",
+            "value": 80
+        },
+        {
+            "name": "SOUND_PICKUP_PACMAN_PILL",
+            "value": 81
+        },
+        {
+            "name": "SOUND_PICKUP_PACMAN_PACKAGE",
+            "value": 82
+        },
+        {
+            "name": "SOUND_PICKUP_FLOAT_PACKAGE",
+            "value": 83
+        },
+        {
+            "name": "SOUND_BOMB_TIMED_ACTIVATED",
+            "value": 84
+        },
+        {
+            "name": "SOUND_55",
+            "value": 85
+        },
+        {
+            "name": "SOUND_BOMB_ONIGNITION_ACTIVATED",
+            "value": 86
+        },
+        {
+            "name": "SOUND_BOMB_TICK",
+            "value": 87
+        },
+        {
+            "name": "SOUND_RAMPAGE_START",
+            "value": 88
+        },
+        {
+            "name": "SOUND_RAMPAGE_ONGOING",
+            "value": 89
+        },
+        {
+            "name": "SOUND_RAMPAGE_PASSED",
+            "value": 90
+        },
+        {
+            "name": "SOUND_RAMPAGE_FAILED",
+            "value": 91
+        },
+        {
+            "name": "SOUND_RAMPAGE_KILL",
+            "value": 92
+        },
+        {
+            "name": "SOUND_RAMPAGE_CAR_BLOWN",
+            "value": 93
+        },
+        {
+            "name": "SOUND_EVIDENCE_PICKUP",
+            "value": 94
+        },
+        {
+            "name": "SOUND_UNLOAD_GOLD",
+            "value": 95
+        },
+        {
+            "name": "SOUND_PAGER",
+            "value": 96
+        },
+        {
+            "name": "SOUND_PED_DEATH",
+            "value": 97
+        },
+        {
+            "name": "SOUND_PED_DAMAGE",
+            "value": 98
+        },
+        {
+            "name": "SOUND_PED_63",
+            "value": 99
+        },
+        {
+            "name": "SOUND_PED_LAND",
+            "value": 100
+        },
+        {
+            "name": "SOUND_PED_BULLET_HIT",
+            "value": 101
+        },
+        {
+            "name": "SOUND_PED_BOMBER",
+            "value": 102
+        },
+        {
+            "name": "SOUND_PED_BURNING",
+            "value": 103
+        },
+        {
+            "name": "SOUND_PED_ARREST_FBI",
+            "value": 104
+        },
+        {
+            "name": "SOUND_PED_ARREST_SWAT",
+            "value": 105
+        },
+        {
+            "name": "SOUND_PED_ARREST_COP",
+            "value": 106
+        },
+        {
+            "name": "SOUND_PED_HELI_PLAYER_FOUND",
+            "value": 107
+        },
+        {
+            "name": "SOUND_PED_HANDS_UP",
+            "value": 108
+        },
+        {
+            "name": "SOUND_PED_HANDS_COWER",
+            "value": 109
+        },
+        {
+            "name": "SOUND_PED_FLEE_SPRINT",
+            "value": 110
+        },
+        {
+            "name": "SOUND_PED_CAR_JACKING",
+            "value": 111
+        },
+        {
+            "name": "SOUND_PED_MUGGING",
+            "value": 112
+        },
+        {
+            "name": "SOUND_PED_CAR_JACKED",
+            "value": 113
+        },
+        {
+            "name": "SOUND_PED_ROBBED",
+            "value": 114
+        },
+        {
+            "name": "SOUND_PED_TAXI_WAIT",
+            "value": 115
+        },
+        {
+            "name": "SOUND_PED_ATTACK",
+            "value": 116
+        },
+        {
+            "name": "SOUND_PED_DEFEND",
+            "value": 117
+        },
+        {
+            "name": "SOUND_PED_PURSUIT_ARMY",
+            "value": 118
+        },
+        {
+            "name": "SOUND_PED_PURSUIT_FBI",
+            "value": 119
+        },
+        {
+            "name": "SOUND_PED_PURSUIT_SWAT",
+            "value": 120
+        },
+        {
+            "name": "SOUND_PED_PURSUIT_COP",
+            "value": 121
+        },
+        {
+            "name": "SOUND_PED_HEALING",
+            "value": 122
+        },
+        {
+            "name": "SOUND_PED_7B",
+            "value": 123
+        },
+        {
+            "name": "SOUND_PED_LEAVE_VEHICLE",
+            "value": 124
+        },
+        {
+            "name": "SOUND_PED_EVADE",
+            "value": 125
+        },
+        {
+            "name": "SOUND_PED_FLEE_RUN",
+            "value": 126
+        },
+        {
+            "name": "SOUND_PED_CAR_COLLISION",
+            "value": 127
+        },
+        {
+            "name": "SOUND_PED_SOLICIT",
+            "value": 128
+        },
+        {
+            "name": "SOUND_PED_EXTINGUISHING_FIRE",
+            "value": 129
+        },
+        {
+            "name": "SOUND_PED_WAIT_DOUBLEBACK",
+            "value": 130
+        },
+        {
+            "name": "SOUND_PED_CHAT_SEXY",
+            "value": 131
+        },
+        {
+            "name": "SOUND_PED_CHAT_EVENT",
+            "value": 132
+        },
+        {
+            "name": "SOUND_PED_CHAT",
+            "value": 133
+        },
+        {
+            "name": "SOUND_PED_BODYCAST_HIT",
+            "value": 134
+        },
+        {
+            "name": "SOUND_PED_TAXI_CALL",
+            "value": 135
+        },
+        {
+            "name": "SOUND_INJURED_PED_MALE_OUCH",
+            "value": 136
+        },
+        {
+            "name": "SOUND_INJURED_PED_FEMALE",
+            "value": 137
+        },
+        {
+            "name": "SOUND_8A",
+            "value": 138
+        },
+        {
+            "name": "SOUND_RACE_START_3",
+            "value": 139
+        },
+        {
+            "name": "SOUND_RACE_START_2",
+            "value": 140
+        },
+        {
+            "name": "SOUND_RACE_START_1",
+            "value": 141
+        },
+        {
+            "name": "SOUND_RACE_START_GO",
+            "value": 142
+        },
+        {
+            "name": "SOUND_SPLASH",
+            "value": 143
+        },
+        {
+            "name": "SOUND_WATER_FALL",
+            "value": 144
+        },
+        {
+            "name": "SOUND_SPLATTER",
+            "value": 145
+        },
+        {
+            "name": "SOUND_CAR_PED_COLLISION",
+            "value": 146
+        },
+        {
+            "name": "SOUND_CLOCK_TICK",
+            "value": 147
+        },
+        {
+            "name": "SOUND_PART_MISSION_COMPLETE",
+            "value": 148
+        },
+        {
+            "name": "SOUND_FRONTEND_MENU_STARTING",
+            "value": 149
+        },
+        {
+            "name": "SOUND_FRONTEND_MENU_COMPLETED",
+            "value": 150
+        },
+        {
+            "name": "SOUND_FRONTEND_MENU_DENIED",
+            "value": 151
+        },
+        {
+            "name": "SOUND_FRONTEND_MENU_SUCCESS",
+            "value": 152
+        },
+        {
+            "name": "SOUND_FRONTEND_EXIT",
+            "value": 153
+        },
+        {
+            "name": "SOUND_9A",
+            "value": 154
+        },
+        {
+            "name": "SOUND_9B",
+            "value": 155
+        },
+        {
+            "name": "SOUND_FRONTEND_AUDIO_TEST",
+            "value": 156
+        },
+        {
+            "name": "SOUND_FRONTEND_FAIL",
+            "value": 157
+        },
+        {
+            "name": "SOUND_FRONTEND_NO_RADIO",
+            "value": 158
+        },
+        {
+            "name": "SOUND_FRONTEND_RADIO_CHANGE",
+            "value": 159
+        },
+        {
+            "name": "SOUND_A0",
+            "value": 160
+        },
+        {
+            "name": "SOUND_AMMUNATION_WELCOME_1",
+            "value": 161
+        },
+        {
+            "name": "SOUND_AMMUNATION_WELCOME_2",
+            "value": 162
+        },
+        {
+            "name": "SOUND_AMMUNATION_WELCOME_3",
+            "value": 163
+        },
+        {
+            "name": "SOUND_LIGHTNING",
+            "value": 164
+        },
+        {
+            "name": "SOUND_A5",
+            "value": 165
+        },
+        {
+            "name": "SOUND_TOTAL_SOUNDS",
+            "value": 166
+        },
+        {
+            "name": "SOUND_TOTAL_PED_SOUNDS",
+            "value": 167
+        }
+    ]
+}

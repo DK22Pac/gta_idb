@@ -1,0 +1,17 @@
+{
+    "name": "rpLightGlobals",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 4,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "lightFreeList",
+            "type": "RwFreeList *",
+            "offset": 0,
+            "size": 4
+        }
+    ]
+}

@@ -1,44 +1,44 @@
 {
     "name": "CBulletTrace",
-    "module": "",
+    "module": "CBulletTrace",
     "scope": "",
     "kind": "class",
     "size": "0x1C",
-    "alignment": 0,
+    "alignment": 2,
     "comment": "",
     "members": [
         {
-            "name": "origin",
+            "name": "m_vecOrigin",
             "type": "CVector",
             "offset": 0,
             "size": "0xC"
         },
         {
-            "name": "target",
+            "name": "m_vecTarget",
             "type": "CVector",
             "offset": "0xC",
             "size": "0xC"
         },
         {
-            "name": "isExist",
-            "type": "char",
+            "name": "m_bExist",
+            "type": "bool",
             "offset": "0x18",
             "size": 1
         },
         {
-            "name": "timeCounter",
+            "name": "m_nTimeCounter",
             "type": "char",
             "offset": "0x19",
             "size": 1
         },
         {
-            "name": "intensity",
+            "name": "m_nIntensity",
             "type": "char",
             "offset": "0x1A",
             "size": 1
         },
         {
-            "name": "_pad",
+            "name": "_pad1B",
             "type": "char",
             "offset": "0x1B",
             "size": 1

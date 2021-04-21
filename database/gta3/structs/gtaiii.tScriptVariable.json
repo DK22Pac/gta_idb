@@ -1,0 +1,41 @@
+{
+    "name": "tScriptVariable",
+    "module": "",
+    "scope": "",
+    "kind": "union",
+    "size": 4,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "uParam",
+            "type": "unsigned int",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "iParam",
+            "type": "int",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "fParam",
+            "type": "float",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "pParam",
+            "type": "void *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "szParam",
+            "type": "char *",
+            "offset": 0,
+            "size": 4
+        }
+    ]
+}

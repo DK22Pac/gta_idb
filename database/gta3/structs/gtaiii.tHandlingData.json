@@ -1,0 +1,198 @@
+{
+    "name": "tHandlingData",
+    "module": "",
+    "scope": "",
+    "kind": "struct",
+    "size": "0xD8",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "index",
+            "type": "int",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "m_fMass",
+            "type": "float",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "m_fInvMass",
+            "type": "float",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "m_fTurnMass",
+            "type": "float",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "m_vecDimensions",
+            "type": "CVector",
+            "offset": "0x10",
+            "size": "0xC"
+        },
+        {
+            "name": "m_vecCentreOfMass",
+            "type": "CVector",
+            "offset": "0x1C",
+            "size": "0xC"
+        },
+        {
+            "name": "m_nPercentSubmerged",
+            "type": "char",
+            "offset": "0x28",
+            "size": 1
+        },
+        {
+            "name": "_pad29",
+            "type": "char[3]",
+            "offset": "0x29",
+            "size": 3
+        },
+        {
+            "name": "m_fBuoyancyConstant",
+            "type": "float",
+            "offset": "0x2C",
+            "size": 4
+        },
+        {
+            "name": "m_fTractionMultiplier",
+            "type": "float",
+            "offset": "0x30",
+            "size": 4
+        },
+        {
+            "name": "m_transmissionData",
+            "type": "cTransmission",
+            "offset": "0x34",
+            "size": "0x60"
+        },
+        {
+            "name": "m_fBrakeDeceleration",
+            "type": "float",
+            "offset": "0x94",
+            "size": 4,
+            "comment": "0.1 to 10.0"
+        },
+        {
+            "name": "m_fBrakeBias",
+            "type": "float",
+            "offset": "0x98",
+            "size": 4
+        },
+        {
+            "name": "m_bABS",
+            "type": "bool",
+            "offset": "0x9C",
+            "size": 1
+        },
+        {
+            "name": "_pad9D",
+            "type": "char[3]",
+            "offset": "0x9D",
+            "size": 3
+        },
+        {
+            "name": "m_fSteeringLock",
+            "type": "float",
+            "offset": "0xA0",
+            "size": 4
+        },
+        {
+            "name": "m_fTractionLoss",
+            "type": "float",
+            "offset": "0xA4",
+            "size": 4
+        },
+        {
+            "name": "m_fTractionBias",
+            "type": "float",
+            "offset": "0xA8",
+            "size": 4
+        },
+        {
+            "name": "field_AC",
+            "type": "int",
+            "offset": "0xAC",
+            "size": 4
+        },
+        {
+            "name": "m_fSuspensionForceLevel",
+            "type": "float",
+            "offset": "0xB0",
+            "size": 4
+        },
+        {
+            "name": "m_fSuspensionDampingLevel",
+            "type": "float",
+            "offset": "0xB4",
+            "size": 4
+        },
+        {
+            "name": "m_fSuspensionUpperLimit",
+            "type": "float",
+            "offset": "0xB8",
+            "size": 4
+        },
+        {
+            "name": "m_fSuspensionLowerLimit",
+            "type": "float",
+            "offset": "0xBC",
+            "size": 4
+        },
+        {
+            "name": "m_fSuspensionBiasBetweenFrontAndRear",
+            "type": "float",
+            "offset": "0xC0",
+            "size": 4
+        },
+        {
+            "name": "m_fCollisionDamageMultiplier",
+            "type": "float",
+            "offset": "0xC4",
+            "size": 4
+        },
+        {
+            "name": "m_nVehicleFlags",
+            "type": "eVehicleHandlingModelFlags",
+            "offset": "0xC8",
+            "size": 4
+        },
+        {
+            "name": "m_fSeatOffsetDistance",
+            "type": "float",
+            "offset": "0xCC",
+            "size": 4
+        },
+        {
+            "name": "m_nMonetaryValue",
+            "type": "unsigned int",
+            "offset": "0xD0",
+            "size": 4
+        },
+        {
+            "name": "m_nFrontLights",
+            "type": "eVehicleLightsSize",
+            "offset": "0xD4",
+            "size": 1
+        },
+        {
+            "name": "m_nRearLights",
+            "type": "eVehicleLightsSize",
+            "offset": "0xD5",
+            "size": 1
+        },
+        {
+            "name": "_padD6",
+            "type": "char[2]",
+            "offset": "0xD6",
+            "size": 2
+        }
+    ]
+}

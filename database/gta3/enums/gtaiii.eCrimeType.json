@@ -1,0 +1,81 @@
+{
+    "name": "eCrimeType",
+    "module": "",
+    "scope": "",
+    "width": 4,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "CRIME_NONE",
+            "value": 0
+        },
+        {
+            "name": "CRIME_SHOT_FIRED",
+            "value": 1
+        },
+        {
+            "name": "CRIME_PED_FIGHT",
+            "value": 2
+        },
+        {
+            "name": "CRIME_COP_FIGHT",
+            "value": 3
+        },
+        {
+            "name": "CRIME_DAMAGED_PED",
+            "value": 4
+        },
+        {
+            "name": "CRIME_DAMAGED_COP",
+            "value": 5
+        },
+        {
+            "name": "CRIME_CAR_THEFT",
+            "value": 6
+        },
+        {
+            "name": "CRIME_CRIME7",
+            "value": 7
+        },
+        {
+            "name": "CRIME_COP_EVASIVE_DIVE",
+            "value": 8
+        },
+        {
+            "name": "CRIME_COP_EVASIVE_DIVE2",
+            "value": 9
+        },
+        {
+            "name": "CRIME_PED_RUN_OVER",
+            "value": 10
+        },
+        {
+            "name": "CRIME_COP_RUN_OVER",
+            "value": 11
+        },
+        {
+            "name": "CRIME_DESTROYED_HELI",
+            "value": 12
+        },
+        {
+            "name": "CRIME_PED_BURNED",
+            "value": 13
+        },
+        {
+            "name": "CRIME_COP_BURNED",
+            "value": 14
+        },
+        {
+            "name": "CRIME_VEHICLE_BURNED",
+            "value": 15
+        },
+        {
+            "name": "CRIME_DESTROYED_CESSNA",
+            "value": 16
+        }
+    ]
+}

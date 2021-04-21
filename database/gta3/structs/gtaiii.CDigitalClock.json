@@ -4,11 +4,11 @@
     "scope": "",
     "kind": "class",
     "size": "0x28",
-    "alignment": 0,
+    "alignment": 2,
     "comment": "",
     "members": [
         {
-            "name": "pos",
+            "name": "m_vecPos",
             "type": "CVector",
             "offset": 0,
             "size": "0xC"
@@ -45,31 +45,31 @@
         },
         {
             "name": "red",
-            "type": "_BYTE",
+            "type": "char",
             "offset": "0x20",
             "size": 1
         },
         {
             "name": "green",
-            "type": "_BYTE",
+            "type": "char",
             "offset": "0x21",
             "size": 1
         },
         {
             "name": "blue",
-            "type": "_BYTE",
+            "type": "char",
             "offset": "0x22",
             "size": 1
         },
         {
-            "name": "isExist",
-            "type": "_BYTE",
+            "name": "m_bIsExist",
+            "type": "bool",
             "offset": "0x23",
             "size": 1
         },
         {
             "name": "field_24",
-            "type": "int",
+            "type": "float",
             "offset": "0x24",
             "size": 4
         }

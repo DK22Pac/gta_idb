@@ -1,0 +1,53 @@
+{
+    "name": "RsPrintPos",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "rsPRINTPOSMIDDLE",
+            "value": "0x0"
+        },
+        {
+            "name": "rsPRINTPOSLEFT",
+            "value": "0x1"
+        },
+        {
+            "name": "rsPRINTPOSRIGHT",
+            "value": "0x2"
+        },
+        {
+            "name": "rsPRINTPOSTOP",
+            "value": "0x4"
+        },
+        {
+            "name": "rsPRINTPOSTOPLEFT",
+            "value": "0x5"
+        },
+        {
+            "name": "rsPRINTPOSTOPRIGHT",
+            "value": "0x6"
+        },
+        {
+            "name": "rsPRINTPOSBOTTOM",
+            "value": "0x8"
+        },
+        {
+            "name": "rsPRINTPOSBOTTOMLEFT",
+            "value": "0x9"
+        },
+        {
+            "name": "rsPRINTPOSBOTTOMRIGHT",
+            "value": "0xA"
+        },
+        {
+            "name": "rsPRINTPOSFORCENUMSIZEINT",
+            "value": "0x7FFFFFFF"
+        }
+    ]
+}

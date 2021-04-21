@@ -1,0 +1,49 @@
+{
+    "name": "D3DCMPFUNC",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "D3DCMPFUNC_",
+            "value": "0x0"
+        },
+        {
+            "name": "D3DCMP_NEVER",
+            "value": "0x1"
+        },
+        {
+            "name": "D3DCMP_LESS",
+            "value": "0x2"
+        },
+        {
+            "name": "D3DCMP_EQUAL",
+            "value": "0x3"
+        },
+        {
+            "name": "D3DCMP_LESSEQUAL",
+            "value": "0x4"
+        },
+        {
+            "name": "D3DCMP_GREATER",
+            "value": "0x5"
+        },
+        {
+            "name": "D3DCMP_NOTEQUAL",
+            "value": "0x6"
+        },
+        {
+            "name": "D3DCMP_GREATEREQUAL",
+            "value": "0x7"
+        },
+        {
+            "name": "D3DCMP_ALWAYS",
+            "value": "0x8"
+        }
+    ]
+}

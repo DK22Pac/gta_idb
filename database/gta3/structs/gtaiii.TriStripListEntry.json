@@ -1,0 +1,35 @@
+{
+    "name": "TriStripListEntry",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x10",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "strip",
+            "type": "RwUInt16 *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "stripLen",
+            "type": "RwUInt32",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "stripSize",
+            "type": "RwUInt32",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "next",
+            "type": "TriStripListEntry *",
+            "offset": "0xC",
+            "size": 4
+        }
+    ]
+}

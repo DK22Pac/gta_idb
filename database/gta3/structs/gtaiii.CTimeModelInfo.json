@@ -5,30 +5,30 @@
     "kind": "class",
     "size": "0x58",
     "alignment": 0,
-    "vtableAddress": "0x60AD98",
-    "vtableSize": 6,
+    "vtableAddress": "0x5FDFB8",
+    "vtableSize": 0,
     "comment": "",
     "members": [
         {
-            "name": "simple",
+            "name": "simplemodelinfo",
             "type": "CSimpleModelInfo",
             "offset": 0,
             "size": "0x4C"
         },
         {
-            "name": "m_dwTimeOn",
-            "type": "int",
+            "name": "m_nStartHour",
+            "type": "unsigned int",
             "offset": "0x4C",
             "size": 4
         },
         {
-            "name": "m_dwTimeOff",
-            "type": "int",
+            "name": "m_nEndHour",
+            "type": "unsigned int",
             "offset": "0x50",
             "size": 4
         },
         {
-            "name": "m_dwOtherTimeModelId",
+            "name": "m_nRelatedTimeModelIndex",
             "type": "int",
             "offset": "0x54",
             "size": 4

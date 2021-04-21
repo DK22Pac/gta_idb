@@ -1,0 +1,81 @@
+{
+    "name": "eGarageType",
+    "module": "",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "GARAGE_TYPE_LOCKUP",
+            "value": 1
+        },
+        {
+            "name": "GARAGE_TYPE_STAUNTON_BOMSHOP",
+            "value": 2
+        },
+        {
+            "name": "GARAGE_TYPE_PORTLAND_BOMBSHOP",
+            "value": 3
+        },
+        {
+            "name": "GARAGE_TYPE_SHORESIDE_BOMBSHOP",
+            "value": 4
+        },
+        {
+            "name": "GARAGE_TYPE_PAYNSPRAY",
+            "value": 5
+        },
+        {
+            "name": "GARAGE_TYPE_SECURICAR",
+            "value": 7
+        },
+        {
+            "name": "GARAGE_TYPE_PORTLAND_IE",
+            "value": 8
+        },
+        {
+            "name": "GARAGE_TYPE_SHORESIDE_IE",
+            "value": 9
+        },
+        {
+            "name": "GARAGE_TYPE_WITSEC_HOUSE",
+            "value": 11
+        },
+        {
+            "name": "GARAGE_TYPE_CRUSHER",
+            "value": 13
+        },
+        {
+            "name": "GARAGE_TYPE_HOODS_DEFUSAL",
+            "value": 14
+        },
+        {
+            "name": "GARAGE_TYPE_PORTLAND_HIDEOUT",
+            "value": 16
+        },
+        {
+            "name": "GARAGE_TYPE_STAUNTON_HIDEOUT",
+            "value": 17
+        },
+        {
+            "name": "GARAGE_TYPE_SHORESIDE_HIDEOUT",
+            "value": 18
+        },
+        {
+            "name": "GARAGE_TYPE_COLUMBIAN",
+            "value": 19
+        },
+        {
+            "name": "GARAGE_TYPE_PLATINUM_DROPOFF",
+            "value": 20
+        },
+        {
+            "name": "GARAGE_TYPE_SALVATORES",
+            "value": 21
+        }
+    ]
+}

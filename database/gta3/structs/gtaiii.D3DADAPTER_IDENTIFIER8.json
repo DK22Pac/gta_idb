@@ -1,0 +1,83 @@
+{
+    "name": "D3DADAPTER_IDENTIFIER8",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x448",
+    "alignment": 3,
+    "comment": "",
+    "members": [
+        {
+            "name": "Driver",
+            "type": "char[512]",
+            "offset": 0,
+            "size": "0x200"
+        },
+        {
+            "name": "Description",
+            "type": "char[512]",
+            "offset": "0x200",
+            "size": "0x200"
+        },
+        {
+            "name": "DeviceName",
+            "type": "char[32]",
+            "offset": "0x400",
+            "size": "0x20"
+        },
+        {
+            "name": "DriverVersion",
+            "type": "LARGE_INTEGER",
+            "offset": "0x420",
+            "size": 8
+        },
+        {
+            "name": "DriverVersionLowPart",
+            "type": "DWORD",
+            "offset": "0x428",
+            "size": 4
+        },
+        {
+            "name": "DriverVersionHighPart",
+            "type": "DWORD",
+            "offset": "0x42C",
+            "size": 4
+        },
+        {
+            "name": "VendorId",
+            "type": "DWORD",
+            "offset": "0x430",
+            "size": 4
+        },
+        {
+            "name": "DeviceId",
+            "type": "DWORD",
+            "offset": "0x434",
+            "size": 4
+        },
+        {
+            "name": "SubSysId",
+            "type": "DWORD",
+            "offset": "0x438",
+            "size": 4
+        },
+        {
+            "name": "Revision",
+            "type": "DWORD",
+            "offset": "0x43C",
+            "size": 4
+        },
+        {
+            "name": "DeviceIdentifier",
+            "type": "DWORD",
+            "offset": "0x440",
+            "size": 4
+        },
+        {
+            "name": "WHQLLevel",
+            "type": "DWORD",
+            "offset": "0x444",
+            "size": 4
+        }
+    ]
+}

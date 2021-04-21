@@ -1,0 +1,41 @@
+{
+    "name": "RxD3D8freeVBlistEntry",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x14",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "offset",
+            "type": "RwUInt32",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "size",
+            "type": "RwUInt32",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "vertexBuffer",
+            "type": "IDirect3DVertexBuffer8 *",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "next",
+            "type": "RxD3D8freeVBlistEntry *",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "prev",
+            "type": "RxD3D8freeVBlistEntry *",
+            "offset": "0x10",
+            "size": 4
+        }
+    ]
+}

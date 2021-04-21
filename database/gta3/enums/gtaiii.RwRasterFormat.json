@@ -1,0 +1,85 @@
+{
+    "name": "RwRasterFormat",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "rwRASTERFORMATDEFAULT",
+            "value": "0x0"
+        },
+        {
+            "name": "rwRASTERFORMAT1555",
+            "value": "0x100"
+        },
+        {
+            "name": "rwRASTERFORMAT565",
+            "value": "0x200"
+        },
+        {
+            "name": "rwRASTERFORMAT4444",
+            "value": "0x300"
+        },
+        {
+            "name": "rwRASTERFORMATLUM8",
+            "value": "0x400"
+        },
+        {
+            "name": "rwRASTERFORMAT8888",
+            "value": "0x500"
+        },
+        {
+            "name": "rwRASTERFORMAT888",
+            "value": "0x600"
+        },
+        {
+            "name": "rwRASTERFORMAT16",
+            "value": "0x700"
+        },
+        {
+            "name": "rwRASTERFORMAT24",
+            "value": "0x800"
+        },
+        {
+            "name": "rwRASTERFORMAT32",
+            "value": "0x900"
+        },
+        {
+            "name": "rwRASTERFORMAT555",
+            "value": "0xA00"
+        },
+        {
+            "name": "rwRASTERFORMATPIXELFORMATMASK",
+            "value": "0xF00"
+        },
+        {
+            "name": "rwRASTERFORMATAUTOMIPMAP",
+            "value": "0x1000"
+        },
+        {
+            "name": "rwRASTERFORMATPAL8",
+            "value": "0x2000"
+        },
+        {
+            "name": "rwRASTERFORMATPAL4",
+            "value": "0x4000"
+        },
+        {
+            "name": "rwRASTERFORMATMIPMAP",
+            "value": "0x8000"
+        },
+        {
+            "name": "rwRASTERFORMATMASK",
+            "value": "0xFF00"
+        },
+        {
+            "name": "rwRASTERFORMATFORCEENUMSIZEINT",
+            "value": "0x7FFFFFFF"
+        }
+    ]
+}

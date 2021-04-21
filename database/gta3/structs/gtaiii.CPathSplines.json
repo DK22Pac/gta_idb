@@ -1,0 +1,17 @@
+{
+    "name": "CPathSplines",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0xC80",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_aPathData",
+            "type": "CPathSpline[100]",
+            "offset": 0,
+            "size": "0xC80"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "name": "eLevelName",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "GENERIC",
+            "value": 0
+        },
+        {
+            "name": "PORTLAND",
+            "value": 1
+        },
+        {
+            "name": "STAUNTON_ISLAND",
+            "value": 2
+        },
+        {
+            "name": "SHORESIDE_VALE",
+            "value": 3
+        }
+    ]
+}

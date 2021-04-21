@@ -1,0 +1,83 @@
+{
+    "name": "LevelChangeData",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x50",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_eLevel1",
+            "type": "eLevelName",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "m_eLevel2",
+            "type": "eLevelName",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "m_fSafeInfX",
+            "type": "float",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "m_fSafeSupX",
+            "type": "float",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "m_fSafeInfY",
+            "type": "float",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "m_fSafeSupY",
+            "type": "float",
+            "offset": "0x14",
+            "size": 4
+        },
+        {
+            "name": "m_fSafeInfZ",
+            "type": "float",
+            "offset": "0x18",
+            "size": 4
+        },
+        {
+            "name": "m_fSafeSupZ",
+            "type": "float",
+            "offset": "0x1C",
+            "size": 4
+        },
+        {
+            "name": "m_vecRegPointAForward",
+            "type": "CVector",
+            "offset": "0x20",
+            "size": "0xC"
+        },
+        {
+            "name": "m_vecRegPointBForward",
+            "type": "CVector",
+            "offset": "0x2C",
+            "size": "0xC"
+        },
+        {
+            "name": "m_vecRegPointABackward",
+            "type": "CVector",
+            "offset": "0x38",
+            "size": "0xC"
+        },
+        {
+            "name": "m_vecRegPointBBackward",
+            "type": "CVector",
+            "offset": "0x44",
+            "size": "0xC"
+        }
+    ]
+}

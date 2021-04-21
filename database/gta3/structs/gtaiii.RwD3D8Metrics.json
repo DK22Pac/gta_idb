@@ -1,0 +1,41 @@
+{
+    "name": "RwD3D8Metrics",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x14",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "numRenderStateChanges",
+            "type": "RwUInt32",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "numTextureStageStateChanges",
+            "type": "RwUInt32",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "numMaterialChanges",
+            "type": "RwUInt32",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "numLightsChanged",
+            "type": "RwUInt32",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "numVBSwitches",
+            "type": "RwUInt32",
+            "offset": "0x10",
+            "size": 4
+        }
+    ]
+}

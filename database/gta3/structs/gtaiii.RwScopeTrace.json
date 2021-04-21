@@ -1,0 +1,35 @@
+{
+    "name": "RwScopeTrace",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x10",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "head",
+            "type": "RwReqEntry *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "continuation",
+            "type": "RwScopeTrace *",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "next",
+            "type": "RwScopeTrace *",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "parent",
+            "type": "RwScopeTrace *",
+            "offset": "0xC",
+            "size": 4
+        }
+    ]
+}

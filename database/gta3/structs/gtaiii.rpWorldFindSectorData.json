@@ -1,0 +1,23 @@
+{
+    "name": "rpWorldFindSectorData",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 8,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "sector",
+            "type": "const RpWorldSector *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "foundSector",
+            "type": "RwBool",
+            "offset": 4,
+            "size": 4
+        }
+    ]
+}

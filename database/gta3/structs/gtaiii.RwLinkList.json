@@ -3,15 +3,15 @@
     "module": "",
     "scope": "",
     "kind": "class",
-    "size": "0x40",
+    "size": 8,
     "alignment": 0,
     "comment": "",
     "members": [
         {
             "name": "link",
-            "type": "RwLLLink[8]",
+            "type": "RwLLLink",
             "offset": 0,
-            "size": "0x40"
+            "size": 8
         }
     ]
 }

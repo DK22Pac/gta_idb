@@ -1,0 +1,41 @@
+{
+    "name": "_rwD3D8AdapterInformation",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x21C",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "name",
+            "type": "RwChar[512]",
+            "offset": 0,
+            "size": "0x200"
+        },
+        {
+            "name": "modeCount",
+            "type": "RwInt32",
+            "offset": "0x200",
+            "size": 4
+        },
+        {
+            "name": "mode",
+            "type": "D3DDISPLAYMODE",
+            "offset": "0x204",
+            "size": "0x10"
+        },
+        {
+            "name": "displayDepth",
+            "type": "RwInt32",
+            "offset": "0x214",
+            "size": 4
+        },
+        {
+            "name": "flags",
+            "type": "RwInt32",
+            "offset": "0x218",
+            "size": 4
+        }
+    ]
+}

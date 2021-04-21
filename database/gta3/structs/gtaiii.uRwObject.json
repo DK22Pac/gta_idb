@@ -1,0 +1,29 @@
+{
+    "name": "uRwObject",
+    "module": "",
+    "scope": "",
+    "kind": "union",
+    "size": 4,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_pRwObject",
+            "type": "RwObject *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "m_pRwAtomic",
+            "type": "RpAtomic *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "m_pRwClump",
+            "type": "RpClump *",
+            "offset": 0,
+            "size": 4
+        }
+    ]
+}

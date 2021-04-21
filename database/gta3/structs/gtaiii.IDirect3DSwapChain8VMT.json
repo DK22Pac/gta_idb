@@ -1,0 +1,41 @@
+{
+    "name": "IDirect3DSwapChain8VMT",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x14",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "QueryInterface",
+            "type": "HRESULT (__stdcall *)(IDirect3DSwapChain8 *, REFIID riid, void **ppvObject)",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "AddRef",
+            "type": "ULONG (__stdcall *)(IDirect3DSwapChain8 *)",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "Release",
+            "type": "ULONG (__stdcall *)(IDirect3DSwapChain8 *)",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "Present",
+            "type": "void (__stdcall *)(IDirect3DSwapChain8 *, const RECT *src_rect, const RECT *dst_rect, HWND dst_window_override, const RGNDATA *dirty_region)",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "GetBackBuffer",
+            "type": "BOOL (__stdcall *)(IDirect3DSwapChain8 *, UINT BackBuffer, D3DBACKBUFFER_TYPE Type, struct IDirect3DSurface8 **ppBackBuffer)",
+            "offset": "0x10",
+            "size": 4
+        }
+    ]
+}

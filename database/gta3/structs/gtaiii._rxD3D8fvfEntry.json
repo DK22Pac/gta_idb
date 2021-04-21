@@ -1,0 +1,35 @@
+{
+    "name": "_rxD3D8fvfEntry",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x10",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "fvf",
+            "type": "RwUInt32",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "freelist",
+            "type": "RxD3D8freeVBlistEntry *",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "vblist",
+            "type": "RxD3D8createdVBlistEntry *",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "next",
+            "type": "RxD3D8fvfEntry *",
+            "offset": "0xC",
+            "size": 4
+        }
+    ]
+}

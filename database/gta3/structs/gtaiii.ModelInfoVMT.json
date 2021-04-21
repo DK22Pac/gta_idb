@@ -1,0 +1,41 @@
+{
+    "name": "ModelInfoVMT",
+    "module": "",
+    "scope": "",
+    "kind": "union",
+    "size": 4,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "base",
+            "type": "CBaseModelInfoVMT *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "simple",
+            "type": "CSimpleModelInfoVMT *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "time",
+            "type": "CTimeModelInfoVMT *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "clump",
+            "type": "CClumpModelInfoVMT *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "mlo",
+            "type": "CMloModelInfoVMT *",
+            "offset": 0,
+            "size": 4
+        }
+    ]
+}

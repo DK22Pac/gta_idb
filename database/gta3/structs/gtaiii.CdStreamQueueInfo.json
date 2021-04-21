@@ -1,0 +1,35 @@
+{
+    "name": "CdStreamQueueInfo",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x10",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "queueData",
+            "type": "int *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "queueStart",
+            "type": "int",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "queueCurrent",
+            "type": "int",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "queueMax",
+            "type": "int",
+            "offset": "0xC",
+            "size": 4
+        }
+    ]
+}

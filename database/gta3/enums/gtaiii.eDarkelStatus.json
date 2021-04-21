@@ -1,0 +1,29 @@
+{
+    "name": "eDarkelStatus",
+    "module": "",
+    "scope": "",
+    "width": 2,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "FRENZY_INITIALLY",
+            "value": 0
+        },
+        {
+            "name": "FRENZY_ONGOING",
+            "value": 1
+        },
+        {
+            "name": "FRENZY_PASSED",
+            "value": 2
+        },
+        {
+            "name": "FRENZY_FAILED",
+            "value": 3
+        }
+    ]
+}

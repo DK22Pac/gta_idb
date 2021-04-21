@@ -1,0 +1,29 @@
+{
+    "name": "eCopType",
+    "module": "",
+    "scope": "",
+    "width": 4,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "COP_TYPE_COP",
+            "value": 0
+        },
+        {
+            "name": "COP_TYPE_FBI",
+            "value": 1
+        },
+        {
+            "name": "COP_TYPE_SWAT",
+            "value": 2
+        },
+        {
+            "name": "COP_TYPE_ARMY",
+            "value": 3
+        }
+    ]
+}

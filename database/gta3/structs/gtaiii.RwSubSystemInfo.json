@@ -1,0 +1,17 @@
+{
+    "name": "RwSubSystemInfo",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x50",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "name",
+            "type": "RwChar[80]",
+            "offset": 0,
+            "size": "0x50"
+        }
+    ]
+}

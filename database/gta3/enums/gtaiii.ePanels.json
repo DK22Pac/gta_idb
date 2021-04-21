@@ -1,0 +1,41 @@
+{
+    "name": "ePanels",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "WING_FRONT_LEFT",
+            "value": 0
+        },
+        {
+            "name": "WING_FRONT_RIGHT",
+            "value": 1
+        },
+        {
+            "name": "WING_REAR_LEFT",
+            "value": 2
+        },
+        {
+            "name": "WING_REAR_RIGHT",
+            "value": 3
+        },
+        {
+            "name": "WINDSCREEN",
+            "value": 4
+        },
+        {
+            "name": "BUMP_FRONT",
+            "value": 5
+        },
+        {
+            "name": "BUMP_REAR",
+            "value": 6
+        }
+    ]
+}

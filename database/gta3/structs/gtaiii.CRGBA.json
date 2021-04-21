@@ -8,26 +8,26 @@
     "comment": "",
     "members": [
         {
-            "name": "r",
-            "type": "unsigned __int8",
+            "name": "red",
+            "type": "char",
             "offset": 0,
             "size": 1
         },
         {
-            "name": "g",
-            "type": "unsigned __int8",
+            "name": "green",
+            "type": "char",
             "offset": 1,
             "size": 1
         },
         {
-            "name": "b",
-            "type": "unsigned __int8",
+            "name": "blue",
+            "type": "char",
             "offset": 2,
             "size": 1
         },
         {
-            "name": "a",
-            "type": "unsigned __int8",
+            "name": "alpha",
+            "type": "char",
             "offset": 3,
             "size": 1
         }

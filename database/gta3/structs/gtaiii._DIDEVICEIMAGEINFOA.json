@@ -1,0 +1,65 @@
+{
+    "name": "_DIDEVICEIMAGEINFOA",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x160",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "tszImagePath",
+            "type": "CHAR[260]",
+            "offset": 0,
+            "size": "0x104"
+        },
+        {
+            "name": "dwFlags",
+            "type": "DWORD",
+            "offset": "0x104",
+            "size": 4
+        },
+        {
+            "name": "dwViewID",
+            "type": "DWORD",
+            "offset": "0x108",
+            "size": 4
+        },
+        {
+            "name": "rcOverlay",
+            "type": "RECT",
+            "offset": "0x10C",
+            "size": "0x10"
+        },
+        {
+            "name": "dwObjID",
+            "type": "DWORD",
+            "offset": "0x11C",
+            "size": 4
+        },
+        {
+            "name": "dwcValidPts",
+            "type": "DWORD",
+            "offset": "0x120",
+            "size": 4
+        },
+        {
+            "name": "rgptCalloutLine",
+            "type": "POINT[5]",
+            "offset": "0x124",
+            "size": "0x28"
+        },
+        {
+            "name": "rcCalloutRect",
+            "type": "RECT",
+            "offset": "0x14C",
+            "size": "0x10"
+        },
+        {
+            "name": "dwTextAlign",
+            "type": "DWORD",
+            "offset": "0x15C",
+            "size": 4
+        }
+    ]
+}

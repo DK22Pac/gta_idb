@@ -1,0 +1,45 @@
+{
+    "name": "ePedFlags2",
+    "module": "",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": true,
+    "comment": "",
+    "members": [
+        {
+            "name": "Bb17",
+            "value": "0x1"
+        },
+        {
+            "name": "Bb18",
+            "value": "0x2"
+        },
+        {
+            "name": "bRenderPedInCar",
+            "value": "0x4"
+        },
+        {
+            "name": "Bb20",
+            "value": "0x8"
+        },
+        {
+            "name": "Bb21",
+            "value": "0x10"
+        },
+        {
+            "name": "Bb22",
+            "value": "0x20"
+        },
+        {
+            "name": "Bb23",
+            "value": "0x40"
+        },
+        {
+            "name": "Bb24",
+            "value": "0x80"
+        }
+    ]
+}

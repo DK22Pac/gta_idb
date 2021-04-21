@@ -1,0 +1,33 @@
+{
+    "name": "eWeaponFire",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "WEAPON_FIRE_MELEE",
+            "value": 0
+        },
+        {
+            "name": "WEAPON_FIRE_INSTANT_HIT",
+            "value": 1
+        },
+        {
+            "name": "WEAPON_FIRE_PROJECTILE",
+            "value": 2
+        },
+        {
+            "name": "WEAPON_FIRE_AREA_EFFECT",
+            "value": 3
+        },
+        {
+            "name": "WEAPON_FIRE_USE",
+            "value": 4
+        }
+    ]
+}

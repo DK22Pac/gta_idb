@@ -1,0 +1,41 @@
+{
+    "name": "tComponentGroup",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "COMPGROUP_PANEL",
+            "value": 0
+        },
+        {
+            "name": "COMPGROUP_WHEEL",
+            "value": 1
+        },
+        {
+            "name": "COMPGROUP_DOOR",
+            "value": 2
+        },
+        {
+            "name": "COMPGROUP_BONNET",
+            "value": 3
+        },
+        {
+            "name": "COMPGROUP_BOOT",
+            "value": 4
+        },
+        {
+            "name": "COMPGROUP_LIGHT",
+            "value": 5
+        },
+        {
+            "name": "COMPGROUP_NA",
+            "value": 6
+        }
+    ]
+}

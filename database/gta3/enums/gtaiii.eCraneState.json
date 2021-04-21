@@ -1,0 +1,37 @@
+{
+    "name": "eCraneState",
+    "module": "",
+    "scope": "",
+    "width": 4,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "IDLE",
+            "value": "0x0"
+        },
+        {
+            "name": "GOING_TOWARDS_TARGET",
+            "value": "0x1"
+        },
+        {
+            "name": "LIFTING_TARGET",
+            "value": "0x2"
+        },
+        {
+            "name": "GOING_TOWARDS_TARGET_ONLY_HEIGHT",
+            "value": "0x3"
+        },
+        {
+            "name": "ROTATING_TARGET",
+            "value": "0x4"
+        },
+        {
+            "name": "DROPPING_TARGET",
+            "value": "0x5"
+        }
+    ]
+}

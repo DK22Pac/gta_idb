@@ -1,0 +1,41 @@
+{
+    "name": "cPedComments",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x48C",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_asPedComments",
+            "type": "tPedComment[40]",
+            "offset": 0,
+            "size": "0x460"
+        },
+        {
+            "name": "field_460",
+            "type": "char[40]",
+            "offset": "0x460",
+            "size": "0x28"
+        },
+        {
+            "name": "field_488",
+            "type": "char[2]",
+            "offset": "0x488",
+            "size": 2
+        },
+        {
+            "name": "byte48A",
+            "type": "char",
+            "offset": "0x48A",
+            "size": 1
+        },
+        {
+            "name": "field_48B",
+            "type": "char",
+            "offset": "0x48B",
+            "size": 1
+        }
+    ]
+}

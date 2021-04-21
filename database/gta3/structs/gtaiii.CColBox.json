@@ -1,6 +1,6 @@
 {
     "name": "CColBox",
-    "module": "",
+    "module": "CColBox",
     "scope": "",
     "kind": "class",
     "size": "0x1C",
@@ -8,14 +8,15 @@
     "comment": "",
     "members": [
         {
-            "name": "m_box",
+            "name": "base",
             "type": "CBox",
             "offset": 0,
-            "size": "0x18"
+            "size": "0x18",
+            "comment": " isbase:true"
         },
         {
             "name": "m_surface",
-            "type": "CColSurface",
+            "type": "tColSurface",
             "offset": "0x18",
             "size": 4
         }

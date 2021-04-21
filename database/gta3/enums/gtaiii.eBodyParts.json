@@ -1,0 +1,61 @@
+{
+    "name": "eBodyParts",
+    "module": "",
+    "scope": "",
+    "width": 4,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "LOWER_LEG_L",
+            "value": 0
+        },
+        {
+            "name": "TORSO",
+            "value": 1
+        },
+        {
+            "name": "HEAD",
+            "value": 2
+        },
+        {
+            "name": "UPPER_ARM_L",
+            "value": 3
+        },
+        {
+            "name": "UPPER_ARM_R",
+            "value": 4
+        },
+        {
+            "name": "HAND_L",
+            "value": 5
+        },
+        {
+            "name": "HAND_R",
+            "value": 6
+        },
+        {
+            "name": "UPPER_LEG_L",
+            "value": 7
+        },
+        {
+            "name": "UPPER_LEG_R",
+            "value": 8
+        },
+        {
+            "name": "FOOT_L",
+            "value": 9
+        },
+        {
+            "name": "FOOT_R",
+            "value": 10
+        },
+        {
+            "name": "LOWER_LEG_R",
+            "value": 11
+        }
+    ]
+}

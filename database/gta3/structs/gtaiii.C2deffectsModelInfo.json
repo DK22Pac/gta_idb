@@ -1,0 +1,17 @@
+{
+    "name": "C2deffectsModelInfo",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x34",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "clumpmodelinfo",
+            "type": "CClumpModelInfo",
+            "offset": 0,
+            "size": "0x34"
+        }
+    ]
+}

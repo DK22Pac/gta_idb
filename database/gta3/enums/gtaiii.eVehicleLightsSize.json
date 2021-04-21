@@ -1,0 +1,29 @@
+{
+    "name": "eVehicleLightsSize",
+    "module": "",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "LIGHTS_LONG",
+            "value": 0
+        },
+        {
+            "name": "LIGHTS_SMALL",
+            "value": 1
+        },
+        {
+            "name": "LIGHTS_BIG",
+            "value": 2
+        },
+        {
+            "name": "LIGHTS_TALL",
+            "value": 3
+        }
+    ]
+}

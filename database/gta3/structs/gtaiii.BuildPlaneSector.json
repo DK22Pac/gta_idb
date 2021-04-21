@@ -1,0 +1,41 @@
+{
+    "name": "BuildPlaneSector",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x14",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "type",
+            "type": "RwInt32",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "leftSubTree",
+            "type": "BuildSector *",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "rightSubTree",
+            "type": "BuildSector *",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "leftValue",
+            "type": "RwReal",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "rightValue",
+            "type": "RwReal",
+            "offset": "0x10",
+            "size": 4
+        }
+    ]
+}

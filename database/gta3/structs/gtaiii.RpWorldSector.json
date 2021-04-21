@@ -1,0 +1,125 @@
+{
+    "name": "RpWorldSector",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x94",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "type",
+            "type": "RwInt32",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "polygons",
+            "type": "RpPolygon *",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "vertices",
+            "type": "RwV3d *",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "normals",
+            "type": "RpVertexNormal *",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "texCoords",
+            "type": "RwTexCoords *[8]",
+            "offset": "0x10",
+            "size": "0x20"
+        },
+        {
+            "name": "preLitLum",
+            "type": "RwRGBA *",
+            "offset": "0x30",
+            "size": 4
+        },
+        {
+            "name": "repEntry",
+            "type": "RwResEntry *",
+            "offset": "0x34",
+            "size": 4
+        },
+        {
+            "name": "collAtomicsInWorldSector",
+            "type": "RwLinkList",
+            "offset": "0x38",
+            "size": 8
+        },
+        {
+            "name": "noCollAtomicsInWorldSector",
+            "type": "RwLinkList",
+            "offset": "0x40",
+            "size": 8
+        },
+        {
+            "name": "lightsInWorldSector",
+            "type": "RwLinkList",
+            "offset": "0x48",
+            "size": 8
+        },
+        {
+            "name": "unkl",
+            "type": "void *",
+            "offset": "0x50",
+            "size": 4
+        },
+        {
+            "name": "boundingBox",
+            "type": "RwBBox",
+            "offset": "0x54",
+            "size": "0x18"
+        },
+        {
+            "name": "tightBoundingBox",
+            "type": "RwBBox",
+            "offset": "0x6C",
+            "size": "0x18"
+        },
+        {
+            "name": "mesh",
+            "type": "RpMeshHeader *",
+            "offset": "0x84",
+            "size": 4
+        },
+        {
+            "name": "pipeline",
+            "type": "RxPipeline *",
+            "offset": "0x88",
+            "size": 4
+        },
+        {
+            "name": "matListWindowBase",
+            "type": "RwUInt16",
+            "offset": "0x8C",
+            "size": 2
+        },
+        {
+            "name": "numVertices",
+            "type": "RwUInt16",
+            "offset": "0x8E",
+            "size": 2
+        },
+        {
+            "name": "numPolygons",
+            "type": "RwUInt16",
+            "offset": "0x90",
+            "size": 2
+        },
+        {
+            "name": "pad",
+            "type": "RwUInt16",
+            "offset": "0x92",
+            "size": 2
+        }
+    ]
+}

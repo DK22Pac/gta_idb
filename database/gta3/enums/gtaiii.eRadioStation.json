@@ -1,0 +1,61 @@
+{
+    "name": "eRadioStation",
+    "module": "",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "HEAD_RADIO",
+            "value": 0
+        },
+        {
+            "name": "DOUBLE_CLEF_FM",
+            "value": 1
+        },
+        {
+            "name": "JAH_RADIO",
+            "value": 2
+        },
+        {
+            "name": "RISE_FM",
+            "value": 3
+        },
+        {
+            "name": "LIPS_106",
+            "value": 4
+        },
+        {
+            "name": "GAME_FM",
+            "value": 5
+        },
+        {
+            "name": "MSX_FM",
+            "value": 6
+        },
+        {
+            "name": "FLASHBACK_95_6",
+            "value": 7
+        },
+        {
+            "name": "CHATTERBOX_109",
+            "value": 8
+        },
+        {
+            "name": "MP3_PLAEYR",
+            "value": 9
+        },
+        {
+            "name": "POLICE_RADIO",
+            "value": 10
+        },
+        {
+            "name": "RADIO_OFF",
+            "value": 11
+        }
+    ]
+}

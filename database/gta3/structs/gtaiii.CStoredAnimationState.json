@@ -1,0 +1,83 @@
+{
+    "name": "CStoredAnimationState",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0xC",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "animId",
+            "type": "char",
+            "offset": 0,
+            "size": 1
+        },
+        {
+            "name": "time",
+            "type": "char",
+            "offset": 1,
+            "size": 1
+        },
+        {
+            "name": "speed",
+            "type": "char",
+            "offset": 2,
+            "size": 1
+        },
+        {
+            "name": "secAnimId",
+            "type": "char",
+            "offset": 3,
+            "size": 1
+        },
+        {
+            "name": "secTime",
+            "type": "char",
+            "offset": 4,
+            "size": 1
+        },
+        {
+            "name": "secSpeed",
+            "type": "char",
+            "offset": 5,
+            "size": 1
+        },
+        {
+            "name": "blendAmount",
+            "type": "char",
+            "offset": 6,
+            "size": 1
+        },
+        {
+            "name": "partAnimId",
+            "type": "char",
+            "offset": 7,
+            "size": 1
+        },
+        {
+            "name": "partAnimTime",
+            "type": "char",
+            "offset": 8,
+            "size": 1
+        },
+        {
+            "name": "partAnimSpeed",
+            "type": "char",
+            "offset": 9,
+            "size": 1
+        },
+        {
+            "name": "partBlendAmount",
+            "type": "char",
+            "offset": "0xA",
+            "size": 1
+        },
+        {
+            "name": "gap_E",
+            "type": "char[1]",
+            "offset": "0xB",
+            "size": 1
+        }
+    ]
+}

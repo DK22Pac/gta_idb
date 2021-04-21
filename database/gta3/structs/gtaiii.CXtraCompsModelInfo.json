@@ -4,20 +4,20 @@
     "scope": "",
     "kind": "class",
     "size": "0x38",
-    "alignment": 0,
-    "vtableAddress": "0x60AE24",
-    "vtableSize": 7,
+    "alignment": 2,
+    "vtableAddress": "0x5FE044",
+    "vtableSize": 0,
     "comment": "",
     "members": [
         {
-            "name": "clump",
+            "name": "clumpmodelinfo",
             "type": "CClumpModelInfo",
             "offset": 0,
             "size": "0x34"
         },
         {
-            "name": "dword34",
-            "type": "_DWORD",
+            "name": "m_nModelIndex",
+            "type": "unsigned int",
             "offset": "0x34",
             "size": 4
         }

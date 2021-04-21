@@ -1,0 +1,41 @@
+{
+    "name": "_rxD3D8VertexShader",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x14",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "declaration",
+            "type": "const RwUInt32 *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "function",
+            "type": "const RwUInt32 *",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "handle",
+            "type": "RwUInt32 *",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "usage",
+            "type": "RwUInt32",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "next",
+            "type": "_rxD3D8VertexShader *",
+            "offset": "0x10",
+            "size": 4
+        }
+    ]
+}

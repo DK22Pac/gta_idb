@@ -1,0 +1,21 @@
+{
+    "name": "RpAtomicPrivateFlag",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "rpATOMICPRIVATEWORLDBOUNDDIRTY",
+            "value": "0x1"
+        },
+        {
+            "name": "rpATOMICPRIVATEFLAGFORCEENUMSIZEINT",
+            "value": "0x7FFFFFFF"
+        }
+    ]
+}

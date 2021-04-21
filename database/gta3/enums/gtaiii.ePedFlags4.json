@@ -1,0 +1,45 @@
+{
+    "name": "ePedFlags4",
+    "module": "",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": true,
+    "comment": "",
+    "members": [
+        {
+            "name": "bKindaStayInSamePlace",
+            "value": "0x1"
+        },
+        {
+            "name": "Bb34",
+            "value": "0x2"
+        },
+        {
+            "name": "Bb35",
+            "value": "0x4"
+        },
+        {
+            "name": "b36",
+            "value": "0x8"
+        },
+        {
+            "name": "bIsDucking",
+            "value": "0x10"
+        },
+        {
+            "name": "Bb38",
+            "value": "0x20"
+        },
+        {
+            "name": "bDoBloodyFootprints",
+            "value": "0x40"
+        },
+        {
+            "name": "Bb40",
+            "value": "0x80"
+        }
+    ]
+}

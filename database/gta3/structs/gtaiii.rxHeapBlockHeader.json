@@ -1,0 +1,41 @@
+{
+    "name": "rxHeapBlockHeader",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x20",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "prev",
+            "type": "rxHeapBlockHeader *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "next",
+            "type": "rxHeapBlockHeader *",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "size",
+            "type": "unsigned int",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "freeEntry",
+            "type": "rxHeapFreeBlock *",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "pad",
+            "type": "unsigned int[4]",
+            "offset": "0x10",
+            "size": "0x10"
+        }
+    ]
+}

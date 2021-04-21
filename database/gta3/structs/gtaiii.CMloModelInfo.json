@@ -4,37 +4,31 @@
     "scope": "",
     "kind": "class",
     "size": "0x40",
-    "alignment": 0,
-    "vtableAddress": "0x60AD54",
-    "vtableSize": 7,
+    "alignment": 3,
+    "vtableAddress": "0x5FDF74",
+    "vtableSize": 0,
     "comment": "",
     "members": [
         {
-            "name": "base",
-            "type": "CBaseModelInfo",
+            "name": "clumpmodelinfo",
+            "type": "CClumpModelInfo",
             "offset": 0,
-            "size": "0x30"
-        },
-        {
-            "name": "m_pClump",
-            "type": "RpClump *",
-            "offset": "0x30",
-            "size": 4
+            "size": "0x34"
         },
         {
             "name": "field_34",
-            "type": "int",
+            "type": "float",
             "offset": "0x34",
             "size": 4
         },
         {
-            "name": "m_nInstanceId",
-            "type": "int",
+            "name": "m_nIndex",
+            "type": "unsigned int",
             "offset": "0x38",
             "size": 4
         },
         {
-            "name": "m_nInstanceId_2",
+            "name": "m_nCount",
             "type": "int",
             "offset": "0x3C",
             "size": 4

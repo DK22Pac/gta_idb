@@ -1,0 +1,53 @@
+{
+    "name": "ePhoneState",
+    "module": "ePhoneState",
+    "scope": "",
+    "width": 4,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "PHONE_INACTIVE",
+            "value": "0x0"
+        },
+        {
+            "name": "PHONE_1",
+            "value": "0x1"
+        },
+        {
+            "name": "PHONE_2",
+            "value": "0x2"
+        },
+        {
+            "name": "PHONE_NO_MESSAGE",
+            "value": "0x3"
+        },
+        {
+            "name": "PHONE_MESSAGE_ONCE",
+            "value": "0x4"
+        },
+        {
+            "name": "PHONE_MESSAGE_REPEAT",
+            "value": "0x5"
+        },
+        {
+            "name": "PHONE_6",
+            "value": "0x6"
+        },
+        {
+            "name": "PHONE_MESSAGE_SHOWN_ONCE",
+            "value": "0x7"
+        },
+        {
+            "name": "PHONE_MESSAGE_IS_SHOWN",
+            "value": "0x8"
+        },
+        {
+            "name": "PHONE_9",
+            "value": "0x9"
+        }
+    ]
+}

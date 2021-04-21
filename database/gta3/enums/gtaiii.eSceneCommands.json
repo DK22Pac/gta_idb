@@ -1,0 +1,117 @@
+{
+    "name": "eSceneCommands",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "COMMAND_DO_NOTHING",
+            "value": 0
+        },
+        {
+            "name": "COMMAND_NEW_ACTOR",
+            "value": 1
+        },
+        {
+            "name": "COMMAND_MOVE_ACTOR",
+            "value": 2
+        },
+        {
+            "name": "COMMAND_SELECT_ACTOR",
+            "value": 3
+        },
+        {
+            "name": "COMMAND_DELETE_ACTOR",
+            "value": 4
+        },
+        {
+            "name": "COMMAND_NEW_VEHICLE",
+            "value": 5
+        },
+        {
+            "name": "COMMAND_MOVE_VEHICLE",
+            "value": 6
+        },
+        {
+            "name": "COMMAND_SELECT_VEHICLE",
+            "value": 7
+        },
+        {
+            "name": "COMMAND_DELETE_VEHICLE",
+            "value": 8
+        },
+        {
+            "name": "COMMAND_GIVE_WEAPON",
+            "value": 9
+        },
+        {
+            "name": "COMMAND_GOTO",
+            "value": 10
+        },
+        {
+            "name": "COMMAND_GOTO_WAIT",
+            "value": 11
+        },
+        {
+            "name": "COMMAND_GET_IN_CAR",
+            "value": 12
+        },
+        {
+            "name": "COMMAND_GET_OUT_CAR",
+            "value": 13
+        },
+        {
+            "name": "COMMAND_KILL",
+            "value": 14
+        },
+        {
+            "name": "COMMAND_FLEE",
+            "value": 15
+        },
+        {
+            "name": "COMMAND_WAIT",
+            "value": 16
+        },
+        {
+            "name": "COMMAND_POSITION_CAMERA",
+            "value": 17
+        },
+        {
+            "name": "COMMAND_SET_CAMERA_TARGET",
+            "value": 18
+        },
+        {
+            "name": "COMMAND_SELECT_CAMERA_MODE",
+            "value": 19
+        },
+        {
+            "name": "COMMAND_SAVE_MOVIE",
+            "value": 20
+        },
+        {
+            "name": "COMMAND_LOAD_MOVIE",
+            "value": 21
+        },
+        {
+            "name": "COMMAND_PLAY_MOVIE",
+            "value": 22
+        },
+        {
+            "name": "COMMAND_END",
+            "value": 23
+        },
+        {
+            "name": "COMMAND_ACTION",
+            "value": 24
+        },
+        {
+            "name": "COMMAND_SELECTED",
+            "value": 25
+        }
+    ]
+}

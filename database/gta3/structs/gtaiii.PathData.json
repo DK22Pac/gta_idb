@@ -1,0 +1,107 @@
+{
+    "name": "PathData",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0xFC",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "gap0",
+            "type": "_BYTE[27]",
+            "offset": 0,
+            "size": "0x1B"
+        },
+        {
+            "name": "byte1B",
+            "type": "_BYTE",
+            "offset": "0x1B",
+            "size": 1
+        },
+        {
+            "name": "gap1C",
+            "type": "_BYTE[31]",
+            "offset": "0x1C",
+            "size": "0x1F"
+        },
+        {
+            "name": "byte3B",
+            "type": "_BYTE",
+            "offset": "0x3B",
+            "size": 1
+        },
+        {
+            "name": "gap3C",
+            "type": "_BYTE[31]",
+            "offset": "0x3C",
+            "size": "0x1F"
+        },
+        {
+            "name": "byte5B",
+            "type": "_BYTE",
+            "offset": "0x5B",
+            "size": 1
+        },
+        {
+            "name": "gap5C",
+            "type": "_BYTE[31]",
+            "offset": "0x5C",
+            "size": "0x1F"
+        },
+        {
+            "name": "byte7B",
+            "type": "_BYTE",
+            "offset": "0x7B",
+            "size": 1
+        },
+        {
+            "name": "gap7C",
+            "type": "_BYTE[31]",
+            "offset": "0x7C",
+            "size": "0x1F"
+        },
+        {
+            "name": "byte9B",
+            "type": "_BYTE",
+            "offset": "0x9B",
+            "size": 1
+        },
+        {
+            "name": "gap9C",
+            "type": "_BYTE[31]",
+            "offset": "0x9C",
+            "size": "0x1F"
+        },
+        {
+            "name": "byteBB",
+            "type": "_BYTE",
+            "offset": "0xBB",
+            "size": 1
+        },
+        {
+            "name": "gapBC",
+            "type": "_BYTE[31]",
+            "offset": "0xBC",
+            "size": "0x1F"
+        },
+        {
+            "name": "byteDB",
+            "type": "_BYTE",
+            "offset": "0xDB",
+            "size": 1
+        },
+        {
+            "name": "gapDC",
+            "type": "_BYTE[31]",
+            "offset": "0xDC",
+            "size": "0x1F"
+        },
+        {
+            "name": "byteFB",
+            "type": "_BYTE",
+            "offset": "0xFB",
+            "size": 1
+        }
+    ]
+}

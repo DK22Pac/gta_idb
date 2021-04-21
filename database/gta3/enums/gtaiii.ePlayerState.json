@@ -1,0 +1,33 @@
+{
+    "name": "ePlayerState",
+    "module": "",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "PLAYERSTATE_PLAYING",
+            "value": "0x0"
+        },
+        {
+            "name": "PLAYERSTATE_HASDIED",
+            "value": "0x1"
+        },
+        {
+            "name": "PLAYERSTATE_HASBEENARRESTED",
+            "value": "0x2"
+        },
+        {
+            "name": "PLAYERSTATE_FAILEDMISSION",
+            "value": "0x3"
+        },
+        {
+            "name": "PLAYERSTATE_LEFTGAME",
+            "value": "0x4"
+        }
+    ]
+}

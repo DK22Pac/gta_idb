@@ -1,0 +1,47 @@
+{
+    "name": "rwResHeapBlockHeader",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x20",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "heap",
+            "type": "rwResHeapHeader *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "next",
+            "type": "rwResHeapBlockHeader *",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "prev",
+            "type": "rwResHeapBlockHeader *",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "size",
+            "type": "RwUInt32",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "flags",
+            "type": "rwResHeapBlockFlags",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "_pad14",
+            "type": "RwUInt32[3]",
+            "offset": "0x14",
+            "size": "0xC"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "name": "CBuildingSwap",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0xC",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_pBuilding",
+            "type": "CBuilding *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "m_nNewModel",
+            "type": "int",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "m_nOldModel",
+            "type": "int",
+            "offset": 8,
+            "size": 4
+        }
+    ]
+}

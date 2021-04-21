@@ -1,0 +1,17 @@
+{
+    "name": "CAnimBlendAssociationVMT",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 4,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "destructor",
+            "type": "void (__thiscall *)(CAnimBlendAssociation *, int)",
+            "offset": 0,
+            "size": 4
+        }
+    ]
+}

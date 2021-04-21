@@ -3,8 +3,8 @@
     "module": "",
     "scope": "",
     "kind": "class",
-    "size": "0x184",
-    "alignment": 0,
+    "size": "0x188",
+    "alignment": 2,
     "comment": "",
     "members": [
         {
@@ -15,19 +15,19 @@
         },
         {
             "name": "projectionType",
-            "type": "int",
+            "type": "RwCameraProjection",
             "offset": "0x14",
             "size": 4
         },
         {
             "name": "beginUpdate",
-            "type": "int",
+            "type": "RwCameraBeginUpdateFunc",
             "offset": "0x18",
             "size": 4
         },
         {
             "name": "endUpdate",
-            "type": "int",
+            "type": "RwCameraEndUpdateFunc",
             "offset": "0x1C",
             "size": 4
         },
@@ -45,7 +45,7 @@
         },
         {
             "name": "zBuffer",
-            "type": "int",
+            "type": "RwRaster *",
             "offset": "0x64",
             "size": 4
         },
@@ -69,50 +69,62 @@
         },
         {
             "name": "nearPlane",
-            "type": "float",
+            "type": "RwReal",
             "offset": "0x80",
             "size": 4
         },
         {
             "name": "farPlane",
-            "type": "float",
+            "type": "RwReal",
             "offset": "0x84",
             "size": 4
         },
         {
             "name": "fogPlane",
-            "type": "int",
+            "type": "RwReal",
             "offset": "0x88",
             "size": 4
         },
         {
             "name": "zScale",
-            "type": "int",
+            "type": "RwReal",
             "offset": "0x8C",
             "size": 4
         },
         {
             "name": "zShift",
-            "type": "int",
+            "type": "RwReal",
             "offset": "0x90",
             "size": 4
         },
         {
-            "name": "frustrumPlanes",
-            "type": "RwFrustumPlane[6]",
+            "name": "renderFrame",
+            "type": "RwUInt16",
             "offset": "0x94",
+            "size": 2
+        },
+        {
+            "name": "pad",
+            "type": "RwUInt16",
+            "offset": "0x96",
+            "size": 2
+        },
+        {
+            "name": "frustumPlanes",
+            "type": "RwFrustumPlane[6]",
+            "offset": "0x98",
             "size": "0x78"
         },
         {
-            "name": "frustrumBoundBox",
+            "name": "frustumBoundBox",
             "type": "RwBBox",
-            "offset": "0x10C",
+            "offset": "0x110",
             "size": "0x18"
         },
         {
-            "name": "frustrumCorners",
+            "name": "frustumCorners",
             "type": "RwV3d[8]",
-            "offset": "0x124",
+            "offset": "0x128",
             "size": "0x60"
         }
     ]

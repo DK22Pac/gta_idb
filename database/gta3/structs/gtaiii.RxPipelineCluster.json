@@ -1,0 +1,23 @@
+{
+    "name": "RxPipelineCluster",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 8,
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "clusterRef",
+            "type": "RxClusterDefinition *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "creationAttributes",
+            "type": "unsigned int",
+            "offset": 4,
+            "size": 4
+        }
+    ]
+}

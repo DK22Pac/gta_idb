@@ -1,0 +1,37 @@
+{
+    "name": "eDoors",
+    "module": "",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "DOOR_BONNET",
+            "value": 0
+        },
+        {
+            "name": "DOOR_BOOT",
+            "value": 1
+        },
+        {
+            "name": "DOOR_LEFT_FRONT",
+            "value": 2
+        },
+        {
+            "name": "DOOR_RIGHT_FRONT",
+            "value": 3
+        },
+        {
+            "name": "DOOR_LEFT_REAR",
+            "value": 4
+        },
+        {
+            "name": "DOOR_RIGHT_REAR",
+            "value": 5
+        }
+    ]
+}

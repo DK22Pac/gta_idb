@@ -1,0 +1,53 @@
+{
+    "name": "tMessage",
+    "module": "",
+    "scope": "",
+    "kind": "struct",
+    "size": "0x2C",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_pText",
+            "type": "wchar_t *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "m_nFlag",
+            "type": "unsigned __int16",
+            "offset": 4,
+            "size": 2
+        },
+        {
+            "name": "_pad6",
+            "type": "char[2]",
+            "offset": 6,
+            "size": 2
+        },
+        {
+            "name": "m_nTime",
+            "type": "unsigned int",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "m_nStartTime",
+            "type": "unsigned int",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "m_nNumber",
+            "type": "int[6]",
+            "offset": "0x10",
+            "size": "0x18"
+        },
+        {
+            "name": "m_pString",
+            "type": "wchar_t *",
+            "offset": "0x28",
+            "size": 4
+        }
+    ]
+}

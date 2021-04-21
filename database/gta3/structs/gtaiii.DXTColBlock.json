@@ -1,0 +1,29 @@
+{
+    "name": "DXTColBlock",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 8,
+    "alignment": 1,
+    "comment": "",
+    "members": [
+        {
+            "name": "col0",
+            "type": "RwUInt16",
+            "offset": 0,
+            "size": 2
+        },
+        {
+            "name": "col1",
+            "type": "RwUInt16",
+            "offset": 2,
+            "size": 2
+        },
+        {
+            "name": "row",
+            "type": "RwUInt8[4]",
+            "offset": 4,
+            "size": 4
+        }
+    ]
+}

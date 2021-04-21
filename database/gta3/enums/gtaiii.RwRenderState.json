@@ -68,6 +68,66 @@
         {
             "name": "rwRENDERSTATEFOGENABLE",
             "value": "0xE"
+        },
+        {
+            "name": "rwRENDERSTATEFOGCOLOR",
+            "value": "0xF"
+        },
+        {
+            "name": "rwRENDERSTATEFOGTYPE",
+            "value": "0x10"
+        },
+        {
+            "name": "rwRENDERSTATEFOGDENSITY",
+            "value": "0x11"
+        },
+        {
+            "name": "rwRENDERSTATEFOGTABLE",
+            "value": "0x12"
+        },
+        {
+            "name": "rwRENDERSTATEALPHAPRIMITIVEBUFFER",
+            "value": "0x13"
+        },
+        {
+            "name": "rwRENDERSTATECULLMODE",
+            "value": "0x14"
+        },
+        {
+            "name": "rwRENDERSTATESTENCILENABLE",
+            "value": "0x15"
+        },
+        {
+            "name": "rwRENDERSTATESTENCILFAIL",
+            "value": "0x16"
+        },
+        {
+            "name": "rwRENDERSTATESTENCILZFAIL",
+            "value": "0x17"
+        },
+        {
+            "name": "rwRENDERSTATESTENCILPASS",
+            "value": "0x18"
+        },
+        {
+            "name": "rwRENDERSTATESTENCILFUNCTION",
+            "value": "0x19"
+        },
+        {
+            "name": "rwRENDERSTATESTENCILFUNCTIONREF",
+            "value": "0x1A"
+        },
+        {
+            "name": "rwRENDERSTATESTENCILFUNCTIONMASK",
+            "value": "0x1B"
+        },
+        {
+            "name": "rwRENDERSTATESTENCILFUNCTIONWRITEMASK",
+            "value": "0x1C"
+        },
+        {
+            "name": "rwRENDERSTATEFORCEENUMSIZEINT",
+            "value": "0x7FFFFFFF"
         }
     ]
 }

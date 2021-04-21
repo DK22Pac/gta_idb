@@ -1,0 +1,53 @@
+{
+    "name": "tPedComment",
+    "module": "",
+    "scope": "",
+    "kind": "struct",
+    "size": "0x1C",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_nSampleIndex",
+            "type": "int",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "dword4",
+            "type": "int",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "m_vecPos",
+            "type": "CVector",
+            "offset": 8,
+            "size": "0xC"
+        },
+        {
+            "name": "m_fDistance",
+            "type": "float",
+            "offset": "0x14",
+            "size": 4
+        },
+        {
+            "name": "m_bVolume",
+            "type": "bool",
+            "offset": "0x18",
+            "size": 1
+        },
+        {
+            "name": "field_19",
+            "type": "char",
+            "offset": "0x19",
+            "size": 1
+        },
+        {
+            "name": "_pad1A",
+            "type": "char[2]",
+            "offset": "0x1A",
+            "size": 2
+        }
+    ]
+}

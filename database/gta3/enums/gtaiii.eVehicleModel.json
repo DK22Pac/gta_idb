@@ -1,0 +1,293 @@
+{
+    "name": "eVehicleModel",
+    "module": "",
+    "scope": "",
+    "width": 4,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "MODEL_LANDSTAL",
+            "value": 90
+        },
+        {
+            "name": "MODEL_IDAHO",
+            "value": 91
+        },
+        {
+            "name": "MODEL_STINGER",
+            "value": 92
+        },
+        {
+            "name": "MODEL_LINERUN",
+            "value": 93
+        },
+        {
+            "name": "MODEL_PEREN",
+            "value": 94
+        },
+        {
+            "name": "MODEL_SENTINEL",
+            "value": 95
+        },
+        {
+            "name": "MODEL_PATRIOT",
+            "value": 96
+        },
+        {
+            "name": "MODEL_FIRETRUK",
+            "value": 97
+        },
+        {
+            "name": "MODEL_TRASH",
+            "value": 98
+        },
+        {
+            "name": "MODEL_STRETCH",
+            "value": 99
+        },
+        {
+            "name": "MODEL_MANANA",
+            "value": 100
+        },
+        {
+            "name": "MODEL_INFERNUS",
+            "value": 101
+        },
+        {
+            "name": "MODEL_BLISTA",
+            "value": 102
+        },
+        {
+            "name": "MODEL_PONY",
+            "value": 103
+        },
+        {
+            "name": "MODEL_MULE",
+            "value": 104
+        },
+        {
+            "name": "MODEL_CHEETAH",
+            "value": 105
+        },
+        {
+            "name": "MODEL_AMBULAN",
+            "value": 106
+        },
+        {
+            "name": "MODEL_FBICAR",
+            "value": 107
+        },
+        {
+            "name": "MODEL_MOONBEAM",
+            "value": 108
+        },
+        {
+            "name": "MODEL_ESPERANT",
+            "value": 109
+        },
+        {
+            "name": "MODEL_TAXI",
+            "value": 110
+        },
+        {
+            "name": "MODEL_KURUMA",
+            "value": 111
+        },
+        {
+            "name": "MODEL_BOBCAT",
+            "value": 112
+        },
+        {
+            "name": "MODEL_MRWHOOP",
+            "value": 113
+        },
+        {
+            "name": "MODEL_BFINJECT",
+            "value": 114
+        },
+        {
+            "name": "MODEL_CORPSE",
+            "value": 115
+        },
+        {
+            "name": "MODEL_POLICE",
+            "value": 116
+        },
+        {
+            "name": "MODEL_ENFORCER",
+            "value": 117
+        },
+        {
+            "name": "MODEL_SECURICA",
+            "value": 118
+        },
+        {
+            "name": "MODEL_BANSHEE",
+            "value": 119
+        },
+        {
+            "name": "MODEL_PREDATOR",
+            "value": 120
+        },
+        {
+            "name": "MODEL_BUS",
+            "value": 121
+        },
+        {
+            "name": "MODEL_RHINO",
+            "value": 122
+        },
+        {
+            "name": "MODEL_BARRACKS",
+            "value": 123
+        },
+        {
+            "name": "MODEL_TRAIN",
+            "value": 124
+        },
+        {
+            "name": "MODEL_CHOPPER",
+            "value": 125
+        },
+        {
+            "name": "MODEL_DODO",
+            "value": 126
+        },
+        {
+            "name": "MODEL_COACH",
+            "value": 127
+        },
+        {
+            "name": "MODEL_CABBIE",
+            "value": 128
+        },
+        {
+            "name": "MODEL_STALLION",
+            "value": 129
+        },
+        {
+            "name": "MODEL_RUMPO",
+            "value": 130
+        },
+        {
+            "name": "MODEL_RCBANDIT",
+            "value": 131
+        },
+        {
+            "name": "MODEL_BELLYUP",
+            "value": 132
+        },
+        {
+            "name": "MODEL_MRWONGS",
+            "value": 133
+        },
+        {
+            "name": "MODEL_MAFIA",
+            "value": 134
+        },
+        {
+            "name": "MODEL_YARDIE",
+            "value": 135
+        },
+        {
+            "name": "MODEL_YAKUZA",
+            "value": 136
+        },
+        {
+            "name": "MODEL_DIABLOS",
+            "value": 137
+        },
+        {
+            "name": "MODEL_COLUMB",
+            "value": 138
+        },
+        {
+            "name": "MODEL_HOODS",
+            "value": 139
+        },
+        {
+            "name": "MODEL_AIRTRAIN",
+            "value": 140
+        },
+        {
+            "name": "MODEL_DEADDODO",
+            "value": 141
+        },
+        {
+            "name": "MODEL_SPEEDER",
+            "value": 142
+        },
+        {
+            "name": "MODEL_REEFER",
+            "value": 143
+        },
+        {
+            "name": "MODEL_PANLANT",
+            "value": 144
+        },
+        {
+            "name": "MODEL_FLATBED",
+            "value": 145
+        },
+        {
+            "name": "MODEL_YANKEE",
+            "value": 146
+        },
+        {
+            "name": "MODEL_ESCAPE",
+            "value": 147
+        },
+        {
+            "name": "MODEL_BORGNINE",
+            "value": 148
+        },
+        {
+            "name": "MODEL_TOYZ",
+            "value": 149
+        },
+        {
+            "name": "MODEL_GHOST",
+            "value": 150
+        },
+        {
+            "name": "MODEL_ID_151",
+            "value": 151
+        },
+        {
+            "name": "MODEL_ID_152",
+            "value": 152
+        },
+        {
+            "name": "MODEL_ID_153",
+            "value": 153
+        },
+        {
+            "name": "MODEL_ID_154",
+            "value": 154
+        },
+        {
+            "name": "MODEL_ID_155",
+            "value": 155
+        },
+        {
+            "name": "MODEL_ID_156",
+            "value": 156
+        },
+        {
+            "name": "MODEL_ID_157",
+            "value": 157
+        },
+        {
+            "name": "MODEL_ID_158",
+            "value": 158
+        },
+        {
+            "name": "MODEL_ID_159",
+            "value": 159
+        }
+    ]
+}

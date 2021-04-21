@@ -9,25 +9,25 @@
     "members": [
         {
             "name": "red",
-            "type": "char",
+            "type": "RwUInt8",
             "offset": 0,
             "size": 1
         },
         {
             "name": "green",
-            "type": "char",
+            "type": "RwUInt8",
             "offset": 1,
             "size": 1
         },
         {
             "name": "blue",
-            "type": "char",
+            "type": "RwUInt8",
             "offset": 2,
             "size": 1
         },
         {
             "name": "alpha",
-            "type": "char",
+            "type": "RwUInt8",
             "offset": 3,
             "size": 1
         }

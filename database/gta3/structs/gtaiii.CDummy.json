@@ -1,0 +1,25 @@
+{
+    "name": "CDummy",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x68",
+    "alignment": 2,
+    "vtableAddress": "0x5F0F40",
+    "vtableSize": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "entity",
+            "type": "CEntity",
+            "offset": 0,
+            "size": "0x64"
+        },
+        {
+            "name": "m_collisionList",
+            "type": "CEntryInfoList",
+            "offset": "0x64",
+            "size": 4
+        }
+    ]
+}

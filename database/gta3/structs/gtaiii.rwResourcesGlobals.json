@@ -1,0 +1,17 @@
+{
+    "name": "rwResourcesGlobals",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x28",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "res",
+            "type": "rwResources",
+            "offset": 0,
+            "size": "0x28"
+        }
+    ]
+}

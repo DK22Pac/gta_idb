@@ -1,0 +1,29 @@
+{
+    "name": "RxPipelineNodeTopSortData",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0xC",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "numIns",
+            "type": "RwUInt32",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "numInsVisited",
+            "type": "RwUInt32",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "req",
+            "type": "rxReq *",
+            "offset": 8,
+            "size": 4
+        }
+    ]
+}

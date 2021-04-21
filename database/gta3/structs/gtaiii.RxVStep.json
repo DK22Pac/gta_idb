@@ -1,0 +1,17 @@
+{
+    "name": "RxVStep",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 1,
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "step",
+            "type": "RwUInt8",
+            "offset": 0,
+            "size": 1
+        }
+    ]
+}

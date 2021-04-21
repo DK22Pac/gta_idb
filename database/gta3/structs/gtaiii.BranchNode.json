@@ -1,0 +1,23 @@
+{
+    "name": "BranchNode",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x5C",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "Branch",
+            "type": "_rwPalQuantBranchNode",
+            "offset": 0,
+            "size": "0x40"
+        },
+        {
+            "name": "Leaf",
+            "type": "_rwPalQuantLeafNode",
+            "offset": "0x40",
+            "size": "0x1C"
+        }
+    ]
+}

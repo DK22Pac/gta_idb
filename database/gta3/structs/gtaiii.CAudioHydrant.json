@@ -1,0 +1,23 @@
+{
+    "name": "CAudioHydrant",
+    "module": "CAudioHydrant",
+    "scope": "",
+    "kind": "class",
+    "size": 8,
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_nAudioEntity",
+            "type": "int",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "m_pObject",
+            "type": "CParticleObject *",
+            "offset": 4,
+            "size": 4
+        }
+    ]
+}

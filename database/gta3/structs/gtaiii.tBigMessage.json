@@ -1,0 +1,23 @@
+{
+    "name": "tBigMessage",
+    "module": "",
+    "scope": "",
+    "kind": "struct",
+    "size": "0xB0",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_Current",
+            "type": "tMessage",
+            "offset": 0,
+            "size": "0x2C"
+        },
+        {
+            "name": "m_Stack",
+            "type": "tMessage[3]",
+            "offset": "0x2C",
+            "size": "0x84"
+        }
+    ]
+}

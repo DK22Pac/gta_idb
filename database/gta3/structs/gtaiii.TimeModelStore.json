@@ -8,7 +8,7 @@
     "comment": "",
     "members": [
         {
-            "name": "m_dwCount",
+            "name": "m_nCount",
             "type": "int",
             "offset": 0,
             "size": 4

@@ -4,11 +4,11 @@
     "scope": "",
     "kind": "class",
     "size": "0x10",
-    "alignment": 2,
+    "alignment": 0,
     "comment": "",
     "members": [
         {
-            "name": "m_vecCenter",
+            "name": "m_vCenter",
             "type": "CVector",
             "offset": 0,
             "size": "0xC"

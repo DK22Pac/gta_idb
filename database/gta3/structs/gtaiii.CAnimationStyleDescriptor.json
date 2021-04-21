@@ -1,0 +1,47 @@
+{
+    "name": "CAnimationStyleDescriptor",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x18",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "groupName",
+            "type": "char *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "blockName",
+            "type": "char *",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "modelIndex",
+            "type": "int",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "animsCount",
+            "type": "int",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "animNames",
+            "type": "char **",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "animDesc",
+            "type": "CAnimFlags *",
+            "offset": "0x14",
+            "size": 4
+        }
+    ]
+}

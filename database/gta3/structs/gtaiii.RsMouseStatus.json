@@ -1,0 +1,35 @@
+{
+    "name": "RsMouseStatus",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x18",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "pos",
+            "type": "RwV2d",
+            "offset": 0,
+            "size": 8
+        },
+        {
+            "name": "delta",
+            "type": "RwV2d",
+            "offset": 8,
+            "size": 8
+        },
+        {
+            "name": "shift",
+            "type": "RwBool",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "control",
+            "type": "RwBool",
+            "offset": "0x14",
+            "size": 4
+        }
+    ]
+}

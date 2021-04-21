@@ -4,30 +4,30 @@
     "scope": "",
     "kind": "class",
     "size": "0x10",
-    "alignment": 0,
+    "alignment": 2,
     "comment": "",
     "members": [
         {
             "name": "red",
-            "type": "float",
+            "type": "RwReal",
             "offset": 0,
             "size": 4
         },
         {
             "name": "green",
-            "type": "float",
+            "type": "RwReal",
             "offset": 4,
             "size": 4
         },
         {
             "name": "blue",
-            "type": "float",
+            "type": "RwReal",
             "offset": 8,
             "size": 4
         },
         {
             "name": "alpha",
-            "type": "float",
+            "type": "RwReal",
             "offset": "0xC",
             "size": 4
         }

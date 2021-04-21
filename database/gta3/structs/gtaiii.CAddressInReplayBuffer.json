@@ -1,0 +1,35 @@
+{
+    "name": "CAddressInReplayBuffer",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0xC",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_nOffset",
+            "type": "unsigned int",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "m_pBase",
+            "type": "char *",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "m_bSlot",
+            "type": "char",
+            "offset": 8,
+            "size": 1
+        },
+        {
+            "name": "_pad9",
+            "type": "char[3]",
+            "offset": 9,
+            "size": 3
+        }
+    ]
+}

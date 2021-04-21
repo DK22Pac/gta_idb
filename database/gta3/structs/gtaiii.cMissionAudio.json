@@ -1,0 +1,89 @@
+{
+    "name": "cMissionAudio",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x20",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_vecPos",
+            "type": "CVector",
+            "offset": 0,
+            "size": "0xC"
+        },
+        {
+            "name": "field_12",
+            "type": "char",
+            "offset": "0xC",
+            "size": 1
+        },
+        {
+            "name": "_padD",
+            "type": "char[3]",
+            "offset": "0xD",
+            "size": 3
+        },
+        {
+            "name": "m_nSampleIndex",
+            "type": "int",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "m_nLoadingStatus",
+            "type": "char",
+            "offset": "0x14",
+            "size": 1
+        },
+        {
+            "name": "m_bPlayStatus",
+            "type": "char",
+            "offset": "0x15",
+            "size": 1
+        },
+        {
+            "name": "field_22",
+            "type": "char",
+            "offset": "0x16",
+            "size": 1
+        },
+        {
+            "name": "field_23",
+            "type": "char",
+            "offset": "0x17",
+            "size": 1
+        },
+        {
+            "name": "field_24",
+            "type": "int",
+            "offset": "0x18",
+            "size": 4
+        },
+        {
+            "name": "m_bIsPlayed",
+            "type": "char",
+            "offset": "0x1C",
+            "size": 1
+        },
+        {
+            "name": "field_29",
+            "type": "char",
+            "offset": "0x1D",
+            "size": 1
+        },
+        {
+            "name": "field_30",
+            "type": "char",
+            "offset": "0x1E",
+            "size": 1
+        },
+        {
+            "name": "field_31",
+            "type": "char",
+            "offset": "0x1F",
+            "size": 1
+        }
+    ]
+}

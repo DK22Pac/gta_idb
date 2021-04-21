@@ -1,380 +1,512 @@
 {
     "name": "CCam",
-    "module": "",
+    "module": "CCam",
     "scope": "",
     "kind": "class",
     "size": "0x1A4",
-    "alignment": 0,
+    "alignment": 2,
     "comment": "",
     "members": [
         {
-            "name": "f0",
-            "type": "_BYTE[3]",
+            "name": "m_bBelowMinDist",
+            "type": "bool",
             "offset": 0,
-            "size": 3
+            "size": 1
         },
         {
-            "name": "byte3",
-            "type": "_BYTE",
+            "name": "m_bBehindPlayerDesired",
+            "type": "bool",
+            "offset": 1,
+            "size": 1
+        },
+        {
+            "name": "m_bCamLookingAtVector",
+            "type": "bool",
+            "offset": 2,
+            "size": 1
+        },
+        {
+            "name": "m_bCollisionChecksOn",
+            "type": "bool",
             "offset": 3,
             "size": 1
         },
         {
-            "name": "byte4",
-            "type": "_BYTE",
+            "name": "m_bFixingBeta",
+            "type": "bool",
             "offset": 4,
             "size": 1
         },
         {
-            "name": "f5",
-            "type": "_BYTE[1]",
+            "name": "m_bTheHeightFixerVehicleIsATrain",
+            "type": "bool",
             "offset": 5,
             "size": 1
         },
         {
-            "name": "byte6",
-            "type": "_BYTE",
+            "name": "m_bLookBehindCamWasInFront",
+            "type": "bool",
             "offset": 6,
             "size": 1
         },
         {
-            "name": "byte7",
-            "type": "_BYTE",
+            "name": "m_bLookingBehind",
+            "type": "bool",
             "offset": 7,
             "size": 1
         },
         {
-            "name": "byte8",
-            "type": "_BYTE",
+            "name": "m_bLookingLeft",
+            "type": "bool",
             "offset": 8,
             "size": 1
         },
         {
-            "name": "byte9",
-            "type": "_BYTE",
+            "name": "m_bLookingRight",
+            "type": "bool",
             "offset": 9,
             "size": 1
         },
         {
-            "name": "byteA",
-            "type": "_BYTE",
+            "name": "m_bResetStatics",
+            "type": "bool",
             "offset": "0xA",
             "size": 1
         },
         {
-            "name": "byteB",
-            "type": "_BYTE",
+            "name": "m_bRotating",
+            "type": "bool",
             "offset": "0xB",
             "size": 1
         },
         {
-            "name": "m_wCamMode",
-            "type": "_WORD",
+            "name": "m_nCamMode",
+            "type": "__int16",
             "offset": "0xC",
             "size": 2
         },
         {
-            "name": "fE",
-            "type": "_BYTE[6]",
+            "name": "_padE",
+            "type": "__int16",
             "offset": "0xE",
-            "size": 6
+            "size": 2
         },
         {
-            "name": "dword14",
-            "type": "_DWORD",
+            "name": "m_nFinishTime",
+            "type": "unsigned int",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "m_nDoCollisionChecksOnFrameNum",
+            "type": "int",
             "offset": "0x14",
             "size": 4
         },
         {
-            "name": "dword18",
-            "type": "_DWORD",
+            "name": "m_nDoCollisionCheckEveryNumOfFrames",
+            "type": "int",
             "offset": "0x18",
             "size": 4
         },
         {
-            "name": "dword1C",
-            "type": "_DWORD",
+            "name": "m_nFrameNumWereAt",
+            "type": "int",
             "offset": "0x1C",
             "size": 4
         },
         {
-            "name": "f20",
-            "type": "_BYTE[8]",
+            "name": "m_nRunningVectorArrayPos",
+            "type": "int",
             "offset": "0x20",
-            "size": 8
+            "size": 4
         },
         {
-            "name": "dword28",
-            "type": "_DWORD",
+            "name": "m_nRunningVectorCounter",
+            "type": "int",
+            "offset": "0x24",
+            "size": 4
+        },
+        {
+            "name": "m_nDirectionWasLooking",
+            "type": "int",
             "offset": "0x28",
             "size": 4
         },
         {
-            "name": "dword2C",
+            "name": "m_fMaxRoleAngle",
             "type": "float",
             "offset": "0x2C",
             "size": 4
         },
         {
-            "name": "dword30",
-            "type": "_DWORD",
+            "name": "m_fRoll",
+            "type": "float",
             "offset": "0x30",
             "size": 4
         },
         {
-            "name": "dword34",
-            "type": "_DWORD",
+            "name": "m_fRollSpeed",
+            "type": "float",
             "offset": "0x34",
             "size": 4
         },
         {
-            "name": "dword38",
+            "name": "m_fSyphonModeTargetZOffSet",
             "type": "float",
             "offset": "0x38",
             "size": 4
         },
         {
-            "name": "dword3C",
-            "type": "_DWORD",
+            "name": "m_fAmountFractionObscured",
+            "type": "float",
             "offset": "0x3C",
             "size": 4
         },
         {
-            "name": "f40",
-            "type": "_BYTE[12]",
+            "name": "field_40",
+            "type": "float",
             "offset": "0x40",
-            "size": "0xC"
+            "size": 4
         },
         {
-            "name": "dword4C",
-            "type": "_DWORD",
+            "name": "m_fAlphaSpeedOverOneFrame",
+            "type": "float",
+            "offset": "0x44",
+            "size": 4
+        },
+        {
+            "name": "m_fBetaSpeedOverOneFrame",
+            "type": "float",
+            "offset": "0x48",
+            "size": 4
+        },
+        {
+            "name": "m_fBufferedTargetBeta",
+            "type": "float",
             "offset": "0x4C",
             "size": 4
         },
         {
-            "name": "dword50",
-            "type": "_DWORD",
+            "name": "m_fBufferedTargetOrientation",
+            "type": "float",
             "offset": "0x50",
             "size": 4
         },
         {
-            "name": "dword54",
-            "type": "_DWORD",
+            "name": "m_fBufferedTargetOrientationSpeed",
+            "type": "float",
             "offset": "0x54",
             "size": 4
         },
         {
-            "name": "f58",
-            "type": "_BYTE[8]",
+            "name": "m_fCamBufferedHeight",
+            "type": "float",
             "offset": "0x58",
-            "size": 8
+            "size": 4
         },
         {
-            "name": "dword60",
-            "type": "_DWORD",
+            "name": "m_fCamBufferedHeightSpeed",
+            "type": "float",
+            "offset": "0x5C",
+            "size": 4
+        },
+        {
+            "name": "m_fCloseInPedHeightOffset",
+            "type": "float",
             "offset": "0x60",
             "size": 4
         },
         {
-            "name": "dword64",
-            "type": "_DWORD",
+            "name": "m_fCloseInPedHeightOffsetSpeed",
+            "type": "float",
             "offset": "0x64",
             "size": 4
         },
         {
-            "name": "dword68",
-            "type": "_DWORD",
+            "name": "m_fCloseInCarHeightOffset",
+            "type": "float",
             "offset": "0x68",
             "size": 4
         },
         {
-            "name": "dword6C",
-            "type": "_DWORD",
+            "name": "m_fCloseInCarHeightOffsetSpeed",
+            "type": "float",
             "offset": "0x6C",
             "size": 4
         },
         {
-            "name": "dword70",
-            "type": "_DWORD",
+            "name": "m_fDimensionOfHighestNearCar",
+            "type": "float",
             "offset": "0x70",
             "size": 4
         },
         {
-            "name": "f74",
-            "type": "_BYTE[12]",
+            "name": "m_fDistanceBeforeChanges",
+            "type": "float",
             "offset": "0x74",
-            "size": "0xC"
+            "size": 4
         },
         {
-            "name": "dword80",
-            "type": "_DWORD",
+            "name": "m_fFovSpeedOverOneFrame",
+            "type": "float",
+            "offset": "0x78",
+            "size": 4
+        },
+        {
+            "name": "m_fMinDistAwayFromCamWhenInterPolating",
+            "type": "float",
+            "offset": "0x7C",
+            "size": 4
+        },
+        {
+            "name": "m_fPedBetweenCameraHeightOffset",
+            "type": "float",
             "offset": "0x80",
             "size": 4
         },
         {
-            "name": "dword84",
+            "name": "m_fPlayerInFrontSyphonAngleOffSet",
             "type": "float",
             "offset": "0x84",
             "size": 4
         },
         {
-            "name": "dword88",
+            "name": "m_fRadiusForDead",
             "type": "float",
             "offset": "0x88",
             "size": 4
         },
         {
-            "name": "dword8C",
-            "type": "_DWORD",
+            "name": "m_fRealGroundDist",
+            "type": "float",
             "offset": "0x8C",
             "size": 4
         },
         {
-            "name": "dword90",
-            "type": "_DWORD",
+            "name": "m_fTargetBeta",
+            "type": "float",
             "offset": "0x90",
             "size": 4
         },
         {
-            "name": "f94",
-            "type": "_BYTE[24]",
+            "name": "m_fTimeElapsedFloat",
+            "type": "float",
             "offset": "0x94",
-            "size": "0x18"
+            "size": 4
         },
         {
-            "name": "dwordAC",
-            "type": "_DWORD",
+            "name": "m_fTransitionBeta",
+            "type": "float",
+            "offset": "0x98",
+            "size": 4
+        },
+        {
+            "name": "m_fTrueBeta",
+            "type": "float",
+            "offset": "0x9C",
+            "size": 4
+        },
+        {
+            "name": "m_fTrueAlpha",
+            "type": "float",
+            "offset": "0xA0",
+            "size": 4
+        },
+        {
+            "name": "m_fInitialPlayerOrientation",
+            "type": "float",
+            "offset": "0xA4",
+            "size": 4
+        },
+        {
+            "name": "m_fVerticalAngle",
+            "type": "float",
+            "offset": "0xA8",
+            "size": 4
+        },
+        {
+            "name": "m_fAlphaSpeed",
+            "type": "float",
             "offset": "0xAC",
             "size": 4
         },
         {
-            "name": "fB0",
-            "type": "_BYTE[8]",
+            "name": "m_fFOV",
+            "type": "float",
             "offset": "0xB0",
-            "size": 8
+            "size": 4
         },
         {
-            "name": "dwordB8",
-            "type": "_DWORD",
+            "name": "m_fFOVSpeed",
+            "type": "float",
+            "offset": "0xB4",
+            "size": 4
+        },
+        {
+            "name": "m_fHorizontalAngle",
+            "type": "float",
             "offset": "0xB8",
             "size": 4
         },
         {
-            "name": "dwordBC",
-            "type": "_DWORD",
+            "name": "m_fBetaSpeed",
+            "type": "float",
             "offset": "0xBC",
             "size": 4
         },
         {
-            "name": "dwordC0",
+            "name": "m_fDistance",
             "type": "float",
             "offset": "0xC0",
             "size": 4
         },
         {
-            "name": "dwordC4",
-            "type": "_DWORD",
+            "name": "m_fDistanceSpeed",
+            "type": "float",
             "offset": "0xC4",
             "size": 4
         },
         {
-            "name": "dwordC8",
-            "type": "_DWORD",
+            "name": "m_fCaMinDistance",
+            "type": "float",
             "offset": "0xC8",
             "size": 4
         },
         {
-            "name": "dwordCC",
-            "type": "_DWORD",
+            "name": "m_fCaMaxDistance",
+            "type": "float",
             "offset": "0xCC",
             "size": 4
         },
         {
-            "name": "fD0",
-            "type": "_BYTE[112]",
-            "offset": "0xD0",
-            "size": "0x70"
-        },
-        {
-            "name": "dword140",
-            "type": "_DWORD",
-            "offset": "0x140",
-            "size": 4
-        },
-        {
-            "name": "dword144",
-            "type": "_DWORD",
-            "offset": "0x144",
-            "size": 4
-        },
-        {
-            "name": "dword148",
+            "name": "m_fSpeedVar",
             "type": "float",
-            "offset": "0x148",
+            "offset": "0xD0",
             "size": 4
         },
         {
-            "name": "f14C",
+            "name": "m_vecCamSourceSpeedOverOneFrame",
+            "type": "CVector",
+            "offset": "0xD4",
+            "size": "0xC"
+        },
+        {
+            "name": "m_vecCamTargetSpeedOverOneFrame",
+            "type": "CVector",
+            "offset": "0xE0",
+            "size": "0xC"
+        },
+        {
+            "name": "m_vecCamUpOverOneFrame",
+            "type": "CVector",
+            "offset": "0xEC",
+            "size": "0xC"
+        },
+        {
+            "name": "m_vecTargetCoorsForFudgeInter",
+            "type": "CVector",
+            "offset": "0xF8",
+            "size": "0xC"
+        },
+        {
+            "name": "m_vecCamFixedModeVector",
+            "type": "CVector",
+            "offset": "0x104",
+            "size": "0xC"
+        },
+        {
+            "name": "m_vecCamFixedModeSource",
+            "type": "CVector",
+            "offset": "0x110",
+            "size": "0xC"
+        },
+        {
+            "name": "m_vecCamFixedModeUpOffSet",
+            "type": "CVector",
+            "offset": "0x11C",
+            "size": "0xC"
+        },
+        {
+            "name": "m_vecLastAboveWaterCamPosition",
+            "type": "CVector",
+            "offset": "0x128",
+            "size": "0xC"
+        },
+        {
+            "name": "m_vecBufferedPlayerBodyOffset",
+            "type": "CVector",
+            "offset": "0x134",
+            "size": "0xC"
+        },
+        {
+            "name": "m_vecFront",
+            "type": "CVector",
+            "offset": "0x140",
+            "size": "0xC"
+        },
+        {
+            "name": "m_vecSource",
             "type": "CVector",
             "offset": "0x14C",
             "size": "0xC"
         },
         {
-            "name": "field_158",
+            "name": "m_vecSourceBeforeLookBehind",
             "type": "CVector",
             "offset": "0x158",
             "size": "0xC"
         },
         {
-            "name": "dword164",
-            "type": "_DWORD",
+            "name": "m_vecUp",
+            "type": "CVector",
             "offset": "0x164",
-            "size": 4
+            "size": "0xC"
         },
         {
-            "name": "dword168",
-            "type": "_DWORD",
-            "offset": "0x168",
-            "size": 4
-        },
-        {
-            "name": "dword16C",
-            "type": "float",
-            "offset": "0x16C",
-            "size": 4
-        },
-        {
-            "name": "f170",
-            "type": "char[24]",
+            "name": "m_avecPreviousVectors",
+            "type": "CVector[2]",
             "offset": "0x170",
             "size": "0x18"
         },
         {
-            "name": "field_188",
+            "name": "m_pCamTargetEntity",
             "type": "CEntity *",
             "offset": "0x188",
             "size": 4
         },
         {
-            "name": "gap_18C",
-            "type": "char[12]",
+            "name": "m_fCameraDistance",
+            "type": "float",
             "offset": "0x18C",
-            "size": "0xC"
+            "size": 4
         },
         {
-            "name": "dword198",
-            "type": "_DWORD",
+            "name": "m_fIdealAlpha",
+            "type": "float",
+            "offset": "0x190",
+            "size": 4
+        },
+        {
+            "name": "m_fPlayerVelocity",
+            "type": "float",
+            "offset": "0x194",
+            "size": 4
+        },
+        {
+            "name": "m_pLastCarEntered",
+            "type": "CAutomobile *",
             "offset": "0x198",
             "size": 4
         },
         {
-            "name": "dword19C",
-            "type": "_DWORD",
+            "name": "m_pLastPedLookedAt",
+            "type": "CPed *",
             "offset": "0x19C",
             "size": 4
         },
         {
-            "name": "field_1A0",
+            "name": "m_bFirstPersonRunAboutActive",
             "type": "int",
             "offset": "0x1A0",
             "size": 4

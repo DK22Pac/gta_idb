@@ -1,0 +1,53 @@
+{
+    "name": "RwStencilFunction",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "rwSTENCILFUNCTIONNASTENCILFUNCTION",
+            "value": "0x0"
+        },
+        {
+            "name": "rwSTENCILFUNCTIONNEVER",
+            "value": "0x1"
+        },
+        {
+            "name": "rwSTENCILFUNCTIONLESS",
+            "value": "0x2"
+        },
+        {
+            "name": "rwSTENCILFUNCTIONEQUAL",
+            "value": "0x3"
+        },
+        {
+            "name": "rwSTENCILFUNCTIONLESSEQUAL",
+            "value": "0x4"
+        },
+        {
+            "name": "rwSTENCILFUNCTIONGREATER",
+            "value": "0x5"
+        },
+        {
+            "name": "rwSTENCILFUNCTIONNOTEQUAL",
+            "value": "0x6"
+        },
+        {
+            "name": "rwSTENCILFUNCTIONGREATEREQUAL",
+            "value": "0x7"
+        },
+        {
+            "name": "rwSTENCILFUNCTIONALWAYS",
+            "value": "0x8"
+        },
+        {
+            "name": "rwSTENCILFUNCTIONFORCEENUMSIZEINT",
+            "value": "0x7FFFFFFF"
+        }
+    ]
+}

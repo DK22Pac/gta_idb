@@ -1,0 +1,17 @@
+{
+    "name": "_rwPalQuantBranchNode",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x40",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "dir",
+            "type": "_rwPalQuantOctNode *[16]",
+            "offset": 0,
+            "size": "0x40"
+        }
+    ]
+}

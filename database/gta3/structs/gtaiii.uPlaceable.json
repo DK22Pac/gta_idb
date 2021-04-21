@@ -1,0 +1,41 @@
+{
+    "name": "uPlaceable",
+    "module": "",
+    "scope": "",
+    "kind": "union",
+    "size": 4,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "placeable",
+            "type": "CPlaceable *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "particleObject",
+            "type": "CParticleObject *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "instance",
+            "type": "CInstance *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "camera",
+            "type": "CCamera *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "entity",
+            "type": "CEntity *",
+            "offset": 0,
+            "size": 4
+        }
+    ]
+}

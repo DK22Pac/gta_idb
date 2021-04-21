@@ -1,0 +1,41 @@
+{
+    "name": "eModelInfoType",
+    "module": "CBaseModelInfo",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "MODEL_INFO_SIMPLE",
+            "value": 1
+        },
+        {
+            "name": "MODEL_INFO_MLO",
+            "value": 2
+        },
+        {
+            "name": "MODEL_INFO_TIME",
+            "value": 3
+        },
+        {
+            "name": "MODEL_INFO_CLUMP",
+            "value": 4
+        },
+        {
+            "name": "MODEL_INFO_VEHICLE",
+            "value": 5
+        },
+        {
+            "name": "MODEL_INFO_PED",
+            "value": 6
+        },
+        {
+            "name": "MODEL_INFO_XTRACOMPS",
+            "value": 7
+        }
+    ]
+}

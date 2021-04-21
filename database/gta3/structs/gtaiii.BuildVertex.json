@@ -1,0 +1,29 @@
+{
+    "name": "BuildVertex",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0xC",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "pos",
+            "type": "RwV3d *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "flags",
+            "type": "RwUInt32",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "dist",
+            "type": "RwReal",
+            "offset": 8,
+            "size": 4
+        }
+    ]
+}

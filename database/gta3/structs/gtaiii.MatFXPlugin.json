@@ -14,7 +14,7 @@
             "size": "0x30"
         },
         {
-            "name": "pipelineType",
+            "name": "m_nPipelineType",
             "type": "int",
             "offset": "0x30",
             "size": 4

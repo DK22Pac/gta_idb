@@ -1,0 +1,29 @@
+{
+    "name": "RwImageFlag",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "rwNAIMAGEFLAG",
+            "value": "0x0"
+        },
+        {
+            "name": "rwIMAGEALLOCATED",
+            "value": "0x1"
+        },
+        {
+            "name": "rwIMAGEGAMMACORRECTED",
+            "value": "0x2"
+        },
+        {
+            "name": "rwIMAGEFLAGFORCEENUMSIZEINT",
+            "value": "0x7FFFFFFF"
+        }
+    ]
+}

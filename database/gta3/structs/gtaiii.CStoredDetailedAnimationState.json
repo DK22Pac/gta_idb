@@ -1,0 +1,89 @@
+{
+    "name": "CStoredDetailedAnimationState",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x40",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_abAnimId",
+            "type": "char[3]",
+            "offset": 0,
+            "size": 3
+        },
+        {
+            "name": "m_abCurTime",
+            "type": "char[3]",
+            "offset": 3,
+            "size": 3
+        },
+        {
+            "name": "m_abSpeed",
+            "type": "char[3]",
+            "offset": 6,
+            "size": 3
+        },
+        {
+            "name": "m_abBlendAmount",
+            "type": "char[3]",
+            "offset": 9,
+            "size": 3
+        },
+        {
+            "name": "m_abFunctionCallbackID",
+            "type": "char[3]",
+            "offset": "0xC",
+            "size": 3
+        },
+        {
+            "name": "gap_15",
+            "type": "char[1]",
+            "offset": "0xF",
+            "size": 1
+        },
+        {
+            "name": "m_awFlags",
+            "type": "__int16[3]",
+            "offset": "0x10",
+            "size": 6
+        },
+        {
+            "name": "m_abAnimId2",
+            "type": "char[6]",
+            "offset": "0x16",
+            "size": 6
+        },
+        {
+            "name": "m_abCurTime2",
+            "type": "char[6]",
+            "offset": "0x1C",
+            "size": 6
+        },
+        {
+            "name": "m_abSpeed2",
+            "type": "char[6]",
+            "offset": "0x22",
+            "size": 6
+        },
+        {
+            "name": "m_abBlendAmount2",
+            "type": "char[6]",
+            "offset": "0x28",
+            "size": 6
+        },
+        {
+            "name": "m_abFunctionCallbackID2",
+            "type": "char[6]",
+            "offset": "0x2E",
+            "size": 6
+        },
+        {
+            "name": "m_awFlags2",
+            "type": "__int16[6]",
+            "offset": "0x34",
+            "size": "0xC"
+        }
+    ]
+}

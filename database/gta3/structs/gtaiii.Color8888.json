@@ -1,0 +1,35 @@
+{
+    "name": "Color8888",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 4,
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "r",
+            "type": "RwUInt8",
+            "offset": 0,
+            "size": 1
+        },
+        {
+            "name": "g",
+            "type": "RwUInt8",
+            "offset": 1,
+            "size": 1
+        },
+        {
+            "name": "b",
+            "type": "RwUInt8",
+            "offset": 2,
+            "size": 1
+        },
+        {
+            "name": "a",
+            "type": "RwUInt8",
+            "offset": 3,
+            "size": 1
+        }
+    ]
+}

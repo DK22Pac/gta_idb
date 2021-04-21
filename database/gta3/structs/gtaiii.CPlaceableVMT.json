@@ -1,0 +1,17 @@
+{
+    "name": "CPlaceableVMT",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 4,
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "destructor",
+            "type": "void (__thiscall *)(CPlaceable *, int)",
+            "offset": 0,
+            "size": 4
+        }
+    ]
+}

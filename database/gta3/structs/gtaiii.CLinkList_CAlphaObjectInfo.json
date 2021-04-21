@@ -1,0 +1,41 @@
+{
+    "name": "CLinkList_CAlphaObjectInfo",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x44",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "head",
+            "type": "CLink_CAlphaObjectInfo",
+            "offset": 0,
+            "size": "0x10"
+        },
+        {
+            "name": "tail",
+            "type": "CLink_CAlphaObjectInfo",
+            "offset": "0x10",
+            "size": "0x10"
+        },
+        {
+            "name": "freeHead",
+            "type": "CLink_CAlphaObjectInfo",
+            "offset": "0x20",
+            "size": "0x10"
+        },
+        {
+            "name": "freeTail",
+            "type": "CLink_CAlphaObjectInfo",
+            "offset": "0x30",
+            "size": "0x10"
+        },
+        {
+            "name": "links",
+            "type": "CLink_CAlphaObjectInfo *",
+            "offset": "0x40",
+            "size": 4
+        }
+    ]
+}

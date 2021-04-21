@@ -1,0 +1,35 @@
+{
+    "name": "AnimBlendFrameData",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x18",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_nFlags",
+            "type": "unsigned int",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "m_vecOffset",
+            "type": "RwV3d",
+            "offset": 4,
+            "size": "0xC"
+        },
+        {
+            "name": "m_pFrame",
+            "type": "RwFrame *",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "m_nNodeId",
+            "type": "unsigned int",
+            "offset": "0x14",
+            "size": 4
+        }
+    ]
+}

@@ -1,6 +1,6 @@
 {
     "name": "CColTriangle",
-    "module": "",
+    "module": "CColTriangle",
     "scope": "",
     "kind": "class",
     "size": 8,
@@ -8,32 +8,33 @@
     "comment": "",
     "members": [
         {
-            "name": "vert1",
-            "type": "_WORD",
+            "name": "m_nVertA",
+            "type": "unsigned __int16",
             "offset": 0,
-            "size": 2
+            "size": 2,
+            "comment": "\"vertex index in vertices array\""
         },
         {
-            "name": "vert2",
-            "type": "__int16",
+            "name": "m_nVertB",
+            "type": "unsigned __int16",
             "offset": 2,
             "size": 2
         },
         {
-            "name": "vert3",
-            "type": "__int16",
+            "name": "m_nVertC",
+            "type": "unsigned __int16",
             "offset": 4,
             "size": 2
         },
         {
-            "name": "material",
-            "type": "char",
+            "name": "m_nMaterial",
+            "type": "unsigned __int8",
             "offset": 6,
             "size": 1
         },
         {
-            "name": "light",
-            "type": "char",
+            "name": "m_nLight",
+            "type": "unsigned __int8",
             "offset": 7,
             "size": 1
         }

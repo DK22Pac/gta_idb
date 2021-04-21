@@ -1,0 +1,23 @@
+{
+    "name": "RwSplitFixed",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 4,
+    "alignment": 1,
+    "comment": "",
+    "members": [
+        {
+            "name": "fractional",
+            "type": "RwUInt16",
+            "offset": 0,
+            "size": 2
+        },
+        {
+            "name": "integral",
+            "type": "RwInt16",
+            "offset": 2,
+            "size": 2
+        }
+    ]
+}

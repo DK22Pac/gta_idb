@@ -1,0 +1,73 @@
+{
+    "name": "eWeaponModel",
+    "module": "",
+    "scope": "",
+    "width": 4,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "MODEL_UNARMED",
+            "value": 0
+        },
+        {
+            "name": "MODEL_GRENADE",
+            "value": 170
+        },
+        {
+            "name": "MODEL_AK47",
+            "value": 171
+        },
+        {
+            "name": "MODEL_BAT",
+            "value": 172
+        },
+        {
+            "name": "MODEL_COLT45",
+            "value": 173
+        },
+        {
+            "name": "MODEL_MOLOTOV",
+            "value": 174
+        },
+        {
+            "name": "MODEL_ROCKET",
+            "value": 175
+        },
+        {
+            "name": "MODEL_SHOTGUN",
+            "value": 176
+        },
+        {
+            "name": "MODEL_SNIPER",
+            "value": 177
+        },
+        {
+            "name": "MODEL_UZI",
+            "value": 178
+        },
+        {
+            "name": "MODEL_MISSILE",
+            "value": 179
+        },
+        {
+            "name": "MODEL_M16",
+            "value": 180
+        },
+        {
+            "name": "MODEL_FLAME",
+            "value": 181
+        },
+        {
+            "name": "MODEL_BOMB",
+            "value": 182
+        },
+        {
+            "name": "MODEL_FINGERS",
+            "value": 183
+        }
+    ]
+}

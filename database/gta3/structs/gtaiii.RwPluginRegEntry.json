@@ -1,0 +1,101 @@
+{
+    "name": "RwPluginRegEntry",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x3C",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "offset",
+            "type": "RwInt32",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "size",
+            "type": "RwInt32",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "pluginID",
+            "type": "RwUInt32",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "readCB",
+            "type": "RwPluginDataChunkReadCallBack",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "writeCB",
+            "type": "RwPluginDataChunkWriteCallBack",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "getSizeCB",
+            "type": "RwPluginDataChunkGetSizeCallBack",
+            "offset": "0x14",
+            "size": 4
+        },
+        {
+            "name": "alwaysCB",
+            "type": "RwPluginDataChunkAlwaysCallBack",
+            "offset": "0x18",
+            "size": 4
+        },
+        {
+            "name": "rightsCB",
+            "type": "RwPluginDataChunkRightsCallBack",
+            "offset": "0x1C",
+            "size": 4
+        },
+        {
+            "name": "constructCB",
+            "type": "RwPluginObjectConstructor",
+            "offset": "0x20",
+            "size": 4
+        },
+        {
+            "name": "destructCB",
+            "type": "RwPluginObjectDestructor",
+            "offset": "0x24",
+            "size": 4
+        },
+        {
+            "name": "copyCB",
+            "type": "RwPluginObjectCopy",
+            "offset": "0x28",
+            "size": 4
+        },
+        {
+            "name": "errStrCB",
+            "type": "RwPluginErrorStrCallBack",
+            "offset": "0x2C",
+            "size": 4
+        },
+        {
+            "name": "nextRegEntry",
+            "type": "RwPluginRegEntry *",
+            "offset": "0x30",
+            "size": 4
+        },
+        {
+            "name": "prevRegEntry",
+            "type": "RwPluginRegEntry *",
+            "offset": "0x34",
+            "size": 4
+        },
+        {
+            "name": "parentRegistry",
+            "type": "RwPluginRegistry *",
+            "offset": "0x38",
+            "size": 4
+        }
+    ]
+}

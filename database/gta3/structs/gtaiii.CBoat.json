@@ -1,0 +1,211 @@
+{
+    "name": "CBoat",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x484",
+    "alignment": 2,
+    "vtableAddress": "0x600EA4",
+    "vtableSize": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "vehicle",
+            "type": "CVehicle",
+            "offset": 0,
+            "size": "0x288"
+        },
+        {
+            "name": "dword288",
+            "type": "float",
+            "offset": "0x288",
+            "size": 4
+        },
+        {
+            "name": "dword28C",
+            "type": "float",
+            "offset": "0x28C",
+            "size": 4
+        },
+        {
+            "name": "dword290",
+            "type": "float",
+            "offset": "0x290",
+            "size": 4
+        },
+        {
+            "name": "dword294",
+            "type": "float",
+            "offset": "0x294",
+            "size": 4
+        },
+        {
+            "name": "dword298",
+            "type": "float",
+            "offset": "0x298",
+            "size": 4
+        },
+        {
+            "name": "dword29C",
+            "type": "float",
+            "offset": "0x29C",
+            "size": 4
+        },
+        {
+            "name": "dword2A0",
+            "type": "float",
+            "offset": "0x2A0",
+            "size": 4
+        },
+        {
+            "name": "dword2A4",
+            "type": "float",
+            "offset": "0x2A4",
+            "size": 4
+        },
+        {
+            "name": "dword2A8",
+            "type": "float",
+            "offset": "0x2A8",
+            "size": 4
+        },
+        {
+            "name": "dword2AC",
+            "type": "int",
+            "offset": "0x2AC",
+            "size": 4
+        },
+        {
+            "name": "m_aBoatNodes",
+            "type": "RwFrame *[4]",
+            "offset": "0x2B0",
+            "size": "0x10"
+        },
+        {
+            "name": "m_nBoatFlags",
+            "type": "_BYTE",
+            "offset": "0x2C0",
+            "size": 1
+        },
+        {
+            "name": "m_bAnchored",
+            "type": "bool",
+            "offset": "0x2C1",
+            "size": 1
+        },
+        {
+            "name": "_pad2C2",
+            "type": "char[2]",
+            "offset": "0x2C2",
+            "size": 2
+        },
+        {
+            "name": "m_fForcedZRotation",
+            "type": "float",
+            "offset": "0x2C4",
+            "size": 4
+        },
+        {
+            "name": "dword2C8",
+            "type": "int",
+            "offset": "0x2C8",
+            "size": 4
+        },
+        {
+            "name": "m_fBurningTimer",
+            "type": "float",
+            "offset": "0x2CC",
+            "size": 4
+        },
+        {
+            "name": "m_pWhoDestroyedMe",
+            "type": "CEntity *",
+            "offset": "0x2D0",
+            "size": 4
+        },
+        {
+            "name": "byte2D4",
+            "type": "char",
+            "offset": "0x2D4",
+            "size": 1
+        },
+        {
+            "name": "_pad2D5",
+            "type": "char[3]",
+            "offset": "0x2D5",
+            "size": 3
+        },
+        {
+            "name": "m_fBoatGasPedal",
+            "type": "float",
+            "offset": "0x2D8",
+            "size": 4
+        },
+        {
+            "name": "m_fBoatBrakePedal",
+            "type": "float",
+            "offset": "0x2DC",
+            "size": 4
+        },
+        {
+            "name": "m_fBoatSteeringLeftRight",
+            "type": "float",
+            "offset": "0x2E0",
+            "size": 4
+        },
+        {
+            "name": "m_nPadNumber",
+            "type": "unsigned __int8",
+            "offset": "0x2E4",
+            "size": 1
+        },
+        {
+            "name": "byte2E5",
+            "type": "char[7]",
+            "offset": "0x2E5",
+            "size": 7
+        },
+        {
+            "name": "dword2EC",
+            "type": "float",
+            "offset": "0x2EC",
+            "size": 4
+        },
+        {
+            "name": "dword2F0",
+            "type": "CVector",
+            "offset": "0x2F0",
+            "size": "0xC"
+        },
+        {
+            "name": "dword2FC",
+            "type": "float",
+            "offset": "0x2FC",
+            "size": 4
+        },
+        {
+            "name": "word300",
+            "type": "__int16",
+            "offset": "0x300",
+            "size": 2
+        },
+        {
+            "name": "m_nNumWaterTrailPoints",
+            "type": "__int16",
+            "offset": "0x302",
+            "size": 2
+        },
+        {
+            "name": "m_avecWakePoints",
+            "type": "CVector2D[32]",
+            "offset": "0x304",
+            "size": "0x100"
+        },
+        {
+            "name": "m_afWakePointLifeTime",
+            "type": "float[32]",
+            "offset": "0x404",
+            "size": "0x80"
+        }
+    ]
+}

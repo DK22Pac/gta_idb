@@ -1,0 +1,77 @@
+{
+    "name": "RxRenderStateVector",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x2C",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "Flags",
+            "type": "RwUInt32",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "ShadeMode",
+            "type": "RwShadeMode",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "SrcBlend",
+            "type": "RwBlendFunction",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "DestBlend",
+            "type": "RwBlendFunction",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "TextureRaster",
+            "type": "RwRaster *",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "AddressModeU",
+            "type": "RwTextureAddressMode",
+            "offset": "0x14",
+            "size": 4
+        },
+        {
+            "name": "AddressModeV",
+            "type": "RwTextureAddressMode",
+            "offset": "0x18",
+            "size": 4
+        },
+        {
+            "name": "FilterMode",
+            "type": "RwTextureFilterMode",
+            "offset": "0x1C",
+            "size": 4
+        },
+        {
+            "name": "BorderColor",
+            "type": "RwRGBA",
+            "offset": "0x20",
+            "size": 4
+        },
+        {
+            "name": "FogType",
+            "type": "RwFogType",
+            "offset": "0x24",
+            "size": 4
+        },
+        {
+            "name": "FogColor",
+            "type": "RwRGBA",
+            "offset": "0x28",
+            "size": 4
+        }
+    ]
+}

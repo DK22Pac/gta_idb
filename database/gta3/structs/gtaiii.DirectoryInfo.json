@@ -9,13 +9,13 @@
     "members": [
         {
             "name": "m_nOffset",
-            "type": "_DWORD",
+            "type": "unsigned int",
             "offset": 0,
             "size": 4
         },
         {
             "name": "m_nSize",
-            "type": "_DWORD",
+            "type": "unsigned int",
             "offset": 4,
             "size": 4
         },

@@ -1,0 +1,25 @@
+{
+    "name": "RwObjectType",
+    "module": "",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "rwObject",
+            "value": "0x0"
+        },
+        {
+            "name": "rpATOMIC",
+            "value": "0x1"
+        },
+        {
+            "name": "rpCLUMP",
+            "value": "0x2"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "name": "eFormation",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "FORMATION_NONE",
+            "value": "0x0"
+        },
+        {
+            "name": "FORMATION_BEHIND",
+            "value": "0x1"
+        },
+        {
+            "name": "FORMATION_BACKLEFT",
+            "value": "0x2"
+        },
+        {
+            "name": "FORMATION_BACKRIGHT",
+            "value": "0x3"
+        },
+        {
+            "name": "FORMATION_FRONTLEFT",
+            "value": "0x4"
+        },
+        {
+            "name": "FORMATION_FRONTRIGHT",
+            "value": "0x5"
+        },
+        {
+            "name": "FORMATION_LEFT",
+            "value": "0x6"
+        },
+        {
+            "name": "FORMATION_RIGHT",
+            "value": "0x7"
+        },
+        {
+            "name": "FORMATION_FRONT",
+            "value": "0x8"
+        }
+    ]
+}

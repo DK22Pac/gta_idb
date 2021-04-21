@@ -1,0 +1,53 @@
+{
+    "name": "RwAlphaTestFunction",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "rwALPHATESTFUNCTIONNAALPHATESTFUNCTION",
+            "value": "0x0"
+        },
+        {
+            "name": "rwALPHATESTFUNCTIONNEVER",
+            "value": "0x1"
+        },
+        {
+            "name": "rwALPHATESTFUNCTIONLESS",
+            "value": "0x2"
+        },
+        {
+            "name": "rwALPHATESTFUNCTIONEQUAL",
+            "value": "0x3"
+        },
+        {
+            "name": "rwALPHATESTFUNCTIONLESSEQUAL",
+            "value": "0x4"
+        },
+        {
+            "name": "rwALPHATESTFUNCTIONGREATER",
+            "value": "0x5"
+        },
+        {
+            "name": "rwALPHATESTFUNCTIONNOTEQUAL",
+            "value": "0x6"
+        },
+        {
+            "name": "rwALPHATESTFUNCTIONGREATEREQUAL",
+            "value": "0x7"
+        },
+        {
+            "name": "rwALPHATESTFUNCTIONALWAYS",
+            "value": "0x8"
+        },
+        {
+            "name": "rwALPHATESTFUNCTIONFORCEENUMSIZEINT",
+            "value": "0x7FFFFFFF"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "CControllerKeyActionAssociation",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 8,
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_nControllerKey",
+            "type": "int",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "m_nNumberOfSettings",
+            "type": "int",
+            "offset": 4,
+            "size": 4
+        }
+    ]
+}

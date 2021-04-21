@@ -1,0 +1,17 @@
+{
+    "name": "CCarPathLinkAddress",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 2,
+    "alignment": 1,
+    "comment": "",
+    "members": [
+        {
+            "name": "_bf0",
+            "type": "__int16",
+            "offset": 0,
+            "size": 2
+        }
+    ]
+}

@@ -8,25 +8,25 @@
     "comment": "",
     "members": [
         {
-            "name": "x1",
+            "name": "left",
             "type": "float",
             "offset": 0,
             "size": 4
         },
         {
-            "name": "y1",
+            "name": "bottom",
             "type": "float",
             "offset": 4,
             "size": 4
         },
         {
-            "name": "x2",
+            "name": "right",
             "type": "float",
             "offset": 8,
             "size": 4
         },
         {
-            "name": "y2",
+            "name": "top",
             "type": "float",
             "offset": "0xC",
             "size": 4

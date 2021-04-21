@@ -1,0 +1,77 @@
+{
+    "name": "CControllerConfigManager",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x143C",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_bJoypadInitialised",
+            "type": "char",
+            "offset": 0,
+            "size": 1
+        },
+        {
+            "name": "_gap1",
+            "type": "char[3]",
+            "offset": 1,
+            "size": 3
+        },
+        {
+            "name": "m_PrevJoyState",
+            "type": "DIJOYSTATE2",
+            "offset": 4,
+            "size": "0x110"
+        },
+        {
+            "name": "m_CurJoyState",
+            "type": "DIJOYSTATE2",
+            "offset": "0x114",
+            "size": "0x110"
+        },
+        {
+            "name": "m_awControllerActionNameArray",
+            "type": "wchar_t[41][40]",
+            "offset": "0x224",
+            "size": "0xCD0"
+        },
+        {
+            "name": "m_abJoyButtonState",
+            "type": "char[17]",
+            "offset": "0xEF4",
+            "size": "0x11"
+        },
+        {
+            "name": "_gapF05",
+            "type": "char[3]",
+            "offset": "0xF05",
+            "size": 3
+        },
+        {
+            "name": "m_aKeysAssociations",
+            "type": "CControllerKeyActionAssociation[4][41]",
+            "offset": "0xF08",
+            "size": "0x520"
+        },
+        {
+            "name": "m_asSimButtonPressCheckers",
+            "type": "char[4][4]",
+            "offset": "0x1428",
+            "size": "0x10"
+        },
+        {
+            "name": "m_bMouseInitialised",
+            "type": "char",
+            "offset": "0x1438",
+            "size": 1
+        },
+        {
+            "name": "_gap1439",
+            "type": "char[3]",
+            "offset": "0x1439",
+            "size": 3
+        }
+    ]
+}

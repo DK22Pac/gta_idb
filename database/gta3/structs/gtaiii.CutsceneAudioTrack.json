@@ -1,0 +1,23 @@
+{
+    "name": "CutsceneAudioTrack",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 8,
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "name",
+            "type": "char *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "id",
+            "type": "int",
+            "offset": 4,
+            "size": 4
+        }
+    ]
+}

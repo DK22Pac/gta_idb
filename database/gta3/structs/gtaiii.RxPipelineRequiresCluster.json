@@ -1,0 +1,29 @@
+{
+    "name": "RxPipelineRequiresCluster",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0xC",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "clusterDef",
+            "type": "RxClusterDefinition *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "rqdOrOpt",
+            "type": "RxClusterValidityReq",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "slotIndex",
+            "type": "unsigned int",
+            "offset": 8,
+            "size": 4
+        }
+    ]
+}

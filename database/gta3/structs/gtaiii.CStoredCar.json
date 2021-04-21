@@ -1,0 +1,71 @@
+{
+    "name": "CStoredCar",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x28",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_nModelIndex",
+            "type": "unsigned int",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "m_vecPosition",
+            "type": "CVector",
+            "offset": 4,
+            "size": "0xC"
+        },
+        {
+            "name": "m_vecRotation",
+            "type": "CVector",
+            "offset": "0x10",
+            "size": "0xC"
+        },
+        {
+            "name": "m_nStoredCarFlags",
+            "type": "int",
+            "offset": "0x1C",
+            "size": 4
+        },
+        {
+            "name": "m_nPrimaryColor",
+            "type": "unsigned __int8",
+            "offset": "0x20",
+            "size": 1
+        },
+        {
+            "name": "m_nSecondaryColor",
+            "type": "unsigned __int8",
+            "offset": "0x21",
+            "size": 1
+        },
+        {
+            "name": "m_nRadioStation",
+            "type": "char",
+            "offset": "0x22",
+            "size": 1
+        },
+        {
+            "name": "m_anCompsToUse",
+            "type": "char[2]",
+            "offset": "0x23",
+            "size": 2
+        },
+        {
+            "name": "m_nAutomobileFlags",
+            "type": "unsigned __int8",
+            "offset": "0x25",
+            "size": 1
+        },
+        {
+            "name": "_pad26",
+            "type": "char[2]",
+            "offset": "0x26",
+            "size": 2
+        }
+    ]
+}

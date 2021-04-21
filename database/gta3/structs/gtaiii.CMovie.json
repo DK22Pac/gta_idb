@@ -1,0 +1,53 @@
+{
+    "name": "CMovie",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x24",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_nCurrentMovieCommand",
+            "type": "unsigned int",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "m_vecCurrentPosition",
+            "type": "CVector",
+            "offset": 4,
+            "size": "0xC"
+        },
+        {
+            "name": "m_vecGotoPosition",
+            "type": "CVector",
+            "offset": "0x10",
+            "size": "0xC"
+        },
+        {
+            "name": "m_nActor",
+            "type": "__int16",
+            "offset": "0x1C",
+            "size": 2
+        },
+        {
+            "name": "m_nActor2",
+            "type": "__int16",
+            "offset": "0x1E",
+            "size": 2
+        },
+        {
+            "name": "m_nVehicle",
+            "type": "__int16",
+            "offset": "0x20",
+            "size": 2
+        },
+        {
+            "name": "m_nModelId",
+            "type": "__int16",
+            "offset": "0x22",
+            "size": 2
+        }
+    ]
+}

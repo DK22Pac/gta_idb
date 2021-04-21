@@ -1,0 +1,33 @@
+{
+    "name": "RwCullMode",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "rwCULLMODENACULLMODE",
+            "value": "0x0"
+        },
+        {
+            "name": "rwCULLMODECULLNONE",
+            "value": "0x1"
+        },
+        {
+            "name": "rwCULLMODECULLBACK",
+            "value": "0x2"
+        },
+        {
+            "name": "rwCULLMODECULLFRONT",
+            "value": "0x3"
+        },
+        {
+            "name": "rwCULLMODEFORCEENUMSIZEINT",
+            "value": "0x7FFFFFFF"
+        }
+    ]
+}

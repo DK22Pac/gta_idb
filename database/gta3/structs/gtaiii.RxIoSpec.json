@@ -1,0 +1,41 @@
+{
+    "name": "RxIoSpec",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x14",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "numClustersOfInterest",
+            "type": "unsigned int",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "clustersOfInterest",
+            "type": "RxClusterRef *",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "inputRequirements",
+            "type": "RxClusterValidityReq *",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "numOutputs",
+            "type": "unsigned int",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "outputs",
+            "type": "RxOutputSpec *",
+            "offset": "0x10",
+            "size": 4
+        }
+    ]
+}

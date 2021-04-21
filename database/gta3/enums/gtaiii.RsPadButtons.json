@@ -1,0 +1,77 @@
+{
+    "name": "RsPadButtons",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": true,
+    "comment": "",
+    "members": [
+        {
+            "name": "rsPADDPADLEFT",
+            "value": "0x1"
+        },
+        {
+            "name": "rsPADDPADRIGHT",
+            "value": "0x2"
+        },
+        {
+            "name": "rsPADDPADUP",
+            "value": "0x4"
+        },
+        {
+            "name": "rsPADDPADDOWN",
+            "value": "0x8"
+        },
+        {
+            "name": "rsPADSTART",
+            "value": "0x10"
+        },
+        {
+            "name": "rsPADSELECT",
+            "value": "0x20"
+        },
+        {
+            "name": "rsPADBUTTON1",
+            "value": "0x40"
+        },
+        {
+            "name": "rsPADBUTTON2",
+            "value": "0x80"
+        },
+        {
+            "name": "rsPADBUTTON3",
+            "value": "0x100"
+        },
+        {
+            "name": "rsPADBUTTON4",
+            "value": "0x200"
+        },
+        {
+            "name": "rsPADBUTTON5",
+            "value": "0x400"
+        },
+        {
+            "name": "rsPADBUTTON6",
+            "value": "0x800"
+        },
+        {
+            "name": "rsPADBUTTON7",
+            "value": "0x1000"
+        },
+        {
+            "name": "rsPADBUTTON8",
+            "value": "0x2000"
+        },
+        {
+            "name": "rsPADBUTTONA1",
+            "value": "0x4000"
+        },
+        {
+            "name": "rsPADBUTTONA2",
+            "value": "0x8000"
+        }
+    ]
+}

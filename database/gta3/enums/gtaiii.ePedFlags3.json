@@ -1,0 +1,45 @@
+{
+    "name": "ePedFlags3",
+    "module": "",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": true,
+    "comment": "",
+    "members": [
+        {
+            "name": "Bb25",
+            "value": "0x1"
+        },
+        {
+            "name": "Bb26",
+            "value": "0x2"
+        },
+        {
+            "name": "bPedIsBleeding",
+            "value": "0x4"
+        },
+        {
+            "name": "Bb28",
+            "value": "0x8"
+        },
+        {
+            "name": "bIsPedDieAnimPlaying",
+            "value": "0x10"
+        },
+        {
+            "name": "Bb30",
+            "value": "0x20"
+        },
+        {
+            "name": "Bb31",
+            "value": "0x40"
+        },
+        {
+            "name": "bHasObjectiveCompleted",
+            "value": "0x80"
+        }
+    ]
+}

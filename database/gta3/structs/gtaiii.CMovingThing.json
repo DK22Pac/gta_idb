@@ -1,0 +1,47 @@
+{
+    "name": "CMovingThing",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x1C",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_pNext",
+            "type": "CMovingThing *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "m_pPrev",
+            "type": "CMovingThing *",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "field_8",
+            "type": "_WORD",
+            "offset": 8,
+            "size": 2
+        },
+        {
+            "name": "wordA",
+            "type": "_WORD",
+            "offset": "0xA",
+            "size": 2
+        },
+        {
+            "name": "gapC",
+            "type": "_BYTE[12]",
+            "offset": "0xC",
+            "size": "0xC"
+        },
+        {
+            "name": "m_pCEntity",
+            "type": "CEntity *",
+            "offset": "0x18",
+            "size": 4
+        }
+    ]
+}

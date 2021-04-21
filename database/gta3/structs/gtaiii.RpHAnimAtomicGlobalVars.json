@@ -1,0 +1,23 @@
+{
+    "name": "RpHAnimAtomicGlobalVars",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 8,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "engineOffset",
+            "type": "RwInt32",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "HAnimFreeList",
+            "type": "RwFreeList *",
+            "offset": 4,
+            "size": 4
+        }
+    ]
+}

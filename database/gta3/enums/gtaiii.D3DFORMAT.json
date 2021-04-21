@@ -1,0 +1,257 @@
+{
+    "name": "D3DFORMAT",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "D3DFMT_UNKNOWN",
+            "value": 0
+        },
+        {
+            "name": "D3DFMT_R8G8B8",
+            "value": 20
+        },
+        {
+            "name": "D3DFMT_A8R8G8B8",
+            "value": 21
+        },
+        {
+            "name": "D3DFMT_X8R8G8B8",
+            "value": 22
+        },
+        {
+            "name": "D3DFMT_R5G6B5",
+            "value": 23
+        },
+        {
+            "name": "D3DFMT_X1R5G5B5",
+            "value": 24
+        },
+        {
+            "name": "D3DFMT_A1R5G5B5",
+            "value": 25
+        },
+        {
+            "name": "D3DFMT_A4R4G4B4",
+            "value": 26
+        },
+        {
+            "name": "D3DFMT_R3G3B2",
+            "value": 27
+        },
+        {
+            "name": "D3DFMT_A8",
+            "value": 28
+        },
+        {
+            "name": "D3DFMT_A8R3G3B2",
+            "value": 29
+        },
+        {
+            "name": "D3DFMT_X4R4G4B4",
+            "value": 30
+        },
+        {
+            "name": "D3DFMT_A2B10G10R10",
+            "value": 31
+        },
+        {
+            "name": "D3DFMT_A8B8G8R8",
+            "value": 32
+        },
+        {
+            "name": "D3DFMT_X8B8G8R8",
+            "value": 33
+        },
+        {
+            "name": "D3DFMT_G16R16",
+            "value": 34
+        },
+        {
+            "name": "D3DFMT_A2R10G10B10",
+            "value": 35
+        },
+        {
+            "name": "D3DFMT_A16B16G16R16",
+            "value": 36
+        },
+        {
+            "name": "D3DFMT_A8P8",
+            "value": 40
+        },
+        {
+            "name": "D3DFMT_P8",
+            "value": 41
+        },
+        {
+            "name": "D3DFMT_L8",
+            "value": 50
+        },
+        {
+            "name": "D3DFMT_A8L8",
+            "value": 51
+        },
+        {
+            "name": "D3DFMT_A4L4",
+            "value": 52
+        },
+        {
+            "name": "D3DFMT_V8U8",
+            "value": 60
+        },
+        {
+            "name": "D3DFMT_L6V5U5",
+            "value": 61
+        },
+        {
+            "name": "D3DFMT_X8L8V8U8",
+            "value": 62
+        },
+        {
+            "name": "D3DFMT_Q8W8V8U8",
+            "value": 63
+        },
+        {
+            "name": "D3DFMT_V16U16",
+            "value": 64
+        },
+        {
+            "name": "D3DFMT_A2W10V10U10",
+            "value": 67
+        },
+        {
+            "name": "D3DFMT_D16_LOCKABLE",
+            "value": 70
+        },
+        {
+            "name": "D3DFMT_D32",
+            "value": 71
+        },
+        {
+            "name": "D3DFMT_D15S1",
+            "value": 73
+        },
+        {
+            "name": "D3DFMT_D24S8",
+            "value": 75
+        },
+        {
+            "name": "D3DFMT_D24X8",
+            "value": 77
+        },
+        {
+            "name": "D3DFMT_D24X4S4",
+            "value": 79
+        },
+        {
+            "name": "D3DFMT_D16",
+            "value": 80
+        },
+        {
+            "name": "D3DFMT_L16",
+            "value": 81
+        },
+        {
+            "name": "D3DFMT_D32F_LOCKABLE",
+            "value": 82
+        },
+        {
+            "name": "D3DFMT_D24FS8",
+            "value": 83
+        },
+        {
+            "name": "D3DFMT_D32_LOCKABLE",
+            "value": 84
+        },
+        {
+            "name": "D3DFMT_S8_LOCKABLE",
+            "value": 85
+        },
+        {
+            "name": "D3DFMT_VERTEXDATA",
+            "value": 100
+        },
+        {
+            "name": "D3DFMT_INDEX16",
+            "value": 101
+        },
+        {
+            "name": "D3DFMT_INDEX32",
+            "value": 102
+        },
+        {
+            "name": "D3DFMT_Q16W16V16U16",
+            "value": 110
+        },
+        {
+            "name": "D3DFMT_R16F",
+            "value": 111
+        },
+        {
+            "name": "D3DFMT_G16R16F",
+            "value": 112
+        },
+        {
+            "name": "D3DFMT_A16B16G16R16F",
+            "value": 113
+        },
+        {
+            "name": "D3DFMT_R32F",
+            "value": 114
+        },
+        {
+            "name": "D3DFMT_G32R32F",
+            "value": 115
+        },
+        {
+            "name": "D3DFMT_A32B32G32R32F",
+            "value": 116
+        },
+        {
+            "name": "D3DFMT_CxV8U8",
+            "value": 117
+        },
+        {
+            "name": "D3DFMT_A1",
+            "value": 118
+        },
+        {
+            "name": "D3DFMT_A2B10G10R10_XR_BIAS",
+            "value": 119
+        },
+        {
+            "name": "D3DFMT_BINARYBUFFER",
+            "value": 199
+        },
+        {
+            "name": "D3DFMT_DXT1",
+            "value": 827611204
+        },
+        {
+            "name": "D3DFMT_DXT2",
+            "value": 844388420
+        },
+        {
+            "name": "D3DFMT_DXT3",
+            "value": 861165636
+        },
+        {
+            "name": "D3DFMT_DXT4",
+            "value": 877942852
+        },
+        {
+            "name": "D3DFMT_DXT5",
+            "value": 894720068
+        },
+        {
+            "name": "D3DFMT_FORCE_DWORD",
+            "value": 2147483647
+        }
+    ]
+}

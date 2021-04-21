@@ -1,0 +1,357 @@
+{
+    "name": "RwErrorCode",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "RW_BADWINDOW",
+            "value": "0x0"
+        },
+        {
+            "name": "RW_CHUNKTYPEGET",
+            "value": "0x1"
+        },
+        {
+            "name": "RW_DEVICEERROR",
+            "value": "0x2"
+        },
+        {
+            "name": "RW_DEVICEOPEN",
+            "value": "0x3"
+        },
+        {
+            "name": "RW_DEVICESTART",
+            "value": "0x4"
+        },
+        {
+            "name": "RW_ENDOFSTREAM",
+            "value": "0x5"
+        },
+        {
+            "name": "RW_FRAMEDESTROYSTATIC",
+            "value": "0x6"
+        },
+        {
+            "name": "RW_FRAMEBUFFERMISMATCH",
+            "value": "0x7"
+        },
+        {
+            "name": "RW_FREELISTFREED",
+            "value": "0x8"
+        },
+        {
+            "name": "RW_FREELISTINVADDRESS",
+            "value": "0x9"
+        },
+        {
+            "name": "RW_FREELISTINVMEMBOUND",
+            "value": "0xA"
+        },
+        {
+            "name": "RW_FREELISTTRASH",
+            "value": "0xB"
+        },
+        {
+            "name": "RW_INSUFFICIENTRESOURCES",
+            "value": "0xC"
+        },
+        {
+            "name": "RW_INVSTREAMACCESSTYPE",
+            "value": "0xD"
+        },
+        {
+            "name": "RW_INVSTREAMTYPE",
+            "value": "0xE"
+        },
+        {
+            "name": "RW_NEGCLIPPLANE",
+            "value": "0xF"
+        },
+        {
+            "name": "RW_NOCAMERA",
+            "value": "0x10"
+        },
+        {
+            "name": "RW_NOFRAMEBUFFER",
+            "value": "0x11"
+        },
+        {
+            "name": "RW_NOPARENT",
+            "value": "0x12"
+        },
+        {
+            "name": "RW_RASTERRECT",
+            "value": "0x13"
+        },
+        {
+            "name": "RW_RASTERSTACK",
+            "value": "0x14"
+        },
+        {
+            "name": "RW_RASTERSTACKEMPTY",
+            "value": "0x15"
+        },
+        {
+            "name": "RW_READTEXMASK",
+            "value": "0x16"
+        },
+        {
+            "name": "RW_STREAMOPEN",
+            "value": "0x17"
+        },
+        {
+            "name": "RW_SYSTEMREQUEST",
+            "value": "0x18"
+        },
+        {
+            "name": "RW_ZEROLENGTH",
+            "value": "0x19"
+        },
+        {
+            "name": "RX_CANNOT_TRANSFER_BETWEEN_NODES",
+            "value": "0x1A"
+        },
+        {
+            "name": "RX_CANNOT_TRANSFER_FROM_NODE_TO_PIPELINE",
+            "value": "0x1B"
+        },
+        {
+            "name": "RX_CYCLICPIPELINE",
+            "value": "0x1C"
+        },
+        {
+            "name": "RX_DEP_DEPENDENCIESMISMATCH",
+            "value": "0x1D"
+        },
+        {
+            "name": "RX_DEP_DUPLICATECLUSTERDEFS",
+            "value": "0x1E"
+        },
+        {
+            "name": "RX_DEP_NULLCLUSTERDEF",
+            "value": "0x1F"
+        },
+        {
+            "name": "RX_DEP_OUTOFMEMORY",
+            "value": "0x20"
+        },
+        {
+            "name": "RX_EMPTYPIPELINE",
+            "value": "0x21"
+        },
+        {
+            "name": "RX_FRAGMENTEDPIPELINE",
+            "value": "0x22"
+        },
+        {
+            "name": "RX_IM3DNOTACTIVE",
+            "value": "0x23"
+        },
+        {
+            "name": "RX_INVALIDENTRYPOINT",
+            "value": "0x24"
+        },
+        {
+            "name": "RX_INVALIDPRIMTYPE",
+            "value": "0x25"
+        },
+        {
+            "name": "RX_INVALIDRESUMEPIPELINE",
+            "value": "0x26"
+        },
+        {
+            "name": "RX_LOCKEDPIPE",
+            "value": "0x27"
+        },
+        {
+            "name": "RX_NODETOOMANYCLUSTERSOFINTEREST",
+            "value": "0x28"
+        },
+        {
+            "name": "RX_NODETOOMANYOUTPUTS",
+            "value": "0x29"
+        },
+        {
+            "name": "RX_PIPELINETOOMANYNODES",
+            "value": "0x2A"
+        },
+        {
+            "name": "RX_NODE_EXECUTION_FAILED",
+            "value": "0x2B"
+        },
+        {
+            "name": "RX_NOVERTS",
+            "value": "0x2C"
+        },
+        {
+            "name": "RX_PACKETPTRINVALID",
+            "value": "0x2D"
+        },
+        {
+            "name": "RX_PACKETSCOPYFAILED",
+            "value": "0x2E"
+        },
+        {
+            "name": "RX_RUNFROMNOTVALID",
+            "value": "0x2F"
+        },
+        {
+            "name": "RX_RUNTOANDRUNFROM",
+            "value": "0x30"
+        },
+        {
+            "name": "RX_RUNTONOTVALID",
+            "value": "0x31"
+        },
+        {
+            "name": "RX_TOOMANYVERTS",
+            "value": "0x32"
+        },
+        {
+            "name": "RX_UNFINISHEDPIPELINE",
+            "value": "0x33"
+        },
+        {
+            "name": "RX_UNLOCKEDPIPE",
+            "value": "0x34"
+        },
+        {
+            "name": "RX_UNPROCESSED_PACKETS",
+            "value": "0x35"
+        },
+        {
+            "name": "RX_UNSATISFIED_REQUIREMENTS",
+            "value": "0x36"
+        },
+        {
+            "name": "RW_NOERROR",
+            "value": "0x80000000"
+        },
+        {
+            "name": "RW_BADENGINESTATE",
+            "value": "0x80000001"
+        },
+        {
+            "name": "RW_BADOPEN",
+            "value": "0x80000002"
+        },
+        {
+            "name": "RW_BADPARAM",
+            "value": "0x80000003"
+        },
+        {
+            "name": "RW_BADVERSION",
+            "value": "0x80000004"
+        },
+        {
+            "name": "RW_DEBUGSTACK",
+            "value": "0x80000005"
+        },
+        {
+            "name": "RW_DEFAULTPIPELINECREATION",
+            "value": "0x80000006"
+        },
+        {
+            "name": "RW_FRAMENOMATRIX",
+            "value": "0x80000007"
+        },
+        {
+            "name": "RW_INVIMAGEDEPTH",
+            "value": "0x80000008"
+        },
+        {
+            "name": "RW_INVIMAGEFORMAT",
+            "value": "0x80000009"
+        },
+        {
+            "name": "RW_INVIMAGEMASK",
+            "value": "0x8000000A"
+        },
+        {
+            "name": "RW_INVIMAGESIZE",
+            "value": "0x8000000B"
+        },
+        {
+            "name": "RW_INVRASTERDEPTH",
+            "value": "0x8000000C"
+        },
+        {
+            "name": "RW_INVRASTERFORMAT",
+            "value": "0x8000000D"
+        },
+        {
+            "name": "RW_INVRASTERLOCKREQ",
+            "value": "0x8000000E"
+        },
+        {
+            "name": "RW_INVRASTERMIPLEVEL",
+            "value": "0x8000000F"
+        },
+        {
+            "name": "RW_INVRASTERSIZE",
+            "value": "0x80000010"
+        },
+        {
+            "name": "RW_INVRASTERUNLOCKREQ",
+            "value": "0x80000011"
+        },
+        {
+            "name": "RW_NOFRAME",
+            "value": "0x80000012"
+        },
+        {
+            "name": "RW_NOMEM",
+            "value": "0x80000013"
+        },
+        {
+            "name": "RW_NOMIPMAPGENERATIONCALLBACK",
+            "value": "0x80000014"
+        },
+        {
+            "name": "RW_NOTSSEENABLEDCPU",
+            "value": "0x80000015"
+        },
+        {
+            "name": "RW_NULLP",
+            "value": "0x80000016"
+        },
+        {
+            "name": "RW_PLUGININIT",
+            "value": "0x80000017"
+        },
+        {
+            "name": "RW_PLUGINNOTINIT",
+            "value": "0x80000018"
+        },
+        {
+            "name": "RW_RANGE",
+            "value": "0x80000019"
+        },
+        {
+            "name": "RW_READ",
+            "value": "0x8000001A"
+        },
+        {
+            "name": "RW_REDUNDANT_FUNCTION",
+            "value": "0x8000001B"
+        },
+        {
+            "name": "RW_WRITE",
+            "value": "0x8000001C"
+        },
+        {
+            "name": "RX_MESHES_RANGES_OVERLAP",
+            "value": "0x8000001D"
+        },
+        {
+            "name": "RW_STRING_TRUNCATION",
+            "value": "0x8000001E"
+        }
+    ]
+}

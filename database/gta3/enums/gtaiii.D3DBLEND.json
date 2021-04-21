@@ -1,0 +1,61 @@
+{
+    "name": "D3DBLEND",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "D3DBLEND_",
+            "value": 0
+        },
+        {
+            "name": "D3DBLEND_ZERO",
+            "value": 1
+        },
+        {
+            "name": "D3DBLEND_ONE",
+            "value": 2
+        },
+        {
+            "name": "D3DBLEND_SRCCOLOR",
+            "value": 3
+        },
+        {
+            "name": "D3DBLEND_INVSRCCOLOR",
+            "value": 4
+        },
+        {
+            "name": "D3DBLEND_SRCALPHA",
+            "value": 5
+        },
+        {
+            "name": "D3DBLEND_INVSRCALPHA",
+            "value": 6
+        },
+        {
+            "name": "D3DBLEND_DESTALPHA",
+            "value": 7
+        },
+        {
+            "name": "D3DBLEND_INVDESTALPHA",
+            "value": 8
+        },
+        {
+            "name": "D3DBLEND_DESTCOLOR",
+            "value": 9
+        },
+        {
+            "name": "D3DBLEND_INVDESTCOLOR",
+            "value": 10
+        },
+        {
+            "name": "D3DBLEND_SRCALPHASAT",
+            "value": 11
+        }
+    ]
+}

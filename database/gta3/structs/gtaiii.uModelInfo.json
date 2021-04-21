@@ -1,0 +1,41 @@
+{
+    "name": "uModelInfo",
+    "module": "",
+    "scope": "",
+    "kind": "union",
+    "size": 4,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "baseInfo",
+            "type": "CBaseModelInfo *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "simpleInfo",
+            "type": "CSimpleModelInfo *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "timeInfo",
+            "type": "CTimeModelInfo *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "clumpInfo",
+            "type": "CClumpModelInfo *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "mloInfo",
+            "type": "CMloModelInfo *",
+            "offset": 0,
+            "size": 4
+        }
+    ]
+}

@@ -9,97 +9,97 @@
     "members": [
         {
             "name": "vecSprintf",
-            "type": "char[4]",
+            "type": "vecSprintfFunc",
             "offset": 0,
             "size": 4
         },
         {
             "name": "vecVsprintf",
-            "type": "char[4]",
+            "type": "vecVsprintfFunc",
             "offset": 4,
             "size": 4
         },
         {
             "name": "vecStrcpy",
-            "type": "char[4]",
+            "type": "vecStrcpyFunc",
             "offset": 8,
             "size": 4
         },
         {
             "name": "vecStrncpy",
-            "type": "char[4]",
+            "type": "vecStrncpyFunc",
             "offset": "0xC",
             "size": 4
         },
         {
             "name": "vecStrcat",
-            "type": "char[4]",
+            "type": "vecStrcatFunc",
             "offset": "0x10",
             "size": 4
         },
         {
             "name": "vecStrncat",
-            "type": "char[4]",
+            "type": "vecStrncatFunc",
             "offset": "0x14",
             "size": 4
         },
         {
             "name": "vecStrrchr",
-            "type": "char[4]",
+            "type": "vecStrrchrFunc",
             "offset": "0x18",
             "size": 4
         },
         {
             "name": "vecStrchr",
-            "type": "char[4]",
+            "type": "vecStrchrFunc",
             "offset": "0x1C",
             "size": 4
         },
         {
             "name": "vecStrstr",
-            "type": "char[4]",
+            "type": "vecStrstrFunc",
             "offset": "0x20",
             "size": 4
         },
         {
             "name": "vecStrcmp",
-            "type": "char[4]",
+            "type": "vecStrcmpFunc",
             "offset": "0x24",
             "size": 4
         },
         {
             "name": "vecStricmp",
-            "type": "char[4]",
+            "type": "vecStricmpFunc",
             "offset": "0x28",
             "size": 4
         },
         {
             "name": "vecStrlen",
-            "type": "char[4]",
+            "type": "vecStrlenFunc",
             "offset": "0x2C",
             "size": 4
         },
         {
             "name": "vecStrupr",
-            "type": "char[4]",
+            "type": "vecStruprFunc",
             "offset": "0x30",
             "size": 4
         },
         {
             "name": "vecStrlwr",
-            "type": "char[4]",
+            "type": "vecStrlwrFunc",
             "offset": "0x34",
             "size": 4
         },
         {
             "name": "vecStrtok",
-            "type": "char[4]",
+            "type": "vecStrtokFunc",
             "offset": "0x38",
             "size": 4
         },
         {
             "name": "vecSscanf",
-            "type": "char[4]",
+            "type": "vecSscanfFunc",
             "offset": "0x3C",
             "size": 4
         }

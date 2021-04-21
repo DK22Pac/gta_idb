@@ -1,0 +1,47 @@
+{
+    "name": "RpPlaneSectorChunkInfo",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x14",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "type",
+            "type": "RwInt32",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "value",
+            "type": "RwReal",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "leftIsWorldSector",
+            "type": "char",
+            "offset": 8,
+            "size": 1
+        },
+        {
+            "name": "rightIsWorldSector",
+            "type": "char",
+            "offset": 9,
+            "size": 1
+        },
+        {
+            "name": "leftValue",
+            "type": "RwReal",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "rightValue",
+            "type": "RwReal",
+            "offset": "0x10",
+            "size": 4
+        }
+    ]
+}

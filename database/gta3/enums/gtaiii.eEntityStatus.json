@@ -1,0 +1,61 @@
+{
+    "name": "eEntityStatus",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "STATUS_PLAYER",
+            "value": 0
+        },
+        {
+            "name": "STATUS_PLAYER_PLAYBACKFROMBUFFER",
+            "value": 1
+        },
+        {
+            "name": "STATUS_SIMPLE",
+            "value": 2
+        },
+        {
+            "name": "STATUS_PHYSICS",
+            "value": 3
+        },
+        {
+            "name": "STATUS_ABANDONED",
+            "value": 4
+        },
+        {
+            "name": "STATUS_WRECKED",
+            "value": 5
+        },
+        {
+            "name": "STATUS_TRAIN_MOVING",
+            "value": 6
+        },
+        {
+            "name": "STATUS_TRAIN_NOT_MOVING",
+            "value": 7
+        },
+        {
+            "name": "STATUS_HELI",
+            "value": 8
+        },
+        {
+            "name": "STATUS_PLANE",
+            "value": 9
+        },
+        {
+            "name": "STATUS_PLAYER_REMOTE",
+            "value": 10
+        },
+        {
+            "name": "STATUS_PLAYER_DISABLED",
+            "value": 11
+        }
+    ]
+}

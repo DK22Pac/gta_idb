@@ -1,0 +1,35 @@
+{
+    "name": "cPoliceRadioObject",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x14",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_nType",
+            "type": "int",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "m_vecPos",
+            "type": "CVector",
+            "offset": 4,
+            "size": "0xC"
+        },
+        {
+            "name": "m_nCrimeTimer",
+            "type": "__int16",
+            "offset": "0x10",
+            "size": 2
+        },
+        {
+            "name": "_pad12",
+            "type": "char[2]",
+            "offset": "0x12",
+            "size": 2
+        }
+    ]
+}

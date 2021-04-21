@@ -1,0 +1,113 @@
+{
+    "name": "CPad",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0xFC",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "NewState",
+            "type": "CControllerState",
+            "offset": 0,
+            "size": "0x2A"
+        },
+        {
+            "name": "OldState",
+            "type": "CControllerState",
+            "offset": "0x2A",
+            "size": "0x2A"
+        },
+        {
+            "name": "PCTempKeyState",
+            "type": "CControllerState",
+            "offset": "0x54",
+            "size": "0x2A"
+        },
+        {
+            "name": "PCTempJoyState",
+            "type": "CControllerState",
+            "offset": "0x7E",
+            "size": "0x2A"
+        },
+        {
+            "name": "PCTempMouseState",
+            "type": "CControllerState",
+            "offset": "0xA8",
+            "size": "0x2A"
+        },
+        {
+            "name": "Phase",
+            "type": "__int16",
+            "offset": "0xD2",
+            "size": 2
+        },
+        {
+            "name": "m_nMode",
+            "type": "__int16",
+            "offset": "0xD4",
+            "size": 2
+        },
+        {
+            "name": "m_nShakeDur",
+            "type": "__int16",
+            "offset": "0xD6",
+            "size": 2
+        },
+        {
+            "name": "ShakeFreq",
+            "type": "char",
+            "offset": "0xD8",
+            "size": 1
+        },
+        {
+            "name": "m_abHornHistory",
+            "type": "char[5]",
+            "offset": "0xD9",
+            "size": 5
+        },
+        {
+            "name": "m_bHornFrameCounter",
+            "type": "char",
+            "offset": "0xDE",
+            "size": 1
+        },
+        {
+            "name": "m_bDisablePlayerControls",
+            "type": "bool",
+            "offset": "0xDF",
+            "size": 1
+        },
+        {
+            "name": "m_bForceBrakes",
+            "type": "bool",
+            "offset": "0xE0",
+            "size": 1
+        },
+        {
+            "name": "gapE1",
+            "type": "char[15]",
+            "offset": "0xE1",
+            "size": "0xF"
+        },
+        {
+            "name": "dwordF0",
+            "type": "int",
+            "offset": "0xF0",
+            "size": 4
+        },
+        {
+            "name": "m_nAverageWeapon",
+            "type": "int",
+            "offset": "0xF4",
+            "size": 4
+        },
+        {
+            "name": "dwordF8",
+            "type": "int",
+            "offset": "0xF8",
+            "size": 4
+        }
+    ]
+}

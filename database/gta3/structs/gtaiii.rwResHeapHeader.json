@@ -1,0 +1,23 @@
+{
+    "name": "rwResHeapHeader",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 8,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "firstBlock",
+            "type": "rwResHeapBlockHeader *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "firstFreeBlock",
+            "type": "rwResHeapBlockHeader *",
+            "offset": 4,
+            "size": 4
+        }
+    ]
+}

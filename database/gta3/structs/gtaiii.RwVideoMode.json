@@ -1,0 +1,35 @@
+{
+    "name": "RwVideoMode",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x10",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "width",
+            "type": "RwInt32",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "height",
+            "type": "RwInt32",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "depth",
+            "type": "RwInt32",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "flags",
+            "type": "RwVideoModeFlag",
+            "offset": "0xC",
+            "size": 4
+        }
+    ]
+}

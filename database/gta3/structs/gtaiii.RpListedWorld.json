@@ -1,0 +1,29 @@
+{
+    "name": "RpListedWorld",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x10",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "world",
+            "type": "RpWorld *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "memorySize",
+            "type": "RwUInt32",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "nextEl",
+            "type": "RwLLLink",
+            "offset": 8,
+            "size": 8
+        }
+    ]
+}

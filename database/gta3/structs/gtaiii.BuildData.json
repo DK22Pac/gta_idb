@@ -1,0 +1,71 @@
+{
+    "name": "BuildData",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x3C",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "numVertices",
+            "type": "RwUInt32",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "vertices",
+            "type": "BuildVertex *",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "polygons",
+            "type": "BuildPoly *",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "origPolys",
+            "type": "RpTriangle *",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "bspDepth",
+            "type": "RwUInt32",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "bbox",
+            "type": "RwBBox",
+            "offset": "0x14",
+            "size": "0x18"
+        },
+        {
+            "name": "numPolygons",
+            "type": "RwUInt32",
+            "offset": "0x2C",
+            "size": 4
+        },
+        {
+            "name": "polygonOffset",
+            "type": "RwUInt32",
+            "offset": "0x30",
+            "size": 4
+        },
+        {
+            "name": "numSortVerts",
+            "type": "RwUInt32",
+            "offset": "0x34",
+            "size": 4
+        },
+        {
+            "name": "sortVerts",
+            "type": "BuildVertex **",
+            "offset": "0x38",
+            "size": 4
+        }
+    ]
+}

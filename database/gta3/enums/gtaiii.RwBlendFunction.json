@@ -1,0 +1,65 @@
+{
+    "name": "RwBlendFunction",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "rwBLENDNABLEND",
+            "value": "0x0"
+        },
+        {
+            "name": "rwBLENDZERO",
+            "value": "0x1"
+        },
+        {
+            "name": "rwBLENDONE",
+            "value": "0x2"
+        },
+        {
+            "name": "rwBLENDSRCCOLOR",
+            "value": "0x3"
+        },
+        {
+            "name": "rwBLENDINVSRCCOLOR",
+            "value": "0x4"
+        },
+        {
+            "name": "rwBLENDSRCALPHA",
+            "value": "0x5"
+        },
+        {
+            "name": "rwBLENDINVSRCALPHA",
+            "value": "0x6"
+        },
+        {
+            "name": "rwBLENDDESTALPHA",
+            "value": "0x7"
+        },
+        {
+            "name": "rwBLENDINVDESTALPHA",
+            "value": "0x8"
+        },
+        {
+            "name": "rwBLENDDESTCOLOR",
+            "value": "0x9"
+        },
+        {
+            "name": "rwBLENDINVDESTCOLOR",
+            "value": "0xA"
+        },
+        {
+            "name": "rwBLENDSRCALPHASAT",
+            "value": "0xB"
+        },
+        {
+            "name": "rwBLENDFUNCTIONFORCEENUMSIZEINT",
+            "value": "0x7FFFFFFF"
+        }
+    ]
+}

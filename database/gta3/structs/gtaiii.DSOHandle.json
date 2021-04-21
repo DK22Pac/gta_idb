@@ -1,0 +1,29 @@
+{
+    "name": "DSOHandle",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0xC",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "prev",
+            "type": "DSOHandle *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "dtor",
+            "type": "void *(__thiscall *)(void *)",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "object",
+            "type": "void *",
+            "offset": 8,
+            "size": 4
+        }
+    ]
+}

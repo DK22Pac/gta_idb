@@ -1,0 +1,23 @@
+{
+    "name": "RwRwDeviceGlobals",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 8,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "curCamera",
+            "type": "RwCamera *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "memFuncs",
+            "type": "RwMemoryFunctions *",
+            "offset": 4,
+            "size": 4
+        }
+    ]
+}

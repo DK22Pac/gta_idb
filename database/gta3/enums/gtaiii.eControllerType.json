@@ -1,0 +1,29 @@
+{
+    "name": "eControllerType",
+    "module": "",
+    "scope": "",
+    "width": 4,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "CONTROLLER_KEYBOARD",
+            "value": 0
+        },
+        {
+            "name": "CONTROLLER_KEYBOARD_ALT",
+            "value": 1
+        },
+        {
+            "name": "CONTROLLER_MOUSE",
+            "value": 2
+        },
+        {
+            "name": "CONTROLLER_JOYPAD",
+            "value": 3
+        }
+    ]
+}

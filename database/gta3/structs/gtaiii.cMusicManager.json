@@ -1,0 +1,209 @@
+{
+    "name": "cMusicManager",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x95C",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_bIsInitialised",
+            "type": "bool",
+            "offset": 0,
+            "size": 1
+        },
+        {
+            "name": "field_1",
+            "type": "bool",
+            "offset": 1,
+            "size": 1
+        },
+        {
+            "name": "m_nMusicMode",
+            "type": "unsigned __int8",
+            "offset": 2,
+            "size": 1
+        },
+        {
+            "name": "m_nCurrentStreamedSound",
+            "type": "unsigned __int8",
+            "offset": 3,
+            "size": 1
+        },
+        {
+            "name": "m_nPreviousStreamedSound",
+            "type": "unsigned __int8",
+            "offset": 4,
+            "size": 1
+        },
+        {
+            "name": "field_5",
+            "type": "bool",
+            "offset": 5,
+            "size": 1
+        },
+        {
+            "name": "field_6",
+            "type": "unsigned __int8",
+            "offset": 6,
+            "size": 1
+        },
+        {
+            "name": "field_7",
+            "type": "bool",
+            "offset": 7,
+            "size": 1
+        },
+        {
+            "name": "m_nAnnouncement",
+            "type": "unsigned __int8",
+            "offset": 8,
+            "size": 1
+        },
+        {
+            "name": "m_bPreviousPlayerInCar",
+            "type": "bool",
+            "offset": 9,
+            "size": 1
+        },
+        {
+            "name": "m_bPlayerInCar",
+            "type": "bool",
+            "offset": "0xA",
+            "size": 1
+        },
+        {
+            "name": "m_bAnnouncementInProgress",
+            "type": "bool",
+            "offset": "0xB",
+            "size": 1
+        },
+        {
+            "name": "m_asMP3Samples",
+            "type": "tMP3Sample[196]",
+            "offset": "0xC",
+            "size": "0x930"
+        },
+        {
+            "name": "field_2364",
+            "type": "char",
+            "offset": "0x93C",
+            "size": 1
+        },
+        {
+            "name": "field_2365",
+            "type": "char",
+            "offset": "0x93D",
+            "size": 1
+        },
+        {
+            "name": "field_2366",
+            "type": "char",
+            "offset": "0x93E",
+            "size": 1
+        },
+        {
+            "name": "field_2367",
+            "type": "char",
+            "offset": "0x93F",
+            "size": 1
+        },
+        {
+            "name": "field_2368",
+            "type": "unsigned int",
+            "offset": "0x940",
+            "size": 4
+        },
+        {
+            "name": "field_2372",
+            "type": "unsigned int",
+            "offset": "0x944",
+            "size": 4
+        },
+        {
+            "name": "field_2376",
+            "type": "unsigned int",
+            "offset": "0x948",
+            "size": 4
+        },
+        {
+            "name": "field_2380",
+            "type": "bool",
+            "offset": "0x94C",
+            "size": 1
+        },
+        {
+            "name": "field_2381",
+            "type": "bool",
+            "offset": "0x94D",
+            "size": 1
+        },
+        {
+            "name": "field_2382",
+            "type": "bool",
+            "offset": "0x94E",
+            "size": 1
+        },
+        {
+            "name": "m_bRadioSetByScript",
+            "type": "bool",
+            "offset": "0x94F",
+            "size": 1
+        },
+        {
+            "name": "m_nRadioStation",
+            "type": "unsigned __int8",
+            "offset": "0x950",
+            "size": 1
+        },
+        {
+            "name": "field_2385",
+            "type": "char",
+            "offset": "0x951",
+            "size": 1
+        },
+        {
+            "name": "field_2386",
+            "type": "char",
+            "offset": "0x952",
+            "size": 1
+        },
+        {
+            "name": "field_2387",
+            "type": "char",
+            "offset": "0x953",
+            "size": 1
+        },
+        {
+            "name": "m_nRadioPosition",
+            "type": "int",
+            "offset": "0x954",
+            "size": 4
+        },
+        {
+            "name": "m_nRadioInCar",
+            "type": "char",
+            "offset": "0x958",
+            "size": 1
+        },
+        {
+            "name": "field_2393",
+            "type": "char",
+            "offset": "0x959",
+            "size": 1
+        },
+        {
+            "name": "field_2394",
+            "type": "char",
+            "offset": "0x95A",
+            "size": 1
+        },
+        {
+            "name": "field_2395",
+            "type": "char",
+            "offset": "0x95B",
+            "size": 1
+        }
+    ]
+}

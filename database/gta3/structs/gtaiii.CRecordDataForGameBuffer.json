@@ -1,0 +1,41 @@
+{
+    "name": "CRecordDataForGameBuffer",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x80",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_fTimeStep",
+            "type": "float",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "m_nTimeInMilliseconds",
+            "type": "int",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "m_bSizeOfPads",
+            "type": "char[2]",
+            "offset": 8,
+            "size": 2
+        },
+        {
+            "name": "m_wChecksum",
+            "type": "unsigned __int16",
+            "offset": "0xA",
+            "size": 2
+        },
+        {
+            "name": "m_abControllerBuffer",
+            "type": "unsigned __int8[116]",
+            "offset": "0xC",
+            "size": "0x74"
+        }
+    ]
+}

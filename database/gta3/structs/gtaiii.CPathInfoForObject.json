@@ -1,0 +1,17 @@
+{
+    "name": "CPathInfoForObject",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x90",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_sNodes",
+            "type": "CPathInfoNode[12]",
+            "offset": 0,
+            "size": "0x90"
+        }
+    ]
+}

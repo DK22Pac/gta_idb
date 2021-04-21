@@ -1,0 +1,36 @@
+{
+    "name": "CPacManPickup",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x14",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_vecPosition",
+            "type": "CVector",
+            "offset": 0,
+            "size": "0xC"
+        },
+        {
+            "name": "m_pObject",
+            "type": "CObject *",
+            "offset": "0xC",
+            "size": 4,
+            "comment": "CObject*"
+        },
+        {
+            "name": "m_nType",
+            "type": "char",
+            "offset": "0x10",
+            "size": 1
+        },
+        {
+            "name": "_pad_11",
+            "type": "char[3]",
+            "offset": "0x11",
+            "size": 3
+        }
+    ]
+}

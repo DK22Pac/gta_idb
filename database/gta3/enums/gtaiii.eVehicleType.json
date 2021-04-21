@@ -1,0 +1,37 @@
+{
+    "name": "eVehicleType",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "VEHICLE_AUTOMOBILE",
+            "value": 0
+        },
+        {
+            "name": "VEHICLE_BOAT",
+            "value": 1
+        },
+        {
+            "name": "VEHICLE_TRAIN",
+            "value": 2
+        },
+        {
+            "name": "VEHICLE_HELI",
+            "value": 3
+        },
+        {
+            "name": "VEHICLE_PLANE",
+            "value": 4
+        },
+        {
+            "name": "VEHICLE_BIKE",
+            "value": 5
+        }
+    ]
+}

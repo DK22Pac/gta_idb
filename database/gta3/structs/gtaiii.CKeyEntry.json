@@ -1,0 +1,23 @@
+{
+    "name": "CKeyEntry",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0xC",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_pData",
+            "type": "wchar_t *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "m_szName",
+            "type": "char[8]",
+            "offset": 4,
+            "size": 8
+        }
+    ]
+}

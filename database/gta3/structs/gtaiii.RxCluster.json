@@ -1,0 +1,59 @@
+{
+    "name": "RxCluster",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x1C",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "flags",
+            "type": "RwUInt16",
+            "offset": 0,
+            "size": 2
+        },
+        {
+            "name": "stride",
+            "type": "RwUInt16",
+            "offset": 2,
+            "size": 2
+        },
+        {
+            "name": "data",
+            "type": "void *",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "currentData",
+            "type": "void *",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "numAlloced",
+            "type": "RwUInt32",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "numUsed",
+            "type": "RwUInt32",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "clusterRef",
+            "type": "RxPipelineCluster *",
+            "offset": "0x14",
+            "size": 4
+        },
+        {
+            "name": "attributes",
+            "type": "RwUInt32",
+            "offset": "0x18",
+            "size": 4
+        }
+    ]
+}

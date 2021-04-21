@@ -1,0 +1,65 @@
+{
+    "name": "rpWorldChunkInfo34000",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x34",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "rootIsWorldSector",
+            "type": "char",
+            "offset": 0,
+            "size": 1
+        },
+        {
+            "name": "invWorldOrigin",
+            "type": "RwV3d",
+            "offset": 4,
+            "size": "0xC"
+        },
+        {
+            "name": "surfaceProps",
+            "type": "RwSurfaceProperties",
+            "offset": "0x10",
+            "size": "0xC"
+        },
+        {
+            "name": "numPolygons",
+            "type": "RwInt32",
+            "offset": "0x1C",
+            "size": 4
+        },
+        {
+            "name": "numVertices",
+            "type": "RwInt32",
+            "offset": "0x20",
+            "size": 4
+        },
+        {
+            "name": "numPlaneSectors",
+            "type": "RwInt32",
+            "offset": "0x24",
+            "size": 4
+        },
+        {
+            "name": "numWorldSectors",
+            "type": "RwInt32",
+            "offset": "0x28",
+            "size": 4
+        },
+        {
+            "name": "colSectorSize",
+            "type": "RwInt32",
+            "offset": "0x2C",
+            "size": 4
+        },
+        {
+            "name": "format",
+            "type": "RwInt32",
+            "offset": "0x30",
+            "size": 4
+        }
+    ]
+}

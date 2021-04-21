@@ -1,0 +1,17 @@
+{
+    "name": "TriBinList",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 4,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "head",
+            "type": "TriBinEntry *",
+            "offset": 0,
+            "size": 4
+        }
+    ]
+}

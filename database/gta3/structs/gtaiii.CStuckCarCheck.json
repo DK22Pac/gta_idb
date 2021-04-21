@@ -1,0 +1,17 @@
+{
+    "name": "CStuckCarCheck",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0xC0",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_sEntries",
+            "type": "CStuckCarCheckEntry[6]",
+            "offset": 0,
+            "size": "0xC0"
+        }
+    ]
+}

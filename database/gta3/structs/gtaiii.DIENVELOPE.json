@@ -1,0 +1,41 @@
+{
+    "name": "DIENVELOPE",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x14",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "dwSize",
+            "type": "DWORD",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "dwAttackLevel",
+            "type": "DWORD",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "dwAttackTime",
+            "type": "DWORD",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "dwFadeLevel",
+            "type": "DWORD",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "dwFadeTime",
+            "type": "DWORD",
+            "offset": "0x10",
+            "size": 4
+        }
+    ]
+}

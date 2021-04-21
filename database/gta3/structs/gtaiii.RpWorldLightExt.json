@@ -1,0 +1,23 @@
+{
+    "name": "RpWorldLightExt",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 8,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "world",
+            "type": "RpWorld *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "oldSync",
+            "type": "RwObjectHasFrameSyncFunction",
+            "offset": 4,
+            "size": 4
+        }
+    ]
+}

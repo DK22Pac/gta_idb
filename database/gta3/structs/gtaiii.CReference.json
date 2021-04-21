@@ -14,8 +14,8 @@
             "size": 4
         },
         {
-            "name": "m_ppEntity",
-            "type": "CEntity *",
+            "name": "m_pEntity",
+            "type": "CEntity **",
             "offset": 4,
             "size": 4
         }

@@ -1,0 +1,17 @@
+{
+    "name": "DXTAlphaBlockExplicit",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 8,
+    "alignment": 1,
+    "comment": "",
+    "members": [
+        {
+            "name": "row",
+            "type": "RwUInt16[4]",
+            "offset": 0,
+            "size": 8
+        }
+    ]
+}

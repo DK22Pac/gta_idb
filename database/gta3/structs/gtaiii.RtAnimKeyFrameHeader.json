@@ -1,0 +1,23 @@
+{
+    "name": "RtAnimKeyFrameHeader",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 8,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "prevFrame",
+            "type": "void *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "time",
+            "type": "RwReal",
+            "offset": 4,
+            "size": 4
+        }
+    ]
+}

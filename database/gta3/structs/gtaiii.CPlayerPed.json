@@ -4,9 +4,9 @@
     "scope": "",
     "kind": "class",
     "size": "0x5F0",
-    "alignment": 0,
-    "vtableAddress": "0x6072E0",
-    "vtableSize": 19,
+    "alignment": 2,
+    "vtableAddress": "0x5FA500",
+    "vtableSize": 0,
     "comment": "",
     "members": [
         {
@@ -22,140 +22,134 @@
             "size": 4
         },
         {
-            "name": "field_540",
-            "type": "_DWORD",
+            "name": "m_pArrestingCop",
+            "type": "CCopPed *",
             "offset": "0x540",
             "size": 4
         },
         {
-            "name": "field_544",
-            "type": "_DWORD",
+            "name": "m_fMoveSpeed",
+            "type": "float",
             "offset": "0x544",
             "size": 4
         },
         {
-            "name": "field_548",
+            "name": "m_fCurrentStamina",
             "type": "float",
             "offset": "0x548",
             "size": 4
         },
         {
-            "name": "field_54C",
+            "name": "m_fMaxStamina",
             "type": "float",
             "offset": "0x54C",
             "size": 4
         },
         {
-            "name": "field_550",
-            "type": "_DWORD",
+            "name": "m_fStaminaProgress",
+            "type": "float",
             "offset": "0x550",
             "size": 4
         },
         {
-            "name": "field_554",
-            "type": "_BYTE",
+            "name": "m_nSelectedWepSlot",
+            "type": "unsigned __int8",
             "offset": "0x554",
             "size": 1
         },
         {
-            "name": "field_555",
-            "type": "_BYTE",
+            "name": "m_nStoppedMoving",
+            "type": "bool",
             "offset": "0x555",
             "size": 1
         },
         {
-            "name": "field_556",
-            "type": "_BYTE",
+            "name": "m_nShouldEvade",
+            "type": "bool",
             "offset": "0x556",
             "size": 1
         },
         {
-            "name": "f557",
-            "type": "_BYTE[1]",
+            "name": "_pad557",
+            "type": "char",
             "offset": "0x557",
             "size": 1
         },
         {
-            "name": "dword558",
-            "type": "_DWORD",
+            "name": "m_nStandStillTimer",
+            "type": "int",
             "offset": "0x558",
             "size": 4
         },
         {
-            "name": "dword55C",
-            "type": "_DWORD",
+            "name": "m_nShotDelay",
+            "type": "int",
             "offset": "0x55C",
             "size": 4
         },
         {
-            "name": "dword560",
-            "type": "_DWORD",
+            "name": "m_fAttackButtonCounter",
+            "type": "float",
             "offset": "0x560",
             "size": 4
         },
         {
-            "name": "byte564",
-            "type": "_BYTE",
+            "name": "m_nHaveTargetSelected",
+            "type": "bool",
             "offset": "0x564",
             "size": 1
         },
         {
-            "name": "f565",
-            "type": "_BYTE[3]",
+            "name": "_pad565",
+            "type": "char[3]",
             "offset": "0x565",
             "size": 3
         },
         {
-            "name": "dword568",
-            "type": "_DWORD",
+            "name": "m_pEvadingFrom",
+            "type": "CEntity *",
             "offset": "0x568",
             "size": 4
         },
         {
-            "name": "dword56C",
-            "type": "_DWORD",
+            "name": "m_nTargettableObjects",
+            "type": "int[4]",
             "offset": "0x56C",
-            "size": 4
+            "size": "0x10"
         },
         {
-            "name": "dword570",
-            "type": "_DWORD",
-            "offset": "0x570",
-            "size": 4
-        },
-        {
-            "name": "dword574",
-            "type": "_DWORD",
-            "offset": "0x574",
-            "size": 4
-        },
-        {
-            "name": "dword578",
-            "type": "_DWORD",
-            "offset": "0x578",
-            "size": 4
-        },
-        {
-            "name": "f57C",
-            "type": "_BYTE[1]",
+            "name": "m_nAdrenaline",
+            "type": "bool",
             "offset": "0x57C",
             "size": 1
         },
         {
-            "name": "byte57D",
-            "type": "_BYTE",
+            "name": "m_nFreeAiming",
+            "type": "bool",
             "offset": "0x57D",
             "size": 1
         },
         {
-            "name": "f57E",
-            "type": "_BYTE[6]",
+            "name": "byte57E",
+            "type": "_BYTE",
             "offset": "0x57E",
-            "size": 6
+            "size": 1
         },
         {
-            "name": "byte584",
-            "type": "_BYTE",
+            "name": "field_57F",
+            "type": "char",
+            "offset": "0x57F",
+            "size": 1
+        },
+        {
+            "name": "m_nAdrenalineEndTime",
+            "type": "unsigned int",
+            "offset": "0x580",
+            "size": 4
+        },
+        {
+            "name": "m_bDrunkVisualsWearOff",
+            "type": "bool",
             "offset": "0x584",
             "size": 1
         },
@@ -166,62 +160,32 @@
             "size": 1
         },
         {
-            "name": "f586",
-            "type": "_BYTE[2]",
+            "name": "_pad586",
+            "type": "char[2]",
             "offset": "0x586",
             "size": 2
         },
         {
-            "name": "dword588",
+            "name": "m_vecSafePos",
             "type": "CVector[6]",
             "offset": "0x588",
             "size": "0x48"
         },
         {
-            "name": "dword5D0",
-            "type": "_DWORD",
+            "name": "m_pPedAtSafePos",
+            "type": "CPed *[6]",
             "offset": "0x5D0",
-            "size": 4
+            "size": "0x18"
         },
         {
-            "name": "dword5D4",
-            "type": "_DWORD",
-            "offset": "0x5D4",
-            "size": 4
-        },
-        {
-            "name": "dword5D8",
-            "type": "_DWORD",
-            "offset": "0x5D8",
-            "size": 4
-        },
-        {
-            "name": "dword5DC",
-            "type": "_DWORD",
-            "offset": "0x5DC",
-            "size": 4
-        },
-        {
-            "name": "dword5E0",
-            "type": "_DWORD",
-            "offset": "0x5E0",
-            "size": 4
-        },
-        {
-            "name": "dword5E4",
-            "type": "_DWORD",
-            "offset": "0x5E4",
-            "size": 4
-        },
-        {
-            "name": "dword5E8",
-            "type": "_DWORD",
+            "name": "m_fWalkAngle",
+            "type": "float",
             "offset": "0x5E8",
             "size": 4
         },
         {
-            "name": "dword5EC",
-            "type": "_DWORD",
+            "name": "m_fFPSMoveHeading",
+            "type": "float",
             "offset": "0x5EC",
             "size": 4
         }

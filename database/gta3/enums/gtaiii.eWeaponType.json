@@ -1,0 +1,105 @@
+{
+    "name": "eWeaponType",
+    "module": "",
+    "scope": "",
+    "width": 4,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "WEAPONTYPE_UNARMED",
+            "value": 0
+        },
+        {
+            "name": "WEAPONTYPE_BASEBALLBAT",
+            "value": 1
+        },
+        {
+            "name": "WEAPONTYPE_COLT45",
+            "value": 2
+        },
+        {
+            "name": "WEAPONTYPE_UZI",
+            "value": 3
+        },
+        {
+            "name": "WEAPONTYPE_SHOTGUN",
+            "value": 4
+        },
+        {
+            "name": "WEAPONTYPE_AK47",
+            "value": 5
+        },
+        {
+            "name": "WEAPONTYPE_M16",
+            "value": 6
+        },
+        {
+            "name": "WEAPONTYPE_SNIPERRIFLE",
+            "value": 7
+        },
+        {
+            "name": "WEAPONTYPE_ROCKETLAUNCHER",
+            "value": 8
+        },
+        {
+            "name": "WEAPONTYPE_FLAMETHROWER",
+            "value": 9
+        },
+        {
+            "name": "WEAPONTYPE_MOLOTOV",
+            "value": 10
+        },
+        {
+            "name": "WEAPONTYPE_GRENADE",
+            "value": 11
+        },
+        {
+            "name": "WEAPONTYPE_DETONATOR",
+            "value": 12
+        },
+        {
+            "name": "WEAPONTYPE_HELICANNON",
+            "value": 13
+        },
+        {
+            "name": "WEAPONTYPE_TOTALWEAPONS",
+            "value": 14
+        },
+        {
+            "name": "WEAPONTYPE_ARMOUR",
+            "value": 15
+        },
+        {
+            "name": "WEAPONTYPE_RAMMEDBYCAR",
+            "value": 16
+        },
+        {
+            "name": "WEAPONTYPE_RUNOVERBYCAR",
+            "value": 17
+        },
+        {
+            "name": "WEAPONTYPE_EXPLOSION",
+            "value": 18
+        },
+        {
+            "name": "WEAPONTYPE_UZI_DRIVEBY",
+            "value": 19
+        },
+        {
+            "name": "WEAPONTYPE_WATER",
+            "value": 20
+        },
+        {
+            "name": "WEAPONTYPE_FALL_DAMAGE",
+            "value": 21
+        },
+        {
+            "name": "WEAPONTYPE_UNIDENTIFIED",
+            "value": 22
+        }
+    ]
+}

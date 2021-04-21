@@ -1,0 +1,299 @@
+{
+    "name": "stRestartPointsData",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x124",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "field_0",
+            "type": "char",
+            "offset": 0,
+            "size": 1
+        },
+        {
+            "name": "field_1",
+            "type": "char",
+            "offset": 1,
+            "size": 1
+        },
+        {
+            "name": "field_2",
+            "type": "char",
+            "offset": 2,
+            "size": 1
+        },
+        {
+            "name": "field_3",
+            "type": "char",
+            "offset": 3,
+            "size": 1
+        },
+        {
+            "name": "field_4",
+            "type": "int",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "m_vecHospitalRestartPoints_1",
+            "type": "CVector",
+            "offset": 8,
+            "size": "0xC"
+        },
+        {
+            "name": "m_fHospitalRestartHeadings_1",
+            "type": "float",
+            "offset": "0x14",
+            "size": 4
+        },
+        {
+            "name": "m_vecHospitalRestartPoints_2",
+            "type": "CVector",
+            "offset": "0x18",
+            "size": "0xC"
+        },
+        {
+            "name": "m_fHospitalRestartHeadings_2",
+            "type": "float",
+            "offset": "0x24",
+            "size": 4
+        },
+        {
+            "name": "m_vecHospitalRestartPoints_3",
+            "type": "CVector",
+            "offset": "0x28",
+            "size": "0xC"
+        },
+        {
+            "name": "m_fHospitalRestartHeadings_3",
+            "type": "float",
+            "offset": "0x34",
+            "size": 4
+        },
+        {
+            "name": "m_vecHospitalRestartPoints_4",
+            "type": "CVector",
+            "offset": "0x38",
+            "size": "0xC"
+        },
+        {
+            "name": "m_fHospitalRestartHeadings_4",
+            "type": "float",
+            "offset": "0x44",
+            "size": 4
+        },
+        {
+            "name": "m_vecHospitalRestartPoints_5",
+            "type": "CVector",
+            "offset": "0x48",
+            "size": "0xC"
+        },
+        {
+            "name": "m_fHospitalRestartHeadings_5",
+            "type": "float",
+            "offset": "0x54",
+            "size": 4
+        },
+        {
+            "name": "m_vecHospitalRestartPoints_6",
+            "type": "CVector",
+            "offset": "0x58",
+            "size": "0xC"
+        },
+        {
+            "name": "m_fHospitalRestartHeadings_6",
+            "type": "float",
+            "offset": "0x64",
+            "size": 4
+        },
+        {
+            "name": "m_vecHospitalRestartPoints_7",
+            "type": "CVector",
+            "offset": "0x68",
+            "size": "0xC"
+        },
+        {
+            "name": "m_fHospitalRestartHeadings_7",
+            "type": "float",
+            "offset": "0x74",
+            "size": 4
+        },
+        {
+            "name": "m_vecHospitalRestartPoints_8",
+            "type": "CVector",
+            "offset": "0x78",
+            "size": "0xC"
+        },
+        {
+            "name": "m_fHospitalRestartHeadings_8",
+            "type": "float",
+            "offset": "0x84",
+            "size": 4
+        },
+        {
+            "name": "m_vecPoliceRestartPoints_1",
+            "type": "CVector",
+            "offset": "0x88",
+            "size": "0xC"
+        },
+        {
+            "name": "m_fPoliceRestartHeadings_1",
+            "type": "float",
+            "offset": "0x94",
+            "size": 4
+        },
+        {
+            "name": "m_vecPoliceRestartPoints_2",
+            "type": "CVector",
+            "offset": "0x98",
+            "size": "0xC"
+        },
+        {
+            "name": "m_fPoliceRestartHeadings_2",
+            "type": "float",
+            "offset": "0xA4",
+            "size": 4
+        },
+        {
+            "name": "m_vecPoliceRestartPoints_3",
+            "type": "CVector",
+            "offset": "0xA8",
+            "size": "0xC"
+        },
+        {
+            "name": "m_fPoliceRestartHeadings_3",
+            "type": "float",
+            "offset": "0xB4",
+            "size": 4
+        },
+        {
+            "name": "m_vecPoliceRestartPoints_4",
+            "type": "CVector",
+            "offset": "0xB8",
+            "size": "0xC"
+        },
+        {
+            "name": "m_fPoliceRestartHeadings_4",
+            "type": "float",
+            "offset": "0xC4",
+            "size": 4
+        },
+        {
+            "name": "m_vecPoliceRestartPoints_5",
+            "type": "CVector",
+            "offset": "0xC8",
+            "size": "0xC"
+        },
+        {
+            "name": "m_fPoliceRestartHeadings_5",
+            "type": "float",
+            "offset": "0xD4",
+            "size": 4
+        },
+        {
+            "name": "m_vecPoliceRestartPoints_6",
+            "type": "CVector",
+            "offset": "0xD8",
+            "size": "0xC"
+        },
+        {
+            "name": "m_fPoliceRestartHeadings_6",
+            "type": "float",
+            "offset": "0xE4",
+            "size": 4
+        },
+        {
+            "name": "m_vecPoliceRestartPoints_7",
+            "type": "CVector",
+            "offset": "0xE8",
+            "size": "0xC"
+        },
+        {
+            "name": "m_fPoliceRestartHeadings_7",
+            "type": "float",
+            "offset": "0xF4",
+            "size": 4
+        },
+        {
+            "name": "m_vecPoliceRestartPoints_8",
+            "type": "CVector",
+            "offset": "0xF8",
+            "size": "0xC"
+        },
+        {
+            "name": "m_fPoliceRestartHeadings_8",
+            "type": "float",
+            "offset": "0x104",
+            "size": 4
+        },
+        {
+            "name": "m_nNumberOfHospitalRestarts",
+            "type": "_WORD",
+            "offset": "0x108",
+            "size": 2
+        },
+        {
+            "name": "m_nNumberOfPoliceRestarts",
+            "type": "_WORD",
+            "offset": "0x10A",
+            "size": 2
+        },
+        {
+            "name": "m_bOverrideRestart",
+            "type": "_BYTE",
+            "offset": "0x10C",
+            "size": 1
+        },
+        {
+            "name": "field_10D",
+            "type": "char",
+            "offset": "0x10D",
+            "size": 1
+        },
+        {
+            "name": "field_10E",
+            "type": "__int16",
+            "offset": "0x10E",
+            "size": 2
+        },
+        {
+            "name": "m_vecOverridePosition",
+            "type": "CVector",
+            "offset": "0x110",
+            "size": "0xC"
+        },
+        {
+            "name": "m_fOverrideHeading",
+            "type": "float",
+            "offset": "0x11C",
+            "size": 4
+        },
+        {
+            "name": "m_bFadeInAfterNextDeath",
+            "type": "_BYTE",
+            "offset": "0x120",
+            "size": 1
+        },
+        {
+            "name": "m_bFadeInAfterNextArrest",
+            "type": "_BYTE",
+            "offset": "0x121",
+            "size": 1
+        },
+        {
+            "name": "m_nOverrideHospitalLevel",
+            "type": "_BYTE",
+            "offset": "0x122",
+            "size": 1
+        },
+        {
+            "name": "m_nOverridePoliceStationLevel",
+            "type": "_BYTE",
+            "offset": "0x123",
+            "size": 1
+        }
+    ]
+}

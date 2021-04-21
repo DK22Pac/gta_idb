@@ -1,0 +1,97 @@
+{
+    "name": "eCarNodes",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "CAR_NODE_NONE",
+            "value": 0
+        },
+        {
+            "name": "CAR_WHEEL_RF",
+            "value": 1
+        },
+        {
+            "name": "CAR_WHEEL_RM",
+            "value": 2
+        },
+        {
+            "name": "CAR_WHEEL_RB",
+            "value": 3
+        },
+        {
+            "name": "CAR_WHEEL_LF",
+            "value": 4
+        },
+        {
+            "name": "CAR_WHEEL_LM",
+            "value": 5
+        },
+        {
+            "name": "CAR_WHEEL_LB",
+            "value": 6
+        },
+        {
+            "name": "CAR_BUMP_FRONT",
+            "value": 7
+        },
+        {
+            "name": "CAR_BUMP_REAR",
+            "value": 8
+        },
+        {
+            "name": "CAR_WING_RF",
+            "value": 9
+        },
+        {
+            "name": "CAR_WING_RR",
+            "value": 10
+        },
+        {
+            "name": "CAR_DOOR_RF",
+            "value": 11
+        },
+        {
+            "name": "CAR_DOOR_RR",
+            "value": 12
+        },
+        {
+            "name": "CAR_WING_LF",
+            "value": 13
+        },
+        {
+            "name": "CAR_WING_LR",
+            "value": 14
+        },
+        {
+            "name": "CAR_DOOR_LF",
+            "value": 15
+        },
+        {
+            "name": "CAR_DOOR_LR",
+            "value": 16
+        },
+        {
+            "name": "CAR_BONNET",
+            "value": 17
+        },
+        {
+            "name": "CAR_BOOT",
+            "value": 18
+        },
+        {
+            "name": "CAR_WINDSCREEN",
+            "value": 19
+        },
+        {
+            "name": "CAR_NUM_NODES",
+            "value": 20
+        }
+    ]
+}

@@ -4,48 +4,48 @@
     "scope": "",
     "kind": "class",
     "size": "0x1C",
-    "alignment": 0,
+    "alignment": 2,
     "comment": "",
     "members": [
         {
             "name": "flags",
-            "type": "_DWORD",
+            "type": "RwInt32",
             "offset": 0,
             "size": 4
         },
         {
             "name": "width",
-            "type": "_DWORD",
+            "type": "RwInt32",
             "offset": 4,
             "size": 4
         },
         {
             "name": "height",
-            "type": "_DWORD",
+            "type": "RwInt32",
             "offset": 8,
             "size": 4
         },
         {
             "name": "depth",
-            "type": "_DWORD",
+            "type": "RwInt32",
             "offset": "0xC",
             "size": 4
         },
         {
             "name": "stride",
-            "type": "_DWORD",
+            "type": "RwInt32",
             "offset": "0x10",
             "size": 4
         },
         {
             "name": "cpPixels",
-            "type": "char *",
+            "type": "RwUInt8 *",
             "offset": "0x14",
             "size": 4
         },
         {
             "name": "palette",
-            "type": "_DWORD",
+            "type": "RwRGBA *",
             "offset": "0x18",
             "size": 4
         }

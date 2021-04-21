@@ -8,50 +8,50 @@
     "comment": "",
     "members": [
         {
-            "name": "field_0",
+            "name": "m_Type",
             "type": "int",
             "offset": 0,
             "size": 4
         },
         {
             "name": "field_4",
-            "type": "int",
+            "type": "float",
             "offset": 4,
             "size": 4
         },
         {
             "name": "field_8",
-            "type": "int",
+            "type": "float",
             "offset": 8,
             "size": 4
         },
         {
             "name": "field_C",
-            "type": "int",
+            "type": "float",
             "offset": "0xC",
             "size": 4
         },
         {
-            "name": "field_10",
-            "type": "int",
+            "name": "m_fFleeDistance",
+            "type": "float",
             "offset": "0x10",
             "size": 4
         },
         {
-            "name": "field_14",
-            "type": "int",
+            "name": "m_fHeading",
+            "type": "float",
             "offset": "0x14",
             "size": 4
         },
         {
-            "name": "field_18",
+            "name": "m_Threat",
             "type": "int",
             "offset": "0x18",
             "size": 4
         },
         {
-            "name": "field_1C",
-            "type": "int",
+            "name": "m_Avoid",
+            "type": "_DWORD",
             "offset": "0x1C",
             "size": 4
         }

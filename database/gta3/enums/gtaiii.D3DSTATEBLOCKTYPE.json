@@ -1,0 +1,29 @@
+{
+    "name": "D3DSTATEBLOCKTYPE",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "D3DSBT_ALL",
+            "value": "0x1"
+        },
+        {
+            "name": "D3DSBT_PIXELSTATE",
+            "value": "0x2"
+        },
+        {
+            "name": "D3DSBT_VERTEXSTATE",
+            "value": "0x3"
+        },
+        {
+            "name": "D3DSBT_FORCE_DWORD",
+            "value": "0x7FFFFFFF"
+        }
+    ]
+}

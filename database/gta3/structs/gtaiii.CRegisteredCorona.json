@@ -4,35 +4,35 @@
     "scope": "",
     "kind": "class",
     "size": "0x80",
-    "alignment": 0,
+    "alignment": 2,
     "comment": "",
     "members": [
         {
-            "name": "uniqueID",
+            "name": "m_nUniqueID",
             "type": "int",
             "offset": 0,
             "size": 4
         },
         {
-            "name": "field_4",
+            "name": "time",
             "type": "int",
             "offset": 4,
             "size": 4
         },
         {
-            "name": "texture",
+            "name": "m_pTexture",
             "type": "RwTexture *",
             "offset": 8,
             "size": 4
         },
         {
-            "name": "color",
+            "name": "m_Color",
             "type": "RwRGBA",
             "offset": "0xC",
             "size": 4
         },
         {
-            "name": "fadeState",
+            "name": "m_nFadeState",
             "type": "char",
             "offset": "0x10",
             "size": 1
@@ -44,13 +44,13 @@
             "size": 3
         },
         {
-            "name": "position",
-            "type": "RwV3d",
+            "name": "m_vecPosn",
+            "type": "CVector",
             "offset": "0x14",
             "size": "0xC"
         },
         {
-            "name": "size",
+            "name": "m_fSize",
             "type": "float",
             "offset": "0x20",
             "size": 4
@@ -62,7 +62,7 @@
             "size": 4
         },
         {
-            "name": "registeredThisFrame",
+            "name": "m_bRegisteredThisFrame",
             "type": "char",
             "offset": "0x28",
             "size": 1
@@ -80,13 +80,13 @@
             "size": 4
         },
         {
-            "name": "flare",
+            "name": "m_nFlareType",
             "type": "char",
             "offset": "0x30",
             "size": 1
         },
         {
-            "name": "reflection",
+            "name": "m_nUsesReflection",
             "type": "char",
             "offset": "0x31",
             "size": 1

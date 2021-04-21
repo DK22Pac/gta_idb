@@ -1,0 +1,177 @@
+{
+    "name": "e_ControllerAction",
+    "module": "",
+    "scope": "",
+    "width": 4,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "PED_FIREWEAPON",
+            "value": 0
+        },
+        {
+            "name": "PED_CYCLE_WEAPON_RIGHT",
+            "value": 1
+        },
+        {
+            "name": "PED_CYCLE_WEAPON_LEFT",
+            "value": 2
+        },
+        {
+            "name": "GO_FORWARD",
+            "value": 3
+        },
+        {
+            "name": "GO_BACK",
+            "value": 4
+        },
+        {
+            "name": "GO_LEFT",
+            "value": 5
+        },
+        {
+            "name": "GO_RIGHT",
+            "value": 6
+        },
+        {
+            "name": "PED_SNIPER_ZOOM_IN",
+            "value": 7
+        },
+        {
+            "name": "PED_SNIPER_ZOOM_OUT",
+            "value": 8
+        },
+        {
+            "name": "ENTER_EXIT",
+            "value": 9
+        },
+        {
+            "name": "CAMERA_CHANGE_VIEW_ALL_SITUATIONS",
+            "value": 10
+        },
+        {
+            "name": "PED_JUMPING",
+            "value": 11
+        },
+        {
+            "name": "PED_SPRINT",
+            "value": 12
+        },
+        {
+            "name": "PED_LOOKBEHIND",
+            "value": 13
+        },
+        {
+            "name": "VEHICLE_ACCELERATE",
+            "value": 14
+        },
+        {
+            "name": "VEHICLE_BRAKE",
+            "value": 15
+        },
+        {
+            "name": "VEHICLE_CHANGE_RADIO_STATION",
+            "value": 16
+        },
+        {
+            "name": "VEHICLE_HORN",
+            "value": 17
+        },
+        {
+            "name": "TOGGLE_SUBMISSIONS",
+            "value": 18
+        },
+        {
+            "name": "VEHICLE_HANDBRAKE",
+            "value": 19
+        },
+        {
+            "name": "PED_1RST_PERSON_LOOK_LEFT",
+            "value": 20
+        },
+        {
+            "name": "PED_1RST_PERSON_LOOK_RIGHT",
+            "value": 21
+        },
+        {
+            "name": "VEHICLE_LOOKLEFT",
+            "value": 22
+        },
+        {
+            "name": "VEHICLE_LOOKRIGHT",
+            "value": 23
+        },
+        {
+            "name": "VEHICLE_LOOKBEHIND",
+            "value": 24
+        },
+        {
+            "name": "VEHICLE_SPECIAL_LEFT",
+            "value": 25
+        },
+        {
+            "name": "VEHICLE_SPECIAL_RIGHT",
+            "value": 26
+        },
+        {
+            "name": "VEHICLE_SPECIAL_UP",
+            "value": 27
+        },
+        {
+            "name": "VEHICLE_SPECIAL_DOWN",
+            "value": 28
+        },
+        {
+            "name": "PED_CYCLE_TARGET_LEFT",
+            "value": 29
+        },
+        {
+            "name": "PED_CYCLE_TARGET_RIGHT",
+            "value": 30
+        },
+        {
+            "name": "PED_CENTER_CAMERA_BEHIND_PLAYER",
+            "value": 31
+        },
+        {
+            "name": "PED_LOCK_TARGET",
+            "value": 32
+        },
+        {
+            "name": "NETWORK_TALK",
+            "value": 33
+        },
+        {
+            "name": "PED_1RST_PERSON_LOOK_UP",
+            "value": 34
+        },
+        {
+            "name": "PED_1RST_PERSON_LOOK_DOWN",
+            "value": 35
+        },
+        {
+            "name": "ACTION_36",
+            "value": 36
+        },
+        {
+            "name": "TOGGLE_DPAD",
+            "value": 37
+        },
+        {
+            "name": "SWITCH_DEBUG_CAM_ON",
+            "value": 38
+        },
+        {
+            "name": "TAKE_SCREENSHOT",
+            "value": 39
+        },
+        {
+            "name": "SHOW_MOUSE_POINTER_TOGGLE",
+            "value": 40
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "IDirect3DCubeTexture8",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 4,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "vtable",
+            "type": "IDirect3DCubeTexture8VMT *",
+            "offset": 0,
+            "size": 4
+        }
+    ]
+}

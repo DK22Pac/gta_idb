@@ -1,15 +1,15 @@
 {
     "name": "CColLine",
-    "module": "",
+    "module": "CColLine",
     "scope": "",
     "kind": "class",
     "size": "0x20",
-    "alignment": 0,
+    "alignment": 2,
     "comment": "",
     "members": [
         {
-            "name": "vecStart",
-            "type": "RwV3d",
+            "name": "m_vecStart",
+            "type": "CVector",
             "offset": 0,
             "size": "0xC"
         },
@@ -20,8 +20,8 @@
             "size": 4
         },
         {
-            "name": "vecEnd",
-            "type": "RwV3d",
+            "name": "m_vecEnd",
+            "type": "CVector",
             "offset": "0x10",
             "size": "0xC"
         },

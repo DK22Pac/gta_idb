@@ -1,0 +1,17 @@
+{
+    "name": "BuildSector",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 4,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "type",
+            "type": "RwInt32",
+            "offset": 0,
+            "size": 4
+        }
+    ]
+}

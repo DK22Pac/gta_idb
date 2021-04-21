@@ -1,0 +1,77 @@
+{
+    "name": "cSampleManager",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0xEE38",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_bMasterSFXVolume",
+            "type": "char",
+            "offset": 0,
+            "size": 1
+        },
+        {
+            "name": "m_bMasterVolume",
+            "type": "char",
+            "offset": 1,
+            "size": 1
+        },
+        {
+            "name": "m_bMP3VolumeBoost",
+            "type": "char",
+            "offset": 2,
+            "size": 1
+        },
+        {
+            "name": "m_bEffectsFadeVolume",
+            "type": "char",
+            "offset": 3,
+            "size": 1
+        },
+        {
+            "name": "m_bMusicFadeVolume",
+            "type": "char",
+            "offset": 4,
+            "size": 1
+        },
+        {
+            "name": "field_5",
+            "type": "char",
+            "offset": 5,
+            "size": 1
+        },
+        {
+            "name": "m_abAudioDirectory",
+            "type": "char[80]",
+            "offset": 6,
+            "size": "0x50"
+        },
+        {
+            "name": "m_bStreamingAvailiable",
+            "type": "char",
+            "offset": "0x56",
+            "size": 1
+        },
+        {
+            "name": "m_nNum3DProviders",
+            "type": "char",
+            "offset": "0x57",
+            "size": 1
+        },
+        {
+            "name": "m_asName3DProviders",
+            "type": "char *[64]",
+            "offset": "0x58",
+            "size": "0x100"
+        },
+        {
+            "name": "m_asSamples",
+            "type": "tSample[3032]",
+            "offset": "0x158",
+            "size": "0xECE0"
+        }
+    ]
+}

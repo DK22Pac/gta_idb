@@ -1,0 +1,53 @@
+{
+    "name": "RwTextureCoordinateIndex",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "rwNARWTEXTURECOORDINATEINDEX",
+            "value": "0x0"
+        },
+        {
+            "name": "rwTEXTURECOORDINATEINDEX0",
+            "value": "0x1"
+        },
+        {
+            "name": "rwTEXTURECOORDINATEINDEX1",
+            "value": "0x2"
+        },
+        {
+            "name": "rwTEXTURECOORDINATEINDEX2",
+            "value": "0x3"
+        },
+        {
+            "name": "rwTEXTURECOORDINATEINDEX3",
+            "value": "0x4"
+        },
+        {
+            "name": "rwTEXTURECOORDINATEINDEX4",
+            "value": "0x5"
+        },
+        {
+            "name": "rwTEXTURECOORDINATEINDEX5",
+            "value": "0x6"
+        },
+        {
+            "name": "rwTEXTURECOORDINATEINDEX6",
+            "value": "0x7"
+        },
+        {
+            "name": "rwTEXTURECOORDINATEINDEX7",
+            "value": "0x8"
+        },
+        {
+            "name": "rwTEXTURECOORDINATEINDEXFORCEENUMSIZEINT",
+            "value": "0x7FFFFFFF"
+        }
+    ]
+}

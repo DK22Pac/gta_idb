@@ -1,0 +1,25 @@
+{
+    "name": "RwRasterFlipMode",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "rwRASTERFLIPDONTWAIT",
+            "value": "0x0"
+        },
+        {
+            "name": "rwRASTERFLIPWAITVSYNC",
+            "value": "0x1"
+        },
+        {
+            "name": "rwRASTERFLIPMODEFORCEENUMSIZEINT",
+            "value": "0x7FFFFFFF"
+        }
+    ]
+}

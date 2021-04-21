@@ -1,0 +1,47 @@
+{
+    "name": "CDate",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x18",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "dword0",
+            "type": "_DWORD",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "dword4",
+            "type": "_DWORD",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "dword8",
+            "type": "_DWORD",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "dwordC",
+            "type": "_DWORD",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "dword10",
+            "type": "_DWORD",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "dword14",
+            "type": "_DWORD",
+            "offset": "0x14",
+            "size": 4
+        }
+    ]
+}

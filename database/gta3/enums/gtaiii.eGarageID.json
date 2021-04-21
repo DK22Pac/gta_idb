@@ -1,0 +1,121 @@
+{
+    "name": "eGarageID",
+    "module": "",
+    "scope": "",
+    "width": 2,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "GARAGE_ID_CAR_CRUSHER",
+            "value": 0
+        },
+        {
+            "name": "GARAGE_ID_PORTLAND_HIDEOUT",
+            "value": 1
+        },
+        {
+            "name": "GARAGE_ID_PORTLAND_IE",
+            "value": 2
+        },
+        {
+            "name": "GARAGE_ID_PORTLAND_BOMBSHOP",
+            "value": 3
+        },
+        {
+            "name": "GARAGE_ID_PORTLAND_PAYNSPRAY",
+            "value": 4
+        },
+        {
+            "name": "GARAGE_ID_SALVATORES",
+            "value": 5
+        },
+        {
+            "name": "GARAGE_ID_SECURICAR",
+            "value": 6
+        },
+        {
+            "name": "GARAGE_ID_LUIGIS_LOCKUP",
+            "value": 7
+        },
+        {
+            "name": "GARAGE_ID_STAUNTON_HIDEOUT",
+            "value": 8
+        },
+        {
+            "name": "GARAGE_ID_STAUNTON_BOMSHOP",
+            "value": 9
+        },
+        {
+            "name": "GARAGE_ID_STAUNTON_PAYNSPRAY",
+            "value": 10
+        },
+        {
+            "name": "GARAGE_ID_RAY_LOCKUP",
+            "value": 11
+        },
+        {
+            "name": "GARAGE_ID_WITSEC_HOUSE",
+            "value": 12
+        },
+        {
+            "name": "GARAGE_ID_KENJI_LOCKUP",
+            "value": 13
+        },
+        {
+            "name": "GARAGE_ID_COLUMBIAN_GARAGE_1",
+            "value": 14
+        },
+        {
+            "name": "GARAGE_ID_COLUMBIAN_GARAGE_2",
+            "value": 15
+        },
+        {
+            "name": "GARAGE_ID_COLUMBIAN_GARAGE_3",
+            "value": 16
+        },
+        {
+            "name": "GARAGE_ID_COLUMBIAN_GARAGE_4",
+            "value": 17
+        },
+        {
+            "name": "GARAGE_ID_COLUMBIAN_GARAGE_5",
+            "value": 18
+        },
+        {
+            "name": "GARAGE_ID_YARDIE_LOCKUP",
+            "value": 19
+        },
+        {
+            "name": "GARAGE_ID_SHORESIDE_HIDEOUT",
+            "value": 20
+        },
+        {
+            "name": "GARAGE_ID_SHORESIDE_PAYNSPRAY",
+            "value": 21
+        },
+        {
+            "name": "GARAGE_ID_SHORESIDE_BOMBSHOP",
+            "value": 22
+        },
+        {
+            "name": "GARAGE_ID_SHORESIDE_IE",
+            "value": 23
+        },
+        {
+            "name": "GARAGE_ID_HOODS_DEFUSAL",
+            "value": 24
+        },
+        {
+            "name": "GARAGE_ID_PLATINUM_DROPOFF",
+            "value": 25
+        },
+        {
+            "name": "GARAGE_ID_DONALD_LOVES_STASH",
+            "value": 26
+        }
+    ]
+}

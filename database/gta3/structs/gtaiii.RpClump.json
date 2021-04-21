@@ -3,8 +3,8 @@
     "module": "",
     "scope": "",
     "kind": "class",
-    "size": "0xD4",
-    "alignment": 0,
+    "size": "0x30",
+    "alignment": 2,
     "comment": "",
     "members": [
         {
@@ -17,31 +17,43 @@
             "name": "atomicList",
             "type": "RwLinkList",
             "offset": 8,
-            "size": "0x40"
+            "size": 8
         },
         {
             "name": "lightList",
             "type": "RwLinkList",
-            "offset": "0x48",
-            "size": "0x40"
+            "offset": "0x10",
+            "size": 8
         },
         {
             "name": "cameraList",
             "type": "RwLinkList",
-            "offset": "0x88",
-            "size": "0x40"
+            "offset": "0x18",
+            "size": 8
         },
         {
             "name": "inWorldLink",
             "type": "RwLLLink",
-            "offset": "0xC8",
+            "offset": "0x20",
             "size": 8
         },
         {
             "name": "callback",
-            "type": "int",
-            "offset": "0xD0",
+            "type": "RpClumpCallBack",
+            "offset": "0x28",
             "size": 4
+        },
+        {
+            "name": "renderFrame",
+            "type": "RwUInt16",
+            "offset": "0x2C",
+            "size": 2
+        },
+        {
+            "name": "pad",
+            "type": "RwUInt16",
+            "offset": "0x2E",
+            "size": 2
         }
     ]
 }

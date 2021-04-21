@@ -8,13 +8,13 @@
     "comment": "",
     "members": [
         {
-            "name": "x",
+            "name": "X",
             "type": "float",
             "offset": 0,
             "size": 4
         },
         {
-            "name": "y",
+            "name": "Y",
             "type": "float",
             "offset": 4,
             "size": 4

@@ -1,0 +1,35 @@
+{
+    "name": "PALETTEENTRY",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 4,
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "peRed",
+            "type": "BYTE",
+            "offset": 0,
+            "size": 1
+        },
+        {
+            "name": "peGreen",
+            "type": "BYTE",
+            "offset": 1,
+            "size": 1
+        },
+        {
+            "name": "peBlue",
+            "type": "BYTE",
+            "offset": 2,
+            "size": 1
+        },
+        {
+            "name": "peFlags",
+            "type": "BYTE",
+            "offset": 3,
+            "size": 1
+        }
+    ]
+}

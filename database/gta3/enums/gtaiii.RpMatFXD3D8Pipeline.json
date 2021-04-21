@@ -1,0 +1,33 @@
+{
+    "name": "RpMatFXD3D8Pipeline",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "rpNAMATFXD3D8PIPELINE",
+            "value": "0x0"
+        },
+        {
+            "name": "rpMATFXD3D8ATOMICPIPELINE",
+            "value": "0x1"
+        },
+        {
+            "name": "rpMATFXD3D8WORLDSECTORPIPELINE",
+            "value": "0x2"
+        },
+        {
+            "name": "rpMATFXD3D8PIPELINEMAX",
+            "value": "0x3"
+        },
+        {
+            "name": "rpMATFXD3D8PIPELINEFORCEENUMSIZEINT",
+            "value": "0x7FFFFFFF"
+        }
+    ]
+}

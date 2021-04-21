@@ -1,0 +1,17 @@
+{
+    "name": "RwSingleList",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 4,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "link",
+            "type": "RwSLLink",
+            "offset": 0,
+            "size": 4
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "name": "DIEFFESCAPE",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x18",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "dwSize",
+            "type": "DWORD",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "dwCommand",
+            "type": "DWORD",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "lpvInBuffer",
+            "type": "LPVOID",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "cbInBuffer",
+            "type": "DWORD",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "lpvOutBuffer",
+            "type": "LPVOID",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "cbOutBuffer",
+            "type": "DWORD",
+            "offset": "0x14",
+            "size": 4
+        }
+    ]
+}

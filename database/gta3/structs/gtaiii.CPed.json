@@ -4,9 +4,9 @@
     "scope": "",
     "kind": "class",
     "size": "0x53C",
-    "alignment": 0,
-    "vtableAddress": "0x605A0C",
-    "vtableSize": 19,
+    "alignment": 2,
+    "vtableAddress": "0x5F8C2C",
+    "vtableSize": 0,
     "comment": "",
     "members": [
         {
@@ -16,226 +16,160 @@
             "size": "0x128"
         },
         {
-            "name": "field_128",
-            "type": "char[36]",
+            "name": "m_polyColliding",
+            "type": "CStoredCollPoly",
             "offset": "0x128",
-            "size": "0x24"
+            "size": "0x28"
         },
         {
-            "name": "byte14C",
-            "type": "_BYTE",
-            "offset": "0x14C",
-            "size": 1
-        },
-        {
-            "name": "f14D",
-            "type": "_BYTE[3]",
-            "offset": "0x14D",
-            "size": 3
-        },
-        {
-            "name": "dword150",
-            "type": "_DWORD",
+            "name": "m_fCollisionSpeed",
+            "type": "float",
             "offset": "0x150",
             "size": 4
         },
         {
-            "name": "byte154",
-            "type": "_BYTE",
+            "name": "m_nPedFlags",
+            "type": "unsigned __int8[9]",
             "offset": "0x154",
-            "size": 1
+            "size": 9
         },
         {
-            "name": "byte155",
-            "type": "_BYTE",
-            "offset": "0x155",
-            "size": 1
-        },
-        {
-            "name": "byte156",
-            "type": "_BYTE",
-            "offset": "0x156",
-            "size": 1
-        },
-        {
-            "name": "byte157",
-            "type": "_BYTE",
-            "offset": "0x157",
-            "size": 1
-        },
-        {
-            "name": "byte158",
-            "type": "_BYTE",
-            "offset": "0x158",
-            "size": 1
-        },
-        {
-            "name": "byte159",
-            "type": "_BYTE",
-            "offset": "0x159",
-            "size": 1
-        },
-        {
-            "name": "byte15A",
-            "type": "_BYTE",
-            "offset": "0x15A",
-            "size": 1
-        },
-        {
-            "name": "byte15B",
-            "type": "_BYTE",
-            "offset": "0x15B",
-            "size": 1
-        },
-        {
-            "name": "byte15C",
-            "type": "_BYTE",
-            "offset": "0x15C",
-            "size": 1
-        },
-        {
-            "name": "f15D",
-            "type": "_BYTE[3]",
+            "name": "field_15D",
+            "type": "char",
             "offset": "0x15D",
-            "size": 3
+            "size": 1
         },
         {
-            "name": "m_bReferenceType",
-            "type": "_BYTE",
+            "name": "field_15E",
+            "type": "char",
+            "offset": "0x15E",
+            "size": 1
+        },
+        {
+            "name": "field_15F",
+            "type": "char",
+            "offset": "0x15F",
+            "size": 1
+        },
+        {
+            "name": "m_nPedStatus",
+            "type": "char",
             "offset": "0x160",
             "size": 1
         },
         {
-            "name": "f161",
-            "type": "_BYTE[3]",
+            "name": "_pad161",
+            "type": "char[3]",
             "offset": "0x161",
             "size": 3
         },
         {
-            "name": "m_dwCurrentObjective",
-            "type": "_DWORD",
+            "name": "m_nObjective",
+            "type": "eObjective",
             "offset": "0x164",
             "size": 4
         },
         {
-            "name": "m_dwPreviousObjective",
-            "type": "_DWORD",
+            "name": "m_nPrevObjective",
+            "type": "eObjective",
             "offset": "0x168",
             "size": 4
         },
         {
-            "name": "dword16C",
-            "type": "_DWORD",
+            "name": "m_pObjectiveEntity",
+            "type": "CPed *",
             "offset": "0x16C",
             "size": 4
         },
         {
-            "name": "m_pNearestVehicle",
+            "name": "m_pObjectiveVehicle",
             "type": "CVehicle *",
             "offset": "0x170",
             "size": 4
         },
         {
-            "name": "m_vObjectivePosn",
+            "name": "m_vecObjective",
             "type": "CVector",
             "offset": "0x174",
             "size": "0xC"
         },
         {
-            "name": "m_pLeader",
+            "name": "m_pGangLeader",
             "type": "CPed *",
             "offset": "0x180",
             "size": 4
         },
         {
-            "name": "dword184",
-            "type": "_DWORD",
+            "name": "m_nPedFormation",
+            "type": "eFormation",
             "offset": "0x184",
             "size": 4
         },
         {
-            "name": "m_dwPedThreatsFlags",
-            "type": "_DWORD",
+            "name": "m_nFearFlags",
+            "type": "eThreat",
             "offset": "0x188",
             "size": 4
         },
         {
-            "name": "m_pThreatPed",
-            "type": "CPed *",
+            "name": "m_pThreatEntity",
+            "type": "CEntity *",
             "offset": "0x18C",
             "size": 4
         },
         {
-            "name": "m_vThreatPosn",
+            "name": "m_vec2dEventOrThreat",
             "type": "CVector2D",
             "offset": "0x190",
             "size": 8
         },
         {
-            "name": "f198",
-            "type": "_BYTE[4]",
+            "name": "m_nEventType",
+            "type": "int",
             "offset": "0x198",
             "size": 4
         },
         {
-            "name": "m_pDeadPedThreat",
-            "type": "CPed *",
+            "name": "m_pEventEntity",
+            "type": "CEntity *",
             "offset": "0x19C",
             "size": 4
         },
         {
-            "name": "dword1A0",
-            "type": "_DWORD",
+            "name": "m_fAngleToEvent",
+            "type": "float",
             "offset": "0x1A0",
             "size": 4
         },
         {
-            "name": "m_apBoneFrames",
-            "type": "void *[12]",
+            "name": "m_apBodyParts",
+            "type": "AnimBlendFrameData *[12]",
             "offset": "0x1A4",
             "size": "0x30"
         },
         {
-            "name": "m_dwAnimGroup",
-            "type": "int",
+            "name": "m_nAnimGroupId",
+            "type": "AssocGroupId",
             "offset": "0x1D4",
             "size": 4
         },
         {
-            "name": "dword1D8",
-            "type": "_DWORD",
+            "name": "m_pVehicleAnim",
+            "type": "CAnimBlendAssociation *",
             "offset": "0x1D8",
             "size": 4
         },
         {
-            "name": "dword1DC",
-            "type": "_DWORD",
+            "name": "m_vecAnimMoveDelta",
+            "type": "CVector2D",
             "offset": "0x1DC",
-            "size": 4
+            "size": 8
         },
         {
-            "name": "dword1E0",
-            "type": "_DWORD",
-            "offset": "0x1E0",
-            "size": 4
-        },
-        {
-            "name": "dword1E4",
-            "type": "_DWORD",
+            "name": "m_vecOffsetSeek",
+            "type": "CVector",
             "offset": "0x1E4",
-            "size": 4
-        },
-        {
-            "name": "dword1E8",
-            "type": "_DWORD",
-            "offset": "0x1E8",
-            "size": 4
-        },
-        {
-            "name": "dword1EC",
-            "type": "_DWORD",
-            "offset": "0x1EC",
-            "size": 4
+            "size": "0xC"
         },
         {
             "name": "m_PedIK",
@@ -244,277 +178,217 @@
             "size": "0x28"
         },
         {
-            "name": "dword218",
-            "type": "_DWORD",
+            "name": "m_vecAction",
+            "type": "CVector2D",
             "offset": "0x218",
-            "size": 4
+            "size": 8
         },
         {
-            "name": "dword21C",
-            "type": "_DWORD",
-            "offset": "0x21C",
-            "size": 4
-        },
-        {
-            "name": "m_dwHeadShotTimer",
-            "type": "_DWORD",
+            "name": "m_nActionTimer",
+            "type": "int",
             "offset": "0x220",
             "size": 4
         },
         {
-            "name": "m_dwCurrentMoveState",
-            "type": "_DWORD",
+            "name": "m_nState",
+            "type": "ePedState",
             "offset": "0x224",
             "size": 4
         },
         {
-            "name": "dword228",
-            "type": "_DWORD",
+            "name": "m_nPreviousState",
+            "type": "ePedState",
             "offset": "0x228",
             "size": 4
         },
         {
-            "name": "m_dwMoveState",
-            "type": "_DWORD",
+            "name": "m_nNextMoveState",
+            "type": "eMoveState",
             "offset": "0x22C",
             "size": 4
         },
         {
-            "name": "dword230",
-            "type": "_DWORD",
+            "name": "m_nCurrentMoveState",
+            "type": "eMoveState",
             "offset": "0x230",
             "size": 4
         },
         {
-            "name": "f234",
-            "type": "_BYTE[4]",
+            "name": "m_nPreviousMoveState",
+            "type": "eMoveState",
             "offset": "0x234",
             "size": 4
         },
         {
-            "name": "dword238",
-            "type": "_DWORD",
+            "name": "m_nWaitState",
+            "type": "eWaitState",
             "offset": "0x238",
             "size": 4
         },
         {
-            "name": "dword23C",
-            "type": "_DWORD",
+            "name": "m_nWaitTimer",
+            "type": "int",
             "offset": "0x23C",
             "size": 4
         },
         {
-            "name": "dword240",
-            "type": "_DWORD",
+            "name": "m_apPathNodesStates",
+            "type": "void *[8]",
             "offset": "0x240",
-            "size": 4
+            "size": "0x20"
         },
         {
-            "name": "dword244",
-            "type": "_DWORD",
-            "offset": "0x244",
-            "size": 4
-        },
-        {
-            "name": "dword248",
-            "type": "_DWORD",
-            "offset": "0x248",
-            "size": 4
-        },
-        {
-            "name": "dword24C",
-            "type": "_DWORD",
-            "offset": "0x24C",
-            "size": 4
-        },
-        {
-            "name": "dword250",
-            "type": "_DWORD",
-            "offset": "0x250",
-            "size": 4
-        },
-        {
-            "name": "dword254",
-            "type": "_DWORD",
-            "offset": "0x254",
-            "size": 4
-        },
-        {
-            "name": "dword258",
-            "type": "_DWORD",
-            "offset": "0x258",
-            "size": 4
-        },
-        {
-            "name": "dword25C",
-            "type": "_DWORD",
-            "offset": "0x25C",
-            "size": 4
-        },
-        {
-            "name": "f260",
-            "type": "_BYTE[80]",
+            "name": "m_vec2dFollowPathNodes",
+            "type": "CVector2D[10]",
             "offset": "0x260",
             "size": "0x50"
         },
         {
-            "name": "word2B0",
-            "type": "_WORD",
+            "name": "m_nPathNodes",
+            "type": "__int16",
             "offset": "0x2B0",
             "size": 2
         },
         {
-            "name": "word2B2",
-            "type": "_WORD",
+            "name": "m_nCurPathNode",
+            "type": "__int16",
             "offset": "0x2B2",
             "size": 2
         },
         {
-            "name": "byte2B4",
-            "type": "_BYTE",
+            "name": "m_nPathState",
+            "type": "char",
             "offset": "0x2B4",
             "size": 1
         },
         {
-            "name": "f2B5",
-            "type": "_BYTE[3]",
+            "name": "_pad2B5",
+            "type": "char[3]",
             "offset": "0x2B5",
             "size": 3
         },
         {
-            "name": "dword2B8",
-            "type": "_DWORD",
+            "name": "m_pNextPathNode",
+            "type": "CPathNode *",
             "offset": "0x2B8",
             "size": 4
         },
         {
-            "name": "dword2BC",
-            "type": "_DWORD",
+            "name": "m_pLastPathNode",
+            "type": "CPathNode *",
             "offset": "0x2BC",
             "size": 4
         },
         {
-            "name": "dword2C0",
+            "name": "m_fHealth",
             "type": "float",
             "offset": "0x2C0",
             "size": 4
         },
         {
-            "name": "dword2C4",
-            "type": "_DWORD",
+            "name": "m_fArmour",
+            "type": "float",
             "offset": "0x2C4",
             "size": 4
         },
         {
-            "name": "word2C8",
-            "type": "_WORD",
+            "name": "m_nRouteLastPoint",
+            "type": "__int16",
             "offset": "0x2C8",
             "size": 2
         },
         {
-            "name": "word2CA",
-            "type": "_WORD",
+            "name": "m_nRoutePoints",
+            "type": "__int16",
             "offset": "0x2CA",
             "size": 2
         },
         {
-            "name": "word2CC",
-            "type": "_WORD",
+            "name": "m_nRoutePos",
+            "type": "__int16",
             "offset": "0x2CC",
             "size": 2
         },
         {
-            "name": "word2CE",
-            "type": "_WORD",
+            "name": "m_nRouteType",
+            "type": "__int16",
             "offset": "0x2CE",
             "size": 2
         },
         {
-            "name": "f2D0",
-            "type": "_BYTE[4]",
+            "name": "m_nRouteCurDir",
+            "type": "__int16",
             "offset": "0x2D0",
-            "size": 4
+            "size": 2
         },
         {
-            "name": "dword2D4",
-            "type": "_DWORD",
+            "name": "_pad2D2",
+            "type": "char[2]",
+            "offset": "0x2D2",
+            "size": 2
+        },
+        {
+            "name": "m_vecMoved",
+            "type": "CVector2D",
             "offset": "0x2D4",
-            "size": 4
+            "size": 8
         },
         {
-            "name": "dword2D8",
-            "type": "_DWORD",
-            "offset": "0x2D8",
-            "size": 4
-        },
-        {
-            "name": "dword2DC",
-            "type": "_DWORD",
+            "name": "m_fRotationCur",
+            "type": "float",
             "offset": "0x2DC",
             "size": 4
         },
         {
-            "name": "dword2E0",
-            "type": "_DWORD",
+            "name": "m_fRotationDest",
+            "type": "float",
             "offset": "0x2E0",
             "size": 4
         },
         {
-            "name": "dword2E4",
-            "type": "_DWORD",
+            "name": "m_fHeadingRate",
+            "type": "float",
             "offset": "0x2E4",
             "size": 4
         },
         {
-            "name": "word2E8",
-            "type": "_WORD",
+            "name": "m_nEnterType",
+            "type": "unsigned __int16",
             "offset": "0x2E8",
             "size": 2
         },
         {
-            "name": "word2EA",
-            "type": "_WORD",
+            "name": "m_nWalkAroundType",
+            "type": "__int16",
             "offset": "0x2EA",
             "size": 2
         },
         {
-            "name": "dword2EC",
-            "type": "_DWORD",
+            "name": "m_pCollisionVehicle",
+            "type": "CVehicle *",
             "offset": "0x2EC",
             "size": 4
         },
         {
-            "name": "dword2F0",
-            "type": "_DWORD",
+            "name": "m_vecOffsetFromPhysSurface",
+            "type": "CVector",
             "offset": "0x2F0",
-            "size": 4
+            "size": "0xC"
         },
         {
-            "name": "dword2F4",
-            "type": "_DWORD",
-            "offset": "0x2F4",
-            "size": 4
-        },
-        {
-            "name": "dword2F8",
-            "type": "_DWORD",
-            "offset": "0x2F8",
-            "size": 4
-        },
-        {
-            "name": "dword2FC",
-            "type": "_DWORD",
+            "name": "m_pCurSurface",
+            "type": "uTargetEntity",
             "offset": "0x2FC",
             "size": 4
         },
         {
-            "name": "m_vSeekPosn",
+            "name": "m_vecSeekVehicle",
             "type": "CVector",
             "offset": "0x300",
             "size": "0xC"
         },
         {
-            "name": "m_pAimingEntity",
+            "name": "m_pSeekTarget",
             "type": "CEntity *",
             "offset": "0x30C",
             "size": 4
@@ -526,14 +400,14 @@
             "size": 4
         },
         {
-            "name": "m_bIsDriving",
-            "type": "_BYTE",
+            "name": "m_bInVehicle",
+            "type": "bool",
             "offset": "0x314",
             "size": 1
         },
         {
-            "name": "f315",
-            "type": "_BYTE[3]",
+            "name": "_pad315",
+            "type": "char[3]",
             "offset": "0x315",
             "size": 3
         },
@@ -544,110 +418,110 @@
             "size": 4
         },
         {
-            "name": "byte31C",
-            "type": "_BYTE",
+            "name": "m_bHasPhone",
+            "type": "bool",
             "offset": "0x31C",
             "size": 1
         },
         {
-            "name": "f31D",
-            "type": "_BYTE[1]",
+            "name": "_pad31D",
+            "type": "char",
             "offset": "0x31D",
             "size": 1
         },
         {
-            "name": "word31E",
-            "type": "_WORD",
+            "name": "m_nPhoneId",
+            "type": "__int16",
             "offset": "0x31E",
             "size": 2
         },
         {
-            "name": "f320",
-            "type": "_BYTE[4]",
+            "name": "m_nLookingForPhone",
+            "type": "int",
             "offset": "0x320",
             "size": 4
         },
         {
-            "name": "dword324",
-            "type": "_DWORD",
+            "name": "m_nPhoneTalkTimer",
+            "type": "int",
             "offset": "0x324",
             "size": 4
         },
         {
-            "name": "dword328",
-            "type": "_DWORD",
+            "name": "m_pLastAccident",
+            "type": "CAccident *",
             "offset": "0x328",
             "size": 4
         },
         {
-            "name": "m_dwPedType",
-            "type": "_DWORD",
+            "name": "m_nPedType",
+            "type": "ePedType",
             "offset": "0x32C",
             "size": 4
         },
         {
             "name": "m_pPedStats",
-            "type": "int",
+            "type": "CPedStats *",
             "offset": "0x330",
             "size": 4
         },
         {
-            "name": "m_vFleePosn",
+            "name": "m_vecFleeFromPos",
             "type": "CVector2D",
             "offset": "0x334",
             "size": 8
         },
         {
-            "name": "m_pFleeEntity",
-            "type": "_DWORD",
+            "name": "m_pFleeFrom",
+            "type": "CEntity *",
             "offset": "0x33C",
             "size": 4
         },
         {
-            "name": "m_dwTimeToStopFlee",
-            "type": "_DWORD",
+            "name": "m_nFleeTimer",
+            "type": "int",
             "offset": "0x340",
             "size": 4
         },
         {
-            "name": "f344",
-            "type": "_BYTE[4]",
+            "name": "m_pLastThreatAt",
+            "type": "CPed *",
             "offset": "0x344",
             "size": 4
         },
         {
-            "name": "dword348",
-            "type": "_DWORD",
+            "name": "m_nLastThreatTimer",
+            "type": "int",
             "offset": "0x348",
             "size": 4
         },
         {
-            "name": "dword34C",
-            "type": "_DWORD",
+            "name": "m_pVehicleColliding",
+            "type": "CVehicle *",
             "offset": "0x34C",
             "size": 4
         },
         {
-            "name": "byte350",
-            "type": "_BYTE",
+            "name": "m_nStateUnused",
+            "type": "char",
             "offset": "0x350",
             "size": 1
         },
         {
-            "name": "f351",
-            "type": "_BYTE[3]",
+            "name": "_pad351",
+            "type": "char[3]",
             "offset": "0x351",
             "size": 3
         },
         {
-            "name": "dword354",
-            "type": "_DWORD",
+            "name": "m_nTimerUnused",
+            "type": "int",
             "offset": "0x354",
             "size": 4
         },
         {
-            "name": "dword358",
-            "type": "_DWORD",
+            "name": "m_pTargetUnused",
+            "type": "CRange2D *",
             "offset": "0x358",
             "size": 4
         },
@@ -658,230 +532,248 @@
             "size": "0x138"
         },
         {
-            "name": "dword494",
-            "type": "_DWORD",
+            "name": "m_nWeaponType",
+            "type": "int",
             "offset": "0x494",
             "size": 4
         },
         {
-            "name": "m_nWeaponSlot",
-            "type": "_BYTE",
+            "name": "m_nWepSlot",
+            "type": "unsigned __int8",
             "offset": "0x498",
             "size": 1
         },
         {
-            "name": "byte499",
-            "type": "_BYTE",
+            "name": "m_nTotalWeapons",
+            "type": "char",
             "offset": "0x499",
             "size": 1
         },
         {
-            "name": "byte49A",
-            "type": "_BYTE",
+            "name": "m_nWepSkills",
+            "type": "unsigned __int8",
             "offset": "0x49A",
             "size": 1
         },
         {
-            "name": "byte49B",
-            "type": "_BYTE",
+            "name": "m_nWepAccuracy",
+            "type": "unsigned __int8",
             "offset": "0x49B",
             "size": 1
         },
         {
-            "name": "m_pThreatAttack",
+            "name": "m_pPointGunAt",
             "type": "CEntity *",
             "offset": "0x49C",
             "size": 4
         },
         {
-            "name": "f4A0",
-            "type": "_BYTE[12]",
+            "name": "m_vecHitLastPos",
+            "type": "CVector",
             "offset": "0x4A0",
             "size": "0xC"
         },
         {
-            "name": "dword4AC",
-            "type": "_DWORD",
+            "name": "m_nHitCounter",
+            "type": "int",
             "offset": "0x4AC",
             "size": 4
         },
         {
-            "name": "f4B0",
-            "type": "_BYTE[4]",
+            "name": "m_nLastHitState",
+            "type": "char",
             "offset": "0x4B0",
-            "size": 4
+            "size": 1
         },
         {
-            "name": "dword4B4",
-            "type": "_DWORD",
+            "name": "m_nFightFlags1",
+            "type": "char",
+            "offset": "0x4B1",
+            "size": 1
+        },
+        {
+            "name": "m_nFightFlags2",
+            "type": "char",
+            "offset": "0x4B2",
+            "size": 1
+        },
+        {
+            "name": "m_nFightFlags3",
+            "type": "char",
+            "offset": "0x4B3",
+            "size": 1
+        },
+        {
+            "name": "m_pPedFire",
+            "type": "CFire *",
             "offset": "0x4B4",
             "size": 4
         },
         {
-            "name": "m_pLookAtEntity",
+            "name": "m_pLookAimEntity",
             "type": "CEntity *",
             "offset": "0x4B8",
             "size": 4
         },
         {
-            "name": "dword4BC",
+            "name": "m_fLookHeading",
             "type": "float",
             "offset": "0x4BC",
             "size": 4
         },
         {
-            "name": "m_dwWeaponModelIndex",
-            "type": "_DWORD",
+            "name": "m_nWepModelID",
+            "type": "int",
             "offset": "0x4C0",
             "size": 4
         },
         {
-            "name": "m_dwWarpToLeaderOffScreenTimer",
-            "type": "_DWORD",
+            "name": "m_nLeaveCarTimer",
+            "type": "int",
             "offset": "0x4C4",
             "size": 4
         },
         {
-            "name": "dword4C8",
-            "type": "_DWORD",
+            "name": "m_nGetUpTimer",
+            "type": "int",
             "offset": "0x4C8",
             "size": 4
         },
         {
-            "name": "m_dwLookTimer",
-            "type": "_DWORD",
+            "name": "m_nLookTimer",
+            "type": "int",
             "offset": "0x4CC",
             "size": 4
         },
         {
-            "name": "m_dwChatTimer",
-            "type": "_DWORD",
+            "name": "m_nNextObjectiveTimer",
+            "type": "int",
             "offset": "0x4D0",
             "size": 4
         },
         {
-            "name": "m_dwStartFightAttackTimer",
-            "type": "_DWORD",
+            "name": "m_nAttackTimer",
+            "type": "int",
             "offset": "0x4D4",
             "size": 4
         },
         {
-            "name": "dword4D8",
-            "type": "_DWORD",
+            "name": "m_nShootTimer",
+            "type": "int",
             "offset": "0x4D8",
             "size": 4
         },
         {
-            "name": "dword4DC",
-            "type": "_DWORD",
+            "name": "m_nHitRecoverTimer",
+            "type": "int",
             "offset": "0x4DC",
             "size": 4
         },
         {
-            "name": "m_dwObjectiveTimer",
+            "name": "m_nObjectiveTimer",
             "type": "int",
             "offset": "0x4E0",
             "size": 4
         },
         {
-            "name": "field_4E4",
+            "name": "m_nDuckTimer",
             "type": "int",
             "offset": "0x4E4",
             "size": 4
         },
         {
-            "name": "dword4E8",
-            "type": "_DWORD",
+            "name": "m_nDuckAndCoverTimer",
+            "type": "int",
             "offset": "0x4E8",
             "size": 4
         },
         {
-            "name": "m_dwDeathTime",
+            "name": "m_nBloodyTimer",
             "type": "int",
             "offset": "0x4EC",
             "size": 4
         },
         {
-            "name": "field_4F0",
+            "name": "m_nPanicCounter",
             "type": "char",
             "offset": "0x4F0",
             "size": 1
         },
         {
-            "name": "field_4F1",
+            "name": "m_nDeadBleeding",
             "type": "char",
             "offset": "0x4F1",
             "size": 1
         },
         {
-            "name": "m_bLastComponentRemoved",
-            "type": "_BYTE",
+            "name": "m_nBodyPartBleeding",
+            "type": "char",
             "offset": "0x4F2",
             "size": 1
         },
         {
-            "name": "f4F3",
+            "name": "_pad4F3",
             "type": "char",
             "offset": "0x4F3",
             "size": 1
         },
         {
-            "name": "m_apNearByPeds",
+            "name": "m_apNearPeds",
             "type": "CPed *[10]",
             "offset": "0x4F4",
             "size": "0x28"
         },
         {
-            "name": "m_wNumNearByPeds",
-            "type": "_WORD",
+            "name": "m_nNumNearPeds",
+            "type": "__int16",
             "offset": "0x51C",
             "size": 2
         },
         {
-            "name": "byte51E",
-            "type": "_BYTE",
+            "name": "m_nLastDamWep",
+            "type": "char",
             "offset": "0x51E",
             "size": 1
         },
         {
-            "name": "f51F",
-            "type": "_BYTE[1]",
+            "name": "_pad51F",
+            "type": "char",
             "offset": "0x51F",
             "size": 1
         },
         {
-            "name": "dword520",
-            "type": "_DWORD",
+            "name": "m_nTalkTimerLast",
+            "type": "int",
             "offset": "0x520",
             "size": 4
         },
         {
-            "name": "dword524",
-            "type": "_DWORD",
+            "name": "m_nTalkTimer",
+            "type": "int",
             "offset": "0x524",
             "size": 4
         },
         {
-            "name": "word528",
-            "type": "_WORD",
+            "name": "m_nTalkTypeLast",
+            "type": "__int16",
             "offset": "0x528",
             "size": 2
         },
         {
-            "name": "word52A",
-            "type": "_WORD",
+            "name": "m_nTalkType",
+            "type": "__int16",
             "offset": "0x52A",
             "size": 2
         },
         {
-            "name": "dword52C",
+            "name": "m_vecSeekPosEx",
             "type": "CVector",
             "offset": "0x52C",
             "size": "0xC"
         },
         {
-            "name": "dword538",
-            "type": "_DWORD",
+            "name": "m_fSeekExAngle",
+            "type": "float",
             "offset": "0x538",
             "size": 4
         }

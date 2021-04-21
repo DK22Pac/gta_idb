@@ -1,0 +1,29 @@
+{
+    "name": "eVehicleCreatedBy",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "RANDOM_VEHICLE",
+            "value": 1
+        },
+        {
+            "name": "MISSION_VEHICLE",
+            "value": 2
+        },
+        {
+            "name": "PARKED_VEHICLE",
+            "value": 3
+        },
+        {
+            "name": "PERMANENT_VEHICLE",
+            "value": 4
+        }
+    ]
+}

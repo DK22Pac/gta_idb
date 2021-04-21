@@ -1,0 +1,23 @@
+{
+    "name": "unionStreamSize",
+    "module": "",
+    "scope": "",
+    "kind": "union",
+    "size": 4,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "stream",
+            "type": "RwStream *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "size",
+            "type": "RwUInt32",
+            "offset": 0,
+            "size": 4
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "CAlphaObjectInfo",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 8,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_pEntity",
+            "type": "CEntity *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "m_fDistance",
+            "type": "float",
+            "offset": 4,
+            "size": 4
+        }
+    ]
+}

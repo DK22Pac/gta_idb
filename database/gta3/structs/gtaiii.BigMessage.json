@@ -4,17 +4,17 @@
     "scope": "",
     "kind": "class",
     "size": "0xB0",
-    "alignment": 0,
+    "alignment": 2,
     "comment": "",
     "members": [
         {
-            "name": "m_current",
+            "name": "m_Current",
             "type": "Message",
             "offset": 0,
             "size": "0x2C"
         },
         {
-            "name": "m_stack",
+            "name": "m_Stack",
             "type": "Message[3]",
             "offset": "0x2C",
             "size": "0x84"

@@ -1,0 +1,25 @@
+{
+    "name": "RxNodeDefEditable",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "rxNODEDEFCONST",
+            "value": "0x0"
+        },
+        {
+            "name": "rxNODEDEFEDITABLE",
+            "value": "0x1"
+        },
+        {
+            "name": "rxNODEDEFEDITABLEFORCEENUMSIZEINT",
+            "value": "0x7FFFFFFF"
+        }
+    ]
+}

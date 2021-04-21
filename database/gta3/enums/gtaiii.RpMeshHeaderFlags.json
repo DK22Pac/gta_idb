@@ -1,0 +1,45 @@
+{
+    "name": "RpMeshHeaderFlags",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "rpMESHHEADERTRISTRIP",
+            "value": "0x1"
+        },
+        {
+            "name": "rpMESHHEADERTRIFAN",
+            "value": "0x2"
+        },
+        {
+            "name": "rpMESHHEADERLINELIST",
+            "value": "0x4"
+        },
+        {
+            "name": "rpMESHHEADERPOLYLINE",
+            "value": "0x8"
+        },
+        {
+            "name": "rpMESHHEADERPOINTLIST",
+            "value": "0x10"
+        },
+        {
+            "name": "rpMESHHEADERPRIMMASK",
+            "value": "0xFF"
+        },
+        {
+            "name": "rpMESHHEADERUNINDEXED",
+            "value": "0x100"
+        },
+        {
+            "name": "rpMESHHEADERFLAGSFORCEENUMSIZEINT",
+            "value": "0x7FFFFFFF"
+        }
+    ]
+}

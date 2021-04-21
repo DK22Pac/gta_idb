@@ -1,0 +1,25 @@
+{
+    "name": "CInstance",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x50",
+    "alignment": 2,
+    "vtableAddress": "0x5FE068",
+    "vtableSize": 1,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_placement",
+            "type": "CPlaceable",
+            "offset": 0,
+            "size": "0x4C"
+        },
+        {
+            "name": "m_nModelIndex",
+            "type": "int",
+            "offset": "0x4C",
+            "size": 4
+        }
+    ]
+}

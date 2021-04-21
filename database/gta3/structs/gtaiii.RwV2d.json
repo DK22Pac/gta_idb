@@ -4,18 +4,18 @@
     "scope": "",
     "kind": "class",
     "size": 8,
-    "alignment": 0,
+    "alignment": 2,
     "comment": "",
     "members": [
         {
             "name": "x",
-            "type": "float",
+            "type": "RwReal",
             "offset": 0,
             "size": 4
         },
         {
             "name": "y",
-            "type": "float",
+            "type": "RwReal",
             "offset": 4,
             "size": 4
         }

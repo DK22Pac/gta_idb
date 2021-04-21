@@ -1,0 +1,59 @@
+{
+    "name": "CPathSpline",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x20",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_nArrayMarker",
+            "type": "float",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "field_4",
+            "type": "float",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "m_fFOV",
+            "type": "float",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "field_12",
+            "type": "float",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "field_16",
+            "type": "float",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "field_20",
+            "type": "float",
+            "offset": "0x14",
+            "size": 4
+        },
+        {
+            "name": "field_24",
+            "type": "float",
+            "offset": "0x18",
+            "size": 4
+        },
+        {
+            "name": "field_28",
+            "type": "float",
+            "offset": "0x1C",
+            "size": 4
+        }
+    ]
+}

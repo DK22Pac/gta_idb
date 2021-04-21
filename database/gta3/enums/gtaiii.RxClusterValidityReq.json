@@ -1,0 +1,25 @@
+{
+    "name": "RxClusterValidityReq",
+    "module": "",
+    "scope": "",
+    "width": 4,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "rxCLREQ_DONTWANT",
+            "value": "0x0"
+        },
+        {
+            "name": "rxCLREQ_REQUIRED",
+            "value": "0x1"
+        },
+        {
+            "name": "rxCLREQ_OPTIONAL",
+            "value": "0x2"
+        }
+    ]
+}

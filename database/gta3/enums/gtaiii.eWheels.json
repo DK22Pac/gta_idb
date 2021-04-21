@@ -1,0 +1,29 @@
+{
+    "name": "eWheels",
+    "module": "",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "WHEEL_FRONT_LEFT",
+            "value": 0
+        },
+        {
+            "name": "WHEEL_FRONT_RIGHT",
+            "value": 1
+        },
+        {
+            "name": "WHEEL_REAR_LEFT",
+            "value": 2
+        },
+        {
+            "name": "WHEEL_REAR_RIGHT",
+            "value": 3
+        }
+    ]
+}

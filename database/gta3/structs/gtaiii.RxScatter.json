@@ -1,0 +1,23 @@
+{
+    "name": "RxScatter",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 8,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "pipeline",
+            "type": "RxPipeline *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "node",
+            "type": "RxPipelineNode *",
+            "offset": 4,
+            "size": 4
+        }
+    ]
+}

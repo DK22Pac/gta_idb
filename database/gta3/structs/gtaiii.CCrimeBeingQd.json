@@ -4,47 +4,47 @@
     "scope": "",
     "kind": "class",
     "size": "0x1C",
-    "alignment": 0,
+    "alignment": 2,
     "comment": "",
     "members": [
         {
-            "name": "m_dwCrimeType",
-            "type": "int",
+            "name": "m_nCrimeType",
+            "type": "eCrimeType",
             "offset": 0,
             "size": 4
         },
         {
-            "name": "m_dwCrimeId",
-            "type": "int",
+            "name": "m_nCrimeId",
+            "type": "unsigned int",
             "offset": 4,
             "size": 4
         },
         {
-            "name": "m_dwStartTime",
-            "type": "int",
+            "name": "m_nTimeOfQing",
+            "type": "unsigned int",
             "offset": 8,
             "size": 4
         },
         {
-            "name": "m_vCoors",
+            "name": "m_vecPosn",
             "type": "CVector",
             "offset": "0xC",
             "size": "0xC"
         },
         {
             "name": "m_bAlreadyReported",
-            "type": "char",
+            "type": "bool",
             "offset": "0x18",
             "size": 1
         },
         {
             "name": "m_bPoliceDontReallyCare",
-            "type": "char",
+            "type": "bool",
             "offset": "0x19",
             "size": 1
         },
         {
-            "name": "_pad",
+            "name": "_pad1A",
             "type": "char[2]",
             "offset": "0x1A",
             "size": 2

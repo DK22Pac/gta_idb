@@ -1,0 +1,23 @@
+{
+    "name": "_rxD3D8DisplayMode",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x14",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "mode",
+            "type": "D3DDISPLAYMODE",
+            "offset": 0,
+            "size": "0x10"
+        },
+        {
+            "name": "flags",
+            "type": "RwInt32",
+            "offset": "0x10",
+            "size": 4
+        }
+    ]
+}

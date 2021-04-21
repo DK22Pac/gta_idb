@@ -1,0 +1,281 @@
+{
+    "name": "CHeli",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x33C",
+    "alignment": 2,
+    "vtableAddress": "0x601EB0",
+    "vtableSize": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "vehicle",
+            "type": "CVehicle",
+            "offset": 0,
+            "size": "0x288"
+        },
+        {
+            "name": "m_apModelNodes",
+            "type": "RwFrame *[8]",
+            "offset": "0x288",
+            "size": "0x20"
+        },
+        {
+            "name": "m_nHeliState",
+            "type": "char",
+            "offset": "0x2A8",
+            "size": 1
+        },
+        {
+            "name": "_pad2A9",
+            "type": "char[3]",
+            "offset": "0x2A9",
+            "size": 3
+        },
+        {
+            "name": "m_fSearchLightX",
+            "type": "float",
+            "offset": "0x2AC",
+            "size": 4,
+            "comment": "world coors"
+        },
+        {
+            "name": "m_fSearchLightY",
+            "type": "float",
+            "offset": "0x2B0",
+            "size": 4
+        },
+        {
+            "name": "m_anRopeLifeTime",
+            "type": "int",
+            "offset": "0x2B4",
+            "size": 4
+        },
+        {
+            "name": "dword2B8",
+            "type": "int",
+            "offset": "0x2B8",
+            "size": 4
+        },
+        {
+            "name": "m_fRotationX",
+            "type": "float",
+            "offset": "0x2BC",
+            "size": 4
+        },
+        {
+            "name": "m_fHeliForcedZ",
+            "type": "float",
+            "offset": "0x2C0",
+            "size": 4
+        },
+        {
+            "name": "m_fSearchLightIntensity",
+            "type": "float",
+            "offset": "0x2C4",
+            "size": 4,
+            "comment": "0.0f - 1.0f"
+        },
+        {
+            "name": "m_nHeliNumber",
+            "type": "char",
+            "offset": "0x2C8",
+            "size": 1
+        },
+        {
+            "name": "m_nHeliType",
+            "type": "char",
+            "offset": "0x2C9",
+            "size": 1,
+            "comment": "[1]; 0 - randomly created, 1 - script, 2 - uses air path"
+        },
+        {
+            "name": "m_nHeliDestinationPoint",
+            "type": "char",
+            "offset": "0x2CA",
+            "size": 1,
+            "comment": "0 - 12"
+        },
+        {
+            "name": "m_nNumSwatPassengers",
+            "type": "char",
+            "offset": "0x2CB",
+            "size": 1
+        },
+        {
+            "name": "dword2CC",
+            "type": "float",
+            "offset": "0x2CC",
+            "size": 4
+        },
+        {
+            "name": "dword2D0",
+            "type": "float",
+            "offset": "0x2D0",
+            "size": 4
+        },
+        {
+            "name": "dword2D4",
+            "type": "float",
+            "offset": "0x2D4",
+            "size": 4
+        },
+        {
+            "name": "dword2D8",
+            "type": "int",
+            "offset": "0x2D8",
+            "size": 4
+        },
+        {
+            "name": "dword2DC",
+            "type": "int",
+            "offset": "0x2DC",
+            "size": 4
+        },
+        {
+            "name": "dword2E0",
+            "type": "float",
+            "offset": "0x2E0",
+            "size": 4
+        },
+        {
+            "name": "dword2E4",
+            "type": "float",
+            "offset": "0x2E4",
+            "size": 4
+        },
+        {
+            "name": "dword2E8",
+            "type": "float",
+            "offset": "0x2E8",
+            "size": 4
+        },
+        {
+            "name": "dword2EC",
+            "type": "float",
+            "offset": "0x2EC",
+            "size": 4
+        },
+        {
+            "name": "dword2F0",
+            "type": "int",
+            "offset": "0x2F0",
+            "size": 4
+        },
+        {
+            "name": "dword2F4",
+            "type": "int",
+            "offset": "0x2F4",
+            "size": 4
+        },
+        {
+            "name": "dword2F8",
+            "type": "int",
+            "offset": "0x2F8",
+            "size": 4
+        },
+        {
+            "name": "dword2FC",
+            "type": "int",
+            "offset": "0x2FC",
+            "size": 4
+        },
+        {
+            "name": "gap300",
+            "type": "int",
+            "offset": "0x300",
+            "size": 4
+        },
+        {
+            "name": "field_304",
+            "type": "int",
+            "offset": "0x304",
+            "size": 4
+        },
+        {
+            "name": "m_nDamagePoints",
+            "type": "int",
+            "offset": "0x308",
+            "size": 4
+        },
+        {
+            "name": "m_fRotorAngle",
+            "type": "float",
+            "offset": "0x30C",
+            "size": 4
+        },
+        {
+            "name": "m_f_310",
+            "type": "float",
+            "offset": "0x310",
+            "size": 4
+        },
+        {
+            "name": "m_f_314",
+            "type": "float",
+            "offset": "0x314",
+            "size": 4
+        },
+        {
+            "name": "m_f_318",
+            "type": "float",
+            "offset": "0x318",
+            "size": 4
+        },
+        {
+            "name": "m_f_31C",
+            "type": "float",
+            "offset": "0x31C",
+            "size": 4
+        },
+        {
+            "name": "m_f_320",
+            "type": "float",
+            "offset": "0x320",
+            "size": 4
+        },
+        {
+            "name": "m_f_324",
+            "type": "float",
+            "offset": "0x324",
+            "size": 4
+        },
+        {
+            "name": "m_f_328",
+            "type": "float",
+            "offset": "0x328",
+            "size": 4
+        },
+        {
+            "name": "m_f_32C",
+            "type": "float",
+            "offset": "0x32C",
+            "size": 4
+        },
+        {
+            "name": "dword330",
+            "type": "int",
+            "offset": "0x330",
+            "size": 4
+        },
+        {
+            "name": "dword334",
+            "type": "float",
+            "offset": "0x334",
+            "size": 4
+        },
+        {
+            "name": "byte338",
+            "type": "char",
+            "offset": "0x338",
+            "size": 1
+        },
+        {
+            "name": "_pad339",
+            "type": "char[3]",
+            "offset": "0x339",
+            "size": 3
+        }
+    ]
+}

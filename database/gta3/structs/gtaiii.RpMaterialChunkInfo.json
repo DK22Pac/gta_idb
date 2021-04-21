@@ -1,0 +1,41 @@
+{
+    "name": "RpMaterialChunkInfo",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x1C",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "flags",
+            "type": "RwInt32",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "color",
+            "type": "RwRGBA",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "unused",
+            "type": "RwInt32",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "textured",
+            "type": "char",
+            "offset": "0xC",
+            "size": 1
+        },
+        {
+            "name": "surfaceProps",
+            "type": "RwSurfaceProperties",
+            "offset": "0x10",
+            "size": "0xC"
+        }
+    ]
+}

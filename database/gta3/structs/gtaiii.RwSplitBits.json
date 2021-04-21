@@ -1,0 +1,29 @@
+{
+    "name": "RwSplitBits",
+    "module": "",
+    "scope": "",
+    "kind": "union",
+    "size": 4,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "nReal",
+            "type": "RwReal",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "nInt",
+            "type": "volatile RwInt32",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "nUInt",
+            "type": "volatile RwUInt32",
+            "offset": 0,
+            "size": 4
+        }
+    ]
+}

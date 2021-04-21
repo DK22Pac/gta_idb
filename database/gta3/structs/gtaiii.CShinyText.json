@@ -8,25 +8,25 @@
     "comment": "",
     "members": [
         {
-            "name": "corner",
+            "name": "m_vCorner",
             "type": "CVector[4]",
             "offset": 0,
             "size": "0x30"
         },
         {
-            "name": "cornerTexCoords",
+            "name": "m_cornerTexCoords",
             "type": "RwTexCoords[4]",
             "offset": "0x30",
             "size": "0x20"
         },
         {
-            "name": "distanceToCamera",
+            "name": "m_fDistanceToCamera",
             "type": "float",
             "offset": "0x50",
             "size": 4
         },
         {
-            "name": "color",
+            "name": "m_color",
             "type": "RwRGBA",
             "offset": "0x54",
             "size": 4

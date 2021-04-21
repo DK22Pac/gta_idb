@@ -1,0 +1,17 @@
+{
+    "name": "CompressedVector",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0xC",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_vecPoint",
+            "type": "CVector",
+            "offset": 0,
+            "size": "0xC"
+        }
+    ]
+}

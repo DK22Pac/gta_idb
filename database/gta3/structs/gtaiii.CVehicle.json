@@ -5,8 +5,8 @@
     "kind": "class",
     "size": "0x288",
     "alignment": 2,
-    "vtableAddress": "0x60F270",
-    "vtableSize": 35,
+    "vtableAddress": "0x6028A8",
+    "vtableSize": 0,
     "comment": "",
     "members": [
         {
@@ -16,8 +16,8 @@
             "size": "0x128"
         },
         {
-            "name": "m_pHandling",
-            "type": "int",
+            "name": "m_pHandlingData",
+            "type": "tHandlingData *",
             "offset": "0x128",
             "size": 4
         },
@@ -28,26 +28,32 @@
             "size": "0x70"
         },
         {
-            "name": "m_nCarColorId",
-            "type": "char[2]",
+            "name": "m_nPrimaryColor",
+            "type": "unsigned __int8",
             "offset": "0x19C",
-            "size": 2
+            "size": 1
         },
         {
-            "name": "m_nExtra",
+            "name": "m_nSecondaryColor",
+            "type": "unsigned __int8",
+            "offset": "0x19D",
+            "size": 1
+        },
+        {
+            "name": "m_anExtras",
             "type": "char[2]",
             "offset": "0x19E",
             "size": 2
         },
         {
-            "name": "field_1A0",
-            "type": "_WORD",
+            "name": "m_nWantedStarsOnEnter",
+            "type": "__int16",
             "offset": "0x1A0",
             "size": 2
         },
         {
-            "name": "field_1A2",
-            "type": "_BYTE[2]",
+            "name": "m_nMissionValue",
+            "type": "__int16",
             "offset": "0x1A2",
             "size": 2
         },
@@ -59,43 +65,43 @@
         },
         {
             "name": "m_pPassenger",
-            "type": "int[8]",
+            "type": "CPed *[8]",
             "offset": "0x1A8",
             "size": "0x20"
         },
         {
             "name": "m_nNumPassengers",
-            "type": "_BYTE",
+            "type": "unsigned __int8",
             "offset": "0x1C8",
             "size": 1
         },
         {
-            "name": "field_1C9",
-            "type": "_BYTE",
+            "name": "m_nNumGettingIn",
+            "type": "char",
             "offset": "0x1C9",
             "size": 1
         },
         {
-            "name": "field_1CA",
-            "type": "_BYTE",
+            "name": "m_nGettingInFlags",
+            "type": "char",
             "offset": "0x1CA",
             "size": 1
         },
         {
-            "name": "field_1CB",
-            "type": "_BYTE",
+            "name": "m_nGettingOutFlags",
+            "type": "char",
             "offset": "0x1CB",
             "size": 1
         },
         {
             "name": "m_nNumMaxPassengers",
-            "type": "_BYTE",
+            "type": "unsigned __int8",
             "offset": "0x1CC",
             "size": 1
         },
         {
             "name": "field_1CD",
-            "type": "_BYTE[19]",
+            "type": "char[19]",
             "offset": "0x1CD",
             "size": "0x13"
         },
@@ -107,241 +113,217 @@
         },
         {
             "name": "m_pCarFire",
-            "type": "_DWORD",
+            "type": "CFire *",
             "offset": "0x1E4",
             "size": 4
         },
         {
-            "name": "field_1E8",
-            "type": "int",
+            "name": "m_fSteerAngle",
+            "type": "float",
             "offset": "0x1E8",
             "size": 4
         },
         {
             "name": "m_fGasPedal",
-            "type": "int",
+            "type": "float",
             "offset": "0x1EC",
             "size": 4
         },
         {
             "name": "m_fBreakPedal",
-            "type": "int",
+            "type": "float",
             "offset": "0x1F0",
             "size": 4
         },
         {
             "name": "m_nCreatedBy",
-            "type": "_BYTE",
+            "type": "unsigned __int8",
             "offset": "0x1F4",
             "size": 1
         },
         {
             "name": "m_nVehicleFlags",
-            "type": "_BYTE",
+            "type": "unsigned __int8[4]",
             "offset": "0x1F5",
-            "size": 1
-        },
-        {
-            "name": "field_1F6",
-            "type": "_BYTE",
-            "offset": "0x1F6",
-            "size": 1
-        },
-        {
-            "name": "field_1F7",
-            "type": "_BYTE",
-            "offset": "0x1F7",
-            "size": 1
-        },
-        {
-            "name": "field_1F8",
-            "type": "_BYTE",
-            "offset": "0x1F8",
-            "size": 1
+            "size": 4
         },
         {
             "name": "field_1F9",
-            "type": "_BYTE",
+            "type": "char",
             "offset": "0x1F9",
             "size": 1
         },
         {
-            "name": "field_1FA",
-            "type": "_BYTE[1]",
+            "name": "m_nAmmoInClip",
+            "type": "unsigned __int8[1]",
             "offset": "0x1FA",
             "size": 1
         },
         {
-            "name": "field_1FB",
-            "type": "_BYTE",
+            "name": "m_nPacManPickupsCarried",
+            "type": "char",
             "offset": "0x1FB",
             "size": 1
         },
         {
-            "name": "field_1FC",
-            "type": "_BYTE[4]",
+            "name": "m_nPedsPositionForRoadBlock",
+            "type": "unsigned __int8",
             "offset": "0x1FC",
-            "size": 4
+            "size": 1
+        },
+        {
+            "name": "field_1FD",
+            "type": "char",
+            "offset": "0x1FD",
+            "size": 1
+        },
+        {
+            "name": "field_1FE",
+            "type": "__int16",
+            "offset": "0x1FE",
+            "size": 2
         },
         {
             "name": "m_fHealth",
-            "type": "_DWORD",
+            "type": "float",
             "offset": "0x200",
             "size": 4
         },
         {
-            "name": "field_204",
-            "type": "_BYTE",
+            "name": "m_nCurrentGear",
+            "type": "unsigned __int8",
             "offset": "0x204",
             "size": 1
         },
         {
             "name": "field_205",
-            "type": "_BYTE[3]",
+            "type": "char[3]",
             "offset": "0x205",
             "size": 3
         },
         {
             "name": "field_208",
-            "type": "_DWORD",
+            "type": "float",
             "offset": "0x208",
             "size": 4
         },
         {
-            "name": "field_20C",
-            "type": "_DWORD",
+            "name": "m_nGunFiringTime",
+            "type": "unsigned int",
             "offset": "0x20C",
             "size": 4
         },
         {
-            "name": "field_210",
-            "type": "_DWORD",
+            "name": "m_nTimeOfDeath",
+            "type": "unsigned int",
             "offset": "0x210",
             "size": 4
         },
         {
-            "name": "field_214",
-            "type": "_WORD",
+            "name": "m_nCopsInCarTimer",
+            "type": "__int16",
             "offset": "0x214",
             "size": 2
         },
         {
-            "name": "field_216",
-            "type": "_WORD",
+            "name": "m_nBombTimer",
+            "type": "__int16",
             "offset": "0x216",
             "size": 2
         },
         {
-            "name": "field_218",
-            "type": "_DWORD",
+            "name": "m_pWhoDetonatedMe",
+            "type": "CEntity *",
             "offset": "0x218",
             "size": 4
         },
         {
-            "name": "field_21C",
+            "name": "m_fMapObjectHeightAbove",
             "type": "float",
             "offset": "0x21C",
             "size": 4
         },
         {
-            "name": "field_220",
+            "name": "m_fMapObjectHeightBelow",
             "type": "float",
             "offset": "0x220",
             "size": 4
         },
         {
             "name": "m_nDoorLock",
-            "type": "_DWORD",
+            "type": "unsigned int",
             "offset": "0x224",
             "size": 4
         },
         {
-            "name": "field_228",
-            "type": "_BYTE",
+            "name": "m_nLastWeaponDamage",
+            "type": "char",
             "offset": "0x228",
             "size": 1
         },
         {
-            "name": "field_229",
-            "type": "_BYTE",
+            "name": "m_nRadioStation",
+            "type": "unsigned __int8",
             "offset": "0x229",
             "size": 1
         },
         {
-            "name": "field_22A",
-            "type": "_BYTE",
+            "name": "m_nRainAudioCounter",
+            "type": "char",
             "offset": "0x22A",
             "size": 1
         },
         {
-            "name": "field_22B",
-            "type": "_BYTE",
+            "name": "m_nRainSamplesCounter",
+            "type": "char",
             "offset": "0x22B",
             "size": 1
         },
         {
             "name": "m_nCarHornTimer",
-            "type": "_BYTE",
+            "type": "unsigned __int8",
             "offset": "0x22C",
             "size": 1
         },
         {
             "name": "field_22D",
-            "type": "_BYTE",
+            "type": "char",
             "offset": "0x22D",
             "size": 1
         },
         {
             "name": "m_nSirenOrAlarm",
-            "type": "_BYTE",
+            "type": "bool",
             "offset": "0x22E",
             "size": 1
         },
         {
             "name": "field_22F",
-            "type": "_BYTE",
+            "type": "char",
             "offset": "0x22F",
             "size": 1
         },
         {
-            "name": "field_230",
-            "type": "_BYTE[36]",
+            "name": "m_frontCollPoly",
+            "type": "CStoredCollPoly",
             "offset": "0x230",
-            "size": "0x24"
+            "size": "0x28"
         },
         {
-            "name": "field_254",
-            "type": "_BYTE",
-            "offset": "0x254",
-            "size": 1
+            "name": "m_rearCollPoly",
+            "type": "CStoredCollPoly",
+            "offset": "0x258",
+            "size": "0x28"
         },
         {
-            "name": "field_255",
-            "type": "_BYTE[39]",
-            "offset": "0x255",
-            "size": "0x27"
-        },
-        {
-            "name": "field_27C",
-            "type": "_BYTE",
-            "offset": "0x27C",
-            "size": 1
-        },
-        {
-            "name": "field_27D",
-            "type": "_BYTE[3]",
-            "offset": "0x27D",
-            "size": 3
-        },
-        {
-            "name": "m_fSteering",
-            "type": "_DWORD",
+            "name": "m_fSteerRatio",
+            "type": "float",
             "offset": "0x280",
             "size": 4
         },
         {
-            "name": "m_nVehicleSubType",
-            "type": "int",
+            "name": "m_nVehicleClass",
+            "type": "unsigned int",
             "offset": "0x284",
             "size": 4
         }

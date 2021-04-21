@@ -8,20 +8,20 @@
     "comment": "",
     "members": [
         {
-            "name": "f0",
-            "type": "_BYTE[4]",
+            "name": "m_ptr",
+            "type": "uTargetEntity",
             "offset": 0,
             "size": 4
         },
         {
             "name": "m_pNext",
-            "type": "_DWORD",
+            "type": "CPtrNode *",
             "offset": 4,
             "size": 4
         },
         {
             "name": "m_pPrev",
-            "type": "_DWORD",
+            "type": "CPtrNode *",
             "offset": 8,
             "size": 4
         }

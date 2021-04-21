@@ -1,0 +1,49 @@
+{
+    "name": "eZoneAttribute",
+    "module": "",
+    "scope": "",
+    "width": 2,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": true,
+    "comment": "",
+    "members": [
+        {
+            "name": "ZONE_CLOSE_IN",
+            "value": "0x1"
+        },
+        {
+            "name": "ZONE_STAIRS",
+            "value": "0x2"
+        },
+        {
+            "name": "ZONE_1STPERSON",
+            "value": "0x4"
+        },
+        {
+            "name": "ZONE_NO_RAIN",
+            "value": "0x8"
+        },
+        {
+            "name": "ZONE_NO_POLICE",
+            "value": "0x10"
+        },
+        {
+            "name": "ZONE_ONLY_ATTRIBUTES",
+            "value": "0x20"
+        },
+        {
+            "name": "ZONE_DO_I_NEED_TO_LOAD_COLLISION",
+            "value": "0x40"
+        },
+        {
+            "name": "ZONE_SUBWAY_VISIBLE",
+            "value": "0x80"
+        },
+        {
+            "name": "ZONE_POLICE_ABANDON_CARS",
+            "value": "0x100"
+        }
+    ]
+}

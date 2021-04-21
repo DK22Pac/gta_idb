@@ -1,0 +1,47 @@
+{
+    "name": "cAudioCollisionManager",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x354",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_asCollisions1",
+            "type": "cAudioCollision[10]",
+            "offset": 0,
+            "size": "0x190"
+        },
+        {
+            "name": "m_asCollisions2",
+            "type": "cAudioCollision[10]",
+            "offset": "0x190",
+            "size": "0x190"
+        },
+        {
+            "name": "m_bIndicesTable",
+            "type": "char[10]",
+            "offset": "0x320",
+            "size": "0xA"
+        },
+        {
+            "name": "m_bCollisionsInQueue",
+            "type": "char",
+            "offset": "0x32A",
+            "size": 1
+        },
+        {
+            "name": "_pad32B",
+            "type": "char",
+            "offset": "0x32B",
+            "size": 1
+        },
+        {
+            "name": "m_sQueue",
+            "type": "cAudioCollision",
+            "offset": "0x32C",
+            "size": "0x28"
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "name": "RxGeometryFlag",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "rxGEOMETRY_TRISTRIP",
+            "value": "0x1"
+        },
+        {
+            "name": "rxGEOMETRY_POSITIONS",
+            "value": "0x2"
+        },
+        {
+            "name": "rxGEOMETRY_TEXTURED",
+            "value": "0x4"
+        },
+        {
+            "name": "rxGEOMETRY_PRELIT",
+            "value": "0x8"
+        },
+        {
+            "name": "rxGEOMETRY_NORMALS",
+            "value": "0x10"
+        },
+        {
+            "name": "rxGEOMETRY_LIGHT",
+            "value": "0x20"
+        },
+        {
+            "name": "rxGEOMETRY_MODULATE",
+            "value": "0x40"
+        },
+        {
+            "name": "rxGEOMETRY_TEXTURED2",
+            "value": "0x80"
+        },
+        {
+            "name": "rxGEOMETRY_COLORED",
+            "value": "0x100"
+        },
+        {
+            "name": "rxGEOMETRYFLAGFORCEENUMSIZEINT",
+            "value": "0x7FFFFFFF"
+        }
+    ]
+}

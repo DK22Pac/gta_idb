@@ -1,10 +1,10 @@
 {
-    "name": "RxObjSpace3dVertex",
+    "name": "RxObjSpace3DVertex",
     "module": "",
     "scope": "",
     "kind": "class",
     "size": "0x24",
-    "alignment": 0,
+    "alignment": 2,
     "comment": "",
     "members": [
         {
@@ -21,19 +21,19 @@
         },
         {
             "name": "color",
-            "type": "RwRGBA",
+            "type": "RwUInt32",
             "offset": "0x18",
             "size": 4
         },
         {
             "name": "u",
-            "type": "int",
+            "type": "RwReal",
             "offset": "0x1C",
             "size": 4
         },
         {
             "name": "v",
-            "type": "int",
+            "type": "RwReal",
             "offset": "0x20",
             "size": 4
         }

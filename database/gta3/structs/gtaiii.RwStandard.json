@@ -1,0 +1,23 @@
+{
+    "name": "RwStandard",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 8,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "nStandard",
+            "type": "RwInt32",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "fpStandard",
+            "type": "RwStandardFunc",
+            "offset": 4,
+            "size": 4
+        }
+    ]
+}

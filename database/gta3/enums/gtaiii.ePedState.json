@@ -1,0 +1,241 @@
+{
+    "name": "ePedState",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "PEDSTATE_NONE",
+            "value": "0x0"
+        },
+        {
+            "name": "PEDSTATE_IDLE",
+            "value": "0x1"
+        },
+        {
+            "name": "PEDSTATE_LOOK_ENTITY",
+            "value": "0x2"
+        },
+        {
+            "name": "PEDSTATE_LOOK_HEADING",
+            "value": "0x3"
+        },
+        {
+            "name": "PEDSTATE_WANDER_RANGE",
+            "value": "0x4"
+        },
+        {
+            "name": "PEDSTATE_WANDER_PATH",
+            "value": "0x5"
+        },
+        {
+            "name": "PEDSTATE_SEEK_POSITION",
+            "value": "0x6"
+        },
+        {
+            "name": "PEDSTATE_SEEK_ENTITY",
+            "value": "0x7"
+        },
+        {
+            "name": "PEDSTATE_FLEE_POSITION",
+            "value": "0x8"
+        },
+        {
+            "name": "PEDSTATE_FLEE_ENTITY",
+            "value": "0x9"
+        },
+        {
+            "name": "PEDSTATE_A",
+            "value": "0xA"
+        },
+        {
+            "name": "PEDSTATE_FOLLOW_PATH",
+            "value": "0xB"
+        },
+        {
+            "name": "PEDSTATE_C",
+            "value": "0xC"
+        },
+        {
+            "name": "PEDSTATE_D",
+            "value": "0xD"
+        },
+        {
+            "name": "PEDSTATE_E",
+            "value": "0xE"
+        },
+        {
+            "name": "PEDSTATE_PAUSE",
+            "value": "0xF"
+        },
+        {
+            "name": "PEDSTATE_ATTACK",
+            "value": "0x10"
+        },
+        {
+            "name": "PEDSTATE_FIGHT",
+            "value": "0x11"
+        },
+        {
+            "name": "PEDSTATE_FACE_PHONE",
+            "value": "0x12"
+        },
+        {
+            "name": "PEDSTATE_MAKE_PHONECALL",
+            "value": "0x13"
+        },
+        {
+            "name": "PEDSTATE_CHAT",
+            "value": "0x14"
+        },
+        {
+            "name": "PEDSTATE_MUG",
+            "value": "0x15"
+        },
+        {
+            "name": "PEDSTATE_AIMGUN",
+            "value": "0x16"
+        },
+        {
+            "name": "PEDSTATE_17",
+            "value": "0x17"
+        },
+        {
+            "name": "PEDSTATE_SEEK_CAR",
+            "value": "0x18"
+        },
+        {
+            "name": "SEEK_BOAT_POSITION",
+            "value": "0x19"
+        },
+        {
+            "name": "PEDSTATE_1A",
+            "value": "0x1A"
+        },
+        {
+            "name": "PEDSTATE_CPR",
+            "value": "0x1B"
+        },
+        {
+            "name": "PEDSTATE_SOLICIT",
+            "value": "0x1C"
+        },
+        {
+            "name": "PEDSTATE_1D",
+            "value": "0x1D"
+        },
+        {
+            "name": "PEDSTATE_INVESTIGATE_EVENT",
+            "value": "0x1E"
+        },
+        {
+            "name": "PEDSTATE_1F",
+            "value": "0x1F"
+        },
+        {
+            "name": "PEDSTATE_ON_FIRE",
+            "value": "0x20"
+        },
+        {
+            "name": "PEDSTATE_HANG_OUT",
+            "value": "0x21"
+        },
+        {
+            "name": "PEDSTATE_22",
+            "value": "0x22"
+        },
+        {
+            "name": "PEDSTATE_JUMP",
+            "value": "0x23"
+        },
+        {
+            "name": "PEDSTATE_FALL",
+            "value": "0x24"
+        },
+        {
+            "name": "PEDSTATE_GETUP",
+            "value": "0x25"
+        },
+        {
+            "name": "PEDSTATE_26",
+            "value": "0x26"
+        },
+        {
+            "name": "PEDSTATE_27",
+            "value": "0x27"
+        },
+        {
+            "name": "PEDSTATE_CAN_SHOOT",
+            "value": "0x28"
+        },
+        {
+            "name": "PEDSTATE_ENTER_TRAIN",
+            "value": "0x29"
+        },
+        {
+            "name": "PEDSTATE_EXIT_TRAIN",
+            "value": "0x2A"
+        },
+        {
+            "name": "PEDSTATE_ARREST_PLAYER",
+            "value": "0x2B"
+        },
+        {
+            "name": "PEDSTATE_DRIVING",
+            "value": "0x2C"
+        },
+        {
+            "name": "PEDSTATE_2D",
+            "value": "0x2D"
+        },
+        {
+            "name": "PEDSTATE_2E",
+            "value": "0x2E"
+        },
+        {
+            "name": "PEDSTATE_2F",
+            "value": "0x2F"
+        },
+        {
+            "name": "PEDSTATE_DIE",
+            "value": "0x30"
+        },
+        {
+            "name": "PEDSTATE_DEAD",
+            "value": "0x31"
+        },
+        {
+            "name": "PEDSTATE_CARJACK",
+            "value": "0x32"
+        },
+        {
+            "name": "PEDSTATE_33",
+            "value": "0x33"
+        },
+        {
+            "name": "PEDSTATE_ENTER_CAR",
+            "value": "0x34"
+        },
+        {
+            "name": "PEDSTATE_35",
+            "value": "0x35"
+        },
+        {
+            "name": "PEDSTATE_EXIT_CAR",
+            "value": "0x36"
+        },
+        {
+            "name": "PEDSTATE_37",
+            "value": "0x37"
+        },
+        {
+            "name": "PEDSTATE_ARRESTED",
+            "value": "0x38"
+        }
+    ]
+}

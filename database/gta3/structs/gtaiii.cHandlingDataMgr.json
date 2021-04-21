@@ -1,0 +1,53 @@
+{
+    "name": "cHandlingDataMgr",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x3030",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "field_0",
+            "type": "_DWORD",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "field_4",
+            "type": "float",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "field_8",
+            "type": "_DWORD",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "field_C",
+            "type": "float",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "field_10",
+            "type": "float",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "m_aVehicleHandling",
+            "type": "tHandlingData[57]",
+            "offset": "0x14",
+            "size": "0x3018"
+        },
+        {
+            "name": "field_302C",
+            "type": "_DWORD",
+            "offset": "0x302C",
+            "size": 4
+        }
+    ]
+}

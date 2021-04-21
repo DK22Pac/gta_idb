@@ -1,0 +1,23 @@
+{
+    "name": "CAnimFlags",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 8,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "animId",
+            "type": "AnimationId",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "flags",
+            "type": "eAnimationFlags",
+            "offset": 4,
+            "size": 4
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "name": "_DIDEVICEIMAGEINFOHEADERA",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x24",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "dwSize",
+            "type": "DWORD",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "dwSizeImageInfo",
+            "type": "DWORD",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "dwcViews",
+            "type": "DWORD",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "dwcButtons",
+            "type": "DWORD",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "dwcAxes",
+            "type": "DWORD",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "dwcPOVs",
+            "type": "DWORD",
+            "offset": "0x14",
+            "size": 4
+        },
+        {
+            "name": "dwBufferSize",
+            "type": "DWORD",
+            "offset": "0x18",
+            "size": 4
+        },
+        {
+            "name": "dwBufferUsed",
+            "type": "DWORD",
+            "offset": "0x1C",
+            "size": 4
+        },
+        {
+            "name": "lprgImageInfoArray",
+            "type": "LPDIDEVICEIMAGEINFOA",
+            "offset": "0x20",
+            "size": 4
+        }
+    ]
+}

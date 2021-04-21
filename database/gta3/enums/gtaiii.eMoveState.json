@@ -1,0 +1,33 @@
+{
+    "name": "eMoveState",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "PEDMOVE_NONE",
+            "value": 0
+        },
+        {
+            "name": "PEDMOVE_STILL",
+            "value": 1
+        },
+        {
+            "name": "PEDMOVE_WALK",
+            "value": 2
+        },
+        {
+            "name": "PEDMOVE_RUN",
+            "value": 3
+        },
+        {
+            "name": "PEDMOVE_SPRINT",
+            "value": 4
+        }
+    ]
+}

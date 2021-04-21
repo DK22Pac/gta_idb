@@ -1,0 +1,117 @@
+{
+    "name": "eThreat",
+    "module": "",
+    "scope": "",
+    "width": 4,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": true,
+    "comment": "",
+    "members": [
+        {
+            "name": "THREAT_PLAYER1",
+            "value": "0x1"
+        },
+        {
+            "name": "THREAT_PLAYER2",
+            "value": "0x2"
+        },
+        {
+            "name": "THREAT_PLAYER3",
+            "value": "0x4"
+        },
+        {
+            "name": "THREAT_PLAYER4",
+            "value": "0x8"
+        },
+        {
+            "name": "THREAT_CIVMALE",
+            "value": "0x10"
+        },
+        {
+            "name": "THREAT_CIVFEMALE",
+            "value": "0x20"
+        },
+        {
+            "name": "THREAT_COP",
+            "value": "0x40"
+        },
+        {
+            "name": "THREAT_GANG1",
+            "value": "0x80"
+        },
+        {
+            "name": "THREAT_GANG2",
+            "value": "0x100"
+        },
+        {
+            "name": "THREAT_GANG3",
+            "value": "0x200"
+        },
+        {
+            "name": "THREAT_GANG4",
+            "value": "0x400"
+        },
+        {
+            "name": "THREAT_GANG5",
+            "value": "0x800"
+        },
+        {
+            "name": "THREAT_GANG6",
+            "value": "0x1000"
+        },
+        {
+            "name": "THREAT_GANG7",
+            "value": "0x2000"
+        },
+        {
+            "name": "THREAT_GANG8",
+            "value": "0x4000"
+        },
+        {
+            "name": "THREAT_GANG9",
+            "value": "0x8000"
+        },
+        {
+            "name": "THREAT_EMERGENCY",
+            "value": "0x10000"
+        },
+        {
+            "name": "THREAT_PROSTITUTE",
+            "value": "0x20000"
+        },
+        {
+            "name": "THREAT_CRIMINAL",
+            "value": "0x40000"
+        },
+        {
+            "name": "THREAT_SPECIAL",
+            "value": "0x80000"
+        },
+        {
+            "name": "THREAT_GUN",
+            "value": "0x100000"
+        },
+        {
+            "name": "THREAT_COP_CAR",
+            "value": "0x200000"
+        },
+        {
+            "name": "THREAT_FAST_CAR",
+            "value": "0x400000"
+        },
+        {
+            "name": "THREAT_EXPLOSION",
+            "value": "0x800000"
+        },
+        {
+            "name": "THREAT_FIREMAN",
+            "value": "0x1000000"
+        },
+        {
+            "name": "THREAT_DEADPEDS",
+            "value": "0x2000000"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "RxD3D8ResEntryHeader",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 4,
+    "alignment": 1,
+    "comment": "",
+    "members": [
+        {
+            "name": "serialNumber",
+            "type": "RwUInt16",
+            "offset": 0,
+            "size": 2
+        },
+        {
+            "name": "numMeshes",
+            "type": "RwUInt16",
+            "offset": 2,
+            "size": 2
+        }
+    ]
+}

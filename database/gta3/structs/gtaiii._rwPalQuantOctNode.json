@@ -1,0 +1,17 @@
+{
+    "name": "_rwPalQuantOctNode",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x5C",
+    "alignment": 2,
+    "comment": "original;;struct _rwPalQuantOctNode;;{;;    _rwPalQuantLeafNode   Leaf;;;    _rwPalQuantBranchNode Branch;;;};;;;;",
+    "members": [
+        {
+            "name": "node",
+            "type": "uLeafBranchNode",
+            "offset": 0,
+            "size": "0x5C"
+        }
+    ]
+}

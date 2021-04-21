@@ -1,0 +1,241 @@
+{
+    "name": "eHandlingIndex",
+    "module": "",
+    "scope": "",
+    "width": 4,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "HANDLING_LANDSTAL",
+            "value": 0
+        },
+        {
+            "name": "HANDLING_IDAHO",
+            "value": 1
+        },
+        {
+            "name": "HANDLING_STINGER",
+            "value": 2
+        },
+        {
+            "name": "HANDLING_LINERUN",
+            "value": 3
+        },
+        {
+            "name": "HANDLING_PEREN",
+            "value": 4
+        },
+        {
+            "name": "HANDLING_SENTINEL",
+            "value": 5
+        },
+        {
+            "name": "HANDLING_PATRIOT",
+            "value": 6
+        },
+        {
+            "name": "HANDLING_FIRETRUK",
+            "value": 7
+        },
+        {
+            "name": "HANDLING_TRASH",
+            "value": 8
+        },
+        {
+            "name": "HANDLING_STRETCH",
+            "value": 9
+        },
+        {
+            "name": "HANDLING_MANANA",
+            "value": 10
+        },
+        {
+            "name": "HANDLING_INFERNUS",
+            "value": 11
+        },
+        {
+            "name": "HANDLING_BLISTA",
+            "value": 12
+        },
+        {
+            "name": "HANDLING_PONY",
+            "value": 13
+        },
+        {
+            "name": "HANDLING_MULE",
+            "value": 14
+        },
+        {
+            "name": "HANDLING_CHEETAH",
+            "value": 15
+        },
+        {
+            "name": "HANDLING_AMBULAN",
+            "value": 16
+        },
+        {
+            "name": "HANDLING_FBICAR",
+            "value": 17
+        },
+        {
+            "name": "HANDLING_MOONBEAM",
+            "value": 18
+        },
+        {
+            "name": "HANDLING_ESPERANT",
+            "value": 19
+        },
+        {
+            "name": "HANDLING_TAXI",
+            "value": 20
+        },
+        {
+            "name": "HANDLING_KURUMA",
+            "value": 21
+        },
+        {
+            "name": "HANDLING_BOBCAT",
+            "value": 22
+        },
+        {
+            "name": "HANDLING_MRWHOOP",
+            "value": 23
+        },
+        {
+            "name": "HANDLING_BFINJECT",
+            "value": 24
+        },
+        {
+            "name": "HANDLING_POLICE",
+            "value": 25
+        },
+        {
+            "name": "HANDLING_ENFORCER",
+            "value": 26
+        },
+        {
+            "name": "HANDLING_SECURICA",
+            "value": 27
+        },
+        {
+            "name": "HANDLING_BANSHEE",
+            "value": 28
+        },
+        {
+            "name": "HANDLING_PREDATOR",
+            "value": 29
+        },
+        {
+            "name": "HANDLING_BUS",
+            "value": 30
+        },
+        {
+            "name": "HANDLING_RHINO",
+            "value": 31
+        },
+        {
+            "name": "HANDLING_BARRACKS",
+            "value": 32
+        },
+        {
+            "name": "HANDLING_TRAIN",
+            "value": 33
+        },
+        {
+            "name": "HANDLING_HELI",
+            "value": 34
+        },
+        {
+            "name": "HANDLING_DODO",
+            "value": 35
+        },
+        {
+            "name": "HANDLING_COACH",
+            "value": 36
+        },
+        {
+            "name": "HANDLING_CABBIE",
+            "value": 37
+        },
+        {
+            "name": "HANDLING_STALLION",
+            "value": 38
+        },
+        {
+            "name": "HANDLING_RUMPO",
+            "value": 39
+        },
+        {
+            "name": "HANDLING_RCBANDIT",
+            "value": 40
+        },
+        {
+            "name": "HANDLING_BELLYUP",
+            "value": 41
+        },
+        {
+            "name": "HANDLING_MRWONGS",
+            "value": 42
+        },
+        {
+            "name": "HANDLING_MAFIA",
+            "value": 43
+        },
+        {
+            "name": "HANDLING_YARDIE",
+            "value": 44
+        },
+        {
+            "name": "HANDLING_YAKUZA",
+            "value": 45
+        },
+        {
+            "name": "HANDLING_DIABLOS",
+            "value": 46
+        },
+        {
+            "name": "HANDLING_COLUMB",
+            "value": 47
+        },
+        {
+            "name": "HANDLING_HOODS",
+            "value": 48
+        },
+        {
+            "name": "HANDLING_AIRTRAIN",
+            "value": 49
+        },
+        {
+            "name": "HANDLING_DEADDODO",
+            "value": 50
+        },
+        {
+            "name": "HANDLING_SPEEDER",
+            "value": 51
+        },
+        {
+            "name": "HANDLING_REEFER",
+            "value": 52
+        },
+        {
+            "name": "HANDLING_PANLANT",
+            "value": 53
+        },
+        {
+            "name": "HANDLING_FLATBED",
+            "value": 54
+        },
+        {
+            "name": "HANDLING_YANKEE",
+            "value": 55
+        },
+        {
+            "name": "HANDLING_BORGNINE",
+            "value": 56
+        }
+    ]
+}

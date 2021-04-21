@@ -3,8 +3,8 @@
     "module": "",
     "scope": "",
     "kind": "class",
-    "size": "0x78",
-    "alignment": 0,
+    "size": "0x40",
+    "alignment": 2,
     "comment": "",
     "members": [
         {
@@ -15,7 +15,7 @@
         },
         {
             "name": "radius",
-            "type": "int",
+            "type": "RwReal",
             "offset": "0x14",
             "size": 4
         },
@@ -27,7 +27,7 @@
         },
         {
             "name": "minusCosAngle",
-            "type": "int",
+            "type": "RwReal",
             "offset": "0x28",
             "size": 4
         },
@@ -35,19 +35,25 @@
             "name": "WorldSectorsInLight",
             "type": "RwLinkList",
             "offset": "0x2C",
-            "size": "0x40"
+            "size": 8
         },
         {
             "name": "inWorld",
             "type": "RwLLLink",
-            "offset": "0x6C",
+            "offset": "0x34",
             "size": 8
         },
         {
             "name": "lightFrame",
-            "type": "int",
-            "offset": "0x74",
-            "size": 4
+            "type": "RwUInt16",
+            "offset": "0x3C",
+            "size": 2
+        },
+        {
+            "name": "pad",
+            "type": "RwUInt16",
+            "offset": "0x3E",
+            "size": 2
         }
     ]
 }

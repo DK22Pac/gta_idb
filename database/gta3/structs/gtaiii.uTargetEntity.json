@@ -1,0 +1,41 @@
+{
+    "name": "uTargetEntity",
+    "module": "",
+    "scope": "",
+    "kind": "union",
+    "size": 4,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "entity",
+            "type": "CEntity *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "building",
+            "type": "CBuilding *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "vehicle",
+            "type": "CVehicle *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "ped",
+            "type": "CPed *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "object",
+            "type": "CObject *",
+            "offset": 0,
+            "size": 4
+        }
+    ]
+}

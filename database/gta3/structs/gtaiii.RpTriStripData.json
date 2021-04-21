@@ -1,0 +1,29 @@
+{
+    "name": "RpTriStripData",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0xC",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "ignoreWinding",
+            "type": "char",
+            "offset": 0,
+            "size": 1
+        },
+        {
+            "name": "stripCB",
+            "type": "RpTriStripMeshStripCallBack",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "data",
+            "type": "void *",
+            "offset": 8,
+            "size": 4
+        }
+    ]
+}

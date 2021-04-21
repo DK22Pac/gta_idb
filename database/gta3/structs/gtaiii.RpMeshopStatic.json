@@ -1,0 +1,29 @@
+{
+    "name": "RpMeshopStatic",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x18",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "nullMeshHeader",
+            "type": "RpMeshHeader",
+            "offset": 0,
+            "size": "0x10"
+        },
+        {
+            "name": "meshTristripMethod",
+            "type": "RpTriStripMeshCallBack",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "data",
+            "type": "void *",
+            "offset": "0x14",
+            "size": 4
+        }
+    ]
+}

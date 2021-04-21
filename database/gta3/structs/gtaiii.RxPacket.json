@@ -1,0 +1,53 @@
+{
+    "name": "RxPacket",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x30",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "flags",
+            "type": "RwUInt16",
+            "offset": 0,
+            "size": 2
+        },
+        {
+            "name": "numClusters",
+            "type": "RwUInt16",
+            "offset": 2,
+            "size": 2
+        },
+        {
+            "name": "pipeline",
+            "type": "RxPipeline *",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "inputToClusterSlot",
+            "type": "RwUInt32 *",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "slotsContinue",
+            "type": "RwUInt32 *",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "slotClusterRefs",
+            "type": "RxPipelineCluster **",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "clusters",
+            "type": "RxCluster[1]",
+            "offset": "0x14",
+            "size": "0x1C"
+        }
+    ]
+}

@@ -1,0 +1,153 @@
+{
+    "name": "ePedStats",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "PEDSTAT_PLAYER",
+            "value": 0
+        },
+        {
+            "name": "PEDSTAT_COP",
+            "value": 1
+        },
+        {
+            "name": "PEDSTAT_MEDIC",
+            "value": 2
+        },
+        {
+            "name": "PEDSTAT_FIRE",
+            "value": 3
+        },
+        {
+            "name": "PEDSTAT_GANG1",
+            "value": 4
+        },
+        {
+            "name": "PEDSTAT_GANG2",
+            "value": 5
+        },
+        {
+            "name": "PEDSTAT_GANG3",
+            "value": 6
+        },
+        {
+            "name": "PEDSTAT_GANG4",
+            "value": 7
+        },
+        {
+            "name": "PEDSTAT_GANG5",
+            "value": 8
+        },
+        {
+            "name": "PEDSTAT_GANG6",
+            "value": 9
+        },
+        {
+            "name": "PEDSTAT_GANG7",
+            "value": 10
+        },
+        {
+            "name": "PEDSTAT_STREET_GUY",
+            "value": 11
+        },
+        {
+            "name": "PEDSTAT_SUIT_GUY",
+            "value": 12
+        },
+        {
+            "name": "PEDSTAT_SENSIBLE_GUY",
+            "value": 13
+        },
+        {
+            "name": "PEDSTAT_GEEK_GUY",
+            "value": 14
+        },
+        {
+            "name": "PEDSTAT_OLD_GUY",
+            "value": 15
+        },
+        {
+            "name": "PEDSTAT_TOUGH_GUY",
+            "value": 16
+        },
+        {
+            "name": "PEDSTAT_STREET_GIRL",
+            "value": 17
+        },
+        {
+            "name": "PEDSTAT_SUIT_GIRL",
+            "value": 18
+        },
+        {
+            "name": "PEDSTAT_SENSIBLE_GIRL",
+            "value": 19
+        },
+        {
+            "name": "PEDSTAT_GEEK_GIRL",
+            "value": 20
+        },
+        {
+            "name": "PEDSTAT_OLD_GIRL",
+            "value": 21
+        },
+        {
+            "name": "PEDSTAT_TOUGH_GIRL",
+            "value": 22
+        },
+        {
+            "name": "PEDSTAT_TRAMP_MALE",
+            "value": 23
+        },
+        {
+            "name": "PEDSTAT_TRAMP_FEMALE",
+            "value": 24
+        },
+        {
+            "name": "PEDSTAT_TOURIST",
+            "value": 25
+        },
+        {
+            "name": "PEDSTAT_PROSTITUTE",
+            "value": 26
+        },
+        {
+            "name": "PEDSTAT_CRIMINAL",
+            "value": 27
+        },
+        {
+            "name": "PEDSTAT_BUSKER",
+            "value": 28
+        },
+        {
+            "name": "PEDSTAT_TAXIDRIVER",
+            "value": 29
+        },
+        {
+            "name": "PEDSTAT_PSYCHO",
+            "value": 30
+        },
+        {
+            "name": "PEDSTAT_STEWARD",
+            "value": 31
+        },
+        {
+            "name": "PEDSTAT_SPORTSFAN",
+            "value": 32
+        },
+        {
+            "name": "PEDSTAT_SHOPPER",
+            "value": 33
+        },
+        {
+            "name": "PEDSTAT_OLDSHOPPER",
+            "value": 34
+        }
+    ]
+}

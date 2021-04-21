@@ -1,0 +1,47 @@
+{
+    "name": "RpPlaneSector",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x18",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "type",
+            "type": "RwInt32",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "value",
+            "type": "RwReal",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "leftSubTree",
+            "type": "RpSector *",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "rightSubTree",
+            "type": "RpSector *",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "leftValue",
+            "type": "RwReal",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "rightValue",
+            "type": "RwReal",
+            "offset": "0x14",
+            "size": 4
+        }
+    ]
+}

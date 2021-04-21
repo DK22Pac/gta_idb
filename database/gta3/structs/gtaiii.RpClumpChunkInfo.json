@@ -1,0 +1,29 @@
+{
+    "name": "RpClumpChunkInfo",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0xC",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "numAtomics",
+            "type": "RwInt32",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "numLights",
+            "type": "RwInt32",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "numCameras",
+            "type": "RwInt32",
+            "offset": 8,
+            "size": 4
+        }
+    ]
+}

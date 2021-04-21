@@ -1,0 +1,29 @@
+{
+    "name": "RwPlaneType",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "rwXPLANE",
+            "value": "0x0"
+        },
+        {
+            "name": "rwYPLANE",
+            "value": "0x4"
+        },
+        {
+            "name": "rwZPLANE",
+            "value": "0x8"
+        },
+        {
+            "name": "rwPLANETYPEFORCEENUMSIZEINT",
+            "value": "0x7FFFFFFF"
+        }
+    ]
+}

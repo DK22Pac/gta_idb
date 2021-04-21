@@ -1,0 +1,29 @@
+{
+    "name": "rpTextureChunkInfo",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0xC",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "filtering",
+            "type": "RwTextureFilterMode",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "addressingU",
+            "type": "RwTextureAddressMode",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "addressingV",
+            "type": "RwTextureAddressMode",
+            "offset": 8,
+            "size": 4
+        }
+    ]
+}

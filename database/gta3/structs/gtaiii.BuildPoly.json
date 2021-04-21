@@ -1,0 +1,23 @@
+{
+    "name": "BuildPoly",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 8,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "poly",
+            "type": "RpTriangle *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "flags",
+            "type": "RwUInt32",
+            "offset": 4,
+            "size": 4
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "name": "eVehicleClass",
+    "module": "",
+    "scope": "",
+    "width": 4,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "CARCLASS_POORFAMILY",
+            "value": 0
+        },
+        {
+            "name": "CARCLASS_RICHFAMILY",
+            "value": 1
+        },
+        {
+            "name": "CARCLASS_EXECUTIVE",
+            "value": 2
+        },
+        {
+            "name": "CARCLASS_WORKER",
+            "value": 3
+        },
+        {
+            "name": "CARCLASS_SPECIAL",
+            "value": 4
+        },
+        {
+            "name": "CARCLASS_BIG",
+            "value": 5
+        },
+        {
+            "name": "CARCLASS_TAXI",
+            "value": 6
+        },
+        {
+            "name": "CARCLASS_IGNORE",
+            "value": 7
+        },
+        {
+            "name": "CARCLASS_MAFIA",
+            "value": 8
+        },
+        {
+            "name": "CARCLASS_TRIAD",
+            "value": 9
+        },
+        {
+            "name": "CARCLASS_DIABLO",
+            "value": 10
+        },
+        {
+            "name": "CARCLASS_YAKUZA",
+            "value": 11
+        },
+        {
+            "name": "CARCLASS_YARDIE",
+            "value": 12
+        },
+        {
+            "name": "CARCLASS_COLOMB",
+            "value": 13
+        },
+        {
+            "name": "CARCLASS_NINES",
+            "value": 14
+        },
+        {
+            "name": "CARCLASS_FORELLI",
+            "value": 15
+        },
+        {
+            "name": "CARCLASS_SINDACCO",
+            "value": 16
+        },
+        {
+            "name": "CARCLASS_COPS",
+            "value": 17
+        }
+    ]
+}

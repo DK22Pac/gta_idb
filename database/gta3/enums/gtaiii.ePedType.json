@@ -1,0 +1,109 @@
+{
+    "name": "ePedType",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "PEDTYPE_PLAYER1",
+            "value": 0
+        },
+        {
+            "name": "PEDTYPE_PLAYER2",
+            "value": 1
+        },
+        {
+            "name": "PEDTYPE_PLAYER3",
+            "value": 2
+        },
+        {
+            "name": "PEDTYPE_PLAYER4",
+            "value": 3
+        },
+        {
+            "name": "PEDTYPE_CIVMALE",
+            "value": 4
+        },
+        {
+            "name": "PEDTYPE_CIVFEMALE",
+            "value": 5
+        },
+        {
+            "name": "PEDTYPE_COP",
+            "value": 6
+        },
+        {
+            "name": "PEDTYPE_GANG1",
+            "value": 7
+        },
+        {
+            "name": "PEDTYPE_GANG2",
+            "value": 8
+        },
+        {
+            "name": "PEDTYPE_GANG3",
+            "value": 9
+        },
+        {
+            "name": "PEDTYPE_GANG4",
+            "value": 10
+        },
+        {
+            "name": "PEDTYPE_GANG5",
+            "value": 11
+        },
+        {
+            "name": "PEDTYPE_GANG6",
+            "value": 12
+        },
+        {
+            "name": "PEDTYPE_GANG7",
+            "value": 13
+        },
+        {
+            "name": "PEDTYPE_GANG8",
+            "value": 14
+        },
+        {
+            "name": "PEDTYPE_GANG9",
+            "value": 15
+        },
+        {
+            "name": "PEDTYPE_MEDIC",
+            "value": 16
+        },
+        {
+            "name": "PEDTYPE_FIRE",
+            "value": 17
+        },
+        {
+            "name": "PEDTYPE_CRIMINAL",
+            "value": 18
+        },
+        {
+            "name": "PEDTYPE_BUM",
+            "value": 19
+        },
+        {
+            "name": "PEDTYPE_PROSTITUTE",
+            "value": 20
+        },
+        {
+            "name": "PEDTYPE_SPECIAL",
+            "value": 21
+        },
+        {
+            "name": "PEDTYPE_DUMMY",
+            "value": 22
+        },
+        {
+            "name": "PEDTYPE_UNKNOWN",
+            "value": 23
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "IDirect3DDevice8",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 4,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "vtable",
+            "type": "IDirect3DDevice8VMT *",
+            "offset": 0,
+            "size": 4
+        }
+    ]
+}

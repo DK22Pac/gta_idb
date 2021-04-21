@@ -1,0 +1,49 @@
+{
+    "name": "D3DSTENCILOP",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "D3DSTENCILOP_",
+            "value": "0x0"
+        },
+        {
+            "name": "D3DSTENCILOP_KEEP",
+            "value": "0x1"
+        },
+        {
+            "name": "D3DSTENCILOP_ZERO",
+            "value": "0x2"
+        },
+        {
+            "name": "D3DSTENCILOP_REPLACE",
+            "value": "0x3"
+        },
+        {
+            "name": "D3DSTENCILOP_INCRSAT",
+            "value": "0x4"
+        },
+        {
+            "name": "D3DSTENCILOP_DECRSAT",
+            "value": "0x5"
+        },
+        {
+            "name": "D3DSTENCILOP_INVERT",
+            "value": "0x6"
+        },
+        {
+            "name": "D3DSTENCILOP_INCR",
+            "value": "0x7"
+        },
+        {
+            "name": "D3DSTENCILOP_DECR",
+            "value": "0x8"
+        }
+    ]
+}

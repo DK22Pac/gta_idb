@@ -1,0 +1,45 @@
+{
+    "name": "eCarLock",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "CARLOCK_NOT_USED",
+            "value": 0
+        },
+        {
+            "name": "CARLOCK_UNLOCKED",
+            "value": 1
+        },
+        {
+            "name": "CARLOCK_LOCKED",
+            "value": 2
+        },
+        {
+            "name": "CARLOCK_LOCKOUT_PLAYER_ONLY",
+            "value": 3
+        },
+        {
+            "name": "CARLOCK_LOCKED_PLAYER_INSIDE",
+            "value": 4
+        },
+        {
+            "name": "CARLOCK_COP_CAR",
+            "value": 5
+        },
+        {
+            "name": "CARLOCK_FORCE_SHUT_DOORS",
+            "value": 6
+        },
+        {
+            "name": "CARLOCK_SKIP_SHUT_DOORS",
+            "value": 7
+        }
+    ]
+}

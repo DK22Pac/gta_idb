@@ -8,7 +8,7 @@
     "comment": "",
     "members": [
         {
-            "name": "pos",
+            "name": "m_vecPos",
             "type": "CVector",
             "offset": 0,
             "size": "0xC"
@@ -69,7 +69,7 @@
         },
         {
             "name": "field_24",
-            "type": "int",
+            "type": "float",
             "offset": "0x24",
             "size": 4
         }

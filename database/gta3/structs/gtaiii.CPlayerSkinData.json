@@ -1,0 +1,41 @@
+{
+    "name": "CPlayerSkinData",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x308",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_nId",
+            "type": "int",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "m_aName",
+            "type": "char[256]",
+            "offset": 4,
+            "size": "0x100"
+        },
+        {
+            "name": "m_aOriginalPath",
+            "type": "unsigned __int8[256]",
+            "offset": "0x104",
+            "size": "0x100"
+        },
+        {
+            "name": "m_aDateInfo",
+            "type": "unsigned __int8[256]",
+            "offset": "0x204",
+            "size": "0x100"
+        },
+        {
+            "name": "m_pNext",
+            "type": "CPlayerSkinData *",
+            "offset": "0x304",
+            "size": 4
+        }
+    ]
+}

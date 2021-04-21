@@ -1,47 +1,47 @@
 {
     "name": "CPedModelInfo",
-    "module": "",
+    "module": "CPedModelInfo",
     "scope": "",
     "kind": "class",
     "size": "0x48",
-    "alignment": 0,
-    "vtableAddress": "0x60ADDC",
-    "vtableSize": 7,
+    "alignment": 2,
+    "vtableAddress": "0x5FDFFC",
+    "vtableSize": 0,
     "comment": "",
     "members": [
         {
-            "name": "clump",
+            "name": "clumpmodelinfo",
             "type": "CClumpModelInfo",
             "offset": 0,
             "size": "0x34"
         },
         {
-            "name": "m_dwAnimGroupId",
-            "type": "int",
+            "name": "m_nAnimGroupId",
+            "type": "unsigned int",
             "offset": "0x34",
             "size": 4
         },
         {
-            "name": "m_dwPedtype",
-            "type": "int",
+            "name": "m_nPedtype",
+            "type": "unsigned int",
             "offset": "0x38",
             "size": 4
         },
         {
-            "name": "m_dwPedStatsType",
-            "type": "int",
+            "name": "m_nStatPedtype",
+            "type": "ePedStats",
             "offset": "0x3C",
             "size": 4
         },
         {
-            "name": "m_dwCarsCanDriveMask",
-            "type": "int",
+            "name": "m_nCarsCanDriveMask",
+            "type": "unsigned int",
             "offset": "0x40",
             "size": 4
         },
         {
             "name": "m_pHitColModel",
-            "type": "_DWORD",
+            "type": "CColModel *",
             "offset": "0x44",
             "size": 4
         }

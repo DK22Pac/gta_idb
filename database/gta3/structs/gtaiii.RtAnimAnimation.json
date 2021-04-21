@@ -1,0 +1,41 @@
+{
+    "name": "RtAnimAnimation",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x14",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "interpInfo",
+            "type": "RtAnimInterpolatorInfo *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "numFrames",
+            "type": "RwInt32",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "flags",
+            "type": "RwInt32",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "duration",
+            "type": "RwReal",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "pFrames",
+            "type": "void *",
+            "offset": "0x10",
+            "size": 4
+        }
+    ]
+}

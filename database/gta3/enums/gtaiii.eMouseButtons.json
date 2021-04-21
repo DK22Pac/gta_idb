@@ -1,0 +1,45 @@
+{
+    "name": "eMouseButtons",
+    "module": "",
+    "scope": "",
+    "width": 4,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "MOUSE_BUTTON_NONE",
+            "value": 0
+        },
+        {
+            "name": "MOUSE_BUTTON_LMB",
+            "value": 1
+        },
+        {
+            "name": "MOUSE_BUTTON_MMB",
+            "value": 2
+        },
+        {
+            "name": "MOUSE_BUTTON_RMB",
+            "value": 3
+        },
+        {
+            "name": "MOUSE_BUTTON_WHEEL_UP",
+            "value": 4
+        },
+        {
+            "name": "MOUSE_BUTTON_WHEEL_DOWN",
+            "value": 5
+        },
+        {
+            "name": "MOUSE_BUTTON_BMX1",
+            "value": 6
+        },
+        {
+            "name": "MOUSE_BUTTON_BMX2",
+            "value": 7
+        }
+    ]
+}

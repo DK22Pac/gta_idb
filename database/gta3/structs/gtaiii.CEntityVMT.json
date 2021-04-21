@@ -4,108 +4,108 @@
     "scope": "",
     "kind": "class",
     "size": "0x44",
-    "alignment": 0,
+    "alignment": 2,
     "comment": "",
     "members": [
         {
-            "name": "scalarDtor",
-            "type": "int",
+            "name": "destructor",
+            "type": "void (__thiscall *)(CEntity *, int)",
             "offset": 0,
             "size": 4
         },
         {
             "name": "Add",
-            "type": "int",
+            "type": "void (__thiscall *)(CEntity *)",
             "offset": 4,
             "size": 4
         },
         {
             "name": "Remove",
-            "type": "int",
+            "type": "void (__thiscall *)(CEntity *)",
             "offset": 8,
             "size": 4
         },
         {
             "name": "SetModelIndex",
-            "type": "int",
+            "type": "void (__thiscall *)(CEntity *, int)",
             "offset": "0xC",
             "size": 4
         },
         {
             "name": "SetModelIndexNoCreate",
-            "type": "int",
+            "type": "void (__thiscall *)(CEntity *, int)",
             "offset": "0x10",
             "size": 4
         },
         {
             "name": "CreateRwObject",
-            "type": "int",
+            "type": "void (__thiscall *)(CEntity *)",
             "offset": "0x14",
             "size": 4
         },
         {
             "name": "DeleteRwObject",
-            "type": "char (__thiscall *)(CEntity *this)",
+            "type": "void (__thiscall *)(CEntity *)",
             "offset": "0x18",
             "size": 4
         },
         {
             "name": "GetBoundRect",
-            "type": "RwRect *(__thiscall *)(CEntity *this, RwRect *rect)",
+            "type": "CRect *(__thiscall *)(CEntity *, CRect *)",
             "offset": "0x1C",
             "size": 4
         },
         {
-            "name": "field_1C",
-            "type": "int",
+            "name": "ProcessControl",
+            "type": "void (__thiscall *)(CEntity *)",
             "offset": "0x20",
             "size": 4
         },
         {
-            "name": "field_20",
-            "type": "int",
+            "name": "ProcessCollision",
+            "type": "void (__thiscall *)(CEntity *)",
             "offset": "0x24",
             "size": 4
         },
         {
-            "name": "field_24",
-            "type": "int",
+            "name": "ProcessShift",
+            "type": "void (__thiscall *)(CEntity *)",
             "offset": "0x28",
             "size": 4
         },
         {
-            "name": "nullsub_405930",
-            "type": "int",
+            "name": "Teleport",
+            "type": "void (__thiscall *)(CEntity *, CVector)",
             "offset": "0x2C",
             "size": 4
         },
         {
             "name": "PreRender",
-            "type": "int",
+            "type": "void (__thiscall *)(CEntity *)",
             "offset": "0x30",
             "size": 4
         },
         {
             "name": "Render",
-            "type": "int",
+            "type": "void (__thiscall *)(CEntity *)",
             "offset": "0x34",
             "size": 4
         },
         {
-            "name": "SetupLighting",
-            "type": "int",
+            "name": "SetupLightning",
+            "type": "void (__thiscall *)(CEntity *)",
             "offset": "0x38",
             "size": 4
         },
         {
-            "name": "RemoveLighting",
-            "type": "int",
+            "name": "RemoveLightning",
+            "type": "void (__thiscall *)(CEntity *, char)",
             "offset": "0x3C",
             "size": 4
         },
         {
-            "name": "field_3C",
-            "type": "int",
+            "name": "FlagToDestroyWhenNextProcessed",
+            "type": "void (__thiscall *)(CEntity *)",
             "offset": "0x40",
             "size": 4
         }

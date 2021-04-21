@@ -1,0 +1,23 @@
+{
+    "name": "RxD3D8Light",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x6C",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "light",
+            "type": "D3DLIGHT8",
+            "offset": 0,
+            "size": "0x68"
+        },
+        {
+            "name": "enabled",
+            "type": "RwBool",
+            "offset": "0x68",
+            "size": 4
+        }
+    ]
+}

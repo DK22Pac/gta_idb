@@ -1,0 +1,53 @@
+{
+    "name": "CMenuScreen",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x184",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_aScreenName",
+            "type": "unsigned __int8[8]",
+            "offset": 0,
+            "size": 8
+        },
+        {
+            "name": "field_368",
+            "type": "int",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "field_372",
+            "type": "int",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "field_376",
+            "type": "int",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "field_380",
+            "type": "int",
+            "offset": "0x14",
+            "size": 4
+        },
+        {
+            "name": "field_384",
+            "type": "int",
+            "offset": "0x18",
+            "size": 4
+        },
+        {
+            "name": "m_asEntries",
+            "type": "CMenuEntry[18]",
+            "offset": "0x1C",
+            "size": "0x168"
+        }
+    ]
+}

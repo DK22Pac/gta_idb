@@ -1,0 +1,41 @@
+{
+    "name": "RpSkinD3D8Pipeline",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "rpNASKIND3D8PIPELINE",
+            "value": "0x0"
+        },
+        {
+            "name": "rpSKIND3D8PIPELINEGENERIC",
+            "value": "0x1"
+        },
+        {
+            "name": "rpSKIND3D8PIPELINEMATFX",
+            "value": "0x2"
+        },
+        {
+            "name": "rpSKIND3D8PIPELINETOON",
+            "value": "0x3"
+        },
+        {
+            "name": "rpSKIND3D8PIPELINEMATFXTOON",
+            "value": "0x4"
+        },
+        {
+            "name": "rpSKIND3D8PIPELINEMAX",
+            "value": "0x5"
+        },
+        {
+            "name": "rpSKIND3D8PIPELINEFORCEENUMSIZEINT",
+            "value": "0x7FFFFFFF"
+        }
+    ]
+}

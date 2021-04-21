@@ -1,0 +1,29 @@
+{
+    "name": "D3DFOGMODE",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "D3DFOG_NONE",
+            "value": "0x0"
+        },
+        {
+            "name": "D3DFOG_LINEAR",
+            "value": "0x1"
+        },
+        {
+            "name": "D3DFOG_EXP",
+            "value": "0x2"
+        },
+        {
+            "name": "D3DFOG_EXP2",
+            "value": "0x3"
+        }
+    ]
+}

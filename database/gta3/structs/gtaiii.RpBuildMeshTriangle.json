@@ -1,0 +1,23 @@
+{
+    "name": "RpBuildMeshTriangle",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0xC",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "vertIndex",
+            "type": "RwUInt16[3]",
+            "offset": 0,
+            "size": 6
+        },
+        {
+            "name": "material",
+            "type": "RpMaterial *",
+            "offset": 8,
+            "size": 4
+        }
+    ]
+}

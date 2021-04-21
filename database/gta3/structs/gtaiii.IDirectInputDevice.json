@@ -1,0 +1,17 @@
+{
+    "name": "IDirectInputDevice",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 4,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "vtable",
+            "type": "IDirectInputDeviceVMT *",
+            "offset": 0,
+            "size": 4
+        }
+    ]
+}

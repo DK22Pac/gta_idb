@@ -1,0 +1,29 @@
+{
+    "name": "eEnterType",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "ENTER_IN_DOOR_RF",
+            "value": 11
+        },
+        {
+            "name": "ENTER_IN_DOOR_RR",
+            "value": 12
+        },
+        {
+            "name": "ENTER_IN_DOOR_LF",
+            "value": 15
+        },
+        {
+            "name": "ENTER_IN_DOOR_LR",
+            "value": 16
+        }
+    ]
+}

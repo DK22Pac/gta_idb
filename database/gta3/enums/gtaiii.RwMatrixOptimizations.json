@@ -1,0 +1,21 @@
+{
+    "name": "RwMatrixOptimizations",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "rwMATRIXOPTIMIZE_IDENTITY",
+            "value": "0x20000"
+        },
+        {
+            "name": "rwMATRIXOPTIMIZATIONSFORCEENUMSIZEINT",
+            "value": "0x7FFFFFFF"
+        }
+    ]
+}

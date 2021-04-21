@@ -4,9 +4,9 @@
     "scope": "",
     "kind": "class",
     "size": "0x5A8",
-    "alignment": 2,
-    "vtableAddress": "0x60D9FC",
-    "vtableSize": 35,
+    "alignment": 3,
+    "vtableAddress": "0x600C1C",
+    "vtableSize": 0,
     "comment": "",
     "members": [
         {
@@ -40,110 +40,128 @@
             "size": "0xA0"
         },
         {
-            "name": "field_46C",
-            "type": "int[4]",
+            "name": "m_fWheelSuspDist",
+            "type": "float[4]",
             "offset": "0x46C",
             "size": "0x10"
         },
         {
-            "name": "field_47C",
+            "name": "m_fWheelSuspDistSoft",
             "type": "float[4]",
             "offset": "0x47C",
             "size": "0x10"
         },
         {
-            "name": "field_48C",
-            "type": "int[4]",
+            "name": "m_fWheelContactRate",
+            "type": "float[4]",
             "offset": "0x48C",
             "size": "0x10"
         },
         {
             "name": "field_49C",
-            "type": "_DWORD",
+            "type": "int",
             "offset": "0x49C",
             "size": 4
         },
         {
             "name": "field_4A0",
-            "type": "char[4]",
+            "type": "bool[4]",
             "offset": "0x4A0",
             "size": 4
         },
         {
             "name": "field_4A4",
-            "type": "char[4]",
+            "type": "bool[4]",
             "offset": "0x4A4",
             "size": 4
         },
         {
-            "name": "field_4A8",
-            "type": "int[4]",
+            "name": "m_fWheelTotalRot",
+            "type": "float[4]",
             "offset": "0x4A8",
             "size": "0x10"
         },
         {
-            "name": "field_4B8",
-            "type": "char[16]",
+            "name": "m_fWheelRot",
+            "type": "float[4]",
             "offset": "0x4B8",
             "size": "0x10"
         },
         {
-            "name": "field_4C8",
-            "type": "int[4]",
+            "name": "m_fWheelNowRot",
+            "type": "float[4]",
             "offset": "0x4C8",
             "size": "0x10"
         },
         {
             "name": "field_4D8",
-            "type": "_BYTE",
+            "type": "char",
             "offset": "0x4D8",
             "size": 1
         },
         {
             "name": "m_nAutomobileFlags",
-            "type": "_BYTE",
+            "type": "unsigned __int8",
             "offset": "0x4D9",
             "size": 1
         },
         {
-            "name": "field_4DA",
-            "type": "_BYTE",
+            "name": "bfFlagsX",
+            "type": "char",
             "offset": "0x4DA",
             "size": 1
         },
         {
             "name": "field_4DB",
-            "type": "_BYTE[7]",
+            "type": "char",
             "offset": "0x4DB",
-            "size": 7
+            "size": 1
         },
         {
-            "name": "field_4E2",
-            "type": "_WORD",
+            "name": "m_pWhoInstalledBombOnMe",
+            "type": "CPed *",
+            "offset": "0x4DC",
+            "size": 4
+        },
+        {
+            "name": "field_4E0",
+            "type": "__int16",
+            "offset": "0x4E0",
+            "size": 2
+        },
+        {
+            "name": "m_nHydralicStatus",
+            "type": "unsigned __int16",
             "offset": "0x4E2",
             "size": 2
         },
         {
             "name": "m_nBusDoorTimerEnd",
-            "type": "_DWORD",
+            "type": "int",
             "offset": "0x4E4",
             "size": 4
         },
         {
             "name": "m_nBusDoorTimerStart",
-            "type": "_DWORD",
+            "type": "int",
             "offset": "0x4E8",
             "size": 4
         },
         {
-            "name": "field_4EC",
-            "type": "_BYTE[32]",
+            "name": "m_afSuspensionDif",
+            "type": "float[4]",
             "offset": "0x4EC",
-            "size": "0x20"
+            "size": "0x10"
         },
         {
-            "name": "field_50C",
-            "type": "_DWORD",
+            "name": "m_afSuspensionDifWheelCol",
+            "type": "float[4]",
+            "offset": "0x4FC",
+            "size": "0x10"
+        },
+        {
+            "name": "m_fHeightAboveRoad",
+            "type": "float",
             "offset": "0x50C",
             "size": 4
         },
@@ -154,8 +172,8 @@
             "size": 4
         },
         {
-            "name": "field_514",
-            "type": "_DWORD",
+            "name": "m_fVelocityChangeForAudio",
+            "type": "float",
             "offset": "0x514",
             "size": 4
         },
@@ -166,28 +184,10 @@
             "size": "0x18"
         },
         {
-            "name": "field_530",
-            "type": "char",
+            "name": "burnTimer",
+            "type": "int",
             "offset": "0x530",
-            "size": 1
-        },
-        {
-            "name": "field_531",
-            "type": "char",
-            "offset": "0x531",
-            "size": 1
-        },
-        {
-            "name": "field_532",
-            "type": "char",
-            "offset": "0x532",
-            "size": 1
-        },
-        {
-            "name": "field_533",
-            "type": "char",
-            "offset": "0x533",
-            "size": 1
+            "size": 4
         },
         {
             "name": "m_pReferVehicle",
@@ -196,44 +196,44 @@
             "size": "0x10"
         },
         {
-            "name": "field_544",
+            "name": "m_avecWheelCollisionPos",
             "type": "CVector[4]",
             "offset": "0x544",
             "size": "0x30"
         },
         {
             "name": "field_574",
-            "type": "_DWORD",
+            "type": "CEntity *",
             "offset": "0x574",
             "size": 4
         },
         {
             "name": "field_578",
-            "type": "int",
+            "type": "float",
             "offset": "0x578",
             "size": 4
         },
         {
             "name": "field_57C",
-            "type": "int",
+            "type": "float",
             "offset": "0x57C",
             "size": 4
         },
         {
-            "name": "m_fDoomAngle",
+            "name": "m_fDoomVerticalRotation",
             "type": "float",
             "offset": "0x580",
             "size": 4
         },
         {
-            "name": "field_584",
-            "type": "int",
+            "name": "m_fDoomHorizontalRotation",
+            "type": "float",
             "offset": "0x584",
             "size": 4
         },
         {
-            "name": "field_588",
-            "type": "int",
+            "name": "m_fSpecialMoveState",
+            "type": "float",
             "offset": "0x588",
             "size": 4
         },
@@ -244,37 +244,37 @@
             "size": 4
         },
         {
-            "name": "field_590",
-            "type": "_BYTE",
+            "name": "m_nWheelsOnGround",
+            "type": "char",
             "offset": "0x590",
             "size": 1
         },
         {
             "name": "m_bAllWheelsOnGround",
-            "type": "_BYTE",
+            "type": "bool",
             "offset": "0x591",
             "size": 1
         },
         {
-            "name": "field_592",
-            "type": "_BYTE",
+            "name": "m_nPrevRearWheelsOnGround",
+            "type": "char",
             "offset": "0x592",
             "size": 1
         },
         {
             "name": "field_593",
-            "type": "_BYTE[1]",
+            "type": "char",
             "offset": "0x593",
             "size": 1
         },
         {
-            "name": "field_594",
-            "type": "_DWORD",
+            "name": "m_fSkidMarkDensity",
+            "type": "float",
             "offset": "0x594",
             "size": 4
         },
         {
-            "name": "field_598",
+            "name": "m_nTireFriction",
             "type": "int[4]",
             "offset": "0x598",
             "size": "0x10"

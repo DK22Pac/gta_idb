@@ -1,0 +1,35 @@
+{
+    "name": "rpMeshGlobals",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0xC",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "nextSerialNum",
+            "type": "RwInt16",
+            "offset": 0,
+            "size": 2
+        },
+        {
+            "name": "triStripListEntryFreeList",
+            "type": "RwFreeList *",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "meshFlagsToPrimType",
+            "type": "RwUInt8",
+            "offset": 8,
+            "size": 1
+        },
+        {
+            "name": "primTypeToMeshFlags",
+            "type": "RwUInt8",
+            "offset": 9,
+            "size": 1
+        }
+    ]
+}

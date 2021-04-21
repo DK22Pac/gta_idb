@@ -3,50 +3,44 @@
     "module": "",
     "scope": "",
     "kind": "class",
-    "size": "0x1C",
-    "alignment": 0,
+    "size": "0x18",
+    "alignment": 2,
     "comment": "",
     "members": [
         {
-            "name": "__scalar_dtor",
-            "type": "int",
+            "name": "destructor",
+            "type": "void (__thiscall *)(CBaseModelInfo *, int)",
             "offset": 0,
             "size": 4
         },
         {
-            "name": "__dtor",
-            "type": "int",
+            "name": "Shutdown",
+            "type": "void (__thiscall *)(CBaseModelInfo *)",
             "offset": 4,
             "size": 4
         },
         {
             "name": "DeleteRwObject",
-            "type": "int",
+            "type": "void (__thiscall *)(CBaseModelInfo *)",
             "offset": 8,
             "size": 4
         },
         {
             "name": "CreateInstance",
-            "type": "int",
+            "type": "uRwObject (__thiscall *)(CBaseModelInfo *)",
             "offset": "0xC",
             "size": 4
         },
         {
-            "name": "CreateInstance_0",
-            "type": "int",
+            "name": "CreateInstance_",
+            "type": "RwObject *(__thiscall *)(CBaseModelInfo *, RwMatrix *)",
             "offset": "0x10",
             "size": 4
         },
         {
             "name": "GetRwObject",
-            "type": "int",
+            "type": "RwObject *(__thiscall *)(CBaseModelInfo *)",
             "offset": "0x14",
-            "size": 4
-        },
-        {
-            "name": "SetClump",
-            "type": "int",
-            "offset": "0x18",
             "size": 4
         }
     ]

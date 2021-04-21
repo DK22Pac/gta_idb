@@ -1,0 +1,21 @@
+{
+    "name": "rwResHeapBlockFlags",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "rwRESHEAP_BLOCKUSED",
+            "value": "0x1"
+        },
+        {
+            "name": "rwRESHEAPFLAGFORCEENUMSIZEINT",
+            "value": "0x7FFFFFFF"
+        }
+    ]
+}

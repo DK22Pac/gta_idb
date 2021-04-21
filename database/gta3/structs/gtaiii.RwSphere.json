@@ -15,7 +15,7 @@
         },
         {
             "name": "radius",
-            "type": "float",
+            "type": "RwReal",
             "offset": "0xC",
             "size": 4
         }

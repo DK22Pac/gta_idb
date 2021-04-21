@@ -1,0 +1,97 @@
+{
+    "name": "eWaitState",
+    "module": "",
+    "scope": "",
+    "width": 4,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "WAITSTATE_FALSE",
+            "value": 0
+        },
+        {
+            "name": "WAITSTATE_TRAFFIC_LIGHTS",
+            "value": 1
+        },
+        {
+            "name": "WAITSTATE_CROSS_ROAD",
+            "value": 2
+        },
+        {
+            "name": "WAITSTATE_CROSS_ROAD_LOOK",
+            "value": 3
+        },
+        {
+            "name": "WAITSTATE_LOOK_PED",
+            "value": 4
+        },
+        {
+            "name": "WAITSTATE_LOOK_SHOP",
+            "value": 5
+        },
+        {
+            "name": "WAITSTATE_LOOK_ACCIDENT",
+            "value": 6
+        },
+        {
+            "name": "WAITSTATE_FACEOFF_GANG",
+            "value": 7
+        },
+        {
+            "name": "WAITSTATE_DOUBLEBACK",
+            "value": 8
+        },
+        {
+            "name": "WAITSTATE_HITWALL",
+            "value": 9
+        },
+        {
+            "name": "WAITSTATE_TURN180",
+            "value": 10
+        },
+        {
+            "name": "WAITSTATE_SURPRISE",
+            "value": 11
+        },
+        {
+            "name": "WAITSTATE_STUCK",
+            "value": 12
+        },
+        {
+            "name": "WAITSTATE_LOOK_ABOUT",
+            "value": 13
+        },
+        {
+            "name": "WAITSTATE_PLAYANIM_DUCK",
+            "value": 14
+        },
+        {
+            "name": "WAITSTATE_PLAYANIM_COWER",
+            "value": 15
+        },
+        {
+            "name": "WAITSTATE_PLAYANIM_TAXI",
+            "value": 16
+        },
+        {
+            "name": "WAITSTATE_PLAYANIM_HANDSUP",
+            "value": 17
+        },
+        {
+            "name": "WAITSTATE_PLAYANIM_HANDSCOWER",
+            "value": 18
+        },
+        {
+            "name": "WAITSTATE_PLAYANIM_CHAT",
+            "value": 19
+        },
+        {
+            "name": "WAITSTATE_FINISH_FLEE",
+            "value": 20
+        }
+    ]
+}

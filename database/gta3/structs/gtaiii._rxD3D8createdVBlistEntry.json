@@ -1,0 +1,23 @@
+{
+    "name": "_rxD3D8createdVBlistEntry",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 8,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "vertexBuffer",
+            "type": "void *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "next",
+            "type": "RxD3D8createdVBlistEntry *",
+            "offset": 4,
+            "size": 4
+        }
+    ]
+}

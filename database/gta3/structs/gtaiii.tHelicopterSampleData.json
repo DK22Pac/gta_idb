@@ -1,0 +1,35 @@
+{
+    "name": "tHelicopterSampleData",
+    "module": "",
+    "scope": "",
+    "kind": "struct",
+    "size": "0xC",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_fMaxDistance",
+            "type": "float",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "m_fBaseDistance",
+            "type": "float",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "m_bBaseVolume",
+            "type": "char",
+            "offset": 8,
+            "size": 1
+        },
+        {
+            "name": "_pad9",
+            "type": "char[3]",
+            "offset": 9,
+            "size": 3
+        }
+    ]
+}

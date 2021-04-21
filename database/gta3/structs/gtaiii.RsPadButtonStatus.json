@@ -1,0 +1,23 @@
+{
+    "name": "RsPadButtonStatus",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 8,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "padID",
+            "type": "RwInt32",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "padButtons",
+            "type": "RwUInt32",
+            "offset": 4,
+            "size": 4
+        }
+    ]
+}

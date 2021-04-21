@@ -1,0 +1,23 @@
+{
+    "name": "D3DRASTER_STATUS",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 8,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "InVBlank",
+            "type": "BOOL",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "ScanLine",
+            "type": "UINT",
+            "offset": 4,
+            "size": 4
+        }
+    ]
+}

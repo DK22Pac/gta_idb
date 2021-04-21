@@ -1,0 +1,29 @@
+{
+    "name": "CRouteNode",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x10",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_nId",
+            "type": "__int16",
+            "offset": 0,
+            "size": 2
+        },
+        {
+            "name": "_pad2",
+            "type": "__int16",
+            "offset": 2,
+            "size": 2
+        },
+        {
+            "name": "m_vecPosition",
+            "type": "CVector",
+            "offset": 4,
+            "size": "0xC"
+        }
+    ]
+}

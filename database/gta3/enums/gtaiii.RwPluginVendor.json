@@ -1,0 +1,53 @@
+{
+    "name": "RwPluginVendor",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "rwVENDORID_CORE",
+            "value": "0x0"
+        },
+        {
+            "name": "rwVENDORID_CRITERIONTK",
+            "value": "0x1"
+        },
+        {
+            "name": "rwVENDORID_REDLINERACER",
+            "value": "0x2"
+        },
+        {
+            "name": "rwVENDORID_CSLRD",
+            "value": "0x3"
+        },
+        {
+            "name": "rwVENDORID_CRITERIONINT",
+            "value": "0x4"
+        },
+        {
+            "name": "rwVENDORID_CRITERIONWORLD",
+            "value": "0x5"
+        },
+        {
+            "name": "rwVENDORID_BETA",
+            "value": "0x6"
+        },
+        {
+            "name": "rwVENDORID_CRITERIONRM",
+            "value": "0x7"
+        },
+        {
+            "name": "rwVENDORID_CRITERIONRWA",
+            "value": "0x8"
+        },
+        {
+            "name": "rwPLUGINVENDORFORCEENUMSIZEINT",
+            "value": "0x7FFFFFFF"
+        }
+    ]
+}

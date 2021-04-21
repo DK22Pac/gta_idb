@@ -1,0 +1,77 @@
+{
+    "name": "eVehicleHandlingModelFlags",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": true,
+    "comment": "",
+    "members": [
+        {
+            "name": "VEHICLE_FLAGS_1G_BOOST",
+            "value": "0x1"
+        },
+        {
+            "name": "VEHICLE_FLAGS_2G_BOOST",
+            "value": "0x2"
+        },
+        {
+            "name": "VEHICLE_FLAGS_REV_BONNET",
+            "value": "0x4"
+        },
+        {
+            "name": "VEHICLE_FLAGS_HANGING_BOOT",
+            "value": "0x8"
+        },
+        {
+            "name": "VEHICLE_FLAGS_NO_DOORS",
+            "value": "0x10"
+        },
+        {
+            "name": "VEHICLE_FLAGS_IS_VAN",
+            "value": "0x20"
+        },
+        {
+            "name": "VEHICLE_FLAGS_IS_BUS",
+            "value": "0x40"
+        },
+        {
+            "name": "VEHICLE_FLAGS_IS_LOW",
+            "value": "0x80"
+        },
+        {
+            "name": "VEHICLE_FLAGS_DBL_EXHAUST",
+            "value": "0x100"
+        },
+        {
+            "name": "VEHICLE_FLAGS_TAILGATE_BOOT",
+            "value": "0x200"
+        },
+        {
+            "name": "VEHICLE_FLAGS_NOSWING_BOOT",
+            "value": "0x400"
+        },
+        {
+            "name": "VEHICLE_FLAGS_NONPLAYER_STABILISER",
+            "value": "0x800"
+        },
+        {
+            "name": "VEHICLE_FLAGS_NEUTRALHANDLING",
+            "value": "0x1000"
+        },
+        {
+            "name": "VEHICLE_FLAGS_HAS_NO_ROOF",
+            "value": "0x2000"
+        },
+        {
+            "name": "VEHICLE_FLAGS_IS_BIG",
+            "value": "0x4000"
+        },
+        {
+            "name": "VEHICLE_FLAGS_HALOGEN_LIGHTS",
+            "value": "0x8000"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "name": "RwCameraProjection",
+    "module": "",
+    "scope": "",
+    "width": 4,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "rwNACAMERAPROJECTION",
+            "value": "0x0"
+        },
+        {
+            "name": "rwPERSPECTIVE",
+            "value": "0x1"
+        },
+        {
+            "name": "rwPARALLEL",
+            "value": "0x2"
+        },
+        {
+            "name": "rwCAMERAPROJECTIONFORCEENUMSIZEINT",
+            "value": "0x7FFFFFFF"
+        }
+    ]
+}

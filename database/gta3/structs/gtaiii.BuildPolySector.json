@@ -1,0 +1,29 @@
+{
+    "name": "BuildPolySector",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 8,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "type",
+            "type": "RwInt32",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "numPolygons",
+            "type": "RwUInt16",
+            "offset": 4,
+            "size": 2
+        },
+        {
+            "name": "iFirstPolygon",
+            "type": "RwUInt16",
+            "offset": 6,
+            "size": 2
+        }
+    ]
+}

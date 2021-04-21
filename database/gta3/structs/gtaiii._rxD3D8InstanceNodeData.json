@@ -1,0 +1,35 @@
+{
+    "name": "_rxD3D8InstanceNodeData",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x10",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "instanceCallback",
+            "type": "RxD3D8AllInOneInstanceCallBack",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "reinstanceCallback",
+            "type": "RxD3D8AllInOneReinstanceCallBack",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "lightingCallback",
+            "type": "RxD3D8AllInOneLightingCallBack",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "renderCallback",
+            "type": "RxD3D8AllInOneRenderCallBack",
+            "offset": "0xC",
+            "size": 4
+        }
+    ]
+}

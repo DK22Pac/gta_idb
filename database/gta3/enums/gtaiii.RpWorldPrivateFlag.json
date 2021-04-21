@@ -1,0 +1,21 @@
+{
+    "name": "RpWorldPrivateFlag",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "rpWORLDSINGLEMALLOC",
+            "value": "0x1"
+        },
+        {
+            "name": "rpWORLDPRIVATEFLAGFORCEENUMSIZEINT",
+            "value": "0x7FFFFFFF"
+        }
+    ]
+}

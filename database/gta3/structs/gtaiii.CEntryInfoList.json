@@ -3,38 +3,14 @@
     "module": "",
     "scope": "",
     "kind": "class",
-    "size": "0x14",
+    "size": 4,
     "alignment": 0,
     "comment": "",
     "members": [
         {
-            "name": "field_0",
-            "type": "int",
+            "name": "m_pLastEntry",
+            "type": "CEntryInfoNode *",
             "offset": 0,
-            "size": 4
-        },
-        {
-            "name": "field_4",
-            "type": "int",
-            "offset": 4,
-            "size": 4
-        },
-        {
-            "name": "m_pSectorList",
-            "type": "int",
-            "offset": 8,
-            "size": 4
-        },
-        {
-            "name": "field_C",
-            "type": "_DWORD",
-            "offset": "0xC",
-            "size": 4
-        },
-        {
-            "name": "field_10",
-            "type": "_DWORD",
-            "offset": "0x10",
             "size": 4
         }
     ]

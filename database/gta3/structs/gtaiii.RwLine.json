@@ -1,0 +1,23 @@
+{
+    "name": "RwLine",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x18",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "start",
+            "type": "RwV3d",
+            "offset": 0,
+            "size": "0xC"
+        },
+        {
+            "name": "end",
+            "type": "RwV3d",
+            "offset": "0xC",
+            "size": "0xC"
+        }
+    ]
+}

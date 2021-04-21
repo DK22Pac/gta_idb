@@ -1,0 +1,29 @@
+{
+    "name": "RwMatrixTolerance",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0xC",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "Normal",
+            "type": "RwReal",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "Orthogonal",
+            "type": "RwReal",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "Identity",
+            "type": "RwReal",
+            "offset": 8,
+            "size": 4
+        }
+    ]
+}

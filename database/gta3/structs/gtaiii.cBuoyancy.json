@@ -1,0 +1,149 @@
+{
+    "name": "cBuoyancy",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0xCC",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_vecPosn",
+            "type": "CVector",
+            "offset": 0,
+            "size": "0xC"
+        },
+        {
+            "name": "m_matrix",
+            "type": "CMatrix",
+            "offset": "0xC",
+            "size": "0x48"
+        },
+        {
+            "name": "field_54",
+            "type": "int",
+            "offset": "0x54",
+            "size": 4
+        },
+        {
+            "name": "m_vecPositionZ",
+            "type": "CVector",
+            "offset": "0x58",
+            "size": "0xC"
+        },
+        {
+            "name": "m_fWaterlevel",
+            "type": "float",
+            "offset": "0x64",
+            "size": 4
+        },
+        {
+            "name": "m_fWaterLevelInc",
+            "type": "float",
+            "offset": "0x68",
+            "size": 4
+        },
+        {
+            "name": "m_fBuoyancy",
+            "type": "float",
+            "offset": "0x6C",
+            "size": 4
+        },
+        {
+            "name": "m_vecCenter",
+            "type": "CVector",
+            "offset": "0x70",
+            "size": "0xC"
+        },
+        {
+            "name": "m_vecSup",
+            "type": "CVector",
+            "offset": "0x7C",
+            "size": "0xC"
+        },
+        {
+            "name": "m_fNumPartialVolumes",
+            "type": "float",
+            "offset": "0x88",
+            "size": 4
+        },
+        {
+            "name": "field_8C",
+            "type": "int",
+            "offset": "0x8C",
+            "size": 4
+        },
+        {
+            "name": "field_90",
+            "type": "int",
+            "offset": "0x90",
+            "size": 4
+        },
+        {
+            "name": "field_94",
+            "type": "int",
+            "offset": "0x94",
+            "size": 4
+        },
+        {
+            "name": "m_bHaveVolume",
+            "type": "bool",
+            "offset": "0x98",
+            "size": 1
+        },
+        {
+            "name": "_pad99",
+            "type": "char[3]",
+            "offset": "0x99",
+            "size": 3
+        },
+        {
+            "name": "m_vecStep",
+            "type": "CVector",
+            "offset": "0x9C",
+            "size": "0xC"
+        },
+        {
+            "name": "m_vecStepRatio",
+            "type": "CVector",
+            "offset": "0xA8",
+            "size": "0xC"
+        },
+        {
+            "name": "m_fNumSteps",
+            "type": "float",
+            "offset": "0xB4",
+            "size": 4
+        },
+        {
+            "name": "m_bFlipAverage",
+            "type": "bool",
+            "offset": "0xB8",
+            "size": 1
+        },
+        {
+            "name": "field_B9",
+            "type": "char",
+            "offset": "0xB9",
+            "size": 1
+        },
+        {
+            "name": "m_bIsBoat",
+            "type": "bool",
+            "offset": "0xBA",
+            "size": 1
+        },
+        {
+            "name": "m_fVolumeUnderWater",
+            "type": "float",
+            "offset": "0xBC",
+            "size": 4
+        },
+        {
+            "name": "m_vecImpulsePoint",
+            "type": "CVector",
+            "offset": "0xC0",
+            "size": "0xC"
+        }
+    ]
+}

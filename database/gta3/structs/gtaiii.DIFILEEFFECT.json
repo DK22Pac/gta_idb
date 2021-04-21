@@ -1,0 +1,35 @@
+{
+    "name": "DIFILEEFFECT",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x11C",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "dwSize",
+            "type": "DWORD",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "GuidEffect",
+            "type": "GUID",
+            "offset": 4,
+            "size": "0x10"
+        },
+        {
+            "name": "lpDiEffect",
+            "type": "LPCDIEFFECT",
+            "offset": "0x14",
+            "size": 4
+        },
+        {
+            "name": "szFriendlyName",
+            "type": "CHAR[260]",
+            "offset": "0x18",
+            "size": "0x104"
+        }
+    ]
+}

@@ -3,8 +3,8 @@
     "module": "",
     "scope": "",
     "kind": "class",
-    "size": "0x118",
-    "alignment": 0,
+    "size": "0x70",
+    "alignment": 2,
     "comment": "",
     "members": [
         {
@@ -15,13 +15,13 @@
         },
         {
             "name": "flags",
-            "type": "int",
+            "type": "RwUInt32",
             "offset": 8,
             "size": 4
         },
         {
             "name": "renderOrder",
-            "type": "int",
+            "type": "RpWorldRenderOrder",
             "offset": "0xC",
             "size": 4
         },
@@ -33,25 +33,25 @@
         },
         {
             "name": "rootSector",
-            "type": "int",
+            "type": "RpSector *",
             "offset": "0x1C",
             "size": 4
         },
         {
             "name": "numTexCoordSets",
-            "type": "int",
+            "type": "RwInt32",
             "offset": "0x20",
             "size": 4
         },
         {
             "name": "numClumpsInWorld",
-            "type": "int",
+            "type": "RwInt32",
             "offset": "0x24",
             "size": 4
         },
         {
             "name": "currentClumpLink",
-            "type": "int",
+            "type": "RwLLLink *",
             "offset": "0x28",
             "size": 4
         },
@@ -59,42 +59,42 @@
             "name": "clumpList",
             "type": "RwLinkList",
             "offset": "0x2C",
-            "size": "0x40"
+            "size": 8
         },
         {
             "name": "lightList",
             "type": "RwLinkList",
-            "offset": "0x6C",
-            "size": "0x40"
+            "offset": "0x34",
+            "size": 8
         },
         {
             "name": "directionalLightList",
             "type": "RwLinkList",
-            "offset": "0xAC",
-            "size": "0x40"
+            "offset": "0x3C",
+            "size": 8
         },
         {
             "name": "worldOrigin",
             "type": "RwV3d",
-            "offset": "0xEC",
+            "offset": "0x44",
             "size": "0xC"
         },
         {
             "name": "boundingBox",
             "type": "RwBBox",
-            "offset": "0xF8",
+            "offset": "0x50",
             "size": "0x18"
         },
         {
-            "name": "renderCallback",
-            "type": "int",
-            "offset": "0x110",
+            "name": "renderCallBack",
+            "type": "RpWorldSectorCallBackRender",
+            "offset": "0x68",
             "size": 4
         },
         {
             "name": "pipeline",
-            "type": "int",
-            "offset": "0x114",
+            "type": "RxPipeline *",
+            "offset": "0x6C",
             "size": 4
         }
     ]

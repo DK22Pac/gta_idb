@@ -1,0 +1,23 @@
+{
+    "name": "uEntityFlags4",
+    "module": "",
+    "scope": "",
+    "kind": "union",
+    "size": 1,
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "b33",
+            "type": "unsigned __int8",
+            "offset": 0,
+            "size": 1
+        },
+        {
+            "name": "b34",
+            "type": "unsigned __int8",
+            "offset": 0,
+            "size": 1
+        }
+    ]
+}

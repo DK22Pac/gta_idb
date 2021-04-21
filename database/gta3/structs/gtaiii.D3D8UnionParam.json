@@ -1,0 +1,41 @@
+{
+    "name": "D3D8UnionParam",
+    "module": "",
+    "scope": "",
+    "kind": "union",
+    "size": 4,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "BlendFunction",
+            "type": "RwBlendFunction",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "Bool",
+            "type": "RwBool",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "CullMode",
+            "type": "RwCullMode",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "FogType",
+            "type": "RwFogType",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "Int32",
+            "type": "RwInt32",
+            "offset": 0,
+            "size": 4
+        }
+    ]
+}

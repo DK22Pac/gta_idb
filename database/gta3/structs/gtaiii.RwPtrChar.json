@@ -1,0 +1,23 @@
+{
+    "name": "RwPtrChar",
+    "module": "",
+    "scope": "",
+    "kind": "union",
+    "size": 4,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "ptrChar",
+            "type": "RwChar *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "constptrChar",
+            "type": "const RwChar *",
+            "offset": 0,
+            "size": 4
+        }
+    ]
+}

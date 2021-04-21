@@ -1,0 +1,17 @@
+{
+    "name": "cDMAudio",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 1,
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "_pad0",
+            "type": "char",
+            "offset": 0,
+            "size": 1
+        }
+    ]
+}

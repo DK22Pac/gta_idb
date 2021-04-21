@@ -1,0 +1,17 @@
+{
+    "name": "IMediaEventEx",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 4,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "vtable",
+            "type": "IMediaEventExVMT *",
+            "offset": 0,
+            "size": 4
+        }
+    ]
+}

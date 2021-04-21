@@ -1,0 +1,41 @@
+{
+    "name": "RpLightType",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "rpNALIGHTTYPE",
+            "value": "0x0"
+        },
+        {
+            "name": "rpLIGHTDIRECTIONAL",
+            "value": "0x1"
+        },
+        {
+            "name": "rpLIGHTAMBIENT",
+            "value": "0x2"
+        },
+        {
+            "name": "rpLIGHTPOINT",
+            "value": "0x80"
+        },
+        {
+            "name": "rpLIGHTSPOT",
+            "value": "0x81"
+        },
+        {
+            "name": "rpLIGHTSPOTSOFT",
+            "value": "0x82"
+        },
+        {
+            "name": "rpLIGHTTYPEFORCEENUMSIZEINT",
+            "value": "0x7FFFFFFF"
+        }
+    ]
+}

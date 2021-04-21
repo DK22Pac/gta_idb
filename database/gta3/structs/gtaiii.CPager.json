@@ -9,8 +9,14 @@
     "members": [
         {
             "name": "m_nNumDisplayLetters",
-            "type": "_WORD",
+            "type": "__int16",
             "offset": 0,
+            "size": 2
+        },
+        {
+            "name": "_pad2",
+            "type": "char[2]",
+            "offset": 2,
             "size": 2
         },
         {

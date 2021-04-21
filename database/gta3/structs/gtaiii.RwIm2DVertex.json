@@ -1,0 +1,53 @@
+{
+    "name": "RwIm2DVertex",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x1C",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "x",
+            "type": "RwReal",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "y",
+            "type": "RwReal",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "z",
+            "type": "RwReal",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "rhw",
+            "type": "RwReal",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "emissiveColor",
+            "type": "RwUInt32",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "u",
+            "type": "RwReal",
+            "offset": "0x14",
+            "size": 4
+        },
+        {
+            "name": "v",
+            "type": "RwReal",
+            "offset": "0x18",
+            "size": 4
+        }
+    ]
+}

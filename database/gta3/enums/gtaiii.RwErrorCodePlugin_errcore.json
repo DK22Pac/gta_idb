@@ -1,0 +1,17 @@
+{
+    "name": "RwErrorCodePlugin_errcore",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": true,
+    "comment": "",
+    "members": [
+        {
+            "name": "rwLASTERROR_errcore",
+            "value": "0x7FFFFFFF"
+        }
+    ]
+}

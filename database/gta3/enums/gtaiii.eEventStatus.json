@@ -1,0 +1,25 @@
+{
+    "name": "eEventStatus",
+    "module": "",
+    "scope": "",
+    "width": 4,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "EVENT_STATUS_UNATTENDED",
+            "value": 0
+        },
+        {
+            "name": "EVENT_STATUS_INVESTIGATED",
+            "value": 1
+        },
+        {
+            "name": "EVENT_STATUS_CLEARED",
+            "value": 2
+        }
+    ]
+}

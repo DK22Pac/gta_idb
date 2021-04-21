@@ -9,7 +9,7 @@
     "members": [
         {
             "name": "nextBlock",
-            "type": "void *",
+            "type": "RwFreeBlock *",
             "offset": 0,
             "size": 4
         }

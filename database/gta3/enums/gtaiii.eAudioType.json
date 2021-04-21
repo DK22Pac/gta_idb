@@ -1,0 +1,73 @@
+{
+    "name": "eAudioType",
+    "module": "",
+    "scope": "",
+    "width": 4,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "AUDIOTYPE_PHYSICAL",
+            "value": 0
+        },
+        {
+            "name": "AUDIOTYPE_EXPLOSION",
+            "value": 1
+        },
+        {
+            "name": "AUDIOTYPE_FIRE",
+            "value": 2
+        },
+        {
+            "name": "AUDIOTYPE_WEATHER",
+            "value": 3
+        },
+        {
+            "name": "AUDIOTYPE_CRANE",
+            "value": 4
+        },
+        {
+            "name": "AUDIOTYPE_ONE_SHOT",
+            "value": 5
+        },
+        {
+            "name": "AUDIOTYPE_BRIDGE",
+            "value": 6
+        },
+        {
+            "name": "AUDIOTYPE_COLLISION",
+            "value": 7
+        },
+        {
+            "name": "AUDIOTYPE_FRONTEND",
+            "value": 8
+        },
+        {
+            "name": "AUDIOTYPE_PROJECTILE",
+            "value": 9
+        },
+        {
+            "name": "AUDIOTYPE_GARAGE",
+            "value": 10
+        },
+        {
+            "name": "AUDIOTYPE_HYDRANT",
+            "value": 11
+        },
+        {
+            "name": "AUDIOTYPE_WATER_CANNON",
+            "value": 12
+        },
+        {
+            "name": "AUDIOTYPE_D",
+            "value": 13
+        },
+        {
+            "name": "TOTAL_AUDIO_TYPES",
+            "value": 14
+        }
+    ]
+}

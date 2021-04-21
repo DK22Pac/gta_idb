@@ -1,0 +1,17 @@
+{
+    "name": "CParticleObjectVMT",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 4,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "destructor",
+            "type": "void (__thiscall *)(CParticleObject *, int)",
+            "offset": 0,
+            "size": 4
+        }
+    ]
+}

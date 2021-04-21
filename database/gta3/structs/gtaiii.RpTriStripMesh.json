@@ -1,0 +1,47 @@
+{
+    "name": "RpTriStripMesh",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x2C",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "numPolygons",
+            "type": "RwUInt32",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "polygonEndList",
+            "type": "RwLinkList",
+            "offset": 4,
+            "size": 8
+        },
+        {
+            "name": "polygonUsedList",
+            "type": "RwLinkList",
+            "offset": "0xC",
+            "size": 8
+        },
+        {
+            "name": "polygonFreeList",
+            "type": "RwLinkList",
+            "offset": "0x14",
+            "size": 8
+        },
+        {
+            "name": "edgeUsedList",
+            "type": "RwLinkList",
+            "offset": "0x1C",
+            "size": 8
+        },
+        {
+            "name": "edgeFreeList",
+            "type": "RwLinkList",
+            "offset": "0x24",
+            "size": 8
+        }
+    ]
+}

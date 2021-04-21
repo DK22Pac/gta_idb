@@ -3,63 +3,123 @@
     "module": "",
     "scope": "",
     "kind": "class",
-    "size": "0x45BF0",
-    "alignment": 0,
+    "size": "0x49BF4",
+    "alignment": 2,
     "comment": "",
     "members": [
         {
-            "name": "m_aNodes",
-            "type": "CPathFindNode[4922]",
+            "name": "m_pathNodes",
+            "type": "CPathNode[4930]",
             "offset": 0,
-            "size": "0x26740"
+            "size": "0x26840"
         },
         {
-            "name": "field_26740",
-            "type": "char[50080]",
-            "offset": "0x26740",
-            "size": "0xC3A0"
+            "name": "m_carPathLinks",
+            "type": "CCarPathLink[2076]",
+            "offset": "0x26840",
+            "size": "0xC2A0"
         },
         {
             "name": "m_apMapObjects",
-            "type": "int[19518]",
+            "type": "CTreadable *[1250]",
             "offset": "0x32AE0",
-            "size": "0x130F8"
+            "size": "0x1388"
         },
         {
-            "name": "dword45BD8",
-            "type": "_DWORD",
+            "name": "m_abMapObjectFlags",
+            "type": "char[1250]",
+            "offset": "0x33E68",
+            "size": "0x4E2"
+        },
+        {
+            "name": "m_anIntermediateNodeLinks",
+            "type": "__int16[10260]",
+            "offset": "0x3434A",
+            "size": "0x5028"
+        },
+        {
+            "name": "m_anDistancesToNextNode",
+            "type": "__int16[10260]",
+            "offset": "0x39372",
+            "size": "0x5028"
+        },
+        {
+            "name": "m_abIntermediateNodeFlags",
+            "type": "char[10260]",
+            "offset": "0x3E39A",
+            "size": "0x2814"
+        },
+        {
+            "name": "m_anCarPathLinkNodes",
+            "type": "__int16[10260]",
+            "offset": "0x40BAE",
+            "size": "0x5028"
+        },
+        {
+            "name": "_pad45BD6",
+            "type": "char[2]",
+            "offset": "0x45BD6",
+            "size": 2
+        },
+        {
+            "name": "m_nTotalInternalNodes",
+            "type": "int",
             "offset": "0x45BD8",
             "size": 4
         },
         {
-            "name": "f45BDC",
-            "type": "_BYTE[8]",
+            "name": "m_nTotalInternalNodesCars",
+            "type": "int",
             "offset": "0x45BDC",
-            "size": 8
+            "size": 4
         },
         {
-            "name": "m_wNumMapObjects",
-            "type": "_WORD",
+            "name": "m_nTotalInternalNodesPeds",
+            "type": "int",
+            "offset": "0x45BE0",
+            "size": 4
+        },
+        {
+            "name": "m_nTotalRegisteredMapObjects",
+            "type": "__int16",
             "offset": "0x45BE4",
             "size": 2
         },
         {
-            "name": "word45BE6",
-            "type": "_WORD",
+            "name": "m_nTotalIntermediateNodes",
+            "type": "__int16",
             "offset": "0x45BE6",
             "size": 2
         },
         {
-            "name": "dword45BE8",
-            "type": "_DWORD",
+            "name": "m_nTotalCarPathLinks",
+            "type": "int",
             "offset": "0x45BE8",
             "size": 4
         },
         {
-            "name": "dword45BEC",
-            "type": "_DWORD",
+            "name": "field_45BEC",
+            "type": "int",
             "offset": "0x45BEC",
             "size": 4
+        },
+        {
+            "name": "m_nFillFloodGroups",
+            "type": "char[2]",
+            "offset": "0x45BF0",
+            "size": 2
+        },
+        {
+            "name": "field_127922",
+            "type": "char[2]",
+            "offset": "0x45BF2",
+            "size": 2
+        },
+        {
+            "name": "m_searchNodes",
+            "type": "CPathNode[512]",
+            "offset": "0x45BF4",
+            "size": "0x4000"
         }
     ]
 }

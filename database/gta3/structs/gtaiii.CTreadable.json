@@ -1,0 +1,31 @@
+{
+    "name": "CTreadable",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x94",
+    "alignment": 2,
+    "vtableAddress": "0x5EBFB4",
+    "vtableSize": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "building",
+            "type": "CBuilding",
+            "offset": 0,
+            "size": "0x64"
+        },
+        {
+            "name": "m_aNodesIndicesCarNodes",
+            "type": "__int16[12]",
+            "offset": "0x64",
+            "size": "0x18"
+        },
+        {
+            "name": "m_aNodesIndicesPedNodes",
+            "type": "__int16[12]",
+            "offset": "0x7C",
+            "size": "0x18"
+        }
+    ]
+}

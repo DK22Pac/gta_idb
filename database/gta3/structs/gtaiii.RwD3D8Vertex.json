@@ -9,43 +9,43 @@
     "members": [
         {
             "name": "x",
-            "type": "float",
+            "type": "RwReal",
             "offset": 0,
             "size": 4
         },
         {
             "name": "y",
-            "type": "float",
+            "type": "RwReal",
             "offset": 4,
             "size": 4
         },
         {
             "name": "z",
-            "type": "float",
+            "type": "RwReal",
             "offset": 8,
             "size": 4
         },
         {
             "name": "rhw",
-            "type": "float",
+            "type": "RwReal",
             "offset": "0xC",
             "size": 4
         },
         {
             "name": "emissiveColor",
-            "type": "unsigned int",
+            "type": "RwUInt32",
             "offset": "0x10",
             "size": 4
         },
         {
             "name": "u",
-            "type": "float",
+            "type": "RwReal",
             "offset": "0x14",
             "size": 4
         },
         {
             "name": "v",
-            "type": "float",
+            "type": "RwReal",
             "offset": "0x18",
             "size": 4
         }

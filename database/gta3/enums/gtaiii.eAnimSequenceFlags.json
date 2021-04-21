@@ -1,0 +1,21 @@
+{
+    "name": "eAnimSequenceFlags",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": true,
+    "comment": "",
+    "members": [
+        {
+            "name": "ANIMSEQ_ALLOCATED",
+            "value": "0x1"
+        },
+        {
+            "name": "ANIMSEQ_CONTAINSVECTOR",
+            "value": "0x2"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "name": "eGangType",
+    "module": "",
+    "scope": "",
+    "width": 2,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "GANG_LEONE",
+            "value": 0
+        },
+        {
+            "name": "GANG_TRIAD",
+            "value": 1
+        },
+        {
+            "name": "GANG_DIABLO",
+            "value": 2
+        },
+        {
+            "name": "GANG_YAKUZA",
+            "value": 3
+        },
+        {
+            "name": "GANG_YARDIE",
+            "value": 4
+        },
+        {
+            "name": "GANG_COLOMBIAN",
+            "value": 5
+        },
+        {
+            "name": "GANG_HOOD",
+            "value": 6
+        },
+        {
+            "name": "GANG_FORELLI",
+            "value": 7
+        },
+        {
+            "name": "GANG_SINDACCO",
+            "value": 8
+        }
+    ]
+}

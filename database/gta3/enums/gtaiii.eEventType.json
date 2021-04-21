@@ -1,0 +1,105 @@
+{
+    "name": "eEventType",
+    "module": "",
+    "scope": "",
+    "width": 4,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "EVENT_NONE",
+            "value": 0
+        },
+        {
+            "name": "EVENT_PED_FIGHT",
+            "value": 1
+        },
+        {
+            "name": "EVENT_EVENT2",
+            "value": 2
+        },
+        {
+            "name": "EVENT_COP_FIGHT",
+            "value": 3
+        },
+        {
+            "name": "EVENT_SHOT_FIRED",
+            "value": 4
+        },
+        {
+            "name": "EVENT_DEATH",
+            "value": 5
+        },
+        {
+            "name": "EVENT_DEATH_DELAYED",
+            "value": 6
+        },
+        {
+            "name": "EVENT_FIRE",
+            "value": 7
+        },
+        {
+            "name": "EVENT_CAR_THEFT",
+            "value": 8
+        },
+        {
+            "name": "EVENT_PED_RUN_OVER",
+            "value": 9
+        },
+        {
+            "name": "EVENT_COP_RUN_OVER",
+            "value": 10
+        },
+        {
+            "name": "EVENT_DAMAGED_PED",
+            "value": 11
+        },
+        {
+            "name": "EVENT_DAMAGED_COP",
+            "value": 12
+        },
+        {
+            "name": "EVENT_EXPLOSION",
+            "value": 13
+        },
+        {
+            "name": "EVENT_PED_BURNED",
+            "value": 14
+        },
+        {
+            "name": "EVENT_COP_BURNED",
+            "value": 15
+        },
+        {
+            "name": "EVENT_VEHICLE_BURNED",
+            "value": 16
+        },
+        {
+            "name": "EVENT_PED_STABBED",
+            "value": 17
+        },
+        {
+            "name": "EVENT_2DFX_0",
+            "value": 18
+        },
+        {
+            "name": "EVENT_EVENT19",
+            "value": 19
+        },
+        {
+            "name": "EVENT_2DFX_1",
+            "value": 20
+        },
+        {
+            "name": "EVENT_EVENT21",
+            "value": 21
+        },
+        {
+            "name": "EVENT_2DFX_2",
+            "value": 22
+        }
+    ]
+}
