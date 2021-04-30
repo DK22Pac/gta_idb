@@ -1,6 +1,6 @@
 {
     "name": "tMP3Sample",
-    "module": "",
+    "module": "cMusicManager",
     "scope": "",
     "kind": "struct",
     "size": "0xC",

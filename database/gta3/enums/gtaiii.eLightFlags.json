@@ -1,0 +1,31 @@
+{
+    "name": "eLightFlags",
+    "module": "C2dEffect",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "LIGHTFLAG_LOSCHECK",
+            "value": 1
+        },
+        {
+            "name": "LIGHTFLAG_FOG_NORMAL",
+            "value": 2,
+            "comment": "can have light and fog"
+        },
+        {
+            "name": "LIGHTFLAG_FOG_ALWAYS",
+            "value": 4,
+            "comment": "fog only"
+        },
+        {
+            "name": "LIGHTFLAG_FOG",
+            "value": 6
+        }
+    ]
+}

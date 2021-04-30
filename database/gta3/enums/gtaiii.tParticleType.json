@@ -1,285 +1,285 @@
 {
     "name": "tParticleType",
-    "module": "",
+    "module": "tParticleType",
     "scope": "",
     "width": 0,
     "isClass": false,
-    "isHexademical": true,
+    "isHexademical": false,
     "isSigned": false,
     "isBitfield": false,
     "comment": "",
     "members": [
         {
             "name": "PARTICLE_SPARK",
-            "value": "0x0"
+            "value": 0
         },
         {
             "name": "PARTICLE_SPARK_SMALL",
-            "value": "0x1"
+            "value": 1
         },
         {
             "name": "PARTICLE_WHEEL_DIRT",
-            "value": "0x2"
+            "value": 2
         },
         {
             "name": "PARTICLE_WHEEL_WATER",
-            "value": "0x3"
+            "value": 3
         },
         {
             "name": "PARTICLE_BLOOD",
-            "value": "0x4"
+            "value": 4
         },
         {
             "name": "PARTICLE_BLOOD_SMALL",
-            "value": "0x5"
+            "value": 5
         },
         {
             "name": "PARTICLE_BLOOD_SPURT",
-            "value": "0x6"
+            "value": 6
         },
         {
             "name": "PARTICLE_DEBRIS",
-            "value": "0x7"
+            "value": 7
         },
         {
             "name": "PARTICLE_DEBRIS2",
-            "value": "0x8"
+            "value": 8
         },
         {
             "name": "PARTICLE_WATER",
-            "value": "0x9"
+            "value": 9
         },
         {
             "name": "PARTICLE_FLAME",
-            "value": "0xA"
+            "value": 10
         },
         {
             "name": "PARTICLE_FIREBALL",
-            "value": "0xB"
+            "value": 11
         },
         {
             "name": "PARTICLE_GUNFLASH",
-            "value": "0xC"
+            "value": 12
         },
         {
             "name": "PARTICLE_GUNFLASH_NOANIM",
-            "value": "0xD"
+            "value": 13
         },
         {
             "name": "PARTICLE_GUNSMOKE",
-            "value": "0xE"
+            "value": 14
         },
         {
             "name": "PARTICLE_GUNSMOKE2",
-            "value": "0xF"
+            "value": 15
         },
         {
             "name": "PARTICLE_SMOKE",
-            "value": "0x10"
+            "value": 16
         },
         {
             "name": "PARTICLE_SMOKE_SLOWMOTION",
-            "value": "0x11"
+            "value": 17
         },
         {
             "name": "PARTICLE_GARAGEPAINT_SPRAY",
-            "value": "0x12"
+            "value": 18
         },
         {
             "name": "PARTICLE_SHARD",
-            "value": "0x13"
+            "value": 19
         },
         {
             "name": "PARTICLE_SPLASH",
-            "value": "0x14"
+            "value": 20
         },
         {
             "name": "PARTICLE_CARFLAME",
-            "value": "0x15"
+            "value": 21
         },
         {
             "name": "PARTICLE_STEAM",
-            "value": "0x16"
+            "value": 22
         },
         {
             "name": "PARTICLE_STEAM2",
-            "value": "0x17"
+            "value": 23
         },
         {
             "name": "PARTICLE_STEAM_NY",
-            "value": "0x18"
+            "value": 24
         },
         {
             "name": "PARTICLE_STEAM_NY_SLOWMOTION",
-            "value": "0x19"
+            "value": 25
         },
         {
             "name": "PARTICLE_ENGINE_STEAM",
-            "value": "0x1A"
+            "value": 26
         },
         {
             "name": "PARTICLE_RAINDROP",
-            "value": "0x1B"
+            "value": 27
         },
         {
             "name": "PARTICLE_RAINDROP_SMALL",
-            "value": "0x1C"
+            "value": 28
         },
         {
             "name": "PARTICLE_RAIN_SPLASH",
-            "value": "0x1D"
+            "value": 29
         },
         {
             "name": "PARTICLE_RAIN_SPLASH_BIGGROW",
-            "value": "0x1E"
+            "value": 30
         },
         {
             "name": "PARTICLE_RAIN_SPLASHUP",
-            "value": "0x1F"
+            "value": 31
         },
         {
             "name": "PARTICLE_WATERSPRAY",
-            "value": "0x20"
+            "value": 32
         },
         {
             "name": "PARTICLE_EXPLOSION_MEDIUM",
-            "value": "0x21"
+            "value": 33
         },
         {
             "name": "PARTICLE_EXPLOSION_LARGE",
-            "value": "0x22"
+            "value": 34
         },
         {
             "name": "PARTICLE_EXPLOSION_MFAST",
-            "value": "0x23"
+            "value": 35
         },
         {
             "name": "PARTICLE_EXPLOSION_LFAST",
-            "value": "0x24"
+            "value": 36
         },
         {
             "name": "PARTICLE_CAR_SPLASH",
-            "value": "0x25"
+            "value": 37
         },
         {
             "name": "PARTICLE_BOAT_SPLASH",
-            "value": "0x26"
+            "value": 38
         },
         {
             "name": "PARTICLE_BOAT_THRUSTJET",
-            "value": "0x27"
+            "value": 39
         },
         {
             "name": "PARTICLE_BOAT_WAKE",
-            "value": "0x28"
+            "value": 40
         },
         {
             "name": "PARTICLE_WATER_HYDRANT",
-            "value": "0x29"
+            "value": 41
         },
         {
             "name": "PARTICLE_WATER_CANNON",
-            "value": "0x2A"
+            "value": 42
         },
         {
             "name": "PARTICLE_EXTINGUISH_STEAM",
-            "value": "0x2B"
+            "value": 43
         },
         {
             "name": "PARTICLE_PED_SPLASH",
-            "value": "0x2C"
+            "value": 44
         },
         {
             "name": "PARTICLE_PEDFOOT_DUST",
-            "value": "0x2D"
+            "value": 45
         },
         {
             "name": "PARTICLE_HELI_DUST",
-            "value": "0x2E"
+            "value": 46
         },
         {
             "name": "PARTICLE_HELI_ATTACK",
-            "value": "0x2F"
+            "value": 47
         },
         {
             "name": "PARTICLE_ENGINE_SMOKE",
-            "value": "0x30"
+            "value": 48
         },
         {
             "name": "PARTICLE_ENGINE_SMOKE2",
-            "value": "0x31"
+            "value": 49
         },
         {
             "name": "PARTICLE_CARFLAME_SMOKE",
-            "value": "0x32"
+            "value": 50
         },
         {
             "name": "PARTICLE_FIREBALL_SMOKE",
-            "value": "0x33"
+            "value": 51
         },
         {
             "name": "PARTICLE_PAINT_SMOKE",
-            "value": "0x34"
+            "value": 52
         },
         {
             "name": "PARTICLE_TREE_LEAVES",
-            "value": "0x35"
+            "value": 53
         },
         {
             "name": "PARTICLE_CARCOLLISION_DUST",
-            "value": "0x36"
+            "value": 54
         },
         {
             "name": "PARTICLE_CAR_DEBRIS",
-            "value": "0x37"
+            "value": 55
         },
         {
             "name": "PARTICLE_HELI_DEBRIS",
-            "value": "0x38"
+            "value": 56
         },
         {
             "name": "PARTICLE_EXHAUST_FUMES",
-            "value": "0x39"
+            "value": 57
         },
         {
             "name": "PARTICLE_RUBBER_SMOKE",
-            "value": "0x3A"
+            "value": 58
         },
         {
             "name": "PARTICLE_BURNINGRUBBER_SMOKE",
-            "value": "0x3B"
+            "value": 59
         },
         {
             "name": "PARTICLE_BULLETHIT_SMOKE",
-            "value": "0x3C"
+            "value": 60
         },
         {
             "name": "PARTICLE_GUNSHELL_FIRST",
-            "value": "0x3D"
+            "value": 61
         },
         {
             "name": "PARTICLE_GUNSHELL",
-            "value": "0x3E"
+            "value": 62
         },
         {
             "name": "PARTICLE_GUNSHELL_BUMP1",
-            "value": "0x3F"
+            "value": 63
         },
         {
             "name": "PARTICLE_GUNSHELL_BUMP2",
-            "value": "0x40"
+            "value": 64
         },
         {
             "name": "PARTICLE_TEST",
-            "value": "0x41"
+            "value": 65
         },
         {
             "name": "PARTICLE_BIRD_FRONT",
-            "value": "0x42"
+            "value": 66
         },
         {
             "name": "PARTICLE_RAINDROP_2D",
-            "value": "0x43"
+            "value": 67
         }
     ]
 }

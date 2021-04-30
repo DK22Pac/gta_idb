@@ -1,8 +1,8 @@
 {
-    "name": "eLevelName",
-    "module": "eLevelName",
+    "name": "eParticleObjectState",
+    "module": "",
     "scope": "",
-    "width": 4,
+    "width": 0,
     "isClass": false,
     "isHexademical": false,
     "isSigned": false,
@@ -10,19 +10,19 @@
     "comment": "",
     "members": [
         {
-            "name": "GENERIC",
+            "name": "POBJECTSTATE_INITIALISED",
             "value": 0
         },
         {
-            "name": "PORTLAND",
+            "name": "POBJECTSTATE_UPDATE_CLOSE",
             "value": 1
         },
         {
-            "name": "STAUNTON_ISLAND",
+            "name": "POBJECTSTATE_UPDATE_FAR",
             "value": 2
         },
         {
-            "name": "SHORESIDE_VALE",
+            "name": "POBJECTSTATE_FREE",
             "value": 3
         }
     ]

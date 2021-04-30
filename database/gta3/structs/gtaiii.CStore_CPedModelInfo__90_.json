@@ -1,10 +1,10 @@
 {
-    "name": "TimeModelStore",
+    "name": "CStore<CPedModelInfo, 90>",
     "module": "",
     "scope": "",
     "kind": "class",
-    "size": "0xA54",
-    "alignment": 0,
+    "size": "0x1954",
+    "alignment": 2,
     "comment": "",
     "members": [
         {
@@ -15,9 +15,9 @@
         },
         {
             "name": "m_sObject",
-            "type": "CTimeModelInfo[30]",
+            "type": "CPedModelInfo[90]",
             "offset": 4,
-            "size": "0xA50"
+            "size": "0x1950"
         }
     ]
 }

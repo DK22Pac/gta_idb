@@ -1,6 +1,6 @@
 {
-    "name": "eLevelName",
-    "module": "eLevelName",
+    "name": "eZoneType",
+    "module": "eZoneType",
     "scope": "",
     "width": 4,
     "isClass": false,
@@ -10,19 +10,19 @@
     "comment": "",
     "members": [
         {
-            "name": "GENERIC",
+            "name": "ZONE_DEFAULT",
             "value": 0
         },
         {
-            "name": "PORTLAND",
+            "name": "ZONE_NAVIG",
             "value": 1
         },
         {
-            "name": "STAUNTON_ISLAND",
+            "name": "ZONE_INFO",
             "value": 2
         },
         {
-            "name": "SHORESIDE_VALE",
+            "name": "ZONE_MAPZONE",
             "value": 3
         }
     ]

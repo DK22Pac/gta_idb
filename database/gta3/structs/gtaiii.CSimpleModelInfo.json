@@ -1,43 +1,35 @@
 {
     "name": "CSimpleModelInfo",
-    "module": "",
+    "module": "CSimpleModelInfo",
     "scope": "",
     "kind": "class",
     "size": "0x4C",
     "alignment": 2,
+    "hasVectorDeletingDtor": true,
     "vtableAddress": "0x5FDF98",
-    "vtableSize": 0,
+    "vtableSize": 6,
     "comment": "",
     "members": [
         {
-            "name": "basemodelinfo",
+            "name": "base",
             "type": "CBaseModelInfo",
             "offset": 0,
-            "size": "0x30"
+            "size": "0x30",
+            "isBase": true
         },
         {
             "name": "m_apAtomics",
-            "type": "RpAtomic *[2]",
+            "type": "RpAtomic *[3]",
             "offset": "0x30",
-            "size": 8
+            "size": "0xC",
+            "comment": "m_apAtomics[2] is often a pointer to the non-LOD modelinfo"
         },
         {
-            "name": "uSimple",
-            "type": "uSimple",
-            "offset": "0x38",
-            "size": 4
-        },
-        {
-            "name": "m_fLoadDistances",
-            "type": "float[2]",
+            "name": "m_afLodDistances",
+            "type": "float[3]",
             "offset": "0x3C",
-            "size": 8
-        },
-        {
-            "name": "m_fLodModelDistance",
-            "type": "float",
-            "offset": "0x44",
-            "size": 4
+            "size": "0xC",
+            "comment": "m_afLodDistances[2] holds the near distance for LODs"
         },
         {
             "name": "m_nNumAtomics",
@@ -49,13 +41,15 @@
             "name": "m_nVisibility",
             "type": "unsigned __int8",
             "offset": "0x49",
-            "size": 1
+            "size": 1,
+            "comment": "0 - invisible, 255 - fully visible"
         },
         {
             "name": "m_nSimpleModelFlags",
-            "type": "unsigned __int16",
+            "type": "eSimpleModelFlags",
             "offset": "0x4A",
-            "size": 2
+            "size": 2,
+            "isBitfield": true
         }
     ]
 }

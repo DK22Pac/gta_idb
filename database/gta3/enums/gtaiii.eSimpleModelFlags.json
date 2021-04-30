@@ -1,0 +1,55 @@
+{
+    "name": "eSimpleModelFlags",
+    "module": "CSimpleModelInfo",
+    "scope": "",
+    "width": 2,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "FirstDamaged",
+            "value": 1,
+            "bitWidth": 2,
+            "comment": "0 no damage model, 1 and 2 are damage models, 2 is damage model"
+        },
+        {
+            "name": "NormalCull",
+            "value": 2
+        },
+        {
+            "name": "IsDamaged",
+            "value": 3
+        },
+        {
+            "name": "IsBigBuilding",
+            "value": 4
+        },
+        {
+            "name": "NoFade",
+            "value": 5
+        },
+        {
+            "name": "Draw_Last",
+            "value": 6
+        },
+        {
+            "name": "Additive",
+            "value": 7
+        },
+        {
+            "name": "Is_Subway",
+            "value": 8
+        },
+        {
+            "name": "IgnoreLight",
+            "value": 9
+        },
+        {
+            "name": "NoZwrite",
+            "value": 10
+        }
+    ]
+}

@@ -1,19 +1,21 @@
 {
     "name": "CBuilding",
-    "module": "",
+    "module": "CBuilding",
     "scope": "",
     "kind": "class",
     "size": "0x64",
     "alignment": 0,
+    "hasVectorDeletingDtor": true,
     "vtableAddress": "0x5EBF44",
-    "vtableSize": 0,
+    "vtableSize": 18,
     "comment": "",
     "members": [
         {
-            "name": "entity",
+            "name": "base",
             "type": "CEntity",
             "offset": 0,
-            "size": "0x64"
+            "size": "0x64",
+            "comment": " isbase:true"
         }
     ]
 }

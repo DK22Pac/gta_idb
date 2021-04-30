@@ -6,7 +6,7 @@
     "size": "0x64",
     "alignment": 2,
     "vtableAddress": "0x5F11A8",
-    "vtableSize": 0,
+    "vtableSize": 17,
     "comment": "",
     "members": [
         {
@@ -17,8 +17,8 @@
             "comment": " isbase:true"
         },
         {
-            "name": "m_pObject",
-            "type": "uRwObject",
+            "name": "m_pRwObject",
+            "type": "RwObject *",
             "offset": "0x4C",
             "size": 4
         },
@@ -30,15 +30,10 @@
         },
         {
             "name": "m_nEntityFlags",
-            "type": "unsigned __int8[5]",
+            "type": "eEntityFlags[5]",
             "offset": "0x51",
-            "size": 5
-        },
-        {
-            "name": "_pad",
-            "type": "char[2]",
-            "offset": "0x56",
-            "size": 2
+            "size": 5,
+            "isBitfield": true
         },
         {
             "name": "m_nScanCode",

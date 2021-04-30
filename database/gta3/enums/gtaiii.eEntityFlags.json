@@ -1,0 +1,155 @@
+{
+    "name": "eEntityFlags",
+    "module": "CEntity",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "UsesCollision",
+            "value": 1,
+            "comment": "does entity use collision"
+        },
+        {
+            "name": "CollisionProcessed",
+            "value": 2,
+            "comment": "has object been processed by a ProcessEntityCollision function"
+        },
+        {
+            "name": "IsStatic",
+            "value": 3,
+            "comment": "is entity static"
+        },
+        {
+            "name": "HasContacted",
+            "value": 4,
+            "comment": "has entity processed some contact forces"
+        },
+        {
+            "name": "PedPhysics",
+            "value": 5
+        },
+        {
+            "name": "IsStuck",
+            "value": 6,
+            "comment": "is entity stuck"
+        },
+        {
+            "name": "IsInSafePosition",
+            "value": 7,
+            "comment": "is entity in a collision free safe position"
+        },
+        {
+            "name": "UseCollisionRecords",
+            "value": 8
+        },
+        {
+            "name": "WasPostponed",
+            "value": 9
+        },
+        {
+            "name": "ExplosionProof",
+            "value": 10
+        },
+        {
+            "name": "IsVisible",
+            "value": 11
+        },
+        {
+            "name": "HasCollided",
+            "value": 12
+        },
+        {
+            "name": "RenderScorched",
+            "value": 13
+        },
+        {
+            "name": "HasBlip",
+            "value": 14
+        },
+        {
+            "name": "IsBIGBuilding",
+            "value": 15
+        },
+        {
+            "name": "RenderDamaged",
+            "value": 16
+        },
+        {
+            "name": "BulletProof",
+            "value": 17
+        },
+        {
+            "name": "FireProof",
+            "value": 18
+        },
+        {
+            "name": "CollisionProof",
+            "value": 19
+        },
+        {
+            "name": "MeleeProof",
+            "value": 20
+        },
+        {
+            "name": "OnlyDamagedByPlayer",
+            "value": 21
+        },
+        {
+            "name": "StreamingDontDelete",
+            "value": 22
+        },
+        {
+            "name": "ZoneCulled",
+            "value": 23
+        },
+        {
+            "name": "ZoneCulled2",
+            "value": 24
+        },
+        {
+            "name": "RemoveFromWorld",
+            "value": 25
+        },
+        {
+            "name": "HasHitWall",
+            "value": 26
+        },
+        {
+            "name": "ImBeingRendered",
+            "value": 27
+        },
+        {
+            "name": "TouchingWater",
+            "value": 28
+        },
+        {
+            "name": "IsSubway",
+            "value": 29
+        },
+        {
+            "name": "DrawLast",
+            "value": 30
+        },
+        {
+            "name": "NoBrightHeadLights",
+            "value": 31
+        },
+        {
+            "name": "DoNotRender",
+            "value": 32
+        },
+        {
+            "name": "DistanceFade",
+            "value": 33
+        },
+        {
+            "name": "Flag34",
+            "value": 34
+        }
+    ]
+}

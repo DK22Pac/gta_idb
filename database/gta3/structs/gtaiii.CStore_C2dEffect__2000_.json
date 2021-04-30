@@ -1,10 +1,10 @@
 {
-    "name": "VehicleModelStore",
+    "name": "CStore<C2dEffect, 2000>",
     "module": "",
     "scope": "",
     "kind": "class",
-    "size": "0xEC44",
-    "alignment": 0,
+    "size": "0x19644",
+    "alignment": 2,
     "comment": "",
     "members": [
         {
@@ -15,9 +15,9 @@
         },
         {
             "name": "m_sObject",
-            "type": "CVehicleModelInfo[120]",
+            "type": "C2dEffect[2000]",
             "offset": 4,
-            "size": "0xEC40"
+            "size": "0x19640"
         }
     ]
 }

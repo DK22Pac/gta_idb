@@ -1,9 +1,9 @@
 {
-    "name": "MloInstanceStore",
+    "name": "CStore<CMloModelInfo, 1>",
     "module": "",
     "scope": "",
     "kind": "class",
-    "size": "0x54",
+    "size": "0x44",
     "alignment": 0,
     "comment": "",
     "members": [
@@ -15,9 +15,9 @@
         },
         {
             "name": "m_sObject",
-            "type": "CInstance[1]",
+            "type": "CMloModelInfo[1]",
             "offset": 4,
-            "size": "0x50"
+            "size": "0x40"
         }
     ]
 }

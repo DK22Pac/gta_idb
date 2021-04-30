@@ -1,0 +1,93 @@
+{
+    "name": "eParticleObjectType",
+    "module": "eParticleObjectType",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "POBJECT_PAVEMENT_STEAM",
+            "value": 0
+        },
+        {
+            "name": "POBJECT_PAVEMENT_STEAM_SLOWMOTION",
+            "value": 1
+        },
+        {
+            "name": "POBJECT_WALL_STEAM",
+            "value": 2
+        },
+        {
+            "name": "POBJECT_WALL_STEAM_SLOWMOTION",
+            "value": 3
+        },
+        {
+            "name": "POBJECT_DARK_SMOKE",
+            "value": 4
+        },
+        {
+            "name": "POBJECT_FIRE_HYDRANT",
+            "value": 5
+        },
+        {
+            "name": "POBJECT_CAR_WATER_SPLASH",
+            "value": 6
+        },
+        {
+            "name": "POBJECT_PED_WATER_SPLASH",
+            "value": 7
+        },
+        {
+            "name": "POBJECT_SPLASHES_AROUND",
+            "value": 8
+        },
+        {
+            "name": "POBJECT_SMALL_FIRE",
+            "value": 9
+        },
+        {
+            "name": "POBJECT_BIG_FIRE",
+            "value": 10
+        },
+        {
+            "name": "POBJECT_DRY_ICE",
+            "value": 11
+        },
+        {
+            "name": "POBJECT_DRY_ICE_SLOWMOTION",
+            "value": 12
+        },
+        {
+            "name": "POBJECT_FIRE_TRAIL",
+            "value": 13
+        },
+        {
+            "name": "POBJECT_SMOKE_TRAIL",
+            "value": 14
+        },
+        {
+            "name": "POBJECT_FIREBALL_AND_SMOKE",
+            "value": 15
+        },
+        {
+            "name": "POBJECT_ROCKET_TRAIL",
+            "value": 16
+        },
+        {
+            "name": "POBJECT_EXPLOSION_ONCE",
+            "value": 17
+        },
+        {
+            "name": "POBJECT_CATALINAS_GUNFLASH",
+            "value": 18
+        },
+        {
+            "name": "POBJECT_CATALINAS_SHOTGUNFLASH",
+            "value": 19
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "name": "eAudioEntityHandle",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "AEHANDLE_NONE",
+            "value": "0xFFFFFFFB"
+        },
+        {
+            "name": "AEHANDLE_ERROR_NOAUDIOSYS",
+            "value": "0xFFFFFFFC"
+        },
+        {
+            "name": "AEHANDLE_ERROR_NOFREESLOT",
+            "value": "0xFFFFFFFD"
+        },
+        {
+            "name": "AEHANDLE_ERROR_NOENTITY",
+            "value": "0xFFFFFFFE"
+        },
+        {
+            "name": "AEHANDLE_ERROR_BADAUDIOTYPE",
+            "value": "0xFFFFFFFF"
+        }
+    ]
+}

@@ -1,6 +1,6 @@
 {
     "name": "C2deffectsModelInfo",
-    "module": "",
+    "module": "C2deffectsModelInfo",
     "scope": "",
     "kind": "class",
     "size": "0x34",
@@ -8,10 +8,11 @@
     "comment": "",
     "members": [
         {
-            "name": "clumpmodelinfo",
+            "name": "base",
             "type": "CClumpModelInfo",
             "offset": 0,
-            "size": "0x34"
+            "size": "0x34",
+            "isBase": true
         }
     ]
 }

@@ -5,9 +5,10 @@
     "kind": "class",
     "size": "0x30",
     "alignment": 2,
+    "hasVectorDeletingDtor": true,
     "vtableAddress": "0x5FAB58",
-    "vtableSize": 0,
-    "comment": "",
+    "vtableSize": 2,
+    "comment": "CBaseModelInfo       // base, abstract class;;     |;;     |;;     +---CSimpleModelInfo       // (static) map object;;     |      |;;     |      |;;     |      +---CTimeModelInfo         // map time object (night objects);;     |;;     |;;     +---CClumpModelInfo        // (dynamic) object with hierarchy;;            |;;            |;;            +---CVehicleModelInfo      // vehicle;;            |;;            |;;            +---CPedModelInfo          // ped;;            |;;            |;;            +---CMloModelInfo          // 'sta' section;;            |;;            |;;            +---CXtraCompsModelInfo    // ped parts?;;            |;;            |;;            +---C2deffectsModelInfo;;",
     "members": [
         {
             "name": "vtable",
@@ -53,7 +54,7 @@
         },
         {
             "name": "m_nType",
-            "type": "eModelInfoType",
+            "type": "ModelInfoType",
             "offset": "0x2A",
             "size": 1
         },
@@ -68,12 +69,6 @@
             "type": "bool",
             "offset": "0x2C",
             "size": 1
-        },
-        {
-            "name": "_pad2D",
-            "type": "char[3]",
-            "offset": "0x2D",
-            "size": 3
         }
     ]
 }

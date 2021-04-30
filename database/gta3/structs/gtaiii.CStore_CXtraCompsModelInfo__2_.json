@@ -1,9 +1,9 @@
 {
-    "name": "PedModelStore",
+    "name": "CStore<CXtraCompsModelInfo, 2>",
     "module": "",
     "scope": "",
     "kind": "class",
-    "size": "0x1954",
+    "size": "0x74",
     "alignment": 2,
     "comment": "",
     "members": [
@@ -15,9 +15,9 @@
         },
         {
             "name": "m_sObject",
-            "type": "CPedModelInfo[90]",
+            "type": "CXtraCompsModelInfo[2]",
             "offset": 4,
-            "size": "0x1950"
+            "size": "0x70"
         }
     ]
 }

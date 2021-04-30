@@ -1,29 +1,31 @@
 {
     "name": "CTimeModelInfo",
-    "module": "",
+    "module": "CTimeModelInfo",
     "scope": "",
     "kind": "class",
     "size": "0x58",
-    "alignment": 0,
+    "alignment": 2,
+    "hasVectorDeletingDtor": true,
     "vtableAddress": "0x5FDFB8",
-    "vtableSize": 0,
+    "vtableSize": 6,
     "comment": "",
     "members": [
         {
-            "name": "simplemodelinfo",
+            "name": "base",
             "type": "CSimpleModelInfo",
             "offset": 0,
-            "size": "0x4C"
+            "size": "0x4C",
+            "isBase": true
         },
         {
             "name": "m_nStartHour",
-            "type": "unsigned int",
+            "type": "int",
             "offset": "0x4C",
             "size": 4
         },
         {
             "name": "m_nEndHour",
-            "type": "unsigned int",
+            "type": "int",
             "offset": "0x50",
             "size": 4
         },

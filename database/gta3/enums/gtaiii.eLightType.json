@@ -1,0 +1,73 @@
+{
+    "name": "eLightType",
+    "module": "C2dEffect",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "LIGHT_ON",
+            "value": 0
+        },
+        {
+            "name": "LIGHT_ON_NIGHT",
+            "value": 1
+        },
+        {
+            "name": "LIGHT_FLICKER",
+            "value": 2
+        },
+        {
+            "name": "LIGHT_FLICKER_NIGHT",
+            "value": 3
+        },
+        {
+            "name": "LIGHT_FLASH1",
+            "value": 4
+        },
+        {
+            "name": "LIGHT_FLASH1_NIGHT",
+            "value": 5
+        },
+        {
+            "name": "LIGHT_FLASH2",
+            "value": 6
+        },
+        {
+            "name": "LIGHT_FLASH2_NIGHT",
+            "value": 7
+        },
+        {
+            "name": "LIGHT_FLASH3",
+            "value": 8
+        },
+        {
+            "name": "LIGHT_FLASH3_NIGHT",
+            "value": 9
+        },
+        {
+            "name": "LIGHT_RANDOM_FLICKER",
+            "value": 10
+        },
+        {
+            "name": "LIGHT_RANDOM_FLICKER_NIGHT",
+            "value": 11
+        },
+        {
+            "name": "LIGHT_SPECIAL",
+            "value": 12
+        },
+        {
+            "name": "LIGHT_BRIDGE_FLASH1",
+            "value": 13
+        },
+        {
+            "name": "LIGHT_BRIDGE_FLASH2",
+            "value": 14
+        }
+    ]
+}

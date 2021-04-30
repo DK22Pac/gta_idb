@@ -1,8 +1,8 @@
 {
     "name": "ePedStats",
-    "module": "",
+    "module": "ePedStats",
     "scope": "",
-    "width": 0,
+    "width": 4,
     "isClass": false,
     "isHexademical": false,
     "isSigned": false,

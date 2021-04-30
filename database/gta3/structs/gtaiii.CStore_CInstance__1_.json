@@ -1,9 +1,9 @@
 {
-    "name": "ClumpModelStore",
+    "name": "CStore<CInstance, 1>",
     "module": "",
     "scope": "",
     "kind": "class",
-    "size": "0x108",
+    "size": "0x54",
     "alignment": 0,
     "comment": "",
     "members": [
@@ -15,9 +15,9 @@
         },
         {
             "name": "m_sObject",
-            "type": "CClumpModelInfo[5]",
+            "type": "CInstance[1]",
             "offset": 4,
-            "size": "0x104"
+            "size": "0x50"
         }
     ]
 }

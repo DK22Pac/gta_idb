@@ -1,0 +1,21 @@
+{
+    "name": "eAttractorType",
+    "module": "C2dEffect",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "ATTRACTORTYPE_ICECREAM",
+            "value": 0
+        },
+        {
+            "name": "ATTRACTORTYPE_STARE",
+            "value": 1
+        }
+    ]
+}

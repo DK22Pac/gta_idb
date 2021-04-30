@@ -1,45 +1,45 @@
 {
     "name": "eEntityType",
-    "module": "",
+    "module": "CEntity",
     "scope": "",
     "width": 0,
     "isClass": false,
-    "isHexademical": true,
+    "isHexademical": false,
     "isSigned": false,
     "isBitfield": false,
     "comment": "",
     "members": [
         {
             "name": "ENTITY_TYPE_NOTHING",
-            "value": "0x0"
+            "value": 0
         },
         {
             "name": "ENTITY_TYPE_BUILDING",
-            "value": "0x1"
+            "value": 1
         },
         {
             "name": "ENTITY_TYPE_VEHICLE",
-            "value": "0x2"
+            "value": 2
         },
         {
             "name": "ENTITY_TYPE_PED",
-            "value": "0x3"
+            "value": 3
         },
         {
             "name": "ENTITY_TYPE_OBJECT",
-            "value": "0x4"
+            "value": 4
         },
         {
             "name": "ENTITY_TYPE_DUMMY",
-            "value": "0x5"
+            "value": 5
         },
         {
             "name": "ENTITY_TYPE_NOTINPOOLS",
-            "value": "0x6"
+            "value": 6
         },
         {
             "name": "ENTITY_TYPE_7",
-            "value": "0x7"
+            "value": 7
         }
     ]
 }

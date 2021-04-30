@@ -1,19 +1,21 @@
 {
     "name": "CClumpModelInfo",
-    "module": "",
+    "module": "CClumpModelInfo",
     "scope": "",
     "kind": "class",
     "size": "0x34",
     "alignment": 2,
+    "hasVectorDeletingDtor": true,
     "vtableAddress": "0x5FE020",
-    "vtableSize": 0,
+    "vtableSize": 7,
     "comment": "",
     "members": [
         {
-            "name": "basemodelinfo",
+            "name": "base",
             "type": "CBaseModelInfo",
             "offset": 0,
-            "size": "0x30"
+            "size": "0x30",
+            "isBase": true
         },
         {
             "name": "m_pClump",

@@ -1,241 +1,241 @@
 {
     "name": "ePedState",
-    "module": "",
+    "module": "ePedState",
     "scope": "",
     "width": 0,
     "isClass": false,
-    "isHexademical": true,
+    "isHexademical": false,
     "isSigned": false,
     "isBitfield": false,
     "comment": "",
     "members": [
         {
             "name": "PEDSTATE_NONE",
-            "value": "0x0"
+            "value": 0
         },
         {
             "name": "PEDSTATE_IDLE",
-            "value": "0x1"
+            "value": 1
         },
         {
             "name": "PEDSTATE_LOOK_ENTITY",
-            "value": "0x2"
+            "value": 2
         },
         {
             "name": "PEDSTATE_LOOK_HEADING",
-            "value": "0x3"
+            "value": 3
         },
         {
             "name": "PEDSTATE_WANDER_RANGE",
-            "value": "0x4"
+            "value": 4
         },
         {
             "name": "PEDSTATE_WANDER_PATH",
-            "value": "0x5"
+            "value": 5
         },
         {
             "name": "PEDSTATE_SEEK_POSITION",
-            "value": "0x6"
+            "value": 6
         },
         {
             "name": "PEDSTATE_SEEK_ENTITY",
-            "value": "0x7"
+            "value": 7
         },
         {
             "name": "PEDSTATE_FLEE_POSITION",
-            "value": "0x8"
+            "value": 8
         },
         {
             "name": "PEDSTATE_FLEE_ENTITY",
-            "value": "0x9"
+            "value": 9
         },
         {
-            "name": "PEDSTATE_A",
-            "value": "0xA"
+            "name": "PEDSTATE_PURSUE",
+            "value": 10
         },
         {
             "name": "PEDSTATE_FOLLOW_PATH",
-            "value": "0xB"
+            "value": 11
         },
         {
-            "name": "PEDSTATE_C",
-            "value": "0xC"
+            "name": "PEDSTATE_SNIPER_MODE",
+            "value": 12
         },
         {
-            "name": "PEDSTATE_D",
-            "value": "0xD"
+            "name": "PEDSTATE_ROCKET_MODE",
+            "value": 13
         },
         {
-            "name": "PEDSTATE_E",
-            "value": "0xE"
+            "name": "PEDSTATE_DUMMY",
+            "value": 14
         },
         {
             "name": "PEDSTATE_PAUSE",
-            "value": "0xF"
+            "value": 15
         },
         {
             "name": "PEDSTATE_ATTACK",
-            "value": "0x10"
+            "value": 16
         },
         {
             "name": "PEDSTATE_FIGHT",
-            "value": "0x11"
+            "value": 17
         },
         {
             "name": "PEDSTATE_FACE_PHONE",
-            "value": "0x12"
+            "value": 18
         },
         {
             "name": "PEDSTATE_MAKE_PHONECALL",
-            "value": "0x13"
+            "value": 19
         },
         {
             "name": "PEDSTATE_CHAT",
-            "value": "0x14"
+            "value": 20
         },
         {
             "name": "PEDSTATE_MUG",
-            "value": "0x15"
+            "value": 21
         },
         {
             "name": "PEDSTATE_AIMGUN",
-            "value": "0x16"
+            "value": 22
         },
         {
-            "name": "PEDSTATE_17",
-            "value": "0x17"
+            "name": "PEDSTATE_AI_CONTROL",
+            "value": 23
         },
         {
             "name": "PEDSTATE_SEEK_CAR",
-            "value": "0x18"
+            "value": 24
         },
         {
-            "name": "SEEK_BOAT_POSITION",
-            "value": "0x19"
+            "name": "PEDSTATE_SEEK_IN_BOAT",
+            "value": 25
         },
         {
-            "name": "PEDSTATE_1A",
-            "value": "0x1A"
+            "name": "PEDSTATE_FOLLOW_ROUTE",
+            "value": 26
         },
         {
             "name": "PEDSTATE_CPR",
-            "value": "0x1B"
+            "value": 27
         },
         {
             "name": "PEDSTATE_SOLICIT",
-            "value": "0x1C"
+            "value": 28
         },
         {
-            "name": "PEDSTATE_1D",
-            "value": "0x1D"
+            "name": "PEDSTATE_BUY_ICECREAM",
+            "value": 29
         },
         {
-            "name": "PEDSTATE_INVESTIGATE_EVENT",
-            "value": "0x1E"
+            "name": "PEDSTATE_INVESTIGATE",
+            "value": 30
         },
         {
-            "name": "PEDSTATE_1F",
-            "value": "0x1F"
+            "name": "PEDSTATE_STEP_AWAY",
+            "value": 31
         },
         {
             "name": "PEDSTATE_ON_FIRE",
-            "value": "0x20"
+            "value": 32
         },
         {
             "name": "PEDSTATE_HANG_OUT",
-            "value": "0x21"
+            "value": 33
         },
         {
-            "name": "PEDSTATE_22",
-            "value": "0x22"
+            "name": "PEDSTATE_STATES_NO_AI",
+            "value": 34
         },
         {
             "name": "PEDSTATE_JUMP",
-            "value": "0x23"
+            "value": 35
         },
         {
             "name": "PEDSTATE_FALL",
-            "value": "0x24"
+            "value": 36
         },
         {
             "name": "PEDSTATE_GETUP",
-            "value": "0x25"
+            "value": 37
         },
         {
-            "name": "PEDSTATE_26",
-            "value": "0x26"
+            "name": "PEDSTATE_STAGGER",
+            "value": 38
         },
         {
-            "name": "PEDSTATE_27",
-            "value": "0x27"
+            "name": "PEDSTATE_DIVE_AWAY",
+            "value": 39
         },
         {
             "name": "PEDSTATE_CAN_SHOOT",
-            "value": "0x28"
+            "value": 40
         },
         {
             "name": "PEDSTATE_ENTER_TRAIN",
-            "value": "0x29"
+            "value": 41
         },
         {
             "name": "PEDSTATE_EXIT_TRAIN",
-            "value": "0x2A"
+            "value": 42
         },
         {
             "name": "PEDSTATE_ARREST_PLAYER",
-            "value": "0x2B"
+            "value": 43
         },
         {
             "name": "PEDSTATE_DRIVING",
-            "value": "0x2C"
+            "value": 44
         },
         {
-            "name": "PEDSTATE_2D",
-            "value": "0x2D"
+            "name": "PEDSTATE_PASSENGER",
+            "value": 45
         },
         {
-            "name": "PEDSTATE_2E",
-            "value": "0x2E"
+            "name": "PEDSTATE_TAXI_PASSENGER",
+            "value": 46
         },
         {
-            "name": "PEDSTATE_2F",
-            "value": "0x2F"
+            "name": "PEDSTATE_OPEN_DOOR",
+            "value": 47
         },
         {
             "name": "PEDSTATE_DIE",
-            "value": "0x30"
+            "value": 48
         },
         {
             "name": "PEDSTATE_DEAD",
-            "value": "0x31"
+            "value": 49
         },
         {
             "name": "PEDSTATE_CARJACK",
-            "value": "0x32"
+            "value": 50
         },
         {
-            "name": "PEDSTATE_33",
-            "value": "0x33"
+            "name": "PEDSTATE_DRAG_FROM_CAR",
+            "value": 51
         },
         {
             "name": "PEDSTATE_ENTER_CAR",
-            "value": "0x34"
+            "value": 52
         },
         {
-            "name": "PEDSTATE_35",
-            "value": "0x35"
+            "name": "PEDSTATE_STEAL_CAR",
+            "value": 53
         },
         {
             "name": "PEDSTATE_EXIT_CAR",
-            "value": "0x36"
+            "value": 54
         },
         {
-            "name": "PEDSTATE_37",
-            "value": "0x37"
+            "name": "PEDSTATE_HANDS_UP",
+            "value": 55
         },
         {
             "name": "PEDSTATE_ARRESTED",
-            "value": "0x38"
+            "value": 56
         }
     ]
 }

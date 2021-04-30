@@ -1,8 +1,8 @@
 {
     "name": "ePedType",
-    "module": "",
+    "module": "ePedType",
     "scope": "",
-    "width": 0,
+    "width": 4,
     "isClass": false,
     "isHexademical": false,
     "isSigned": false,
@@ -74,11 +74,11 @@
             "value": 15
         },
         {
-            "name": "PEDTYPE_MEDIC",
+            "name": "PEDTYPE_EMERGENCY",
             "value": 16
         },
         {
-            "name": "PEDTYPE_FIRE",
+            "name": "PEDTYPE_FIREMAN",
             "value": 17
         },
         {
@@ -86,7 +86,7 @@
             "value": 18
         },
         {
-            "name": "PEDTYPE_BUM",
+            "name": "PEDTYPE_UNUSED1",
             "value": 19
         },
         {
@@ -102,7 +102,7 @@
             "value": 22
         },
         {
-            "name": "PEDTYPE_UNKNOWN",
+            "name": "PEDTYPE_UNUSED2",
             "value": 23
         }
     ]

@@ -1,0 +1,23 @@
+{
+    "name": "FrameSearchData",
+    "module": "CClumpModelInfo",
+    "scope": "",
+    "kind": "struct",
+    "size": 8,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "name",
+            "type": "const char *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "result",
+            "type": "RwFrame *",
+            "offset": 4,
+            "size": 4
+        }
+    ]
+}

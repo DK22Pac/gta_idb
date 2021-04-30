@@ -1,19 +1,20 @@
 {
     "name": "CXtraCompsModelInfo",
-    "module": "",
+    "module": "CXtraCompsModelInfo",
     "scope": "",
     "kind": "class",
     "size": "0x38",
     "alignment": 2,
     "vtableAddress": "0x5FE044",
-    "vtableSize": 0,
+    "vtableSize": 7,
     "comment": "",
     "members": [
         {
-            "name": "clumpmodelinfo",
+            "name": "base",
             "type": "CClumpModelInfo",
             "offset": 0,
-            "size": "0x34"
+            "size": "0x34",
+            "isBase": true
         },
         {
             "name": "m_nModelIndex",

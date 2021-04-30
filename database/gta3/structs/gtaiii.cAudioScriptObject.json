@@ -1,6 +1,6 @@
 {
     "name": "cAudioScriptObject",
-    "module": "",
+    "module": "cAudioScriptObject",
     "scope": "",
     "kind": "class",
     "size": "0x14",
@@ -8,28 +8,29 @@
     "comment": "",
     "members": [
         {
-            "name": "m_nSound",
-            "type": "__int16",
+            "name": "m_nEventId",
+            "type": "unsigned __int16",
             "offset": 0,
             "size": 2
         },
         {
-            "name": "_gap2",
+            "name": "_pad2",
             "type": "char[2]",
             "offset": 2,
             "size": 2
         },
         {
-            "name": "m_vecPos",
+            "name": "m_vecPosition",
             "type": "CVector",
             "offset": 4,
             "size": "0xC"
         },
         {
-            "name": "m_nAudioEntityId",
+            "name": "m_nStatusIndex",
             "type": "int",
             "offset": "0x10",
-            "size": 4
+            "size": 4,
+            "comment": ">=0 - sound index, <0 - error status"
         }
     ]
 }

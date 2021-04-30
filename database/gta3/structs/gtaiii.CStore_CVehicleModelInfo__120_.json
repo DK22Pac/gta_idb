@@ -1,9 +1,9 @@
 {
-    "name": "MloModelStore",
+    "name": "CStore<CVehicleModelInfo, 120>",
     "module": "",
     "scope": "",
     "kind": "class",
-    "size": "0x44",
+    "size": "0xEC44",
     "alignment": 0,
     "comment": "",
     "members": [
@@ -15,9 +15,9 @@
         },
         {
             "name": "m_sObject",
-            "type": "CMloModelInfo[1]",
+            "type": "CVehicleModelInfo[120]",
             "offset": 4,
-            "size": "0x40"
+            "size": "0xEC40"
         }
     ]
 }

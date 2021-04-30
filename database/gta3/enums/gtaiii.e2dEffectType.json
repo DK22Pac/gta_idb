@@ -1,8 +1,8 @@
 {
-    "name": "eLevelName",
-    "module": "eLevelName",
+    "name": "e2dEffectType",
+    "module": "C2dEffect",
     "scope": "",
-    "width": 4,
+    "width": 1,
     "isClass": false,
     "isHexademical": false,
     "isSigned": false,
@@ -10,20 +10,16 @@
     "comment": "",
     "members": [
         {
-            "name": "GENERIC",
+            "name": "EFFECT_LIGHT",
             "value": 0
         },
         {
-            "name": "PORTLAND",
+            "name": "EFFECT_PARTICLE",
             "value": 1
         },
         {
-            "name": "STAUNTON_ISLAND",
+            "name": "EFFECT_ATTRACTOR",
             "value": 2
-        },
-        {
-            "name": "SHORESIDE_VALE",
-            "value": 3
         }
     ]
 }

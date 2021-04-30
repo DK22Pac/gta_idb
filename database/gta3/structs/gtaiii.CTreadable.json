@@ -6,7 +6,7 @@
     "size": "0x94",
     "alignment": 2,
     "vtableAddress": "0x5EBFB4",
-    "vtableSize": 0,
+    "vtableSize": 18,
     "comment": "",
     "members": [
         {

@@ -1,10 +1,10 @@
 {
-    "name": "EffectStore",
+    "name": "CStore<CTimeModelInfo, 30>",
     "module": "",
     "scope": "",
     "kind": "class",
-    "size": "0x19644",
-    "alignment": 2,
+    "size": "0xAAC",
+    "alignment": 0,
     "comment": "",
     "members": [
         {
@@ -15,9 +15,9 @@
         },
         {
             "name": "m_sObject",
-            "type": "C2dEffect[2000]",
+            "type": "CTimeModelInfo[31]",
             "offset": 4,
-            "size": "0x19640"
+            "size": "0xAA8"
         }
     ]
 }
