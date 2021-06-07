@@ -1,10 +1,10 @@
 {
     "name": "CTrainDoor",
-    "module": "",
+    "module": "CTrainDoor",
     "scope": "",
     "kind": "class",
     "size": "0x18",
-    "alignment": 0,
+    "alignment": 2,
     "comment": "",
     "members": [
         {
@@ -35,12 +35,6 @@
             "name": "m_nAxis",
             "type": "unsigned __int8",
             "offset": "0xA",
-            "size": 1
-        },
-        {
-            "name": "_padB",
-            "type": "char",
-            "offset": "0xB",
             "size": 1
         },
         {

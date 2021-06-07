@@ -1,0 +1,41 @@
+{
+    "name": "eScrollBarTypes",
+    "module": "CScrollBar",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "SCROLL_BUSINESS",
+            "value": 0
+        },
+        {
+            "name": "SCROLL_TRAFFIC",
+            "value": 1
+        },
+        {
+            "name": "SCROLL_ENTERTAINMENT",
+            "value": 2
+        },
+        {
+            "name": "SCROLL_AIRPORT_DOORS",
+            "value": 3
+        },
+        {
+            "name": "SCROLL_AIRPORT_FRONT",
+            "value": 4
+        },
+        {
+            "name": "SCROLL_STORE",
+            "value": 5
+        },
+        {
+            "name": "SCROLL_USED_CARS",
+            "value": 6
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "name": "ePathNodeFlags",
+    "module": "CPathNode",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "UnkBits",
+            "value": 0,
+            "bitWidth": 2
+        },
+        {
+            "name": "DeadEnd",
+            "value": 1
+        },
+        {
+            "name": "Disabled",
+            "value": 2
+        },
+        {
+            "name": "BetweenLevels",
+            "value": 3
+        }
+    ]
+}

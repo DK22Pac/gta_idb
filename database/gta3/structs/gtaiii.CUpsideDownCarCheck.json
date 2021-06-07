@@ -1,6 +1,6 @@
 {
     "name": "CUpsideDownCarCheck",
-    "module": "",
+    "module": "CUpsideDownCarCheck",
     "scope": "",
     "kind": "class",
     "size": "0x30",
@@ -8,8 +8,8 @@
     "comment": "",
     "members": [
         {
-            "name": "m_aUpsideDownCars",
-            "type": "UpsideDownCars[6]",
+            "name": "m_aCars",
+            "type": "UpsideDownCarsData[6]",
             "offset": 0,
             "size": "0x30"
         }

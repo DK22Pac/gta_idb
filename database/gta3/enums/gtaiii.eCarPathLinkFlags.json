@@ -1,0 +1,17 @@
+{
+    "name": "eCarPathLinkFlags",
+    "module": "CPathFind",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "BridgeLights",
+            "value": 0
+        }
+    ]
+}

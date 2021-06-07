@@ -51,7 +51,7 @@
         },
         {
             "name": "GetBoundRect",
-            "type": "void (__thiscall *)(CTreadable *, CRect *)",
+            "type": "void (__thiscall *)(CTreadable *)",
             "offset": "0x1C",
             "size": 4
         },

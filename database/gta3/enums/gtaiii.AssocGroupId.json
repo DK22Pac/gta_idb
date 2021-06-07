@@ -1,117 +1,117 @@
 {
     "name": "AssocGroupId",
-    "module": "",
+    "module": "AssocGroupId",
     "scope": "",
-    "width": 0,
+    "width": 4,
     "isClass": false,
-    "isHexademical": true,
+    "isHexademical": false,
     "isSigned": false,
     "isBitfield": false,
     "comment": "",
     "members": [
         {
-            "name": "ANIM_STD_PED",
-            "value": "0x0"
+            "name": "ASSOCGRP_STD",
+            "value": 0
         },
         {
-            "name": "ANIM_PLAYER_PED",
-            "value": "0x1"
+            "name": "ASSOCGRP_PLAYER",
+            "value": 1
         },
         {
-            "name": "ANIM_PLAYER_ROCKET_PED",
-            "value": "0x2"
+            "name": "ASSOCGRP_PLAYERROCKET",
+            "value": 2
         },
         {
-            "name": "ANIM_PLAYER_1ARMED_PED",
-            "value": "0x3"
+            "name": "ASSOCGRP_PLAYER1ARMED",
+            "value": 3
         },
         {
-            "name": "ANIM_PLAYER_2ARMED_PED",
-            "value": "0x4"
+            "name": "ASSOCGRP_PLAYER2ARMED",
+            "value": 4
         },
         {
-            "name": "ANIM_PLAYER_BBBAT_PED",
-            "value": "0x5"
+            "name": "ASSOCGRP_PLAYERBBBAT",
+            "value": 5
         },
         {
-            "name": "ANIM_SHUFFLE_PED",
-            "value": "0x6"
+            "name": "ASSOCGRP_SHUFFLE",
+            "value": 6
         },
         {
-            "name": "ANIM_OLD_PED",
-            "value": "0x7"
+            "name": "ASSOCGRP_OLD",
+            "value": 7
         },
         {
-            "name": "ANIM_GANG1_PED",
-            "value": "0x8"
+            "name": "ASSOCGRP_GANG1",
+            "value": 8
         },
         {
-            "name": "ANIM_GANG2_PED",
-            "value": "0x9"
+            "name": "ASSOCGRP_GANG2",
+            "value": 9
         },
         {
-            "name": "ANIM_FAT_PED",
-            "value": "0xA"
+            "name": "ASSOCGRP_FAT",
+            "value": 10
         },
         {
-            "name": "ANIM_OLDFAT_PED",
-            "value": "0xB"
+            "name": "ASSOCGRP_OLDFAT",
+            "value": 11
         },
         {
-            "name": "ANIM_STD_WOMANPED",
-            "value": "0xC"
+            "name": "ASSOCGRP_WOMAN",
+            "value": 12
         },
         {
-            "name": "ANIM_SHOPPING_WOMANPED",
-            "value": "0xD"
+            "name": "ASSOCGRP_WOMANSHOP",
+            "value": 13
         },
         {
-            "name": "ANIM_BUSY_WOMANPED",
-            "value": "0xE"
+            "name": "ASSOCGRP_BUSYWOMAN",
+            "value": 14
         },
         {
-            "name": "ANIM_SEXY_WOMANPED",
-            "value": "0xF"
+            "name": "ASSOCGRP_SEXYWOMAN",
+            "value": 15
         },
         {
-            "name": "ANIM_OLD_WOMANPED",
-            "value": "0x10"
+            "name": "ASSOCGRP_OLDWOMAN",
+            "value": 16
         },
         {
-            "name": "ANIM_FAT_WOMANPED",
-            "value": "0x11"
+            "name": "ASSOCGRP_FATWOMAN",
+            "value": 17
         },
         {
-            "name": "ANIM_PANIC_CHUNKYPED",
-            "value": "0x12"
+            "name": "ASSOCGRP_PANICCHUNKY",
+            "value": 18
         },
         {
-            "name": "ASSOCGROUP_PLAYERBACK",
-            "value": "0x13"
+            "name": "ASSOCGRP_PLAYERBACK",
+            "value": 19
         },
         {
-            "name": "ASSOCGROUP_PLAYERLEFT",
-            "value": "0x14"
+            "name": "ASSOCGRP_PLAYERLEFT",
+            "value": 20
         },
         {
-            "name": "ASSOCGROUP_PLAYERRIGHT",
-            "value": "0x15"
+            "name": "ASSOCGRP_PLAYERRIGHT",
+            "value": 21
         },
         {
-            "name": "ASSOCGROUP_ROCKETBACK",
-            "value": "0x16"
+            "name": "ASSOCGRP_ROCKETBACK",
+            "value": 22
         },
         {
-            "name": "ASSOCGROUP_ROCKETLEFT",
-            "value": "0x17"
+            "name": "ASSOCGRP_ROCKETLEFT",
+            "value": 23
         },
         {
-            "name": "ASSOCGROUP_ROCKETRIGHT",
-            "value": "0x18"
+            "name": "ASSOCGRP_ROCKETRIGHT",
+            "value": 24
         },
         {
-            "name": "ASSOCGROUP_TOTALASSOCGROUPS",
-            "value": "0x19"
+            "name": "NUM_ANIM_ASSOC_GROUPS",
+            "value": 25
         }
     ]
 }

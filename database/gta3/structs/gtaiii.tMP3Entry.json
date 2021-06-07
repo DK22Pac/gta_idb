@@ -1,0 +1,41 @@
+{
+    "name": "tMP3Entry",
+    "module": "",
+    "scope": "",
+    "kind": "struct",
+    "size": "0x114",
+    "alignment": 0,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_aFileName",
+            "type": "char[260]",
+            "offset": 0,
+            "size": "0x104"
+        },
+        {
+            "name": "m_nTrackLength",
+            "type": "unsigned int",
+            "offset": "0x104",
+            "size": 4
+        },
+        {
+            "name": "m_nTrackStreamPos",
+            "type": "int",
+            "offset": "0x108",
+            "size": 4
+        },
+        {
+            "name": "pNext",
+            "type": "tMP3Entry *",
+            "offset": "0x10C",
+            "size": 4
+        },
+        {
+            "name": "m_pLinkPath",
+            "type": "char *",
+            "offset": "0x110",
+            "size": 4
+        }
+    ]
+}

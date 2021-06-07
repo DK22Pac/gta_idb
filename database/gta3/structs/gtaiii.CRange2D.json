@@ -1,6 +1,6 @@
 {
     "name": "CRange2D",
-    "module": "",
+    "module": "CRange2D",
     "scope": "",
     "kind": "class",
     "size": "0x10",
@@ -8,28 +8,16 @@
     "comment": "",
     "members": [
         {
-            "name": "x1",
-            "type": "float",
+            "name": "m_vec2dMin",
+            "type": "CVector2D",
             "offset": 0,
-            "size": 4
+            "size": 8
         },
         {
-            "name": "y1",
-            "type": "float",
-            "offset": 4,
-            "size": 4
-        },
-        {
-            "name": "x2",
-            "type": "float",
+            "name": "m_vec2dMax",
+            "type": "CVector2D",
             "offset": 8,
-            "size": 4
-        },
-        {
-            "name": "y2",
-            "type": "float",
-            "offset": "0xC",
-            "size": 4
+            "size": 8
         }
     ]
 }

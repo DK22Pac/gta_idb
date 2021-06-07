@@ -1,6 +1,6 @@
 {
     "name": "CInstance",
-    "module": "",
+    "module": "CInstance",
     "scope": "",
     "kind": "class",
     "size": "0x50",
@@ -10,14 +10,15 @@
     "comment": "",
     "members": [
         {
-            "name": "m_placement",
+            "name": "base",
             "type": "CPlaceable",
             "offset": 0,
-            "size": "0x4C"
+            "size": "0x4C",
+            "isBase": true
         },
         {
             "name": "m_nModelIndex",
-            "type": "int",
+            "type": "unsigned int",
             "offset": "0x4C",
             "size": 4
         }

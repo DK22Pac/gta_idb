@@ -1,6 +1,6 @@
 {
     "name": "CObject",
-    "module": "",
+    "module": "CObject",
     "scope": "",
     "kind": "class",
     "size": "0x198",
@@ -10,13 +10,14 @@
     "comment": "",
     "members": [
         {
-            "name": "physical",
+            "name": "base",
             "type": "CPhysical",
             "offset": 0,
-            "size": "0x128"
+            "size": "0x128",
+            "isBase": true
         },
         {
-            "name": "m_mCoords",
+            "name": "m_mObjectCoords",
             "type": "CMatrix",
             "offset": "0x128",
             "size": "0x48"
@@ -28,27 +29,23 @@
             "size": 4
         },
         {
-            "name": "m_nObjectType",
-            "type": "_BYTE",
+            "name": "m_nObjectCreatedBy",
+            "type": "char",
             "offset": "0x174",
-            "size": 1
+            "size": 1,
+            "comment": "see eObjectCreatedBy"
         },
         {
             "name": "m_nObjectFlags",
-            "type": "unsigned __int8",
+            "type": "eObjectFlags",
             "offset": "0x175",
-            "size": 1
+            "size": 1,
+            "isBitfield": true
         },
         {
-            "name": "m_nMoneyPerDay",
+            "name": "m_nBonusValue",
             "type": "char",
             "offset": "0x176",
-            "size": 1
-        },
-        {
-            "name": "field_177",
-            "type": "char",
-            "offset": "0x177",
             "size": 1
         },
         {
@@ -59,13 +56,13 @@
         },
         {
             "name": "m_nCollisionDamageEffect",
-            "type": "char",
+            "type": "unsigned __int8",
             "offset": "0x17C",
             "size": 1
         },
         {
-            "name": "m_bSpecialCollisionResponseCases",
-            "type": "char",
+            "name": "m_nSpecialCollisionResponseCases",
+            "type": "unsigned __int8",
             "offset": "0x17D",
             "size": 1
         },
@@ -76,75 +73,39 @@
             "size": 1
         },
         {
-            "name": "field_17F",
-            "type": "char",
-            "offset": "0x17F",
-            "size": 1
-        },
-        {
             "name": "field_180",
-            "type": "char",
+            "type": "unsigned int",
             "offset": "0x180",
-            "size": 1
+            "size": 4
         },
         {
-            "name": "field_181",
-            "type": "char",
-            "offset": "0x181",
-            "size": 1
-        },
-        {
-            "name": "field_182",
-            "type": "char",
-            "offset": "0x182",
-            "size": 1
-        },
-        {
-            "name": "field_183",
-            "type": "char",
-            "offset": "0x183",
-            "size": 1
-        },
-        {
-            "name": "m_nTimeSpawnFlyingComponent",
-            "type": "int",
+            "name": "m_nEndOfLifeTime",
+            "type": "unsigned int",
             "offset": "0x184",
             "size": 4
         },
         {
-            "name": "m_nFlyingObjectModelId",
-            "type": "_WORD",
+            "name": "m_nRefModelIndex",
+            "type": "__int16",
             "offset": "0x188",
             "size": 2
         },
         {
-            "name": "_pad18A",
-            "type": "_BYTE[2]",
-            "offset": "0x18A",
-            "size": 2
-        },
-        {
-            "name": "m_pRoad",
+            "name": "m_pCurSurface",
             "type": "CEntity *",
             "offset": "0x18C",
             "size": 4
         },
         {
-            "name": "m_pLastCollision",
-            "type": "CPhysical *",
+            "name": "m_pCollidingEntity",
+            "type": "CEntity *",
             "offset": "0x190",
             "size": 4
         },
         {
             "name": "m_nColorId",
-            "type": "_BYTE[2]",
-            "offset": "0x194",
-            "size": 2
-        },
-        {
-            "name": "field_196",
             "type": "char[2]",
-            "offset": "0x196",
+            "offset": "0x194",
             "size": 2
         }
     ]

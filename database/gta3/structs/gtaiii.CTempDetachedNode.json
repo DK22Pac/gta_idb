@@ -1,8 +1,8 @@
 {
     "name": "CTempDetachedNode",
-    "module": "",
+    "module": "CPathFind",
     "scope": "",
-    "kind": "class",
+    "kind": "struct",
     "size": "0x14",
     "alignment": 0,
     "comment": "",

@@ -1,15 +1,16 @@
 {
     "name": "CFireManager",
-    "module": "",
+    "module": "CFireManager",
     "scope": "",
     "kind": "class",
     "size": "0x784",
     "alignment": 2,
+    "hasVectorDeletingDtor": true,
     "comment": "",
     "members": [
         {
-            "name": "m_nMaxFireGenerationsAllowed",
-            "type": "int",
+            "name": "m_nTotalFires",
+            "type": "unsigned int",
             "offset": 0,
             "size": 4
         },

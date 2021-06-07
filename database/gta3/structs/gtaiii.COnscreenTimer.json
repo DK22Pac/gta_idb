@@ -24,12 +24,6 @@
             "type": "bool",
             "offset": "0x75",
             "size": 1
-        },
-        {
-            "name": "_pad76",
-            "type": "char[2]",
-            "offset": "0x76",
-            "size": 2
         }
     ]
 }

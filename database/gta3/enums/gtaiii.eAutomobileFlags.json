@@ -1,0 +1,48 @@
+{
+    "name": "eAutomobileFlags",
+    "module": "CAutomobile",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "BombType",
+            "value": "0x1",
+            "bitWidth": 3
+        },
+        {
+            "name": "TaxiLight",
+            "value": "0x2"
+        },
+        {
+            "name": "DriverLastFrame",
+            "value": "0x3",
+            "comment": "for bombs"
+        },
+        {
+            "name": "FixedColour",
+            "value": "0x4"
+        },
+        {
+            "name": "BigWheels",
+            "value": "0x5"
+        },
+        {
+            "name": "WaterTight",
+            "value": "0x6",
+            "comment": "no damage for non-player peds"
+        },
+        {
+            "name": "NotDamagedUpsideDown",
+            "value": "0x7"
+        },
+        {
+            "name": "MoreResistantToDamage",
+            "value": "0x8"
+        }
+    ]
+}

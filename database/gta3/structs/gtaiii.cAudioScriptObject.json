@@ -4,19 +4,13 @@
     "scope": "",
     "kind": "class",
     "size": "0x14",
-    "alignment": 0,
+    "alignment": 2,
     "comment": "",
     "members": [
         {
-            "name": "m_nEventId",
-            "type": "unsigned __int16",
+            "name": "m_nAudioId",
+            "type": "__int16",
             "offset": 0,
-            "size": 2
-        },
-        {
-            "name": "_pad2",
-            "type": "char[2]",
-            "offset": 2,
             "size": 2
         },
         {

@@ -1,25 +1,25 @@
 {
     "name": "eCraneStatus",
-    "module": "",
+    "module": "CCrane",
     "scope": "",
-    "width": 4,
+    "width": 1,
     "isClass": false,
-    "isHexademical": true,
+    "isHexademical": false,
     "isSigned": false,
     "isBitfield": false,
     "comment": "",
     "members": [
         {
             "name": "NONE",
-            "value": "0x0"
+            "value": 0
         },
         {
             "name": "ACTIVATED",
-            "value": "0x1"
+            "value": 1
         },
         {
             "name": "DEACTIVATED",
-            "value": "0x2"
+            "value": 2
         }
     ]
 }

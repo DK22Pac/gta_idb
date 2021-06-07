@@ -1,6 +1,6 @@
 {
     "name": "CAutomobile",
-    "module": "",
+    "module": "CAutomobile",
     "scope": "",
     "kind": "class",
     "size": "0x5A8",
@@ -13,7 +13,8 @@
             "name": "vehicle",
             "type": "CVehicle",
             "offset": 0,
-            "size": "0x288"
+            "size": "0x288",
+            "isBase": true
         },
         {
             "name": "m_carDamage",
@@ -34,92 +35,82 @@
             "size": "0x50"
         },
         {
-            "name": "m_aWheelColPoint",
+            "name": "m_aWheelColPoints",
             "type": "CColPoint[4]",
             "offset": "0x3CC",
             "size": "0xA0"
         },
         {
-            "name": "m_fWheelSuspDist",
+            "name": "m_afSuspensionSpringRatio",
             "type": "float[4]",
             "offset": "0x46C",
             "size": "0x10"
         },
         {
-            "name": "m_fWheelSuspDistSoft",
+            "name": "m_afSuspensionSpringRatioPrev",
             "type": "float[4]",
             "offset": "0x47C",
             "size": "0x10"
         },
         {
-            "name": "m_fWheelContactRate",
+            "name": "m_afWheelTimer",
             "type": "float[4]",
             "offset": "0x48C",
-            "size": "0x10"
+            "size": "0x10",
+            "comment": "set to 4.0 when wheel is touching ground, then decremented"
         },
         {
             "name": "field_49C",
-            "type": "int",
+            "type": "float",
             "offset": "0x49C",
             "size": 4
         },
         {
-            "name": "field_4A0",
+            "name": "m_abWheelSkidmarkMuddy",
             "type": "bool[4]",
             "offset": "0x4A0",
             "size": 4
         },
         {
-            "name": "field_4A4",
+            "name": "m_abWheelSkidmarkBloody",
             "type": "bool[4]",
             "offset": "0x4A4",
             "size": 4
         },
         {
-            "name": "m_fWheelTotalRot",
+            "name": "m_afWheelRotation",
             "type": "float[4]",
             "offset": "0x4A8",
             "size": "0x10"
         },
         {
-            "name": "m_fWheelRot",
+            "name": "m_afWheelPosition",
             "type": "float[4]",
             "offset": "0x4B8",
             "size": "0x10"
         },
         {
-            "name": "m_fWheelNowRot",
+            "name": "m_afWheelSpeed",
             "type": "float[4]",
             "offset": "0x4C8",
             "size": "0x10"
         },
         {
             "name": "field_4D8",
-            "type": "char",
+            "type": "unsigned __int8",
             "offset": "0x4D8",
             "size": 1
         },
         {
             "name": "m_nAutomobileFlags",
-            "type": "unsigned __int8",
+            "type": "eAutomobileFlags[3]",
             "offset": "0x4D9",
-            "size": 1
+            "size": 3,
+            "isBitfield": true
         },
         {
-            "name": "bfFlagsX",
-            "type": "char",
-            "offset": "0x4DA",
-            "size": 1
-        },
-        {
-            "name": "field_4DB",
-            "type": "char",
-            "offset": "0x4DB",
-            "size": 1
-        },
-        {
-            "name": "m_pWhoInstalledBombOnMe",
-            "type": "CPed *",
+            "name": "m_pBombRigger",
+            "type": "CEntity *",
             "offset": "0x4DC",
             "size": 4
         },
@@ -130,31 +121,31 @@
             "size": 2
         },
         {
-            "name": "m_nHydralicStatus",
+            "name": "m_nHydraulicState",
             "type": "unsigned __int16",
             "offset": "0x4E2",
             "size": 2
         },
         {
             "name": "m_nBusDoorTimerEnd",
-            "type": "int",
+            "type": "unsigned int",
             "offset": "0x4E4",
             "size": 4
         },
         {
             "name": "m_nBusDoorTimerStart",
-            "type": "int",
+            "type": "unsigned int",
             "offset": "0x4E8",
             "size": 4
         },
         {
-            "name": "m_afSuspensionDif",
+            "name": "m_afSuspensionSpringLength",
             "type": "float[4]",
             "offset": "0x4EC",
             "size": "0x10"
         },
         {
-            "name": "m_afSuspensionDifWheelCol",
+            "name": "m_afSuspensionLineLength",
             "type": "float[4]",
             "offset": "0x4FC",
             "size": "0x10"
@@ -166,7 +157,7 @@
             "size": 4
         },
         {
-            "name": "m_fImprovedHandling",
+            "name": "m_fTraction",
             "type": "float",
             "offset": "0x510",
             "size": 4
@@ -178,104 +169,102 @@
             "size": 4
         },
         {
-            "name": "field_518",
+            "name": "m_randomValues",
             "type": "float[6]",
             "offset": "0x518",
-            "size": "0x18"
+            "size": "0x18",
+            "comment": "used for what?"
         },
         {
-            "name": "burnTimer",
-            "type": "int",
+            "name": "m_fFireBlowUpTimer",
+            "type": "float",
             "offset": "0x530",
             "size": 4
         },
         {
-            "name": "m_pReferVehicle",
-            "type": "CEntity *[4]",
+            "name": "m_aGroundPhysical",
+            "type": "CPhysical *[4]",
             "offset": "0x534",
-            "size": "0x10"
+            "size": "0x10",
+            "comment": "physicals touching wheels"
         },
         {
-            "name": "m_avecWheelCollisionPos",
+            "name": "m_avecGroundOffset",
             "type": "CVector[4]",
             "offset": "0x544",
-            "size": "0x30"
+            "size": "0x30",
+            "comment": "from ground object to colpoint"
         },
         {
-            "name": "field_574",
+            "name": "m_pSetOnFireEntity",
             "type": "CEntity *",
             "offset": "0x574",
             "size": 4
         },
         {
-            "name": "field_578",
+            "name": "m_fWeaponDoorTimerLeft",
             "type": "float",
             "offset": "0x578",
-            "size": 4
+            "size": 4,
+            "comment": "still don't know what exactly this is"
         },
         {
-            "name": "field_57C",
+            "name": "m_nWeaponDoorTimerRight",
             "type": "float",
             "offset": "0x57C",
             "size": 4
         },
         {
-            "name": "m_fDoomVerticalRotation",
+            "name": "m_fCarGunLR",
             "type": "float",
             "offset": "0x580",
             "size": 4
         },
         {
-            "name": "m_fDoomHorizontalRotation",
+            "name": "m_fCarGunUD",
             "type": "float",
             "offset": "0x584",
             "size": 4
         },
         {
-            "name": "m_fSpecialMoveState",
+            "name": "m_fPropellerRotation",
             "type": "float",
             "offset": "0x588",
             "size": 4
         },
         {
             "name": "field_58C",
-            "type": "int",
+            "type": "char[4]",
             "offset": "0x58C",
             "size": 4
         },
         {
             "name": "m_nWheelsOnGround",
-            "type": "char",
+            "type": "unsigned __int8",
             "offset": "0x590",
             "size": 1
         },
         {
-            "name": "m_bAllWheelsOnGround",
-            "type": "bool",
+            "name": "m_nDriveWheelsOnGround",
+            "type": "unsigned __int8",
             "offset": "0x591",
             "size": 1
         },
         {
-            "name": "m_nPrevRearWheelsOnGround",
-            "type": "char",
+            "name": "m_nDriveWheelsOnGroundPrev",
+            "type": "unsigned __int8",
             "offset": "0x592",
             "size": 1
         },
         {
-            "name": "field_593",
-            "type": "char",
-            "offset": "0x593",
-            "size": 1
-        },
-        {
-            "name": "m_fSkidMarkDensity",
+            "name": "m_fGasPedalAudio",
             "type": "float",
             "offset": "0x594",
             "size": 4
         },
         {
-            "name": "m_nTireFriction",
-            "type": "int[4]",
+            "name": "m_aWheelState",
+            "type": "tWheelState[4]",
             "offset": "0x598",
             "size": "0x10"
         }

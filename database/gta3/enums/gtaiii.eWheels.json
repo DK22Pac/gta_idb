@@ -1,8 +1,8 @@
 {
     "name": "eWheels",
-    "module": "",
+    "module": "CDamageManager",
     "scope": "",
-    "width": 1,
+    "width": 0,
     "isClass": false,
     "isHexademical": false,
     "isSigned": false,
@@ -14,11 +14,11 @@
             "value": 0
         },
         {
-            "name": "WHEEL_FRONT_RIGHT",
+            "name": "WHEEL_REAR_LEFT",
             "value": 1
         },
         {
-            "name": "WHEEL_REAR_LEFT",
+            "name": "WHEEL_FRONT_RIGHT",
             "value": 2
         },
         {

@@ -1,0 +1,30 @@
+{
+    "name": "eCesnaStatus",
+    "module": "CPlane",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "CESNA_STATUS_NONE",
+            "value": 0,
+            "comment": "doesn't even exist"
+        },
+        {
+            "name": "CESNA_STATUS_FLYING",
+            "value": 1
+        },
+        {
+            "name": "CESNA_STATUS_DESTROYED",
+            "value": 2
+        },
+        {
+            "name": "CESNA_STATUS_LANDED",
+            "value": 3
+        }
+    ]
+}

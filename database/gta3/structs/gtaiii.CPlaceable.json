@@ -5,7 +5,6 @@
     "kind": "class",
     "size": "0x4C",
     "alignment": 0,
-    "hasVectorDeletingDtor": true,
     "vtableAddress": "0x5F6A28",
     "vtableSize": 1,
     "comment": "",

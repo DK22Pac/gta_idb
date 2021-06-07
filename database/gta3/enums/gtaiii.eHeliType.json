@@ -1,0 +1,25 @@
+{
+    "name": "eHeliType",
+    "module": "CHeli",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "HELI_TYPE_RANDOM",
+            "value": 0
+        },
+        {
+            "name": "HELI_TYPE_SCRIPT",
+            "value": 1
+        },
+        {
+            "name": "HELI_TYPE_CATALINA",
+            "value": 2
+        }
+    ]
+}

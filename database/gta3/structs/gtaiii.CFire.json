@@ -1,6 +1,6 @@
 {
     "name": "CFire",
-    "module": "",
+    "module": "CFire",
     "scope": "",
     "kind": "class",
     "size": "0x30",
@@ -8,25 +8,25 @@
     "comment": "",
     "members": [
         {
-            "name": "m_bActive",
+            "name": "m_bIsOngoing",
             "type": "bool",
             "offset": 0,
             "size": 1
         },
         {
-            "name": "m_bCreatedByScript",
+            "name": "m_bIsScriptFire",
             "type": "bool",
             "offset": 1,
             "size": 1
         },
         {
-            "name": "m_bMoves",
+            "name": "m_bPropagationFlag",
             "type": "bool",
             "offset": 2,
             "size": 1
         },
         {
-            "name": "m_bMakesNoise",
+            "name": "m_bAudioSet",
             "type": "bool",
             "offset": 3,
             "size": 1
@@ -38,25 +38,25 @@
             "size": "0xC"
         },
         {
-            "name": "m_pEntityTarget",
-            "type": "uTargetEntity",
+            "name": "m_pEntity",
+            "type": "CEntity *",
             "offset": "0x10",
             "size": 4
         },
         {
-            "name": "m_pEntityCreator",
+            "name": "m_pSource",
             "type": "CEntity *",
             "offset": "0x14",
             "size": 4
         },
         {
-            "name": "m_nTimeToBurn",
+            "name": "m_nExtinguishTime",
             "type": "unsigned int",
             "offset": "0x18",
             "size": 4
         },
         {
-            "name": "m_nShadowTimer",
+            "name": "m_nStartTime",
             "type": "unsigned int",
             "offset": "0x1C",
             "size": 4
@@ -68,14 +68,14 @@
             "size": 4
         },
         {
-            "name": "m_fParticleSize",
-            "type": "float",
+            "name": "m_nNextTimeToAddFlames",
+            "type": "unsigned int",
             "offset": "0x24",
             "size": 4
         },
         {
-            "name": "dword28",
-            "type": "int",
+            "name": "m_nFiremenPuttingOut",
+            "type": "unsigned int",
             "offset": "0x28",
             "size": 4
         },

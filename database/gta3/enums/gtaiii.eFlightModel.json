@@ -1,0 +1,30 @@
+{
+    "name": "eFlightModel",
+    "module": "CVehicle",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "FLIGHT_MODEL_DODO",
+            "value": 0
+        },
+        {
+            "name": "FLIGHT_MODEL_RCPLANE",
+            "value": 1,
+            "comment": "not used in III"
+        },
+        {
+            "name": "FLIGHT_MODEL_HELI",
+            "value": 2
+        },
+        {
+            "name": "FLIGHT_MODEL_SEAPLANE",
+            "value": 3
+        }
+    ]
+}

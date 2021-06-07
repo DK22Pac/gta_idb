@@ -33,27 +33,9 @@
         },
         {
             "name": "m_bExists",
-            "type": "bool",
+            "type": "bool[3]",
             "offset": "0x50",
-            "size": 1
-        },
-        {
-            "name": "field_51",
-            "type": "char",
-            "offset": "0x51",
-            "size": 1
-        },
-        {
-            "name": "field_52",
-            "type": "char",
-            "offset": "0x52",
-            "size": 1
-        },
-        {
-            "name": "field_53",
-            "type": "char",
-            "offset": "0x53",
-            "size": 1
+            "size": 3
         }
     ]
 }

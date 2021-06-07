@@ -1,0 +1,32 @@
+{
+    "name": "tWheelState",
+    "module": "CVehicle",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "WHEEL_STATE_NORMAL",
+            "value": 0,
+            "comment": "standing still or rolling normally"
+        },
+        {
+            "name": "WHEEL_STATE_SPINNING",
+            "value": 1,
+            "comment": "rotating but not moving"
+        },
+        {
+            "name": "WHEEL_STATE_SKIDDING",
+            "value": 2
+        },
+        {
+            "name": "WHEEL_STATE_FIXED",
+            "value": 3,
+            "comment": "not rotating"
+        }
+    ]
+}

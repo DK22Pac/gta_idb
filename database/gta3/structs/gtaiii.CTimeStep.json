@@ -1,0 +1,10 @@
+{
+    "name": "CTimeStep",
+    "module": "CTimeStep",
+    "scope": "",
+    "kind": "class",
+    "size": 0,
+    "alignment": 0,
+    "comment": "Pretty sure this class is not used by the game",
+    "members": []
+}

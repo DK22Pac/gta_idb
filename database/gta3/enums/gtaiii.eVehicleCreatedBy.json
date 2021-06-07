@@ -1,6 +1,6 @@
 {
     "name": "eVehicleCreatedBy",
-    "module": "",
+    "module": "CVehicle",
     "scope": "",
     "width": 0,
     "isClass": false,

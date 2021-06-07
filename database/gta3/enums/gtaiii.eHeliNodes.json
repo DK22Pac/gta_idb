@@ -1,0 +1,49 @@
+{
+    "name": "eHeliNodes",
+    "module": "CHeli",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "HELI_NODE_NONE",
+            "value": 0
+        },
+        {
+            "name": "HELI_CHASSIS",
+            "value": 1
+        },
+        {
+            "name": "HELI_TOPROTOR",
+            "value": 2
+        },
+        {
+            "name": "HELI_BACKROTOR",
+            "value": 3
+        },
+        {
+            "name": "HELI_TAIL",
+            "value": 4
+        },
+        {
+            "name": "HELI_TOPKNOT",
+            "value": 5
+        },
+        {
+            "name": "HELI_SKID_LEFT",
+            "value": 6
+        },
+        {
+            "name": "HELI_SKID_RIGHT",
+            "value": 7
+        },
+        {
+            "name": "HELI_NUM_NODES",
+            "value": 8
+        }
+    ]
+}

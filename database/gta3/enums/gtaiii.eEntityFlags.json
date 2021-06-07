@@ -49,7 +49,8 @@
         },
         {
             "name": "WasPostponed",
-            "value": 9
+            "value": 9,
+            "comment": "was entity control processing postponed"
         },
         {
             "name": "ExplosionProof",
@@ -57,7 +58,8 @@
         },
         {
             "name": "IsVisible",
-            "value": 11
+            "value": 11,
+            "comment": "is the entity visible"
         },
         {
             "name": "HasCollided",
@@ -73,11 +75,13 @@
         },
         {
             "name": "IsBIGBuilding",
-            "value": 15
+            "value": 15,
+            "comment": "set if this entity is a big building"
         },
         {
             "name": "RenderDamaged",
-            "value": 16
+            "value": 16,
+            "comment": "use damaged LOD models for objects with applicable damage"
         },
         {
             "name": "BulletProof",
@@ -101,7 +105,8 @@
         },
         {
             "name": "StreamingDontDelete",
-            "value": 22
+            "value": 22,
+            "comment": "dont let the streaming remove this"
         },
         {
             "name": "ZoneCulled",
@@ -109,31 +114,38 @@
         },
         {
             "name": "ZoneCulled2",
-            "value": 24
+            "value": 24,
+            "comment": "only treadables+10m"
         },
         {
             "name": "RemoveFromWorld",
-            "value": 25
+            "value": 25,
+            "comment": "remove this entity next time it should be processed"
         },
         {
             "name": "HasHitWall",
-            "value": 26
+            "value": 26,
+            "comment": "has collided with a building (changes subsequent collisions)"
         },
         {
             "name": "ImBeingRendered",
-            "value": 27
+            "value": 27,
+            "comment": "don't delete me because I'm being rendered"
         },
         {
             "name": "TouchingWater",
-            "value": 28
+            "value": 28,
+            "comment": "used by cBuoyancy::ProcessBuoyancy"
         },
         {
             "name": "IsSubway",
-            "value": 29
+            "value": 29,
+            "comment": "set when subway, but maybe different meaning?"
         },
         {
             "name": "DrawLast",
-            "value": 30
+            "value": 30,
+            "comment": "draw object last"
         },
         {
             "name": "NoBrightHeadLights",
@@ -145,7 +157,8 @@
         },
         {
             "name": "DistanceFade",
-            "value": 33
+            "value": 33,
+            "comment": "fade entity because it is far away"
         },
         {
             "name": "Flag34",

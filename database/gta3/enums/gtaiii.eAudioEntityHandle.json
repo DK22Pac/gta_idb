@@ -4,30 +4,30 @@
     "scope": "",
     "width": 0,
     "isClass": false,
-    "isHexademical": true,
+    "isHexademical": false,
     "isSigned": false,
     "isBitfield": false,
     "comment": "",
     "members": [
         {
             "name": "AEHANDLE_NONE",
-            "value": "0xFFFFFFFB"
+            "value": 4294967291
         },
         {
             "name": "AEHANDLE_ERROR_NOAUDIOSYS",
-            "value": "0xFFFFFFFC"
+            "value": 4294967292
         },
         {
             "name": "AEHANDLE_ERROR_NOFREESLOT",
-            "value": "0xFFFFFFFD"
+            "value": 4294967293
         },
         {
             "name": "AEHANDLE_ERROR_NOENTITY",
-            "value": "0xFFFFFFFE"
+            "value": 4294967294
         },
         {
             "name": "AEHANDLE_ERROR_BADAUDIOTYPE",
-            "value": "0xFFFFFFFF"
+            "value": 4294967295
         }
     ]
 }

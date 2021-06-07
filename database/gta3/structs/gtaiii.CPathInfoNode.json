@@ -1,10 +1,10 @@
 {
     "name": "CPathInfoNode",
-    "module": "",
+    "module": "CPathFind",
     "scope": "",
-    "kind": "class",
+    "kind": "struct",
     "size": "0xC",
-    "alignment": 0,
+    "alignment": 2,
     "comment": "",
     "members": [
         {
@@ -26,25 +26,25 @@
             "size": 2
         },
         {
-            "name": "m_bType",
-            "type": "ePathInfoNodeType",
+            "name": "m_nType",
+            "type": "char",
             "offset": 6,
             "size": 1
         },
         {
-            "name": "m_bNextNode",
+            "name": "m_nNext",
             "type": "char",
             "offset": 7,
             "size": 1
         },
         {
-            "name": "m_bLanesL",
+            "name": "m_nNumLeftLanes",
             "type": "char",
             "offset": 8,
             "size": 1
         },
         {
-            "name": "m_bLanesR",
+            "name": "m_nNumRightLanes",
             "type": "char",
             "offset": 9,
             "size": 1
@@ -56,7 +56,7 @@
             "size": 1
         },
         {
-            "name": "field_11",
+            "name": "field_B",
             "type": "char",
             "offset": "0xB",
             "size": 1

@@ -9,39 +9,30 @@
     "members": [
         {
             "name": "m_aScreenName",
-            "type": "unsigned __int8[8]",
+            "type": "char[8]",
             "offset": 0,
             "size": 8
         },
         {
-            "name": "field_368",
+            "name": "field_8",
             "type": "int",
             "offset": 8,
-            "size": 4
+            "size": 4,
+            "comment": "2 on MENUPAGE_MULTIPLAYER_START, 1 on everywhere else, 0 on unused."
         },
         {
-            "name": "field_372",
-            "type": "int",
+            "name": "m_nPreviousPage",
+            "type": "int[2]",
             "offset": "0xC",
-            "size": 4
+            "size": 8,
+            "comment": "eMenuScreen"
         },
         {
-            "name": "field_376",
-            "type": "int",
-            "offset": "0x10",
-            "size": 4
-        },
-        {
-            "name": "field_380",
-            "type": "int",
+            "name": "m_nParentEntry",
+            "type": "int[2]",
             "offset": "0x14",
-            "size": 4
-        },
-        {
-            "name": "field_384",
-            "type": "int",
-            "offset": "0x18",
-            "size": 4
+            "size": 8,
+            "comment": "row"
         },
         {
             "name": "m_asEntries",

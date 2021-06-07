@@ -56,12 +56,6 @@
             "size": 1
         },
         {
-            "name": "byte_1B",
-            "type": "char",
-            "offset": "0x1B",
-            "size": 1
-        },
-        {
             "name": "m_nMinDelay",
             "type": "unsigned __int16",
             "offset": "0x1C",
@@ -98,19 +92,13 @@
             "size": 1
         },
         {
-            "name": "byte_2B",
-            "type": "char",
-            "offset": "0x2B",
-            "size": 1
-        },
-        {
-            "name": "m_vecSup",
+            "name": "m_vecInf",
             "type": "CVector",
             "offset": "0x2C",
             "size": "0xC"
         },
         {
-            "name": "m_vecInf",
+            "name": "m_vecSup",
             "type": "CVector",
             "offset": "0x38",
             "size": "0xC"

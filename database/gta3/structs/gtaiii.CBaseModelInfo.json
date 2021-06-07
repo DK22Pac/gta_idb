@@ -5,7 +5,6 @@
     "kind": "class",
     "size": "0x30",
     "alignment": 2,
-    "hasVectorDeletingDtor": true,
     "vtableAddress": "0x5FAB58",
     "vtableSize": 2,
     "comment": "CBaseModelInfo       // base, abstract class;;     |;;     |;;     +---CSimpleModelInfo       // (static) map object;;     |      |;;     |      |;;     |      +---CTimeModelInfo         // map time object (night objects);;     |;;     |;;     +---CClumpModelInfo        // (dynamic) object with hierarchy;;            |;;            |;;            +---CVehicleModelInfo      // vehicle;;            |;;            |;;            +---CPedModelInfo          // ped;;            |;;            |;;            +---CMloModelInfo          // 'sta' section;;            |;;            |;;            +---CXtraCompsModelInfo    // ped parts?;;            |;;            |;;            +---C2deffectsModelInfo;;",

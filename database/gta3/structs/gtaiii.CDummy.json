@@ -10,7 +10,7 @@
     "comment": "",
     "members": [
         {
-            "name": "entity",
+            "name": "base",
             "type": "CEntity",
             "offset": 0,
             "size": "0x64",

@@ -1,6 +1,6 @@
 {
     "name": "cAudioCollisionManager",
-    "module": "",
+    "module": "cAudioCollisionManager",
     "scope": "",
     "kind": "class",
     "size": "0x354",
@@ -20,21 +20,15 @@
             "size": "0x190"
         },
         {
-            "name": "m_bIndicesTable",
-            "type": "char[10]",
+            "name": "m_nIndicesTable",
+            "type": "unsigned __int8[10]",
             "offset": "0x320",
             "size": "0xA"
         },
         {
-            "name": "m_bCollisionsInQueue",
-            "type": "char",
+            "name": "m_nCollisionsInQueue",
+            "type": "unsigned __int8",
             "offset": "0x32A",
-            "size": 1
-        },
-        {
-            "name": "_pad32B",
-            "type": "char",
-            "offset": "0x32B",
             "size": 1
         },
         {

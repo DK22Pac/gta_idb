@@ -1,6 +1,6 @@
 {
     "name": "tComponentGroup",
-    "module": "",
+    "module": "CDamageManager",
     "scope": "",
     "width": 0,
     "isClass": false,
@@ -10,7 +10,7 @@
     "comment": "",
     "members": [
         {
-            "name": "COMPGROUP_PANEL",
+            "name": "COMPGROUP_BUMPER",
             "value": 0
         },
         {
@@ -30,11 +30,11 @@
             "value": 4
         },
         {
-            "name": "COMPGROUP_LIGHT",
+            "name": "COMPGROUP_PANEL",
             "value": 5
         },
         {
-            "name": "COMPGROUP_NA",
+            "name": "COMPGROUP_DEFAULT",
             "value": 6
         }
     ]

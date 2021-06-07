@@ -1,6 +1,6 @@
 {
     "name": "eLights",
-    "module": "",
+    "module": "CDamageManager",
     "scope": "",
     "width": 0,
     "isClass": false,

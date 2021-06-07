@@ -1,6 +1,6 @@
 {
     "name": "tComponent",
-    "module": "",
+    "module": "CDamageManager",
     "scope": "",
     "width": 0,
     "isClass": false,

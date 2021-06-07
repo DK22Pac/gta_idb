@@ -1,0 +1,56 @@
+{
+    "name": "eEmergencyPedState",
+    "module": "CEmergencyPed",
+    "scope": "",
+    "width": 4,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "EMERGENCY_PED_READY",
+            "value": 0
+        },
+        {
+            "name": "EMERGENCY_PED_DETERMINE_NEXT_STATE",
+            "value": 1,
+            "comment": "you can set that anytime you want"
+        },
+        {
+            "name": "EMERGENCY_PED_START_CPR",
+            "value": 2
+        },
+        {
+            "name": "EMERGENCY_PED_FLAG_4",
+            "value": 4
+        },
+        {
+            "name": "EMERGENCY_PED_FLAG_8",
+            "value": 8
+        },
+        {
+            "name": "EMERGENCY_PED_FACE_TO_PATIENT",
+            "value": 16,
+            "comment": "for CPR"
+        },
+        {
+            "name": "EMERGENCY_PED_PERFORM_CPR",
+            "value": 32
+        },
+        {
+            "name": "EMERGENCY_PED_STOP_CPR",
+            "value": 64
+        },
+        {
+            "name": "EMERGENCY_PED_STAND_STILL",
+            "value": 128,
+            "comment": "waiting colleagues for medics, \"extinguishing\" fire for firemen"
+        },
+        {
+            "name": "EMERGENCY_PED_STOP",
+            "value": 256
+        }
+    ]
+}

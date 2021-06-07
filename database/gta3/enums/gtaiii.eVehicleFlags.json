@@ -1,0 +1,157 @@
+{
+    "name": "eVehicleFlags",
+    "module": "CVehicle",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "_bIsLawEnforcer",
+            "value": 0,
+            "comment": "Is this guy chasing the player at the moment"
+        },
+        {
+            "name": "_bIsAmbulanceOnDuty",
+            "value": 1,
+            "comment": "Ambulance trying to get to an accident"
+        },
+        {
+            "name": "_bIsFireTruckOnDuty",
+            "value": 2,
+            "comment": "Firetruck trying to get to a fire"
+        },
+        {
+            "name": "_bIsLocked",
+            "value": 3,
+            "comment": "Is this guy locked by the script (cannot be removed)"
+        },
+        {
+            "name": "_bEngineOn",
+            "value": 4,
+            "comment": "For sound purposes. Parked cars have their engines switched off (so do destroyed cars)"
+        },
+        {
+            "name": "_bIsHandbrakeOn",
+            "value": 5,
+            "comment": "How's the handbrake doing ?"
+        },
+        {
+            "name": "_bLightsOn",
+            "value": 6,
+            "comment": "Are the lights switched on ?"
+        },
+        {
+            "name": "_bFreebies",
+            "value": 7,
+            "comment": "Any freebies left in this vehicle ?"
+        },
+        {
+            "name": "_bIsVan",
+            "value": 8,
+            "comment": "Is this vehicle a van (doors at back of vehicle)"
+        },
+        {
+            "name": "_bIsBus",
+            "value": 9,
+            "comment": "Is this vehicle a bus"
+        },
+        {
+            "name": "_bIsBig",
+            "value": 10,
+            "comment": "Is this vehicle a big"
+        },
+        {
+            "name": "_bLowVehicle",
+            "value": 11,
+            "comment": "Need this for sporty type cars to use low getting-in/out anims"
+        },
+        {
+            "name": "_bComedyControls",
+            "value": 12,
+            "comment": "Will make the car hard to control (hopefully in a funny way)"
+        },
+        {
+            "name": "_bWarnedPeds",
+            "value": 13,
+            "comment": "Has scan and warn peds of danger been processed?"
+        },
+        {
+            "name": "_bCraneMessageDone",
+            "value": 14,
+            "comment": "A crane message has been printed for this car allready"
+        },
+        {
+            "name": "_bExtendedRange",
+            "value": 15,
+            "comment": "This vehicle needs to be a bit further away to get deleted"
+        },
+        {
+            "name": "_bTakeLessDamage",
+            "value": 16,
+            "comment": "This vehicle is stronger (takes about 1/4 of damage)"
+        },
+        {
+            "name": "_bIsDamaged",
+            "value": 17,
+            "comment": "This vehicle has been damaged and is displaying all its components"
+        },
+        {
+            "name": "_bHasBeenOwnedByPlayer",
+            "value": 18,
+            "comment": "To work out whether stealing it is a crime"
+        },
+        {
+            "name": "_bFadeOut",
+            "value": 19,
+            "comment": "Fade vehicle out"
+        },
+        {
+            "name": "_bIsBeingCarJacked",
+            "value": 20
+        },
+        {
+            "name": "_bCreateRoadBlockPeds",
+            "value": 21,
+            "comment": "If this vehicle gets close enough we will create peds (coppers or gang members) round it"
+        },
+        {
+            "name": "_bCanBeDamaged",
+            "value": 22,
+            "comment": "Set to FALSE during cut scenes to avoid explosions"
+        },
+        {
+            "name": "_bUsingSpecialColModel",
+            "value": 23,
+            "comment": "Is player vehicle using special collision model, stored in player strucure"
+        },
+        {
+            "name": "_bOccupantsHaveBeenGenerated",
+            "value": 24,
+            "comment": "Is true if the occupants have already been generated. (Shouldn't happen again)"
+        },
+        {
+            "name": "_bGunSwitchedOff",
+            "value": 25,
+            "comment": "Level designers can use this to switch off guns on boats"
+        },
+        {
+            "name": "_bVehicleColProcessed",
+            "value": 26,
+            "comment": "Has ProcessEntityCollision been processed for this car?"
+        },
+        {
+            "name": "_bIsCarParkVehicle",
+            "value": 27,
+            "comment": "Car has been created using the special CAR_PARK script command"
+        },
+        {
+            "name": "_bHasAlreadyBeenRecorded",
+            "value": 28,
+            "comment": "Used for replays"
+        }
+    ]
+}

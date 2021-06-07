@@ -1,6 +1,6 @@
 {
     "name": "CCopPed",
-    "module": "",
+    "module": "CCopPed",
     "scope": "",
     "kind": "class",
     "size": "0x558",
@@ -10,21 +10,16 @@
     "comment": "",
     "members": [
         {
-            "name": "base",
+            "name": "ped",
             "type": "CPed",
             "offset": 0,
-            "size": "0x53C"
+            "size": "0x53C",
+            "isBase": true
         },
         {
             "name": "m_nRoadblockNode",
             "type": "__int16",
             "offset": "0x53C",
-            "size": 2
-        },
-        {
-            "name": "field_53E",
-            "type": "_WORD",
-            "offset": "0x53E",
             "size": 2
         },
         {
@@ -46,19 +41,19 @@
             "size": 1
         },
         {
-            "name": "byte546",
-            "type": "_BYTE",
+            "name": "field_546",
+            "type": "char",
             "offset": "0x546",
             "size": 1
         },
         {
-            "name": "byte547",
-            "type": "_BYTE",
+            "name": "m_bBeatingSuspect",
+            "type": "bool",
             "offset": "0x547",
             "size": 1
         },
         {
-            "name": "m_bZoneDisabledButClose",
+            "name": "m_bStopAndShootDisabledZone",
             "type": "bool",
             "offset": "0x548",
             "size": 1
@@ -70,14 +65,8 @@
             "size": 1
         },
         {
-            "name": "gap54A",
-            "type": "_BYTE[2]",
-            "offset": "0x54A",
-            "size": 2
-        },
-        {
-            "name": "dword54C",
-            "type": "_DWORD",
+            "name": "m_fAbseilPos",
+            "type": "float",
             "offset": "0x54C",
             "size": 4
         },
@@ -88,16 +77,10 @@
             "size": 4
         },
         {
-            "name": "byte554",
-            "type": "_BYTE",
+            "name": "field_554",
+            "type": "char",
             "offset": "0x554",
             "size": 1
-        },
-        {
-            "name": "_pad555",
-            "type": "char[3]",
-            "offset": "0x555",
-            "size": 3
         }
     ]
 }

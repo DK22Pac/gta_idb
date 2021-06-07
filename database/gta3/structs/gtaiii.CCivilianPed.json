@@ -10,7 +10,7 @@
     "comment": "",
     "members": [
         {
-            "name": "base",
+            "name": "ped",
             "type": "CPed",
             "offset": 0,
             "size": "0x53C",

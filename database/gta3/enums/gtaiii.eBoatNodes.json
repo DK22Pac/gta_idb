@@ -1,0 +1,33 @@
+{
+    "name": "eBoatNodes",
+    "module": "CBoat",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "BOAT_NODE_NONE",
+            "value": 0
+        },
+        {
+            "name": "BOAT_MOVING",
+            "value": 1
+        },
+        {
+            "name": "BOAT_WINDSCREEN",
+            "value": 2
+        },
+        {
+            "name": "BOAT_RUDDER",
+            "value": 3
+        },
+        {
+            "name": "BOAT_NUM_NODES",
+            "value": 4
+        }
+    ]
+}

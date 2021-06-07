@@ -1,6 +1,6 @@
 {
     "name": "CTrain",
-    "module": "",
+    "module": "CTrain",
     "scope": "",
     "kind": "class",
     "size": "0x2E4",
@@ -13,64 +13,66 @@
             "name": "vehicle",
             "type": "CVehicle",
             "offset": 0,
-            "size": "0x288"
+            "size": "0x288",
+            "isBase": true
         },
         {
-            "name": "m_fCurrentSpeedLimit",
+            "name": "m_fWagonPosition",
             "type": "float",
             "offset": "0x288",
             "size": 4
         },
         {
-            "name": "m_nCarriageId",
-            "type": "unsigned __int16",
+            "name": "m_nWagonId",
+            "type": "__int16",
             "offset": "0x28C",
             "size": 2
         },
         {
-            "name": "m_nHideModel",
+            "name": "m_nIsFarAway",
             "type": "__int16",
             "offset": "0x28E",
-            "size": 2
+            "size": 2,
+            "comment": "don't update so often?"
         },
         {
-            "name": "m_nCurrentPathPoint",
+            "name": "m_nCurTrackNode",
             "type": "__int16",
             "offset": "0x290",
             "size": 2
         },
         {
-            "name": "m_nTrainId",
+            "name": "m_nWagonGroup",
             "type": "__int16",
             "offset": "0x292",
             "size": 2
         },
         {
-            "name": "m_fVelocity",
+            "name": "m_fSpeed",
             "type": "float",
             "offset": "0x294",
             "size": 4
         },
         {
-            "name": "m_bTrainDoorProcessing",
+            "name": "m_bProcessDoor",
             "type": "bool",
             "offset": "0x298",
             "size": 1
         },
         {
-            "name": "m_bTrainDoorOpening",
+            "name": "m_bTrainStopping",
             "type": "bool",
             "offset": "0x299",
             "size": 1
         },
         {
-            "name": "m_bFirstCarriage",
+            "name": "m_bIsFirstWagon",
             "type": "bool",
             "offset": "0x29A",
             "size": 1
         },
         {
-            "name": "m_bLastCarriage",
+            "name": "m_bIsLastWagon",
             "type": "bool",
             "offset": "0x29B",
             "size": 1
@@ -79,30 +81,19 @@
             "name": "m_nTrackId",
             "type": "unsigned __int8",
             "offset": "0x29C",
-            "size": 1
+            "size": 1,
+            "comment": "or m_bUsesSubwayTracks?"
         },
         {
-            "name": "_pad29D",
-            "type": "char[3]",
-            "offset": "0x29D",
-            "size": 3
-        },
-        {
-            "name": "m_nTrainDoorProcessingTime",
-            "type": "int",
+            "name": "m_nDoorTimer",
+            "type": "unsigned int",
             "offset": "0x2A0",
             "size": 4
         },
         {
-            "name": "m_nDoorsState",
+            "name": "m_nDoorState",
             "type": "__int16",
             "offset": "0x2A4",
-            "size": 2
-        },
-        {
-            "name": "_pad2A6",
-            "type": "char[2]",
-            "offset": "0x2A6",
             "size": 2
         },
         {
@@ -112,11 +103,10 @@
             "size": "0x30"
         },
         {
-            "name": "m_pTrainNode",
+            "name": "m_apTrainNodes",
             "type": "RwFrame *[3]",
             "offset": "0x2D8",
-            "size": "0xC",
-            "comment": "RwFrame *"
+            "size": "0xC"
         }
     ]
 }

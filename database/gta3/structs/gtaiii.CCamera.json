@@ -1,6 +1,6 @@
 {
     "name": "CCamera",
-    "module": "",
+    "module": "CCamera",
     "scope": "",
     "kind": "class",
     "size": "0xE9D8",
@@ -10,10 +10,11 @@
     "comment": "",
     "members": [
         {
-            "name": "parent",
+            "name": "placeable",
             "type": "CPlaceable",
             "offset": 0,
-            "size": "0x4C"
+            "size": "0x4C",
+            "isBase": true
         },
         {
             "name": "m_bAboveGroundTrainNodesLoaded",
@@ -274,12 +275,6 @@
             "size": 1
         },
         {
-            "name": "_pad77",
-            "type": "char",
-            "offset": "0x77",
-            "size": 1
-        },
-        {
             "name": "m_nCamShakeStart",
             "type": "unsigned int",
             "offset": "0x78",
@@ -304,22 +299,17 @@
             "size": 4
         },
         {
-            "name": "m_bTransitionJUSTStarted",
-            "type": "bool",
+            "name": "m_nTransitionJUSTStarted",
+            "type": "unsigned __int8",
             "offset": "0x88",
             "size": 1
         },
         {
-            "name": "m_bTransitionState",
+            "name": "m_nTransitionState",
             "type": "unsigned __int8",
             "offset": "0x89",
-            "size": 1
-        },
-        {
-            "name": "_pad8A",
-            "type": "char[2]",
-            "offset": "0x8A",
-            "size": 2
+            "size": 1,
+            "comment": "0:one mode 1:transition"
         },
         {
             "name": "m_nTimeLastChange",
@@ -328,7 +318,7 @@
             "size": 4
         },
         {
-            "name": "m_nTimeWeLeftIdle_StillNoInput",
+            "name": "m_nTimeWeEnteredIdle",
             "type": "unsigned int",
             "offset": "0x90",
             "size": 4
@@ -347,61 +337,62 @@
         },
         {
             "name": "m_nBlurBlue",
-            "type": "unsigned int",
+            "type": "int",
             "offset": "0x9C",
             "size": 4
         },
         {
             "name": "m_nBlurGreen",
-            "type": "unsigned int",
+            "type": "int",
             "offset": "0xA0",
             "size": 4
         },
         {
             "name": "m_nBlurRed",
-            "type": "unsigned int",
+            "type": "int",
             "offset": "0xA4",
             "size": 4
         },
         {
             "name": "m_nBlurType",
-            "type": "unsigned int",
+            "type": "int",
             "offset": "0xA8",
             "size": 4
         },
         {
-            "name": "dwordAC",
+            "name": "field_AC",
             "type": "int",
             "offset": "0xAC",
-            "size": 4
+            "size": 4,
+            "comment": "some counter having to do with music"
         },
         {
             "name": "m_nWorkOutSpeedThisNumFrames",
-            "type": "unsigned int",
+            "type": "int",
             "offset": "0xB0",
             "size": 4
         },
         {
             "name": "m_nNumFramesSoFar",
-            "type": "unsigned int",
+            "type": "int",
             "offset": "0xB4",
             "size": 4
         },
         {
             "name": "m_nCurrentTrainCamNode",
-            "type": "unsigned int",
+            "type": "int",
             "offset": "0xB8",
             "size": 4
         },
         {
             "name": "m_nMotionBlur",
-            "type": "unsigned int",
+            "type": "int",
             "offset": "0xBC",
             "size": 4
         },
         {
-            "name": "m_nMotionBlurAlpha",
-            "type": "unsigned int",
+            "name": "m_nMotionBlurAddAlpha",
+            "type": "int",
             "offset": "0xC0",
             "size": 4
         },
@@ -419,7 +410,7 @@
         },
         {
             "name": "m_nWhoIsInControlOfTheCamera",
-            "type": "unsigned int",
+            "type": "int",
             "offset": "0xCC",
             "size": 4
         },
@@ -574,13 +565,13 @@
             "size": 4
         },
         {
-            "name": "m_fFOV_Wide_Screen",
+            "name": "m_fFOVWideScreen",
             "type": "float",
             "offset": "0x134",
             "size": 4
         },
         {
-            "name": "m_fNearScreenScript",
+            "name": "m_fNearClipScript",
             "type": "float",
             "offset": "0x138",
             "size": 4
@@ -598,13 +589,13 @@
             "size": 4
         },
         {
-            "name": "m_fPedZoomValueSmooth",
+            "name": "m_fPedZoomValueScript",
             "type": "float",
             "offset": "0x144",
             "size": 4
         },
         {
-            "name": "m_fPedZoomValueScript",
+            "name": "m_fPedZoomValueSmooth",
             "type": "float",
             "offset": "0x148",
             "size": 4
@@ -658,13 +649,13 @@
             "size": 4
         },
         {
-            "name": "field_16C",
+            "name": "m_fSoundDistLeft",
             "type": "float",
             "offset": "0x16C",
             "size": 4
         },
         {
-            "name": "field_170",
+            "name": "m_fSoundDistRight",
             "type": "float",
             "offset": "0x170",
             "size": 4
@@ -676,13 +667,13 @@
             "size": 4
         },
         {
-            "name": "field_178",
+            "name": "m_fSoundDistLeftAsRead",
             "type": "float",
             "offset": "0x178",
             "size": 4
         },
         {
-            "name": "field_17C",
+            "name": "m_fSoundDistRightAsRead",
             "type": "float",
             "offset": "0x17C",
             "size": 4
@@ -694,13 +685,13 @@
             "size": 4
         },
         {
-            "name": "field_184",
+            "name": "m_fSoundDistLeftAsReadOld",
             "type": "float",
             "offset": "0x184",
             "size": 4
         },
         {
-            "name": "field_188",
+            "name": "m_fSoundDistRightAsReadOld",
             "type": "float",
             "offset": "0x188",
             "size": 4
@@ -721,13 +712,15 @@
             "name": "m_fMouseAccelHorzntal",
             "type": "float",
             "offset": "0x194",
-            "size": 4
+            "size": 4,
+            "comment": "acceleration multiplier for 1st person controls"
         },
         {
             "name": "m_fMouseAccelVertical",
             "type": "float",
             "offset": "0x198",
-            "size": 4
+            "size": 4,
+            "comment": "acceleration multiplier for 1st person controls"
         },
         {
             "name": "m_f3rdPersonCHairMultX",
@@ -748,14 +741,14 @@
             "size": "0x4EC"
         },
         {
-            "name": "m_pGaragePlayer",
+            "name": "m_pToGarageWeAreIn",
             "type": "CGarage *",
             "offset": "0x690",
             "size": 4
         },
         {
-            "name": "m_pGarageVehicle",
-            "type": "CVehicle *",
+            "name": "m_pToGarageWeAreInForHackAvoidFirstPerson",
+            "type": "CGarage *",
             "offset": "0x694",
             "size": 4
         },
@@ -766,7 +759,7 @@
             "size": "0xC"
         },
         {
-            "name": "m_playerWeaponMode",
+            "name": "m_PlayerWeaponMode",
             "type": "CQueuedMode",
             "offset": "0x6A4",
             "size": "0xC"
@@ -832,19 +825,19 @@
             "size": "0xC"
         },
         {
-            "name": "m_vecSourceSpeedOverOneFrame",
+            "name": "m_vecSourceSpeedAtStartInter",
             "type": "CVector",
             "offset": "0x728",
             "size": "0xC"
         },
         {
-            "name": "m_vecTargetSpeedOverOneFrame",
+            "name": "m_vecTargetSpeedAtStartInter",
             "type": "CVector",
             "offset": "0x734",
             "size": "0xC"
         },
         {
-            "name": "m_vecUpOverOneFrame",
+            "name": "m_vecUpSpeedAtStartInter",
             "type": "CVector",
             "offset": "0x740",
             "size": "0xC"
@@ -856,13 +849,13 @@
             "size": "0xC"
         },
         {
-            "name": "m_vecUpWhenInterPol",
+            "name": "m_vecTargetWhenInterPol",
             "type": "CVector",
             "offset": "0x758",
             "size": "0xC"
         },
         {
-            "name": "m_vecClearGeometryVec",
+            "name": "m_vecUpWhenInterPol",
             "type": "CVector",
             "offset": "0x764",
             "size": "0xC"
@@ -910,13 +903,13 @@
             "size": "0x3200"
         },
         {
-            "name": "m_asTrainCamNodes",
+            "name": "m_aTrainCamNodes",
             "type": "CTrainCamNode[800]",
             "offset": "0x39A8",
             "size": "0xAF00"
         },
         {
-            "name": "m_mMatInverse",
+            "name": "m_CameraMatrix",
             "type": "CMatrix",
             "offset": "0xE8A8",
             "size": "0x48"
@@ -952,13 +945,7 @@
             "size": 1
         },
         {
-            "name": "_padE8F5",
-            "type": "char[3]",
-            "offset": "0xE8F5",
-            "size": 3
-        },
-        {
-            "name": "m_mViewMatrix",
+            "name": "m_ViewMatrix",
             "type": "CMatrix",
             "offset": "0xE8F8",
             "size": "0x48"
@@ -994,19 +981,19 @@
             "size": 4
         },
         {
-            "name": "m_fFadeAlpha",
+            "name": "m_fFLOATingFade",
             "type": "float",
             "offset": "0xE998",
             "size": 4
         },
         {
-            "name": "m_fEffectsFaderScalingFactor",
+            "name": "m_fFLOATingFadeMusic",
             "type": "float",
             "offset": "0xE99C",
             "size": 4
         },
         {
-            "name": "m_fFadeDuration",
+            "name": "m_fTimeToFadeOut",
             "type": "float",
             "offset": "0xE9A0",
             "size": 4
@@ -1054,15 +1041,9 @@
             "size": 4
         },
         {
-            "name": "m_nFadeInOutFlag",
-            "type": "unsigned __int16",
-            "offset": "0xE9C0",
-            "size": 2
-        },
-        {
-            "name": "_padE9C2",
+            "name": "m_nFadingDirection",
             "type": "__int16",
-            "offset": "0xE9C2",
+            "offset": "0xE9C0",
             "size": 2
         },
         {
@@ -1090,19 +1071,13 @@
             "size": 2
         },
         {
-            "name": "_padE9CE",
-            "type": "__int16",
-            "offset": "0xE9CE",
-            "size": 2
-        },
-        {
-            "name": "m_nFadeStartTime",
+            "name": "m_nFadeTimeStarted",
             "type": "unsigned int",
             "offset": "0xE9D0",
             "size": 4
         },
         {
-            "name": "m_nTimeToWaitToFadeMusic",
+            "name": "m_nFadeTimeStartedMusic",
             "type": "unsigned int",
             "offset": "0xE9D4",
             "size": 4

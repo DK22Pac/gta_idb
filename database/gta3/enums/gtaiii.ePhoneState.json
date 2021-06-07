@@ -4,50 +4,52 @@
     "scope": "",
     "width": 4,
     "isClass": false,
-    "isHexademical": true,
+    "isHexademical": false,
     "isSigned": false,
     "isBitfield": false,
     "comment": "",
     "members": [
         {
-            "name": "PHONE_INACTIVE",
-            "value": "0x0"
+            "name": "PHONE_FREE",
+            "value": 0
         },
         {
-            "name": "PHONE_1",
-            "value": "0x1"
+            "name": "PHONE_REPORTING_CRIME",
+            "value": 1,
+            "comment": "CCivilianPed::ProcessControl sets it but unused"
         },
         {
             "name": "PHONE_2",
-            "value": "0x2"
+            "value": 2
         },
         {
-            "name": "PHONE_NO_MESSAGE",
-            "value": "0x3"
+            "name": "PHONE_MESSAGE_REMOVED",
+            "value": 3
         },
         {
-            "name": "PHONE_MESSAGE_ONCE",
-            "value": "0x4"
+            "name": "PHONE_ONETIME_MESSAGE_SET",
+            "value": 4
         },
         {
-            "name": "PHONE_MESSAGE_REPEAT",
-            "value": "0x5"
+            "name": "PHONE_REPEATED_MESSAGE_SET",
+            "value": 5
         },
         {
-            "name": "PHONE_6",
-            "value": "0x6"
+            "name": "PHONE_REPEATED_MESSAGE_SHOWN_ONCE",
+            "value": 6
         },
         {
-            "name": "PHONE_MESSAGE_SHOWN_ONCE",
-            "value": "0x7"
+            "name": "PHONE_ONETIME_MESSAGE_STARTED",
+            "value": 7
         },
         {
-            "name": "PHONE_MESSAGE_IS_SHOWN",
-            "value": "0x8"
+            "name": "PHONE_REPEATED_MESSAGE_STARTED",
+            "value": 8
         },
         {
             "name": "PHONE_9",
-            "value": "0x9"
+            "value": 9,
+            "comment": "just rings, picking being handled via script. most of the time game uses this"
         }
     ]
 }

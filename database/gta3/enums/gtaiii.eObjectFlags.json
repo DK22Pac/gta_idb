@@ -1,0 +1,41 @@
+{
+    "name": "eObjectFlags",
+    "module": "CObject",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "IsPickup",
+            "value": 0
+        },
+        {
+            "name": "PickupObjWithMessage",
+            "value": 1
+        },
+        {
+            "name": "OutOfStock",
+            "value": 2
+        },
+        {
+            "name": "GlassCracked",
+            "value": 3
+        },
+        {
+            "name": "GlassBroken",
+            "value": 4
+        },
+        {
+            "name": "HasBeenDamaged",
+            "value": 5
+        },
+        {
+            "name": "UseVehicleColours",
+            "value": 6
+        }
+    ]
+}

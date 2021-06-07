@@ -29,6 +29,7 @@
 0x5EC8B8,CCarCtrl,_ZN8CCarCtrl20MaxNumberOfCarsInUseE,CCarCtrl::MaxNumberOfCarsInUse,int,,4,,,0
 0x5ECDD4,,gaCarsToCollectInCraigsGarages,gaCarsToCollectInCraigsGarages,eVehicleModel[],,212,,,0
 0x5ECEA8,,_ZL8hGarages,hGarages,int,,4,,,0
+0x5ECEAC,,margin,margin,const float,,4,0.0f,,0
 0x5ED8D4,,AmmoForWeapon,AmmoForWeapon,unsigned __int16[20],,40,,,0
 0x5ED8FC,,AmmoForWeapon_OnStreet,AmmoForWeapon_OnStreet,unsigned __int16[20],,40,,,0
 0x5ED924,,CostOfWeapon,CostOfWeapon,__int16[20],,40,,,0
@@ -38,11 +39,13 @@
 0x5EDEDC,,aWeaponBlues,aWeaponBlues,char[16],,16,,,0
 0x5EDEEC,,aWeaponScale,aWeaponScale,float[15],,60,,,0
 0x5EE520,,_ZZ21RemoveUnusedCollisionvE15dontDeleteArray,RemoveUnusedCollision(void)::dontDeleteArray,char *[],,64,,,0
+0x5EF210,,strength,strength,const float,,4,0.8f,,0
+0x5EF6AC,,range,range,CVector,,12,,,0
 0x5EFBF0,,DbgLineColour,DbgLineColour,unsigned __int16,,2,,,0
-0x5F03D8,,_ZN7CCamera20m_bUseMouse3rdPersonE,CCamera::m_bUseMouse3rdPerson,,,1,,,0
+0x5F03D8,CCamera,_ZN7CCamera20m_bUseMouse3rdPersonE,CCamera::m_bUseMouse3rdPerson,bool,,1,,,0
 0x5F03DC,,PrintDebugCode,PrintDebugCode,bool,,1,,,0
-0x5F0AB0,,SequenceOfCams,SequenceOfCams,int[15],,60,,,0
-0x5F0AEC,,SequenceOfPedCams,SequenceOfPedCams,int[5],,20,,,0
+0x5F0AB0,CCamera,SequenceOfCams,SequenceOfCams,int[15],,60,,,0
+0x5F0AEC,CCamera,SequenceOfPedCams,SequenceOfPedCams,int[5],,20,,,0
 0x5F0EB8,,_ZTV7CCamera,`vtable for'CCamera,,,1,,,0
 0x5F0F40,,_ZTV6CDummy,`vtable for'CDummy,,,1,,,0
 0x5F0FA4,,_ZL9WindTabel,WindTabel,float[16],,64,,,0
@@ -233,29 +236,33 @@
 0x5F6CA4,,pRadarSprites,pRadarSprites,CSprite2d *[],,84,,,0
 0x5F6EF8,,_ZL14gRadarTexNames,gRadarTexNames,const char *[],,256,,,0
 0x5F7120,,fPulseFraction,fPulseFraction,const float,,4,0.2f,,0
-0x5F7128,,fSize,fSize,const float,,4,2.5f,,0
 0x5F726C,,_ZN9CRenderer15ms_lodDistScaleE,CRenderer::ms_lodDistScale,float,,4,,,0
+0x5F7610,,nCyclesPerMS,nCyclesPerMS,,,1,,,0
 0x5F7614,CTimer,_ZN6CTimer31m_snTimeInMillisecondsPauseModeE,CTimer::m_snTimeInMillisecondsPauseMode,unsigned int,,4,,,0
-0x5F76C8,,_ZN9CTimeStep12ms_fTimeStepE,CTimeStep::ms_fTimeStep,float,,4,,,0
-0x5F76CC,,_ZN9CTimeStep19ms_fFramesPerUpdateE,CTimeStep::ms_fFramesPerUpdate,float,,4,,,0
-0x5F76D0,,_ZN9CTimeStep13ms_fTimeScaleE,CTimeStep::ms_fTimeScale,float,,4,,,0
+0x5F76C8,CTimeStep,_ZN9CTimeStep12ms_fTimeStepE,CTimeStep::ms_fTimeStep,float,,4,,,0
+0x5F76CC,CTimeStep,_ZN9CTimeStep19ms_fFramesPerUpdateE,CTimeStep::ms_fFramesPerUpdate,float,,4,,,0
+0x5F76D0,CTimeStep,_ZN9CTimeStep13ms_fTimeScaleE,CTimeStep::ms_fTimeScale,float,,4,,,0
 0x5F7714,,_ZN7CWanted18MaximumWantedLevelE,CWanted::MaximumWantedLevel,unsigned int,,4,,,0
 0x5F7718,,_ZN7CWanted19nMaximumWantedLevelE,CWanted::nMaximumWantedLevel,unsigned int,,4,,,0
 0x5F7C08,,_ZTV13CCutsceneHead,`vtable for'CCutsceneHead,,,1,,,0
 0x5F7C80,,_ZTV15CCutsceneObject,`vtable for'CCutsceneObject,,,1,,,0
 0x5F7CEC,,_ZTV12CDummyObject,`vtable for'CDummyObject,,,1,,,0
-0x5F7D4C,,_ZN7CObject15nBodyCastHealthE,CObject::nBodyCastHealth,__int16,,2,,,0
+0x5F7D4C,CObject,_ZN7CObject15nBodyCastHealthE,CObject::nBodyCastHealth,__int16,,2,,,0
 0x5F7DD4,,_ZTV7CObject,`vtable for'CObject,,,1,,,0
 0x5F8030,,_ZTV15CParticleObject,`vtable for'CParticleObject,,,1,,,0
 0x5F8048,,_ZTV11CProjectile,`vtable for'CProjectile,,,1,,,0
 0x5F819C,,_ZTV12CCivilianPed,`vtable for'CCivilianPed,,,1,,,0
 0x5F82A4,,_ZTV7CCopPed,`vtable for'CCopPed,,,1,,,0
 0x5F8374,,_ZTV13CEmergencyPed,`vtable for'CEmergencyPed,,,1,,,0
+0x5F846C,,radius,radius,const float,,4,10.0f,,0
+0x5F8588,,limitAngle,limitAngle,float,,4,,,0
 0x5F8714,,mRadioStation,mRadioStation,char[][4],,40,,,0
 0x5F8C2C,,_ZTV4CPed,`vtable for'CPed,,,1,,,0
 0x5F8C94,,nEnterCarRangeMultiplier,nEnterCarRangeMultiplier,__int16,,2,,,0
 0x5F8C98,,nThreatReactionRangeMultiplier,nThreatReactionRangeMultiplier,__int16,,2,,,0
 0x5F9844,,tFightMoves,tFightMoves,FightData[],,576,,,0
+0x5F9A88,,size,size,const float,,4,0.0f,,0
+0x5F9AF0,,angle,angle,const float,,4,-0.3f,,0
 0x5F9B08,,_ZL4gSfx,gSfx,eSound[120],,240,,,0
 0x5F9F5C,,_ZN6CPedIK11ms_headInfoE,CPedIK::ms_headInfo,LimbMovementInfo,,24,,,0
 0x5F9F74,,_ZN6CPedIK18ms_headRestoreInfoE,CPedIK::ms_headRestoreInfo,LimbMovementInfo,,24,,,0
@@ -271,13 +278,13 @@
 0x5FA56C,CPopulation,_ZN11CPopulation20PedDensityMultiplierE,CPopulation::PedDensityMultiplier,float,,4,,,0
 0x5FA570,CPopulation,_ZN11CPopulation23m_AllRandomPedsThisTypeE,CPopulation::m_AllRandomPedsThisType,int,,4,,,0
 0x5FA574,CPopulation,_ZN11CPopulation20MaxNumberOfPedsInUseE,CPopulation::MaxNumberOfPedsInUse,int,,4,,,0
-0x5FA578,,aSafeZones,aSafeZones,LevelChangeData[8],,640,,,0
+0x5FA578,CPopulation,aSafeZones,aSafeZones,RegenerationPoint[8],,640,,,0
 0x5FAB58,,_ZTV14CBaseModelInfo,`vtable for'CBaseModelInfo,,,1,,,0
 0x5FAF44,,gpCoronaTexture,gpCoronaTexture,RwTexture *[9],,36,,,0
 0x5FB088,,_ZN8CCoronas10LightsMultE,CCoronas::LightsMult,float,,4,,,0
 0x5FB1F8,,normalAngle,normalAngle,const float,,4,0.0f,,0
 0x5FBC6C,CDraw,_ZN5CDraw7ms_fFOVE,CDraw::ms_fFOV,float,,4,,,0
-0x5FBD5C,,ScrollCharSet,ScrollCharSet,char[295],,295,,,0
+0x5FBD5C,,ScrollCharSet,ScrollCharSet,unsigned __int8[59][5],,295,,,0
 0x5FD120,,_ZN5CFont4SizeE,CFont::Size,__int16[192],,384,,,0
 0x5FD2A0,,_ZN5CFont5Size2E,CFont::Size2,__int16[260],,520,,,0
 0x5FD4A8,,foreign_table,foreign_table,__int16[256],,512,,,0
@@ -336,68 +343,91 @@
 0x600128,,_ZN18CVisibilityPlugins20ms_framePluginOffsetE,CVisibilityPlugins::ms_framePluginOffset,,,1,,,0
 0x60012C,,_ZN18CVisibilityPlugins20ms_clumpPluginOffsetE,CVisibilityPlugins::ms_clumpPluginOffset,,,1,,,0
 0x60020C,,_ZL20FrenchUpperCaseTable,FrenchUpperCaseTable,__int16[256],,512,,,0
-0x6004F0,,maxViewAngle,maxViewAngle,const float,,4,8.0f,,0
+0x6004F8,,volume,volume,const float,,4,0.0f,,0
+0x600638,,divisor,divisor,const float,,4,2.0f,,0
 0x600758,,m_ColorParticle,m_ColorParticle,RwRGBA[4],,16,,,0
 0x600C1C,,_ZTV11CAutomobile,`vtable for'CAutomobile,,,1,,,0
-0x600CC4,,MAX_WAKE_LENGTH,MAX_WAKE_LENGTH,float,,4,,,0
-0x600CC8,,MIN_WAKE_INTERVAL,MIN_WAKE_INTERVAL,float,,4,,,0
-0x600CCC,,WAKE_LIFETIME,WAKE_LIFETIME,float,,4,,,0
-0x600E78,,fShapeLength,fShapeLength,float,,4,,,0
-0x600E7C,,fShapeTime,fShapeTime,float,,4,,,0
-0x600E80,,fRangeMult,fRangeMult,float,,4,,,0
+0x600CC4,CBoat,MAX_WAKE_LENGTH,MAX_WAKE_LENGTH,float,,4,,50.0f,0
+0x600CC8,CBoat,MIN_WAKE_INTERVAL,MIN_WAKE_INTERVAL,float,,4,,1.0f,0
+0x600CCC,CBoat,WAKE_LIFETIME,WAKE_LIFETIME,float,,4,,400.0f,0
+0x600E78,CBoat,fShapeLength,fShapeLength,float,,4,,0.4f,0
+0x600E7C,CBoat,fShapeTime,fShapeTime,float,,4,,0.05f,0
+0x600E80,CBoat,fRangeMult,fRangeMult,float,,4,,0.75f,0
 0x600EA4,,_ZTV5CBoat,`vtable for'CBoat,,,1,,,0
-0x6012B0,,G_aComponentDamage,G_aComponentDamage,float[7],,28,,,0
+0x6012B0,CDamageManager,G_aComponentDamage,G_aComponentDamage,float[7],,28,,"2.5f, 1.25f, 3.2f, 1.4f, 2.5f, 2.8f, 0.5f",0
 0x601370,,fBoatVolumeDistribution,fBoatVolumeDistribution,float[9],,36,,,0
 0x601394,,fVolMultiplier,fVolMultiplier,float,,4,,,0
 0x6013E4,,HandlingFilename,HandlingFilename,char *,,4,,,0
+0x60199C,,col,col,RwRGBA,,4,,,0
+0x6019FC,CHeli,CatalinaTargetX,CatalinaTargetX,float[7],,28,,,0
+0x601A18,CHeli,CatalinaTargetY,CatalinaTargetY,float[7],,28,,,0
+0x601A34,CHeli,CatalinaTargetZ,CatalinaTargetZ,float[7],,28,,,0
+0x601A50,CHeli,DamPathX,DamPathX,float[6],,24,,,0
+0x601A68,CHeli,DamPathY,DamPathY,float[6],,24,,,0
+0x601A80,CHeli,DamPathZ,DamPathZ,float[6],,24,,,0
+0x601A98,CHeli,ShortPathX,ShortPathX,float[4],,16,,,0
+0x601AA8,CHeli,ShortPathY,ShortPathY,float[4],,16,,,0
+0x601AB8,CHeli,ShortPathZ,ShortPathZ,float[4],,16,,,0
+0x601AC8,CHeli,LongPathX,LongPathX,float[7],,28,,,0
+0x601AE4,CHeli,LongPathY,LongPathY,float[7],,28,,,0
+0x601B00,CHeli,LongPathZ,LongPathZ,float[7],,28,,,0
 0x601BC0,,fRotRamp,fRotRamp,float,,4,,,0
 0x601EB0,,_ZTV5CHeli,`vtable for'CHeli,,,1,,,0
 0x6021DC,,_ZTV6CPlane,`vtable for'CPlane,,,1,,,0
-0x602284,,StationDist,StationDist,float[3],,12,,,0
-0x602290,,StationDist_S,StationDist_S,float[4],,16,,,0
-0x6022A0,,_ZL22bTrainArrivalAnnounced,bTrainArrivalAnnounced,bool[],,1,,,0
+0x602284,CTrain,StationDist,StationDist,float[3],,12,,"873.0f, 1522.0f, 2481.0f",0
+0x602290,CTrain,StationDist_S,StationDist_S,float[4],,16,,"55.0f, 1388.0f, 2337.0f, 3989.0f",0
+0x6022A0,CTrain,_ZL22bTrainArrivalAnnounced,bTrainArrivalAnnounced,bool[3],,3,,,0
 0x60241C,,_ZTV6CTrain,`vtable for'CTrain,,,1,,,0
-0x60252C,,_ZN8CVehicle23m_bDisableMouseSteeringE,CVehicle::m_bDisableMouseSteering,bool,,1,,,0
-0x602538,,fBurstTyreMod,fBurstTyreMod,float,,4,,,0
-0x60253C,,fBurstSpeedMax,fBurstSpeedMax,float,,4,,,0
-0x6025A4,,fSpeedResistanceY,fSpeedResistanceY,float,,4,,,0
-0x6025A8,,fSpeedResistanceZ,fSpeedResistanceZ,float,,4,,,0
-0x6025AC,,fThrustVar,fThrustVar,float,,4,,,0
-0x6025B0,,fRotorFallOff,fRotorFallOff,float,,4,,,0
-0x6025B4,,fStabiliseVar,fStabiliseVar,float,,4,,,0
-0x6025B8,,fPitchVar,fPitchVar,float,,4,,,0
-0x6025BC,,fRollVar,fRollVar,float,,4,,,0
-0x6025C0,,fYawVar,fYawVar,float,,4,,,0
-0x6025C4,,fPitchBrake,fPitchBrake,float,,4,,,0
-0x6025C8,,fRollBrake,fRollBrake,float,,4,,,0
-0x6025CC,,fSpinSpeedRes,fSpinSpeedRes,float,,4,,,0
-0x6025D0,,fRCAeroThrust,fRCAeroThrust,float,,4,,,0
-0x6025D4,,fRCPropFallOff,fRCPropFallOff,float,,4,,,0
-0x6025D8,,fRCYawMult,fRCYawMult,float,,4,,,0
-0x6025DC,,fRCRudderMult,fRCRudderMult,float,,4,,,0
-0x6025E0,,fRCSideSlipMult,fRCSideSlipMult,float,,4,,,0
-0x6025E4,,fRCRollMult,fRCRollMult,float,,4,,,0
-0x6025E8,,fRCRollStabilise,fRCRollStabilise,float,,4,,,0
-0x6025EC,,fRCPitchMult,fRCPitchMult,float,,4,,,0
-0x6025F0,,fRCTailMult,fRCTailMult,float,,4,,,0
-0x6025F4,,fRCFormLiftMult,fRCFormLiftMult,float,,4,,,0
-0x6025F8,,fRCAttackLiftMult,fRCAttackLiftMult,float,,4,,,0
-0x6025FC,,fSeaThrust,fSeaThrust,float,,4,,,0
-0x602600,,fSeaPropFallOff,fSeaPropFallOff,float,,4,,,0
-0x602604,,fSeaYawMult,fSeaYawMult,float,,4,,,0
-0x602608,,fSeaRudderMult,fSeaRudderMult,float,,4,,,0
-0x60260C,,fSeaSideSlipMult,fSeaSideSlipMult,float,,4,,,0
-0x602610,,fSeaRollMult,fSeaRollMult,float,,4,,,0
-0x602614,,fSeaRollStabilise,fSeaRollStabilise,float,,4,,,0
-0x602618,,fSeaPitchMult,fSeaPitchMult,float,,4,,,0
-0x60261C,,fSeaTailMult,fSeaTailMult,float,,4,,,0
-0x602620,,fSeaFormLiftMult,fSeaFormLiftMult,float,,4,,,0
-0x602624,,fSeaAttackLiftMult,fSeaAttackLiftMult,float,,4,,,0
+0x60252C,CVehicle,_ZN8CVehicle23m_bDisableMouseSteeringE,CVehicle::m_bDisableMouseSteering,bool,,1,,,0
+0x602538,CVehicle,fBurstTyreMod,fBurstTyreMod,float,,4,,0.1f,0
+0x60253C,CVehicle,fBurstSpeedMax,fBurstSpeedMax,float,,4,,0.3f,0
+0x6025A4,CVehicle,fSpeedResistanceY,fSpeedResistanceY,float,,4,,500.0f,0
+0x6025A8,CVehicle,fSpeedResistanceZ,fSpeedResistanceZ,float,,4,,500.0f,0
+0x6025AC,CVehicle,fThrustVar,fThrustVar,float,,4,,0.3f,0
+0x6025B0,CVehicle,fRotorFallOff,fRotorFallOff,float,,4,,0.75f,0
+0x6025B4,CVehicle,fStabiliseVar,fStabiliseVar,float,,4,,0.015f,0
+0x6025B8,CVehicle,fPitchVar,fPitchVar,float,,4,,0.006f,0
+0x6025BC,CVehicle,fRollVar,fRollVar,float,,4,,0.006f,0
+0x6025C0,CVehicle,fYawVar,fYawVar,float,,4,,-0.001f,0
+0x6025C4,CVehicle,fPitchBrake,fPitchBrake,float,,4,,10.0f,0
+0x6025C8,CVehicle,fRollBrake,fRollBrake,float,,4,,10.0f,0
+0x6025CC,CVehicle,fSpinSpeedRes,fSpinSpeedRes,float,,4,,20.0f,0
+0x6025D0,CVehicle,fRCAeroThrust,fRCAeroThrust,float,,4,,0.003f,0
+0x6025D4,CVehicle,fRCPropFallOff,fRCPropFallOff,float,,4,,3.0f,0
+0x6025D8,CVehicle,fRCYawMult,fRCYawMult,float,,4,,-0.01f,0
+0x6025DC,CVehicle,fRCRudderMult,fRCRudderMult,float,,4,,0.2f,0
+0x6025E0,CVehicle,fRCSideSlipMult,fRCSideSlipMult,float,,4,,0.1f,0
+0x6025E4,CVehicle,fRCRollMult,fRCRollMult,float,,4,,0.02f,0
+0x6025E8,CVehicle,fRCRollStabilise,fRCRollStabilise,float,,4,,-0.08f,0
+0x6025EC,CVehicle,fRCPitchMult,fRCPitchMult,float,,4,,0.005f,0
+0x6025F0,CVehicle,fRCTailMult,fRCTailMult,float,,4,,0.3f,0
+0x6025F4,CVehicle,fRCFormLiftMult,fRCFormLiftMult,float,,4,,0.02f,0
+0x6025F8,CVehicle,fRCAttackLiftMult,fRCAttackLiftMult,float,,4,,0.25f,0
+0x6025FC,CVehicle,fSeaThrust,fSeaThrust,float,,4,,0.002f,0
+0x602600,CVehicle,fSeaPropFallOff,fSeaPropFallOff,float,,4,,2.3f,0
+0x602604,CVehicle,fSeaYawMult,fSeaYawMult,float,,4,,-0.0003f,0
+0x602608,CVehicle,fSeaRudderMult,fSeaRudderMult,float,,4,,0.01f,0
+0x60260C,CVehicle,fSeaSideSlipMult,fSeaSideSlipMult,float,,4,,0.1f,0
+0x602610,CVehicle,fSeaRollMult,fSeaRollMult,float,,4,,0.0015f,0
+0x602614,CVehicle,fSeaRollStabilise,fSeaRollStabilise,float,,4,,-0.01f,0
+0x602618,CVehicle,fSeaPitchMult,fSeaPitchMult,float,,4,,0.0002f,0
+0x60261C,CVehicle,fSeaTailMult,fSeaTailMult,float,,4,,0.01f,0
+0x602620,CVehicle,fSeaFormLiftMult,fSeaFormLiftMult,float,,4,,0.012f,0
+0x602624,CVehicle,fSeaAttackLiftMult,fSeaAttackLiftMult,float,,4,,0.1f,0
 0x6028A8,,_ZTV8CVehicle,`vtable for'CVehicle,,,1,,,0
 0x602964,,pfnWaterLevelInit,pfnWaterLevelInit,int (*)(void),,4,,,0
 0x602CDC,,_ZL11AudioHandle,AudioHandle,int,,4,,,0
 0x603030,,_ZN11CWeaponInfo20ms_aReloadSampleTimeE,CWeaponInfo::ms_aReloadSampleTime,unsigned __int16[],,28,,,0
+0x603060,,blue,blue,const float,,4,0.0f,,0
+0x603074,,red,red,const float,,4,1.0f,,0
+0x6030A0,,green,green,const float,,4,0.8f,,0
+0x6030B4,,jz,jz,const float,,4,3.0f,,0
+0x6030F0,,sphereRadius,sphereRadius,const float,,4,0.5f,,0
 0x603334,,_ZN11CWeaponInfo15ms_aWeaponNamesE,CWeaponInfo::ms_aWeaponNames,char *[14],,56,,,0
+0x604800,,curprovider,curprovider,,,1,,,0
+0x604804,,index,index,int,,4,,,0
+0x60482C,,FinishEAX3,FinishEAX3,EAXLISTENERPROPERTIES,,112,,,0
+0x60489C,,StartEAX3,StartEAX3,EAXLISTENERPROPERTIES,,112,,,0
 0x604EBC,,_ZL14gHeliSfxRanges,gHeliSfxRanges,tHelicopterSampleData[3],,36,,,0
 0x606204,,_ZL16aVehicleSettings,aVehicleSettings,tVehicleSampleData[70],,1960,,,0
 0x607094,,_ZL24MissionAudioNameSfxAssoc,MissionAudioNameSfxAssoc,MissionAudioData,,808,,,0
@@ -631,15 +661,16 @@
 0x623514,,_ZN14CTempColModels27ms_colModelBodyPart1SpheresE,CTempColModels::ms_colModelBodyPart1Spheres,CColSphere[2],,40,,,0
 0x62353C,,_ZN14CTempColModels27ms_colModelBodyPart2SpheresE,CTempColModels::ms_colModelBodyPart2Spheres,CColSphere[2],,40,,,0
 0x623570,,_ZZN8CGarages6UpdateEvE16GarageToBeTidied,CGarages::Update(void)::GarageToBeTidied,int,,4,,,0
-0x623580,,_ZL14TempListLength,TempListLength,int,,4,,,0
+0x623580,CPathFind,_ZL14TempListLength,TempListLength,int,,4,,,0
+0x623584,,_ZGVZN9CPathFind22PreparePathDataForTypeEhP9CTempNodeP18CPathInfoForObjectfP17CTempDetachedNodeiE12CoorsXFormed,"`guard variable for'CPathFind::PreparePathDataForType(uchar,CTempNode *,CPathInfoForObject *,float,CTempDetachedNode *,int)::CoorsXFormed",char,,1,,,0
 0x623588,,_ZZN9CPathFind22PreparePathDataForTypeEhP9CTempNodeP18CPathInfoForObjectfP17CTempDetachedNodeiE12CoorsXFormed,"CPathFind::PreparePathDataForType(uchar,CTempNode *,CPathInfoForObject *,float,CTempDetachedNode *,int)::CoorsXFormed",CVector,,12,,,0
-0x623594,,_ZL18apNodesToBeCleared,apNodesToBeCleared,CPathNode *[4995],,19980,,,0
-0x6283A0,,_ZL11gMaxEntries,gMaxEntries,int,,4,,,0
+0x623594,CPathFind,_ZL18apNodesToBeCleared,apNodesToBeCleared,CPathNode *[4995],,19980,,,0
+0x6283A0,CPathFind,_ZL11gMaxEntries,gMaxEntries,int,,4,,,0
 0x6283A8,CPhoneInfo,_ZL24PhoneEnableControlsTimer,PhoneEnableControlsTimer,unsigned int,,4,,,0
 0x6283AC,CPhoneInfo,_ZL23bDisplayingPhoneMessage,bDisplayingPhoneMessage,bool,,1,,,0
 0x6283B0,CPhoneInfo,_ZL24pPhoneDisplayingMessages,pPhoneDisplayingMessages,CPhone *,,4,,,0
 0x6283B4,CPhoneInfo,_ZL15bPickingUpPhone,bPickingUpPhone,bool,,1,,,0
-0x6283B8,CPhoneInfo,_ZL12pCallBackPed,pCallBackPed,CPlayerPed *,,4,,,0
+0x6283B8,CPhoneInfo,_ZL12pCallBackPed,pCallBackPed,CPed *,,4,,,0
 0x6283BC,,_ZN10CPhoneInfo9DSOHandleE,CPhoneInfo::DSOHandle,DSOHandle,,12,,,0
 0x6283D0,,_ZN9CTextLine9DSOHandleE,CTextLine::DSOHandle,DSOHandle,,12,,,0
 0x6283DC,,_ZN16CScriptRectangle9DSOHandleE,CScriptRectangle::DSOHandle,DSOHandle,,12,,,0
@@ -648,15 +679,15 @@
 0x6288F8,,_ZGVZN11CTheScripts26ClearSpaceForMissionEntityERK7CVectorP7CEntityE14aTempColPoints,"`guard variable for'CTheScripts::ClearSpaceForMissionEntity(CVector const&,CEntity *)::aTempColPoints",bool,,1,,,0
 0x628900,,_ZN16CAccidentManager9DSOHandleE,CAccidentManager::DSOHandle,DSOHandle,,12,,,0
 0x628930,,_ZN7CCamera9DSOHandleE,CCamera::DSOHandle,DSOHandle,,12,,,0
-0x628940,CCam,_ZZN4CCam27FixCamWhenObscuredByVehicleERK7CVectorE24HeightFixerCarsObscuring,CCam::FixCamWhenObscuredByVehicle(CVector const&)::HeightFixerCarsObscuring,float,,4,,,0
-0x628948,CCam,_ZZN4CCam27FixCamWhenObscuredByVehicleERK7CVectorE29HeightFixerCarsObscuringSpeed,CCam::FixCamWhenObscuredByVehicle(CVector const&)::HeightFixerCarsObscuringSpeed,float,,4,,,0
-0x62894D,CCam,_ZZN4CCam16FixCamIfObscuredERK7CVectorffE12LastObscured,"CCam::FixCamIfObscured(CVector const&,float,float)::LastObscured",bool,,1,,,0
+0x628940,,_ZZN4CCam27FixCamWhenObscuredByVehicleERK7CVectorE24HeightFixerCarsObscuring,CCam::FixCamWhenObscuredByVehicle(CVector const&)::HeightFixerCarsObscuring,float,,4,,,0
+0x628948,,_ZZN4CCam27FixCamWhenObscuredByVehicleERK7CVectorE29HeightFixerCarsObscuringSpeed,CCam::FixCamWhenObscuredByVehicle(CVector const&)::HeightFixerCarsObscuringSpeed,float,,4,,,0
+0x62894D,,_ZZN4CCam16FixCamIfObscuredERK7CVectorffE12LastObscured,"CCam::FixCamIfObscured(CVector const&,float,float)::LastObscured",bool,,1,,,0
 0x62894E,,_ZGVZN4CCam16FixCamIfObscuredERK7CVectorffE8colPoint,"`guard variable for'CCam::FixCamIfObscured(CVector const&,float,float)::colPoint",bool,,1,,,0
-0x628950,CCam,_ZZN4CCam16FixCamIfObscuredERK7CVectorffE8colPoint,"CCam::FixCamIfObscured(CVector const&,float,float)::colPoint",CColPoint,,40,,,0
+0x628950,,_ZZN4CCam16FixCamIfObscuredERK7CVectorffE8colPoint,"CCam::FixCamIfObscured(CVector const&,float,float)::colPoint",CColPoint,,40,,,0
 0x628984,,_ZGVZN4CCam19KeepTrackOfTheSpeedERK7CVectorS2_S2_RKfS4_S4_E14PreviousSource,"`guard variable for'CCam::KeepTrackOfTheSpeed(CVector const&,CVector const&,CVector const&,float const&,float const&,float const&)::PreviousSource",bool,,1,,,0
-0x628988,CCam,_ZZN4CCam19KeepTrackOfTheSpeedERK7CVectorS2_S2_RKfS4_S4_E14PreviousSource,"CCam::KeepTrackOfTheSpeed(CVector const&,CVector const&,CVector const&,float const&,float const&,float const&)::PreviousSource",CVector,,12,,,0
+0x628988,,_ZZN4CCam19KeepTrackOfTheSpeedERK7CVectorS2_S2_RKfS4_S4_E14PreviousSource,"CCam::KeepTrackOfTheSpeed(CVector const&,CVector const&,CVector const&,float const&,float const&,float const&)::PreviousSource",CVector,,12,,,0
 0x628994,,_ZGVZN4CCam19KeepTrackOfTheSpeedERK7CVectorS2_S2_RKfS4_S4_E14PreviousTarget,"`guard variable for'CCam::KeepTrackOfTheSpeed(CVector const&,CVector const&,CVector const&,float const&,float const&,float const&)::PreviousTarget",bool,,1,,,0
-0x628998,CCam,_ZZN4CCam19KeepTrackOfTheSpeedERK7CVectorS2_S2_RKfS4_S4_E14PreviousTarget,"CCam::KeepTrackOfTheSpeed(CVector const&,CVector const&,CVector const&,float const&,float const&,float const&)::PreviousTarget",CVector,,12,,,0
+0x628998,,_ZZN4CCam19KeepTrackOfTheSpeedERK7CVectorS2_S2_RKfS4_S4_E14PreviousTarget,"CCam::KeepTrackOfTheSpeed(CVector const&,CVector const&,CVector const&,float const&,float const&,float const&)::PreviousTarget",CVector,,12,,,0
 0x6289A4,,_ZGVZN4CCam19KeepTrackOfTheSpeedERK7CVectorS2_S2_RKfS4_S4_E10PreviousUp,"`guard variable for'CCam::KeepTrackOfTheSpeed(CVector const&,CVector const&,CVector const&,float const&,float const&,float const&)::PreviousUp",bool,,1,,,0
 0x6289A8,CCam,_ZZN4CCam19KeepTrackOfTheSpeedERK7CVectorS2_S2_RKfS4_S4_E10PreviousUp,"CCam::KeepTrackOfTheSpeed(CVector const&,CVector const&,CVector const&,float const&,float const&,float const&)::PreviousUp",CVector,,12,,,0
 0x6289B4,CCam,_ZZN4CCam19KeepTrackOfTheSpeedERK7CVectorS2_S2_RKfS4_S4_E12PreviousBeta,"CCam::KeepTrackOfTheSpeed(CVector const&,CVector const&,CVector const&,float const&,float const&,float const&)::PreviousBeta",float,,4,,,0
@@ -665,6 +696,10 @@
 0x6289C0,,_ZGVZN4CCam19KeepTrackOfTheSpeedERK7CVectorS2_S2_RKfS4_S4_E13PreviousAlpha,"`guard variable for'CCam::KeepTrackOfTheSpeed(CVector const&,CVector const&,CVector const&,float const&,float const&,float const&)::PreviousAlpha",bool,,1,,,0
 0x6289C4,CCam,_ZZN4CCam19KeepTrackOfTheSpeedERK7CVectorS2_S2_RKfS4_S4_E11PreviousFov,"CCam::KeepTrackOfTheSpeed(CVector const&,CVector const&,CVector const&,float const&,float const&,float const&)::PreviousFov",float,,4,,,0
 0x6289C8,,_ZGVZN4CCam19KeepTrackOfTheSpeedERK7CVectorS2_S2_RKfS4_S4_E11PreviousFov,"`guard variable for'CCam::KeepTrackOfTheSpeed(CVector const&,CVector const&,CVector const&,float const&,float const&,float const&)::PreviousFov",bool,,1,,,0
+0x6289CC,,_ZZN4CCam17Process_1stPersonERK7CVectorfffE25DontLookThroughWorldFixer,"CCam::Process_1stPerson(CVector const&,float,float,float)::DontLookThroughWorldFixer",float,,4,,,0
+0x6289D1,,_ZZN4CCam17Process_1stPersonERK7CVectorfffE25FailedTestTwelveFramesAgo,"CCam::Process_1stPerson(CVector const&,float,float,float)::FailedTestTwelveFramesAgo",,,1,,,0
+0x6289D4,,_ZZN4CCam17Process_1stPersonERK7CVectorfffE14DPadHorizontal,"CCam::Process_1stPerson(CVector const&,float,float,float)::DPadHorizontal",float,,4,,,0
+0x6289D8,,_ZZN4CCam17Process_1stPersonERK7CVectorfffE12DPadVertical,"CCam::Process_1stPerson(CVector const&,float,float,float)::DPadVertical",float,,4,,,0
 0x6289DC,,_ZL16vecHeadCamOffset,vecHeadCamOffset,CVector,,12,,,0
 0x6289E8,CCam,_ZZN4CCam25Process_1rstPersonPedOnPCERK7CVectorfffE25DontLookThroughWorldFixer,"CCam::Process_1rstPersonPedOnPC(CVector const&,float,float,float)::DontLookThroughWorldFixer",float,,4,,,0
 0x6289ED,,_ZGVZN4CCam25Process_1rstPersonPedOnPCERK7CVectorfffE14InitialHeadPos,"`guard variable for'CCam::Process_1rstPersonPedOnPC(CVector const&,float,float,float)::InitialHeadPos",bool,,1,,,0
@@ -673,8 +708,13 @@
 0x628A00,CCam,_ZZN4CCam25Process_1rstPersonPedOnPCERK7CVectorfffE14DPadHorizontal,"CCam::Process_1rstPersonPedOnPC(CVector const&,float,float,float)::DPadHorizontal",float,,4,,,0
 0x628A04,CCam,_ZZN4CCam25Process_1rstPersonPedOnPCERK7CVectorfffE12DPadVertical,"CCam::Process_1rstPersonPedOnPC(CVector const&,float,float,float)::DPadVertical",float,,4,,,0
 0x628A0C,CCam,_ZZN4CCam18Process_BehindBoatERK7CVectorfffE8colPoint,"CCam::Process_BehindBoat(CVector const&,float,float,float)::colPoint",CColPoint,,40,,,0
+0x628A34,,_ZZN4CCam18Process_BehindBoatERK7CVectorfffE22TargetWhenChecksWereOn,"CCam::Process_BehindBoat(CVector const&,float,float,float)::TargetWhenChecksWereOn",float,,4,,,0
+0x628A3C,,_ZZN4CCam18Process_BehindBoatERK7CVectorfffE30CenterObscuredWhenChecksWereOn,"CCam::Process_BehindBoat(CVector const&,float,float,float)::CenterObscuredWhenChecksWereOn",float,,4,,,0
+0x628A5C,,_ZZN4CCam23Process_Cam_On_A_StringERK7CVectorfffE10DeltaSpeed,"CCam::Process_Cam_On_A_String(CVector const&,float,float,float)::DeltaSpeed",float,,4,,,0
+0x628A6C,,_ZZN4CCam23Process_Cam_On_A_StringERK7CVectorfffE13DistanceSpeed,"CCam::Process_Cam_On_A_String(CVector const&,float,float,float)::DistanceSpeed",float,,4,,,0
 0x628A71,CCam,_ZZN4CCam23Process_Cam_On_A_StringERK7CVectorfffE22DistWasSmallCauseOfCar,"CCam::Process_Cam_On_A_String(CVector const&,float,float,float)::DistWasSmallCauseOfCar",char,,1,,,0
-0x628A74,CCam,_ZZN4CCam16FixIfBelowGroundEP7CVectorE28LastGoodCamAboveGroundHeight,CCam::FixIfBelowGround(CVector *)::LastGoodCamAboveGroundHeight,float,,4,,,0
+0x628A74,CCam,_ZZN4CCam14Process_EditorERK7CVectorfffE5Speed,"CCam::Process_Editor(CVector const&,float,float,float)::Speed",float,,4,,,0
+0x628A7C,,_ZZN4CCam13Process_DebugERK7CVectorfffE5Speed,"CCam::Process_Debug(CVector const&,float,float,float)::Speed",float,,4,,,0
 0x628A81,CCam,_ZZN4CCam17Process_Fight_CamERK7CVectorfffE30PreviouslyFailedBuildingChecks,"CCam::Process_Fight_Cam(CVector const&,float,float,float)::PreviouslyFailedBuildingChecks",bool,,1,,,0
 0x628A84,CCam,_ZZN4CCam13Process_FlyByERK7CVectorfffE17ArrayMarkerSource,"CCam::Process_FlyBy(CVector const&,float,float,float)::ArrayMarkerSource",unsigned int,,4,,,0
 0x628A88,CCam,_ZZN4CCam13Process_FlyByERK7CVectorfffE16ArrayMarkerFront,"CCam::Process_FlyBy(CVector const&,float,float,float)::ArrayMarkerFront",unsigned int,,4,,,0
@@ -682,8 +722,11 @@
 0x628A90,CCam,_ZZN4CCam13Process_FlyByERK7CVectorfffE14ArrayMarkerFOV,"CCam::Process_FlyBy(CVector const&,float,float,float)::ArrayMarkerFOV",unsigned int,,4,,,0
 0x628A94,CCam,_ZZN4CCam13Process_FlyByERK7CVectorfffE13FirstFOVValue,"CCam::Process_FlyBy(CVector const&,float,float,float)::FirstFOVValue",float,,4,,,0
 0x628A98,CCam,_ZZN4CCam13Process_FlyByERK7CVectorfffE9PsuedoFOV,"CCam::Process_FlyBy(CVector const&,float,float,float)::PsuedoFOV",float,,4,,,0
-0x628A9D,CCam,_ZZN4CCam17Process_FollowPedERK7CVectorfffE11PickedASide,"CCam::Process_FollowPed(CVector const&,float,float,float)::PickedASide",bool,,1,,,0
-0x628A9E,CCam,_ZZN4CCam17Process_FollowPedERK7CVectorfffE18PreviouslyObscured,"CCam::Process_FollowPed(CVector const&,float,float,float)::PreviouslyObscured",bool,,1,,,0
+0x628A9D,CCam,_ZZN4CCam17Process_FollowPedERK7CVectorfffE18PreviouslyObscured,"CCam::Process_FollowPed(CVector const&,float,float,float)::PreviouslyObscured",bool,,1,,,0
+0x628A9E,CCam,_ZZN4CCam17Process_FollowPedERK7CVectorfffE11PickedASide,"CCam::Process_FollowPed(CVector const&,float,float,float)::PickedASide",bool,,1,,,0
+0x628AA0,,_ZZN4CCam17Process_FollowPedERK7CVectorfffE26LastAngleWithNoPickedASide,"CCam::Process_FollowPed(CVector const&,float,float,float)::LastAngleWithNoPickedASide",float,,4,,,0
+0x628AA8,,_ZZN4CCam17Process_FollowPedERK7CVectorfffE22FixedTargetOrientation,"CCam::Process_FollowPed(CVector const&,float,float,float)::FixedTargetOrientation",float,,4,,,0
+0x628AB0,,_ZZN4CCam17Process_FollowPedERK7CVectorfffE27TimeIndicatedWantedToGoDown,"CCam::Process_FollowPed(CVector const&,float,float,float)::TimeIndicatedWantedToGoDown",unsigned int,,4,,,0
 0x628AB5,CCam,_ZZN4CCam17Process_FollowPedERK7CVectorfffE24StartedCountingForGoDown,"CCam::Process_FollowPed(CVector const&,float,float,float)::StartedCountingForGoDown",bool,,1,,,0
 0x628AE5,CCam,_ZZN4CCam21Process_M16_1stPersonERK7CVectorfffE25FailedTestTwelveFramesAgo,"CCam::Process_M16_1stPerson(CVector const&,float,float,float)::FailedTestTwelveFramesAgo",bool,,1,,,0
 0x628AE8,CCam,_ZZN4CCam21Process_M16_1stPersonERK7CVectorfffE14DPadHorizontal,"CCam::Process_M16_1stPerson(CVector const&,float,float,float)::DPadHorizontal",float,,4,,,0
@@ -697,12 +740,19 @@
 0x628B08,CCam,_ZZN4CCam14Process_SniperERK7CVectorfffE9TargetFOV,"CCam::Process_Sniper(CVector const&,float,float,float)::TargetFOV",float,,4,,,0
 0x628B0D,CCam,_ZZN4CCam14Process_SyphonERK7CVectorfffE14CameraObscured,"CCam::Process_Syphon(CVector const&,float,float,float)::CameraObscured",bool,,1,,,0
 0x628B0F,CCam,_ZZN4CCam14Process_SyphonERK7CVectorfffE27FailedClippingTestPrevously,"CCam::Process_Syphon(CVector const&,float,float,float)::FailedClippingTestPrevously",bool,,1,,,0
+0x628B14,,_ZZN4CCam14Process_SyphonERK7CVectorfffE20PreviousDistForInter,"CCam::Process_Syphon(CVector const&,float,float,float)::PreviousDistForInter",,,1,,,0
 0x628B18,CCam,_ZZN4CCam14Process_SyphonERK7CVectorfffE10BetaOffset,"CCam::Process_Syphon(CVector const&,float,float,float)::BetaOffset",float,,4,,,0
+0x628B20,,_ZZN4CCam14Process_SyphonERK7CVectorfffE11AngleToGoTo,"CCam::Process_Syphon(CVector const&,float,float,float)::AngleToGoTo",float,,4,,,0
+0x628B28,,_ZZN4CCam14Process_SyphonERK7CVectorfffE16AngleToGoToSpeed,"CCam::Process_Syphon(CVector const&,float,float,float)::AngleToGoToSpeed",,,1,,,0
 0x628B2D,CCam,_ZZN4CCam14Process_SyphonERK7CVectorfffE35DistBetweenPedAndPlayerPreviouslyOn,"CCam::Process_Syphon(CVector const&,float,float,float)::DistBetweenPedAndPlayerPreviouslyOn",char,,1,,,0
+0x628B38,,_ZZN4CCam15Process_TopDownERK7CVectorfffE28AdjustHeightTargetMoveBuffer,"CCam::Process_TopDown(CVector const&,float,float,float)::AdjustHeightTargetMoveBuffer",float,,4,,,0
 0x628B3C,,_ZGVZN4CCam18Process_TopDownPedERK7CVectorfffE26PreviousPlayerMoveSpeedVec,"`guard variable for'CCam::Process_TopDownPed(CVector const&,float,float,float)::PreviousPlayerMoveSpeedVec",bool,,1,,,0
+0x628B40,,_ZZN4CCam15Process_TopDownERK7CVectorfffE27AdjustHeightTargetMoveSpeed,"CCam::Process_TopDown(CVector const&,float,float,float)::AdjustHeightTargetMoveSpeed",float,,4,,,0
 0x628B50,CCam,_ZZN4CCam18Process_TopDownPedERK7CVectorfffE20NumPedPosCountsSoFar,"CCam::Process_TopDownPed(CVector const&,float,float,float)::NumPedPosCountsSoFar",int,,4,,,0
+0x628B58,,_ZZN4CCam18Process_TopDownPedERK7CVectorfffE15PedAverageSpeed,"CCam::Process_TopDownPed(CVector const&,float,float,float)::PedAverageSpeed",float,,4,,,0
 0x628B60,CCam,_ZZN4CCam18Process_TopDownPedERK7CVectorfffE28AdjustHeightTargetMoveBuffer,"CCam::Process_TopDownPed(CVector const&,float,float,float)::AdjustHeightTargetMoveBuffer",float,,4,,,0
 0x628B68,CCam,_ZZN4CCam18Process_TopDownPedERK7CVectorfffE27AdjustHeightTargetMoveSpeed,"CCam::Process_TopDownPed(CVector const&,float,float,float)::AdjustHeightTargetMoveSpeed",float,,4,,,0
+0x628B70,,_ZZN4CCam18Process_TopDownPedERK7CVectorfffE13PedSpeedSoFar,"CCam::Process_TopDownPed(CVector const&,float,float,float)::PedSpeedSoFar",float,,4,,,0
 0x628B78,CCam,_ZZN4CCam18Process_TopDownPedERK7CVectorfffE26PreviousPlayerMoveSpeedVec,"CCam::Process_TopDownPed(CVector const&,float,float,float)::PreviousPlayerMoveSpeedVec",CVector,,12,,,0
 0x628B94,CCam,_ZZN4CCam18Process_TopDownPedERK7CVectorfffE22TargetAdjusterForSouth,"CCam::Process_TopDownPed(CVector const&,float,float,float)::TargetAdjusterForSouth",float,,4,,,0
 0x628B9C,CCam,_ZZN4CCam18Process_TopDownPedERK7CVectorfffE27TargetAdjusterSpeedForSouth,"CCam::Process_TopDownPed(CVector const&,float,float,float)::TargetAdjusterSpeedForSouth",float,,4,,,0
@@ -713,16 +763,26 @@
 0x628BC4,CCam,_ZZN4CCam18Process_TopDownPedERK7CVectorfffE21TargetAdjusterForWest,"CCam::Process_TopDownPed(CVector const&,float,float,float)::TargetAdjusterForWest",float,,4,,,0
 0x628BCC,CCam,_ZZN4CCam18Process_TopDownPedERK7CVectorfffE26TargetAdjusterSpeedForWest,"CCam::Process_TopDownPed(CVector const&,float,float,float)::TargetAdjusterSpeedForWest",float,,4,,,0
 0x628BD1,CCam,_ZZN4CCam19ProcessPedsDeadBabyEvE12SafeToRotate,CCam::ProcessPedsDeadBaby(void)::SafeToRotate,bool,,1,,,0
+0x628BD3,,_ZZN4CCam22WorkOutCamHeightWeeCarERK7CVectorfE31PreviouslyFailedRoadHeightCheck,"CCam::WorkOutCamHeightWeeCar(CVector const&,float)::PreviouslyFailedRoadHeightCheck",bool,,1,,,0
+0x628BD8,,_ZZN4CCam22WorkOutCamHeightWeeCarERK7CVectorfE13RoadHeightFix,"CCam::WorkOutCamHeightWeeCar(CVector const&,float)::RoadHeightFix",float,,4,,,0
+0x628BE0,,_ZZN4CCam22WorkOutCamHeightWeeCarERK7CVectorfE18RoadHeightFixSpeed,"CCam::WorkOutCamHeightWeeCar(CVector const&,float)::RoadHeightFixSpeed",float,,4,,,0
+0x628BE8,,_ZZN4CCam16WorkOutCamHeightERK7CVectorffE30LastTargetAlphaWithCollisionOn,"CCam::WorkOutCamHeight(CVector const&,float,float)::LastTargetAlphaWithCollisionOn",float,,4,,,0
+0x628BF0,,_ZZN4CCam16WorkOutCamHeightERK7CVectorffE17LastTopAlphaSpeed,"CCam::WorkOutCamHeight(CVector const&,float,float)::LastTopAlphaSpeed",float,,4,,,0
+0x628BF8,,_ZZN4CCam16WorkOutCamHeightERK7CVectorffE18LastAlphaSpeedStep,"CCam::WorkOutCamHeight(CVector const&,float,float)::LastAlphaSpeedStep",float,,4,,,0
+0x628BFD,,_ZZN4CCam16WorkOutCamHeightERK7CVectorffE30PreviousNearCheckNearClipSmall,"CCam::WorkOutCamHeight(CVector const&,float,float)::PreviousNearCheckNearClipSmall",char,,1,,,0
+0x628C25,,_ZZN4CCam28ProcessSpecialHeightRoutinesEvE31PreviouslyFailedRoadHeightCheck,CCam::ProcessSpecialHeightRoutines(void)::PreviouslyFailedRoadHeightCheck,bool,,1,,,0
 0x628C30,,_ZZN7CCamera10CamControlEvE7ReqMode,CCamera::CamControl(void)::ReqMode,__int16,,2,,,0
 0x628C38,,_ZZN7CCamera10CamControlEvE12LastPedState,CCamera::CamControl(void)::LastPedState,int,,4,,,0
 0x628C3C,,_ZZN7CCamera10CamControlEvE19ThePickedArrestMode,CCamera::CamControl(void)::ThePickedArrestMode,int,,4,,,0
 0x628C40,,_ZZN7CCamera10CamControlEvE28PlaceForFixedWhenSniperFound,CCamera::CamControl(void)::PlaceForFixedWhenSniperFound,bool,,1,,,0
+0x628C44,,PedZoomedInVal,PedZoomedInVal,float,,4,,,0
+0x628C88,,PlayerMinDist,PlayerMinDist,float,,4,,,0
 0x628C8D,,_ZZN7CCamera7ProcessEvE32WasPreviouslyInterSyhonFollowPed,CCamera::Process(void)::WasPreviouslyInterSyhonFollowPed,char,,1,,,0
 0x628C90,,_ZZN7CCamera26ProcessObbeCinemaCameraCarEvE7OldMode,CCamera::ProcessObbeCinemaCameraCar(void)::OldMode,int,,4,,,0
 0x628C98,,_ZZN7CCamera26ProcessObbeCinemaCameraCarEvE11TimeForNext,CCamera::ProcessObbeCinemaCameraCar(void)::TimeForNext,int,,4,,,0
 0x628CA0,,_ZZN7CCamera26ProcessObbeCinemaCameraPedEvE10PedOldMode,CCamera::ProcessObbeCinemaCameraPed(void)::PedOldMode,int,,4,,,0
 0x628CA8,,_ZZN7CCamera26ProcessObbeCinemaCameraPedEvE14PedTimeForNext,CCamera::ProcessObbeCinemaCameraPed(void)::PedTimeForNext,int,,4,,,0
-0x628CAD,,_ZZN7CCamera28Process_Train_Camera_ControlEvE19OKtoGoBackToNodeCam,CCamera::Process_Train_Camera_Control(void)::OKtoGoBackToNodeCam,char,,1,,,0
+0x628CAD,,_ZZN7CCamera28Process_Train_Camera_ControlEvE19OKtoGoBackToNodeCam,CCamera::Process_Train_Camera_Control(void)::OKtoGoBackToNodeCam,bool,,1,,,0
 0x628CC8,,_ZL18gpRelatedModelInfo,gpRelatedModelInfo,CSimpleModelInfo *,,4,,,0
 0x628CD8,,_ZN12CFireManager9DSOHandleE,CFireManager::DSOHandle,DSOHandle,,12,,,0
 0x628CE8,,_ZN5CRGBA9DSOHandleE,CRGBA::DSOHandle,DSOHandle,,12,,,0
@@ -737,8 +797,11 @@
 0x628D30,,_ZL10TEXT_COLOR,TEXT_COLOR,CRGBA,,4,,,0
 0x628D34,,_ZZN12CMenuManager18DrawFrontEndNormalEvE8LastFade,CMenuManager::DrawFrontEndNormal(void)::LastFade,int,,4,,,0
 0x628D5C,,_ZZN12CMenuManager20ProcessButtonPressesEvE12LastKeyPress,CMenuManager::ProcessButtonPresses(void)::LastKeyPress,int,,4,,,0
+0x628D64,,_ZZN12CMenuManager20ProcessButtonPressesEvE12LastKeyPress_0,CMenuManager::ProcessButtonPresses(void)::LastKeyPress,,,1,,,0
 0x628D69,,_ZZN12CMenuManager28DrawContollerScreenExtraTextEiiiE12ColourSwitch,"CMenuManager::DrawContollerScreenExtraText(int,int,int)::ColourSwitch",bool,,1,,,0
 0x628D6C,,_ZZN12CMenuManager28DrawContollerScreenExtraTextEiiiE9LastFlash,"CMenuManager::DrawContollerScreenExtraText(int,int,int)::LastFlash",int,,4,,,0
+0x628D71,,_ZZN12CMenuManager19DrawControllerBoundEiiiaE12ColourSwitch,"CMenuManager::DrawControllerBound(int,int,int,signed char)::ColourSwitch",char,,1,,,0
+0x628D74,,_ZZN12CMenuManager19DrawControllerBoundEiiiaE9LastFlash,"CMenuManager::DrawControllerBound(int,int,int,signed char)::LastFlash",unsigned int,,4,,,0
 0x628D7C,,_ZZN12CMenuManager17DisplayHelperTextEvE9LastFlash,CMenuManager::DisplayHelperText(void)::LastFlash,int,,4,,,0
 0x628D88,,_ZL11gameTxdSlot,gameTxdSlot,int,,4,,,0
 0x628DB8,,_ZN9CSprite2d9DSOHandleE_0,CSprite2d::DSOHandle,DSOHandle,,12,,,0
@@ -760,7 +823,7 @@
 0x6298C4,,_ZGVZN9CPhysical36ProcessCollisionSectorList_SimpleCarEP7CSectorE10aColPoints,`guard variable for'CPhysical::ProcessCollisionSectorList_SimpleCar(CSector *)::aColPoints,bool,,1,,,0
 0x6299B8,,_ZN6CRadar16vec2DRadarOriginE,CRadar::vec2DRadarOrigin,CVector2D,,8,,,0
 0x6299C0,,_ZL12gRadarTxdIds,gRadarTxdIds,int[64],,256,,,0
-0x629AC0,,_ZN9CRenderer13m_VehicleListE,CRenderer::m_VehicleList,CLinkList_CEntityInfo,,68,,,0
+0x629AC0,,_ZN9CRenderer13m_VehicleListE,CRenderer::m_VehicleList,CLinkList<CEntityInfo>,,68,,,0
 0x62A308,CTimer,suspendPcTimer,suspendPcTimer,int,,4,,,0
 0x62A310,,liFrameStartCounter,liFrameStartCounter,LARGE_INTEGER,,8,,,0
 0x62A318,,PerformanceCount,PerformanceCount,LARGE_INTEGER,,8,,,0
@@ -775,12 +838,12 @@
 0x62DB14,,colPoint1,colPoint1,CColPoint[32],,1280,,,0
 0x62E01C,,_ZZN4CPed15ProcessBuoyancyEvE18nGenerateRaindrops,CPed::ProcessBuoyancy(void)::nGenerateRaindrops,int,,4,,,0
 0x62E024,,_ZZN4CPed15ProcessBuoyancyEvE21nGenerateWaterCircles,CPed::ProcessBuoyancy(void)::nGenerateWaterCircles,int,,4,,,0
-0x62E030,,_ZL23vecPedCarDoorAnimOffset,vecPedCarDoorAnimOffset,CVector,,12,,,0
-0x62E03C,,_ZL25vecPedCarDoorLoAnimOffset,vecPedCarDoorLoAnimOffset,CVector,,12,,,0
-0x62E048,,_ZL27vecPedVanRearDoorAnimOffset,vecPedVanRearDoorAnimOffset,CVector,,12,,,0
-0x62E054,,_ZL25vecPedTrainDoorAnimOffset,vecPedTrainDoorAnimOffset,CVector,,12,,,0
-0x62E060,,_ZL29vecPedDraggedOutCarAnimOffset,vecPedDraggedOutCarAnimOffset,CVector,,12,,,0
-0x62E06C,,_ZL34vecPedQuickDraggedOutCarAnimOffset,vecPedQuickDraggedOutCarAnimOffset,CVector,,12,,,0
+0x62E030,CPed,_ZL23vecPedCarDoorAnimOffset,vecPedCarDoorAnimOffset,CVector,,12,,,0
+0x62E03C,CPed,_ZL25vecPedCarDoorLoAnimOffset,vecPedCarDoorLoAnimOffset,CVector,,12,,,0
+0x62E048,CPed,_ZL27vecPedVanRearDoorAnimOffset,vecPedVanRearDoorAnimOffset,CVector,,12,,,0
+0x62E054,CPed,_ZL25vecPedTrainDoorAnimOffset,vecPedTrainDoorAnimOffset,CVector,,12,,,0
+0x62E060,CPed,_ZL29vecPedDraggedOutCarAnimOffset,vecPedDraggedOutCarAnimOffset,CVector,,12,,,0
+0x62E06C,CPed,_ZL34vecPedQuickDraggedOutCarAnimOffset,vecPedQuickDraggedOutCarAnimOffset,CVector,,12,,,0
 0x62E078,,_ZL7XaxisIK,XaxisIK,CVector,,12,,,0
 0x62E084,,_ZL7ZaxisIK,ZaxisIK,CVector,,12,,,0
 0x62E090,,_ZL8gaRoutes,gaRoutes,CRouteNode[200],,3200,,,0
@@ -788,11 +851,12 @@
 0x62F210,,_ZGVZN11CPopulation21TestSafeForRealObjectEP12CDummyObjectE14aTempColPoints,`guard variable for'CPopulation::TestSafeForRealObject(CDummyObject *)::aTempColPoints,bool,,1,,,0
 0x62F220,,__dso_handle,__dso_handle,DSOHandle,,12,,,0
 0x62F238,,_ZZN8CCoronas6UpdateEvE11LastCamLook,CCoronas::Update(void)::LastCamLook,int,,4,,,0
-0x62F240,,_ZL11aScrollBars,aScrollBars,CScrollBar[11],,1056,,,0
-0x62F660,,_ZL12aTowerClocks,aTowerClocks,CTowerClock[2],,80,,,0
-0x62F6B0,,_ZL14aDigitalClocks,aDigitalClocks,CDigitalClock[3],,120,,,0
+0x62F240,CMovingThings,_ZL11aScrollBars,aScrollBars,CScrollBar[11],,1056,,,0
+0x62F660,CMovingThings,_ZL12aTowerClocks,aTowerClocks,CTowerClock[2],,80,,,0
+0x62F6B0,CMovingThings,_ZL14aDigitalClocks,aDigitalClocks,CDigitalClock[3],,120,,,0
 0x62F738,,_ZN12CFontDetails9DSOHandleE,CFontDetails::DSOHandle,DSOHandle,,12,,,0
 0x62F750,,_ZN6CGlass9DSOHandleE,CGlass::DSOHandle,DSOHandle,,12,,,0
+0x62F75C,,_ZZN17CFallingGlassPane6UpdateEvE9nFrameGen,CFallingGlassPane::Update(void)::nFrameGen,char,,1,,,0
 0x62F760,,_ZN4CHud9DSOHandleE,CHud::DSOHandle,DSOHandle,,12,,,0
 0x62F780,,_ZL6Vertex,Vertex,RwIm2DVertex[4],,112,,,0
 0x62F88C,,_ZL14gParticleArray,gParticleArray,CParticle[1000],,104000,,,0
@@ -859,8 +923,8 @@
 0x649A68,CSpecialParticleStuff,_ZZN21CSpecialParticleStuff23UpdateBoatFoamAnimationEP7CMatrixE1X,CSpecialParticleStuff::UpdateBoatFoamAnimation(CMatrix *)::X,float,,4,,,0
 0x649A6C,CSpecialParticleStuff,_ZZN21CSpecialParticleStuff23UpdateBoatFoamAnimationEP7CMatrixE1Y,CSpecialParticleStuff::UpdateBoatFoamAnimation(CMatrix *)::Y,float,,4,,,0
 0x649A70,CSpecialParticleStuff,_ZZN21CSpecialParticleStuff23UpdateBoatFoamAnimationEP7CMatrixE1Z,CSpecialParticleStuff::UpdateBoatFoamAnimation(CMatrix *)::Z,float,,4,,,0
-0x649A74,CSpecialParticleStuff,_ZZN21CSpecialParticleStuff23UpdateBoatFoamAnimationEP7CMatrixE16FrameInAnimation,CSpecialParticleStuff::UpdateBoatFoamAnimation(CMatrix *)::FrameInAnimation,unsigned int,,4,,,0
-0x649A78,CSpecialParticleStuff,_ZZN21CSpecialParticleStuff23UpdateBoatFoamAnimationEP7CMatrixE15EnableAnimation,CSpecialParticleStuff::UpdateBoatFoamAnimation(CMatrix *)::EnableAnimation,bool,,1,,,0
+0x649A74,CSpecialParticleStuff,_ZZN21CSpecialParticleStuff23UpdateBoatFoamAnimationEP7CMatrixE16FrameInAnimation,CSpecialParticleStuff::UpdateBoatFoamAnimation(CMatrix *)::FrameInAnimation,int,,4,,,0
+0x649A78,CSpecialParticleStuff,_ZN21CSpecialParticleStuff15EnableAnimationE,CSpecialParticleStuff::EnableAnimation,bool,,1,,,0
 0x649A80,,_ZL18nSpriteBufferIndex,nSpriteBufferIndex,int,,4,,,0
 0x649A84,,_ZL17SpriteBufferVerts,SpriteBufferVerts,RwIm2DVertex[384],,10752,,,0
 0x64C484,,_ZL5verts,verts,RwIm2DVertex[4],,112,,,0
@@ -882,49 +946,51 @@
 0x64C610,,_ZL13gPluginOffset,gPluginOffset,int,,4,,,0
 0x64C624,,_ZZ14UnicodeToAsciiPtE4aStr,UnicodeToAscii(ushort *)::aStr,char[256],,256,,,0
 0x64C724,,_ZZ25UnicodeToAsciiForSaveLoadPtE4aStr,UnicodeToAsciiForSaveLoad(ushort *)::aStr,char[420],,420,,,0
-0x64C8C8,,_ZL24vecDAMAGE_ENGINE_POS_BIG,vecDAMAGE_ENGINE_POS_BIG,CVector,,12,,,0
-0x64C8D4,,_ZL26vecDAMAGE_ENGINE_POS_SMALL,vecDAMAGE_ENGINE_POS_SMALL,CVector,,12,,,0
-0x64C8E0,,_ZL14aTempPedColPts_0,aTempPedColPts,CColPoint[32],,1280,,,0
+0x64C8C8,CAutomobile,_ZL24vecDAMAGE_ENGINE_POS_BIG,vecDAMAGE_ENGINE_POS_BIG,CVector,,12,,,0
+0x64C8D4,CAutomobile,_ZL26vecDAMAGE_ENGINE_POS_SMALL,vecDAMAGE_ENGINE_POS_SMALL,CVector,,12,,,0
+0x64C8E0,CAutomobile,_ZL14aTempPedColPts_0,aTempPedColPts,CColPoint[32],,1280,,,0
 0x64CDEC,,_ZZN11CAutomobile15ProcessBuoyancyEvE18nGenerateRaindrops,CAutomobile::ProcessBuoyancy(void)::nGenerateRaindrops,int,,4,,,0
 0x64CDF4,,_ZZN11CAutomobile15ProcessBuoyancyEvE21nGenerateWaterCircles,CAutomobile::ProcessBuoyancy(void)::nGenerateWaterCircles,int,,4,,,0
-0x64CE10,,wheelState,wheelState,int[4],,16,,,0
-0x64CE2C,,m_fWheelSuspDist,m_fWheelSuspDist,float[4],,16,,,0
-0x64CE3C,,_ZN8CVehicle19m_nLastControlInputE,CVehicle::m_nLastControlInput,__int16,,2,,,0
+0x64CE0C,,_ZZN11CAutomobile14ProcessControlEvE7fThrust,CAutomobile::ProcessControl(void)::fThrust,float,,4,,,0
+0x64CE10,,_ZZN11CAutomobile14ProcessControlEvE10WheelState,CAutomobile::ProcessControl(void)::WheelState,tWheelState[4],,16,,,0
+0x64CE2C,,m_afSuspensionSpringRatio,m_afSuspensionSpringRatio,float[4],,16,,,0
+0x64CE3C,,nLastControlInput,nLastControlInput,__int16,,2,,,0
+0x64CE40,,_ZZN11CAutomobile20ProcessControlInputsEhE6fValue,CAutomobile::ProcessControlInputs(uchar)::fValue,,,1,,,0
 0x64CE44,,matW2B,matW2B,DSOHandle,,12,,,0
 0x64CE50,,_ZGVZN11CAutomobile23RcbanditCheck1CarWheelsER8CPtrListE6matW2B,`guard variable for'CAutomobile::RcbanditCheck1CarWheels(CPtrList &)::matW2B,bool,,1,,,0
 0x64CE54,,_ZZN11CAutomobile23RcbanditCheck1CarWheelsER8CPtrListE6matW2B,CAutomobile::RcbanditCheck1CarWheels(CPtrList &)::matW2B,CMatrix,,72,,,0
-0x64CEA0,,_ZL19KeepWaterOutIndices,KeepWaterOutIndices,__int16[6],,12,,,0
-0x64CEAC,,_ZL20KeepWaterOutVertices,KeepWaterOutVertices,RxObjSpace3DVertex[4],,144,,,0
+0x64CEA0,CBoat,_ZL19KeepWaterOutIndices,KeepWaterOutIndices,RwImVertexIndex[6],,12,,,0
+0x64CEAC,CBoat,_ZL20KeepWaterOutVertices,KeepWaterOutVertices,RwIm3DVertex[4],,144,,,0
 0x64CF68,,_ZL24TimerForCamInterpolation,TimerForCamInterpolation,int,,4,,,0
 0x64CF70,,_ZGVZN5CDoor7ProcessEP8CVehicleE9vecOffset,`guard variable for'CDoor::Process(CVehicle *)::vecOffset,bool,,1,,,0
 0x64CF74,CDoor,_ZZN5CDoor7ProcessEP8CVehicleE9vecOffset,CDoor::Process(CVehicle *)::vecOffset,CVector,,12,,,0
 0x64CF88,,fThisVolume,fThisVolume,,,1,,,0
 0x64CF8C,,_ZGVZN9cBuoyancy21SimpleSumBuoyancyDataER7CVector11tWaterLevelE19AverageOfWaterLevel,"`guard variable for'cBuoyancy::SimpleSumBuoyancyData(CVector &,tWaterLevel)::AverageOfWaterLevel",bool,,1,,,0
 0x64CF90,,_ZZN9cBuoyancy21SimpleSumBuoyancyDataER7CVector11tWaterLevelE19AverageOfWaterLevel,"cBuoyancy::SimpleSumBuoyancyData(CVector &,tWaterLevel)::AverageOfWaterLevel",CVector,,12,,,0
-0x64CFB0,,_ZL9PathPoint,PathPoint,int,,4,,,0
+0x64CFB0,CHeli,_ZL9PathPoint,PathPoint,int,,4,,,0
 0x64CFB4,,_ZZN5CHeli11UpdateHelisEvE9nFrameGen,CHeli::UpdateHelis(void)::nFrameGen,char,,1,,,0
-0x64CFB8,,_ZL25TotalDurationOfFlightPath,TotalDurationOfFlightPath,float,,4,,,0
-0x64CFBC,,TotalLengthOfFlightPath2,TotalLengthOfFlightPath2,float,,4,,,0
-0x64CFC0,,_ZL26TotalDurationOfFlightPath2,TotalDurationOfFlightPath2,float,,4,,,0
-0x64CFC4,,_ZL18PlanePath2Position,PlanePath2Position,float[3],,12,,,0
-0x64CFD0,,TotalLengthOfFlightPath3,TotalLengthOfFlightPath3,float,,4,,,0
-0x64CFD4,,_ZL26TotalDurationOfFlightPath3,TotalDurationOfFlightPath3,float,,4,,,0
-0x64CFD8,,_ZL18PlanePath3Position,PlanePath3Position,float,,4,,,0
-0x64CFDC,,TotalLengthOfFlightPath4,TotalLengthOfFlightPath4,float,,4,,,0
-0x64CFE0,,_ZL26TotalDurationOfFlightPath4,TotalDurationOfFlightPath4,float,,4,,,0
-0x64CFE4,,_ZL18PlanePath4Position,PlanePath4Position,float,,4,,,0
-0x64CFE8,,_ZL18CesnaMissionStatus,CesnaMissionStatus,int,,4,,,0
-0x64CFEC,,_ZL21CesnaMissionStartTime,CesnaMissionStartTime,int,,4,,,0
-0x64CFF0,,_ZL25DropOffCesnaMissionStatus,DropOffCesnaMissionStatus,int,,4,,,0
-0x64CFF4,,_ZL28DropOffCesnaMissionStartTime,DropOffCesnaMissionStartTime,int,,4,,,0
+0x64CFB8,CPlane,_ZL25TotalDurationOfFlightPath,TotalDurationOfFlightPath,float,,4,,,0
+0x64CFBC,CPlane,TotalLengthOfFlightPath2,TotalLengthOfFlightPath2,float,,4,,,0
+0x64CFC0,CPlane,_ZL26TotalDurationOfFlightPath2,TotalDurationOfFlightPath2,float,,4,,,0
+0x64CFC4,CPlane,_ZL18PlanePath2Position,PlanePath2Position,float[3],,12,,,0
+0x64CFD0,CPlane,TotalLengthOfFlightPath3,TotalLengthOfFlightPath3,float,,4,,,0
+0x64CFD4,CPlane,_ZL26TotalDurationOfFlightPath3,TotalDurationOfFlightPath3,float,,4,,,0
+0x64CFD8,CPlane,_ZL18PlanePath3Position,PlanePath3Position,float,,4,,,0
+0x64CFDC,CPlane,TotalLengthOfFlightPath4,TotalLengthOfFlightPath4,float,,4,,,0
+0x64CFE0,CPlane,_ZL26TotalDurationOfFlightPath4,TotalDurationOfFlightPath4,float,,4,,,0
+0x64CFE4,CPlane,_ZL18PlanePath4Position,PlanePath4Position,float,,4,,,0
+0x64CFE8,CPlane,_ZL18CesnaMissionStatus,CesnaMissionStatus,int,,4,,,0
+0x64CFEC,CPlane,_ZL21CesnaMissionStartTime,CesnaMissionStartTime,int,,4,,,0
+0x64CFF0,CPlane,_ZL25DropOffCesnaMissionStatus,DropOffCesnaMissionStatus,int,,4,,,0
+0x64CFF4,CPlane,_ZL28DropOffCesnaMissionStartTime,DropOffCesnaMissionStartTime,int,,4,,,0
 0x64CFF8,,_ZZN6CPlane14ProcessControlEvE9nFrameGen,CPlane::ProcessControl(void)::nFrameGen,char,,1,,,0
 0x64CFF9,,_ZZN6CPlane14ProcessControlEvE9nFrameGen_0,CPlane::ProcessControl(void)::nFrameGen,char,,1,,,0
-0x64D000,,_ZL18TotalLengthOfTrack,TotalLengthOfTrack,float,,4,,,0
-0x64D004,,_ZL20TotalDurationOfTrack,TotalDurationOfTrack,float,,4,,,0
-0x64D008,,_ZL19EngineTrackPosition,EngineTrackPosition,float[2],,8,,,0
-0x64D010,,_ZL20TotalLengthOfTrack_S,TotalLengthOfTrack_S,float,,4,,,0
-0x64D014,,_ZL22TotalDurationOfTrack_S,TotalDurationOfTrack_S,float,,4,,,0
-0x64D018,,_ZL21EngineTrackPosition_S,EngineTrackPosition_S,float[4],,16,,,0
+0x64D000,CTrain,_ZL18TotalLengthOfTrack,TotalLengthOfTrack,float,,4,,,0
+0x64D004,CTrain,_ZL20TotalDurationOfTrack,TotalDurationOfTrack,float,,4,,,0
+0x64D008,CTrain,_ZL19EngineTrackPosition,EngineTrackPosition,float[2],,8,,,0
+0x64D010,CTrain,_ZL20TotalLengthOfTrack_S,TotalLengthOfTrack_S,float,,4,,,0
+0x64D014,CTrain,_ZL22TotalDurationOfTrack_S,TotalDurationOfTrack_S,float,,4,,,0
+0x64D018,CTrain,_ZL21EngineTrackPosition_S,EngineTrackPosition_S,float[4],,16,,,0
 0x64D038,,_ZZN13cTransmission14InitGearRatiosEvE11pGearRatio1,cTransmission::InitGearRatios(void)::pGearRatio1,tTransmissionGear *,,4,,,0
 0x64D040,,_ZZN13cTransmission14InitGearRatiosEvE11pGearRatio0,cTransmission::InitGearRatios(void)::pGearRatio0,tTransmissionGear *,,4,,,0
 0x64D048,,_ZZN13cTransmissionEE11CurrentGear,cTransmission::CurrentGear,tTransmissionGear *,,4,,,0
@@ -935,6 +1001,7 @@
 0x64D060,,_ZZN8CVehicle12ProcessWheelER7CVectorS1_S1_S1_ifffcPfP11tWheelStatetE8bBraking,"CVehicle::ProcessWheel(CVector &,CVector &,CVector &,CVector &,int,float,float,float,char,float *,tWheelState *,ushort)::bBraking",bool,,1,,,0
 0x64D061,,_ZZN8CVehicle12ProcessWheelER7CVectorS1_S1_S1_ifffcPfP11tWheelStatetE8bDriving,"CVehicle::ProcessWheel(CVector &,CVector &,CVector &,CVector &,int,float,float,float,char,float *,tWheelState *,ushort)::bDriving",bool,,1,,,0
 0x64D062,,_ZZN8CVehicle12ProcessWheelER7CVectorS1_S1_S1_ifffcPfP11tWheelStatetE16bAlreadySkidding,"CVehicle::ProcessWheel(CVector &,CVector &,CVector &,CVector &,int,float,float,float,char,float *,tWheelState *,ushort)::bAlreadySkidding",bool,,1,,,0
+0x64D063,,bDriving,bDriving,bool,,1,,,0
 0x64D070,,_ZL10gpWaterTex,gpWaterTex,RwTexture *,,4,,,0
 0x64D0AC,,_ZZN11CWaterLevel19RenderOneWavySectorEfffRK6RwRGBAbE10apBoatList,"CWaterLevel::RenderOneWavySector(float,float,float,RwRGBA const&,bool)::apBoatList",CBoat *[4],,16,,,0
 0x64D0D8,CBulletInfo,CBulletInfo::aBulletInfos,CBulletInfo::aBulletInfos,CBulletInfo[100],,4400,,,0
@@ -1097,7 +1164,7 @@
 0x661024,,_rpClumpLightExtOffset,_rpClumpLightExtOffset,RwInt32,,4,,,0
 0x6610D0,,staticGlobals,staticGlobals,RwGlobals,,340,,,0
 0x661224,,engineInstancesOpened,engineInstancesOpened,RwInt32,,4,,,0
-0x661228,,RwEngineInstance,RwEngineInstance,RwGlobals *,,4,,,0
+0x661228,RenderWare,RwEngineInstance,RwEngineInstance,RwGlobals *,,4,,,0
 0x66122C,,frameModule,frameModule,RwModuleInfo,,8,,,0
 0x661234,,matrixModule,matrixModule,RwModuleInfo,,8,,,0
 0x661544,,vectorModule,vectorModule,RwModuleInfo,,8,,,0
@@ -1131,7 +1198,7 @@
 0x662EA0,,_RwD3D8CurrentModeIndex,_RwD3D8CurrentModeIndex,RwInt32,,4,,,0
 0x662EA8,,LastMaterial,LastMaterial,int[8],,32,,,0
 0x662EEC,,hWnd,hWnd,HWND,,4,,,0
-0x662EF0,,_RwD3DDevice,_RwD3DDevice,IDirect3DDevice8 *,,4,,,0
+0x662EF0,RenderWare,RwD3DDevice,RwD3DDevice,IDirect3DDevice8 *,,4,,,0
 0x662EF4,,_RwD3D8DepthStencilSurface,_RwD3D8DepthStencilSurface,LPDIRECT3DSURFACE8,,4,,,0
 0x662EF8,,_RwD3D8RenderSurface,_RwD3D8RenderSurface,LPDIRECT3DSURFACE8,,4,,,0
 0x662EFC,,_RwDirect3DObject,_RwDirect3DObject,LPDIRECT3D8,,4,,,0
@@ -1226,29 +1293,29 @@
 0x663EC0,,_ZN9CTheZones12MapZoneArrayE,CTheZones::MapZoneArray,CZone[25],,1400,,,0
 0x664438,,ver,ver,RxObjSpace3DVertex[2],,72,,,0
 0x664480,,_ZN4CHud13m_HelpMessageE,CHud::m_HelpMessage,wchar_t[256],,512,,,0
-0x664680,,_ZN9CAntennas9aAntennasE,CAntennas::aAntennas,CAntenna[8],,1248,,,0
-0x664B60,,_ZN10CTimeCycle15m_nSunCoronaRedE,CTimeCycle::m_nSunCoronaRed,int[96],,384,,,0
+0x664680,CAntennas,_ZN9CAntennas9aAntennasE,CAntennas::aAntennas,CAntenna[8],,1248,,,0
+0x664B60,CTimeCycle,_ZN10CTimeCycle15m_nSunCoronaRedE,CTimeCycle::m_nSunCoronaRed,int[24][4],,384,,,0
 0x664CE0,,_ZN4CHud12m_BigMessageE,CHud::m_BigMessage,wchar_t[768],,1536,,,0
 0x6652E8,,_ZN11CWaterLevel11apGeomArrayE,CWaterLevel::apGeomArray,RpGeometry *[8],,32,,,0
-0x665308,,_ZN10CTimeCycle15m_nAmbientGreenE,CTimeCycle::m_nAmbientGreen,int[96],,384,,,0
+0x665308,CTimeCycle,_ZN10CTimeCycle15m_nAmbientGreenE,CTimeCycle::m_nAmbientGreen,int[24][4],,384,,,0
 0x665488,,_ZN11CWaterLevel11ms_aWaterZsE,CWaterLevel::ms_aWaterZs,float[48],,192,,,0
-0x665548,,_ZN10CTimeCycle13m_VectorToSunE,CTimeCycle::m_VectorToSun,CVector[16],,192,,,0
+0x665548,CTimeCycle,_ZN10CTimeCycle13m_VectorToSunE,CTimeCycle::m_VectorToSun,CVector[16],,192,,,0
 0x665608,,_ZN6CWorld11ms_aSectorsE,CWorld::ms_aSectors,CSector[10000],,400000,,,0
 0x6C7088,,_ZN10CStreaming16ms_aInfoForModelE,CStreaming::ms_aInfoForModel,CStreamingInfo[6350],,127000,,,0
 0x6E60A0,,_ZN10CStreaming15ms_imageOffsetsE,CStreaming::ms_imageOffsets,int[12],,48,,,0
 0x6E60D0,,_ZN4CPad11NewKeyStateE,CPad::NewKeyState,CKeyboardState,,624,,,0
-0x6E6340,,_ZN10CTimeCycle16m_nSunCoronaBlueE,CTimeCycle::m_nSunCoronaBlue,int[96],,384,,,0
+0x6E6340,CTimeCycle,_ZN10CTimeCycle16m_nSunCoronaBlueE,CTimeCycle::m_nSunCoronaBlue,int[24][4],,384,,,0
 0x6E64C0,,gaTempSphereColPoints,gaTempSphereColPoints,CColPoint[32],,1280,,,0
 0x6E69C0,,meshModule,meshModule,RwModuleInfo,,8,,,0
 0x6E69C8,,_ZN11CTheScripts15UsedObjectArrayE,CTheScripts::UsedObjectArray,CUsedObject[200],,5600,,,0
-0x6E7FA8,,aMovingThings,aMovingThings,CMovingThing[128],,3584,,,0
-0x6E8DA8,,_ZN10CTimeCycle24m_nFluffyCloudsBottomRedE,CTimeCycle::m_nFluffyCloudsBottomRed,int[96],,384,,,0
+0x6E7FA8,CMovingThings,aMovingThings,aMovingThings,CMovingThing[128],,3584,,,0
+0x6E8DA8,CTimeCycle,_ZN10CTimeCycle24m_nFluffyCloudsBottomRedE,CTimeCycle::m_nFluffyCloudsBottomRed,int[24][4],,384,,,0
 0x6E8F28,,_ZN4CHud17m_LastHelpMessageE,CHud::m_LastHelpMessage,wchar_t[256],,512,,,0
 0x6E9128,,_ZN6CStats12FastestTimesE,CStats::FastestTimes,int[16],,64,,,0
 0x6E9168,,_ZN9CSprite2d10maVerticesE,CSprite2d::maVertices,RwIm2DVertex[8],,224,,,0
 0x6E9248,CPopulation,_ZN11CPopulation13ms_pPedGroupsE,CPopulation::ms_pPedGroups,int[31][8],,992,,,0
 0x6E9628,,gapTempPedList,gapTempPedList,CPed *[50],,200,,,0
-0x6E96F0,,_ZN10CTimeCycle19m_fSpriteBrightnessE,CTimeCycle::m_fSpriteBrightness,float[96],,384,,,0
+0x6E96F0,CTimeCycle,_ZN10CTimeCycle19m_fSpriteBrightnessE,CTimeCycle::m_fSpriteBrightness,float[24][4],,384,,,0
 0x6E9870,,SubZo3Label,SubZo3Label,char[8],,8,,,0
 0x6E9878,,_ZN9CShotInfo14ms_afRandTableE,CShotInfo::ms_afRandTable,float[20],,80,,,0
 0x6E98C8,,_ZN9CParticle14ms_afRandTableE,CParticle::ms_afRandTable,float[20],,80,,,0
@@ -1265,20 +1332,20 @@
 0x6EDF78,,_ZN6CGangs4GangE,CGangs::Gang,CGangInfo[9],,144,,,0
 0x6EE008,,vertices,vertices,RwIm2DVertex,,28,,,0
 0x6EE040,,vertexbufferA,vertexbufferA,RxObjSpace3DVertex[2],,72,,,0
-0x6EE088,,_ZN10CTimeCycle15m_nSunCoreGreenE,CTimeCycle::m_nSunCoreGreen,int[96],,384,,,0
+0x6EE088,CTimeCycle,_ZN10CTimeCycle15m_nSunCoreGreenE,CTimeCycle::m_nSunCoreGreen,int[24][4],,384,,,0
 0x6EE270,,CriticalSection,CriticalSection,struct _RTL_CRITICAL_SECTION,,24,,,0
-0x6EE2D0,,_ZN10CTimeCycle25m_nFluffyCloudsBottomBlueE,CTimeCycle::m_nFluffyCloudsBottomBlue,int[96],,384,,,0
+0x6EE2D0,CTimeCycle,_ZN10CTimeCycle25m_nFluffyCloudsBottomBlueE,CTimeCycle::m_nFluffyCloudsBottomBlue,int[24][4],,384,,,0
 0x6EE450,,_ZN11CTheScripts14UpsideDownCarsE,CTheScripts::UpsideDownCars,CUpsideDownCarCheck,,48,,,0
 0x6EE480,,_ZN6CGlass11aGlassPanesE,CGlass::aGlassPanes,CFallingGlassPane[45],,5040,,,0
 0x6EF830,,gaEvent,gaEvent,CEvent[64],,2304,,,0
 0x6F0130,,NewCoorsForRecordedCars,NewCoorsForRecordedCars,float[28],,112,,,0
 0x6F01A0,,_ZN12CAnimManager14ms_aAnimBlocksE,CAnimManager::ms_aAnimBlocks,CAnimBlock[2],,64,,,0
-0x6F01E0,,_ZN10CTimeCycle17m_nSunCoronaGreenE,CTimeCycle::m_nSunCoronaGreen,int[96],,384,,,0
+0x6F01E0,CTimeCycle,_ZN10CTimeCycle17m_nSunCoronaGreenE,CTimeCycle::m_nSunCoronaGreen,int[24][4],,384,,,0
 0x6F0360,,Pads,Pads,CPad[2],,504,,,0
 0x6F0558,,_ZN11CTheScripts16MultiScriptArrayE,CTheScripts::MultiScriptArray,int[120],,480,,,0
 0x6F0738,,gpRubbishTexture,gpRubbishTexture,RwTexture *[4],,16,,,0
-0x6F0748,,_ZN10CTimeCycle22m_fShadowDisplacementXE,CTimeCycle::m_fShadowDisplacementX,float[16],,64,,,0
-0x6F0788,,_ZN10CTimeCycle22m_fShadowDisplacementYE,CTimeCycle::m_fShadowDisplacementY,float[16],,64,,,0
+0x6F0748,CTimeCycle,_ZN10CTimeCycle22m_fShadowDisplacementXE,CTimeCycle::m_fShadowDisplacementX,float[16],,64,,,0
+0x6F0788,CTimeCycle,_ZN10CTimeCycle22m_fShadowDisplacementYE,CTimeCycle::m_fShadowDisplacementY,float[16],,64,,,0
 0x6F07C8,,SlotFileName,SlotFileName,wchar_t[2720],,5440,,,0
 0x6F1D08,,dgGGlobals,dgGGlobals,RwRwDeviceGlobals,,8,,,0
 0x6F1D10,,AmbientLightColourForFrame_PedsCarsAndObjects,AmbientLightColourForFrame_PedsCarsAndObjects,RwRGBAReal,,16,,,0
@@ -1289,7 +1356,7 @@
 0x6F1E70,,_ZN4CPad11OldKeyStateE,CPad::OldKeyState,CKeyboardState,,624,,,0
 0x6F20E0,,mod_ParticleSystemManager,mod_ParticleSystemManager,cParticleSystemMgr,,9248,,,0
 0x6F4500,,_ZN9CSprite2d14mCurrentSpriteE,CSprite2d::mCurrentSprite,CSprite2d[10],,40,,,0
-0x6F4528,,_ZN10CTimeCycle19m_nDirectionalGreenE,CTimeCycle::m_nDirectionalGreen,int[96],,384,,,0
+0x6F4528,CTimeCycle,_ZN10CTimeCycle19m_nDirectionalGreenE,CTimeCycle::m_nDirectionalGreen,int[24][4],,384,,,0
 0x6F46A8,,_ZN19CRecordDataForChase10pChaseCarsE,CRecordDataForChase::pChaseCars,CAutomobile *[20],,80,,,0
 0x6F46F8,,AmbientLightColourForFrame,AmbientLightColourForFrame,RwRGBAReal,,16,,,0
 0x6F4708,,_ZN11CObjectData14ms_aObjectInfoE,CObjectData::ms_aObjectInfo,CObjectInfo[168],,5376,,,0
@@ -1299,25 +1366,25 @@
 0x6FA210,,_ZN8CGarages17aCarsInSafeHouse1E,CGarages::aCarsInSafeHouse1,CStoredCar[6],,240,,,0
 0x6FA300,,_ZN8CGarages17aCarsInSafeHouse2E,CGarages::aCarsInSafeHouse2,CStoredCar[6],,240,,,0
 0x6FA3F0,,_ZN8CGarages17aCarsInSafeHouse3E,CGarages::aCarsInSafeHouse3,CStoredCar[6],,240,,,0
-0x6FA4E0,,_ZN7CCranes7aCranesE,CCranes::aCranes,CCrane[8],,1024,,,0
+0x6FA4E0,CCranes,_ZN7CCranes7aCranesE,CCranes::aCranes,CCrane[8],,1024,,,0
 0x6FA8E0,,_ZN6CGlass22apEntitiesToBeRenderedE,CGlass::apEntitiesToBeRendered,CEntity *[32],,128,,,0
-0x6FA960,,_ZN10CTimeCycle15m_nSkyBottomRedE,CTimeCycle::m_nSkyBottomRed,int[96],,384,,,0
-0x6FAAE0,,pNodeList,pNodeList,CPathNode *[32],,128,,,0
+0x6FA960,CTimeCycle,_ZN10CTimeCycle15m_nSkyBottomRedE,CTimeCycle::m_nSkyBottomRed,int[24][4],,384,,,0
+0x6FAAE0,CPathFind,pNodeList,pNodeList,CPathNode *[32],,128,,,0
 0x6FAB60,,_ZN6CWorld19ms_bigBuildingsListE,CWorld::ms_bigBuildingsList,CPtrList[4],,16,,,0
 0x6FAB70,,BankStartOffset,BankStartOffset,int[2],,8,,,0
-0x6FAB78,,_ZN10CTimeCycle17m_nDirectionalRedE,CTimeCycle::m_nDirectionalRed,int[96],,384,,,0
-0x6FACF8,,TheCamera,TheCamera,CCamera,,59864,,,0
+0x6FAB78,CTimeCycle,_ZN10CTimeCycle17m_nDirectionalRedE,CTimeCycle::m_nDirectionalRed,int[24][4],,384,,,0
+0x6FACF8,CCamera,TheCamera,TheCamera,CCamera,,59864,,,0
 0x7096D0,,CPointLights::aPointLights,CPointLights::aPointLights,CPointlight[32],,1408,,,0
 0x709C50,,mp3Stream,mp3Stream,int[2],,8,,,0
 0x709C58,CCutsceneMgr,_ZN12CCutsceneMgr23ms_cutsceneAssociationsE,CCutsceneMgr::ms_cutsceneAssociations,CAnimBlendAssocGroup,,8,,,0
 0x709C60,,_ZN10CCullZones15aAttributeZonesE,CCullZones::aAttributeZones,CAttributeZone[288],,8064,,,0
-0x70BBE0,,_ZN11CReferences5aRefsE,CReferences::aRefs,CReference[800],,6400,,,0
+0x70BBE0,CReferences,_ZN11CReferences5aRefsE,CReferences::aRefs,CReference[800],,6400,,,0
 0x70D4E0,,_ZN8CPickups9aMessagesE,CPickups::aMessages,CPickupMessage[16],,448,,,0
 0x70D6A0,,nSampleBankSize,nSampleBankSize,int[2],,8,,,0
-0x70D6A8,,_ZN10CTimeCycle17m_nSkyBottomGreenE,CTimeCycle::m_nSkyBottomGreen,int[96],,384,,,0
+0x70D6A8,CTimeCycle,_ZN10CTimeCycle17m_nSkyBottomGreenE,CTimeCycle::m_nSkyBottomGreen,int[24][4],,384,,,0
 0x70D828,,_ZN6CStats21LastMissionPassedNameE,CStats::LastMissionPassedName,char[8],,8,,,0
 0x70D830,CCarCtrl,apCarsToKeep,apCarsToKeep,CVehicle *[2],,8,,,0
-0x70D838,,aLineBits,aLineBits,CTrainInterpolationLine[14],,280,,,0
+0x70D838,CTrain,aLineBits,aLineBits,CTrainInterpolationLine[17],,340,,,0
 0x70D990,,version_name,version_name,char[64],,64,,,0
 0x70D9D0,CCutsceneMgr,_ZN12CCutsceneMgr15ms_cutsceneNameE,CCutsceneMgr::ms_cutsceneName,char[8],,8,,,0
 0x70DA18,,_ZN9CParticle10m_CosTableE,CParticle::m_CosTable,float[1024],,4096,,,0
@@ -1331,7 +1398,7 @@
 0x70F2A4,,AvailVirtual,AvailVirtual,int,,4,,,0
 0x70F2A8,,VideoMemory,VideoMemory,RwInt32,,4,,,0
 0x70F2AC,,AvailVideoMem,AvailVideoMem,RwUInt32,,4,,,0
-0x70F2B0,,_ZN10CTimeCycle21m_nFluffyCloudsTopRedE,CTimeCycle::m_nFluffyCloudsTopRed,int[96],,384,,,0
+0x70F2B0,CTimeCycle,_ZN10CTimeCycle21m_nFluffyCloudsTopRedE,CTimeCycle::m_nFluffyCloudsTopRed,int[24][4],,384,,,0
 0x70F430,,_ZN12CAnimManager14ms_aAnimationsE,CAnimManager::ms_aAnimations,CAnimBlendHierarchy[250],,10000,,,0
 0x711B40,,gString,gString,char[256],,256,,,0
 0x711C40,CVehicleModelInfo,_ZN17CVehicleModelInfo21ms_colourTextureTableE,CVehicleModelInfo::ms_colourTextureTable,RwTexture *[256],,1024,,,0
@@ -1343,50 +1410,49 @@
 0x713D28,,_ZN10CSceneEdit5MovieE,CSceneEdit::Movie,CMovie[20],,720,,,0
 0x7143F8,,_rwIm3DModule,_rwIm3DModule,RwModuleInfo,,8,,,0
 0x714400,,_ZN9CTheZones13ZoneInfoArrayE,CTheZones::ZoneInfoArray,CZoneInfo[100],,5800,,,0
-0x715AA8,,_ZN10CTimeCycle26m_nFluffyCloudsBottomGreenE,CTimeCycle::m_nFluffyCloudsBottomGreen,int[96],,384,,,0
+0x715AA8,CTimeCycle,_ZN10CTimeCycle26m_nFluffyCloudsBottomGreenE,CTimeCycle::m_nFluffyCloudsBottomGreen,int[24][4],,384,,,0
 0x715C28,,work_buff,work_buff,char[55000],,55000,,,0
 0x723300,,CSkidmarks::aSkidmarks,CSkidmarks::aSkidmarks,CSkidmark[32],,13056,,,0
-0x726600,,aLineBits_S,aLineBits_S,CTrainInterpolationLine[18],,360,,,0
+0x726600,CTrain,aLineBits_S,aLineBits_S,CTrainInterpolationLine[18],,360,,,0
 0x726768,,Scene,Scene,CScene,,8,,,0
-0x726770,,_ZN10CTimeCycle15m_nLowCloudsRedE,CTimeCycle::m_nLowCloudsRed,int[96],,384,,,0
+0x726770,CTimeCycle,_ZN10CTimeCycle15m_nLowCloudsRedE,CTimeCycle::m_nLowCloudsRed,int[24][4],,384,,,0
 0x7268F0,,_ZN14CMoneyMessages14aMoneyMessagesE,CMoneyMessages::aMoneyMessages,CMoneyMessage[16],,960,,,0
 0x726CB0,,_ZN14CTempColModels15ms_colModelPed1E,CTempColModels::ms_colModelPed1,CColModel,,88,,,0
 0x726D08,,_ZN14CTempColModels15ms_colModelPed2E,CTempColModels::ms_colModelPed2,CColModel,,88,,,0
 0x726D60,,_ZN11CWaterLevel15aWaterBlockListE,CWaterLevel::aWaterBlockList,char[4096],,4096,,,0
 0x727D60,,_ZN11CTheScripts17ScriptSphereArrayE,CTheScripts::ScriptSphereArray,CScriptSphere[16],,384,,,0
 0x727EE0,,_ZN10CStreaming10ms_channelE,CStreaming::ms_channel,CStreamingChannel[2],,112,,,0
-0x727F50,,TempV,TempV,RxObjSpace3DVertex[4],,144,,,0
+0x727F50,CTowerClock,TempV,TempV,RxObjSpace3DVertex[4],,144,,,0
 0x727FE0,,_ZN14CTempColModels15ms_colModelBBoxE,CTempColModels::ms_colModelBBox,CColModel,,88,,,0
 0x72803C,,Slots,Slots,int[9],,36,,,0
 0x728060,,mod_HandlingManager,mod_HandlingManager,cHandlingDataMgr,,12336,,,0
 0x72B090,,_ZN11CTheScripts13ScriptSpritesE,CTheScripts::ScriptSprites,CSprite2d[16],,64,,,0
-0x72B0F8,,_ZN10CTimeCycle22m_nLightShadowStrengthE,CTimeCycle::m_nLightShadowStrength,__int16[96],,192,,,0
+0x72B0F8,CTimeCycle,_ZN10CTimeCycle22m_nLightShadowStrengthE,CTimeCycle::m_nLightShadowStrength,__int16[24][4],,192,,,0
 0x72B1B8,CBulletTraces,CBulletTraces::aTraces,CBulletTraces::aTraces,CBulletTrace[16],,448,,,0
 0x72B3A8,,_ZN11CRoadBlocks15RoadBlockObjectE,CRoadBlocks::RoadBlockObject,__int16[600],,1200,,,0
 0x72B858,,SlotSaveDate,SlotSaveDate,wchar_t[560],,1120,,,0
 0x72BCB8,,CompileDateAndTime,CompileDateAndTime,CDate,,24,,,0
 0x72BCD0,,_ZN8CGarages8aGaragesE,CGarages::aGarages,CGarage[32],,4480,,,0
-0x72CE50,,_ZN10CTimeCycle15m_fShadowFrontYE,CTimeCycle::m_fShadowFrontY,float[16],,64,,,0
-0x72CE90,,_ZN10CTimeCycle15m_fShadowFrontXE,CTimeCycle::m_fShadowFrontX,float[16],,64,,,0
+0x72CE50,CTimeCycle,_ZN10CTimeCycle15m_fShadowFrontYE,CTimeCycle::m_fShadowFrontY,float[16],,64,,,0
+0x72CE90,CTimeCycle,_ZN10CTimeCycle15m_fShadowFrontXE,CTimeCycle::m_fShadowFrontX,float[16],,64,,,0
 0x72CED0,,BufferDataToBeSaved,BufferDataToBeSaved,CRecordDataForGameBuffer,,128,,,0
-0x72CF50,,_ZN5CHeli6pHelisE,CHeli::pHelis,CHeli *[4],,16,,,0
+0x72CF50,CHeli,_ZN5CHeli6pHelisE,CHeli::pHelis,CHeli *[4],,16,,"0,1 - HELI_RANDOM; 2 - HELI_SCRIPT; 3 - HELI_CATALINA",0
 0x72CF60,,PsGlobal,PsGlobal,,,1,,,0
-0x72CF88,,_ZN10CTimeCycle14m_nAmbientBlueE,CTimeCycle::m_nAmbientBlue,int[96],,384,,,0
+0x72CF88,CTimeCycle,_ZN10CTimeCycle14m_nAmbientBlueE,CTimeCycle::m_nAmbientBlue,int[24][4],,384,,,0
 0x72D108,,_ZN11CTheScripts15IntroRectanglesE,CTheScripts::IntroRectangles,CScriptRectangle[16],,384,,,0
-0x72D288,,_ZN10CTimeCycle23m_nFluffyCloudsTopGreenE,CTimeCycle::m_nFluffyCloudsTopGreen,int[96],,384,,,0
+0x72D288,CTimeCycle,_ZN10CTimeCycle23m_nFluffyCloudsTopGreenE,CTimeCycle::m_nFluffyCloudsTopGreen,int[24][4],,384,,,0
 0x72D408,C3dMarkers,_ZN10C3dMarkers14m_aMarkerArrayE,C3dMarkers::m_aMarkerArray,C3dMarker[32],,3840,,,0
 0x72E308,,DirectionalLightColour,DirectionalLightColour,RwRGBAReal,,16,,,0
 0x72E318,,_ZN4CHud9m_MessageE,CHud::m_Message,wchar_t[256],,512,,,0
-0x72E518,,Coronas::aCoronas,Coronas::aCoronas,CRegisteredCorona[56],,7168,,,0
+0x72E518,,_ZN8CCoronas8aCoronasE,CCoronas::aCoronas,CRegisteredCorona[56],,7168,,,0
+0x730118,,aProviders,aProviders,provider[64],,5376,,,0
 0x731618,,_ZN14CPacManPickups8aPickUpsE,CPacManPickups::aPickUps,CPacManPickup[256],,5120,,,0
 0x732A18,,resourcesModule,resourcesModule,RwModuleInfo,,8,,,0
-0x732A20,,gPhoneInfo,gPhoneInfo,CPhoneInfo,,2608,,,0
-0x733450,,_ZN10CTimeCycle21m_nTreeShadowStrengthE,CTimeCycle::m_nTreeShadowStrength,__int16[96],,192,,,0
-0x733510,,_ZN10CTimeCycle10m_fSunSizeE,CTimeCycle::m_fSunSize,float[96],,384,,,0
-0x733690,,_ZN10CTimeCycle12m_fBlurAlphaE,CTimeCycle::m_fBlurAlpha,float[96],,384,,,0
+0x732A20,CPhoneInfo,gPhoneInfo,gPhoneInfo,CPhoneInfo,,2608,,,0
+0x733690,CTimeCycle,_ZN10CTimeCycle12m_fBlurAlphaE,CTimeCycle::m_fBlurAlpha,float[24][4],,384,,,0
 0x733810,,_ZN11CRoadBlocks7InOrOutE,CRoadBlocks::InOrOut,char[600],,600,,,0
 0x733A68,CBrightLights,_ZN13CBrightLights13aBrightLightsE,CBrightLights::aBrightLights,CBrightLight[32],,1792,,,0
-0x734168,,aPlaneLineBits,aPlaneLineBits,CPlaneInterpolationLine[6],,120,,,0
+0x734168,CPlane,aPlaneLineBits,aPlaneLineBits,CPlaneInterpolationLine[6],,120,,,0
 0x7341E0,,SampleManager,SampleManager,cSampleManager,,60984,,,0
 0x743018,,_ZN11CTheScripts12aStoredLinesE,CTheScripts::aStoredLines,CStoredLine[1024],,32768,,,0
 0x74B018,,gUString,gUString,wchar_t[280],,560,,,0
@@ -1396,42 +1462,41 @@
 0x773560,,_ZN10CStreaming17ms_vehiclesLoadedE,CStreaming::ms_vehiclesLoaded,int[50],,200,,,0
 0x773628,,_ZN9CMessages11BIGMessagesE,CMessages::BIGMessages,tBigMessage[6],,1056,,,0
 0x773A48,,_ZN5CGame8aDatFileE,CGame::aDatFile,char[32],,32,,,0
-0x773A68,,_ZN10CTimeCycle14m_nSunCoreBlueE,CTimeCycle::m_nSunCoreBlue,int[96],,384,,,0
+0x773A68,CTimeCycle,_ZN10CTimeCycle14m_nSunCoreBlueE,CTimeCycle::m_nSunCoreBlue,int[24][4],,384,,,0
 0x773BE8,,_ZN8CShadows14aStaticShadowsE,CShadows::aStaticShadows,CStaticShadow[64],,4096,,,0
 0x774BE8,,_ZN9CSprite2d10mBankStartE,CSprite2d::mBankStart,int[10],,40,,,0
-0x774C10,,_ZN10CTimeCycle12m_fBlurGreenE,CTimeCycle::m_fBlurGreen,float[96],,384,,,0
-0x774D90,,_ZN6CTrain15aStationCoors_SE,CTrain::aStationCoors_S,CVector[4],,48,,,0
+0x774C10,CTimeCycle,_ZN10CTimeCycle12m_fBlurGreenE,CTimeCycle::m_fBlurGreen,float[24][4],,384,,,0
+0x774D90,CTrain,_ZN6CTrain15aStationCoors_SE,CTrain::aStationCoors_S,CVector[4],,48,,,0
 0x774DC0,,_ZN9CSprite2d14mpBankTexturesE,CSprite2d::mpBankTextures,RwTexture *[10],,40,,,0
 0x774DE8,,_ZN4CPad12TempKeyStateE,CPad::TempKeyState,CKeyboardState,,624,,,0
 0x775058,,_ZN11CWaterLevel19aWaterFineBlockListE,CWaterLevel::aWaterFineBlockList,char[16384],,16384,,,0
 0x779058,,_ZN8CShadows15asShadowsStoredE,CShadows::asShadowsStored,CRegisteredShadow[48],,2304,,,0
 0x779958,,_ZN7CReplay7BuffersE,CReplay::Buffers,char[800000],,800000,,,0
-0x83CE58,,_ZN10CTimeCycle18m_nDirectionalBlueE,CTimeCycle::m_nDirectionalBlue,int[96],,384,,,0
-0x83CFD8,,_ZN10CTimeCycle17m_nShadowStrengthE,CTimeCycle::m_nShadowStrength,__int16[96],,192,,,0
-0x83D108,,_ZN10CTimeCycle27m_fLightsOnGroundBrightnessE,CTimeCycle::m_fLightsOnGroundBrightness,float[96],,384,,,0
-0x83D288,,_ZN10CTimeCycle16m_nSkyBottomBlueE,CTimeCycle::m_nSkyBottomBlue,int[96],,384,,,0
+0x83CE58,CTimeCycle,_ZN10CTimeCycle18m_nDirectionalBlueE,CTimeCycle::m_nDirectionalBlue,int[24][4],,384,,,0
+0x83CFD8,CTimeCycle,_ZN10CTimeCycle17m_nShadowStrengthE,CTimeCycle::m_nShadowStrength,int[24][4],,384,,,0
+0x83D288,CTimeCycle,_ZN10CTimeCycle16m_nSkyBottomBlueE,CTimeCycle::m_nSkyBottomBlue,int[24][4],,384,,,0
 0x83D408,CModelInfo,_ZN10CModelInfo16ms_modelInfoPtrsE,CModelInfo::ms_modelInfoPtrs,CBaseModelInfo *[5500],,22000,,,0
 0x8429F8,,_ZN9CSprite2d14maBankVerticesE,CSprite2d::maBankVertices,RwIm2DVertex[500],,14000,,,0
-0x8460A8,,_ZN10CTimeCycle14m_nSkyTopGreenE,CTimeCycle::m_nSkyTopGreen,int[96],,384,,,0
+0x8460A8,CTimeCycle,_ZN10CTimeCycle14m_nSkyTopGreenE,CTimeCycle::m_nSkyTopGreen,int[24][4],,384,,,0
 0x846228,,_ZN8CRestart19PoliceRestartPointsE,CRestart::PoliceRestartPoints,CVector[8],,96,,,0
 0x846288,,TempBufferRenderIndexList,TempBufferRenderIndexList,unsigned __int16[1024],,2048,,,0
 0x846A88,,_rxExecCtxGlobal,_rxExecCtxGlobal,RxExecutionContext,,24,,,0
 0x8472A0,,_ZN4CPad23OldMouseControllerStateE,CPad::OldMouseControllerState,CMouseControllerState,,16,,,0
 0x847330,,_ZN10CCullZones8aIndicesE,CCullZones::aIndices,__int16[55000],,110000,,,0
-0x8620E0,,_ZN5CBoat26apFrameWakeGeneratingBoatsE,CBoat::apFrameWakeGeneratingBoats,CBoat *[4],,16,,,0
+0x8620E0,CBoat,_ZN5CBoat26apFrameWakeGeneratingBoatsE,CBoat::apFrameWakeGeneratingBoats,CBoat *[4],,16,,,0
 0x8620F0,,_ZN11CTheScripts24InvisibilitySettingArrayE,CTheScripts::InvisibilitySettingArray,CEntity *[20],,80,,,0
 0x862140,,BigMessageInUse,BigMessageInUse,float[6],,24,,,0
 0x862158,,BigMessageAlpha,BigMessageAlpha,float[6],,24,,,0
 0x862170,CCutsceneMgr,_ZN12CCutsceneMgr19ms_pCutsceneObjectsE,CCutsceneMgr::ms_pCutsceneObjects,CCutsceneObject *[50],,200,,,0
-0x862238,,_ZN12CUserDisplay10OnscnTimerE,CUserDisplay::OnscnTimer,COnscreenTimer,,120,,,0
+0x862238,CUserDisplay,_ZN12CUserDisplay10OnscnTimerE,CUserDisplay::OnscnTimer,COnscreenTimer,,120,,,0
 0x8622B0,,_ZN6CStats13HighestScoresE,CStats::HighestScores,int[16],,64,,,0
 0x8622F0,,_ZN11CTheScripts24OnAMissionForContactFlagE,CTheScripts::OnAMissionForContactFlag,unsigned int[16],,64,,,0
 0x862330,,TempBufferRenderVertices,TempBufferRenderVertices,RxObjSpace3DVertex[256],,9216,,,0
 0x864750,,_ZN10CCullZones6aZonesE,CCullZones::aZones,CCullzone[512],,26624,,,0
 0x86AF50,,CentersWithTriangle,CentersWithTriangle,CVector2D[5],,40,,,0
-0x86AF78,,_ZN10CTimeCycle13m_nAmbientRedE,CTimeCycle::m_nAmbientRed,int[96],,384,,,0
+0x86AF78,CTimeCycle,_ZN10CTimeCycle13m_nAmbientRedE,CTimeCycle::m_nAmbientRed,int[24][4],,384,,,0
 0x86B0F8,,AmbientLightColour,AmbientLightColour,RwRGBAReal,,16,,,0
-0x86B108,,_ZN10CTimeCycle22m_nFluffyCloudsTopBlueE,CTimeCycle::m_nFluffyCloudsTopBlue,int[96],,384,,,0
+0x86B108,CTimeCycle,_ZN10CTimeCycle22m_nFluffyCloudsTopBlueE,CTimeCycle::m_nFluffyCloudsTopBlue,int[24][4],,384,,,0
 0x86B288,,LastBigMessage,LastBigMessage,__int16[768],,1536,,,0
 0x86B888,,_ZN4CHud13m_HelpMessageE07,_ZN4CHud13m_HelpMessageE07,wchar_t[256],,512,,,0
 0x86BA88,CVehicleModelInfo,_ZN17CVehicleModelInfo21ms_vehicleColourTableE,CVehicleModelInfo::ms_vehicleColourTable,CRGBA[256],,1024,,,0
@@ -1441,51 +1506,51 @@
 0x86F4C8,,_ZN8CShadows12aPolyBunchesE,CShadows::aPolyBunches,CPolyBunch[300],,32400,,,0
 0x877358,,_ZN9CParticle10m_SinTableE,CParticle::m_SinTable,float[1024],,4096,,,0
 0x878358,,_ZN8CGarages15MessageIDStringE,CGarages::MessageIDString,char[8],,8,,,0
-0x878360,,_ZN10CTimeCycle13m_nSunCoreRedE,CTimeCycle::m_nSunCoreRed,int[96],,384,,,0
-0x8784E0,,_ZN10CTimeCycle11m_fBlurBlueE,CTimeCycle::m_fBlurBlue,float[96],,384,,,0
+0x878360,CTimeCycle,_ZN10CTimeCycle13m_nSunCoreRedE,CTimeCycle::m_nSunCoreRed,int[24][4],,384,,,0
+0x8784E0,CTimeCycle,_ZN10CTimeCycle11m_fBlurBlueE,CTimeCycle::m_fBlurBlue,float[24][4],,384,,,0
 0x8786E0,,_ZN9CMessages13BriefMessagesE,CMessages::BriefMessages,tMessage[8],,352,,,0
 0x878840,,_ZN4CHud14m_PagerMessageE,CHud::m_PagerMessage,wchar_t[256],,512,,,0
 0x878A40,,str_ascii,str_ascii,char[512],,512,,,0
 0x878C40,,_ZN14CTempColModels17ms_colModelWheel1E,CTempColModels::ms_colModelWheel1,CColModel,,88,,,0
 0x878C98,,_ZN8CPickups8aPickUpsE,CPickups::aPickUps,CPickup[336],,9408,,,0
-0x87B158,,_ZN10CTimeCycle13m_nSkyTopBlueE,CTimeCycle::m_nSkyTopBlue,int[96],,384,,,0
+0x87B158,CTimeCycle,_ZN10CTimeCycle13m_nSkyTopBlueE,CTimeCycle::m_nSkyTopBlue,int[24][4],,384,,,0
 0x87B2D8,,_ZN11CShinyTexts11aShinyTextsE,CShinyTexts::aShinyTexts,CRegisteredShinyText[32],,2816,,,0
 0x87BDD8,,_ZN14CTempColModels17ms_colModelPanel1E,CTempColModels::ms_colModelPanel1,CColModel,,88,,,0
 0x87BE30,,_ZN14CTempColModels20ms_colModelBodyPart2E,CTempColModels::ms_colModelBodyPart2,CColModel,,88,,,0
 0x87BE88,,_ZN14CTempColModels20ms_colModelBodyPart1E,CTempColModels::ms_colModelBodyPart1,CColModel,,88,,,0
 0x87BEE0,,gpRainDropRaster,gpRainDropRaster,RwRaster *[4],,16,,,0
 0x87BEF0,,LightStrengths,LightStrengths,int[4],,16,,,0
-0x87BF08,,_ZN10CTimeCycle17m_nLowCloudsGreenE,CTimeCycle::m_nLowCloudsGreen,int[96],,384,,,0
+0x87BF08,CTimeCycle,_ZN10CTimeCycle17m_nLowCloudsGreenE,CTimeCycle::m_nLowCloudsGreen,int[24][4],,384,,,0
 0x87C538,,_ZN8CPickups17aPickUpsCollectedE,CPickups::aPickUpsCollected,int[20],,80,,,0
 0x87C588,,_ZN11CTheScripts9StuckCarsE,CTheScripts::StuckCars,CStuckCarCheck,,192,,,0
 0x87C648,,alChannel,alChannel,int[28],,112,,,0
 0x87C6B8,,DirectionalLightColourForFrame,DirectionalLightColourForFrame,RwRGBAReal,,16,,,0
-0x87C6C8,,_ZN10CTimeCycle14m_fShadowSideYE,CTimeCycle::m_fShadowSideY,float[16],,64,,,0
-0x87C708,,_ZN10CTimeCycle14m_fShadowSideXE,CTimeCycle::m_fShadowSideX,float[16],,64,,,0
+0x87C6C8,CTimeCycle,_ZN10CTimeCycle14m_fShadowSideYE,CTimeCycle::m_fShadowSideY,float[16],,64,,,0
+0x87C708,CTimeCycle,_ZN10CTimeCycle14m_fShadowSideXE,CTimeCycle::m_fShadowSideX,float[16],,64,,,0
 0x87C748,,_ZN15CProjectileInfo15ms_apProjectileE,CProjectileInfo::ms_apProjectile,CProjectile *[32],,128,,,0
-0x87C7C8,,EngineTrackSpeed_S,EngineTrackSpeed_S,float[4],,16,,,0
+0x87C7C8,CTrain,EngineTrackSpeed_S,EngineTrackSpeed_S,float[4],,16,,,0
 0x87C7D8,,nSampleBankMemoryStartAddress,nSampleBankMemoryStartAddress,char *[2],,8,,,0
-0x87C7E0,,_ZN10CTimeCycle10m_fBlurRedE,CTimeCycle::m_fBlurRed,float[96],,384,,,0
+0x87C7E0,CTimeCycle,_ZN10CTimeCycle10m_fBlurRedE,CTimeCycle::m_fBlurRed,float[24][4],,384,,,0
 0x87C960,,_ZN14CTempColModels17ms_colModelCutObjE,CTempColModels::ms_colModelCutObj,CColModel[5],,440,,,0
-0x87CB18,,_ZN17CTheCarGenerators17CarGeneratorArrayE,CTheCarGenerators::CarGeneratorArray,CCarGenerator[160],,11520,,,0
+0x87CB18,CTheCarGenerators,_ZN17CTheCarGenerators17CarGeneratorArrayE,CTheCarGenerators::CarGeneratorArray,CCarGenerator[160],,11520,,,0
 0x87F818,,_ZN10CStreaming19ms_pStreamingBufferE,CStreaming::ms_pStreamingBuffer,char *[2],,8,,,0
-0x87F820,,_ZN10CTimeCycle13m_fSpriteSizeE,CTimeCycle::m_fSpriteSize,float[96],,384,,,0
+0x87F820,CTimeCycle,_ZN10CTimeCycle13m_fSpriteSizeE,CTimeCycle::m_fSpriteSize,float[24][4],,384,,,0
 0x87F9A0,,nSampleBankDiscStartOffset,nSampleBankDiscStartOffset,int[2],,8,,,0
 0x87F9A8,CCarCtrl,aCarsToKeepTime,aCarsToKeepTime,unsigned int[2],,8,,,0
 0x87F9B0,,_ZN8CRestart21HospitalRestartPointsE,CRestart::HospitalRestartPoints,CVector[8],,96,,,0
-0x87FA10,,_ZN10CTimeCycle16m_nLowCloudsBlueE,CTimeCycle::m_nLowCloudsBlue,int[96],,384,,,0
-0x87FB90,,_ZN10CTimeCycle12m_nSkyTopRedE,CTimeCycle::m_nSkyTopRed,int[96],,384,,,0
+0x87FA10,CTimeCycle,_ZN10CTimeCycle16m_nLowCloudsBlueE,CTimeCycle::m_nLowCloudsBlue,int[24][4],,384,,,0
+0x87FB90,CTimeCycle,_ZN10CTimeCycle12m_nSkyTopRedE,CTimeCycle::m_nSkyTopRed,int[24][4],,384,,,0
 0x87FD10,,gAccidentManager,gAccidentManager,CAccidentManager,,240,,,0
 0x87FEF0,,nStreamLength,nStreamLength,int[196],,784,,,0
 0x880200,,_ZN11CTheScripts21BaseBriefIdForContactE,CTheScripts::BaseBriefIdForContact,int[16],,64,,,0
 0x880240,,ZoneSfx,ZoneSfx,tPoliceRadioZone[36],,576,,,0
 0x880480,,_ZN14CTempColModels23ms_colModelPedGroundHitE,CTempColModels::ms_colModelPedGroundHit,CColModel,,88,,,0
 0x8804D8,,_ZN7CReplay12BufferStatusE,CReplay::BufferStatus,char[8],,8,,,0
-0x8804E0,,_ZN10CTimeCycle10m_fFarClipE,CTimeCycle::m_fFarClip,float[96],,384,,,0
+0x8804E0,CTimeCycle,_ZN10CTimeCycle10m_fFarClipE,CTimeCycle::m_fFarClip,float[24][4],,384,,,0
 0x880660,,gpRainDropTex,gpRainDropTex,RwTexture *[4],,16,,,0
 0x880670,,_ZN14CTempColModels16ms_colModelBoot1E,CTempColModels::ms_colModelBoot1,CColModel,,88,,,0
-0x8806C8,,_ZN10CTimeCycle11m_fFogStartE,CTimeCycle::m_fFogStart,float[96],,384,,,0
-0x880848,,EngineTrackSpeed,EngineTrackSpeed,float[2],,8,,,0
+0x8806C8,CTimeCycle,_ZN10CTimeCycle11m_fFogStartE,CTimeCycle::m_fFogStart,float[24][4],,384,,,0
+0x880848,CTrain,EngineTrackSpeed,EngineTrackSpeed,float[2],,8,,,0
 0x880850,,_ZN14CTempColModels16ms_colModelDoor1E,CTempColModels::ms_colModelDoor1,CColModel,,88,,,0
 0x8808A8,,_ZN14CTempColModels18ms_colModelBonnet1E,CTempColModels::ms_colModelBonnet1,CColModel,,88,,,0
 0x8809F0,,_ZN4CPad23NewMouseControllerStateE,CPad::NewMouseControllerState,CMouseControllerState,,16,,,0
@@ -1503,7 +1568,7 @@
 0x880E2C,,_ZN10CStreaming16ms_lastImageReadE,CStreaming::ms_lastImageRead,int,,4,,,0
 0x880E30,,_ZN11CTheScripts17BuildingSwapArrayE,CTheScripts::BuildingSwapArray,CBuildingSwap[25],,300,,,0
 0x880F5C,CCarCtrl,_ZN8CCarCtrl24LastTimeFireTruckCreatedE,CCarCtrl::LastTimeFireTruckCreated,unsigned int,,4,,,0
-0x880F60,,_ZN10CTimeCycle23m_nCurrentSunCoronaBlueE,CTimeCycle::m_nCurrentSunCoronaBlue,int,,4,,,0
+0x880F60,CTimeCycle,_ZN10CTimeCycle23m_nCurrentSunCoronaBlueE,CTimeCycle::m_nCurrentSunCoronaBlue,int,,4,,,0
 0x880F64,,_ZN10CSceneEdit7pActorsE,CSceneEdit::pActors,CPed *[5],,20,,,0
 0x880F78,,pNastyClump,pNastyClump,RpClump *,,4,,,0
 0x880F7C,,pDirect,pDirect,RpLight *,,4,,,0
@@ -1519,13 +1584,13 @@
 0x880FAC,,_ZN7CReplay11pReferencesE,CReplay::pReferences,CReference *,,4,,,0
 0x880FB0,,pMediaSeeking,pMediaSeeking,IMediaSeeking *,,4,,,0
 0x880FB4,,pGraphBuilder,pGraphBuilder,LPVOID,,4,,,0
-0x880FB8,,_ZN10CTimeCycle14m_FogReductionE,CTimeCycle::m_FogReduction,int,,4,,,0
+0x880FB8,CTimeCycle,_ZN10CTimeCycle14m_FogReductionE,CTimeCycle::m_FogReduction,int,,4,,,0
 0x880FBC,,pMediaControl,pMediaControl,IMediaControl *,,4,,,0
 0x880FC0,,gAudioManager,gAudioManager,cAudioManager,,19220,,,0
 0x885AD4,,pMediaEvent,pMediaEvent,IMediaEventEx *,,4,,,0
-0x885AD8,,pPath4Nodes,pPath4Nodes,CPlaneNode *,,4,,,0
+0x885AD8,CPlane,pPath4Nodes,pPath4Nodes,CPlaneNode *,,4,,,0
 0x885AE0,,pVideoWindow,pVideoWindow,IVideoWindow *,,4,,,0
-0x885AE4,,vecRCHeliMoveRes,vecRCHeliMoveRes,CVector,,12,,,0
+0x885AE4,CVehicle,vecHeliMoveRes,vecHeliMoveRes,CVector,,12,,,0
 0x885AF0,CPopulation,_ZN11CPopulation17ms_nTotalGangPedsE,CPopulation::ms_nTotalGangPeds,unsigned int,,4,,,0
 0x885AF4,,_ZN8CWeather9FoggynessE,CWeather::Foggyness,float,,4,,,0
 0x885AF8,,_ZN12CAnimManager16ms_numAnimBlocksE,CAnimManager::ms_numAnimBlocks,int,,4,,,0
@@ -1543,18 +1608,18 @@
 0x885B48,CTimer,_ZN6CTimer22m_snTimeInMillisecondsE,CTimer::m_snTimeInMilliseconds,unsigned int,,4,,,0
 0x885B4C,,_ZN8CWeather11Stored_RainE,CWeather::Stored_Rain,float,,4,,,0
 0x885B50,,_ZN6CStats13BestStuntJumpE,CStats::BestStuntJump,int,,4,,,0
-0x885B54,,_ZN10CTimeCycle24m_nCurrentSunCoronaGreenE,CTimeCycle::m_nCurrentSunCoronaGreen,int,,4,,,0
+0x885B54,CTimeCycle,_ZN10CTimeCycle24m_nCurrentSunCoronaGreenE,CTimeCycle::m_nCurrentSunCoronaGreen,int,,4,,,0
 0x885B58,,_ZN6CRadar10TonySpriteE,CRadar::TonySprite,CSprite2d,,4,,,0
 0x885B5C,,_ZN6CGlass16NumGlassEntitiesE,CGlass::NumGlassEntities,unsigned int,,4,,,0
-0x885B60,,vecRCAeroResistance,vecRCAeroResistance,CVector,,12,,,0
+0x885B60,CVehicle,vecRCAeroResistance,vecRCAeroResistance,CVector,,12,,,0
 0x885B6C,,pAmbient,pAmbient,RpLight *,,4,,,0
 0x885B70,,_ZN6CStats15Record4x4MayhemE,CStats::Record4x4Mayhem,int,,4,,,0
 0x885B74,,_ZN6CStats24NumberOfUniqueJumpsFoundE,CStats::NumberOfUniqueJumpsFound,int,,4,,,0
-0x885B78,,pPath3Nodes,pPath3Nodes,CPlaneNode *,,4,,,0
+0x885B78,CPlane,pPath3Nodes,pPath3Nodes,CPlaneNode *,,4,,,0
 0x885B7C,,_ZN8CRubbish17RubbishVisibilityE,CRubbish::RubbishVisibility,int,,4,,,0
 0x885B80,,_ZN9CRenderer21m_pFirstPersonVehicleE,CRenderer::m_pFirstPersonVehicle,uTargetEntity,,4,,,0
 0x885B88,,RwInitialized,RwInitialized,int,,4,,,0
-0x885B8C,,pPath2Nodes,pPath2Nodes,CPlaneNode *,,4,,,0
+0x885B8C,CPlane,pPath2Nodes,pPath2Nodes,CPlaneNode *,,4,,,0
 0x885B90,,_ZN4CPad19KeyBoardCheatStringE,CPad::KeyBoardCheatString,char[20],,20,,,0
 0x885BA4,,_ZN18CRecordDataForGame3FIdE,CRecordDataForGame::FId,int,,4,,,0
 0x885BA8,,_ZN8CGarages21MessageNumberInStringE,CGarages::MessageNumberInString,int,,4,,,0
@@ -1564,7 +1629,7 @@
 0x8E2818,,_ZN8CWeather13CloudCoverageE,CWeather::CloudCoverage,float,,4,,,0
 0x8E281C,,_ZN6CRadar12m_radarRangeE,CRadar::m_radarRange,float,,4,,,0
 0x8E2820,,_ZN6CStats19TotalNumberMissionsE,CStats::TotalNumberMissions,int,,4,,,0
-0x8E2824,,DetachedNodesCars,DetachedNodesCars,CPathInfoForObject *,,4,,,0
+0x8E2824,CPathFind,DetachedNodesCars,DetachedNodesCars,CTempDetachedNode *,,4,,,0
 0x8E2828,,gMinTimeToNextReport,gMinTimeToNextReport,unsigned int[17],,68,,,0
 0x8E286C,,_ZN8CGarages17CarTypesCollectedE,CGarages::CarTypesCollected,int[3],,12,,,0
 0x8E2878,,startupDeactivate,startupDeactivate,int,,4,,,0
@@ -1572,13 +1637,13 @@
 0x8E2884,,_ZN6CStats23TotalNumberKillFrenziesE,CStats::TotalNumberKillFrenzies,int,,4,,,0
 0x8E2888,C3dMarkers,_ZN10C3dMarkers15m_pRpClumpArrayE,C3dMarkers::m_pRpClumpArray,RpClump *[5],,20,,,0
 0x8E289C,,_ZN8CPickups18StaticCamStartTimeE,CPickups::StaticCamStartTime,unsigned int,,4,,,0
-0x8E28A0,,DetachedNodesPeds,DetachedNodesPeds,CPathInfoForObject *,,4,,,0
-0x8E28A4,,TakeOffPoint,TakeOffPoint,float,,4,,,0
+0x8E28A0,CPathFind,DetachedNodesPeds,DetachedNodesPeds,CTempDetachedNode *,,4,,,0
+0x8E28A4,CPlane,TakeOffPoint,TakeOffPoint,float,,4,,,0
 0x8E28A8,,_ZN4CHud21m_pVehicleNameToPrintE,CHud::m_pVehicleNameToPrint,wchar_t *,,4,,,0
-0x8E28AC,,_ZN7CCranes9NumCranesE,CCranes::NumCranes,int,,4,,,0
+0x8E28AC,CCranes,_ZN7CCranes9NumCranesE,CCranes::NumCranes,int,,4,,,0
 0x8E28B0,,_ZN12RenderBuffer17IndicesToBeStoredE,RenderBuffer::IndicesToBeStored,int,,4,,,0
 0x8E28B4,,_ZN18CVisibilityPlugins18ms_vehicleFadeDistE,CVisibilityPlugins::ms_vehicleFadeDist,float,,4,,,0
-0x8E28B8,,_ZN10CTimeCycle33m_nCurrentFluffyCloudsBottomGreenE,CTimeCycle::m_nCurrentFluffyCloudsBottomGreen,int,,4,,,0
+0x8E28B8,CTimeCycle,_ZN10CTimeCycle33m_nCurrentFluffyCloudsBottomGreenE,CTimeCycle::m_nCurrentFluffyCloudsBottomGreen,int,,4,,,0
 0x8E28BC,CBridge,_ZN7CBridge7pWeightE,CBridge::pWeight,CBuilding *,,4,,,0
 0x8E28C0,,DefaultPCSaveFileName,DefaultPCSaveFileName,char[260],,260,,,0
 0x8E29C4,,_ZN7CReplay7pWorld1E,CReplay::pWorld1,CSector *,,4,,,0
@@ -1586,14 +1651,15 @@
 0x8E29CC,,m_LevelToLoad,m_LevelToLoad,int,,4,,,0
 0x8E29D0,,_ZN10CCullZones17NumAttributeZonesE,CCullZones::NumAttributeZones,int,,4,,,0
 0x8E29D4,,_ZN13CSurfaceTable22ms_aAdhesiveLimitTableE,CSurfaceTable::ms_aAdhesiveLimitTable,float[5][5],,100,,,0
-0x8E2A38,,pDropOffCesna,pDropOffCesna,CPlane *,,4,,,0
+0x8E2A38,CPlane,pDropOffCesna,pDropOffCesna,CPlane *,,4,,,0
 0x8E2A3C,,pClassArrayListFirst,pClassArrayListFirst,DSOHandle *,,4,,,0
 0x8E2A40,,gpSkidTex,gpSkidTex,RwTexture *,,4,,,0
 0x8E2A44,,nPedSlotSfx,nPedSlotSfx,int[7],,28,,,0
-0x8E2A60,,_ZN10CTimeCycle24m_nCurrentFogColourGreenE,CTimeCycle::m_nCurrentFogColourGreen,int,,4,,,0
+0x8E2A60,CTimeCycle,_ZN10CTimeCycle24m_nCurrentFogColourGreenE,CTimeCycle::m_nCurrentFogColourGreen,int,,4,,,0
 0x8E2A64,,_ZN6CStats14HelisDestroyedE,CStats::HelisDestroyed,int,,4,,,0
 0x8E2A68,,_ZN6CStats16IndustrialPassedE,CStats::IndustrialPassed,int,,4,,,0
 0x8E2A6C,,_ZN6CStats11ElBurroTimeE,CStats::ElBurroTime,int,,4,,,0
+0x8E2A70,CVehicle,vecRCHeliMoveRes,vecRCHeliMoveRes,CVector,,12,,,0
 0x8E2A7C,,_ZN6CRadar9RaySpriteE,CRadar::RaySprite,CSprite2d,,4,,,0
 0x8E2A84,,_ZN18CVisibilityPlugins21ms_bigVehicleLod0DistE,CVisibilityPlugins::ms_bigVehicleLod0Dist,float,,4,,,0
 0x8E2A88,,speakerType,speakerType,int,,4,,,0
@@ -1618,7 +1684,7 @@
 0x8E2C10,,_ZN10CStreaming21ms_numModelsRequestedE,CStreaming::ms_numModelsRequested,int,,4,,,0
 0x8E2C14,,_ZN8CGarages22MessageNumberInString2E,CGarages::MessageNumberInString2,int,,4,,,0
 0x8E2C18,,_ZN19CRecordDataForChase4FId2E,CRecordDataForChase::FId2,int,,4,,,0
-0x8E2C1C,,_ZN17CTheCarGenerators18NumOfCarGeneratorsE,CTheCarGenerators::NumOfCarGenerators,int,,4,,,0
+0x8E2C1C,CTheCarGenerators,_ZN17CTheCarGenerators18NumOfCarGeneratorsE,CTheCarGenerators::NumOfCarGenerators,unsigned int,,4,,,0
 0x8E2C20,,gpRocketSightTex,gpRocketSightTex,RwTexture *,,4,,,0
 0x8E2C28,,_ZN4CHud24m_HelpMessageDisplayTimeE,CHud::m_HelpMessageDisplayTime,float,,4,,,0
 0x8E2C2C,,_ZN4CHud11m_pZoneNameE,CHud::m_pZoneName,wchar_t *,,4,,,0
@@ -1638,6 +1704,7 @@
 0x8E2C70,,_ZN7CReplay5pBuf3E,CReplay::pBuf3,CPlayerPed *,,4,,,0
 0x8E2C74,,_ZN7CReplay5pBuf4E,CReplay::pBuf4,char *,,4,,,0
 0x8E2C78,,_ZN7CReplay5pBuf5E,CReplay::pBuf5,CCutsceneHead *,,4,,,0
+0x8E2C7C,,pMP3List,pMP3List,tMP3Entry *,,4,,,0
 0x8E2C80,,_ZN7CReplay5pBuf6E,CReplay::pBuf6,char *,,4,,,0
 0x8E2C84,,_ZN7CReplay5pBuf7E,CReplay::pBuf7,CPtrNode *,,4,,,0
 0x8E2C8C,CBridge,_ZN7CBridge9pLiftRoadE,CBridge::pLiftRoad,CBuilding *,,4,,,0
@@ -1652,27 +1719,28 @@
 0x8E2DD4,,_ZN12CAnimManager16ms_numAnimationsE,CAnimManager::ms_numAnimations,int,,4,,,0
 0x8E2DD8,,_ZN4CHud18m_pLastVehicleNameE,CHud::m_pLastVehicleName,wchar_t *,,4,,,0
 0x8E2DE0,CModelInfo,_ZN10CModelInfo20ms_vehicleModelStoreE,CModelInfo::ms_vehicleModelStore,"CStore<CVehicleModelInfo, 120>",,60484,,,0
+0x8F1A24,,DIG,DIG,_DWORD,,4,,,0
 0x8F1A28,,_ZN7CReplay18InterpolationValueE,CReplay::InterpolationValue,float,,4,,,0
 0x8F1A2C,,_ZN6CRadar12CopcarSpriteE,CRadar::CopcarSprite,CSprite2d,,4,,,0
 0x8F1A30,CVehicleModelInfo,_ZN17CVehicleModelInfo19ms_pEnvironmentMapsE,CVehicleModelInfo::ms_pEnvironmentMaps,RwTexture *[1],,4,,,0
 0x8F1A34,,_ZN10CStreaming12ms_imageSizeE,CStreaming::ms_imageSize,unsigned int,,4,,,0
-0x8F1A38,,_ZN10CTimeCycle31m_nCurrentFluffyCloudsBottomRedE,CTimeCycle::m_nCurrentFluffyCloudsBottomRed,int,,4,,,0
+0x8F1A38,CTimeCycle,_ZN10CTimeCycle31m_nCurrentFluffyCloudsBottomRedE,CTimeCycle::m_nCurrentFluffyCloudsBottomRed,int,,4,,,0
 0x8F1A3C,,_ZN6CRadar11LuigiSpriteE,CRadar::LuigiSprite,CSprite2d,,4,,,0
 0x8F1A40,,_ZN6CRadar11AsukaSpriteE,CRadar::AsukaSprite,CSprite2d,,4,,,0
 0x8F1A44,CBridge,_ZN7CBridge18DefaultZLiftWeightE,CBridge::DefaultZLiftWeight,float,,4,,,0
 0x8F1A48,,_ZN7CReplay8pPickupsE,CReplay::pPickups,CPickup *,,4,,,0
 0x8F1A4C,,TempBufferIndicesStored,TempBufferIndicesStored,int,,4,,,0
 0x8F1A50,,_ZN4CHud15m_ZoneNameTimerE,CHud::m_ZoneNameTimer,int,,4,,,0
-0x8F1A54,,PlanePath2Speed,PlanePath2Speed,float[3],,12,,,0
+0x8F1A54,CPlane,PlanePath2Speed,PlanePath2Speed,float[3],,12,,,0
 0x8F1A60,CCarCtrl,_ZN8CCarCtrl22TotalNumOfCarsOfRatingE,CCarCtrl::TotalNumOfCarsOfRating,int[7],,28,,,0
-0x8F1A7C,,_ZN5CHeli26TestForNewRandomHelisTimerE,CHeli::TestForNewRandomHelisTimer,int,,4,,,0
-0x8F1A8C,,InfoForTileCars,InfoForTileCars,CPathInfoForObject *,,4,,,0
-0x8F1A94,,PlanePath3Speed,PlanePath3Speed,float,,4,,,0
+0x8F1A7C,CHeli,_ZN5CHeli26TestForNewRandomHelisTimerE,CHeli::TestForNewRandomHelisTimer,unsigned int,,4,,,0
+0x8F1A8C,CPathFind,InfoForTileCars,InfoForTileCars,CPathInfoForObject *,,4,,,0
+0x8F1A94,CPlane,PlanePath3Speed,PlanePath3Speed,float,,4,,,0
 0x8F1A98,CPopulation,_ZN11CPopulation12ms_nNumDummyE,CPopulation::ms_nNumDummy,unsigned int,,4,,,0
 0x8F1A9C,,fpSampleDescHandle,fpSampleDescHandle,FILE *,,4,,,0
 0x8F1AA0,,_ZN11CPlayerSkin9m_txdSlotE,CPlayerSkin::m_txdSlot,int,,4,,,0
 0x8F1AA4,,gBuildings,gBuildings,int,,4,,,0
-0x8F1AA8,,_ZN10CTimeCycle20m_fCurrentSpriteSizeE,CTimeCycle::m_fCurrentSpriteSize,float,,4,,,0
+0x8F1AA8,CTimeCycle,_ZN10CTimeCycle20m_fCurrentSpriteSizeE,CTimeCycle::m_fCurrentSpriteSize,float,,4,,,0
 0x8F1AAC,,_ZN11CShinyTexts13NumShinyTextsE,CShinyTexts::NumShinyTexts,int,,4,,,0
 0x8F1AB0,,_ZN18CRecordDataForGame18pDataBufferPointerE,CRecordDataForGame::pDataBufferPointer,unsigned __int8 *,,4,,,0
 0x8F1AB4,,fpSampleDataHandle,fpSampleDataHandle,FILE *,,4,,,0
@@ -1680,13 +1748,13 @@
 0x8F1ABC,,_ZN7CSprite16m_f2DNearScreenZE,CSprite::m_f2DNearScreenZ,float,,4,,,0
 0x8F1AC0,,_ZN10CStreaming16ms_endLoadedListE,CStreaming::ms_endLoadedList,CStreamingInfo,,20,,,0
 0x8F1AD4,CPopulation,_ZN11CPopulation17RegenerationFrontE,CPopulation::RegenerationFront,CVector,,12,,,0
-0x8F1AE0,,_ZN10CTimeCycle18m_fCurrentFogStartE,CTimeCycle::m_fCurrentFogStart,float,,4,,,0
-0x8F1AE4,,InfoForTilePeds,InfoForTilePeds,CPathInfoForObject *,,4,,,0
+0x8F1AE0,CTimeCycle,_ZN10CTimeCycle18m_fCurrentFogStartE,CTimeCycle::m_fCurrentFogStart,float,,4,,,0
+0x8F1AE4,CPathFind,InfoForTilePeds,InfoForTilePeds,CPathInfoForObject *,,4,,,0
 0x8F1AE8,,TempBufferVerticesStoredShattered,TempBufferVerticesStoredShattered,unsigned int,,4,,,0
 0x8F1AEC,,_ZN19CRecordDataForChase13AnimStartTimeE,CRecordDataForChase::AnimStartTime,unsigned int,,4,,,0
 0x8F1AF4,,_ZN9CSprite2d12mCurrentBankE,CSprite2d::mCurrentBank,int,,4,,,0
-0x8F1AF8,,_ZN11CReferences10pEmptyListE,CReferences::pEmptyList,CReference *,,4,,,0
-0x8F1AFC,,PlanePath4Speed,PlanePath4Speed,float,,4,,,0
+0x8F1AF8,CReferences,_ZN11CReferences10pEmptyListE,CReferences::pEmptyList,CReference *,,4,,,0
+0x8F1AFC,CPlane,PlanePath4Speed,PlanePath4Speed,float,,4,,,0
 0x8F1B00,,_ZN10CSceneEdit13m_nPedmodelIdE,CSceneEdit::m_nPedmodelId,unsigned int,,4,,,0
 0x8F1B04,,gpOutline2Tex,gpOutline2Tex,RwTexture *,,4,,,0
 0x8F1B08,,gpOutline3Tex,gpOutline3Tex,RwTexture *,,4,,,0
@@ -1707,9 +1775,9 @@
 0x8F1B54,CCarCtrl,_ZN8CCarCtrl14NumMissionCarsE,CCarCtrl::NumMissionCars,int,,4,,,0
 0x8F1B58,,_ZN8CGarages19LastTimeHelpMessageE,CGarages::LastTimeHelpMessage,int,,4,,,0
 0x8F1B5C,,OddJob2XOffset,OddJob2XOffset,float,,4,,,0
-0x8F1B60,,_ZN10CTimeCycle34m_fCurrentLightsOnGroundBrightnessE,CTimeCycle::m_fCurrentLightsOnGroundBrightness,float,,4,,,0
+0x8F1B60,CTimeCycle,_ZN10CTimeCycle34m_fCurrentLightsOnGroundBrightnessE,CTimeCycle::m_fCurrentLightsOnGroundBrightness,float,,4,,,0
 0x8F1B64,,_ZN11CTheScripts14OnAMissionFlagE,CTheScripts::OnAMissionFlag,int,,4,,,0
-0x8F1B68,,pPathNodes,pPathNodes,CPlaneNode *,,4,,,0
+0x8F1B68,CPlane,pPathNodes,pPathNodes,CPlaneNode *,,4,,,0
 0x8F1B6C,CPools,_ZN6CPools25ms_pAudioScriptObjectPoolE,CPools::ms_pAudioScriptObjectPool,CPool_cAudioScriptObject *,CPool<cAudioScriptObject> *,4,,,0
 0x8F1B70,,_ZN18CRecordDataForGame11pDataBufferE,CRecordDataForGame::pDataBuffer,char *,,4,,,0
 0x8F1B78,,_ZN9CRenderer25ms_nNoOfInVisibleEntitiesE,CRenderer::ms_nNoOfInVisibleEntities,int,,4,,,0
@@ -1717,8 +1785,8 @@
 0x8F1B80,,_ZN6CRadar8ElSpriteE,CRadar::ElSprite,CSprite2d,,4,,,0
 0x8F1B84,,ClumpOffset,ClumpOffset,int,,4,,,0
 0x8F1B8C,,_ZN10CCullZones36aPointersToBigBuildingsForTreadablesE,CCullZones::aPointersToBigBuildingsForTreadables,unsigned __int16[],,2428,,,0
-0x8F2508,,EntityIndicesUsed,EntityIndicesUsed,,,1,,,0
-0x8F250C,,_ZN10CTimeCycle18m_fCurrentBlurBlueE,CTimeCycle::m_fCurrentBlurBlue,float,,4,,,0
+0x8F2508,,_ZN10CCullZones17EntityIndicesUsedE,CCullZones::EntityIndicesUsed,,,1,,,0
+0x8F250C,CTimeCycle,_ZN10CTimeCycle18m_fCurrentBlurBlueE,CTimeCycle::m_fCurrentBlurBlue,float,,4,,,0
 0x8F2510,,_ZN6CStats19KgsOfExplosivesUsedE,CStats::KgsOfExplosivesUsed,int,,4,,,0
 0x8F2514,,_ZN18CVisibilityPlugins10ms_pCameraE,CVisibilityPlugins::ms_pCamera,RwCamera *,,4,,,0
 0x8F2518,,_ZN6CStats15CriminalsCaughtE,CStats::CriminalsCaught,int,,4,,,0
@@ -1728,30 +1796,30 @@
 0x8F2528,,_ZN8CCredits16CreditsStartTimeE,CCredits::CreditsStartTime,int,,4,,,0
 0x8F252C,,texNumLoaded,texNumLoaded,int,,4,,,0
 0x8F2530,,_ZN8CGarages16MessageStartTimeE,CGarages::MessageStartTime,int,,4,,,0
-0x8F2534,,_ZN10CTimeCycle20m_nCurrentSunCoreRedE,CTimeCycle::m_nCurrentSunCoreRed,int,,4,,,0
+0x8F2534,CTimeCycle,_ZN10CTimeCycle20m_nCurrentSunCoreRedE,CTimeCycle::m_nCurrentSunCoreRed,int,,4,,,0
 0x8F2548,CPopulation,_ZN11CPopulation14ms_nNumCivMaleE,CPopulation::ms_nNumCivMale,unsigned int,,4,,,0
 0x8F254C,,_ZN9CTheZones14m_pPlayersZoneE,CTheZones::m_pPlayersZone,CZone *,,4,,,0
-0x8F2550,,_ZN10CTimeCycle28m_nCurrentFluffyCloudsTopRedE,CTimeCycle::m_nCurrentFluffyCloudsTopRed,int,,4,,,0
+0x8F2550,CTimeCycle,_ZN10CTimeCycle28m_nCurrentFluffyCloudsTopRedE,CTimeCycle::m_nCurrentFluffyCloudsTopRed,int,,4,,,0
 0x8F2554,,_ZN7CReplay5FrameE,CReplay::Frame,int,,4,,,0
 0x8F2558,,nCurrentMP3,nCurrentMP3,unsigned int,,4,,,0
-0x8F2560,,pTrackNodes_S,pTrackNodes_S,CTrainNode *,,4,,,0
+0x8F2560,CTrain,pTrackNodes_S,pTrackNodes_S,CTrainNode *,,4,,,0
 0x8F2564,,_ZN10CCullZones12NumCullZonesE,CCullZones::NumCullZones,int,,4,,,0
 0x8F2568,CPools,_ZN6CPools17ms_pTreadablePoolE,CPools::ms_pTreadablePool,CPool_CTreadable *,CPool<CTreadable> *,4,,,0
 0x8F256C,,_ZN7CReplay16pEmptyReferencesE,CReplay::pEmptyReferences,CReference *,,4,,,0
 0x8F2570,,SaveFileNameJustSaved,SaveFileNameJustSaved,char[260],,260,,,0
 0x8F2674,,mod_Buoyancy,mod_Buoyancy,cBuoyancy,,204,,,0
 0x8F2740,,_ZN6CStats14SuburbanPassedE,CStats::SuburbanPassed,int,,4,,,0
-0x8F2744,,_ZN12CUserDisplay5PagerE,CUserDisplay::Pager,CPager,,356,,,0
+0x8F2744,CUserDisplay,_ZN12CUserDisplay5PagerE,CUserDisplay::Pager,CPager,,356,,,0
 0x8F29AC,,_ZN4CHud11m_ZoneStateE,CHud::m_ZoneState,int,,4,,,0
 0x8F29B0,,_ZN6CStats16MaximumJumpSpinsE,CStats::MaximumJumpSpins,int,,4,,,0
-0x8F29B4,,_ZN10CTimeCycle20m_fCurrentAmbientRedE,CTimeCycle::m_fCurrentAmbientRed,float,,4,,,0
-0x8F29B8,,_ZN10CTimeCycle20m_nCurrentSkyTopBlueE,CTimeCycle::m_nCurrentSkyTopBlue,int,,4,,,0
-0x8F29BC,,_ZN12CUserDisplay9PlaceNameE,CUserDisplay::PlaceName,CPlaceName,,12,,,0
+0x8F29B4,CTimeCycle,_ZN10CTimeCycle20m_fCurrentAmbientRedE,CTimeCycle::m_fCurrentAmbientRed,float,,4,,,0
+0x8F29B8,CTimeCycle,_ZN10CTimeCycle20m_nCurrentSkyTopBlueE,CTimeCycle::m_nCurrentSkyTopBlue,int,,4,,,0
+0x8F29BC,CUserDisplay,_ZN12CUserDisplay9PlaceNameE,CUserDisplay::PlaceName,CPlaceName,,12,,,0
 0x8F29C8,,_ZN7CReplay5Time4E,CReplay::Time4,int,,4,,,0
 0x8F29CC,CClouds,_ZN7CClouds13ms_cameraRollE,CClouds::ms_cameraRoll,float,,4,,,0
 0x8F29D0,,_ZN7CReplay5Time2E,CReplay::Time2,int,,4,,,0
 0x8F29D4,,_ZN7CReplay5Time3E,CReplay::Time3,int,,4,,,0
-0x8F29D8,,_ZN10CTimeCycle24m_fCurrentDirectionalRedE,CTimeCycle::m_fCurrentDirectionalRed,float,,4,,,0
+0x8F29D8,CTimeCycle,_ZN10CTimeCycle24m_fCurrentDirectionalRedE,CTimeCycle::m_fCurrentDirectionalRed,float,,4,,,0
 0x8F29DC,,_ZN7CReplay5Time1E,CReplay::Time1,int,,4,,,0
 0x8F29E0,CCarCtrl,_ZN8CCarCtrl13NumParkedCarsE,CCarCtrl::NumParkedCars,int,,4,,,0
 0x8F29E4,CTimer,_ZN6CTimer30m_snPreviousTimeInMillisecondsE,CTimer::m_snPreviousTimeInMilliseconds,unsigned int,,4,,,0
@@ -1760,6 +1828,7 @@
 0x8F29F0,CCarCtrl,_ZN8CCarCtrl20NumPermanentVehiclesE,CCarCtrl::NumPermanentVehicles,int,,4,,,0
 0x8F29F4,,_ZN8CGarages10NumGaragesE,CGarages::NumGarages,unsigned int,,4,,,0
 0x8F29F8,,_ZN7CReplay11pRadarBlipsE,CReplay::pRadarBlips,CBlip *,,4,,,0
+0x8F29FC,,CurMP3Pos,CurMP3Pos,,,1,,,0
 0x8F2A00,,gpShadowExplosionTex,gpShadowExplosionTex,RwTexture *,,4,,,0
 0x8F2A04,,_ZN6CStats28HighestLevelAmbulanceMissionE,CStats::HighestLevelAmbulanceMission,int,,4,,,0
 0x8F2A08,C3dMarkers,_ZN10C3dMarkers16NumActiveMarkersE,C3dMarkers::NumActiveMarkers,unsigned int,,4,,,0
@@ -1776,19 +1845,19 @@
 0x8F2BC4,,_ZN18CVisibilityPlugins16ms_cullCompsDistE,CVisibilityPlugins::ms_cullCompsDist,float,,4,,,0
 0x8F2BC8,,_ZN9CTheZones11m_CurrLevelE,CTheZones::m_CurrLevel,eLevelName,,4,,,0
 0x8F2BCC,,_ZN6CRadar11EightSpriteE,CRadar::EightSprite,CSprite2d,,4,,,0
-0x8F2BD0,,_ZN10CTimeCycle24m_nCurrentSkyBottomGreenE,CTimeCycle::m_nCurrentSkyBottomGreen,int,,4,,,0
+0x8F2BD0,CTimeCycle,_ZN10CTimeCycle24m_nCurrentSkyBottomGreenE,CTimeCycle::m_nCurrentSkyBottomGreen,int,,4,,,0
 0x8F2BD4,,_ZN18CVisibilityPlugins14ms_pedLod0DistE,CVisibilityPlugins::ms_pedLod0Dist,float,,4,,,0
 0x8F2BD8,,_ZN18CVisibilityPlugins14ms_pedLod1DistE,CVisibilityPlugins::ms_pedLod1Dist,float,,4,,,0
 0x8F2BDC,,_ZN6CStats19MaximumJumpDistanceE,CStats::MaximumJumpDistance,float,,4,,,0
 0x8F2BE0,,_ZN6CRadar9DonSpriteE,CRadar::DonSprite,CSprite2d,,4,,,0
-0x8F2BE4,,NumPathNodes,NumPathNodes,int,,4,,,0
+0x8F2BE4,CPlane,NumPathNodes,NumPathNodes,int,,4,,,0
 0x8F2BF4,,_ZN14CPacManPickups15LastPickUpCoorsE,CPacManPickups::LastPickUpCoors,CVector,,12,,,0
 0x8F2C00,,_ZN6CRadar10JoeySpriteE,CRadar::JoeySprite,CSprite2d,,4,,,0
 0x8F2C04,CPools,_ZN6CPools16ms_pBuildingPoolE,CPools::ms_pBuildingPool,CPool_CBuilding *,CPool<CBuilding> *,4,,,0
 0x8F2C08,,_ZN7CDarkel13pStartMessageE,CDarkel::pStartMessage,wchar_t *,,4,,,0
 0x8F2C0C,CCutsceneMgr,_ZN12CCutsceneMgr17ms_cutsceneOffsetE,CCutsceneMgr::ms_cutsceneOffset,CVector,,12,,,0
 0x8F2C18,CPools,_ZN6CPools13ms_pDummyPoolE,CPools::ms_pDummyPool,CPool_CDummy *,CPool<CDummy> *,4,,,0
-0x8F2C1C,,_ZN10CTimeCycle22m_nCurrentSunCoronaRedE,CTimeCycle::m_nCurrentSunCoronaRed,int,,4,,,0
+0x8F2C1C,CTimeCycle,_ZN10CTimeCycle22m_nCurrentSunCoronaRedE,CTimeCycle::m_nCurrentSunCoronaRed,int,,4,,,0
 0x8F2C20,CTimer,_ZN6CTimer13ms_fTimeScaleE,CTimer::ms_fTimeScale,float,,4,,,0
 0x8F2C24,,_ZN7CReplay12ms_fTimeStepE,CReplay::ms_fTimeStep,float,,4,,,0
 0x8F2C28,,_ZN7CReplay6pBuf10E,CReplay::pBuf10,char *,,4,,,0
@@ -1797,15 +1866,16 @@
 0x8F2C34,,_ZN7CReplay10pStoredCamE,CReplay::pStoredCam,CCamera *,,4,,,0
 0x8F2C38,CClouds,_ZN7CClouds15ms_colourBottomE,CClouds::ms_colourBottom,CRGBA,,4,,,0
 0x8F2C3C,CPopulation,_ZN11CPopulation16ms_nTotalCivPedsE,CPopulation::ms_nTotalCivPeds,unsigned int,,4,,,0
-0x8F2C5C,,_ZN17CTheCarGenerators18CurrentActiveCountE,CTheCarGenerators::CurrentActiveCount,int,,4,,,0
+0x8F2C54,,fEffectsLevel,fEffectsLevel,float,,4,,,0
+0x8F2C5C,CTheCarGenerators,_ZN17CTheCarGenerators18CurrentActiveCountE,CTheCarGenerators::CurrentActiveCount,unsigned int,,4,,,0
 0x8F2C60,CPools,_ZN6CPools11ms_pPedPoolE,CPools::ms_pPedPool,CPool_CPed *,"CPool<CPed, CPlayerPed> *",4,,,0
 0x8F2C64,,_ZN6CClock29ms_nMillisecondsPerGameMinuteE,CClock::ms_nMillisecondsPerGameMinute,unsigned int,,4,,,0
 0x8F2C68,,_ZN6CRadar11KenjiSpriteE,CRadar::KenjiSprite,CSprite2d,,4,,,0
-0x8F2C6C,,TotalLengthOfFlightPath,TotalLengthOfFlightPath,float,,4,,,0
+0x8F2C6C,CPlane,TotalLengthOfFlightPath,TotalLengthOfFlightPath,float,,4,,,0
 0x8F2C70,CBrightLights,_ZN13CBrightLights15NumBrightLightsE,CBrightLights::NumBrightLights,unsigned int,,4,,,0
 0x8F2C74,,_ZN10CStreaming20ms_currentPedLoadingE,CStreaming::ms_currentPedLoading,int,,4,,,0
 0x8F2C78,,_ZN7CDarkel11ModelToKillE,CDarkel::ModelToKill,int,,4,,,0
-0x8F2C7C,,LandingPoint,LandingPoint,float,,4,,,0
+0x8F2C7C,CPlane,LandingPoint,LandingPoint,float,,4,,,0
 0x8F2C80,,_ZN10CStreaming20ms_numVehiclesLoadedE,CStreaming::ms_numVehiclesLoaded,int,,4,,,0
 0x8F2C84,,_ZN10CStreaming13ms_oldSectorXE,CStreaming::ms_oldSectorX,int,,4,,,0
 0x8F2C88,,_ZN10CStreaming13ms_oldSectorYE,CStreaming::ms_oldSectorY,int,,4,,,0
@@ -1813,33 +1883,38 @@
 0x8F2C90,,gpShadowCarTex,gpShadowCarTex,RwTexture *,,4,,,0
 0x8F2C94,,_ZN7CSprite15m_f2DFarScreenZE,CSprite::m_f2DFarScreenZ,float,,4,,,0
 0x8F2C98,,_ZN6CStats6mmRainE,CStats::mmRain,int,,4,,,0
-0x8F2C9C,,vecRCHeliResistance,vecRCHeliResistance,CVector,,12,,,0
+0x8F2C9C,CVehicle,vecHeliResistance,vecHeliResistance,CVector,,12,,,0
 0x8F2CA8,,_ZN13CWaterCannons8aCannonsE,CWaterCannons::aCannons,CWaterCannon[3],,1236,,,0
 0x8F317C,,_ZN5CFont7DetailsE,CFont::Details,CFontDetails,,68,,,0
 0x8F31C0,CClouds,_ZN7CClouds11ms_horizonZE,CClouds::ms_horizonZ,float,,4,,,0
 0x8F31C4,,_ZN10CStreaming22ms_numPriorityRequestsE,CStreaming::ms_numPriorityRequests,int,,4,,,0
 0x8F31CC,,_ZN10CEventList22ms_nFirstFreeSlotIndexE,CEventList::ms_nFirstFreeSlotIndex,int,,4,,,0
-0x8F31D0,,gFireManager,gFireManager,CFireManager,,1924,,,0
+0x8F31D0,CFireManager,gFireManager,gFireManager,CFireManager,,1924,,,0
 0x8F3958,,_ZN9CParticle17m_pUnusedListHeadE,CParticle::m_pUnusedListHead,CParticle *,,4,,,0
-0x8F3960,,_ZN10CTimeCycle32m_nCurrentFluffyCloudsBottomBlueE,CTimeCycle::m_nCurrentFluffyCloudsBottomBlue,int,,4,,,0
+0x8F395C,,maxSamples,maxSamples,unsigned int,,4,,,0
+0x8F3960,CTimeCycle,_ZN10CTimeCycle32m_nCurrentFluffyCloudsBottomBlueE,CTimeCycle::m_nCurrentFluffyCloudsBottomBlue,int,,4,,,0
 0x8F3964,cMusicManager,gMusicManager,gMusicManager,cMusicManager,,2396,,,0
 0x8F42C0,,gColourBottom,gColourBottom,CRGBA,,4,,,0
 0x8F42C4,,_ZN12CMenuManager10m_PrefsLODE,CMenuManager::m_PrefsLOD,float,,4,,,0
 0x8F42E0,,ChannelSample,ChannelSample,int[],,4,,,0
-0x8F42E4,,_ZN18CVisibilityPlugins11m_alphaListE,CVisibilityPlugins::m_alphaList,CLinkList_CAlphaObjectInfo,,68,,,0
+0x8F42E4,,_ZN18CVisibilityPlugins11m_alphaListE,CVisibilityPlugins::m_alphaList,CLinkList<CAlphaObjectInfo>,,68,,,0
 0x8F4328,,gColourTop,gColourTop,RwRGBA,,4,,,0
 0x8F432C,,_ZN4CHud15m_pLastZoneNameE,CHud::m_pLastZoneName,wchar_t *,,4,,,0
 0x8F4334,,_ZN6CStats16CommercialPassedE,CStats::CommercialPassed,int,,4,,,0
-0x8F4338,,pTrackNodes,pTrackNodes,CTrainNode *,,4,,,0
+0x8F4338,CTrain,pTrackNodes,pTrackNodes,CTrainNode *,,4,,,0
 0x8F433C,,_ZN6CWorld23ms_listMovingEntityPtrsE,CWorld::ms_listMovingEntityPtrs,CPtrList,,4,,,0
 0x8F4340,CParticleObject,_ZN15CParticleObject14pCloseListHeadE,CParticleObject::pCloseListHead,CParticleObject *,,4,,,0
+0x8F4344,CVehicle,vecRCHeliResistance,vecRCHeliResistance,CVector,,12,,,0
+0x8F4350,,opened_2dsamples,opened_2dsamples,HSAMPLE[],,4,,,0
+0x8F4354,,_ZN8CCoronas10SunScreenYE,CCoronas::SunScreenY,,,1,,,0
+0x8F4358,,_ZN8CCoronas10SunScreenXE,CCoronas::SunScreenX,,,1,,,0
 0x8F435C,,_ZN8CShadows15pEmptyBunchListE,CShadows::pEmptyBunchList,CPolyBunch *,,4,,,0
-0x8F4360,,RsGlobal,RsGlobal,RsGlobalType,,68,,,0
+0x8F4360,RenderWare,RsGlobal,RsGlobal,RsGlobalType,,68,,,0
 0x8F43A4,,ControlsManager,ControlsManager,CControllerConfigManager,,5180,,,0
 0x8F57E0,,_ZN6CStats23LivesSavedWithAmbulanceE,CStats::LivesSavedWithAmbulance,int,,4,,,0
 0x8F57E4,,_ZN8CWeather24WhenToPlayLightningSoundE,CWeather::WhenToPlayLightningSound,int,,4,,,0
 0x8F57E8,,TempBufferVerticesStoredHiLight,TempBufferVerticesStoredHiLight,unsigned int,,4,,,0
-0x8F57EC,,_ZN10CTimeCycle23m_nCurrentFogColourBlueE,CTimeCycle::m_nCurrentFogColourBlue,int,,4,,,0
+0x8F57EC,CTimeCycle,_ZN10CTimeCycle23m_nCurrentFogColourBlueE,CTimeCycle::m_nCurrentFogColourBlue,int,,4,,,0
 0x8F582C,,gpReflectionTex,gpReflectionTex,RwTexture *,,4,,,0
 0x8F5830,,_ZN6CRadar9LizSpriteE,CRadar::LizSprite,CSprite2d,,4,,,0
 0x8F5834,,gpSniperSightTex,gpSniperSightTex,RwTexture *,,4,,,0
@@ -1850,7 +1925,7 @@
 0x8F5980,CModelInfo,_ZN10CModelInfo16ms_mloModelStoreE,CModelInfo::ms_mloModelStore,"CStore<CMloModelInfo, 1>",,68,,,0
 0x8F59C4,,_ZN12RenderBuffer18VerticesToBeStoredE,RenderBuffer::VerticesToBeStored,int,,4,,,0
 0x8F59C8,,_ZN19CRecordDataForChase15PositionChangesE,CRecordDataForChase::PositionChanges,int,,4,,,0
-0x8F59CC,,_ZN10CTimeCycle30m_nCurrentFluffyCloudsTopGreenE,CTimeCycle::m_nCurrentFluffyCloudsTopGreen,int,,4,,,0
+0x8F59CC,CTimeCycle,_ZN10CTimeCycle30m_nCurrentFluffyCloudsTopGreenE,CTimeCycle::m_nCurrentFluffyCloudsTopGreen,int,,4,,,0
 0x8F59D0,,gpShadowPedTex,gpShadowPedTex,RwTexture *,,4,,,0
 0x8F59D4,,gpPostShadowTex,gpPostShadowTex,RwTexture *,,4,,,0
 0x8F59D8,,FrontEndMenuManager,FrontEndMenuManager,CMenuManager,,1380,,,0
@@ -1862,39 +1937,39 @@
 0x8F5F74,,_ZN6CRadar10SaveSpriteE,CRadar::SaveSprite,CSprite2d,,4,,,0
 0x8F5F78,,TempBufferVerticesStored,TempBufferVerticesStored,int,,4,,,0
 0x8F5F7C,,_ZN12CMenuManager15m_ControlMethodE,CMenuManager::m_ControlMethod,int,,4,,,0
-0x8F5F80,,pDrugRunCesna,pDrugRunCesna,CPlane *,,4,,,0
+0x8F5F80,CPlane,pDrugRunCesna,pDrugRunCesna,CPlane *,,4,,,0
 0x8F5F84,,_ZN8CWeather14LightningStartE,CWeather::LightningStart,int,,4,,,0
 0x8F5F88,CCutsceneMgr,_ZN12CCutsceneMgr15ms_pCutsceneDirE,CCutsceneMgr::ms_pCutsceneDir,CDirectory *,,4,,,0
-0x8F5F8C,,_ZN6CTrain13aStationCoorsE,CTrain::aStationCoors,CVector[3],,36,,,0
+0x8F5F8C,CTrain,_ZN6CTrain13aStationCoorsE,CTrain::aStationCoors,CVector[3],,36,,,0
 0x8F5FB0,,_ZN7CSprite31m_bFlushSpriteBufferSwitchZTestE,CSprite::m_bFlushSpriteBufferSwitchZTest,int,,4,,,0
 0x8F5FB4,,_ZN6CRadar10BombSpriteE,CRadar::BombSprite,CSprite2d,,4,,,0
 0x8F5FB8,CTxdStore,_ZN9CTxdStore11ms_pTxdPoolE,CTxdStore::ms_pTxdPool,CPool_CTxdDef *,CPool<TxdDef> *,4,,,0
-0x8F5FBC,,OldPlanePathPosition,OldPlanePathPosition,float[3],,12,,,0
-0x8F5FC8,,PlanePathPosition,PlanePathPosition,float[3],,12,,,0
+0x8F5FBC,CPlane,OldPlanePathPosition,OldPlanePathPosition,float[3],,12,,,0
+0x8F5FC8,CPlane,PlanePathPosition,PlanePathPosition,float[3],,12,,,0
 0x8F5FD4,,gpWaterRaster,gpWaterRaster,RwRaster *,,4,,,0
-0x8F5FD8,,_ZN10CTimeCycle17m_fCurrentFarClipE,CTimeCycle::m_fCurrentFarClip,RwReal,,4,,,0
-0x8F5FDC,,_ZN10CTimeCycle26m_fCurrentSpriteBrightnessE,CTimeCycle::m_fCurrentSpriteBrightness,float,,4,,,0
+0x8F5FD8,CTimeCycle,_ZN10CTimeCycle17m_fCurrentFarClipE,CTimeCycle::m_fCurrentFarClip,float,,4,,,0
+0x8F5FDC,CTimeCycle,_ZN10CTimeCycle26m_fCurrentSpriteBrightnessE,CTimeCycle::m_fCurrentSpriteBrightness,float,,4,,,0
 0x8F5FE0,,gpPointlightRaster,gpPointlightRaster,RwRaster *,,4,,,0
 0x8F5FE4,,_ZN6CStats19LongestFlightInDodoE,CStats::LongestFlightInDodo,int,,4,,,0
-0x8F5FE8,,_ZN12CUserDisplay14CurrentVehicleE,CUserDisplay::CurrentVehicle,CCurrentVehicle,,4,,,0
+0x8F5FE8,CUserDisplay,_ZN12CUserDisplay14CurrentVehicleE,CUserDisplay::CurrentVehicle,CCurrentVehicle,,4,,,0
 0x8F5FEC,,_ZN6CStats17FiresExtinguishedE,CStats::FiresExtinguished,int,,4,,,0
 0x8F5FF0,CCarCtrl,_ZN8CCarCtrl26LastTimeLawEnforcerCreatedE,CCarCtrl::LastTimeLawEnforcerCreated,unsigned int,,4,,,0
 0x8F5FF4,,_ZN7CReplay18TimeStepNonClippedE,CReplay::TimeStepNonClipped,float,,4,,,0
 0x8F5FF8,,_ZN8CWeather8WetRoadsE,CWeather::WetRoads,float,,4,,,0
 0x8F5FFC,,_ZN7CSprite21m_fRecipNearClipPlaneE,CSprite::m_fRecipNearClipPlane,,,1,,,0
-0x8F6000,,_ZN10CTimeCycle17m_fCurrentBlurRedE,CTimeCycle::m_fCurrentBlurRed,float,,4,,,0
+0x8F6000,CTimeCycle,_ZN10CTimeCycle17m_fCurrentBlurRedE,CTimeCycle::m_fCurrentBlurRed,float,,4,,,0
 0x8F6004,,_ZN6CStats20TotalLegitimateKillsE,CStats::TotalLegitimateKills,int,,4,,,0
 0x8F6008,,RwD3D8AdapterInformation,RwD3D8AdapterInformation,_rwD3D8AdapterInformation,,540,,,0
 0x8F6224,,_ZN6CStats12ProgressMadeE,CStats::ProgressMade,int,,4,,,0
 0x8F6244,,_ZN10CSceneEdit17m_nVehiclemodelIdE,CSceneEdit::m_nVehiclemodelId,int,,4,,,0
-0x8F6248,,_ZN7CCranes26CarsCollectedMilitaryCraneE,CCranes::CarsCollectedMilitaryCrane,int,,4,,,0
+0x8F6248,CCranes,_ZN7CCranes26CarsCollectedMilitaryCraneE,CCranes::CarsCollectedMilitaryCrane,unsigned int,,4,,,0
 0x8F624C,,_ZN11CWaterLevel19ms_nNoOfWaterLevelsE,CWaterLevel::ms_nNoOfWaterLevels,int,,4,,,0
 0x8F6250,,_ZN10CCollision20ms_collisionInMemoryE,CCollision::ms_collisionInMemory,eLevelName,,4,,,0
 0x8F6254,CBridge,_ZN7CBridge7OldLiftE,CBridge::OldLift,float,,4,,,0
 0x8F6258,,_ZN4CHud22m_HelpMessageFadeTimerE,CHud::m_HelpMessageFadeTimer,int,,4,,,0
-0x8F625C,,_ZN10CTimeCycle23m_nCurrentSkyBottomBlueE,CTimeCycle::m_nCurrentSkyBottomBlue,int,,4,,,0
+0x8F625C,CTimeCycle,_ZN10CTimeCycle23m_nCurrentSkyBottomBlueE,CTimeCycle::m_nCurrentSkyBottomBlue,int,,4,,,0
 0x8F6260,,_ZN7CReplay9pPedAnimsE,CReplay::pPedAnims,CStoredDetailedAnimationState *,,4,,,0
-0x8F6264,,_ZN10CTimeCycle22m_nCurrentSunCoreGreenE,CTimeCycle::m_nCurrentSunCoreGreen,int,,4,,,0
+0x8F6264,CTimeCycle,_ZN10CTimeCycle22m_nCurrentSunCoreGreenE,CTimeCycle::m_nCurrentSunCoreGreen,int,,4,,,0
 0x8F6268,,_ZN6CRadar12CentreSpriteE,CRadar::CentreSprite,CSprite2d,,4,,,0
 0x8F626C,,_ZN8CWeather17WeatherTypeInListE,CWeather::WeatherTypeInList,int,,4,,,0
 0x8F6270,,_ZN18CVisibilityPlugins14ms_pCameraPosnE,CVisibilityPlugins::ms_pCameraPosn,CVector *,,4,,,0
@@ -1904,10 +1979,10 @@
 0x8F6480,,_ZN10CSceneEdit9pVehiclesE,CSceneEdit::pVehicles,CVehicle *[5],,20,,,0
 0x8F6494,,_ZN6CWorld13pIgnoreEntityE,CWorld::pIgnoreEntity,CEntity *,,4,,,0
 0x8F6498,,TheConsole,TheConsole,CConsole,,700,,,0
-0x8F6754,,ThePaths,ThePaths,CPathFind,,302068,,,0
+0x8F6754,CPathFind,ThePaths,ThePaths,CPathFind,,302068,,,0
 0x940348,CModelInfo,_ZN10CModelInfo22ms_xtraCompsModelStoreE,CModelInfo::ms_xtraCompsModelStore,"CStore<CXtraCompsModelInfo, 2>",,116,,,0
 0x9403BC,,NumberOfChunksLoaded,NumberOfChunksLoaded,int,,4,,,0
-0x9403C0,,_ZN10CTimeCycle19m_nCurrentSkyTopRedE,CTimeCycle::m_nCurrentSkyTopRed,int,,4,,,0
+0x9403C0,CTimeCycle,_ZN10CTimeCycle19m_nCurrentSkyTopRedE,CTimeCycle::m_nCurrentSkyTopRed,int,,4,,,0
 0x9403C4,,LoadFileName,LoadFileName,char[260],,260,,,0
 0x9404C8,,_ZN8CPickups14StaticCamCoorsE,CPickups::StaticCamCoors,CVector,,12,,,0
 0x9404D4,,_ZN9CPedStats13ms_apPedStatsE,CPedStats::ms_apPedStats,CPedStats *[35],,140,,,0
@@ -1917,26 +1992,26 @@
 0x940570,,_ZN6CStats12Record4x4OneE,CStats::Record4x4One,int,,4,,,0
 0x940574,,_ZN6CStats26DistanceTravelledInVehicleE,CStats::DistanceTravelledInVehicle,float,,4,,,0
 0x940578,,_ZN8CWeather17LightningDurationE,CWeather::LightningDuration,int,,4,,,0
-0x94057C,,_ZN10CTimeCycle20m_CurrentStoredValueE,CTimeCycle::m_CurrentStoredValue,int,,4,,,0
+0x94057C,CTimeCycle,_ZN10CTimeCycle20m_CurrentStoredValueE,CTimeCycle::m_CurrentStoredValue,int,,4,,,0
 0x940584,,_ZN9CRenderer18pFullBlockedRangesE,CRenderer::pFullBlockedRanges,int,,4,,,0
-0x940588,,_ZN10CTimeCycle17m_fCurrentSunSizeE,CTimeCycle::m_fCurrentSunSize,float,,4,,,0
+0x940588,CTimeCycle,_ZN10CTimeCycle17m_fCurrentSunSizeE,CTimeCycle::m_fCurrentSunSize,float,,4,,,0
 0x94058C,,_ZN6CStats12Record4x4TwoE,CStats::Record4x4Two,int,,4,,,0
 0x940590,,_ZN10CSceneEdit20m_bCameraFollowActorE,CSceneEdit::m_bCameraFollowActor,int,,4,,,0
-0x940594,,_ZN10CTimeCycle26m_fCurrentDirectionalGreenE,CTimeCycle::m_fCurrentDirectionalGreen,float,,4,,,0
+0x940594,CTimeCycle,_ZN10CTimeCycle26m_fCurrentDirectionalGreenE,CTimeCycle::m_fCurrentDirectionalGreen,float,,4,,,0
 0x940598,,_ZN8CWeather7RainbowE,CWeather::Rainbow,float,,4,,,0
-0x9405A0,,_ZN10CTimeCycle19m_fCurrentBlurGreenE,CTimeCycle::m_fCurrentBlurGreen,float,,4,,,0
+0x9405A0,CTimeCycle,_ZN10CTimeCycle19m_fCurrentBlurGreenE,CTimeCycle::m_fCurrentBlurGreen,float,,4,,,0
 0x9405A4,,_ZN11CTheScripts14MainScriptSizeE,CTheScripts::MainScriptSize,int,,4,,,0
 0x9405A8,,RpHAnimAtomicGlobals,RpHAnimAtomicGlobals,RpHAnimAtomicGlobalVars,,8,,,0
 0x9405B0,,RtAnimAnimationFreeList,RtAnimAnimationFreeList,RwFreeList *,,4,,,0
 0x9405BC,CTxdStore,_ZN9CTxdStore13ms_pStoredTxdE,CTxdStore::ms_pStoredTxd,RwTexDictionary *,,4,,,0
-0x9405C0,,vecSeaAeroResistance,vecSeaAeroResistance,CVector,,12,,,0
-0x9405CC,,str1,str1,char[260],,260,,,0
+0x9405C0,CVehicle,vecSeaAeroResistance,vecSeaAeroResistance,CVector,,12,,,0
+0x9405CC,,mp3DirectoryPath,mp3DirectoryPath,char[260],,260,,,0
 0x9406D0,,_ZN8CRubbish15StartMoversListE,CRubbish::StartMoversList,COneSheet,,68,,,0
-0x940714,,_ZN10CTimeCycle22m_nCurrentFogColourRedE,CTimeCycle::m_nCurrentFogColourRed,int,,4,,,0
+0x940714,CTimeCycle,_ZN10CTimeCycle22m_nCurrentFogColourRedE,CTimeCycle::m_nCurrentFogColourRed,int,,4,,,0
 0x940718,,_ZN10CCullZones19CurrentFlags_CameraE,CCullZones::CurrentFlags_Camera,int,,4,,,0
 0x94071C,CPopulation,_ZN11CPopulation16ms_nNumEmergencyE,CPopulation::ms_nNumEmergency,unsigned int,,4,,,0
 0x940724,,_ZN6CStats28PassengersDroppedOffWithTaxiE,CStats::PassengersDroppedOffWithTaxi,int,,4,,,0
-0x940728,,_ZN10CTimeCycle19m_fCurrentBlurAlphaE,CTimeCycle::m_fCurrentBlurAlpha,float,,4,,,0
+0x940728,CTimeCycle,_ZN10CTimeCycle19m_fCurrentBlurAlphaE,CTimeCycle::m_fCurrentBlurAlpha,float,,4,,,0
 0x94072C,,_ZN7CReplay23fBetaAngleLookAroundCamE,CReplay::fBetaAngleLookAroundCam,float,,4,,,0
 0x940730,,_ZN9CRenderer23ms_nNoOfVisibleEntitiesE,CRenderer::ms_nNoOfVisibleEntities,int,,4,,,0
 0x940734,,_ZN14CPacManPickups16PillsEatenInRaceE,CPacManPickups::PillsEatenInRace,int,,4,,,0
@@ -1950,39 +2025,39 @@
 0x941288,,_ZN6CStats12CarsExplodedE,CStats::CarsExploded,int,,4,,,0
 0x94128C,CParticleObject,_ZN15CParticleObject15pUnusedListHeadE,CParticleObject::pUnusedListHead,CParticleObject *,,4,,,0
 0x9412AC,CCarCtrl,_ZN8CCarCtrl15NextCarOfRatingE,CCarCtrl::NextCarOfRating,int[7],,28,,,0
-0x9412C8,,NumPath4Nodes,NumPath4Nodes,int,,4,,,0
-0x9412CC,,_ZN13CMovingThings14StartCloseListE,CMovingThings::StartCloseList,CMovingThing,,28,,,0
+0x9412C8,CPlane,NumPath4Nodes,NumPath4Nodes,int,,4,,,0
+0x9412CC,CMovingThings,_ZN13CMovingThings14StartCloseListE,CMovingThings::StartCloseList,CMovingThing,,28,,,0
 0x9412E8,CTimer,_ZN6CTimer32m_snTimeInMillisecondsNonClippedE,CTimer::m_snTimeInMillisecondsNonClipped,unsigned int,,4,,,0
 0x9412EC,CTimer,_ZN6CTimer14m_FrameCounterE,CTimer::m_FrameCounter,unsigned int,,4,,,0
 0x9412F0,,_ZN6CWorld7PlayersE,CWorld::Players,CPlayerInfo[1],,316,,,0
 0x94142C,,gpGoalMarkerTex,gpGoalMarkerTex,RwTexture *,,4,,,0
 0x941430,CBridge,_ZN7CBridge16DefaultZLiftRoadE,CBridge::DefaultZLiftRoad,float,,4,,,0
-0x941434,,_ZN10CTimeCycle29m_nCurrentFluffyCloudsTopBlueE,CTimeCycle::m_nCurrentFluffyCloudsTopBlue,int,,4,,,0
+0x941434,CTimeCycle,_ZN10CTimeCycle29m_nCurrentFluffyCloudsTopBlueE,CTimeCycle::m_nCurrentFluffyCloudsTopBlue,int,,4,,,0
 0x941438,CBridge,_ZN7CBridge16DefaultZLiftPartE,CBridge::DefaultZLiftPart,float,,4,,,0
 0x94143C,CClouds,_ZN7CClouds12ms_colourTopE,CClouds::ms_colourTop,CRGBA,,4,,,0
 0x941440,,_RwD3D8RasterExtOffset,_RwD3D8RasterExtOffset,RwInt32,,4,,,0
 0x941444,,_ZN8CGarages19PoliceCarsCollectedE,CGarages::PoliceCarsCollected,int,,4,,,0
 0x941448,CPools,_ZN6CPools21ms_pEntryInfoNodePoolE,CPools::ms_pEntryInfoNodePool,CPool_CEntryInfoNode *,CPool<CEntryInfoNode> *,4,,,0
-0x94144C,,_ZN10CTimeCycle22m_fCurrentAmbientGreenE,CTimeCycle::m_fCurrentAmbientGreen,float,,4,,,0
+0x94144C,CTimeCycle,_ZN10CTimeCycle22m_fCurrentAmbientGreenE,CTimeCycle::m_fCurrentAmbientGreen,float,,4,,,0
 0x941450,CCarCtrl,_ZN8CCarCtrl24LastTimeAmbulanceCreatedE,CCarCtrl::LastTimeAmbulanceCreated,unsigned int,,4,,,0
 0x941454,,_ZN8CRubbish14EndStaticsListE,CRubbish::EndStaticsList,COneSheet,,68,,,0
-0x941498,,NumPath2Nodes,NumPath2Nodes,int,,4,,,0
-0x94149C,,_ZN10CTimeCycle21m_nCurrentSunCoreBlueE,CTimeCycle::m_nCurrentSunCoreBlue,int,,4,,,0
-0x9414A0,,_ZN13CMovingThings12EndCloseListE,CMovingThings::EndCloseList,CMovingThing,,28,,,0
+0x941498,CPlane,NumPath2Nodes,NumPath2Nodes,int,,4,,,0
+0x94149C,CTimeCycle,_ZN10CTimeCycle21m_nCurrentSunCoreBlueE,CTimeCycle::m_nCurrentSunCoreBlue,int,,4,,,0
+0x9414A0,CMovingThings,_ZN13CMovingThings12EndCloseListE,CMovingThings::EndCloseList,CMovingThing,,28,,,0
 0x9414BC,CBulletInfo,PlayerSniperBulletStart,PlayerSniperBulletStart,CVector,,12,,,0
 0x9414C8,,_ZN11CTheScripts24LargestMissionScriptSizeE,CTheScripts::LargestMissionScriptSize,int,,4,,,0
 0x9414CC,,_ZN4CHud13m_ZoneToPrintE,CHud::m_ZoneToPrint,wchar_t *,,4,,,0
-0x9414D0,,_ZN10CTimeCycle22m_nCurrentSkyBottomRedE,CTimeCycle::m_nCurrentSkyBottomRed,int,,4,,,0
+0x9414D0,CTimeCycle,_ZN10CTimeCycle22m_nCurrentSkyBottomRedE,CTimeCycle::m_nCurrentSkyBottomRed,int,,4,,,0
 0x9414D4,,_ZN7CReplay10SlowMotionE,CReplay::SlowMotion,unsigned int,,4,,,0
-0x9414D8,,NumPath3Nodes,NumPath3Nodes,int,,4,,,0
-0x9414DC,,_ZN12CAnimManager12ms_animCacheE,CAnimManager::ms_animCache,CLinkList_CAnimBlendHierarchy,,52,,,0
+0x9414D8,CPlane,NumPath3Nodes,NumPath3Nodes,int,,4,,,0
+0x9414DC,,_ZN12CAnimManager12ms_animCacheE,CAnimManager::ms_animCache,CLinkList<CAnimBlendHierarchy>,,52,,,0
 0x941510,,_ZN4CHud18m_VehicleFadeTimerE,CHud::m_VehicleFadeTimer,int,,4,,,0
 0x941514,,_ZN5CGame9currLevelE,CGame::currLevel,eLevelName,,4,,,0
 0x941518,,_ZN6CStats23DistanceTravelledOnFootE,CStats::DistanceTravelledOnFoot,float,,4,,,0
 0x94151C,,_ZN7CReplay15OldRadioStationE,CReplay::OldRadioStation,int,,4,,,0
 0x941520,,TheText,TheText,CText,,20,,,0
 0x941534,,_ZN6CRadar12WeaponSpriteE,CRadar::WeaponSprite,CSprite2d,,4,,,0
-0x941538,,PlanePathSpeed,PlanePathSpeed,float[3],,12,,,0
+0x941538,CPlane,PlanePathSpeed,PlanePathSpeed,float[3],,12,,,0
 0x941544,,_ZN6CStats17MoneyMadeWithTaxiE,CStats::MoneyMadeWithTaxi,int,,4,,,0
 0x941548,CCutsceneMgr,_ZN12CCutsceneMgr16ms_cutsceneTimerE,CCutsceneMgr::ms_cutsceneTimer,float,,4,,,0
 0x94154C,,_ZN8CRubbish12EndEmptyListE,CRubbish::EndEmptyList,COneSheet,,68,,,0
@@ -2006,25 +2081,27 @@
 0x942FA0,,OddJob2OffTimer,OddJob2OffTimer,float,,4,,,0
 0x942FA4,CCutsceneMgr,_ZN12CCutsceneMgr18ms_numCutsceneObjsE,CCutsceneMgr::ms_numCutsceneObjs,unsigned int,,4,,,0
 0x942FA8,,TempBufferIndicesStoredShattered,TempBufferIndicesStoredShattered,unsigned int,,4,,,0
-0x942FAC,,_ZN10CTimeCycle25m_fCurrentDirectionalBlueE,CTimeCycle::m_fCurrentDirectionalBlue,float,,4,,,0
+0x942FAC,CTimeCycle,_ZN10CTimeCycle25m_fCurrentDirectionalBlueE,CTimeCycle::m_fCurrentDirectionalBlue,float,,4,,,0
 0x942FB0,,_ZN10CStreaming22ms_streamingBufferSizeE,CStreaming::ms_streamingBufferSize,unsigned int,,4,,,0
 0x942FB4,,_ZN4CHud14m_pVehicleNameE,CHud::m_pVehicleName,wchar_t *,,4,,,0
+0x942FB8,,opened_provider,opened_provider,int,,4,,,0
 0x942FBC,,_rxPipelineGlobalsOffset,_rxPipelineGlobalsOffset,RwInt32,,4,,,0
-0x942FC0,,_ZN10CTimeCycle21m_fCurrentAmbientBlueE,CTimeCycle::m_fCurrentAmbientBlue,float,,4,,,0
+0x942FC0,CTimeCycle,_ZN10CTimeCycle21m_fCurrentAmbientBlueE,CTimeCycle::m_fCurrentAmbientBlue,float,,4,,,0
 0x942FC4,,_ZN8CRubbish16StartStaticsListE,CRubbish::StartStaticsList,COneSheet,,68,,,0
-0x943008,,fTimeMult,fTimeMult,float,,4,,,0
+0x943008,CBoat,fTimeMult,fTimeMult,float,,4,,,0
 0x94300C,,_RwD3D8ZBufferDepth,_RwD3D8ZBufferDepth,RwInt32,,4,,,0
 0x943010,,Present,Present,D3DPRESENT_PARAMETERS,,52,,,0
 0x943044,CPools,_ZN6CPools15ms_pPtrNodePoolE,CPools::ms_pPtrNodePool,CPool_CPtrNode *,CPool<CPtrNode> *,4,,,0
+0x94304C,,usingEAX3,usingEAX3,,,1,,,0
 0x943050,,_ZN6CStats11CarsCrushedE,CStats::CarsCrushed,int,,4,,,0
 0x943054,,_ZN7CReplay11CameraFixedE,CReplay::CameraFixed,CVector,,12,,,0
 0x943060,,_ZN8CGarages12CrushedCarIdE,CGarages::CrushedCarId,int,,4,,,0
 0x943064,,_ZN10CSceneEdit20m_vecCurrentPositionE,CSceneEdit::m_vecCurrentPosition,CVector,,12,,,0
 0x943070,,_ZN6CStats24InstantHitsFiredByPlayerE,CStats::InstantHitsFiredByPlayer,int,,4,,,0
-0x943074,,_ZN10CTimeCycle21m_nCurrentSkyTopGreenE,CTimeCycle::m_nCurrentSkyTopGreen,int,,4,,,0
-0x943078,CClouds,_ZN7CClouds18IndividualRotationE,CClouds::IndividualRotation,float,,4,,,0
+0x943074,CTimeCycle,_ZN10CTimeCycle21m_nCurrentSkyTopGreenE,CTimeCycle::m_nCurrentSkyTopGreen,int,,4,,,0
+0x943078,CClouds,_ZN7CClouds18IndividualRotationE,CClouds::IndividualRotation,unsigned int,,4,,,0
 0x94307C,,_ZN6CRadar11SpraySpriteE,CRadar::SpraySprite,CSprite2d,,4,,,0
-0x943084,,_ZN18CVisibilityPlugins17m_alphaEntityListE,CVisibilityPlugins::m_alphaEntityList,CLinkList_CAlphaObjectInfo,,68,,,0
+0x943084,,_ZN18CVisibilityPlugins17m_alphaEntityListE,CVisibilityPlugins::m_alphaEntityList,CLinkList<CAlphaObjectInfo>,,68,,,0
 0x9430C8,CBulletInfo,PlayerSniperBulletEnd,PlayerSniperBulletEnd,CVector,,12,,,0
 0x9430D4,,_ZN11CTheScripts12pIdleScriptsE,CTheScripts::pIdleScripts,CRunningScript *,,4,,,0
 0x9430D8,,_ZN7CDarkel17TimeOfFrenzyStartE,CDarkel::TimeOfFrenzyStart,unsigned int,,4,,,0
@@ -2040,12 +2117,14 @@
 0x9434F0,CDraw,_ZN5CDraw12ms_fFarClipZE,CDraw::ms_fFarClipZ,float,,4,,,0
 0x9434F4,CTimer,oldPcTimer,oldPcTimer,int,,4,,,0
 0x9434F8,CModelInfo,_ZN10CModelInfo16ms_2dEffectStoreE,CModelInfo::ms_2dEffectStore,"CStore<C2dEffect, 2000>",,104004,,,0
+0x95CB3C,,usingEAX,usingEAX,,,1,,,0
 0x95CB40,CCutsceneMgr,_ZN12CCutsceneMgr21ms_cutsceneLoadStatusE,CCutsceneMgr::ms_cutsceneLoadStatus,unsigned int,,4,,,0
-0x95CB48,,_ZN10CTimeCycle24m_nCurrentLowCloudsGreenE,CTimeCycle::m_nCurrentLowCloudsGreen,int,,4,,,0
+0x95CB44,,fPrevEaxRatioDestination,fPrevEaxRatioDestination,float,,4,,,0
+0x95CB48,CTimeCycle,_ZN10CTimeCycle24m_nCurrentLowCloudsGreenE,CTimeCycle::m_nCurrentLowCloudsGreen,int,,4,,,0
 0x95CB4C,,gpWalkDontTex,gpWalkDontTex,RwTexture *,,4,,,0
 0x95CB50,CPopulation,_ZN11CPopulation13ms_nTotalPedsE,CPopulation::ms_nTotalPeds,unsigned int,,4,,,0
-0x95CB54,,_ZN10CTimeCycle22m_nCurrentLowCloudsRedE,CTimeCycle::m_nCurrentLowCloudsRed,int,,4,,,0
-0x95CB58,,_ZN10CCollision16ms_colModelCacheE,CCollision::ms_colModelCache,CLinkList_CColModel,,52,,,0
+0x95CB54,CTimeCycle,_ZN10CTimeCycle22m_nCurrentLowCloudsRedE,CTimeCycle::m_nCurrentLowCloudsRed,int,,4,,,0
+0x95CB58,,_ZN10CCollision16ms_colModelCacheE,CCollision::ms_colModelCache,CLinkList<CColModel>,,52,,,0
 0x95CB8C,,_ZN6CStats22InstantHitsHitByPlayerE,CStats::InstantHitsHitByPlayer,int,,4,,,0
 0x95CB90,,_ZN10CStreaming19ms_pExtraObjectsDirE,CStreaming::ms_pExtraObjectsDir,CDirectory *,,4,,,0
 0x95CB94,,gpCrackedGlassTex,gpCrackedGlassTex,RwTexture *,,4,,,0
@@ -2056,15 +2135,15 @@
 0x95CC00,,nNumMP3s,nNumMP3s,unsigned int,,4,,,0
 0x95CC04,,_ZN5CFont6SpriteE,CFont::Sprite,CSprite2d[3],,12,,,0
 0x95CC10,,_ZN10CSceneEdit17m_vecGotoPositionE,CSceneEdit::m_vecGotoPosition,CVector,,12,,,0
-0x95CC1C,,_ZN10CTimeCycle23m_nCurrentLowCloudsBlueE,CTimeCycle::m_nCurrentLowCloudsBlue,int,,4,,,0
+0x95CC1C,CTimeCycle,_ZN10CTimeCycle23m_nCurrentLowCloudsBlueE,CTimeCycle::m_nCurrentLowCloudsBlue,int,,4,,,0
 0x95CC20,,CounterFlashTimer,CounterFlashTimer,__int16,,2,,,0
-0x95CC22,,_ZN5CHeli14NumScriptHelisE,CHeli::NumScriptHelis,__int16,,2,,,0
+0x95CC22,CHeli,_ZN5CHeli14NumScriptHelisE,CHeli::NumScriptHelis,__int16,,2,,,0
 0x95CC24,,_ZN18CRecordDataForGame14RecordingStateE,CRecordDataForGame::RecordingState,eRecordForGameState,,2,,,0
 0x95CC26,,DummyResult,DummyResult,__int16,,2,,,0
 0x95CC28,,_ZN10CSceneEdit19m_nNumMovieCommandsE,CSceneEdit::m_nNumMovieCommands,unsigned __int16,,2,,,0
 0x95CC2A,,nStreamPan,nStreamPan,char[2],,2,,,0
-0x95CC2C,,_ZN13CMovingThings3NumE,CMovingThings::Num,unsigned __int16,,2,,,0
-0x95CC2E,,_ZN10CStreaming17ms_loadedGangCarsE,CStreaming::ms_loadedGangCars,signed __int16,,2,,,0
+0x95CC2C,CMovingThings,_ZN13CMovingThings3NumE,CMovingThings::Num,unsigned __int16,,2,,,0
+0x95CC2E,,_ZN10CStreaming17ms_loadedGangCarsE,CStreaming::ms_loadedGangCars,__int16,,2,,,0
 0x95CC30,,ThingsToCollect,ThingsToCollect,__int16,,2,,,0
 0x95CC32,,_ZN11CTheScripts32NumberOfIntroRectanglesThisFrameE,CTheScripts::NumberOfIntroRectanglesThisFrame,unsigned __int16,,2,,,0
 0x95CC34,,_ZN11CRoadBlocks13NumRoadBlocksE,CRoadBlocks::NumRoadBlocks,signed __int16,,2,,,0
@@ -2079,27 +2158,27 @@
 0x95CC46,,_ZN8CRestart24NumberOfHospitalRestartsE,CRestart::NumberOfHospitalRestarts,unsigned __int16,,2,,,0
 0x95CC48,,_ZN10CSceneEdit22m_nCurrentMovieCommandE,CSceneEdit::m_nCurrentMovieCommand,signed __int16,,2,,,0
 0x95CC4A,,PagerSoundPlayed,PagerSoundPlayed,__int16,,2,,,0
-0x95CC4C,,bSampleBankLoaded,bSampleBankLoaded,char[2],,2,,,0
+0x95CC4C,,bSampleBankLoaded,bSampleBankLoaded,bool[2],,2,,,0
 0x95CC4E,,TestCloseThings,TestCloseThings,__int16,,2,,,0
 0x95CC50,,_ZN10CSceneEdit14m_nNumVehiclesE,CSceneEdit::m_nNumVehicles,unsigned __int16,,2,,,0
 0x95CC52,,OddJob2Timer,OddJob2Timer,__int16,,2,,,0
 0x95CC54,,_ZN4CHud16SpriteBrightnessE,CHud::SpriteBrightness,__int16,,2,,,0
 0x95CC58,,nPlayerInComboMove,nPlayerInComboMove,__int16,,2,,,0
 0x95CC5A,,_ZN10CSceneEdit9m_nActor2E,CSceneEdit::m_nActor2,__int16,,2,,,0
-0x95CC5C,,NumTrackNodes,NumTrackNodes,__int16,,2,,,0
+0x95CC5C,CTrain,NumTrackNodes,NumTrackNodes,__int16,,2,,,0
 0x95CC5E,,_ZN11CTheScripts14ScriptsUpdatedE,CTheScripts::ScriptsUpdated,__int16,,2,,,0
 0x95CC60,,_ZN10CStreaming14ms_loadedGangsE,CStreaming::ms_loadedGangs,__int16,,2,,,0
 0x95CC62,,_ZN6CDebug19ms_nCurrentTextLineE,CDebug::ms_nCurrentTextLine,__int16,,2,,,0
 0x95CC64,,_ZN6CWorld19ms_nCurrentScanCodeE,CWorld::ms_nCurrentScanCode,unsigned __int16,,2,,,0
-0x95CC66,,_ZN10CTimeCycle29m_nCurrentLightShadowStrengthE,CTimeCycle::m_nCurrentLightShadowStrength,__int16,,2,,,0
+0x95CC66,CTimeCycle,_ZN10CTimeCycle29m_nCurrentLightShadowStrengthE,CTimeCycle::m_nCurrentLightShadowStrength,__int16,,2,,,0
 0x95CC68,,_ZN8CWeather21Stored_OldWeatherTypeE,CWeather::Stored_OldWeatherType,__int16,,2,,,0
-0x95CC6A,,NumTrackNodes_S,NumTrackNodes_S,__int16,,2,,,0
+0x95CC6A,CTrain,NumTrackNodes_S,NumTrackNodes_S,__int16,,2,,,0
 0x95CC6C,,TimerFlashTimer,TimerFlashTimer,__int16,,2,,,0
 0x95CC6E,,_ZN7CReplay14NewWeatherTypeE,CReplay::NewWeatherType,__int16,,2,,,0
 0x95CC70,,_ZN8CWeather14NewWeatherTypeE,CWeather::NewWeatherType,__int16,,2,,,0
 0x95CC72,,_ZN11CTheScripts19NumberOfUsedObjectsE,CTheScripts::NumberOfUsedObjects,unsigned __int16,,2,,,0
 0x95CC74,,_ZN9CTheZones21TotalNumberOfMapZonesE,CTheZones::TotalNumberOfMapZones,unsigned __int16,,2,,,0
-0x95CC76,,_ZN10CTimeCycle24m_nCurrentShadowStrengthE,CTimeCycle::m_nCurrentShadowStrength,__int16,,2,,,0
+0x95CC76,CTimeCycle,_ZN10CTimeCycle24m_nCurrentShadowStrengthE,CTimeCycle::m_nCurrentShadowStrength,__int16,,2,,,0
 0x95CC78,,OddJob2On,OddJob2On,__int16,,2,,,0
 0x95CC7A,,CollectGameState,CollectGameState,__int16,,2,,,0
 0x95CC7C,,_ZN6CClock20ms_nGameClockSecondsE,CClock::ms_nGameClockSeconds,unsigned __int16,,2,,,0
@@ -2107,7 +2186,7 @@
 0x95CC80,,_ZN8CWeather17ForcedWeatherTypeE,CWeather::ForcedWeatherType,__int16,,2,,,0
 0x95CC82,,_ZN4CHud13m_ItemToFlashE,CHud::m_ItemToFlash,__int16,,2,,,0
 0x95CC84,,_ZN9CTheZones18NumberOfAudioZonesE,CTheZones::NumberOfAudioZones,unsigned __int16,,2,,,0
-0x95CC86,,_ZN10CTimeCycle28m_nCurrentTreeShadowStrengthE,CTimeCycle::m_nCurrentTreeShadowStrength,__int16,,2,,,0
+0x95CC86,CTimeCycle,_ZN10CTimeCycle28m_nCurrentTreeShadowStrengthE,CTimeCycle::m_nCurrentTreeShadowStrength,__int16,,2,,,0
 0x95CC88,,_ZN11CTheScripts31NumberOfIntroTextLinesThisFrameE,CTheScripts::NumberOfIntroTextLinesThisFrame,unsigned __int16,,2,,,0
 0x95CC8A,,_ZN8CPickups20CollectedPickUpIndexE,CPickups::CollectedPickUpIndex,unsigned __int16,,2,,,0
 0x95CC8C,,MousePointerStateHelper,MousePointerStateHelper,CMousePointerStateHelper,,2,,,0
@@ -2121,11 +2200,11 @@
 0x95CC9C,,_ZN6CClock27ms_Stored_nGameClockSecondsE,CClock::ms_Stored_nGameClockSeconds,unsigned __int16,,2,,,0
 0x95CC9E,,_ZN11CWaterLevel9nGeomUsedE,CWaterLevel::nGeomUsed,__int16,,2,,,0
 0x95CCA0,,PagerOn,PagerOn,__int16,,2,,,0
-0x95CCA2,,_ZN7CObject14nNoTempObjectsE,CObject::nNoTempObjects,unsigned __int16,,2,,,0
+0x95CCA2,CObject,_ZN7CObject14nNoTempObjectsE,CObject::nNoTempObjects,__int16,,2,,,0
 0x95CCA4,,nStreamVolume,nStreamVolume,char[2],,2,,,0
 0x95CCA6,,_ZN11CTheScripts16CommandsExecutedE,CTheScripts::CommandsExecuted,__int16,,2,,,0
 0x95CCA8,,TestBigThings,TestBigThings,__int16,,2,,,0
-0x95CCAA,,_ZN5CHeli14NumRandomHelisE,CHeli::NumRandomHelis,__int16,,2,,,0
+0x95CCAA,CHeli,_ZN5CHeli14NumRandomHelisE,CHeli::NumRandomHelis,__int16,,2,,,0
 0x95CCAC,,_ZN10CSceneEdit17m_nCurrentVehicleE,CSceneEdit::m_nCurrentVehicle,__int16,,2,,,0
 0x95CCAE,,_ZN8CWeather21Stored_NewWeatherTypeE,CWeather::Stored_NewWeatherType,__int16,,2,,,0
 0x95CCB0,,_ZN10CSceneEdit13m_nWeaponTypeE,CSceneEdit::m_nWeaponType,__int16,,2,,,0
@@ -2145,18 +2224,20 @@
 0x95CD1D,,_ZN8CGarages15RespraysAreFreeE,CGarages::RespraysAreFree,bool,,1,,,0
 0x95CD1E,,_ZN5CGame10germanGameE,CGame::germanGame,bool,,1,,,0
 0x95CD1F,,_ZN10CSceneEdit12m_bRecordingE,CSceneEdit::m_bRecording,bool,,1,,,0
-0x95CD21,,_ZN11CAutomobile16m_sAllTaxiLightsE,CAutomobile::m_sAllTaxiLights,bool,,1,,,0
+0x95CD21,CAutomobile,_ZN11CAutomobile16m_sAllTaxiLightsE,CAutomobile::m_sAllTaxiLights,bool,,1,,,0
+0x95CD22,,bSampmanInitialised,bSampmanInitialised,bool,,1,,,0
 0x95CD23,,_ZN12CMenuManager20m_PrefsUseWideScreenE,CMenuManager::m_PrefsUseWideScreen,char,,1,,,0
 0x95CD24,,nChannelVolume,nChannelVolume,unsigned __int8[29],,29,,,0
 0x95CD41,,_ZN11CTheScripts18FailCurrentMissionE,CTheScripts::FailCurrentMission,bool,,1,,,0
-0x95CD42,,gbShowCollisionPolys,gbShowCollisionPolys,bool,,1,,,0
-0x95CD43,,_ZN5CHeli12ScriptHeliOnE,CHeli::ScriptHeliOn,bool,,1,,,0
+0x95CD42,,gbShowCarRoadGroups,gbShowCarRoadGroups,bool,,1,,,0
+0x95CD43,CHeli,_ZN5CHeli12ScriptHeliOnE,CHeli::ScriptHeliOn,bool,,1,,,0
 0x95CD44,,_ZN4CPed16bNastyLimbsCheatE,CPed::bNastyLimbsCheat,bool,,1,,,0
-0x95CD46,,bDidWeProcessAnyCinemaCam,bDidWeProcessAnyCinemaCam,bool,,1,,,0
+0x95CD46,CCamera,bDidWeProcessAnyCinemaCam,bDidWeProcessAnyCinemaCam,bool,,1,,,0
 0x95CD47,,_ZN10CStreaming16ms_hasLoadedLODsE,CStreaming::ms_hasLoadedLODs,bool,,1,,,0
 0x95CD48,,_ZN4CPad20m_bMapPadOneToPadTwoE,CPad::m_bMapPadOneToPadTwo,bool,,1,,,0
-0x95CD4A,,bCullZonesDisabled,bCullZonesDisabled,bool,,1,,,0
-0x95CD4B,,bAllCarCheat,bAllCarCheat,bool,,1,,,0
+0x95CD49,,_ZN8CCoronas10bSmallMoonE,CCoronas::bSmallMoon,bool,,1,,,0
+0x95CD4A,,_ZN10CCullZones18bCullZonesDisabledE,CCullZones::bCullZonesDisabled,bool,,1,,,0
+0x95CD4B,CAutomobile,bAllCarCheat,bAllCarCheat,bool,,1,,,0
 0x95CD4C,,_ZN8CRestart21OverrideHospitalLevelE,CRestart::OverrideHospitalLevel,unsigned __int8,,1,,,0
 0x95CD4D,,gSpecialSuspectLastSeenReport,gSpecialSuspectLastSeenReport,char,,1,,,0
 0x95CD4E,,gbBigWhiteDebugLightSwitchedOn,gbBigWhiteDebugLightSwitchedOn,bool,,1,,,0
@@ -2167,7 +2248,7 @@
 0x95CD53,CDraw,_ZN5CDraw8FadeBlueE,CDraw::FadeBlue,unsigned __int8,,1,,,0
 0x95CD54,,_ZN6CWorld12bSecondShiftE,CWorld::bSecondShift,bool,,1,,,0
 0x95CD55,,_ZN11CTheScripts22bUsingAMultiScriptFileE,CTheScripts::bUsingAMultiScriptFile,bool,,1,,,0
-0x95CD56,,_ZN5CHeli23CatalinaHasBeenShutDownE,CHeli::CatalinaHasBeenShutDown,bool,,1,,,0
+0x95CD56,CHeli,_ZN5CHeli23CatalinaHasBeenShutDownE,CHeli::CatalinaHasBeenShutDown,bool,,1,,,0
 0x95CD57,,_ZN11CTheScripts15UseTextCommandsE,CTheScripts::UseTextCommands,char,,1,,,0
 0x95CD58,,_ZN7CReplay20bPlayingBackFromFileE,CReplay::bPlayingBackFromFile,bool,,1,,,0
 0x95CD59,,_ZN4CPed10bPedCheat3E,CPed::bPedCheat3,bool,,1,,,0
@@ -2181,13 +2262,14 @@
 0x95CD61,,_ZN6CWorld13PlayerInFocusE,CWorld::PlayerInFocus,unsigned __int8,,1,,,0
 0x95CD62,,_ZN4CHud25m_Wants_To_Draw_3dMarkersE,CHud::m_Wants_To_Draw_3dMarkers,char,,1,,,0
 0x95CD63,CCarCtrl,_ZN8CCarCtrl22CountDownToCarsAtStartE,CCarCtrl::CountDownToCarsAtStart,char,,1,,,0
-0x95CD64,,_ZN8CVehicle7bCheat5E,CVehicle::bCheat5,bool,,1,,,0
-0x95CD65,,_ZN8CVehicle7bCheat4E,CVehicle::bCheat4,bool,,1,,,0
-0x95CD66,,_ZN8CVehicle7bCheat3E,CVehicle::bCheat3,bool,,1,,,0
+0x95CD64,CVehicle,_ZN8CVehicle7bCheat5E,CVehicle::bCheat5,bool,,1,,,0
+0x95CD65,CVehicle,_ZN8CVehicle7bCheat4E,CVehicle::bCheat4,bool,,1,,,0
+0x95CD66,CVehicle,_ZN8CVehicle7bCheat3E,CVehicle::bCheat3,bool,,1,,,0
 0x95CD67,,CounterOnLastFrame,CounterOnLastFrame,bool,,1,,,0
 0x95CD68,CDraw,_ZN5CDraw9FadeValueE,CDraw::FadeValue,unsigned __int8,,1,,,0
 0x95CD69,,_ZN8CRestart22bFadeInAfterNextArrestE,CRestart::bFadeInAfterNextArrest,bool,,1,,,0
 0x95CD6A,,_ZN12CMenuManager28m_bShutDownFrontEndRequestedE,CMenuManager::m_bShutDownFrontEndRequested,bool,,1,,,0
+0x95CD6B,,usingMilesFast2D,usingMilesFast2D,bool,,1,,,0
 0x95CD6C,,_ZN6CWorld20bForceProcessControlE,CWorld::bForceProcessControl,bool,,1,,,0
 0x95CD6E,,_ZN10CStreaming19ms_disableStreamingE,CStreaming::ms_disableStreaming,bool,,1,,,0
 0x95CD6F,,_ZN14CPacManPickups9bPMActiveE,CPacManPickups::bPMActive,bool,,1,,,0
@@ -2196,10 +2278,10 @@
 0x95CD72,,_ZN10CSceneEdit17m_bActor2SelectedE,CSceneEdit::m_bActor2Selected,bool,,1,,,0
 0x95CD73,,_ZN8CCoronas18SunBlockedByCloudsE,CCoronas::SunBlockedByClouds,bool,,1,,,0
 0x95CD74,CCutsceneMgr,_ZN12CCutsceneMgr19ms_useLodMultiplierE,CCutsceneMgr::ms_useLodMultiplier,bool,,1,,,0
-0x95CD75,,_ZN8CVehicle14bAllDodosCheatE,CVehicle::bAllDodosCheat,bool,,1,,,0
+0x95CD75,CVehicle,_ZN8CVehicle14bAllDodosCheatE,CVehicle::bAllDodosCheat,bool,,1,,,0
 0x95CD76,,_ZN7CReplay20bDoLoadSceneWhenDoneE,CReplay::bDoLoadSceneWhenDone,bool,,1,,,0
 0x95CD77,,_ZN10CSceneEdit9m_bEditOnE,CSceneEdit::m_bEditOn,bool,,1,,,0
-0x95CD78,,_ZN8CVehicle16bWheelsOnlyCheatE,CVehicle::bWheelsOnlyCheat,bool,,1,,,0
+0x95CD78,CVehicle,_ZN8CVehicle16bWheelsOnlyCheatE,CVehicle::bWheelsOnlyCheat,bool,,1,,,0
 0x95CD79,CPopulation,_ZN11CPopulation22bZoneChangeHasHappenedE,CPopulation::bZoneChangeHasHappened,bool,,1,,,0
 0x95CD7A,,_ZN8CGarages12BombsAreFreeE,CGarages::BombsAreFree,bool,,1,,,0
 0x95CD7B,,_ZN6CClock25ms_Stored_nGameClockHoursE,CClock::ms_Stored_nGameClockHours,unsigned __int8,,1,,,0
@@ -2210,7 +2292,7 @@
 0x95CD81,CBulletInfo,bPlayerSniperBullet,bPlayerSniperBullet,bool,,1,,,0
 0x95CD82,,_ZN6CClock19bClockHasBeenStoredE,CClock::bClockHasBeenStored,bool,,1,,,0
 0x95CD83,,_ZN8CGarages14PlayerInGarageE,CGarages::PlayerInGarage,bool,,1,,,0
-0x95CD85,,_ZN5CHeli14CatalinaHeliOnE,CHeli::CatalinaHeliOn,bool,,1,,,0
+0x95CD85,CHeli,_ZN5CHeli14CatalinaHeliOnE,CHeli::CatalinaHeliOn,bool,,1,,,0
 0x95CD86,,_ZN9CRenderer17m_loadingPriorityE,CRenderer::m_loadingPriority,bool,,1,,,0
 0x95CD87,,_ZN11CTheScripts7DbgFlagE,CTheScripts::DbgFlag,bool,,1,,,0
 0x95CD88,,_ZN11CTheScripts31DelayMakingPlayerUnsafeThisTimeE,CTheScripts::DelayMakingPlayerUnsafeThisTime,char,,1,,,0
@@ -2218,11 +2300,13 @@
 0x95CD8A,CCarCtrl,_ZN8CCarCtrl26bCarsGeneratedAroundCameraE,CCarCtrl::bCarsGeneratedAroundCamera,bool,,1,,,0
 0x95CD8B,,_ZN6CWorld20bProcessCutsceneOnlyE,CWorld::bProcessCutsceneOnly,bool,,1,,,0
 0x95CD8C,,_ZN6CWorld19bDoingCarCollisionsE,CWorld::bDoingCarCollisions,bool,,1,,,0
+0x95CD8D,,_ZN12CMenuManager25m_DisplayControllerOnFootE,CMenuManager::m_DisplayControllerOnFoot,,,1,,,0
 0x95CD8E,,g_bMissionAudioLoadFailed,g_bMissionAudioLoadFailed,bool,,1,,,0
 0x95CD8F,,_ZN6CWorld16bIncludeDeadPedsE,CWorld::bIncludeDeadPeds,bool,,1,,,0
 0x95CD90,CDraw,_ZN5CDraw7FadeRedE,CDraw::FadeRed,unsigned __int8,,1,,,0
 0x95CD92,,_ZN12CMenuManager19m_PrefsUseVibrationE,CMenuManager::m_PrefsUseVibration,bool,,1,,,0
 0x95CD93,,gbModelViewer,gbModelViewer,bool,,1,,,0
+0x95CD94,,bIsMp3Active,bIsMp3Active,bool,,1,,,0
 0x95CD95,CCutsceneMgr,_ZN12CCutsceneMgr9ms_loadedE,CCutsceneMgr::ms_loaded,bool,,1,,,0
 0x95CD96,,nCurrentPedSlot,nCurrentPedSlot,unsigned __int8,,1,,,0
 0x95CD97,,_ZN8CRubbish17bRubbishInvisibleE,CRubbish::bRubbishInvisible,bool,,1,,,0
@@ -2245,7 +2329,7 @@
 0x95CDAB,,_ZN6CMBlur19ms_bJustInitialisedE,CMBlur::ms_bJustInitialised,bool,,1,,,0
 0x95CDAC,,_ZN8CWeather14LightningBurstE,CWeather::LightningBurst,bool,,1,,,0
 0x95CDAD,,_ZN6CMBlur6BlurOnE,CMBlur::BlurOn,char,,1,,,0
-0x95CDAF,,_ZN17CTheCarGenerators14ProcessCounterE,CTheCarGenerators::ProcessCounter,unsigned __int8,,1,,,0
+0x95CDAF,CTheCarGenerators,_ZN17CTheCarGenerators14ProcessCounterE,CTheCarGenerators::ProcessCounter,unsigned __int8,,1,,,0
 0x95CDB0,,_ZN10CStreaming19ms_bLoadingBigModelE,CStreaming::ms_bLoadingBigModel,bool,,1,,,0
 0x95CDB1,CTimer,_ZN6CTimer11m_CodePauseE,CTimer::m_CodePause,bool,,1,,,0
 0x95CDB2,,_ZN8CGarages19bCamShouldBeOutsideE,CGarages::bCamShouldBeOutside,char,,1,,,0
@@ -2253,6 +2337,7 @@
 0x95CDB4,,JustLoadedDontFadeInYet,JustLoadedDontFadeInYet,bool,,1,,,0
 0x95CDB6,,_ZN7CDarkel25bStandardSoundAndMessagesE,CDarkel::bStandardSoundAndMessages,bool,,1,,,0
 0x95CDB8,,_ZN4CPad26bObsoleteControllerMessageE,CPad::bObsoleteControllerMessage,bool,,1,,,0
+0x95CDB9,,gbShowPedRoadGroups,gbShowPedRoadGroups,,,1,,,0
 0x95CDBB,,gbFastTime,gbFastTime,bool,,1,,,0
 0x95CDBC,,_ZN11CTheScripts21StoreVehicleWasRandomE,CTheScripts::StoreVehicleWasRandom,bool,,1,,,0
 0x95CDBE,,DMAudio,DMAudio,cDMAudio,,1,,,0
@@ -2261,7 +2346,7 @@
 0x95CDC2,,_ZN5CGame12playingIntroE,CGame::playingIntro,bool,,1,,,0
 0x95CDC3,,bPlayerInRCBuggy,bPlayerInRCBuggy,bool,,1,,,0
 0x95CDC5,,_ZN7CReplay10ClockHoursE,CReplay::ClockHours,char,,1,,,0
-0x95CDC6,,_ZN17CTheCarGenerators34GenerateEvenIfPlayerIsCloseCounterE,CTheCarGenerators::GenerateEvenIfPlayerIsCloseCounter,char,,1,,,0
+0x95CDC6,CTheCarGenerators,_ZN17CTheCarGenerators34GenerateEvenIfPlayerIsCloseCounterE,CTheCarGenerators::GenerateEvenIfPlayerIsCloseCounter,unsigned __int8,,1,,,0
 0x95CDC8,,_ZN6CClock20ms_nGameClockMinutesE,CClock::ms_nGameClockMinutes,unsigned __int8,,1,,,0
 0x95CDC9,,_ZN19CRecordDataForChase10CurrentCarE,CRecordDataForChase::CurrentCar,unsigned __int8,,1,,,0
 0x95CDCA,,_ZN7CDarkel13bNeedHeadShotE,CDarkel::bNeedHeadShot,bool,,1,,,0

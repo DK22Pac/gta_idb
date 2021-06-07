@@ -1,14 +1,14 @@
 {
     "name": "CTrainNode",
-    "module": "",
+    "module": "CTrain",
     "scope": "",
-    "kind": "class",
+    "kind": "struct",
     "size": "0x10",
     "alignment": 2,
     "comment": "",
     "members": [
         {
-            "name": "m_vecPosn",
+            "name": "m_vecPosition",
             "type": "CVector",
             "offset": 0,
             "size": "0xC"
@@ -17,7 +17,8 @@
             "name": "m_fStationDist",
             "type": "float",
             "offset": "0xC",
-            "size": 4
+            "size": 4,
+            "comment": "xy-distance from start on track"
         }
     ]
 }

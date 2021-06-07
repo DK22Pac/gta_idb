@@ -1,6 +1,6 @@
 {
     "name": "eCrimeType",
-    "module": "",
+    "module": "eCrimeType",
     "scope": "",
     "width": 4,
     "isClass": false,
@@ -14,51 +14,51 @@
             "value": 0
         },
         {
-            "name": "CRIME_SHOT_FIRED",
+            "name": "CRIME_POSSESSION_GUN",
             "value": 1
         },
         {
-            "name": "CRIME_PED_FIGHT",
+            "name": "CRIME_HIT_PED",
             "value": 2
         },
         {
-            "name": "CRIME_COP_FIGHT",
+            "name": "CRIME_HIT_COP",
             "value": 3
         },
         {
-            "name": "CRIME_DAMAGED_PED",
+            "name": "CRIME_SHOOT_PED",
             "value": 4
         },
         {
-            "name": "CRIME_DAMAGED_COP",
+            "name": "CRIME_SHOOT_COP",
             "value": 5
         },
         {
-            "name": "CRIME_CAR_THEFT",
+            "name": "CRIME_STEAL_CAR",
             "value": 6
         },
         {
-            "name": "CRIME_CRIME7",
+            "name": "CRIME_RUN_REDLIGHT",
             "value": 7
         },
         {
-            "name": "CRIME_COP_EVASIVE_DIVE",
+            "name": "CRIME_RECKLESS_DRIVING",
             "value": 8
         },
         {
-            "name": "CRIME_COP_EVASIVE_DIVE2",
+            "name": "CRIME_SPEEDING",
             "value": 9
         },
         {
-            "name": "CRIME_PED_RUN_OVER",
+            "name": "CRIME_RUNOVER_PED",
             "value": 10
         },
         {
-            "name": "CRIME_COP_RUN_OVER",
+            "name": "CRIME_RUNOVER_COP",
             "value": 11
         },
         {
-            "name": "CRIME_DESTROYED_HELI",
+            "name": "CRIME_SHOOT_HELI",
             "value": 12
         },
         {
@@ -76,6 +76,10 @@
         {
             "name": "CRIME_DESTROYED_CESSNA",
             "value": 16
+        },
+        {
+            "name": "NUM_CRIME_TYPES",
+            "value": 17
         }
     ]
 }

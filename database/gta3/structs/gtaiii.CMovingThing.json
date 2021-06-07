@@ -1,6 +1,6 @@
 {
     "name": "CMovingThing",
-    "module": "",
+    "module": "CMovingThing",
     "scope": "",
     "kind": "class",
     "size": "0x1C",
@@ -20,25 +20,25 @@
             "size": 4
         },
         {
-            "name": "field_8",
-            "type": "_WORD",
+            "name": "m_nType",
+            "type": "__int16",
             "offset": 8,
             "size": 2
         },
         {
-            "name": "wordA",
-            "type": "_WORD",
+            "name": "m_nHidden",
+            "type": "__int16",
             "offset": "0xA",
             "size": 2
         },
         {
-            "name": "gapC",
-            "type": "_BYTE[12]",
+            "name": "m_vecPosition",
+            "type": "CVector",
             "offset": "0xC",
             "size": "0xC"
         },
         {
-            "name": "m_pCEntity",
+            "name": "m_pEntity",
             "type": "CEntity *",
             "offset": "0x18",
             "size": 4

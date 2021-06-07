@@ -1,6 +1,6 @@
 {
     "name": "CTreadable",
-    "module": "",
+    "module": "CTreadable",
     "scope": "",
     "kind": "class",
     "size": "0x94",
@@ -10,19 +10,20 @@
     "comment": "",
     "members": [
         {
-            "name": "building",
+            "name": "base",
             "type": "CBuilding",
             "offset": 0,
-            "size": "0x64"
+            "size": "0x64",
+            "isBase": true
         },
         {
-            "name": "m_aNodesIndicesCarNodes",
+            "name": "m_aNodeIndicesCarNodes",
             "type": "__int16[12]",
             "offset": "0x64",
             "size": "0x18"
         },
         {
-            "name": "m_aNodesIndicesPedNodes",
+            "name": "m_aNodeIndicesPedNodes",
             "type": "__int16[12]",
             "offset": "0x7C",
             "size": "0x18"

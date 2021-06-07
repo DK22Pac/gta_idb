@@ -1,37 +1,37 @@
 {
     "name": "eCraneState",
-    "module": "",
+    "module": "CCrane",
     "scope": "",
-    "width": 4,
+    "width": 1,
     "isClass": false,
-    "isHexademical": true,
+    "isHexademical": false,
     "isSigned": false,
     "isBitfield": false,
     "comment": "",
     "members": [
         {
             "name": "IDLE",
-            "value": "0x0"
+            "value": 0
         },
         {
             "name": "GOING_TOWARDS_TARGET",
-            "value": "0x1"
+            "value": 1
         },
         {
             "name": "LIFTING_TARGET",
-            "value": "0x2"
+            "value": 2
         },
         {
             "name": "GOING_TOWARDS_TARGET_ONLY_HEIGHT",
-            "value": "0x3"
+            "value": 3
         },
         {
             "name": "ROTATING_TARGET",
-            "value": "0x4"
+            "value": 4
         },
         {
             "name": "DROPPING_TARGET",
-            "value": "0x5"
+            "value": 5
         }
     ]
 }

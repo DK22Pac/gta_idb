@@ -1,0 +1,33 @@
+{
+    "name": "ePlaneNodes",
+    "module": "CPlane",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "PLANE_NODE_NONE",
+            "value": 0
+        },
+        {
+            "name": "PLANE_CHASSIS",
+            "value": 1
+        },
+        {
+            "name": "PLANE_WHEEL_FRONT",
+            "value": 2
+        },
+        {
+            "name": "PLANE_WHEEL_REAR",
+            "value": 3
+        },
+        {
+            "name": "PLANE_NUM_NODES",
+            "value": 4
+        }
+    ]
+}

@@ -8,28 +8,31 @@
     "comment": "",
     "members": [
         {
-            "name": "m_nActionType",
+            "name": "m_nAction",
             "type": "int",
             "offset": 0,
-            "size": 4
+            "size": 4,
+            "comment": "eMenuAction"
         },
         {
             "name": "m_aEntryName",
-            "type": "unsigned __int8[8]",
+            "type": "char[8]",
             "offset": 4,
             "size": 8
         },
         {
-            "name": "field_12",
+            "name": "m_nSaveSlot",
             "type": "int",
             "offset": "0xC",
-            "size": 4
+            "size": 4,
+            "comment": "eSaveSlot"
         },
         {
-            "name": "field_16",
+            "name": "m_nTargetMenu",
             "type": "int",
             "offset": "0x10",
-            "size": 4
+            "size": 4,
+            "comment": "eMenuScreen"
         }
     ]
 }

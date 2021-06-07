@@ -1,0 +1,37 @@
+{
+    "name": "eObjectCreatedBy",
+    "module": "CObject",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "OBJECT_NA",
+            "value": 0
+        },
+        {
+            "name": "OBJECT_MAP",
+            "value": 1
+        },
+        {
+            "name": "OBJECT_MISSION",
+            "value": 2
+        },
+        {
+            "name": "OBJECT_TEMPORARY",
+            "value": 3
+        },
+        {
+            "name": "OBJECT_CUTSCENE",
+            "value": 4
+        },
+        {
+            "name": "OBJECT_STINGER",
+            "value": 5
+        }
+    ]
+}

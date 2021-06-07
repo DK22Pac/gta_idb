@@ -1,6 +1,6 @@
 {
     "name": "CCutsceneHead",
-    "module": "",
+    "module": "CCutsceneHead",
     "scope": "",
     "kind": "class",
     "size": "0x19C",
@@ -10,10 +10,11 @@
     "comment": "",
     "members": [
         {
-            "name": "cutsceneObject",
+            "name": "base",
             "type": "CCutsceneObject",
             "offset": 0,
-            "size": "0x198"
+            "size": "0x198",
+            "isBase": true
         },
         {
             "name": "m_pHeadNode",

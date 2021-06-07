@@ -1,21 +1,21 @@
 {
     "name": "ePathType",
-    "module": "",
+    "module": "CPathFind",
     "scope": "",
     "width": 0,
     "isClass": false,
-    "isHexademical": true,
+    "isHexademical": false,
     "isSigned": false,
     "isBitfield": false,
     "comment": "",
     "members": [
         {
-            "name": "PATHTYPE_CAR",
-            "value": "0x0"
+            "name": "PATH_CAR",
+            "value": 0
         },
         {
-            "name": "PATHTYPE_PED",
-            "value": "0x1"
+            "name": "PATH_PED",
+            "value": 1
         }
     ]
 }

@@ -1,0 +1,17 @@
+{
+    "name": "CCamPathSplines",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0xC80",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_aPathData",
+            "type": "float[800]",
+            "offset": 0,
+            "size": "0xC80"
+        }
+    ]
+}

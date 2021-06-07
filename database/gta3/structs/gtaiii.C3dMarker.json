@@ -5,6 +5,7 @@
     "kind": "class",
     "size": "0x78",
     "alignment": 2,
+    "hasVectorDeletingDtor": true,
     "comment": "",
     "members": [
         {

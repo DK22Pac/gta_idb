@@ -1,14 +1,14 @@
 {
     "name": "CPathInfoForObject",
-    "module": "",
+    "module": "CPathFind",
     "scope": "",
-    "kind": "class",
+    "kind": "struct",
     "size": "0x90",
     "alignment": 0,
     "comment": "",
     "members": [
         {
-            "name": "m_sNodes",
+            "name": "m_aNodes",
             "type": "CPathInfoNode[12]",
             "offset": 0,
             "size": "0x90"

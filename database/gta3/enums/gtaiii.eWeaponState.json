@@ -1,0 +1,33 @@
+{
+    "name": "eWeaponState",
+    "module": "CWeapon",
+    "scope": "",
+    "width": 4,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "WEAPONSTATE_READY",
+            "value": 0
+        },
+        {
+            "name": "WEAPONSTATE_FIRING",
+            "value": 1
+        },
+        {
+            "name": "WEAPONSTATE_RELOADING",
+            "value": 2
+        },
+        {
+            "name": "WEAPONSTATE_OUT_OF_AMMO",
+            "value": 3
+        },
+        {
+            "name": "WEAPONSTATE_MELEE_MADECONTACT",
+            "value": 4
+        }
+    ]
+}

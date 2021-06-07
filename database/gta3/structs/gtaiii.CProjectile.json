@@ -1,6 +1,6 @@
 {
     "name": "CProjectile",
-    "module": "",
+    "module": "CProjectile",
     "scope": "",
     "kind": "class",
     "size": "0x198",
@@ -10,10 +10,11 @@
     "comment": "",
     "members": [
         {
-            "name": "object",
+            "name": "base",
             "type": "CObject",
             "offset": 0,
-            "size": "0x198"
+            "size": "0x198",
+            "isBase": true
         }
     ]
 }

@@ -4,17 +4,17 @@
     "scope": "",
     "kind": "class",
     "size": "0xA30",
-    "alignment": 0,
+    "alignment": 2,
     "comment": "",
     "members": [
         {
-            "name": "m_nTotalPhones",
+            "name": "m_nMax",
             "type": "int",
             "offset": 0,
             "size": 4
         },
         {
-            "name": "m_nFirstFreeIndex",
+            "name": "m_nScriptPhonesMax",
             "type": "int",
             "offset": 4,
             "size": 4

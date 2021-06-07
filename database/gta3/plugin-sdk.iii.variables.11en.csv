@@ -1,5 +1,5 @@
 10en,11en,NameComment
-0x5E5320,0x5E5320,CalculateIndexCharacter
+0x5E5320,0,CalculateIndexCharacter
 0x5E53E9,0x5E53E9,_nullString
 0x5E56E0,0x5E56E0,IdentityMatrix
 0x5E5720,0x5E5720,clearFlagsConvTable
@@ -29,6 +29,7 @@
 0x5EC8B8,0x5EC8B8,CCarCtrl::MaxNumberOfCarsInUse
 0x5ECDD4,0x5ECDD4,gaCarsToCollectInCraigsGarages
 0x5ECEA8,0x5ECEA8,hGarages
+0x5ECEAC,0x5ECEAC,margin
 0x5ED8D4,0x5ED8D4,AmmoForWeapon
 0x5ED8FC,0x5ED8FC,AmmoForWeapon_OnStreet
 0x5ED924,0x5ED924,CostOfWeapon
@@ -38,6 +39,8 @@
 0x5EDEDC,0x5EDEDC,aWeaponBlues
 0x5EDEEC,0x5EDEEC,aWeaponScale
 0x5EE520,0x5EE520,RemoveUnusedCollision(void)::dontDeleteArray
+0x5EF210,0x60263C,strength
+0x5EF6AC,0x5EF1D0,range
 0x5EFBF0,0x5EFBF0,DbgLineColour
 0x5F03D8,0x5F03D8,CCamera::m_bUseMouse3rdPerson
 0x5F03DC,0x5F03DC,PrintDebugCode
@@ -233,8 +236,8 @@
 0x5F6CA4,0x5F6A8C,pRadarSprites
 0x5F6EF8,0x5F6CE0,gRadarTexNames
 0x5F7120,0x5F6F08,fPulseFraction
-0x5F7128,0x5F6F10,fSize
 0x5F726C,0x5F7054,CRenderer::ms_lodDistScale
+0x5F7610,0x5F73F8,nCyclesPerMS
 0x5F7614,0x5F73FC,CTimer::m_snTimeInMillisecondsPauseMode
 0x5F76C8,0x5F74B0,CTimeStep::ms_fTimeStep
 0x5F76CC,0x5F74B4,CTimeStep::ms_fFramesPerUpdate
@@ -251,11 +254,15 @@
 0x5F819C,0x5F7F84,`vtable for'CCivilianPed
 0x5F82A4,0x5F808C,`vtable for'CCopPed
 0x5F8374,0x5F815C,`vtable for'CEmergencyPed
+0x5F846C,0x5ED5F8,radius
+0x5F8588,0x5F8268,limitAngle
 0x5F8714,0x5F84FC,mRadioStation
 0x5F8C2C,0x5F8A14,`vtable for'CPed
 0x5F8C94,0x5F8A7C,nEnterCarRangeMultiplier
 0x5F8C98,0x5F8A80,nThreatReactionRangeMultiplier
 0x5F9844,0x5F962C,tFightMoves
+0x5F9A88,0x5FE1E0,size
+0x5F9AF0,0x5F79E0,angle
 0x5F9B08,0x5F98F0,gSfx
 0x5F9F5C,0x5F9D44,CPedIK::ms_headInfo
 0x5F9F74,0x5F9D5C,CPedIK::ms_headRestoreInfo
@@ -314,7 +321,7 @@
 0x5FF0F0,0x5FEED8,SirenLightsSide
 0x5FF108,0x5FEEF0,SirenLightsUp
 0x5FF1DC,0x5FEFC4,FoamColour
-0x5FF2EC,0x5FF0D4,CVehicleModelInfo::ms_compsToUse
+0x5FF2EC,0,CVehicleModelInfo::ms_compsToUse
 0x5FF494,0x5FF27C,carIds
 0x5FF634,0x5FF41C,boatIds
 0x5FF6D8,0x5FF4C0,trainIds
@@ -336,7 +343,8 @@
 0x600128,0x5FFF10,CVisibilityPlugins::ms_framePluginOffset
 0x60012C,0x5FFF14,CVisibilityPlugins::ms_clumpPluginOffset
 0x60020C,0x5FFFF4,FrenchUpperCaseTable
-0x6004F0,0x6002D8,maxViewAngle
+0x6004F8,0x5ECEDC,volume
+0x600638,0x600420,divisor
 0x600758,0x600540,m_ColorParticle
 0x600C1C,0x600A04,`vtable for'CAutomobile
 0x600CC4,0x600AAC,MAX_WAKE_LENGTH
@@ -350,6 +358,19 @@
 0x601370,0x601050,fBoatVolumeDistribution
 0x601394,0x601074,fVolMultiplier
 0x6013E4,0x6010C4,HandlingFilename
+0x60199C,0x60167C,col
+0x6019FC,0x6016DC,CatalinaTargetX
+0x601A18,0x6016F8,CatalinaTargetY
+0x601A34,0x601714,CatalinaTargetZ
+0x601A50,0x601730,DamPathX
+0x601A68,0x601748,DamPathY
+0x601A80,0x601760,DamPathZ
+0x601A98,0x601778,ShortPathX
+0x601AA8,0x601788,ShortPathY
+0x601AB8,0x601798,ShortPathZ
+0x601AC8,0x6017A8,LongPathX
+0x601AE4,0x6017C4,LongPathY
+0x601B00,0x6017E0,LongPathZ
 0x601BC0,0x6018A0,fRotRamp
 0x601EB0,0x601980,`vtable for'CHeli
 0x6021DC,0x601BA4,`vtable for'CPlane
@@ -397,7 +418,16 @@
 0x602964,0,pfnWaterLevelInit
 0x602CDC,0x6025A4,AudioHandle
 0x603030,0x6028F8,CWeaponInfo::ms_aReloadSampleTime
+0x603060,0x5F19B0,blue
+0x603074,0x6002DC,red
+0x6030A0,0x602624,green
+0x6030B4,0x5F7784,jz
+0x6030F0,0x5F837C,sphereRadius
 0x603334,0x602BFC,CWeaponInfo::ms_aWeaponNames
+0x604800,0x6040C8,curprovider
+0x604804,0,index
+0x60482C,0x6040F4,FinishEAX3
+0x60489C,0x604164,StartEAX3
 0x604EBC,0x604784,gHeliSfxRanges
 0x606204,0x605ACC,aVehicleSettings
 0x607094,0x60695C,MissionAudioNameSfxAssoc
@@ -632,6 +662,7 @@
 0x62353C,0x62353C,CTempColModels::ms_colModelBodyPart2Spheres
 0x623570,0x623570,CGarages::Update(void)::GarageToBeTidied
 0x623580,0x623580,TempListLength
+0x623584,0x623584,"`guard variable for'CPathFind::PreparePathDataForType(uchar,CTempNode *,CPathInfoForObject *,float,CTempDetachedNode *,int)::CoorsXFormed"
 0x623588,0x623588,"CPathFind::PreparePathDataForType(uchar,CTempNode *,CPathInfoForObject *,float,CTempDetachedNode *,int)::CoorsXFormed"
 0x623594,0x623594,apNodesToBeCleared
 0x6283A0,0x6283A0,gMaxEntries
@@ -665,6 +696,10 @@
 0x6289C0,0x6289C0,"`guard variable for'CCam::KeepTrackOfTheSpeed(CVector const&,CVector const&,CVector const&,float const&,float const&,float const&)::PreviousAlpha"
 0x6289C4,0x6289C4,"CCam::KeepTrackOfTheSpeed(CVector const&,CVector const&,CVector const&,float const&,float const&,float const&)::PreviousFov"
 0x6289C8,0x6289C8,"`guard variable for'CCam::KeepTrackOfTheSpeed(CVector const&,CVector const&,CVector const&,float const&,float const&,float const&)::PreviousFov"
+0x6289CC,0x6289CC,"CCam::Process_1stPerson(CVector const&,float,float,float)::DontLookThroughWorldFixer"
+0x6289D1,0x6289D1,"CCam::Process_1stPerson(CVector const&,float,float,float)::FailedTestTwelveFramesAgo"
+0x6289D4,0x6289D4,"CCam::Process_1stPerson(CVector const&,float,float,float)::DPadHorizontal"
+0x6289D8,0x6289D8,"CCam::Process_1stPerson(CVector const&,float,float,float)::DPadVertical"
 0x6289DC,0x6289DC,vecHeadCamOffset
 0x6289E8,0x6289E8,"CCam::Process_1rstPersonPedOnPC(CVector const&,float,float,float)::DontLookThroughWorldFixer"
 0x6289ED,0x6289ED,"`guard variable for'CCam::Process_1rstPersonPedOnPC(CVector const&,float,float,float)::InitialHeadPos"
@@ -673,8 +708,13 @@
 0x628A00,0x628A00,"CCam::Process_1rstPersonPedOnPC(CVector const&,float,float,float)::DPadHorizontal"
 0x628A04,0x628A04,"CCam::Process_1rstPersonPedOnPC(CVector const&,float,float,float)::DPadVertical"
 0x628A0C,0x628A0C,"CCam::Process_BehindBoat(CVector const&,float,float,float)::colPoint"
+0x628A34,0x628A34,"CCam::Process_BehindBoat(CVector const&,float,float,float)::TargetWhenChecksWereOn"
+0x628A3C,0x628A3C,"CCam::Process_BehindBoat(CVector const&,float,float,float)::CenterObscuredWhenChecksWereOn"
+0x628A5C,0x628A5C,"CCam::Process_Cam_On_A_String(CVector const&,float,float,float)::DeltaSpeed"
+0x628A6C,0x628A6C,"CCam::Process_Cam_On_A_String(CVector const&,float,float,float)::DistanceSpeed"
 0x628A71,0x628A71,"CCam::Process_Cam_On_A_String(CVector const&,float,float,float)::DistWasSmallCauseOfCar"
-0x628A74,0x628A74,CCam::FixIfBelowGround(CVector *)::LastGoodCamAboveGroundHeight
+0x628A74,0x628A74,"CCam::Process_Editor(CVector const&,float,float,float)::Speed"
+0x628A7C,0x628A7C,"CCam::Process_Debug(CVector const&,float,float,float)::Speed"
 0x628A81,0x628A81,"CCam::Process_Fight_Cam(CVector const&,float,float,float)::PreviouslyFailedBuildingChecks"
 0x628A84,0x628A84,"CCam::Process_FlyBy(CVector const&,float,float,float)::ArrayMarkerSource"
 0x628A88,0x628A88,"CCam::Process_FlyBy(CVector const&,float,float,float)::ArrayMarkerFront"
@@ -682,8 +722,11 @@
 0x628A90,0x628A90,"CCam::Process_FlyBy(CVector const&,float,float,float)::ArrayMarkerFOV"
 0x628A94,0x628A94,"CCam::Process_FlyBy(CVector const&,float,float,float)::FirstFOVValue"
 0x628A98,0x628A98,"CCam::Process_FlyBy(CVector const&,float,float,float)::PsuedoFOV"
-0x628A9D,0x628A9D,"CCam::Process_FollowPed(CVector const&,float,float,float)::PickedASide"
-0x628A9E,0x628A9E,"CCam::Process_FollowPed(CVector const&,float,float,float)::PreviouslyObscured"
+0x628A9D,0x628A9E,"CCam::Process_FollowPed(CVector const&,float,float,float)::PreviouslyObscured"
+0x628A9E,0x628A9D,"CCam::Process_FollowPed(CVector const&,float,float,float)::PickedASide"
+0x628AA0,0x628AA0,"CCam::Process_FollowPed(CVector const&,float,float,float)::LastAngleWithNoPickedASide"
+0x628AA8,0x628AA8,"CCam::Process_FollowPed(CVector const&,float,float,float)::FixedTargetOrientation"
+0x628AB0,0x628AB0,"CCam::Process_FollowPed(CVector const&,float,float,float)::TimeIndicatedWantedToGoDown"
 0x628AB5,0x628AB5,"CCam::Process_FollowPed(CVector const&,float,float,float)::StartedCountingForGoDown"
 0x628AE5,0x628AE5,"CCam::Process_M16_1stPerson(CVector const&,float,float,float)::FailedTestTwelveFramesAgo"
 0x628AE8,0x628AE8,"CCam::Process_M16_1stPerson(CVector const&,float,float,float)::DPadHorizontal"
@@ -697,12 +740,19 @@
 0x628B08,0x628B08,"CCam::Process_Sniper(CVector const&,float,float,float)::TargetFOV"
 0x628B0D,0x628B0D,"CCam::Process_Syphon(CVector const&,float,float,float)::CameraObscured"
 0x628B0F,0x628B0F,"CCam::Process_Syphon(CVector const&,float,float,float)::FailedClippingTestPrevously"
+0x628B14,0x628B14,"CCam::Process_Syphon(CVector const&,float,float,float)::PreviousDistForInter"
 0x628B18,0x628B18,"CCam::Process_Syphon(CVector const&,float,float,float)::BetaOffset"
+0x628B20,0x628B20,"CCam::Process_Syphon(CVector const&,float,float,float)::AngleToGoTo"
+0x628B28,0x628B28,"CCam::Process_Syphon(CVector const&,float,float,float)::AngleToGoToSpeed"
 0x628B2D,0x628B2D,"CCam::Process_Syphon(CVector const&,float,float,float)::DistBetweenPedAndPlayerPreviouslyOn"
+0x628B38,0x628B38,"CCam::Process_TopDown(CVector const&,float,float,float)::AdjustHeightTargetMoveBuffer"
 0x628B3C,0x628B3C,"`guard variable for'CCam::Process_TopDownPed(CVector const&,float,float,float)::PreviousPlayerMoveSpeedVec"
+0x628B40,0x628B40,"CCam::Process_TopDown(CVector const&,float,float,float)::AdjustHeightTargetMoveSpeed"
 0x628B50,0x628B50,"CCam::Process_TopDownPed(CVector const&,float,float,float)::NumPedPosCountsSoFar"
+0x628B58,0x628B58,"CCam::Process_TopDownPed(CVector const&,float,float,float)::PedAverageSpeed"
 0x628B60,0x628B60,"CCam::Process_TopDownPed(CVector const&,float,float,float)::AdjustHeightTargetMoveBuffer"
 0x628B68,0x628B68,"CCam::Process_TopDownPed(CVector const&,float,float,float)::AdjustHeightTargetMoveSpeed"
+0x628B70,0x628B70,"CCam::Process_TopDownPed(CVector const&,float,float,float)::PedSpeedSoFar"
 0x628B78,0x628B78,"CCam::Process_TopDownPed(CVector const&,float,float,float)::PreviousPlayerMoveSpeedVec"
 0x628B94,0x628B94,"CCam::Process_TopDownPed(CVector const&,float,float,float)::TargetAdjusterForSouth"
 0x628B9C,0x628B9C,"CCam::Process_TopDownPed(CVector const&,float,float,float)::TargetAdjusterSpeedForSouth"
@@ -713,10 +763,20 @@
 0x628BC4,0x628BC4,"CCam::Process_TopDownPed(CVector const&,float,float,float)::TargetAdjusterForWest"
 0x628BCC,0x628BCC,"CCam::Process_TopDownPed(CVector const&,float,float,float)::TargetAdjusterSpeedForWest"
 0x628BD1,0x628BD1,CCam::ProcessPedsDeadBaby(void)::SafeToRotate
+0x628BD3,0x628BD3,"CCam::WorkOutCamHeightWeeCar(CVector const&,float)::PreviouslyFailedRoadHeightCheck"
+0x628BD8,0x628BD8,"CCam::WorkOutCamHeightWeeCar(CVector const&,float)::RoadHeightFix"
+0x628BE0,0x628BE0,"CCam::WorkOutCamHeightWeeCar(CVector const&,float)::RoadHeightFixSpeed"
+0x628BE8,0x628BE8,"CCam::WorkOutCamHeight(CVector const&,float,float)::LastTargetAlphaWithCollisionOn"
+0x628BF0,0x628BF0,"CCam::WorkOutCamHeight(CVector const&,float,float)::LastTopAlphaSpeed"
+0x628BF8,0x628BF8,"CCam::WorkOutCamHeight(CVector const&,float,float)::LastAlphaSpeedStep"
+0x628BFD,0x628BFD,"CCam::WorkOutCamHeight(CVector const&,float,float)::PreviousNearCheckNearClipSmall"
+0x628C25,0x628C25,CCam::ProcessSpecialHeightRoutines(void)::PreviouslyFailedRoadHeightCheck
 0x628C30,0x628C30,CCamera::CamControl(void)::ReqMode
 0x628C38,0x628C38,CCamera::CamControl(void)::LastPedState
 0x628C3C,0x628C3C,CCamera::CamControl(void)::ThePickedArrestMode
 0x628C40,0x628C40,CCamera::CamControl(void)::PlaceForFixedWhenSniperFound
+0x628C44,0x628C44,PedZoomedInVal
+0x628C88,0x628C88,PlayerMinDist
 0x628C8D,0x628C8D,CCamera::Process(void)::WasPreviouslyInterSyhonFollowPed
 0x628C90,0x628C90,CCamera::ProcessObbeCinemaCameraCar(void)::OldMode
 0x628C98,0x628C98,CCamera::ProcessObbeCinemaCameraCar(void)::TimeForNext
@@ -737,8 +797,11 @@
 0x628D30,0x628D30,TEXT_COLOR
 0x628D34,0x628D34,CMenuManager::DrawFrontEndNormal(void)::LastFade
 0x628D5C,0x628D5C,CMenuManager::ProcessButtonPresses(void)::LastKeyPress
+0x628D64,0x628D64,CMenuManager::ProcessButtonPresses(void)::LastKeyPress
 0x628D69,0x628D69,"CMenuManager::DrawContollerScreenExtraText(int,int,int)::ColourSwitch"
 0x628D6C,0x628D6C,"CMenuManager::DrawContollerScreenExtraText(int,int,int)::LastFlash"
+0x628D71,0x628D71,"CMenuManager::DrawControllerBound(int,int,int,signed char)::ColourSwitch"
+0x628D74,0x628D74,"CMenuManager::DrawControllerBound(int,int,int,signed char)::LastFlash"
 0x628D7C,0x628D7C,CMenuManager::DisplayHelperText(void)::LastFlash
 0x628D88,0x628D88,gameTxdSlot
 0x628DB8,0x628DB8,CSprite2d::DSOHandle
@@ -793,6 +856,7 @@
 0x62F6B0,0x62F6B0,aDigitalClocks
 0x62F738,0x62F738,CFontDetails::DSOHandle
 0x62F750,0x62F750,CGlass::DSOHandle
+0x62F75C,0x62F75C,CFallingGlassPane::Update(void)::nFrameGen
 0x62F760,0x62F760,CHud::DSOHandle
 0x62F780,0x62F780,Vertex
 0x62F88C,0x62F88C,gParticleArray
@@ -860,7 +924,7 @@
 0x649A6C,0x649A6C,CSpecialParticleStuff::UpdateBoatFoamAnimation(CMatrix *)::Y
 0x649A70,0x649A70,CSpecialParticleStuff::UpdateBoatFoamAnimation(CMatrix *)::Z
 0x649A74,0x649A74,CSpecialParticleStuff::UpdateBoatFoamAnimation(CMatrix *)::FrameInAnimation
-0x649A78,0x649A78,CSpecialParticleStuff::UpdateBoatFoamAnimation(CMatrix *)::EnableAnimation
+0x649A78,0x649A78,CSpecialParticleStuff::EnableAnimation
 0x649A80,0x649A80,nSpriteBufferIndex
 0x649A84,0x649A84,SpriteBufferVerts
 0x64C484,0x64C484,verts
@@ -887,9 +951,11 @@
 0x64C8E0,0x64C8E0,aTempPedColPts
 0x64CDEC,0x64CDEC,CAutomobile::ProcessBuoyancy(void)::nGenerateRaindrops
 0x64CDF4,0x64CDF4,CAutomobile::ProcessBuoyancy(void)::nGenerateWaterCircles
-0x64CE10,0x64CE10,wheelState
-0x64CE2C,0x64CE2C,m_fWheelSuspDist
-0x64CE3C,0x64CE3C,CVehicle::m_nLastControlInput
+0x64CE0C,0x64CE0C,CAutomobile::ProcessControl(void)::fThrust
+0x64CE10,0x64CE10,CAutomobile::ProcessControl(void)::WheelState
+0x64CE2C,0x64CE2C,m_afSuspensionSpringRatio
+0x64CE3C,0x64CE3C,nLastControlInput
+0x64CE40,0x64CE40,CAutomobile::ProcessControlInputs(uchar)::fValue
 0x64CE44,0x64CE44,matW2B
 0x64CE50,0x64CE50,`guard variable for'CAutomobile::RcbanditCheck1CarWheels(CPtrList &)::matW2B
 0x64CE54,0x64CE54,CAutomobile::RcbanditCheck1CarWheels(CPtrList &)::matW2B
@@ -935,6 +1001,7 @@
 0x64D060,0x64D060,"CVehicle::ProcessWheel(CVector &,CVector &,CVector &,CVector &,int,float,float,float,char,float *,tWheelState *,ushort)::bBraking"
 0x64D061,0x64D061,"CVehicle::ProcessWheel(CVector &,CVector &,CVector &,CVector &,int,float,float,float,char,float *,tWheelState *,ushort)::bDriving"
 0x64D062,0x64D062,"CVehicle::ProcessWheel(CVector &,CVector &,CVector &,CVector &,int,float,float,float,char,float *,tWheelState *,ushort)::bAlreadySkidding"
+0x64D063,0x64D063,bDriving
 0x64D070,0x64D070,gpWaterTex
 0x64D0AC,0x64D0AC,"CWaterLevel::RenderOneWavySector(float,float,float,RwRGBA const&,bool)::apBoatList"
 0x64D0D8,0x64D0D8,CBulletInfo::aBulletInfos
@@ -1131,7 +1198,7 @@
 0x662EA0,0x662EA0,_RwD3D8CurrentModeIndex
 0x662EA8,0x662EA8,LastMaterial
 0x662EEC,0x662EEC,hWnd
-0x662EF0,0x662EF0,_RwD3DDevice
+0x662EF0,0x662EF0,RwD3DDevice
 0x662EF4,0x662EF4,_RwD3D8DepthStencilSurface
 0x662EF8,0x662EF8,_RwD3D8RenderSurface
 0x662EFC,0x662EFC,_RwDirect3DObject
@@ -1377,12 +1444,11 @@
 0x72D408,0x72D408,C3dMarkers::m_aMarkerArray
 0x72E308,0x72E308,DirectionalLightColour
 0x72E318,0x72E318,CHud::m_Message
-0x72E518,0x72E518,Coronas::aCoronas
+0x72E518,0x72E518,CCoronas::aCoronas
+0x730118,0x730118,aProviders
 0x731618,0x731618,CPacManPickups::aPickUps
 0x732A18,0x732A18,resourcesModule
 0x732A20,0x732A20,gPhoneInfo
-0x733450,0x733450,CTimeCycle::m_nTreeShadowStrength
-0x733510,0x733510,CTimeCycle::m_fSunSize
 0x733690,0x733690,CTimeCycle::m_fBlurAlpha
 0x733810,0x733810,CRoadBlocks::InOrOut
 0x733A68,0x733A68,CBrightLights::aBrightLights
@@ -1408,7 +1474,6 @@
 0x779958,0x779958,CReplay::Buffers
 0x83CE58,0x83CE58,CTimeCycle::m_nDirectionalBlue
 0x83CFD8,0x83CFD8,CTimeCycle::m_nShadowStrength
-0x83D108,0x83D108,CTimeCycle::m_fLightsOnGroundBrightness
 0x83D288,0x83D288,CTimeCycle::m_nSkyBottomBlue
 0x83D408,0x83D408,CModelInfo::ms_modelInfoPtrs
 0x8429F8,0x8429F8,CSprite2d::maBankVertices
@@ -1427,7 +1492,7 @@
 0x8622B0,0x862260,CStats::HighestScores
 0x8622F0,0x8622A0,CTheScripts::OnAMissionForContactFlag
 0x862330,0x8622E0,TempBufferRenderVertices
-0x864750,0x864700,CCullZones::aZones
+0x864750,0,CCullZones::aZones
 0x86AF50,0x86AF00,CentersWithTriangle
 0x86AF78,0x86AF28,CTimeCycle::m_nAmbientRed
 0x86B0F8,0x86B0A8,AmbientLightColour
@@ -1525,7 +1590,7 @@
 0x885AD4,0x885A84,pMediaEvent
 0x885AD8,0x885A88,pPath4Nodes
 0x885AE0,0x885A90,pVideoWindow
-0x885AE4,0x885A94,vecRCHeliMoveRes
+0x885AE4,0x885A94,vecHeliMoveRes
 0x885AF0,0x885AA0,CPopulation::ms_nTotalGangPeds
 0x885AF4,0x885AA4,CWeather::Foggyness
 0x885AF8,0x885AA8,CAnimManager::ms_numAnimBlocks
@@ -1594,6 +1659,7 @@
 0x8E2A64,0x8E2A14,CStats::HelisDestroyed
 0x8E2A68,0x8E2A18,CStats::IndustrialPassed
 0x8E2A6C,0x8E2B20,CStats::ElBurroTime
+0x8E2A70,0x8E2B24,vecRCHeliMoveRes
 0x8E2A7C,0x8E2B30,CRadar::RaySprite
 0x8E2A84,0x8E2B38,CVisibilityPlugins::ms_bigVehicleLod0Dist
 0x8E2A88,0x8E2B3C,speakerType
@@ -1638,6 +1704,7 @@
 0x8E2C70,0x8E2D24,CReplay::pBuf3
 0x8E2C74,0x8E2D28,CReplay::pBuf4
 0x8E2C78,0x8E2D2C,CReplay::pBuf5
+0x8E2C7C,0x8E2D30,pMP3List
 0x8E2C80,0x8E2D34,CReplay::pBuf6
 0x8E2C84,0x8E2D38,CReplay::pBuf7
 0x8E2C8C,0x8E2D40,CBridge::pLiftRoad
@@ -1652,6 +1719,7 @@
 0x8E2DD4,0x8E2E88,CAnimManager::ms_numAnimations
 0x8E2DD8,0x8E2E8C,CHud::m_pLastVehicleName
 0x8E2DE0,0x8E2E94,CModelInfo::ms_vehicleModelStore
+0x8F1A24,0x8F1AD8,DIG
 0x8F1A28,0x8F1ADC,CReplay::InterpolationValue
 0x8F1A2C,0x8F1AE0,CRadar::CopcarSprite
 0x8F1A30,0x8F1AE4,CVehicleModelInfo::ms_pEnvironmentMaps
@@ -1717,7 +1785,7 @@
 0x8F1B80,0x8F1C34,CRadar::ElSprite
 0x8F1B84,0x8F1C38,ClumpOffset
 0x8F1B8C,0x8F1C40,CCullZones::aPointersToBigBuildingsForTreadables
-0x8F2508,0x8F25BC,EntityIndicesUsed
+0x8F2508,0x8F25BC,CCullZones::EntityIndicesUsed
 0x8F250C,0x8F25C0,CTimeCycle::m_fCurrentBlurBlue
 0x8F2510,0x8F25C4,CStats::KgsOfExplosivesUsed
 0x8F2514,0x8F25C8,CVisibilityPlugins::ms_pCamera
@@ -1760,6 +1828,7 @@
 0x8F29F0,0x8F2AA4,CCarCtrl::NumPermanentVehicles
 0x8F29F4,0x8F2AA8,CGarages::NumGarages
 0x8F29F8,0x8F2AAC,CReplay::pRadarBlips
+0x8F29FC,0x8F2AB0,CurMP3Pos
 0x8F2A00,0x8F2AB4,gpShadowExplosionTex
 0x8F2A04,0x8F2AB8,CStats::HighestLevelAmbulanceMission
 0x8F2A08,0x8F2ABC,C3dMarkers::NumActiveMarkers
@@ -1797,6 +1866,7 @@
 0x8F2C34,0x8F2CE8,CReplay::pStoredCam
 0x8F2C38,0x8F2CEC,CClouds::ms_colourBottom
 0x8F2C3C,0x8F2CF0,CPopulation::ms_nTotalCivPeds
+0x8F2C54,0x8F2D08,fEffectsLevel
 0x8F2C5C,0x8F2D10,CTheCarGenerators::CurrentActiveCount
 0x8F2C60,0x8F2D14,CPools::ms_pPedPool
 0x8F2C64,0x8F2D18,CClock::ms_nMillisecondsPerGameMinute
@@ -1813,7 +1883,7 @@
 0x8F2C90,0x8F2D44,gpShadowCarTex
 0x8F2C94,0x8F2D48,CSprite::m_f2DFarScreenZ
 0x8F2C98,0x8F2D4C,CStats::mmRain
-0x8F2C9C,0x8F2D50,vecRCHeliResistance
+0x8F2C9C,0x8F2D50,vecHeliResistance
 0x8F2CA8,0x8F2D5C,CWaterCannons::aCannons
 0x8F317C,0x8F3230,CFont::Details
 0x8F31C0,0x8F3274,CClouds::ms_horizonZ
@@ -1821,6 +1891,7 @@
 0x8F31CC,0x8F3280,CEventList::ms_nFirstFreeSlotIndex
 0x8F31D0,0x8F3284,gFireManager
 0x8F3958,0x8F3A0C,CParticle::m_pUnusedListHead
+0x8F395C,0x8F3A10,maxSamples
 0x8F3960,0x8F3A14,CTimeCycle::m_nCurrentFluffyCloudsBottomBlue
 0x8F3964,0x8F3A18,gMusicManager
 0x8F42C0,0x8F4374,gColourBottom
@@ -1833,6 +1904,10 @@
 0x8F4338,0x8F43EC,pTrackNodes
 0x8F433C,0x8F43F0,CWorld::ms_listMovingEntityPtrs
 0x8F4340,0x8F43F4,CParticleObject::pCloseListHead
+0x8F4344,0x8F43F8,vecRCHeliResistance
+0x8F4350,0x8F4404,opened_2dsamples
+0x8F4354,0x8F4408,CCoronas::SunScreenY
+0x8F4358,0x8F440C,CCoronas::SunScreenX
 0x8F435C,0x8F4410,CShadows::pEmptyBunchList
 0x8F4360,0x8F4414,RsGlobal
 0x8F43A4,0x8F4458,ControlsManager
@@ -1930,7 +2005,7 @@
 0x9405B0,0x940768,RtAnimAnimationFreeList
 0x9405BC,0x940774,CTxdStore::ms_pStoredTxd
 0x9405C0,0x940778,vecSeaAeroResistance
-0x9405CC,0x940784,str1
+0x9405CC,0x940784,mp3DirectoryPath
 0x9406D0,0x940888,CRubbish::StartMoversList
 0x940714,0x9408CC,CTimeCycle::m_nCurrentFogColourRed
 0x940718,0x9408D0,CCullZones::CurrentFlags_Camera
@@ -2009,6 +2084,7 @@
 0x942FAC,0x943164,CTimeCycle::m_fCurrentDirectionalBlue
 0x942FB0,0x943168,CStreaming::ms_streamingBufferSize
 0x942FB4,0x94316C,CHud::m_pVehicleName
+0x942FB8,0x943170,opened_provider
 0x942FBC,0x943174,_rxPipelineGlobalsOffset
 0x942FC0,0x943178,CTimeCycle::m_fCurrentAmbientBlue
 0x942FC4,0x94317C,CRubbish::StartStaticsList
@@ -2016,6 +2092,7 @@
 0x94300C,0x9431C4,_RwD3D8ZBufferDepth
 0x943010,0x9431C8,Present
 0x943044,0x9431FC,CPools::ms_pPtrNodePool
+0x94304C,0x943204,usingEAX3
 0x943050,0x943208,CStats::CarsCrushed
 0x943054,0x94320C,CReplay::CameraFixed
 0x943060,0x943218,CGarages::CrushedCarId
@@ -2040,7 +2117,9 @@
 0x9434F0,0x9436A8,CDraw::ms_fFarClipZ
 0x9434F4,0x9436AC,oldPcTimer
 0x9434F8,0x9436B0,CModelInfo::ms_2dEffectStore
+0x95CB3C,0x95CCF4,usingEAX
 0x95CB40,0x95CCF8,CCutsceneMgr::ms_cutsceneLoadStatus
+0x95CB44,0x95CCFC,fPrevEaxRatioDestination
 0x95CB48,0x95CD00,CTimeCycle::m_nCurrentLowCloudsGreen
 0x95CB4C,0x95CD04,gpWalkDontTex
 0x95CB50,0x95CD08,CPopulation::ms_nTotalPeds
@@ -2146,25 +2225,27 @@
 0x95CD1E,0x95CED6,CGame::germanGame
 0x95CD1F,0x95CED7,CSceneEdit::m_bRecording
 0x95CD21,0x95CED9,CAutomobile::m_sAllTaxiLights
+0x95CD22,0x95CEDA,bSampmanInitialised
 0x95CD23,0x95CEDB,CMenuManager::m_PrefsUseWideScreen
 0x95CD24,0x95CEDC,nChannelVolume
 0x95CD41,0x95CEF9,CTheScripts::FailCurrentMission
-0x95CD42,0x95CEFA,gbShowCollisionPolys
+0x95CD42,0x95CEFA,gbShowCarRoadGroups
 0x95CD43,0x95CEFB,CHeli::ScriptHeliOn
 0x95CD44,0x95CEFC,CPed::bNastyLimbsCheat
 0x95CD46,0x95CEFE,bDidWeProcessAnyCinemaCam
 0x95CD47,0x95CEFF,CStreaming::ms_hasLoadedLODs
 0x95CD48,0x95CF00,CPad::m_bMapPadOneToPadTwo
-0x95CD4A,0x95CF02,bCullZonesDisabled
+0x95CD49,0x95CF01,CCoronas::bSmallMoon
+0x95CD4A,0x95CF02,CCullZones::bCullZonesDisabled
 0x95CD4B,0x95CF03,bAllCarCheat
 0x95CD4C,0x95CF04,CRestart::OverrideHospitalLevel
 0x95CD4D,0x95CF05,gSpecialSuspectLastSeenReport
-0x95CD4E,0x95CF06,gbBigWhiteDebugLightSwitchedOn
+0x95CD4E,0x95CF25,gbBigWhiteDebugLightSwitchedOn
 0x95CD4F,0x95CF07,CPopulation::m_CountDownToPedsAtStart
 0x95CD50,0x95CF08,CRestart::OverridePoliceStationLevel
 0x95CD51,0x95CF09,CTheScripts::CountdownToMakePlayerUnsafe
 0x95CD52,0x95CF0A,CPad::bDisplayNoControllerMessage
-0x95CD53,0x95CF0B,CDraw::FadeBlue
+0x95CD53,0x95CF29,CDraw::FadeBlue
 0x95CD54,0x95CF0C,CWorld::bSecondShift
 0x95CD55,0x95CF0D,CTheScripts::bUsingAMultiScriptFile
 0x95CD56,0x95CF0E,CHeli::CatalinaHasBeenShutDown
@@ -2188,11 +2269,12 @@
 0x95CD68,0x95CF20,CDraw::FadeValue
 0x95CD69,0x95CF21,CRestart::bFadeInAfterNextArrest
 0x95CD6A,0x95CF22,CMenuManager::m_bShutDownFrontEndRequested
+0x95CD6B,0x95CF23,usingMilesFast2D
 0x95CD6C,0x95CF24,CWorld::bForceProcessControl
 0x95CD6E,0x95CF26,CStreaming::ms_disableStreaming
 0x95CD6F,0x95CF27,CPacManPickups::bPMActive
 0x95CD70,0x95CF28,CPickups::bPickUpcamActivated
-0x95CD71,0x95CF29,CDraw::FadeGreen
+0x95CD71,0x95CF48,CDraw::FadeGreen
 0x95CD72,0x95CF2A,CSceneEdit::m_bActor2Selected
 0x95CD73,0x95CF2B,CCoronas::SunBlockedByClouds
 0x95CD74,0x95CF2C,CCutsceneMgr::ms_useLodMultiplier
@@ -2218,11 +2300,13 @@
 0x95CD8A,0x95CF42,CCarCtrl::bCarsGeneratedAroundCamera
 0x95CD8B,0x95CF43,CWorld::bProcessCutsceneOnly
 0x95CD8C,0x95CF44,CWorld::bDoingCarCollisions
+0x95CD8D,0x95CF45,CMenuManager::m_DisplayControllerOnFoot
 0x95CD8E,0x95CF46,g_bMissionAudioLoadFailed
 0x95CD8F,0x95CF47,CWorld::bIncludeDeadPeds
-0x95CD90,0x95CF48,CDraw::FadeRed
+0x95CD90,0x95CF0B,CDraw::FadeRed
 0x95CD92,0x95CF4A,CMenuManager::m_PrefsUseVibration
 0x95CD93,0x95CF4B,gbModelViewer
+0x95CD94,0x95CF4C,bIsMp3Active
 0x95CD95,0x95CF4E,CCutsceneMgr::ms_loaded
 0x95CD96,0x95CF4F,nCurrentPedSlot
 0x95CD97,0x95CF50,CRubbish::bRubbishInvisible
@@ -2244,7 +2328,7 @@
 0x95CDAA,0x95CF63,CWorld::bIncludeCarTyres
 0x95CDAB,0x95CF64,CMBlur::ms_bJustInitialised
 0x95CDAC,0x95CF65,CWeather::LightningBurst
-0x95CDAD,0x5FDB84,CMBlur::BlurOn
+0x95CDAD,0,CMBlur::BlurOn
 0x95CDAF,0x95CF67,CTheCarGenerators::ProcessCounter
 0x95CDB0,0x95CF68,CStreaming::ms_bLoadingBigModel
 0x95CDB1,0x95CF69,CTimer::m_CodePause
@@ -2253,6 +2337,7 @@
 0x95CDB4,0x95CF6C,JustLoadedDontFadeInYet
 0x95CDB6,0x95CF6E,CDarkel::bStandardSoundAndMessages
 0x95CDB8,0x95CF70,CPad::bObsoleteControllerMessage
+0x95CDB9,0x95CF71,gbShowPedRoadGroups
 0x95CDBB,0x95CF73,gbFastTime
 0x95CDBC,0x95CF74,CTheScripts::StoreVehicleWasRandom
 0x95CDBE,0x95CF76,DMAudio

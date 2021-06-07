@@ -1,0 +1,33 @@
+{
+    "name": "eStoredCarFlags",
+    "module": "CStoredCar",
+    "scope": "",
+    "width": 4,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "CarBulletProof",
+            "value": 0
+        },
+        {
+            "name": "CarFireProof",
+            "value": 1
+        },
+        {
+            "name": "CarExplosionProof",
+            "value": 2
+        },
+        {
+            "name": "CarCollisionProof",
+            "value": 3
+        },
+        {
+            "name": "CarMeleeProof",
+            "value": 4
+        }
+    ]
+}

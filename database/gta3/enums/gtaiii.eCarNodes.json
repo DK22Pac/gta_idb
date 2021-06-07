@@ -1,6 +1,6 @@
 {
     "name": "eCarNodes",
-    "module": "",
+    "module": "CAutomobile",
     "scope": "",
     "width": 0,
     "isClass": false,

@@ -2,7 +2,7 @@
     "name": "ePedState",
     "module": "ePedState",
     "scope": "",
-    "width": 0,
+    "width": 4,
     "isClass": false,
     "isHexademical": false,
     "isSigned": false,

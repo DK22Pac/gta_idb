@@ -1,0 +1,322 @@
+{
+    "name": "ePedFlags",
+    "module": "CPed",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "bIsStanding",
+            "value": 0
+        },
+        {
+            "name": "bWasStanding",
+            "value": 1
+        },
+        {
+            "name": "bIsAttacking",
+            "value": 2,
+            "comment": "doesn't reset after fist fight"
+        },
+        {
+            "name": "bIsPointingGunAt",
+            "value": 3
+        },
+        {
+            "name": "bIsLooking",
+            "value": 4
+        },
+        {
+            "name": "bKeepTryingToLook",
+            "value": 5,
+            "comment": "if we can't look somewhere due to unreachable angles"
+        },
+        {
+            "name": "bIsRestoringLook",
+            "value": 6
+        },
+        {
+            "name": "bIsAimingGun",
+            "value": 7
+        },
+        {
+            "name": "bIsRestoringGun",
+            "value": 8
+        },
+        {
+            "name": "bCanPointGunAtTarget",
+            "value": 9
+        },
+        {
+            "name": "bIsTalking",
+            "value": 10
+        },
+        {
+            "name": "bIsInTheAir",
+            "value": 11
+        },
+        {
+            "name": "bIsLanding",
+            "value": 12
+        },
+        {
+            "name": "bIsRunning",
+            "value": 13,
+            "comment": "on some conditions"
+        },
+        {
+            "name": "bHitSomethingLastFrame",
+            "value": 14
+        },
+        {
+            "name": "bVehEnterDoorIsBlocked",
+            "value": 15,
+            "comment": "because someone else enters/exits from there"
+        },
+        {
+            "name": "bCanPedEnterSeekedCar",
+            "value": 16
+        },
+        {
+            "name": "bRespondsToThreats",
+            "value": 17
+        },
+        {
+            "name": "bRenderPedInCar",
+            "value": 18
+        },
+        {
+            "name": "bChangedSeat",
+            "value": 19
+        },
+        {
+            "name": "bUpdateAnimHeading",
+            "value": 20
+        },
+        {
+            "name": "bBodyPartJustCameOff",
+            "value": 21
+        },
+        {
+            "name": "bIsShooting",
+            "value": 22
+        },
+        {
+            "name": "bFindNewNodeAfterStateRestore",
+            "value": 23
+        },
+        {
+            "name": "bHasACamera",
+            "value": 24,
+            "comment": "does ped possess a camera to document accidents involves fire/explosion"
+        },
+        {
+            "name": "bGonnaInvestigateEvent",
+            "value": 25
+        },
+        {
+            "name": "bPedIsBleeding",
+            "value": 26
+        },
+        {
+            "name": "bStopAndShoot",
+            "value": 27,
+            "comment": "ped cannot reach target to attack with fist, need to use gun"
+        },
+        {
+            "name": "bIsPedDieAnimPlaying",
+            "value": 28
+        },
+        {
+            "name": "bUsePedNodeSeek",
+            "value": 29
+        },
+        {
+            "name": "bObjectiveCompleted",
+            "value": 30
+        },
+        {
+            "name": "bScriptObjectiveCompleted",
+            "value": 31
+        },
+        {
+            "name": "bKindaStayInSamePlace",
+            "value": 32
+        },
+        {
+            "name": "bBeingChasedByPolice",
+            "value": 33,
+            "comment": "Unused VC leftover. Should've been set for criminal/gang members"
+        },
+        {
+            "name": "bNotAllowedToDuck",
+            "value": 34
+        },
+        {
+            "name": "bCrouchWhenShooting",
+            "value": 35
+        },
+        {
+            "name": "bIsDucking",
+            "value": 36
+        },
+        {
+            "name": "bGetUpAnimStarted",
+            "value": 37
+        },
+        {
+            "name": "bDoBloodyFootprints",
+            "value": 38
+        },
+        {
+            "name": "bFleeAfterExitingCar",
+            "value": 39
+        },
+        {
+            "name": "bWanderPathAfterExitingCar",
+            "value": 40
+        },
+        {
+            "name": "bIsLeader",
+            "value": 41
+        },
+        {
+            "name": "bDontDragMeOutCar",
+            "value": 42,
+            "comment": "unfinished feature"
+        },
+        {
+            "name": "Ped_flag43",
+            "value": 43
+        },
+        {
+            "name": "bWillBeQuickJacked",
+            "value": 44
+        },
+        {
+            "name": "bCancelEnteringCar",
+            "value": 45,
+            "comment": "after door is opened or couldn't be opened due to it's locked"
+        },
+        {
+            "name": "bObstacleShowedUpDuringKillObjective",
+            "value": 46
+        },
+        {
+            "name": "bDuckAndCover",
+            "value": 47
+        },
+        {
+            "name": "bStillOnValidPoly",
+            "value": 48,
+            "comment": "set if the polygon the ped is on is still valid for collision"
+        },
+        {
+            "name": "bAllowMedicsToReviveMe",
+            "value": 49
+        },
+        {
+            "name": "bResetWalkAnims",
+            "value": 50
+        },
+        {
+            "name": "bStartWanderPathOnFoot",
+            "value": 51,
+            "comment": "exits the car if he's in it, reset after path found"
+        },
+        {
+            "name": "bOnBoat",
+            "value": 52,
+            "comment": "not just driver, may be just standing"
+        },
+        {
+            "name": "bBusJacked",
+            "value": 53
+        },
+        {
+            "name": "bGonnaKillTheCarJacker",
+            "value": 54,
+            "comment": "only set when car is jacked from right door and when arrested by police"
+        },
+        {
+            "name": "bFadeOut",
+            "value": 55
+        },
+        {
+            "name": "bKnockedUpIntoAir",
+            "value": 56,
+            "comment": "has ped been knocked up into the air by a car collision"
+        },
+        {
+            "name": "bHitSteepSlope",
+            "value": 57,
+            "comment": "has ped collided/is standing on a steep slope (surface type)"
+        },
+        {
+            "name": "bCullExtraFarAway",
+            "value": 58,
+            "comment": "special ped only gets culled if it's extra far away (for roadblocks)"
+        },
+        {
+            "name": "bClearObjective",
+            "value": 59
+        },
+        {
+            "name": "bTryingToReachDryLand",
+            "value": 60,
+            "comment": "has ped just exited boat and trying to get to dry land"
+        },
+        {
+            "name": "bCollidedWithMyVehicle",
+            "value": 61
+        },
+        {
+            "name": "bRichFromMugging",
+            "value": 62,
+            "comment": "ped has lots of cash cause they've been mugging people"
+        },
+        {
+            "name": "bChrisCriminal",
+            "value": 63,
+            "comment": "Is a criminal as killed during Chris' police mission (should be counted as such)"
+        },
+        {
+            "name": "bShakeFist",
+            "value": 64,
+            "comment": "test shake hand at look entity"
+        },
+        {
+            "name": "bNoCriticalHits",
+            "value": 65,
+            "comment": "if set, limbs won't came off"
+        },
+        {
+            "name": "bVehExitWillBeInstant",
+            "value": 66
+        },
+        {
+            "name": "bHasAlreadyBeenRecorded",
+            "value": 67
+        },
+        {
+            "name": "bFallenDown",
+            "value": 68
+        },
+        {
+            "name": "bSomeVCflag1",
+            "value": 69
+        },
+        {
+            "name": "bDontAcceptIKLookAts",
+            "value": 70
+        },
+        {
+            "name": "Ped_flag71",
+            "value": 71
+        }
+    ]
+}

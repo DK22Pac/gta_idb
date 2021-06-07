@@ -1,0 +1,24 @@
+{
+    "name": "tCleanupEntity",
+    "module": "CMissionCleanup",
+    "scope": "",
+    "kind": "struct",
+    "size": 8,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_nType",
+            "type": "unsigned __int8",
+            "offset": 0,
+            "size": 1,
+            "comment": "see eCleanupEntityType"
+        },
+        {
+            "name": "m_nEntityIndex",
+            "type": "int",
+            "offset": 4,
+            "size": 4
+        }
+    ]
+}

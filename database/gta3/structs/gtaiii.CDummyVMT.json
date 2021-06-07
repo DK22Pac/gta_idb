@@ -51,7 +51,7 @@
         },
         {
             "name": "GetBoundRect",
-            "type": "CRect *(__thiscall *)(CDummy *, CRect *)",
+            "type": "CRect *(__thiscall *)(CDummy *)",
             "offset": "0x1C",
             "size": 4
         },

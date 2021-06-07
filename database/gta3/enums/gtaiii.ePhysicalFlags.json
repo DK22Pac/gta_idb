@@ -1,0 +1,45 @@
+{
+    "name": "ePhysicalFlags",
+    "module": "CPhysical",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "IsHeavy",
+            "value": 0
+        },
+        {
+            "name": "AffectedByGravity",
+            "value": 1
+        },
+        {
+            "name": "InfiniteMass",
+            "value": 2
+        },
+        {
+            "name": "IsInWater",
+            "value": 3
+        },
+        {
+            "name": "Phy_flag4",
+            "value": 4
+        },
+        {
+            "name": "Phy_flag5",
+            "value": 5
+        },
+        {
+            "name": "HitByTrain",
+            "value": 6
+        },
+        {
+            "name": "SkipLineCol",
+            "value": 7
+        }
+    ]
+}

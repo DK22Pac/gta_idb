@@ -1,0 +1,29 @@
+{
+    "name": "ePanelStatus",
+    "module": "CDamageManager",
+    "scope": "",
+    "width": 4,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "PANEL_STATUS_OK",
+            "value": 0
+        },
+        {
+            "name": "PANEL_STATUS_SMASHED1",
+            "value": 1
+        },
+        {
+            "name": "PANEL_STATUS_SMASHED2",
+            "value": 2
+        },
+        {
+            "name": "PANEL_STATUS_MISSING",
+            "value": 3
+        }
+    ]
+}

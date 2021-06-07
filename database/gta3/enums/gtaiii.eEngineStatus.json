@@ -1,0 +1,29 @@
+{
+    "name": "eEngineStatus",
+    "module": "CDamageManager",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "ENGINE_STATUS_STEAM1",
+            "value": 100
+        },
+        {
+            "name": "ENGINE_STATUS_STEAM2",
+            "value": 150
+        },
+        {
+            "name": "ENGINE_STATUS_SMOKE",
+            "value": 200
+        },
+        {
+            "name": "ENGINE_STATUS_ON_FIRE",
+            "value": 225
+        }
+    ]
+}

@@ -1,8 +1,8 @@
 {
     "name": "CReference",
-    "module": "",
+    "module": "CReferences",
     "scope": "",
-    "kind": "class",
+    "kind": "struct",
     "size": 8,
     "alignment": 0,
     "comment": "",

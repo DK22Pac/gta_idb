@@ -1,0 +1,29 @@
+{
+    "name": "eTrainNodes",
+    "module": "CTrain",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "TRAIN_NODE_NONE",
+            "value": 0
+        },
+        {
+            "name": "TRAIN_DOOR_LHS",
+            "value": 1
+        },
+        {
+            "name": "TRAIN_DOOR_RHS",
+            "value": 2
+        },
+        {
+            "name": "TRAIN_NUM_NODES",
+            "value": 3
+        }
+    ]
+}

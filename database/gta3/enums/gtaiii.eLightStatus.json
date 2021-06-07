@@ -1,0 +1,21 @@
+{
+    "name": "eLightStatus",
+    "module": "CDamageManager",
+    "scope": "",
+    "width": 4,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "LIGHT_STATUS_OK",
+            "value": 0
+        },
+        {
+            "name": "LIGHT_STATUS_BROKEN",
+            "value": 1
+        }
+    ]
+}

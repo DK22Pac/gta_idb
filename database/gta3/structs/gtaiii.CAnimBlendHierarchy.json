@@ -39,7 +39,7 @@
         },
         {
             "name": "linkPtr",
-            "type": "CLink_CAnimBlendHierarchy *",
+            "type": "CLink<CAnimBlendHierarchy> *",
             "offset": "0x24",
             "size": 4
         }

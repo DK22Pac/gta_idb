@@ -4,7 +4,7 @@
     "scope": "",
     "kind": "class",
     "size": "0xC",
-    "alignment": 1,
+    "alignment": 2,
     "comment": "",
     "members": [
         {
@@ -23,12 +23,6 @@
             "name": "m_nAdditionalTimer",
             "type": "__int16",
             "offset": 8,
-            "size": 2
-        },
-        {
-            "name": "_padA",
-            "type": "__int16",
-            "offset": "0xA",
             "size": 2
         }
     ]

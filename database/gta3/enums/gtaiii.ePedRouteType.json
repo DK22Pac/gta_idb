@@ -1,0 +1,25 @@
+{
+    "name": "ePedRouteType",
+    "module": "CPed",
+    "scope": "",
+    "width": 2,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "PEDROUTE_STOP_WHEN_DONE",
+            "value": 1
+        },
+        {
+            "name": "PEDROUTE_GO_BACKWARD_WHEN_DONE",
+            "value": 2
+        },
+        {
+            "name": "PEDROUTE_GO_TO_START_WHEN_DONE",
+            "value": 3
+        }
+    ]
+}

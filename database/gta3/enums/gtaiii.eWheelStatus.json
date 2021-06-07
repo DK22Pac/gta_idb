@@ -1,0 +1,25 @@
+{
+    "name": "eWheelStatus",
+    "module": "CDamageManager",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "WHEEL_STATUS_OK",
+            "value": 0
+        },
+        {
+            "name": "WHEEL_STATUS_BURST",
+            "value": 1
+        },
+        {
+            "name": "WHEEL_STATUS_MISSING",
+            "value": 2
+        }
+    ]
+}

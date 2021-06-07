@@ -1,0 +1,25 @@
+{
+    "name": "eCamControl",
+    "module": "CCamera",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "CAMCONTROL_GAME",
+            "value": 0
+        },
+        {
+            "name": "CAMCONTROL_SCRIPT",
+            "value": 1
+        },
+        {
+            "name": "CAMCONTROL_OBBE",
+            "value": 2
+        }
+    ]
+}
