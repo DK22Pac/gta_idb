@@ -1,0 +1,33 @@
+{
+    "name": "eFightMoveHitLevel",
+    "module": "CPed",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "HITLEVEL_NULL",
+            "value": 0
+        },
+        {
+            "name": "HITLEVEL_GROUND",
+            "value": 1
+        },
+        {
+            "name": "HITLEVEL_LOW",
+            "value": 2
+        },
+        {
+            "name": "HITLEVEL_MEDIUM",
+            "value": 3
+        },
+        {
+            "name": "HITLEVEL_HIGH",
+            "value": 4
+        }
+    ]
+}

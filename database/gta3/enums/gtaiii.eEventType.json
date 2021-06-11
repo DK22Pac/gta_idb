@@ -10,31 +10,31 @@
     "comment": "",
     "members": [
         {
-            "name": "EVENT_NONE",
+            "name": "EVENT_NULL",
             "value": 0
         },
         {
-            "name": "EVENT_PED_FIGHT",
+            "name": "EVENT_ASSAULT",
             "value": 1
         },
         {
-            "name": "EVENT_EVENT2",
+            "name": "EVENT_RUN_REDLIGHT",
             "value": 2
         },
         {
-            "name": "EVENT_COP_FIGHT",
+            "name": "EVENT_ASSAULT_POLICE",
             "value": 3
         },
         {
-            "name": "EVENT_SHOT_FIRED",
+            "name": "EVENT_GUNSHOT",
             "value": 4
         },
         {
-            "name": "EVENT_DEATH",
+            "name": "EVENT_INJURED_PED",
             "value": 5
         },
         {
-            "name": "EVENT_DEATH_DELAYED",
+            "name": "EVENT_DEAD_PED",
             "value": 6
         },
         {
@@ -42,23 +42,23 @@
             "value": 7
         },
         {
-            "name": "EVENT_CAR_THEFT",
+            "name": "EVENT_STEAL_CAR",
             "value": 8
         },
         {
-            "name": "EVENT_PED_RUN_OVER",
+            "name": "EVENT_HIT_AND_RUN",
             "value": 9
         },
         {
-            "name": "EVENT_COP_RUN_OVER",
+            "name": "EVENT_HIT_AND_RUN_COP",
             "value": 10
         },
         {
-            "name": "EVENT_DAMAGED_PED",
+            "name": "EVENT_SHOOT_PED",
             "value": 11
         },
         {
-            "name": "EVENT_DAMAGED_COP",
+            "name": "EVENT_SHOOT_COP",
             "value": 12
         },
         {
@@ -66,40 +66,38 @@
             "value": 13
         },
         {
-            "name": "EVENT_PED_BURNED",
+            "name": "EVENT_PED_SET_ON_FIRE",
             "value": 14
         },
         {
-            "name": "EVENT_COP_BURNED",
+            "name": "EVENT_COP_SET_ON_FIRE",
             "value": 15
         },
         {
-            "name": "EVENT_VEHICLE_BURNED",
+            "name": "EVENT_CAR_SET_ON_FIRE",
             "value": 16
         },
         {
-            "name": "EVENT_PED_STABBED",
-            "value": 17
+            "name": "EVENT_ASSAULT_NASTYWEAPON",
+            "value": 17,
+            "comment": "not sure"
         },
         {
-            "name": "EVENT_2DFX_0",
+            "name": "EVENT_ICECREAM",
             "value": 18
         },
         {
-            "name": "EVENT_EVENT19",
+            "name": "EVENT_ATM",
             "value": 19
         },
         {
-            "name": "EVENT_2DFX_1",
-            "value": 20
+            "name": "EVENT_SHOPSTALL",
+            "value": 20,
+            "comment": "used on graffitis"
         },
         {
-            "name": "EVENT_EVENT21",
+            "name": "EVENT_LAST_EVENT",
             "value": 21
-        },
-        {
-            "name": "EVENT_2DFX_2",
-            "value": 22
         }
     ]
 }

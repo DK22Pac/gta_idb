@@ -1,6 +1,6 @@
 {
     "name": "AnimationId",
-    "module": "",
+    "module": "CPed",
     "scope": "",
     "width": 4,
     "isClass": false,
@@ -10,699 +10,699 @@
     "comment": "",
     "members": [
         {
-            "name": "ANIMATION_WALK_CIVI",
+            "name": "ANIM_STD_WALK",
             "value": 0
         },
         {
-            "name": "ANIMATION_RUN_CIVI",
+            "name": "ANIM_STD_RUN",
             "value": 1
         },
         {
-            "name": "ANIMATION_SPRINT_PANIC",
+            "name": "ANIM_STD_RUNFAST",
             "value": 2
         },
         {
-            "name": "ANIMATION_IDLE_STANCE",
+            "name": "ANIM_STD_IDLE",
             "value": 3
         },
         {
-            "name": "ANIMATION_WALK_START",
+            "name": "ANIM_STD_STARTWALK",
             "value": 4
         },
         {
-            "name": "ANIMATION_RUN_STOP",
+            "name": "ANIM_STD_RUNSTOP1",
             "value": 5
         },
         {
-            "name": "ANIMATION_RUN_STOPR",
+            "name": "ANIM_STD_RUNSTOP2",
             "value": 6
         },
         {
-            "name": "ANIMATION_IDLE_HBHB",
+            "name": "ANIM_STD_IDLE_CAM",
             "value": 7
         },
         {
-            "name": "ANIMATION_IDLE_HBHB2",
+            "name": "ANIM_STD_IDLE_HBHB",
             "value": 8
         },
         {
-            "name": "ANIMATION_IDLE_TIRED",
+            "name": "ANIM_STD_IDLE_TIRED",
             "value": 9
         },
         {
-            "name": "ANIMATION_ARMED",
+            "name": "ANIM_STD_IDLE_BIGGUN",
             "value": 10
         },
         {
-            "name": "ANIMATION_IDLE_CHAT",
+            "name": "ANIM_STD_CHAT",
             "value": 11
         },
         {
-            "name": "ANIMATION_IDLE_TAXI",
+            "name": "ANIM_STD_HAILTAXI",
             "value": 12
         },
         {
-            "name": "ANIMATION_KO_SHOT_FRONT",
+            "name": "ANIM_STD_KO_FRONT",
             "value": 13
         },
         {
-            "name": "ANIMATION_KO_SHOT_FRONT2",
+            "name": "ANIM_STD_KO_LEFT",
             "value": 14
         },
         {
-            "name": "ANIMATION_KO_SHOT_FRONT3",
+            "name": "ANIM_STD_KO_BACK",
             "value": 15
         },
         {
-            "name": "ANIMATION_KO_SHOT_FRONT4",
+            "name": "ANIM_STD_KO_RIGHT",
             "value": 16
         },
         {
-            "name": "ANIMATION_KO_SHOT_FACE",
+            "name": "ANIM_STD_KO_SHOT_FACE",
             "value": 17
         },
         {
-            "name": "ANIMATION_KO_SHOT_STOM",
+            "name": "ANIM_STD_KO_SHOT_STOMACH",
             "value": 18
         },
         {
-            "name": "ANIMATION_KO_SHOT_ARML",
+            "name": "ANIM_STD_KO_SHOT_ARM_L",
             "value": 19
         },
         {
-            "name": "ANIMATION_KO_SHOT_ARMR",
+            "name": "ANIM_STD_KO_SHOT_ARM_R",
             "value": 20
         },
         {
-            "name": "ANIMATION_KO_SHOT_LEGL",
+            "name": "ANIM_STD_KO_SHOT_LEG_L",
             "value": 21
         },
         {
-            "name": "ANIMATION_KO_SHOT_LEGR",
+            "name": "ANIM_STD_KO_SHOT_LEG_R",
             "value": 22
         },
         {
-            "name": "ANIMATION_KO_LEFT",
+            "name": "ANIM_STD_SPINFORWARD_LEFT",
             "value": 23
         },
         {
-            "name": "ANIMATION_KO_RIGHT",
+            "name": "ANIM_STD_SPINFORWARD_RIGHT",
             "value": 24
         },
         {
-            "name": "ANIMATION_KO_SKID_FRONT",
+            "name": "ANIM_STD_HIGHIMPACT_FRONT",
             "value": 25
         },
         {
-            "name": "ANIMATION_KO_SPIN_R",
+            "name": "ANIM_STD_HIGHIMPACT_LEFT",
             "value": 26
         },
         {
-            "name": "ANIMATION_KO_SKID_BACK",
+            "name": "ANIM_STD_HIGHIMPACT_BACK",
             "value": 27
         },
         {
-            "name": "ANIMATION_KO_SPIN_L",
+            "name": "ANIM_STD_HIGHIMPACT_RIGHT",
             "value": 28
         },
         {
-            "name": "ANIMATION_SHOT_PARTIAL",
+            "name": "ANIM_STD_HITBYGUN_FRONT",
             "value": 29
         },
         {
-            "name": "ANIMATION_SHOT_LEFTP",
+            "name": "ANIM_STD_HITBYGUN_LEFT",
             "value": 30
         },
         {
-            "name": "ANIMATION_SHOT_PARTIAL2",
+            "name": "ANIM_STD_HITBYGUN_BACK",
             "value": 31
         },
         {
-            "name": "ANIMATION_SHOT_RIGHTP",
+            "name": "ANIM_STD_HITBYGUN_RIGHT",
             "value": 32
         },
         {
-            "name": "ANIMATION_HIT_FRONT",
+            "name": "ANIM_STD_HIT_FRONT",
             "value": 33
         },
         {
-            "name": "ANIMATION_HIT_L",
+            "name": "ANIM_STD_HIT_LEFT",
             "value": 34
         },
         {
-            "name": "ANIMATION_HIT_BACK",
+            "name": "ANIM_STD_HIT_BACK",
             "value": 35
         },
         {
-            "name": "ANIMATION_HIT_R",
+            "name": "ANIM_STD_HIT_RIGHT",
             "value": 36
         },
         {
-            "name": "ANIMATION_FLOOR_HIT",
+            "name": "ANIM_STD_HIT_FLOOR",
             "value": 37
         },
         {
-            "name": "ANIMATION_HIT_BODYBLOW",
+            "name": "ANIM_STD_HIT_BODYBLOW",
             "value": 38
         },
         {
-            "name": "ANIMATION_HIT_CHEST",
+            "name": "ANIM_STD_HIT_CHEST",
             "value": 39
         },
         {
-            "name": "ANIMATION_HIT_HEAD",
+            "name": "ANIM_STD_HIT_HEAD",
             "value": 40
         },
         {
-            "name": "ANIMATION_HIT_WALK",
+            "name": "ANIM_STD_HIT_WALK",
             "value": 41
         },
         {
-            "name": "ANIMATION_HIT_WALL",
+            "name": "ANIM_STD_HIT_WALL",
             "value": 42
         },
         {
-            "name": "ANIMATION_FLOOR_HIT_F",
+            "name": "ANIM_STD_HIT_FLOOR_FRONT",
             "value": 43
         },
         {
-            "name": "ANIMATION_HIT_BEHIND",
+            "name": "ANIM_STD_HIT_BEHIND",
             "value": 44
         },
         {
-            "name": "ANIMATION_PUNCHR",
+            "name": "ANIM_STD_PUNCH",
             "value": 45
         },
         {
-            "name": "ANIMATION_KICK_FLOOR",
+            "name": "ANIM_STD_KICKGROUND",
             "value": 46
         },
         {
-            "name": "ANIMATION_WEAPON_BAT_H",
+            "name": "ANIM_STD_WEAPON_BAT_H",
             "value": 47
         },
         {
-            "name": "ANIMATION_WEAPON_BAT_V",
+            "name": "ANIM_STD_WEAPON_BAT_V",
             "value": 48
         },
         {
-            "name": "ANIMATION_WEAPON_HGUN_BO",
+            "name": "ANIM_STD_WEAPON_HGUN_BODY",
             "value": 49
         },
         {
-            "name": "ANIMATION_WEAPON_AK_BODY",
+            "name": "ANIM_STD_WEAPON_AK_BODY",
             "value": 50
         },
         {
-            "name": "ANIMATION_WEAPON_PUMP",
+            "name": "ANIM_STD_WEAPON_PUMP",
             "value": 51
         },
         {
-            "name": "ANIMATION_WEAPON_SNIPER",
+            "name": "ANIM_STD_WEAPON_SNIPER",
             "value": 52
         },
         {
-            "name": "ANIMATION_WEAPON_THROW",
+            "name": "ANIM_STD_WEAPON_THROW",
             "value": 53
         },
         {
-            "name": "ANIMATION_WEAPON_THROWU",
+            "name": "ANIM_STD_THROW_UNDER",
             "value": 54
         },
         {
-            "name": "ANIMATION_WEAPON_START_T",
+            "name": "ANIM_STD_START_THROW",
             "value": 55
         },
         {
-            "name": "ANIMATION_BOMBER_1",
+            "name": "ANIM_STD_DETONATE",
             "value": 56
         },
         {
-            "name": "ANIMATION_WEAPON_HRUN_RL",
+            "name": "ANIM_STD_HGUN_RELOAD",
             "value": 57
         },
         {
-            "name": "ANIMATION_WEAPON_AK_RLOA",
+            "name": "ANIM_STD_AK_RELOAD",
             "value": 58
         },
         {
-            "name": "ANIMATION_FPS_PUNCH",
+            "name": "ANIM_FPS_PUNCH",
             "value": 59
         },
         {
-            "name": "ANIMATION_FPS_BAT",
+            "name": "ANIM_FPS_BAT",
             "value": 60
         },
         {
-            "name": "ANIMATION_FPS_UZI",
+            "name": "ANIM_FPS_UZI",
             "value": 61
         },
         {
-            "name": "ANIMATION_FPS_PUMP",
+            "name": "ANIM_FPS_PUMP",
             "value": 62
         },
         {
-            "name": "ANIMATION_FPS_AK",
+            "name": "ANIM_FPS_AK",
             "value": 63
         },
         {
-            "name": "ANIMATION_FPS_M16",
+            "name": "ANIM_FPS_M16",
             "value": 64
         },
         {
-            "name": "ANIMATION_FPS_ROCKET",
+            "name": "ANIM_FPS_ROCKET",
             "value": 65
         },
         {
-            "name": "ANIMATION_FIGHT_IDLE",
+            "name": "ANIM_STD_FIGHT_IDLE",
             "value": 66
         },
         {
-            "name": "ANIMATION_FIGHT2_IDLE",
+            "name": "ANIM_STD_FIGHT_2IDLE",
             "value": 67
         },
         {
-            "name": "ANIMATION_FIGHTSH_F",
+            "name": "ANIM_STD_FIGHT_SHUFFLE_F",
             "value": 68
         },
         {
-            "name": "ANIMATION_FIGHT_BODYBLOW",
+            "name": "ANIM_STD_FIGHT_BODYBLOW",
             "value": 69
         },
         {
-            "name": "ANIMATION_FIGHT_HEAD",
+            "name": "ANIM_STD_FIGHT_HEAD",
             "value": 70
         },
         {
-            "name": "ANIMATION_FIGHT_KICK",
+            "name": "ANIM_STD_FIGHT_KICK",
             "value": 71
         },
         {
-            "name": "ANIMATION_FIGHT_KNEE",
+            "name": "ANIM_STD_FIGHT_KNEE",
             "value": 72
         },
         {
-            "name": "ANIMATION_FIGHT_LHOOK",
+            "name": "ANIM_STD_FIGHT_LHOOK",
             "value": 73
         },
         {
-            "name": "ANIMATION_FIGHT_PUNCH",
+            "name": "ANIM_STD_FIGHT_PUNCH",
             "value": 74
         },
         {
-            "name": "ANIMATION_FIGHT_RNDHSE",
+            "name": "ANIM_STD_FIGHT_ROUNDHOUSE",
             "value": 75
         },
         {
-            "name": "ANIMATION_FIGHT_LNGKCK",
+            "name": "ANIM_STD_FIGHT_LONGKICK",
             "value": 76
         },
         {
-            "name": "ANIMATION_FIGHT_PPUNCH",
+            "name": "ANIM_STD_PARTIAL_PUNCH",
             "value": 77
         },
         {
-            "name": "ANIMATION_CAR_JACKED_RHS",
+            "name": "ANIM_STD_JACKEDCAR_RHS",
             "value": 78
         },
         {
-            "name": "ANIMATION_CAR_LJACKED_RHS",
+            "name": "ANIM_STD_JACKEDCAR_LO_RHS",
             "value": 79
         },
         {
-            "name": "ANIMATION_CAR_JACKED_LHS",
+            "name": "ANIM_STD_JACKEDCAR_LHS",
             "value": 80
         },
         {
-            "name": "ANIMATION_CAR_LJACKED_LHS",
+            "name": "ANIM_STD_JACKEDCAR_LO_LHS",
             "value": 81
         },
         {
-            "name": "ANIMATION_CAR_QJACK",
+            "name": "ANIM_STD_QUICKJACK",
             "value": 82
         },
         {
-            "name": "ANIMATION_CAR_QJACKED",
+            "name": "ANIM_STD_QUICKJACKED",
             "value": 83
         },
         {
-            "name": "ANIMATION_CAR_ALIGN_LHS",
+            "name": "ANIM_STD_CAR_ALIGN_DOOR_LHS",
             "value": 84
         },
         {
-            "name": "ANIMATION_CAR_ALIGN_HI_LHS",
+            "name": "ANIM_STD_CAR_ALIGNHI_DOOR_LHS",
             "value": 85
         },
         {
-            "name": "ANIMATION_CAR_OPEN_LHS",
+            "name": "ANIM_STD_CAR_OPEN_DOOR_LHS",
             "value": 86
         },
         {
-            "name": "ANIMATION_CAR_DOORLOCKED_LHS",
+            "name": "ANIM_STD_CARDOOR_LOCKED_LHS",
             "value": 87
         },
         {
-            "name": "ANIMATION_CAR_PULLOUT_LHS",
+            "name": "ANIM_STD_CAR_PULL_OUT_PED_LHS",
             "value": 88
         },
         {
-            "name": "ANIMATION_CAR_PULLOUT_L_LHS",
+            "name": "ANIM_STD_CAR_PULL_OUT_PED_LO_LHS",
             "value": 89
         },
         {
-            "name": "ANIMATION_CAR_GETIN_LHS",
+            "name": "ANIM_STD_CAR_GET_IN_LHS",
             "value": 90
         },
         {
-            "name": "ANIMATION_CAR_GETINL_LHS",
+            "name": "ANIM_STD_CAR_GET_IN_LO_LHS",
             "value": 91
         },
         {
-            "name": "ANIMATION_CAR_CLOSEDOOR_LHS",
+            "name": "ANIM_STD_CAR_CLOSE_DOOR_LHS",
             "value": 92
         },
         {
-            "name": "ANIMATION_CAR_CLOSEDOORL_LHS",
+            "name": "ANIM_STD_CAR_CLOSE_DOOR_LO_LHS",
             "value": 93
         },
         {
-            "name": "ANIMATION_CAR_ROLLDOOR",
+            "name": "ANIM_STD_CAR_CLOSE_DOOR_ROLLING_LHS",
             "value": 94
         },
         {
-            "name": "ANIMATION_CAR_ROLLDOORL0",
+            "name": "ANIM_STD_CAR_CLOSE_DOOR_ROLLING_LO_LHS",
             "value": 95
         },
         {
-            "name": "ANIMATION_CAR_GETOUT_LHS",
+            "name": "ANIM_STD_GETOUT_LHS",
             "value": 96
         },
         {
-            "name": "ANIMATION_CAR_GETOUTL_LHS",
+            "name": "ANIM_STD_GETOUT_LO_LHS",
             "value": 97
         },
         {
-            "name": "ANIMATION_CAR_CLOSE_LHS",
+            "name": "ANIM_STD_CAR_CLOSE_LHS",
             "value": 98
         },
         {
-            "name": "ANIMATION_CAR_ALIGN_RHS",
+            "name": "ANIM_STD_CAR_ALIGN_DOOR_RHS",
             "value": 99
         },
         {
-            "name": "ANIMATION_CAR_ALIGNHI_RHS",
+            "name": "ANIM_STD_CAR_ALIGNHI_DOOR_RHS",
             "value": 100
         },
         {
-            "name": "ANIMATION_CAR_OPEN_RHS",
+            "name": "ANIM_STD_CAR_OPEN_DOOR_RHS",
             "value": 101
         },
         {
-            "name": "ANIMATION_CAR_DOORLOCKED_RHS",
+            "name": "ANIM_STD_CARDOOR_LOCKED_RHS",
             "value": 102
         },
         {
-            "name": "ANIMATION_PULLOUT_RHS",
+            "name": "ANIM_STD_CAR_PULL_OUT_PED_RHS",
             "value": 103
         },
         {
-            "name": "ANIMATION_PULLOUTL_RHS",
+            "name": "ANIM_STD_CAR_PULL_OUT_PED_LO_RHS",
             "value": 104
         },
         {
-            "name": "ANIMATION_GETIN_RHS",
+            "name": "ANIM_STD_CAR_GET_IN_RHS",
             "value": 105
         },
         {
-            "name": "ANIMATION_GETINL_RHS",
+            "name": "ANIM_STD_CAR_GET_IN_LO_RHS",
             "value": 106
         },
         {
-            "name": "ANIMATION_CLOSEDOOR_RHS",
+            "name": "ANIM_STD_CAR_CLOSE_DOOR_RHS",
             "value": 107
         },
         {
-            "name": "ANIMATION_CLOSEDOORL_RHS",
+            "name": "ANIM_STD_CAR_CLOSE_DOOR_LO_RHS",
             "value": 108
         },
         {
-            "name": "ANIMATION_CAR_SHUFFLE_RHS",
+            "name": "ANIM_STD_CAR_SHUFFLE_RHS",
             "value": 109
         },
         {
-            "name": "ANIMATION_CAR_LSHUFFLE_RHS",
+            "name": "ANIM_STD_CAR_SHUFFLE_LO_RHS",
             "value": 110
         },
         {
-            "name": "ANIMATION_CAR_SIT",
+            "name": "ANIM_STD_CAR_SIT",
             "value": 111
         },
         {
-            "name": "ANIMATION_CAR_LSIT",
+            "name": "ANIM_STD_CAR_SIT_LO",
             "value": 112
         },
         {
-            "name": "ANIMATION_CAR_SITP",
+            "name": "ANIM_STD_CAR_SIT_P",
             "value": 113
         },
         {
-            "name": "ANIMATION_CAR_SITPL0",
+            "name": "ANIM_STD_CAR_SIT_P_LO",
             "value": 114
         },
         {
-            "name": "ANIMATION_DRIVE_L",
+            "name": "ANIM_STD_CAR_DRIVE_LEFT",
             "value": 115
         },
         {
-            "name": "ANIMATION_DRIVE_R",
+            "name": "ANIM_STD_CAR_DRIVE_RIGHT",
             "value": 116
         },
         {
-            "name": "ANIMATION_DRIVE_LO_L",
+            "name": "ANIM_STD_CAR_DRIVE_LEFT_LO",
             "value": 117
         },
         {
-            "name": "ANIMATION_DRIVE_LO_R",
+            "name": "ANIM_STD_CAR_DRIVE_RIGHT_LO",
             "value": 118
         },
         {
-            "name": "ANIMATION_DRIVEBY_L",
+            "name": "ANIM_STD_CAR_DRIVEBY_LEFT",
             "value": 119
         },
         {
-            "name": "ANIMATION_DRIVEBY_R",
+            "name": "ANIM_STD_CAR_DRIVEBY_RIGHT",
             "value": 120
         },
         {
-            "name": "ANIMATION_CAR_LB",
+            "name": "ANIM_STD_CAR_LOOKBEHIND",
             "value": 121
         },
         {
-            "name": "ANIMATION_DRIVE_BOAT",
+            "name": "ANIM_STD_BOAT_DRIVE",
             "value": 122
         },
         {
-            "name": "ANIMATION_CAR_GETOUT_RHS",
+            "name": "ANIM_STD_GETOUT_RHS",
             "value": 123
         },
         {
-            "name": "ANIMATION_CAR_GETOUTL_RHS",
+            "name": "ANIM_STD_GETOUT_LO_RHS",
             "value": 124
         },
         {
-            "name": "ANIMATION_CAR_CLOSE_RHS",
+            "name": "ANIM_STD_CAR_CLOSE_RHS",
             "value": 125
         },
         {
-            "name": "ANIMATION_CAR_HOOKERTALK",
+            "name": "ANIM_STD_CAR_HOOKERTALK",
             "value": 126
         },
         {
-            "name": "ANIMATION_COACH_OPENL",
+            "name": "ANIM_STD_COACH_OPEN_LHS",
             "value": 127
         },
         {
-            "name": "ANIMATION_COACH_OPENR",
+            "name": "ANIM_STD_COACH_OPEN_RHS",
             "value": 128
         },
         {
-            "name": "ANIMATION_COACH_INL",
+            "name": "ANIM_STD_COACH_GET_IN_LHS",
             "value": 129
         },
         {
-            "name": "ANIMATION_COACH_INR",
+            "name": "ANIM_STD_COACH_GET_IN_RHS",
             "value": 130
         },
         {
-            "name": "ANIMATION_COACH_OUTL",
+            "name": "ANIM_STD_COACH_GET_OUT_LHS",
             "value": 131
         },
         {
-            "name": "ANIMATION_TRAIN_GETIN",
+            "name": "ANIM_STD_TRAIN_GETIN",
             "value": 132
         },
         {
-            "name": "ANIMATION_TRAIN_GETOUT",
+            "name": "ANIM_STD_TRAIN_GETOUT",
             "value": 133
         },
         {
-            "name": "ANIMATION_CAR_CRAWLOUT_RHS",
+            "name": "ANIM_STD_CRAWLOUT_LHS",
             "value": 134
         },
         {
-            "name": "ANIMATION_CAR_CRAWLOUT_RHS2",
+            "name": "ANIM_STD_CRAWLOUT_RHS",
             "value": 135
         },
         {
-            "name": "ANIMATION_VAN_OPENL",
+            "name": "ANIM_STD_VAN_OPEN_DOOR_REAR_LHS",
             "value": 136
         },
         {
-            "name": "ANIMATION_VAN_GETINL",
+            "name": "ANIM_STD_VAN_GET_IN_REAR_LHS",
             "value": 137
         },
         {
-            "name": "ANIMATION_VAN_CLOSEL",
+            "name": "ANIM_STD_VAN_CLOSE_DOOR_REAR_LHS",
             "value": 138
         },
         {
-            "name": "ANIMATION_VAN_GETOUTL",
+            "name": "ANIM_STD_VAN_GET_OUT_REAR_LHS",
             "value": 139
         },
         {
-            "name": "ANIMATION_VAN_OPEN",
+            "name": "ANIM_STD_VAN_OPEN_DOOR_REAR_RHS",
             "value": 140
         },
         {
-            "name": "ANIMATION_VAN_GETIN",
+            "name": "ANIM_STD_VAN_GET_IN_REAR_RHS",
             "value": 141
         },
         {
-            "name": "ANIMATION_VAN_CLOSE",
+            "name": "ANIM_STD_VAN_CLOSE_DOOR_REAR_RHS",
             "value": 142
         },
         {
-            "name": "ANIMATION_VAN_GETOUT",
+            "name": "ANIM_STD_VAN_GET_OUT_REAR_RHS",
             "value": 143
         },
         {
-            "name": "ANIMATION_GETUP1",
+            "name": "ANIM_STD_GET_UP",
             "value": 144
         },
         {
-            "name": "ANIMATION_GETUP2",
+            "name": "ANIM_STD_GET_UP_LEFT",
             "value": 145
         },
         {
-            "name": "ANIMATION_GETUP3",
+            "name": "ANIM_STD_GET_UP_RIGHT",
             "value": 146
         },
         {
-            "name": "ANIMATION_GETUP_FRONT",
+            "name": "ANIM_STD_GET_UP_FRONT",
             "value": 147
         },
         {
-            "name": "ANIMATION_JUMP_LAUNCH",
+            "name": "ANIM_STD_JUMP_LAUNCH",
             "value": 148
         },
         {
-            "name": "ANIMATION_JUMP_GLIDE",
+            "name": "ANIM_STD_JUMP_GLIDE",
             "value": 149
         },
         {
-            "name": "ANIMATION_JUMP_LAND",
+            "name": "ANIM_STD_JUMP_LAND",
             "value": 150
         },
         {
-            "name": "ANIMATION_FALL_FALL",
+            "name": "ANIM_STD_FALL",
             "value": 151
         },
         {
-            "name": "ANIMATION_FALL_GLIDE",
+            "name": "ANIM_STD_FALL_GLIDE",
             "value": 152
         },
         {
-            "name": "ANIMATION_FALL_LAND",
+            "name": "ANIM_STD_FALL_LAND",
             "value": 153
         },
         {
-            "name": "ANIMATION_FALL_COLLAPSE",
+            "name": "ANIM_STD_FALL_COLLAPSE",
             "value": 154
         },
         {
-            "name": "ANIMATION_EV_STEP",
+            "name": "ANIM_STD_EVADE_STEP",
             "value": 155
         },
         {
-            "name": "ANIMATION_EV_DIVE",
+            "name": "ANIM_STD_EVADE_DIVE",
             "value": 156
         },
         {
-            "name": "ANIMATION_XPRESS_SCRATCH",
+            "name": "ANIM_STD_XPRESS_SCRATCH",
             "value": 157
         },
         {
-            "name": "ANIMATION_ROADCROSS",
+            "name": "ANIM_STD_ROADCROSS",
             "value": 158
         },
         {
-            "name": "ANIMATION_TURN_180",
+            "name": "ANIM_STD_TURN180",
             "value": 159
         },
         {
-            "name": "ANIMATION_ARRESTGUN",
+            "name": "ANIM_STD_ARREST",
             "value": 160
         },
         {
-            "name": "ANIMATION_DROWN",
+            "name": "ANIM_STD_DROWN",
             "value": 161
         },
         {
-            "name": "ANIMATION_CPR",
+            "name": "ANIM_MEDIC_CPR",
             "value": 162
         },
         {
-            "name": "ANIMATION_DUCK_DOWN",
+            "name": "ANIM_STD_DUCK_DOWN",
             "value": 163
         },
         {
-            "name": "ANIMATION_DUCK_LOW",
+            "name": "ANIM_STD_DUCK_LOW",
             "value": 164
         },
         {
-            "name": "ANIMATION_RBLOCK_CSHOOT",
+            "name": "ANIM_STD_RBLOCK_SHOOT",
             "value": 165
         },
         {
-            "name": "ANIMATION_WEAPON_THROWU_2",
+            "name": "ANIM_STD_THROW_UNDER2",
             "value": 166
         },
         {
-            "name": "ANIMATION_HANDSUP",
+            "name": "ANIM_STD_HANDSUP",
             "value": 167
         },
         {
-            "name": "ANIMATION_HANDS_COWER",
+            "name": "ANIM_STD_HANDSCOWER",
             "value": 168
         },
         {
-            "name": "ANIMATION_FUCKU",
+            "name": "ANIM_STD_PARTIAL_FUCKU",
             "value": 169
         },
         {
-            "name": "ANIMATION_PHONE_IN",
+            "name": "ANIM_STD_PHONE_IN",
             "value": 170
         },
         {
-            "name": "ANIMATION_PHONE_OUT",
+            "name": "ANIM_STD_PHONE_OUT",
             "value": 171
         },
         {
-            "name": "ANIMATION_PHONE_TALK",
+            "name": "ANIM_STD_PHONE_TALK",
             "value": 172
         },
         {
-            "name": "ANIMATION_TOTAL_ANIMATIONS",
+            "name": "ANIM_STD_NUM",
             "value": 173
         }
     ]

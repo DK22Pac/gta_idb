@@ -1,6 +1,6 @@
 {
     "name": "ePedState",
-    "module": "ePedState",
+    "module": "CPed",
     "scope": "",
     "width": 4,
     "isClass": false,

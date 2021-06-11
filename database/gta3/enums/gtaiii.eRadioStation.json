@@ -54,6 +54,10 @@
             "value": 10
         },
         {
+            "name": "NUM_RADIOS",
+            "value": 10
+        },
+        {
             "name": "RADIO_OFF",
             "value": 11
         }

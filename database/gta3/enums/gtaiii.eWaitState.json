@@ -1,6 +1,6 @@
 {
     "name": "eWaitState",
-    "module": "",
+    "module": "CPed",
     "scope": "",
     "width": 4,
     "isClass": false,

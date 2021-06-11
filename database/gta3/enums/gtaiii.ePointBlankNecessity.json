@@ -1,0 +1,25 @@
+{
+    "name": "ePointBlankNecessity",
+    "module": "CPed",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "NO_POINT_BLANK_PED",
+            "value": 0
+        },
+        {
+            "name": "POINT_BLANK_FOR_WANTED_PED",
+            "value": 1
+        },
+        {
+            "name": "POINT_BLANK_FOR_SOMEONE_ELSE",
+            "value": 2
+        }
+    ]
+}

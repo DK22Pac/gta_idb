@@ -1,0 +1,29 @@
+{
+    "name": "eFightState",
+    "module": "CPed",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": true,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "FIGHTSTATE_NO_MOVE",
+            "value": 0
+        },
+        {
+            "name": "FIGHTSTATE_1",
+            "value": 1
+        },
+        {
+            "name": "FIGHTSTATE_MOVE_FINISHED",
+            "value": 254
+        },
+        {
+            "name": "FIGHTSTATE_JUST_ATTACKED",
+            "value": 255
+        }
+    ]
+}

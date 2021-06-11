@@ -1,0 +1,35 @@
+{
+    "name": "tPedAudioData",
+    "module": "",
+    "scope": "",
+    "kind": "struct",
+    "size": "0x10",
+    "alignment": 2,
+    "comment": "vodule:CPed isstruct:true",
+    "members": [
+        {
+            "name": "m_nFixedDelayTime",
+            "type": "int",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "m_nOverrideFixedDelayTime",
+            "type": "int",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "m_nOverrideMaxRandomDelayTime",
+            "type": "int",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "m_nMaxRandomDelayTime",
+            "type": "int",
+            "offset": "0xC",
+            "size": 4
+        }
+    ]
+}

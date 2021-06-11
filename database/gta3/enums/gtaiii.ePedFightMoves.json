@@ -1,0 +1,113 @@
+{
+    "name": "ePedFightMoves",
+    "module": "CPed",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "FIGHTMOVE_NULL",
+            "value": 0
+        },
+        {
+            "name": "FIGHTMOVE_STDPUNCH",
+            "value": 1
+        },
+        {
+            "name": "FIGHTMOVE_IDLE",
+            "value": 2
+        },
+        {
+            "name": "FIGHTMOVE_SHUFFLE_F",
+            "value": 3
+        },
+        {
+            "name": "FIGHTMOVE_KNEE",
+            "value": 4
+        },
+        {
+            "name": "FIGHTMOVE_HEADBUTT",
+            "value": 5
+        },
+        {
+            "name": "FIGHTMOVE_PUNCHJAB",
+            "value": 6
+        },
+        {
+            "name": "FIGHTMOVE_PUNCHHOOK",
+            "value": 7
+        },
+        {
+            "name": "FIGHTMOVE_KICK",
+            "value": 8
+        },
+        {
+            "name": "FIGHTMOVE_LONGKICK",
+            "value": 9
+        },
+        {
+            "name": "FIGHTMOVE_ROUNDHOUSE",
+            "value": 10
+        },
+        {
+            "name": "FIGHTMOVE_BODYBLOW",
+            "value": 11
+        },
+        {
+            "name": "FIGHTMOVE_GROUNDKICK",
+            "value": 12
+        },
+        {
+            "name": "FIGHTMOVE_HITFRONT",
+            "value": 13
+        },
+        {
+            "name": "FIGHTMOVE_HITBACK",
+            "value": 14
+        },
+        {
+            "name": "FIGHTMOVE_HITRIGHT",
+            "value": 15
+        },
+        {
+            "name": "FIGHTMOVE_HITLEFT",
+            "value": 16
+        },
+        {
+            "name": "FIGHTMOVE_HITBODY",
+            "value": 17
+        },
+        {
+            "name": "FIGHTMOVE_HITCHEST",
+            "value": 18
+        },
+        {
+            "name": "FIGHTMOVE_HITHEAD",
+            "value": 19
+        },
+        {
+            "name": "FIGHTMOVE_HITBIGSTEP",
+            "value": 20
+        },
+        {
+            "name": "FIGHTMOVE_HITONFLOOR",
+            "value": 21
+        },
+        {
+            "name": "FIGHTMOVE_HITBEHIND",
+            "value": 22
+        },
+        {
+            "name": "FIGHTMOVE_IDLE2NORM",
+            "value": 23
+        },
+        {
+            "name": "NUM_FIGHTMOVES",
+            "value": 24
+        }
+    ]
+}

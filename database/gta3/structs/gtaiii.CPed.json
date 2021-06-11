@@ -30,7 +30,7 @@
         },
         {
             "name": "m_nPedFlags",
-            "type": "char[9]",
+            "type": "ePedFlags[9]",
             "offset": "0x154",
             "size": 9,
             "isBitfield": true

@@ -1,0 +1,29 @@
+{
+    "name": "ePedOnGroundState",
+    "module": "CPed",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "NO_PED",
+            "value": 0
+        },
+        {
+            "name": "PED_IN_FRONT_OF_ATTACKER",
+            "value": 1
+        },
+        {
+            "name": "PED_ON_THE_FLOOR",
+            "value": 2
+        },
+        {
+            "name": "PED_DEAD_ON_THE_FLOOR",
+            "value": 3
+        }
+    ]
+}

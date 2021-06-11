@@ -1,0 +1,21 @@
+{
+    "name": "eCharCreatedBy",
+    "module": "CPed",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": true,
+    "comment": "",
+    "members": [
+        {
+            "name": "RANDOM_CHAR",
+            "value": 1
+        },
+        {
+            "name": "MISSION_CHAR",
+            "value": 2
+        }
+    ]
+}

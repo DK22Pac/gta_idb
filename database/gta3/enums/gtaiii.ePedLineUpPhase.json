@@ -1,0 +1,25 @@
+{
+    "name": "ePedLineUpPhase",
+    "module": "CPed",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "LINE_UP_TO_CAR_START",
+            "value": 0
+        },
+        {
+            "name": "LINE_UP_TO_CAR_END",
+            "value": 1
+        },
+        {
+            "name": "LINE_UP_TO_CAR_2",
+            "value": 2
+        }
+    ]
+}

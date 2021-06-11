@@ -1,5 +1,5 @@
 {
-    "name": "eFormation",
+    "name": "ePedPieceTypes",
     "module": "CPed",
     "scope": "",
     "width": 4,
@@ -10,40 +10,32 @@
     "comment": "",
     "members": [
         {
-            "name": "FORMATION_UNDEFINED",
+            "name": "PEDPIECE_TORSO",
             "value": 0
         },
         {
-            "name": "FORMATION_REAR",
+            "name": "PEDPIECE_MID",
             "value": 1
         },
         {
-            "name": "FORMATION_REAR_LEFT",
+            "name": "PEDPIECE_LEFTARM",
             "value": 2
         },
         {
-            "name": "FORMATION_REAR_RIGHT",
+            "name": "PEDPIECE_RIGHTARM",
             "value": 3
         },
         {
-            "name": "FORMATION_FRONT_LEFT",
+            "name": "PEDPIECE_LEFTLEG",
             "value": 4
         },
         {
-            "name": "FORMATION_FRONT_RIGHT",
+            "name": "PEDPIECE_RIGHTLEG",
             "value": 5
         },
         {
-            "name": "FORMATION_LEFT",
+            "name": "PEDPIECE_HEAD",
             "value": 6
-        },
-        {
-            "name": "FORMATION_RIGHT",
-            "value": 7
-        },
-        {
-            "name": "FORMATION_FRONT",
-            "value": 8
         }
     ]
 }
