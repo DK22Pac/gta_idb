@@ -1,0 +1,27 @@
+{
+    "name": "eLimbMoveStatus",
+    "module": "CPedIK",
+    "scope": "",
+    "width": 4,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "ANGLES_SET_TO_MAX",
+            "value": 0,
+            "comment": "because given angles were unreachable"
+        },
+        {
+            "name": "ONE_ANGLE_COULDNT_BE_SET_EXACTLY",
+            "value": 1,
+            "comment": "because it can't be reached in a jiffy"
+        },
+        {
+            "name": "ANGLES_SET_EXACTLY",
+            "value": 2
+        }
+    ]
+}

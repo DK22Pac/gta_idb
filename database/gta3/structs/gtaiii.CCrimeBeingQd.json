@@ -1,6 +1,6 @@
 {
     "name": "CCrimeBeingQd",
-    "module": "",
+    "module": "CWanted",
     "scope": "",
     "kind": "class",
     "size": "0x1C",
@@ -42,12 +42,6 @@
             "type": "bool",
             "offset": "0x19",
             "size": 1
-        },
-        {
-            "name": "_pad1A",
-            "type": "char[2]",
-            "offset": "0x1A",
-            "size": 2
         }
     ]
 }

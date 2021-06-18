@@ -26,21 +26,9 @@
             "size": 1
         },
         {
-            "name": "_pad3",
-            "type": "char",
-            "offset": 3,
-            "size": 1
-        },
-        {
             "name": "id",
             "type": "__int16",
             "offset": 4,
-            "size": 2
-        },
-        {
-            "name": "_pad6",
-            "type": "__int16",
-            "offset": 6,
             "size": 2
         },
         {

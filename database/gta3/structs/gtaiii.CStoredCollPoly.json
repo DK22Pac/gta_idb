@@ -1,41 +1,24 @@
 {
     "name": "CStoredCollPoly",
-    "module": "",
+    "module": "CStoredCollPoly",
     "scope": "",
     "kind": "class",
     "size": "0x28",
-    "alignment": 0,
+    "alignment": 2,
     "comment": "",
     "members": [
         {
-            "name": "m_vecVerticesA",
-            "type": "CVector",
+            "name": "m_avecVertices",
+            "type": "CVector[3]",
             "offset": 0,
-            "size": "0xC"
+            "size": "0x24",
+            "comment": "triangle vertices"
         },
         {
-            "name": "m_vecVerticesB",
-            "type": "CVector",
-            "offset": "0xC",
-            "size": "0xC"
-        },
-        {
-            "name": "m_vecVerticesC",
-            "type": "CVector",
-            "offset": "0x18",
-            "size": "0xC"
-        },
-        {
-            "name": "m_bIsActual",
+            "name": "m_bValid",
             "type": "bool",
             "offset": "0x24",
             "size": 1
-        },
-        {
-            "name": "_pad",
-            "type": "char[3]",
-            "offset": "0x25",
-            "size": 3
         }
     ]
 }

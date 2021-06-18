@@ -22,7 +22,7 @@
             "size": 4
         },
         {
-            "name": "name",
+            "name": "szName",
             "type": "char[24]",
             "offset": 8,
             "size": "0x18"

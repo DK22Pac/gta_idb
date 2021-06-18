@@ -1,6 +1,6 @@
 {
     "name": "CPedStats",
-    "module": "",
+    "module": "CPedStats",
     "scope": "",
     "kind": "class",
     "size": "0x34",
@@ -69,15 +69,10 @@
         },
         {
             "name": "m_nFlags",
-            "type": "__int16",
+            "type": "ePedStatsFlags",
             "offset": "0x30",
-            "size": 2
-        },
-        {
-            "name": "_pad32",
-            "type": "char[2]",
-            "offset": "0x32",
-            "size": 2
+            "size": 1,
+            "isBitfield": true
         }
     ]
 }

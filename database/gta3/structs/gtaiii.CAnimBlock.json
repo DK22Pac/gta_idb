@@ -5,10 +5,10 @@
     "kind": "class",
     "size": "0x20",
     "alignment": 0,
-    "comment": "",
+    "comment": "A block of hierarchies",
     "members": [
         {
-            "name": "name",
+            "name": "szName",
             "type": "char[20]",
             "offset": 0,
             "size": "0x14"

@@ -1,0 +1,25 @@
+{
+    "name": "ePedIKFlags",
+    "module": "CPedIK",
+    "scope": "",
+    "width": 4,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": true,
+    "comment": "",
+    "members": [
+        {
+            "name": "GUN_POINTED_SUCCESSFULLY",
+            "value": 1
+        },
+        {
+            "name": "LOOKAROUND_HEAD_ONLY",
+            "value": 2
+        },
+        {
+            "name": "AIMS_WITH_ARM",
+            "value": 4
+        }
+    ]
+}

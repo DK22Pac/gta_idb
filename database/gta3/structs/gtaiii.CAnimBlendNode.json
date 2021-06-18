@@ -1,35 +1,46 @@
 {
     "name": "CAnimBlendNode",
-    "module": "",
+    "module": "CAnimBlendNode",
     "scope": "",
     "kind": "class",
     "size": "0x1C",
     "alignment": 2,
-    "comment": "",
+    "comment": "The interpolated state between two key frames in a sequence",
     "members": [
         {
-            "name": "dword0",
-            "type": "CVector2D",
+            "name": "theta",
+            "type": "float",
             "offset": 0,
-            "size": 8
+            "size": 4,
+            "comment": "angle between quaternions"
         },
         {
-            "name": "frame0",
+            "name": "invSin",
+            "type": "float",
+            "offset": 4,
+            "size": 4,
+            "comment": "1/Sin(theta)"
+        },
+        {
+            "name": "frameA",
             "type": "int",
             "offset": 8,
-            "size": 4
+            "size": 4,
+            "comment": "next key frame"
         },
         {
-            "name": "frame1",
+            "name": "frameB",
             "type": "int",
             "offset": "0xC",
-            "size": 4
+            "size": 4,
+            "comment": "previous key frame"
         },
         {
-            "name": "dword10",
+            "name": "remainingTime",
             "type": "float",
             "offset": "0x10",
-            "size": 4
+            "size": 4,
+            "comment": "time until frames have to advance"
         },
         {
             "name": "m_pAnimBlendSequence",

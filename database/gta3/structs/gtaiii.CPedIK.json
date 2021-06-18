@@ -1,6 +1,6 @@
 {
     "name": "CPedIK",
-    "module": "",
+    "module": "CPedIK",
     "scope": "",
     "kind": "class",
     "size": "0x28",
@@ -38,10 +38,11 @@
             "size": 8
         },
         {
-            "name": "m_flags",
-            "type": "int",
+            "name": "m_nFlags",
+            "type": "ePedIKFlags",
             "offset": "0x24",
-            "size": 4
+            "size": 4,
+            "isBitfield": true
         }
     ]
 }

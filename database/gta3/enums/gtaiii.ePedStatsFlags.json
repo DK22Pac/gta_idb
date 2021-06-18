@@ -1,0 +1,45 @@
+{
+    "name": "ePedStatsFlags",
+    "module": "CPedStats",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "PunchOnly",
+            "value": 0
+        },
+        {
+            "name": "CanKneeHead",
+            "value": 1
+        },
+        {
+            "name": "CanKick",
+            "value": 2
+        },
+        {
+            "name": "CanRoundHse",
+            "value": 3
+        },
+        {
+            "name": "NoDive",
+            "value": 4
+        },
+        {
+            "name": "OneHitKnockdown",
+            "value": 5
+        },
+        {
+            "name": "ShoppingBags",
+            "value": 6
+        },
+        {
+            "name": "GunPanic",
+            "value": 7
+        }
+    ]
+}

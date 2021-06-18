@@ -1,6 +1,6 @@
 {
     "name": "CRegisteredCorona",
-    "module": "",
+    "module": "CRegisteredCorona",
     "scope": "",
     "kind": "class",
     "size": "0x80",
@@ -9,13 +9,13 @@
     "members": [
         {
             "name": "m_nUniqueID",
-            "type": "int",
+            "type": "unsigned int",
             "offset": 0,
             "size": 4
         },
         {
-            "name": "time",
-            "type": "int",
+            "name": "m_nLastLOScheck",
+            "type": "unsigned int",
             "offset": 4,
             "size": 4
         },
@@ -26,25 +26,39 @@
             "size": 4
         },
         {
-            "name": "m_Color",
-            "type": "RwRGBA",
+            "name": "m_nRed",
+            "type": "unsigned __int8",
             "offset": "0xC",
-            "size": 4
-        },
-        {
-            "name": "m_nFadeState",
-            "type": "char",
-            "offset": "0x10",
             "size": 1
         },
         {
-            "name": "_pad1",
-            "type": "char[3]",
-            "offset": "0x11",
-            "size": 3
+            "name": "m_nGreen",
+            "type": "unsigned __int8",
+            "offset": "0xD",
+            "size": 1
         },
         {
-            "name": "m_vecPosn",
+            "name": "m_nBlue",
+            "type": "unsigned __int8",
+            "offset": "0xE",
+            "size": 1
+        },
+        {
+            "name": "m_nAlpha",
+            "type": "unsigned __int8",
+            "offset": "0xF",
+            "size": 1,
+            "comment": "alpha when fully visible"
+        },
+        {
+            "name": "m_nFadeAlpha",
+            "type": "unsigned __int8",
+            "offset": "0x10",
+            "size": 1,
+            "comment": "actual value used for rendering, faded"
+        },
+        {
+            "name": "m_vecPos",
             "type": "CVector",
             "offset": "0x14",
             "size": "0xC"
@@ -56,25 +70,19 @@
             "size": 4
         },
         {
-            "name": "normalAngle",
+            "name": "m_fSomeAngle",
             "type": "float",
             "offset": "0x24",
             "size": 4
         },
         {
             "name": "m_bRegisteredThisFrame",
-            "type": "char",
+            "type": "bool",
             "offset": "0x28",
             "size": 1
         },
         {
-            "name": "_pad2",
-            "type": "char[3]",
-            "offset": "0x29",
-            "size": 3
-        },
-        {
-            "name": "farClip",
+            "name": "m_fDrawDist",
             "type": "float",
             "offset": "0x2C",
             "size": 4
@@ -86,152 +94,63 @@
             "size": 1
         },
         {
-            "name": "m_nUsesReflection",
+            "name": "m_nReflection",
             "type": "char",
             "offset": "0x31",
             "size": 1
         },
         {
-            "name": "flags1",
-            "type": "char",
+            "name": "m_nFlags",
+            "type": "eCoronaFlags",
             "offset": "0x32",
-            "size": 1
+            "size": 1,
+            "isBitfield": true
         },
         {
-            "name": "field_33",
-            "type": "char",
+            "name": "m_bRenderReflection",
+            "type": "bool",
             "offset": "0x33",
             "size": 1
         },
         {
-            "name": "field_34",
+            "name": "m_fHeightAboveRoad",
             "type": "float",
             "offset": "0x34",
             "size": 4
         },
         {
-            "name": "field_38",
-            "type": "float",
+            "name": "m_afPrevX",
+            "type": "float[6]",
             "offset": "0x38",
-            "size": 4
+            "size": "0x18"
         },
         {
-            "name": "field_3C",
-            "type": "float",
-            "offset": "0x3C",
-            "size": 4
-        },
-        {
-            "name": "field_40",
-            "type": "char[12]",
-            "offset": "0x40",
-            "size": "0xC"
-        },
-        {
-            "name": "field_4C",
-            "type": "float",
-            "offset": "0x4C",
-            "size": 4
-        },
-        {
-            "name": "field_50",
-            "type": "float",
+            "name": "m_afPrevY",
+            "type": "float[6]",
             "offset": "0x50",
-            "size": 4
+            "size": "0x18"
         },
         {
-            "name": "field_54",
-            "type": "float",
-            "offset": "0x54",
-            "size": 4
-        },
-        {
-            "name": "field_58",
-            "type": "char[15]",
-            "offset": "0x58",
-            "size": "0xF"
-        },
-        {
-            "name": "field_67",
-            "type": "char",
-            "offset": "0x67",
-            "size": 1
-        },
-        {
-            "name": "field_68",
-            "type": "char",
+            "name": "m_anPrevRed",
+            "type": "unsigned __int8[6]",
             "offset": "0x68",
-            "size": 1
+            "size": 6
         },
         {
-            "name": "field_69",
-            "type": "char",
-            "offset": "0x69",
-            "size": 1
-        },
-        {
-            "name": "field_6A",
-            "type": "char[3]",
-            "offset": "0x6A",
-            "size": 3
-        },
-        {
-            "name": "field_6D",
-            "type": "char",
-            "offset": "0x6D",
-            "size": 1
-        },
-        {
-            "name": "field_6E",
-            "type": "char",
+            "name": "m_anPrevGreen",
+            "type": "unsigned __int8[6]",
             "offset": "0x6E",
-            "size": 1
+            "size": 6
         },
         {
-            "name": "field_6F",
-            "type": "char",
-            "offset": "0x6F",
-            "size": 1
-        },
-        {
-            "name": "field_70",
-            "type": "char[3]",
-            "offset": "0x70",
-            "size": 3
-        },
-        {
-            "name": "field_73",
-            "type": "char",
-            "offset": "0x73",
-            "size": 1
-        },
-        {
-            "name": "field_74",
-            "type": "char",
+            "name": "m_anPrevBlue",
+            "type": "unsigned __int8[6]",
             "offset": "0x74",
-            "size": 1
+            "size": 6
         },
         {
-            "name": "field_75",
-            "type": "char",
-            "offset": "0x75",
-            "size": 1
-        },
-        {
-            "name": "field_76",
-            "type": "char[3]",
-            "offset": "0x76",
-            "size": 3
-        },
-        {
-            "name": "field_79",
-            "type": "char",
-            "offset": "0x79",
-            "size": 1
-        },
-        {
-            "name": "field_7A",
-            "type": "char[6]",
+            "name": "m_abHasValue",
+            "type": "bool[6]",
             "offset": "0x7A",
             "size": 6
         }

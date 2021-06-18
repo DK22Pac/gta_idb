@@ -1,8 +1,8 @@
 {
     "name": "LimbMovementInfo",
-    "module": "",
+    "module": "CPedIK",
     "scope": "",
-    "kind": "class",
+    "kind": "struct",
     "size": "0x18",
     "alignment": 0,
     "comment": "",

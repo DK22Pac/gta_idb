@@ -1,6 +1,6 @@
 {
     "name": "CQuaternion",
-    "module": "",
+    "module": "CQuaternion",
     "scope": "",
     "kind": "class",
     "size": "0x10",
@@ -8,25 +8,13 @@
     "comment": "",
     "members": [
         {
-            "name": "x",
-            "type": "float",
+            "name": "imag",
+            "type": "CVector",
             "offset": 0,
-            "size": 4
+            "size": "0xC"
         },
         {
-            "name": "y",
-            "type": "float",
-            "offset": 4,
-            "size": 4
-        },
-        {
-            "name": "z",
-            "type": "float",
-            "offset": 8,
-            "size": 4
-        },
-        {
-            "name": "w",
+            "name": "real",
             "type": "float",
             "offset": "0xC",
             "size": 4

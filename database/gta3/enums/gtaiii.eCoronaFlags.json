@@ -1,0 +1,33 @@
+{
+    "name": "eCoronaFlags",
+    "module": "CRegisteredCorona",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "LOScheck",
+            "value": 0
+        },
+        {
+            "name": "OffScreen",
+            "value": 1
+        },
+        {
+            "name": "FirstUpdate",
+            "value": 2
+        },
+        {
+            "name": "DrawStreak",
+            "value": 3
+        },
+        {
+            "name": "SightClear",
+            "value": 4
+        }
+    ]
+}

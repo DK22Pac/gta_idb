@@ -1,27 +1,27 @@
 {
-    "name": "CRainStreak",
-    "module": "",
+    "name": "tRainStreak",
+    "module": "CWeather",
     "scope": "",
-    "kind": "class",
+    "kind": "struct",
     "size": "0x1C",
     "alignment": 0,
     "comment": "",
     "members": [
         {
-            "name": "m_vecPos",
+            "name": "m_vecPosition",
             "type": "CVector",
             "offset": 0,
             "size": "0xC"
         },
         {
-            "name": "m_vecUp",
+            "name": "m_vecDirection",
             "type": "CVector",
             "offset": "0xC",
             "size": "0xC"
         },
         {
-            "name": "m_nUpdateTimer",
-            "type": "int",
+            "name": "m_nTimer",
+            "type": "unsigned int",
             "offset": "0x18",
             "size": 4
         }

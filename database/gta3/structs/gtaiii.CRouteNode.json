@@ -1,6 +1,6 @@
 {
     "name": "CRouteNode",
-    "module": "",
+    "module": "CRouteNode",
     "scope": "",
     "kind": "class",
     "size": "0x10",
@@ -8,15 +8,9 @@
     "comment": "",
     "members": [
         {
-            "name": "m_nId",
+            "name": "m_nRoute",
             "type": "__int16",
             "offset": 0,
-            "size": 2
-        },
-        {
-            "name": "_pad2",
-            "type": "__int16",
-            "offset": 2,
             "size": 2
         },
         {

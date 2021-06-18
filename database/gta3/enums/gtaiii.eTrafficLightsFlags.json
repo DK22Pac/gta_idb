@@ -1,0 +1,37 @@
+{
+    "name": "eTrafficLightsFlags",
+    "module": "CTrafficLights",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "PED_LIGHTS_WALK",
+            "value": 0
+        },
+        {
+            "name": "CAR_LIGHTS_GREEN",
+            "value": 0
+        },
+        {
+            "name": "PED_LIGHTS_WALK_BLINK",
+            "value": 1
+        },
+        {
+            "name": "CAR_LIGHTS_YELLOW",
+            "value": 1
+        },
+        {
+            "name": "PED_LIGHTS_DONT_WALK",
+            "value": 2
+        },
+        {
+            "name": "CAR_LIGHTS_RED",
+            "value": 2
+        }
+    ]
+}
