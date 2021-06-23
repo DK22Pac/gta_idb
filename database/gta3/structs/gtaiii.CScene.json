@@ -1,6 +1,6 @@
 {
     "name": "CScene",
-    "module": "",
+    "module": "CScene",
     "scope": "",
     "kind": "class",
     "size": 8,
@@ -8,13 +8,13 @@
     "comment": "",
     "members": [
         {
-            "name": "m_pRpWorld",
+            "name": "m_pWorld",
             "type": "RpWorld *",
             "offset": 0,
             "size": 4
         },
         {
-            "name": "m_pRwCamera",
+            "name": "m_pCamera",
             "type": "RwCamera *",
             "offset": 4,
             "size": 4

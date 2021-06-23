@@ -4,19 +4,13 @@
     "scope": "",
     "kind": "class",
     "size": "0x18",
-    "alignment": 0,
+    "alignment": 2,
     "comment": "",
     "members": [
         {
             "name": "m_bInUse",
             "type": "bool",
             "offset": 0,
-            "size": 1
-        },
-        {
-            "name": "pad_1",
-            "type": "char[1]",
-            "offset": 1,
             "size": 1
         },
         {

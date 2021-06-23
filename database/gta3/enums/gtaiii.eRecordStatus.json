@@ -1,0 +1,33 @@
+{
+    "name": "eRecordStatus",
+    "module": "CRecordDataForChase",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "RECORD_STATUS_NONE",
+            "value": 0
+        },
+        {
+            "name": "RECORD_STATUS_RECORD",
+            "value": 1
+        },
+        {
+            "name": "RECORD_STATUS_PLAYBACK_INIT",
+            "value": 2
+        },
+        {
+            "name": "RECORD_STATUS_PLAYBACK",
+            "value": 3
+        },
+        {
+            "name": "RECORD_STATUS_PLAYBACK_BEFORE_RECORDING",
+            "value": 4
+        }
+    ]
+}

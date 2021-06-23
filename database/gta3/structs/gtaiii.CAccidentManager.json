@@ -1,6 +1,6 @@
 {
     "name": "CAccidentManager",
-    "module": "",
+    "module": "CAccidentManager",
     "scope": "",
     "kind": "class",
     "size": "0xF0",
@@ -8,7 +8,7 @@
     "comment": "",
     "members": [
         {
-            "name": "aAccident",
+            "name": "m_aAccidents",
             "type": "CAccident[20]",
             "offset": 0,
             "size": "0xF0"

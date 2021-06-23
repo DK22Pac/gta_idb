@@ -1,6 +1,6 @@
 {
-    "name": "eDarkelStatus",
-    "module": "CDarkel",
+    "name": "eRecordState",
+    "module": "CRecordDataForGame",
     "scope": "",
     "width": 2,
     "isClass": false,
@@ -10,20 +10,16 @@
     "comment": "",
     "members": [
         {
-            "name": "KILLFRENZY_NONE",
+            "name": "RECORD_STATE_NONE",
             "value": 0
         },
         {
-            "name": "KILLFRENZY_ONGOING",
+            "name": "RECORD_STATE_RECORD",
             "value": 1
         },
         {
-            "name": "KILLFRENZY_PASSED",
+            "name": "RECORD_STATE_PLAYBACK",
             "value": 2
-        },
-        {
-            "name": "KILLFRENZY_FAILED",
-            "value": 3
         }
     ]
 }

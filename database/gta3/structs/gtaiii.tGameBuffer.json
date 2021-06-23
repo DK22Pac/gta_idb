@@ -1,8 +1,8 @@
 {
-    "name": "CRecordDataForGameBuffer",
-    "module": "",
+    "name": "tGameBuffer",
+    "module": "CRecordDataForGame",
     "scope": "",
-    "kind": "class",
+    "kind": "struct",
     "size": "0x80",
     "alignment": 0,
     "comment": "",
@@ -15,24 +15,24 @@
         },
         {
             "name": "m_nTimeInMilliseconds",
-            "type": "int",
+            "type": "unsigned int",
             "offset": 4,
             "size": 4
         },
         {
-            "name": "m_bSizeOfPads",
-            "type": "char[2]",
+            "name": "m_nSizeOfPads",
+            "type": "unsigned __int8[2]",
             "offset": 8,
             "size": 2
         },
         {
-            "name": "m_wChecksum",
+            "name": "m_nChecksum",
             "type": "unsigned __int16",
             "offset": "0xA",
             "size": 2
         },
         {
-            "name": "m_abControllerBuffer",
+            "name": "m_ControllerBuffer",
             "type": "unsigned __int8[116]",
             "offset": "0xC",
             "size": "0x74"

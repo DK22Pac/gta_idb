@@ -14,7 +14,7 @@
             "size": "0xC"
         },
         {
-            "name": "field_C",
+            "name": "m_fPointOffsetZ",
             "type": "float",
             "offset": "0xC",
             "size": 4
@@ -26,7 +26,7 @@
             "size": "0xC"
         },
         {
-            "name": "field_1C",
+            "name": "m_fNormalOffsetZ",
             "type": "float",
             "offset": "0x1C",
             "size": 4

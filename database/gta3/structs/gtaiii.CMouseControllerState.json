@@ -5,6 +5,7 @@
     "kind": "class",
     "size": "0x10",
     "alignment": 2,
+    "isCoreClass": true,
     "comment": "",
     "members": [
         {

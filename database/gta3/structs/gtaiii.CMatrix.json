@@ -52,7 +52,7 @@
         },
         {
             "name": "pad3",
-            "type": "float",
+            "type": "unsigned int",
             "offset": "0x3C",
             "size": 4
         },
