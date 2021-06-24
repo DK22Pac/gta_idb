@@ -8,19 +8,19 @@
     "comment": "",
     "members": [
         {
-            "name": "m_nCurrentNodeId",
+            "name": "m_nCurrentRouteNode",
             "type": "int",
             "offset": 0,
             "size": 4
         },
         {
-            "name": "m_nNextNodeId",
+            "name": "m_nNextRouteNode",
             "type": "int",
             "offset": 4,
             "size": 4
         },
         {
-            "name": "m_nPreviousNodeId",
+            "name": "m_nPrevRouteNode",
             "type": "int",
             "offset": 8,
             "size": 4

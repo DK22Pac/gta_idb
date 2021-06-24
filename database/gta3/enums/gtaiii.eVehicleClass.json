@@ -1,6 +1,6 @@
 {
     "name": "eVehicleClass",
-    "module": "",
+    "module": "CCarCtrl",
     "scope": "",
     "width": 4,
     "isClass": false,
@@ -38,7 +38,7 @@
             "value": 6
         },
         {
-            "name": "CARCLASS_IGNORE",
+            "name": "TOTAL_CUSTOM_CLASSES",
             "value": 7
         },
         {

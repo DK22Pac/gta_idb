@@ -1,0 +1,33 @@
+{
+    "name": "eCarDrivingStyle",
+    "module": "CAutoPilot",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "DRIVINGSTYLE_STOP_FOR_CARS",
+            "value": 0
+        },
+        {
+            "name": "DRIVINGSTYLE_SLOW_DOWN_FOR_CARS",
+            "value": 1
+        },
+        {
+            "name": "DRIVINGSTYLE_AVOID_CARS",
+            "value": 2
+        },
+        {
+            "name": "DRIVINGSTYLE_PLOUGH_THROUGH",
+            "value": 3
+        },
+        {
+            "name": "DRIVINGSTYLE_STOP_FOR_CARS_IGNORE_LIGHTS",
+            "value": 4
+        }
+    ]
+}

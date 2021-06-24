@@ -27,6 +27,9 @@
 0x5EC558,0x5F9558,CCollision::LoadCollisionScreen(eLevelName)::levelNames
 0x5EC8B4,0x5F98B4,CCarCtrl::CarDensityMultiplier
 0x5EC8B8,0x5F98B8,CCarCtrl::MaxNumberOfCarsInUse
+0x5EC8CC,0x5F98CC,coef
+0x5EC8D8,0x5F98D8,minAngle
+0x5ECA3C,0x5F9A3C,maxAngle
 0x5ECDD4,0x5F9DD4,gaCarsToCollectInCraigsGarages
 0x5ECEA8,0x5F9EA8,hGarages
 0x5ECEAC,0x5F9EAC,margin
@@ -305,6 +308,8 @@
 0x5FD2A0,0x60A080,CFont::Size2
 0x5FD4A8,0x60A288,foreign_table
 0x5FD814,0x60A5F4,CoorsWithTriangle
+0x5FD8D4,0x60A6B4,amount
+0x5FD8FC,0x60A6DC,moveSpeed
 0x5FDA70,0x60A850,WeaponFilenames
 0x5FDD90,0x60AB70,indices
 0x5FDF74,0x60AD54,`vtable for'CMloModelInfo
@@ -2040,6 +2045,9 @@
 0x94074C,0x950A44,pedBuffers
 0x940768,0x950A60,CStats::MissionsPassed
 0x94076C,0x950A64,CModelInfo::ms_timeModelStore
+0x9411C0,0x9514B8,gpCloudTex
+0x9411F0,0x9514E8,CCarCtrl::NumFireTrucksOnDuty
+0x9411F4,0x9514EC,CRubbish::EndMoversList
 0x941238,0x951530,CMenuManager::m_PrefsLanguage
 0x941240,0x951538,CRubbish::StartEmptyList
 0x941284,0x95157C,CReplay::BigBuildingPtrList

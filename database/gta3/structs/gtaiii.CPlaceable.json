@@ -11,7 +11,7 @@
     "members": [
         {
             "name": "vtable",
-            "type": "CPlaceableVMT *",
+            "type": "EntityVMT",
             "offset": 0,
             "size": 4
         },

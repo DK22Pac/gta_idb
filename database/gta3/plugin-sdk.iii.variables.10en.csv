@@ -27,6 +27,9 @@
 0x5EC558,,_ZZN10CCollision19LoadCollisionScreenE10eLevelNameE10levelNames,CCollision::LoadCollisionScreen(eLevelName)::levelNames,char *[],,16,,,0
 0x5EC8B4,CCarCtrl,_ZN8CCarCtrl20CarDensityMultiplierE,CCarCtrl::CarDensityMultiplier,float,,4,,,0
 0x5EC8B8,CCarCtrl,_ZN8CCarCtrl20MaxNumberOfCarsInUseE,CCarCtrl::MaxNumberOfCarsInUse,int,,4,,,0
+0x5EC8CC,,coef,coef,const float,,4,0.4f,,0
+0x5EC8D8,,minAngle,minAngle,const float,,4,0.1f,,0
+0x5ECA3C,,maxAngle,maxAngle,const float,,4,1.2f,,0
 0x5ECDD4,,gaCarsToCollectInCraigsGarages,gaCarsToCollectInCraigsGarages,eVehicleModel[],,212,,,0
 0x5ECEA8,,_ZL8hGarages,hGarages,int,,4,,,0
 0x5ECEAC,,margin,margin,const float,,4,0.0f,,0
@@ -304,7 +307,9 @@
 0x5FD120,,_ZN5CFont4SizeE,CFont::Size,__int16[192],,384,,,0
 0x5FD2A0,,_ZN5CFont5Size2E,CFont::Size2,__int16[260],,520,,,0
 0x5FD4A8,,foreign_table,foreign_table,__int16[256],,512,,,0
-0x5FD814,,_ZL17CoorsWithTriangle,CoorsWithTriangle,float[30],,120,,,0
+0x5FD814,CFallingGlassPane,_ZL17CoorsWithTriangle,CoorsWithTriangle,CVector2D[5][3],,120,,,0
+0x5FD8D4,,amount,amount,const float,,4,0.0f,,0
+0x5FD8FC,,moveSpeed,moveSpeed,const float,,4,0.1f,,0
 0x5FDA70,,WeaponFilenames,WeaponFilenames,char *[],,184,,,0
 0x5FDD90,,indices,indices,RwImVertexIndex[12],,24,,,0
 0x5FDF74,,_ZTV13CMloModelInfo,`vtable for'CMloModelInfo,,,1,,,0
@@ -1338,7 +1343,7 @@
 0x6E98C8,,_ZN9CParticle14ms_afRandTableE,CParticle::ms_afRandTable,float[20],,80,,,0
 0x6E9918,,SubZo2Label,SubZo2Label,char[8],,8,,,0
 0x6E9920,,_ZN9CRenderer21ms_aVisibleEntityPtrsE,CRenderer::ms_aVisibleEntityPtrs,CEntity *[2000],,8000,,,0
-0x6EB860,CCarCtrl,_ZN8CCarCtrl9CarArraysE,CCarCtrl::CarArrays,int[1792],,7168,,,0
+0x6EB860,CCarCtrl,_ZN8CCarCtrl9CarArraysE,CCarCtrl::CarArrays,int[7][256],,7168,,,0
 0x6ED460,,ScriptParams,ScriptParams,tScriptVariable[32],,128,,,0
 0x6ED4E0,,_ZN11CFileLoader7ms_lineE,CFileLoader::ms_line,char[256],,256,,,0
 0x6ED5E0,,_ZN6CRadar13ms_RadarTraceE,CRadar::ms_RadarTrace,CBlip[32],,1536,,,0
@@ -1353,7 +1358,7 @@
 0x6EE270,,CriticalSection,CriticalSection,struct _RTL_CRITICAL_SECTION,,24,,,0
 0x6EE2D0,CTimeCycle,_ZN10CTimeCycle25m_nFluffyCloudsBottomBlueE,CTimeCycle::m_nFluffyCloudsBottomBlue,int[24][4],,384,,,0
 0x6EE450,,_ZN11CTheScripts14UpsideDownCarsE,CTheScripts::UpsideDownCars,CUpsideDownCarCheck,,48,,,0
-0x6EE480,,_ZN6CGlass11aGlassPanesE,CGlass::aGlassPanes,CFallingGlassPane[45],,5040,,,0
+0x6EE480,CGlass,_ZN6CGlass11aGlassPanesE,CGlass::aGlassPanes,CFallingGlassPane[45],,5040,,,0
 0x6EF830,,gaEvent,gaEvent,CEvent[64],,2304,,,0
 0x6F0130,,NewCoorsForRecordedCars,NewCoorsForRecordedCars,float[28],,112,,,0
 0x6F01A0,CAnimManager,_ZN12CAnimManager14ms_aAnimBlocksE,CAnimManager::ms_aAnimBlocks,CAnimBlock[2],,64,,,0
@@ -1384,7 +1389,7 @@
 0x6FA300,,_ZN8CGarages17aCarsInSafeHouse2E,CGarages::aCarsInSafeHouse2,CStoredCar[6],,240,,,0
 0x6FA3F0,,_ZN8CGarages17aCarsInSafeHouse3E,CGarages::aCarsInSafeHouse3,CStoredCar[6],,240,,,0
 0x6FA4E0,CCranes,_ZN7CCranes7aCranesE,CCranes::aCranes,CCrane[8],,1024,,,0
-0x6FA8E0,,_ZN6CGlass22apEntitiesToBeRenderedE,CGlass::apEntitiesToBeRendered,CEntity *[32],,128,,,0
+0x6FA8E0,CGlass,_ZN6CGlass22apEntitiesToBeRenderedE,CGlass::apEntitiesToBeRendered,CEntity *[32],,128,,,0
 0x6FA960,CTimeCycle,_ZN10CTimeCycle15m_nSkyBottomRedE,CTimeCycle::m_nSkyBottomRed,int[24][4],,384,,,0
 0x6FAAE0,CPathFind,pNodeList,pNodeList,CPathNode *[32],,128,,,0
 0x6FAB60,,_ZN6CWorld19ms_bigBuildingsListE,CWorld::ms_bigBuildingsList,CPtrList[4],,16,,,0
@@ -1514,7 +1519,7 @@
 0x8622F0,,_ZN11CTheScripts24OnAMissionForContactFlagE,CTheScripts::OnAMissionForContactFlag,unsigned int[16],,64,,,0
 0x862330,RenderBuffer,TempBufferRenderVertices,TempBufferRenderVertices,RwIm3DVertex[256],,9216,,,0
 0x864750,,_ZN10CCullZones6aZonesE,CCullZones::aZones,CCullzone[512],,26624,,,0
-0x86AF50,,CentersWithTriangle,CentersWithTriangle,CVector2D[5],,40,,,0
+0x86AF50,CFallingGlassPane,CentersWithTriangle,CentersWithTriangle,CVector2D[5],,40,,,0
 0x86AF78,CTimeCycle,_ZN10CTimeCycle13m_nAmbientRedE,CTimeCycle::m_nAmbientRed,int[24][4],,384,,,0
 0x86B0F8,,AmbientLightColour,AmbientLightColour,RwRGBAReal,,16,,,0
 0x86B108,CTimeCycle,_ZN10CTimeCycle22m_nFluffyCloudsTopBlueE,CTimeCycle::m_nFluffyCloudsTopBlue,int[24][4],,384,,,0
@@ -1631,7 +1636,7 @@
 0x885B50,,_ZN6CStats13BestStuntJumpE,CStats::BestStuntJump,int,,4,,,0
 0x885B54,CTimeCycle,_ZN10CTimeCycle24m_nCurrentSunCoronaGreenE,CTimeCycle::m_nCurrentSunCoronaGreen,int,,4,,,0
 0x885B58,,_ZN6CRadar10TonySpriteE,CRadar::TonySprite,CSprite2d,,4,,,0
-0x885B5C,,_ZN6CGlass16NumGlassEntitiesE,CGlass::NumGlassEntities,unsigned int,,4,,,0
+0x885B5C,CGlass,_ZN6CGlass16NumGlassEntitiesE,CGlass::NumGlassEntities,unsigned int,,4,,,0
 0x885B60,CVehicle,vecRCAeroResistance,vecRCAeroResistance,CVector,,12,,,0
 0x885B6C,,pAmbient,pAmbient,RpLight *,,4,,,0
 0x885B70,,_ZN6CStats15Record4x4MayhemE,CStats::Record4x4Mayhem,int,,4,,,0
@@ -1694,7 +1699,7 @@
 0x8E2BD8,,_ZN10CStreaming15ms_lastCullZoneE,CStreaming::ms_lastCullZone,int,,4,,,0
 0x8E2BDC,,_ZN6CStats9TimesDiedE,CStats::TimesDied,int,,4,,,0
 0x8E2BE0,,CheckSum,CheckSum,int,,4,,,0
-0x8E2BE4,,TempBufferVerticesStoredReflection,TempBufferVerticesStoredReflection,unsigned int,,4,,,0
+0x8E2BE4,CFallingGlassPane,TempBufferVerticesStoredReflection,TempBufferVerticesStoredReflection,int,,4,,,0
 0x8E2BE8,,_ZN6CStats19RoundsFiredByPlayerE,CStats::RoundsFiredByPlayer,int,,4,,,0
 0x8E2BEC,,_ZN6CStats13TimesArrestedE,CStats::TimesArrested,int,,4,,,0
 0x8E2BF4,,_ZN11CTheScripts14pActiveScriptsE,CTheScripts::pActiveScripts,CRunningScript *,,4,,,0
@@ -1732,7 +1737,7 @@
 0x8E2C90,,_ZN10CCullZones11OldCullZoneE,CCullZones::OldCullZone,int,,4,,,0
 0x8E2C94,CBridge,_ZN7CBridge9pLiftPartE,CBridge::pLiftPart,CBuilding *,,4,,,0
 0x8E2CB4,CTimer,_ZN6CTimer12ms_fTimeStepE,CTimer::ms_fTimeStep,float,,4,,,0
-0x8E2CB8,,TempBufferIndicesStoredReflection,TempBufferIndicesStoredReflection,unsigned int,,4,,,0
+0x8E2CB8,CFallingGlassPane,TempBufferIndicesStoredReflection,TempBufferIndicesStoredReflection,int,,4,,,0
 0x8E2CBC,,ValidSaveName,ValidSaveName,char[260],,260,,,0
 0x8E2DC0,,_ZN6CStats24TotalNumberOfUniqueJumpsE,CStats::TotalNumberOfUniqueJumps,int,,4,,,0
 0x8E2DC4,CDraw,_ZN5CDraw13ms_fNearClipZE,CDraw::ms_fNearClipZ,float,,4,,,0
@@ -1771,7 +1776,7 @@
 0x8F1AD4,CPopulation,_ZN11CPopulation17RegenerationFrontE,CPopulation::RegenerationFront,CVector,,12,,,0
 0x8F1AE0,CTimeCycle,_ZN10CTimeCycle18m_fCurrentFogStartE,CTimeCycle::m_fCurrentFogStart,float,,4,,,0
 0x8F1AE4,CPathFind,InfoForTilePeds,InfoForTilePeds,CPathInfoForObject *,,4,,,0
-0x8F1AE8,,TempBufferVerticesStoredShattered,TempBufferVerticesStoredShattered,unsigned int,,4,,,0
+0x8F1AE8,CFallingGlassPane,TempBufferVerticesStoredShattered,TempBufferVerticesStoredShattered,int,,4,,,0
 0x8F1AEC,CRecordDataForChase,_ZN19CRecordDataForChase13AnimStartTimeE,CRecordDataForChase::AnimStartTime,unsigned int,,4,,,0
 0x8F1AF4,,_ZN9CSprite2d12mCurrentBankE,CSprite2d::mCurrentBank,int,,4,,,0
 0x8F1AF8,CReferences,_ZN11CReferences10pEmptyListE,CReferences::pEmptyList,CReference *,,4,,,0
@@ -1934,7 +1939,7 @@
 0x8F43A4,,ControlsManager,ControlsManager,CControllerConfigManager,,5180,,,0
 0x8F57E0,,_ZN6CStats23LivesSavedWithAmbulanceE,CStats::LivesSavedWithAmbulance,int,,4,,,0
 0x8F57E4,CWeather,_ZN8CWeather24WhenToPlayLightningSoundE,CWeather::WhenToPlayLightningSound,unsigned int,,4,,,0
-0x8F57E8,,TempBufferVerticesStoredHiLight,TempBufferVerticesStoredHiLight,unsigned int,,4,,,0
+0x8F57E8,CFallingGlassPane,TempBufferVerticesStoredHiLight,TempBufferVerticesStoredHiLight,int,,4,,,0
 0x8F57EC,CTimeCycle,_ZN10CTimeCycle23m_nCurrentFogColourBlueE,CTimeCycle::m_nCurrentFogColourBlue,int,,4,,,0
 0x8F582C,,gpReflectionTex,gpReflectionTex,RwTexture *,,4,,,0
 0x8F5830,,_ZN6CRadar9LizSpriteE,CRadar::LizSprite,CSprite2d,,4,,,0
@@ -2039,7 +2044,10 @@
 0x940738,,_ZN10CStreaming19ms_endRequestedListE,CStreaming::ms_endRequestedList,CStreamingInfo,,20,,,0
 0x94074C,,pedBuffers,pedBuffers,char *[7],,28,,,0
 0x940768,,_ZN6CStats14MissionsPassedE,CStats::MissionsPassed,int,,4,,,0
-0x94076C,CModelInfo,_ZN10CModelInfo17ms_timeModelStoreE,CModelInfo::ms_timeModelStore,"CStore<CTimeModelInfo, 30>",,2732,,,0
+0x94076C,CModelInfo,_ZN10CModelInfo17ms_timeModelStoreE,CModelInfo::ms_timeModelStore,"CStore<CTimeModelInfo, 30>",,2644,,,0
+0x9411C0,CClouds,gpCloudTex,gpCloudTex,RwTexture *[5],,20,,"RwTexture* gpCloudTex[5] = {cloud1, cloud2, cloud3, cloudhilit, cloudmasked};",0
+0x9411F0,CCarCtrl,_ZN8CCarCtrl19NumFireTrucksOnDutyE,CCarCtrl::NumFireTrucksOnDuty,int,,4,,,0
+0x9411F4,,_ZN8CRubbish13EndMoversListE,CRubbish::EndMoversList,COneSheet,,68,,,0
 0x941238,,_ZN12CMenuManager15m_PrefsLanguageE,CMenuManager::m_PrefsLanguage,int,,4,,,0
 0x941240,,_ZN8CRubbish14StartEmptyListE,CRubbish::StartEmptyList,COneSheet,,68,,,0
 0x941284,,_ZN7CReplay18BigBuildingPtrListE,CReplay::BigBuildingPtrList,CPtrNode *,,4,,,0
@@ -2101,7 +2109,7 @@
 0x942F9C,,nSampleDataSize,nSampleDataSize,int,,4,,,0
 0x942FA0,,OddJob2OffTimer,OddJob2OffTimer,float,,4,,,0
 0x942FA4,CCutsceneMgr,_ZN12CCutsceneMgr18ms_numCutsceneObjsE,CCutsceneMgr::ms_numCutsceneObjs,unsigned int,,4,,,0
-0x942FA8,,TempBufferIndicesStoredShattered,TempBufferIndicesStoredShattered,unsigned int,,4,,,0
+0x942FA8,CFallingGlassPane,TempBufferIndicesStoredShattered,TempBufferIndicesStoredShattered,int,,4,,,0
 0x942FAC,CTimeCycle,_ZN10CTimeCycle25m_fCurrentDirectionalBlueE,CTimeCycle::m_fCurrentDirectionalBlue,float,,4,,,0
 0x942FB0,,_ZN10CStreaming22ms_streamingBufferSizeE,CStreaming::ms_streamingBufferSize,unsigned int,,4,,,0
 0x942FB4,,_ZN4CHud14m_pVehicleNameE,CHud::m_pVehicleName,wchar_t *,,4,,,0
@@ -2127,7 +2135,7 @@
 0x9430D4,,_ZN11CTheScripts12pIdleScriptsE,CTheScripts::pIdleScripts,CRunningScript *,,4,,,0
 0x9430D8,CDarkel,_ZN7CDarkel17TimeOfFrenzyStartE,CDarkel::TimeOfFrenzyStart,unsigned int,,4,,,0
 0x9430DC,CPools,_ZN6CPools15ms_pVehiclePoolE,CPools::ms_pVehiclePool,CPool_CVehicle *,"CPool<CVehicle, CAutomobile> *",4,,,0
-0x9430E0,,TempBufferIndicesStoredHiLight,TempBufferIndicesStoredHiLight,unsigned int,,4,,,0
+0x9430E0,CFallingGlassPane,TempBufferIndicesStoredHiLight,TempBufferIndicesStoredHiLight,int,,4,,,0
 0x9430E4,,_ZN6CClock17ms_nLastClockTickE,CClock::ms_nLastClockTick,unsigned int,,4,,,0
 0x9430E8,,_ZN6CStats13MissionsGivenE,CStats::MissionsGiven,int,,4,,,0
 0x9430EC,,TimeStartedCountingForFade,TimeStartedCountingForFade,unsigned int,,4,,,0

@@ -3,7 +3,7 @@
     "module": "",
     "scope": "",
     "kind": "class",
-    "size": "0xAAC",
+    "size": "0xA54",
     "alignment": 0,
     "comment": "",
     "members": [
@@ -15,9 +15,9 @@
         },
         {
             "name": "m_sObject",
-            "type": "CTimeModelInfo[31]",
+            "type": "CTimeModelInfo[30]",
             "offset": 4,
-            "size": "0xAA8"
+            "size": "0xA50"
         }
     ]
 }
