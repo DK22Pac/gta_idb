@@ -1,10 +1,10 @@
 {
-    "name": "CLink<CColModel>",
+    "name": "CLink<CColModel*>",
     "module": "",
     "scope": "",
     "kind": "class",
     "size": "0xC",
-    "alignment": 2,
+    "alignment": 0,
     "comment": "",
     "members": [
         {

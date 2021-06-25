@@ -311,7 +311,7 @@
 0x5FD8D4,0x60A6B4,amount
 0x5FD8FC,0x60A6DC,moveSpeed
 0x5FDA70,0x60A850,WeaponFilenames
-0x5FDD90,0x60AB70,indices
+0x5FDD90,0x60AB70,Index
 0x5FDF74,0x60AD54,`vtable for'CMloModelInfo
 0x5FDF98,0x60AD78,`vtable for'CSimpleModelInfo
 0x5FDFB8,0x60AD98,`vtable for'CTimeModelInfo
@@ -933,10 +933,15 @@
 0x6490AC,0x6590AC,gpWakeOldRaster
 0x6490E0,0x6590E0,RubbishIndexList
 0x6490EC,0x6590EC,RubbishIndexList2
+0x6490F8,0x6590F8,RubbishVertices
 0x649188,0x659188,ShadowIndexList
+0x6491B8,0x6591B8,ShadowVertices
 0x649320,0x659320,SkidmarkIndexList
 0x6493E0,0x6593E0,SkidmarkVertices
 0x64986C,0x65986C,TraceIndexList
+0x649884,0x659884,TraceVertices
+0x64995C,0x65995C,StreakIndexList
+0x649974,0x659974,StreakVertices
 0x649A10,0x659A10,"`guard variable for'LookForBatCB(RwObject *,void *)::MatLTM"
 0x649A14,0x659A14,"LookForBatCB(RwObject *,void *)::MatLTM"
 0x649A5C,0x659A5C,CSpecialParticleStuff::UpdateBoatFoamAnimation(CMatrix *)::dX
@@ -2321,6 +2326,7 @@
 0x95CD81,0x96D079,bPlayerSniperBullet
 0x95CD82,0x96D07A,CClock::bClockHasBeenStored
 0x95CD83,0x96D07B,CGarages::PlayerInGarage
+0x95CD84,0x96D07C,CMBlur::ms_bScaledBlur
 0x95CD85,0x96D07D,CHeli::CatalinaHeliOn
 0x95CD86,0x96D07E,CRenderer::m_loadingPriority
 0x95CD87,0x96D07F,CTheScripts::DbgFlag
@@ -2357,7 +2363,7 @@
 0x95CDAA,0x96D0A3,CWorld::bIncludeCarTyres
 0x95CDAB,0x96D0A4,CMBlur::ms_bJustInitialised
 0x95CDAC,0x96D0A5,CWeather::LightningBurst
-0x95CDAD,0,CMBlur::BlurOn
+0x95CDAD,0x60AB7C,CMBlur::BlurOn
 0x95CDAF,0x96D0A7,CTheCarGenerators::ProcessCounter
 0x95CDB0,0x96D0A8,CStreaming::ms_bLoadingBigModel
 0x95CDB1,0x96D0A9,CTimer::m_CodePause

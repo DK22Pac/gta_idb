@@ -1,0 +1,53 @@
+{
+    "name": "eMBlurType",
+    "module": "CMBlur",
+    "scope": "",
+    "width": 4,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "MOTION_BLUR_NONE",
+            "value": 0
+        },
+        {
+            "name": "MOTION_BLUR_SNIPER",
+            "value": 1
+        },
+        {
+            "name": "MOTION_BLUR_LIGHT_SCENE",
+            "value": 2
+        },
+        {
+            "name": "MOTION_BLUR_SECURITY_CAM",
+            "value": 3
+        },
+        {
+            "name": "MOTION_BLUR_CUT_SCENE",
+            "value": 4
+        },
+        {
+            "name": "MOTION_BLUR_INTRO",
+            "value": 5
+        },
+        {
+            "name": "MOTION_BLUR_INTRO2",
+            "value": 6
+        },
+        {
+            "name": "MOTION_BLUR_SNIPER_ZOOM",
+            "value": 7
+        },
+        {
+            "name": "MOTION_BLUR_INTRO3",
+            "value": 8
+        },
+        {
+            "name": "MOTION_BLUR_INTRO4",
+            "value": 9
+        }
+    ]
+}

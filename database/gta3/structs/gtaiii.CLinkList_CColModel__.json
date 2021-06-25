@@ -1,5 +1,5 @@
 {
-    "name": "CLinkList<CColModel>",
+    "name": "CLinkList<CColModel*>",
     "module": "",
     "scope": "",
     "kind": "class",

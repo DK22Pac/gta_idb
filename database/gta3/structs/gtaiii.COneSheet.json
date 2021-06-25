@@ -1,6 +1,6 @@
 {
     "name": "COneSheet",
-    "module": "",
+    "module": "COneSheet",
     "scope": "",
     "kind": "class",
     "size": "0x44",
@@ -8,52 +8,64 @@
     "comment": "",
     "members": [
         {
-            "name": "m_avecPosn",
-            "type": "CVector[2]",
+            "name": "m_vecBasePos",
+            "type": "CVector",
             "offset": 0,
-            "size": "0x18"
+            "size": "0xC"
         },
         {
-            "name": "m_fGroundZ",
+            "name": "m_vecAnimatedPos",
+            "type": "CVector",
+            "offset": "0xC",
+            "size": "0xC"
+        },
+        {
+            "name": "m_fTargetZ",
             "type": "float",
             "offset": "0x18",
             "size": 4
         },
         {
-            "name": "m_bActive",
+            "name": "m_nState",
             "type": "char",
             "offset": "0x1C",
             "size": 1
         },
         {
-            "name": "m_bMovementActive",
+            "name": "m_nAnimationType",
             "type": "char",
             "offset": "0x1D",
             "size": 1
         },
         {
-            "name": "_pad1E",
-            "type": "char[2]",
-            "offset": "0x1E",
-            "size": 2
-        },
-        {
-            "name": "m_nTimer",
+            "name": "m_nMoveStart",
             "type": "unsigned int",
             "offset": "0x20",
             "size": 4
         },
         {
-            "name": "m_nDuration",
+            "name": "m_nMoveDuration",
             "type": "unsigned int",
             "offset": "0x24",
             "size": 4
         },
         {
-            "name": "m_vecMoveSpeed",
-            "type": "CVector",
+            "name": "m_fAnimHeight",
+            "type": "float",
             "offset": "0x28",
-            "size": "0xC"
+            "size": 4
+        },
+        {
+            "name": "m_nDistX",
+            "type": "float",
+            "offset": "0x2C",
+            "size": 4
+        },
+        {
+            "name": "m_nDistY",
+            "type": "float",
+            "offset": "0x30",
+            "size": 4
         },
         {
             "name": "m_fAngle",
@@ -62,31 +74,25 @@
             "size": 4
         },
         {
-            "name": "m_bZoneVissible",
+            "name": "m_bIsVisible",
             "type": "bool",
             "offset": "0x38",
             "size": 1
         },
         {
-            "name": "m_nFlags",
-            "type": "char",
+            "name": "m_bTargetIsVisible",
+            "type": "bool",
             "offset": "0x39",
             "size": 1
         },
         {
-            "name": "_pad3A",
-            "type": "char[2]",
-            "offset": "0x3A",
-            "size": 2
-        },
-        {
-            "name": "next",
+            "name": "m_pNext",
             "type": "COneSheet *",
             "offset": "0x3C",
             "size": 4
         },
         {
-            "name": "prev",
+            "name": "m_pPrev",
             "type": "COneSheet *",
             "offset": "0x40",
             "size": 4
