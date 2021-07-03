@@ -1,15 +1,15 @@
 {
-    "name": "C_PcSave",
-    "module": "C_PcSave",
+    "name": "IDirectInputDevice8",
+    "module": "",
     "scope": "",
     "kind": "class",
     "size": 4,
-    "alignment": 0,
+    "alignment": 2,
     "comment": "",
     "members": [
         {
-            "name": "nErrorCode",
-            "type": "eSaveStatus",
+            "name": "vtable",
+            "type": "IDirectInputDevice8VMT *",
             "offset": 0,
             "size": 4
         }

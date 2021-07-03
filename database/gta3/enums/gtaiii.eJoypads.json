@@ -1,0 +1,25 @@
+{
+    "name": "eJoypads",
+    "module": "",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "JOYSTICK1",
+            "value": 0
+        },
+        {
+            "name": "JOYSTICK2",
+            "value": 1
+        },
+        {
+            "name": "MAX_JOYSTICKS",
+            "value": 2
+        }
+    ]
+}

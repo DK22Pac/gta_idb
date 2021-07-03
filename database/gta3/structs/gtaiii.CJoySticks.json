@@ -1,0 +1,17 @@
+{
+    "name": "CJoySticks",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x20",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_aJoys",
+            "type": "tJoy[2]",
+            "offset": 0,
+            "size": "0x20"
+        }
+    ]
+}

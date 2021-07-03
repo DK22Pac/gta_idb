@@ -1,0 +1,23 @@
+{
+    "name": "DIPROPDWORD",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x14",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "diph",
+            "type": "DIPROPHEADER",
+            "offset": 0,
+            "size": "0x10"
+        },
+        {
+            "name": "dwData",
+            "type": "DWORD",
+            "offset": "0x10",
+            "size": 4
+        }
+    ]
+}

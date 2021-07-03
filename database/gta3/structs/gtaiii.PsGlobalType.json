@@ -4,7 +4,7 @@
     "scope": "",
     "kind": "class",
     "size": "0x28",
-    "alignment": 0,
+    "alignment": 2,
     "comment": "",
     "members": [
         {
@@ -20,50 +20,44 @@
             "size": 4
         },
         {
-            "name": "fullscreen",
-            "type": "int",
+            "name": "fullScreen",
+            "type": "RwBool",
             "offset": 8,
             "size": 4
         },
         {
-            "name": "lastMousePos_X",
-            "type": "float",
+            "name": "lastMousePos",
+            "type": "RwV2d",
             "offset": "0xC",
-            "size": 4
-        },
-        {
-            "name": "lastMousePos_Y",
-            "type": "float",
-            "offset": "0x10",
-            "size": 4
+            "size": 8
         },
         {
             "name": "unk",
-            "type": "int",
+            "type": "DWORD",
             "offset": "0x14",
             "size": 4
         },
         {
-            "name": "diInterface",
-            "type": "int",
+            "name": "dinterface",
+            "type": "LPDIRECTINPUT8",
             "offset": "0x18",
             "size": 4
         },
         {
-            "name": "diMouse",
-            "type": "int",
+            "name": "mouse",
+            "type": "LPDIRECTINPUTDEVICE8",
             "offset": "0x1C",
             "size": 4
         },
         {
-            "name": "diDevice1",
-            "type": "IDirectInputDevice *",
+            "name": "joy1",
+            "type": "LPDIRECTINPUTDEVICE8",
             "offset": "0x20",
             "size": 4
         },
         {
-            "name": "diDevice2",
-            "type": "IDirectInputDevice *",
+            "name": "joy2",
+            "type": "LPDIRECTINPUTDEVICE8",
             "offset": "0x24",
             "size": 4
         }

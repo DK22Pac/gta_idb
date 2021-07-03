@@ -4,26 +4,50 @@
     "scope": "",
     "kind": "class",
     "size": "0x2BC",
-    "alignment": 0,
+    "alignment": 2,
     "comment": "",
     "members": [
         {
-            "name": "byte0",
-            "type": "_BYTE",
+            "name": "m_nLineCount",
+            "type": "unsigned __int8",
             "offset": 0,
             "size": 1
         },
         {
-            "name": "byte1",
-            "type": "_BYTE",
+            "name": "m_nCurrentLine",
+            "type": "unsigned __int8",
             "offset": 1,
             "size": 1
         },
         {
-            "name": "byte2",
-            "type": "_BYTE[698]",
+            "name": "Buffers",
+            "type": "wchar_t[8][40]",
             "offset": 2,
-            "size": "0x2BA"
+            "size": "0x280"
+        },
+        {
+            "name": "m_aTimer",
+            "type": "unsigned int[8]",
+            "offset": "0x284",
+            "size": "0x20"
+        },
+        {
+            "name": "m_aRed",
+            "type": "unsigned __int8[8]",
+            "offset": "0x2A4",
+            "size": 8
+        },
+        {
+            "name": "m_aGreen",
+            "type": "unsigned __int8[8]",
+            "offset": "0x2AC",
+            "size": 8
+        },
+        {
+            "name": "m_aBlue",
+            "type": "unsigned __int8[8]",
+            "offset": "0x2B4",
+            "size": 8
         }
     ]
 }

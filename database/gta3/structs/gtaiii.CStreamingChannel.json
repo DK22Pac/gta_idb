@@ -8,37 +8,19 @@
     "comment": "",
     "members": [
         {
-            "name": "field_0",
+            "name": "streamIds",
             "type": "int[4]",
             "offset": 0,
             "size": "0x10"
         },
         {
-            "name": "field_10",
-            "type": "int",
+            "name": "offsets",
+            "type": "int[4]",
             "offset": "0x10",
-            "size": 4
+            "size": "0x10"
         },
         {
-            "name": "field_14",
-            "type": "int",
-            "offset": "0x14",
-            "size": 4
-        },
-        {
-            "name": "field_18",
-            "type": "int",
-            "offset": "0x18",
-            "size": 4
-        },
-        {
-            "name": "field_1C",
-            "type": "int",
-            "offset": "0x1C",
-            "size": 4
-        },
-        {
-            "name": "m_nStatus",
+            "name": "state",
             "type": "int",
             "offset": "0x20",
             "size": 4
@@ -50,28 +32,29 @@
             "size": 4
         },
         {
-            "name": "m_nPosition",
+            "name": "position",
             "type": "int",
             "offset": "0x28",
             "size": 4
         },
         {
-            "name": "m_nSectorsRead",
+            "name": "size",
             "type": "int",
             "offset": "0x2C",
             "size": 4
         },
         {
-            "name": "field_30",
+            "name": "numTries",
             "type": "int",
             "offset": "0x30",
             "size": 4
         },
         {
-            "name": "m_nCdStreamStatus",
+            "name": "status",
             "type": "int",
             "offset": "0x34",
-            "size": 4
+            "size": 4,
+            "comment": "from CdStream"
         }
     ]
 }

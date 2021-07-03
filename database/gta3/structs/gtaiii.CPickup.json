@@ -1,6 +1,6 @@
 {
     "name": "CPickup",
-    "module": "",
+    "module": "CPickup",
     "scope": "",
     "kind": "class",
     "size": "0x1C",
@@ -9,9 +9,10 @@
     "members": [
         {
             "name": "m_nPickupType",
-            "type": "char",
+            "type": "unsigned __int8",
             "offset": 0,
-            "size": 1
+            "size": 1,
+            "comment": "see ePickupType"
         },
         {
             "name": "m_bRemoved",
@@ -20,8 +21,8 @@
             "size": 1
         },
         {
-            "name": "m_nMoneyPerDay",
-            "type": "_WORD",
+            "name": "m_nQuantity",
+            "type": "unsigned __int16",
             "offset": 2,
             "size": 2
         },
@@ -29,29 +30,28 @@
             "name": "m_pObject",
             "type": "CObject *",
             "offset": 4,
-            "size": 4,
-            "comment": "CObject*"
+            "size": 4
         },
         {
-            "name": "m_nRegenerationTime",
-            "type": "int",
+            "name": "m_nTimer",
+            "type": "unsigned int",
             "offset": 8,
             "size": 4
         },
         {
             "name": "m_nModelIndex",
-            "type": "__int16",
+            "type": "unsigned __int16",
             "offset": "0xC",
             "size": 2
         },
         {
             "name": "m_nReferenceIndex",
-            "type": "__int16",
+            "type": "unsigned __int16",
             "offset": "0xE",
             "size": 2
         },
         {
-            "name": "m_vecPosition",
+            "name": "m_vecPos",
             "type": "CVector",
             "offset": "0x10",
             "size": "0xC"

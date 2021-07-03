@@ -1,0 +1,37 @@
+{
+    "name": "BlockedRange",
+    "module": "CRenderer",
+    "scope": "",
+    "kind": "class",
+    "size": "0x10",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "a",
+            "type": "float",
+            "offset": 0,
+            "size": 4,
+            "comment": "unknown"
+        },
+        {
+            "name": "b",
+            "type": "float",
+            "offset": 4,
+            "size": 4,
+            "comment": "unknown"
+        },
+        {
+            "name": "prev",
+            "type": "BlockedRange *",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "next",
+            "type": "BlockedRange *",
+            "offset": "0xC",
+            "size": 4
+        }
+    ]
+}

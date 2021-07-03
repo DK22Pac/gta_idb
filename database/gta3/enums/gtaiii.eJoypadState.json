@@ -1,0 +1,21 @@
+{
+    "name": "eJoypadState",
+    "module": "",
+    "scope": "",
+    "width": 4,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "JOYPAD_UNUSED",
+            "value": 0
+        },
+        {
+            "name": "JOYPAD_ATTACHED",
+            "value": 1
+        }
+    ]
+}

@@ -236,7 +236,7 @@
             "size": 1
         },
         {
-            "name": "m_bFrontendTexturesLoaded",
+            "name": "m_bSpritesLoaded",
             "type": "bool",
             "offset": "0x457",
             "size": 1
@@ -248,7 +248,7 @@
             "size": "0x70"
         },
         {
-            "name": "m_asMultiPlayerTextures",
+            "name": "m_aMenuSprites",
             "type": "CSprite2d[20]",
             "offset": "0x4C8",
             "size": "0x50"

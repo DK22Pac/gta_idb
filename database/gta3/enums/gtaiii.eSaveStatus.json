@@ -1,0 +1,57 @@
+{
+    "name": "eSaveStatus",
+    "module": "C_PcSave",
+    "scope": "",
+    "width": 4,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "SAVESTATUS_SUCCESSFUL",
+            "value": 0
+        },
+        {
+            "name": "SAVESTATUS_ERR_SAVE_CREATE",
+            "value": 1
+        },
+        {
+            "name": "SAVESTATUS_ERR_SAVE_WRITE",
+            "value": 2
+        },
+        {
+            "name": "SAVESTATUS_ERR_SAVE_CLOSE",
+            "value": 3
+        },
+        {
+            "name": "SAVESTATUS_ERR_LOAD_OPEN",
+            "value": 4
+        },
+        {
+            "name": "SAVESTATUS_ERR_LOAD_READ",
+            "value": 5
+        },
+        {
+            "name": "SAVESTATUS_ERR_LOAD_CLOSE",
+            "value": 6
+        },
+        {
+            "name": "SAVESTATUS_ERR_DATA_INVALID",
+            "value": 7
+        },
+        {
+            "name": "SAVESTATUS_DELETEFAILED8",
+            "value": 8
+        },
+        {
+            "name": "SAVESTATUS_DELETEFAILED9",
+            "value": 9
+        },
+        {
+            "name": "SAVESTATUS_DELETEFAILED10",
+            "value": 10
+        }
+    ]
+}

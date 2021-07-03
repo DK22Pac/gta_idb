@@ -62,76 +62,112 @@
             "value": 12
         },
         {
-            "name": "rsRWINITIALIZE",
+            "name": "_rs_13",
             "value": 13
         },
         {
-            "name": "rsRWTERMINATE",
+            "name": "_rs_14",
             "value": 14
         },
         {
-            "name": "rsSELECTDEVICE",
+            "name": "_rs_15",
             "value": 15
         },
         {
-            "name": "rsINITIALIZE",
+            "name": "_rs_16",
             "value": 16
         },
         {
-            "name": "rsTERMINATE",
+            "name": "_rs_17",
             "value": 17
         },
         {
-            "name": "rsIDLE",
+            "name": "_rs_18",
             "value": 18
         },
         {
-            "name": "rsKEYDOWN",
+            "name": "_rs_19",
             "value": 19
         },
         {
-            "name": "rsKEYUP",
+            "name": "_rs_20",
             "value": 20
         },
         {
-            "name": "rsQUITAPP",
+            "name": "rsRWINITIALIZE",
             "value": 21
         },
         {
-            "name": "rsPADBUTTONDOWN",
+            "name": "rsRWTERMINATE",
             "value": 22
         },
         {
-            "name": "rsPADBUTTONUP",
+            "name": "rsSELECTDEVICE",
             "value": 23
         },
         {
-            "name": "rsPADANALOGUELEFT",
+            "name": "rsINITIALIZE",
             "value": 24
         },
         {
-            "name": "rsPADANALOGUELEFTRESET",
+            "name": "rsTERMINATE",
             "value": 25
         },
         {
-            "name": "rsPADANALOGUERIGHT",
+            "name": "rsIDLE",
             "value": 26
         },
         {
-            "name": "rsPADANALOGUERIGHTRESET",
+            "name": "rsFRONTENDIDLE",
             "value": 27
         },
         {
-            "name": "rsPREINITCOMMANDLINE",
+            "name": "rsKEYDOWN",
             "value": 28
         },
         {
-            "name": "rsACTIVATE",
+            "name": "rsKEYUP",
             "value": 29
         },
         {
-            "name": "rsSETMEMORYFUNCS",
+            "name": "rsQUITAPP",
             "value": 30
+        },
+        {
+            "name": "rsPADBUTTONDOWN",
+            "value": 31
+        },
+        {
+            "name": "rsPADBUTTONUP",
+            "value": 32
+        },
+        {
+            "name": "rsPADANALOGUELEFT",
+            "value": 33
+        },
+        {
+            "name": "rsPADANALOGUELEFTRESET",
+            "value": 34
+        },
+        {
+            "name": "rsPADANALOGUERIGHT",
+            "value": 35
+        },
+        {
+            "name": "rsPADANALOGUERIGHTRESET",
+            "value": 36
+        },
+        {
+            "name": "rsPREINITCOMMANDLINE",
+            "value": 37
+        },
+        {
+            "name": "rsACTIVATE",
+            "value": 38
+        },
+        {
+            "name": "rsSETMEMORYFUNCS",
+            "value": 39
         }
     ]
 }

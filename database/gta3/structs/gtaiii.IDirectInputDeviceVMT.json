@@ -75,7 +75,7 @@
         },
         {
             "name": "SetDataFormat",
-            "type": "HRESULT (__stdcall *)(IDirectInputDevice *, LPCDIDATAFORMAT)",
+            "type": "HRESULT (__stdcall *)(IDirectInputDevice *, LPDIDATAFORMAT)",
             "offset": "0x2C",
             "size": 4
         },

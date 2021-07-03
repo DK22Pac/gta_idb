@@ -1,6 +1,6 @@
 {
-    "name": "cPedParams",
-    "module": "cAudioManager",
+    "name": "CPaletteList",
+    "module": "",
     "scope": "",
     "kind": "class",
     "size": "0xC",
@@ -8,20 +8,20 @@
     "comment": "",
     "members": [
         {
-            "name": "m_bDistanceCalculated",
-            "type": "bool",
+            "name": "Max",
+            "type": "int",
             "offset": 0,
-            "size": 1
+            "size": 4
         },
         {
-            "name": "m_fDistance",
-            "type": "float",
+            "name": "Num",
+            "type": "int",
             "offset": 4,
             "size": 4
         },
         {
-            "name": "m_pPed",
-            "type": "CPed *",
+            "name": "Data",
+            "type": "int *",
             "offset": 8,
             "size": 4
         }

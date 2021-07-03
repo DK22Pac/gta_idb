@@ -165,7 +165,7 @@
         },
         {
             "name": "m_nPacManPickupsCarried",
-            "type": "char",
+            "type": "unsigned __int8",
             "offset": "0x1FB",
             "size": 1
         },

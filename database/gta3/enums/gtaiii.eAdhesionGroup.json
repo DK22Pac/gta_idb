@@ -1,0 +1,37 @@
+{
+    "name": "eAdhesionGroup",
+    "module": "CSurfaceTable",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "ADHESIVE_RUBBER",
+            "value": 0
+        },
+        {
+            "name": "ADHESIVE_HARD",
+            "value": 1
+        },
+        {
+            "name": "ADHESIVE_ROAD",
+            "value": 2
+        },
+        {
+            "name": "ADHESIVE_LOOSE",
+            "value": 3
+        },
+        {
+            "name": "ADHESIVE_WET",
+            "value": 4
+        },
+        {
+            "name": "NUMADHESIVEGROUPS",
+            "value": 5
+        }
+    ]
+}

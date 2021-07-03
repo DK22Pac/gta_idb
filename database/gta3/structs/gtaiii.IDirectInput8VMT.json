@@ -1,0 +1,41 @@
+{
+    "name": "IDirectInput8VMT",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x14",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "metod1",
+            "type": "void *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "metod2",
+            "type": "void *",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "Release",
+            "type": "ULONG (__stdcall *)(IDirectInput8 *)",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "CreateDevice",
+            "type": "HRESULT (__stdcall *)(IDirectInput8 *, REFGUID rguid, LPDIRECTINPUTDEVICE *lplpDirectInputDevice, LPUNKNOWN pUnkOuter)",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "EnumDevices",
+            "type": "HRESULT (__stdcall *)(IDirectInput8 *, DWORD dwDevType, LPDIENUMDEVICESCALLBACK lpCallback, LPVOID pvRef, DWORD dwFlags)",
+            "offset": "0x10",
+            "size": 4
+        }
+    ]
+}

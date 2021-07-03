@@ -4,44 +4,32 @@
     "scope": "",
     "kind": "class",
     "size": "0x6C",
-    "alignment": 0,
+    "alignment": 2,
     "comment": "",
     "members": [
         {
             "name": "m_nNumVerts",
-            "type": "unsigned __int16",
+            "type": "__int16",
             "offset": 0,
             "size": 2
         },
         {
-            "name": "_pad2",
-            "type": "char[2]",
-            "offset": 2,
-            "size": 2
-        },
-        {
-            "name": "m_avecPosn",
+            "name": "m_aVerts",
             "type": "CVector[7]",
             "offset": 4,
             "size": "0x54"
         },
         {
             "name": "m_aU",
-            "type": "char[7]",
+            "type": "unsigned __int8[7]",
             "offset": "0x58",
             "size": 7
         },
         {
             "name": "m_aV",
-            "type": "char[7]",
+            "type": "unsigned __int8[7]",
             "offset": "0x5F",
             "size": 7
-        },
-        {
-            "name": "_pad66",
-            "type": "char[2]",
-            "offset": "0x66",
-            "size": 2
         },
         {
             "name": "m_pNext",

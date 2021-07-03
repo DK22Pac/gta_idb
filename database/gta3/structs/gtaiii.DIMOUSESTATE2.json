@@ -1,0 +1,35 @@
+{
+    "name": "DIMOUSESTATE2",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x14",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "lX",
+            "type": "LONG",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "lY",
+            "type": "LONG",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "lZ",
+            "type": "LONG",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "rgbButtons",
+            "type": "BYTE[8]",
+            "offset": "0xC",
+            "size": 8
+        }
+    ]
+}

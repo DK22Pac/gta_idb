@@ -1,0 +1,153 @@
+{
+    "name": "eSurfaceType",
+    "module": "CSurfaceTable",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "SURFACE_DEFAULT",
+            "value": 0
+        },
+        {
+            "name": "SURFACE_TARMAC",
+            "value": 1
+        },
+        {
+            "name": "SURFACE_GRASS",
+            "value": 2
+        },
+        {
+            "name": "SURFACE_GRAVEL",
+            "value": 3
+        },
+        {
+            "name": "SURFACE_MUD_DRY",
+            "value": 4
+        },
+        {
+            "name": "SURFACE_PAVEMENT",
+            "value": 5
+        },
+        {
+            "name": "SURFACE_CAR",
+            "value": 6
+        },
+        {
+            "name": "SURFACE_GLASS",
+            "value": 7
+        },
+        {
+            "name": "SURFACE_TRANSPARENT_CLOTH",
+            "value": 8
+        },
+        {
+            "name": "SURFACE_GARAGE_DOOR",
+            "value": 9
+        },
+        {
+            "name": "SURFACE_CAR_PANEL",
+            "value": 10
+        },
+        {
+            "name": "SURFACE_THICK_METAL_PLATE",
+            "value": 11
+        },
+        {
+            "name": "SURFACE_SCAFFOLD_POLE",
+            "value": 12
+        },
+        {
+            "name": "SURFACE_LAMP_POST",
+            "value": 13
+        },
+        {
+            "name": "SURFACE_FIRE_HYDRANT",
+            "value": 14
+        },
+        {
+            "name": "SURFACE_GIRDER",
+            "value": 15
+        },
+        {
+            "name": "SURFACE_METAL_CHAIN_FENCE",
+            "value": 16
+        },
+        {
+            "name": "SURFACE_PED",
+            "value": 17
+        },
+        {
+            "name": "SURFACE_SAND",
+            "value": 18
+        },
+        {
+            "name": "SURFACE_WATER",
+            "value": 19
+        },
+        {
+            "name": "SURFACE_WOOD_CRATES",
+            "value": 20
+        },
+        {
+            "name": "SURFACE_WOOD_BENCH",
+            "value": 21
+        },
+        {
+            "name": "SURFACE_WOOD_SOLID",
+            "value": 22
+        },
+        {
+            "name": "SURFACE_RUBBER",
+            "value": 23
+        },
+        {
+            "name": "SURFACE_PLASTIC",
+            "value": 24
+        },
+        {
+            "name": "SURFACE_HEDGE",
+            "value": 25
+        },
+        {
+            "name": "SURFACE_STEEP_CLIFF",
+            "value": 26
+        },
+        {
+            "name": "SURFACE_CONTAINER",
+            "value": 27
+        },
+        {
+            "name": "SURFACE_NEWS_VENDOR",
+            "value": 28
+        },
+        {
+            "name": "SURFACE_WHEELBASE",
+            "value": 29
+        },
+        {
+            "name": "SURFACE_CARDBOARDBOX",
+            "value": 30
+        },
+        {
+            "name": "SURFACE_TRANSPARENT_STONE",
+            "value": 31
+        },
+        {
+            "name": "SURFACE_METAL_GATE",
+            "value": 32
+        },
+        {
+            "name": "SURFACE_SAND_BEACH",
+            "value": 33
+        },
+        {
+            "name": "SURFACE_CONCRETE_BEACH",
+            "value": 34
+        }
+    ]
+}

@@ -1,8 +1,8 @@
 {
-    "name": "eAudioType",
-    "module": "eAudioType",
+    "name": "ePickupType",
+    "module": "CPickup",
     "scope": "",
-    "width": 4,
+    "width": 1,
     "isClass": false,
     "isHexademical": false,
     "isSigned": false,
@@ -10,64 +10,68 @@
     "comment": "",
     "members": [
         {
-            "name": "AUDIOTYPE_PHYSICAL",
+            "name": "PICKUP_NONE",
             "value": 0
         },
         {
-            "name": "AUDIOTYPE_EXPLOSION",
+            "name": "PICKUP_IN_SHOP",
             "value": 1
         },
         {
-            "name": "AUDIOTYPE_FIRE",
+            "name": "PICKUP_ON_STREET",
             "value": 2
         },
         {
-            "name": "AUDIOTYPE_WEATHER",
+            "name": "PICKUP_ONCE",
             "value": 3
         },
         {
-            "name": "AUDIOTYPE_CRANE",
+            "name": "PICKUP_ONCE_TIMEOUT",
             "value": 4
         },
         {
-            "name": "AUDIOTYPE_SCRIPTOBJECT",
+            "name": "PICKUP_COLLECTABLE1",
             "value": 5
         },
         {
-            "name": "AUDIOTYPE_BRIDGE",
+            "name": "PICKUP_IN_SHOP_OUT_OF_STOCK",
             "value": 6
         },
         {
-            "name": "AUDIOTYPE_COLLISION",
+            "name": "PICKUP_MONEY",
             "value": 7
         },
         {
-            "name": "AUDIOTYPE_FRONTEND",
+            "name": "PICKUP_MINE_INACTIVE",
             "value": 8
         },
         {
-            "name": "AUDIOTYPE_PROJECTILE",
+            "name": "PICKUP_MINE_ARMED",
             "value": 9
         },
         {
-            "name": "AUDIOTYPE_GARAGE",
+            "name": "PICKUP_NAUTICAL_MINE_INACTIVE",
             "value": 10
         },
         {
-            "name": "AUDIOTYPE_FIREHYDRANT",
+            "name": "PICKUP_NAUTICAL_MINE_ARMED",
             "value": 11
         },
         {
-            "name": "AUDIOTYPE_WATERCANNON",
+            "name": "PICKUP_FLOATINGPACKAGE",
             "value": 12
         },
         {
-            "name": "AUDIOTYPE_POLICERADIO",
+            "name": "PICKUP_FLOATINGPACKAGE_FLOATING",
             "value": 13
         },
         {
-            "name": "TOTAL_AUDIO_TYPES",
+            "name": "PICKUP_ON_STREET_SLOW",
             "value": 14
+        },
+        {
+            "name": "PICKUP_NUMOFTYPES",
+            "value": 15
         }
     ]
 }

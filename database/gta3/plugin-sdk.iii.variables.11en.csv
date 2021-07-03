@@ -7,6 +7,7 @@
 0x5E58B8,0x5E58B8,rclsid
 0x5E5978,0x5E5978,iid
 0x5E5BD4,0x5E5BD4,DIMouseDataFormat
+0x5E5DDC,0x5E5DDC,c_dfDIJoystick2
 0x5E5E74,0x5E5E74,_RwD3D8PrimConvTable
 0x5E6738,0x5E6738,matrix
 0x5E6C1C,0x5E6C1C,_RwD3D8PrimConv
@@ -37,14 +38,23 @@
 0x5ED8FC,0x5ED8FC,AmmoForWeapon_OnStreet
 0x5ED924,0x5ED924,CostOfWeapon
 0x5ED94C,0x5ED94C,aRacePoints1
+0x5EDE50,0x5EDE50,frontX
+0x5EDE64,0x5EFBD8,sideX
 0x5EDEBC,0x5EDEBC,aWeaponReds
 0x5EDECC,0x5EDECC,aWeaponGreens
 0x5EDEDC,0x5EDEDC,aWeaponBlues
 0x5EDEEC,0x5EDEEC,aWeaponScale
+0x5EDF34,0x5EDF34,scale
+0x5EDF3C,0x5EDF3C,drawDistance
+0x5EDF44,0x5EDF44,sideY
 0x5EE520,0x5EE520,RemoveUnusedCollision(void)::dontDeleteArray
 0x5EF210,0x60263C,strength
 0x5EF6AC,0x5EF1D0,range
 0x5EFBF0,0x5EFBF0,DbgLineColour
+0x5F00AC,0x5F00AC,u4
+0x5F00D4,0x5F00D4,v2
+0x5F00E4,0x5F00E4,v4
+0x5F00F8,0x5F00F8,maxDistance
 0x5F03D8,0x5F03D8,CCamera::m_bUseMouse3rdPerson
 0x5F03DC,0x5F03DC,PrintDebugCode
 0x5F0AB0,0x5F09A8,SequenceOfCams
@@ -472,7 +482,12 @@
 0x611930,0x6110F0,aScreens
 0x617BF0,0x6173B0,numberTextures
 0x617CAC,0x61746C,CReplay::bReplayEnabled
+0x618030,0x6176FC,bUsePaletteIndex
 0x61807C,0x617744,_rwRasterConvTable
+0x618298,0x617960,axis1
+0x6182A4,0x61796C,axis2
+0x6182B0,0x617978,pos
+0x6182BC,0x617984,AmbientColor
 0x6182F4,0x6179BC,CIniFile::PedNumberMultiplier
 0x6182F8,0x6179C0,CIniFile::CarNumberMultiplier
 0x618370,0x617A38,ctype
@@ -817,6 +832,7 @@
 0x628D18,0x628D18,CMenuManager::DSOHandle
 0x628D30,0x628D30,TEXT_COLOR
 0x628D34,0x628D34,CMenuManager::DrawFrontEndNormal(void)::LastFade
+0x628D3C,0x628D3C,oldOption
 0x628D5C,0x628D5C,CMenuManager::ProcessButtonPresses(void)::LastKeyPress
 0x628D64,0x628D64,CMenuManager::ProcessButtonPresses(void)::LastKeyPress
 0x628D69,0x628D69,"CMenuManager::DrawContollerScreenExtraText(int,int,int)::ColourSwitch"
@@ -844,7 +860,9 @@
 0x6298C4,0x6298C4,`guard variable for'CPhysical::ProcessCollisionSectorList_SimpleCar(CSector *)::aColPoints
 0x6299B8,0x6299B8,CRadar::vec2DRadarOrigin
 0x6299C0,0x6299C0,gRadarTxdIds
-0x629AC0,0x629AC0,CRenderer::m_VehicleList
+0x629AC0,0x629AC0,gSortedVehiclesAndPeds
+0x629B04,0x629B04,vectorsA
+0x629B70,0x629B70,vectorsB
 0x62A308,0x62A308,suspendPcTimer
 0x62A310,0x62A310,liFrameStartCounter
 0x62A318,0x62A318,PerformanceCount
@@ -951,7 +969,6 @@
 0x649A6C,0x649A6C,CSpecialParticleStuff::UpdateBoatFoamAnimation(CMatrix *)::Y
 0x649A70,0x649A70,CSpecialParticleStuff::UpdateBoatFoamAnimation(CMatrix *)::Z
 0x649A74,0x649A74,CSpecialParticleStuff::UpdateBoatFoamAnimation(CMatrix *)::FrameInAnimation
-0x649A78,0x649A78,CSpecialParticleStuff::EnableAnimation
 0x649A80,0x649A80,nSpriteBufferIndex
 0x649A84,0x649A84,SpriteBufferVerts
 0x64C484,0x64C484,verts
@@ -1165,24 +1182,30 @@
 0x650BC0,0x650BC0,_videoModeList
 0x650BC4,0x650BC4,subSystemInfo
 0x6510C4,0x6510C4,_GnumSubSystems
-0x6510C8,0x6510C8,gdwAdapter
-0x6510CC,0x6510CC,modeIndex
-0x6510D8,0x6510D8,Data
+0x6510C8,0x6510C8,GcurSel
+0x6510CC,0x6510CC,GcurSelVM
+0x6510D4,0x6510D4,useDefault
+0x6510D8,0x6510D8,szUserFiles
 0x6511E4,0x6511E4,dwMainVar
 0x6511E8,0x6511E8,bMainVarInit
+0x6511EC,0x6511EC,Count
 0x651214,0x651214,"CControllerConfigManager::GetControllerSettingTextKeyBoard(e_ControllerAction,eControllerType)::ActionText"
 0x651278,0x651278,"CControllerConfigManager::GetControllerSettingTextKeyBoard(e_ControllerAction,eControllerType)::NewStringWithNumber"
 0x6512B4,0x6512B4,CControllerConfigManager::GetControllerSettingTextJoystick(e_ControllerAction)::NewStringWithNumber
 0x653AF0,0x653AF0,streamPosition
 0x653B04,0x653B04,CReplay::PlayBackThisFrame(void)::FrameSloMo
 0x653B0C,0x653B0C,CReplay::Display(void)::TimeCount
-0x660E10,0x660E10,PaletteIndexFree
+0x660E10,0x660E10,aTexturePools
+0x660F60,0x660F60,numTexturePools
+0x660F64,0x660F64,PaletteList
+0x660F70,0x660F70,MaxPaletteIndex
 0x660F78,0x660F78,_RwD3D8CurrentRasterTarget
 0x660F7C,0x660F7C,_RwD3D8QuadVerts
 0x660FEC,0x660FEC,VideoMemoryRasters
 0x660FF0,0x660FF0,VideoMemoryRastersFreeList
 0x660FF8,0x660FF8,gpPlayerClump
 0x660FFC,0x660FFC,gOldFov
+0x661000,0x661000,rotation
 0x661008,0x661008,CPlayerSkin::RenderFrontendSkinEdit(void)::LastFlash
 0x661010,0x661010,lastSeenExtraData
 0x661014,0x661014,lastSeenRightsPluginId
@@ -1323,6 +1346,7 @@
 0x664680,0x664680,CAntennas::aAntennas
 0x664B60,0x664B60,CTimeCycle::m_nSunCoronaRed
 0x664CE0,0x664CE0,CHud::m_BigMessage
+0x6652E0,0x6652E0,leftStickPos
 0x6652E8,0x6652E8,CWaterLevel::apGeomArray
 0x665308,0x665308,CTimeCycle::m_nAmbientGreen
 0x665488,0x665488,CWaterLevel::ms_aWaterZs
@@ -1374,6 +1398,7 @@
 0x6F0748,0x6F0748,CTimeCycle::m_fShadowDisplacementX
 0x6F0788,0x6F0788,CTimeCycle::m_fShadowDisplacementY
 0x6F07C8,0x6F07C8,SlotFileName
+0x6F1808,0x6F1808,nnn
 0x6F1D08,0x6F1D08,dgGGlobals
 0x6F1D10,0x6F1D10,AmbientLightColourForFrame_PedsCarsAndObjects
 0x6F1D20,0x6F1D20,CRestart::PoliceRestartHeadings
@@ -1456,6 +1481,7 @@
 0x72B090,0x72B090,CTheScripts::ScriptSprites
 0x72B0F8,0x72B0F8,CTimeCycle::m_nLightShadowStrength
 0x72B1B8,0x72B1B8,CBulletTraces::aTraces
+0x72B378,0x72B378,Points
 0x72B3A8,0x72B3A8,CRoadBlocks::RoadBlockObject
 0x72B858,0x72B858,SlotSaveDate
 0x72BCB8,0x72BCB8,CompileDateAndTime
@@ -1523,7 +1549,8 @@
 0x8622B0,0x862260,CStats::HighestScores
 0x8622F0,0x8622A0,CTheScripts::OnAMissionForContactFlag
 0x862330,0x8622E0,TempBufferRenderVertices
-0x864750,0,CCullZones::aZones
+0x864730,0x8646E0,AllValidWinJoys
+0x864750,0x864700,CCullZones::aZones
 0x86AF50,0x86AF00,CentersWithTriangle
 0x86AF78,0x86AF28,CTimeCycle::m_nAmbientRed
 0x86B0F8,0x86B0A8,AmbientLightColour
@@ -1551,6 +1578,7 @@
 0x87BE88,0x87BE38,CTempColModels::ms_colModelBodyPart1
 0x87BEE0,0x87BE90,gpRainDropRaster
 0x87BEF0,0x87BEA0,LightStrengths
+0x87BF00,0x87BEB0,rightStickPos
 0x87BF08,0x87BEB8,CTimeCycle::m_nLowCloudsGreen
 0x87C538,0x87C4E8,CPickups::aPickUpsCollected
 0x87C588,0x87C538,CTheScripts::StuckCars
@@ -1572,6 +1600,7 @@
 0x87FA10,0x87F9C0,CTimeCycle::m_nLowCloudsBlue
 0x87FB90,0x87FB40,CTimeCycle::m_nSkyTopRed
 0x87FD10,0x87FCC0,gAccidentManager
+0x87FE00,0x87FDB0,Texture
 0x87FEF0,0x87FEA0,nStreamLength
 0x880200,0x8801B0,CTheScripts::BaseBriefIdForContact
 0x880240,0x8801F0,ZoneSfx
@@ -1584,6 +1613,7 @@
 0x880848,0x8807F8,EngineTrackSpeed
 0x880850,0x880800,CTempColModels::ms_colModelDoor1
 0x8808A8,0x880858,CTempColModels::ms_colModelBonnet1
+0x880900,0x8808B0,List
 0x8809F0,0x8809A0,CPad::NewMouseControllerState
 0x880A00,0x8809B0,CMotionBlurStreaks::aStreaks
 0x880B50,0x880B00,CRenderer::ms_aInVisibleEntityPtrs
@@ -1665,6 +1695,7 @@
 0x8E286C,0x8E281C,CGarages::CarTypesCollected
 0x8E2878,0x8E2828,startupDeactivate
 0x8E287C,0x8E282C,CStats::NumberKillFrenziesPassed
+0x8E2880,0x8E2830,CMenuManager::m_SelectedMap
 0x8E2884,0x8E2834,CStats::TotalNumberKillFrenzies
 0x8E2888,0x8E2838,C3dMarkers::m_pRpClumpArray
 0x8E289C,0x8E284C,CPickups::StaticCamStartTime
@@ -2109,6 +2140,7 @@
 0x942F74,0x94312C,CameraFocusY
 0x942F78,0x943130,CParticleObject::pFarListHead
 0x942F7C,0x943134,CReplay::Record
+0x942F88,0x943140,CMenuManager::m_SelectedGameType
 0x942F8C,0x943144,CSceneEdit::m_vecCamHeading
 0x942F98,0x943150,CTheScripts::NextFreeCollectiveIndex
 0x942F9C,0x943154,nSampleDataSize
@@ -2263,7 +2295,7 @@
 0x95CD23,0x95CEDB,CMenuManager::m_PrefsUseWideScreen
 0x95CD24,0x95CEDC,nChannelVolume
 0x95CD41,0x95CEF9,CTheScripts::FailCurrentMission
-0x95CD42,0x95CEFA,gbShowCarRoadGroups
+0x95CD42,0x95CEFA,gbShowCollisionPolys
 0x95CD43,0x95CEFB,CHeli::ScriptHeliOn
 0x95CD44,0x95CEFC,CPed::bNastyLimbsCheat
 0x95CD46,0x95CEFE,bDidWeProcessAnyCinemaCam
@@ -2274,7 +2306,7 @@
 0x95CD4B,0x95CF03,bAllCarCheat
 0x95CD4C,0x95CF04,CRestart::OverrideHospitalLevel
 0x95CD4D,0x95CF05,gSpecialSuspectLastSeenReport
-0x95CD4E,0x95CF25,gbBigWhiteDebugLightSwitchedOn
+0x95CD4E,0x95CF06,gbBigWhiteDebugLightSwitchedOn
 0x95CD4F,0x95CF07,CPopulation::m_CountDownToPedsAtStart
 0x95CD50,0x95CF08,CRestart::OverridePoliceStationLevel
 0x95CD51,0x95CF09,CTheScripts::CountdownToMakePlayerUnsafe
@@ -2305,6 +2337,7 @@
 0x95CD6A,0x95CF22,CMenuManager::m_bShutDownFrontEndRequested
 0x95CD6B,0x95CF23,usingMilesFast2D
 0x95CD6C,0x95CF24,CWorld::bForceProcessControl
+0x95CD6D,0x95CF25,gbShowPedRoadGroups
 0x95CD6E,0x95CF26,CStreaming::ms_disableStreaming
 0x95CD6F,0x95CF27,CPacManPickups::bPMActive
 0x95CD70,0x95CF28,CPickups::bPickUpcamActivated
@@ -2323,6 +2356,7 @@
 0x95CD7D,0x95CF35,CWeather::bScriptsForceRain
 0x95CD7E,0x95CF36,CMenuManager::m_PrefsSpeakers
 0x95CD7F,0x95CF37,CSceneEdit::m_bCommandActive
+0x95CD80,0x95CF38,gbShowCullZoneDebugStuff
 0x95CD81,0x95CF39,bPlayerSniperBullet
 0x95CD82,0x95CF3A,CClock::bClockHasBeenStored
 0x95CD83,0x95CF3B,CGarages::PlayerInGarage
@@ -2372,7 +2406,7 @@
 0x95CDB4,0x95CF6C,JustLoadedDontFadeInYet
 0x95CDB6,0x95CF6E,CDarkel::bStandardSoundAndMessages
 0x95CDB8,0x95CF70,CPad::bObsoleteControllerMessage
-0x95CDB9,0x95CF71,gbShowPedRoadGroups
+0x95CDB9,0x95CF71,gbShowCarRoadGroups
 0x95CDBB,0x95CF73,gbFastTime
 0x95CDBC,0x95CF74,CTheScripts::StoreVehicleWasRandom
 0x95CDBE,0x95CF76,DMAudio

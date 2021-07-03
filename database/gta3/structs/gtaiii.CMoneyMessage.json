@@ -1,6 +1,6 @@
 {
     "name": "CMoneyMessage",
-    "module": "",
+    "module": "CMoneyMessage",
     "scope": "",
     "kind": "class",
     "size": "0x3C",
@@ -8,13 +8,13 @@
     "comment": "",
     "members": [
         {
-            "name": "m_nTimeCreated",
-            "type": "int",
+            "name": "m_nTimeRegistered",
+            "type": "unsigned int",
             "offset": 0,
             "size": 4
         },
         {
-            "name": "m_vecPosn",
+            "name": "m_vecPos",
             "type": "CVector",
             "offset": 4,
             "size": "0xC"
@@ -32,13 +32,13 @@
             "size": 4
         },
         {
-            "name": "field_52",
+            "name": "m_fSize",
             "type": "float",
             "offset": "0x34",
             "size": 4
         },
         {
-            "name": "field_56",
+            "name": "m_fOpacity",
             "type": "float",
             "offset": "0x38",
             "size": 4
