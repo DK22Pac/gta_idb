@@ -1,6 +1,6 @@
 {
     "name": "CData",
-    "module": "",
+    "module": "CText",
     "scope": "",
     "kind": "class",
     "size": 8,
@@ -8,13 +8,13 @@
     "comment": "",
     "members": [
         {
-            "name": "m_pData",
-            "type": "char *",
+            "name": "chars",
+            "type": "wchar_t *",
             "offset": 0,
             "size": 4
         },
         {
-            "name": "m_nLength",
+            "name": "numChars",
             "type": "int",
             "offset": 4,
             "size": 4

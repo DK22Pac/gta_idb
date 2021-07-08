@@ -1,0 +1,21 @@
+{
+    "name": "eSequenceType",
+    "module": "CAnimBlendSequence",
+    "scope": "",
+    "width": 4,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": true,
+    "comment": "",
+    "members": [
+        {
+            "name": "KF_ROT",
+            "value": 1
+        },
+        {
+            "name": "KF_TRANS",
+            "value": 2
+        }
+    ]
+}

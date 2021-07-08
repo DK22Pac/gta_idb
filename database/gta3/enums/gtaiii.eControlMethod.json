@@ -1,0 +1,21 @@
+{
+    "name": "eControlMethod",
+    "module": "CMenuManager",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "CONTROL_STANDARD",
+            "value": 0
+        },
+        {
+            "name": "CONTROL_CLASSIC",
+            "value": 1
+        }
+    ]
+}

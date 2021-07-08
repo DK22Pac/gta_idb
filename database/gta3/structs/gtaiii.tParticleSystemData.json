@@ -230,8 +230,8 @@
             "size": 4
         },
         {
-            "name": "m_pTexture",
-            "type": "RwTexture *",
+            "name": "m_ppRaster",
+            "type": "RwRaster **",
             "offset": "0x80",
             "size": 4
         },

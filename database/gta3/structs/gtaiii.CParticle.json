@@ -1,6 +1,6 @@
 {
     "name": "CParticle",
-    "module": "",
+    "module": "CParticle",
     "scope": "",
     "kind": "class",
     "size": "0x68",
@@ -57,7 +57,7 @@
         },
         {
             "name": "m_nZRotationTimer",
-            "type": "__int16",
+            "type": "unsigned __int16",
             "offset": "0x3E",
             "size": 2
         },
@@ -69,14 +69,8 @@
         },
         {
             "name": "m_nZRadiusTimer",
-            "type": "__int16",
+            "type": "unsigned __int16",
             "offset": "0x44",
-            "size": 2
-        },
-        {
-            "name": "_pad46",
-            "type": "char[2]",
-            "offset": "0x46",
             "size": 2
         },
         {
@@ -93,13 +87,13 @@
         },
         {
             "name": "m_nFadeToBlackTimer",
-            "type": "__int16",
+            "type": "unsigned __int16",
             "offset": "0x50",
             "size": 2
         },
         {
             "name": "m_nFadeAlphaTimer",
-            "type": "__int16",
+            "type": "unsigned __int16",
             "offset": "0x52",
             "size": 2
         },
@@ -144,12 +138,6 @@
             "type": "RwRGBA",
             "offset": "0x5E",
             "size": 4
-        },
-        {
-            "name": "_pad62",
-            "type": "char[2]",
-            "offset": "0x62",
-            "size": 2
         },
         {
             "name": "m_pNext",

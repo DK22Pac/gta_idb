@@ -1,0 +1,129 @@
+{
+    "name": "eFrontendSprites",
+    "module": "CMenuManager",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "FE2_MAINPANEL_UL",
+            "value": 0
+        },
+        {
+            "name": "FE2_MAINPANEL_UR",
+            "value": 1
+        },
+        {
+            "name": "FE2_MAINPANEL_DL",
+            "value": 2
+        },
+        {
+            "name": "FE2_MAINPANEL_DR",
+            "value": 3
+        },
+        {
+            "name": "FE2_MAINPANEL_DR2",
+            "value": 4
+        },
+        {
+            "name": "FE2_TABACTIVE",
+            "value": 5
+        },
+        {
+            "name": "FE_ICONBRIEF",
+            "value": 6
+        },
+        {
+            "name": "FE_ICONSTATS",
+            "value": 7
+        },
+        {
+            "name": "FE_ICONCONTROLS",
+            "value": 8
+        },
+        {
+            "name": "FE_ICONSAVE",
+            "value": 9
+        },
+        {
+            "name": "FE_ICONAUDIO",
+            "value": 10
+        },
+        {
+            "name": "FE_ICONDISPLAY",
+            "value": 11
+        },
+        {
+            "name": "FE_ICONLANGUAGE",
+            "value": 12
+        },
+        {
+            "name": "FE_CONTROLLER",
+            "value": 13
+        },
+        {
+            "name": "FE_CONTROLLERSH",
+            "value": 14
+        },
+        {
+            "name": "FE_ARROWS1",
+            "value": 15
+        },
+        {
+            "name": "FE_ARROWS2",
+            "value": 16
+        },
+        {
+            "name": "FE_ARROWS3",
+            "value": 17
+        },
+        {
+            "name": "FE_ARROWS4",
+            "value": 18
+        },
+        {
+            "name": "FE_RADIO1",
+            "value": 19
+        },
+        {
+            "name": "FE_RADIO2",
+            "value": 20
+        },
+        {
+            "name": "FE_RADIO3",
+            "value": 21
+        },
+        {
+            "name": "FE_RADIO4",
+            "value": 22
+        },
+        {
+            "name": "FE_RADIO5",
+            "value": 23
+        },
+        {
+            "name": "FE_RADIO6",
+            "value": 24
+        },
+        {
+            "name": "FE_RADIO7",
+            "value": 25
+        },
+        {
+            "name": "FE_RADIO8",
+            "value": 26
+        },
+        {
+            "name": "FE_RADIO9",
+            "value": 27
+        },
+        {
+            "name": "NUM_FE_SPRITES",
+            "value": 28
+        }
+    ]
+}

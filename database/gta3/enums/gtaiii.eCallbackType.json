@@ -1,0 +1,25 @@
+{
+    "name": "eCallbackType",
+    "module": "CAnimBlendAssociation",
+    "scope": "",
+    "width": 4,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "CB_NONE",
+            "value": 0
+        },
+        {
+            "name": "CB_FINISH",
+            "value": 1
+        },
+        {
+            "name": "CB_DELETE",
+            "value": 2
+        }
+    ]
+}

@@ -1,8 +1,8 @@
 {
     "name": "DirectoryInfo",
-    "module": "",
-    "scope": "",
-    "kind": "class",
+    "module": "CDirectory",
+    "scope": "CDirectory",
+    "kind": "struct",
     "size": "0x20",
     "alignment": 2,
     "comment": "",

@@ -1,6 +1,6 @@
 {
     "name": "CAnimBlendClumpData",
-    "module": "",
+    "module": "CAnimBlendClumpData",
     "scope": "",
     "kind": "class",
     "size": "0x14",
@@ -8,28 +8,29 @@
     "comment": "",
     "members": [
         {
-            "name": "m_associationsList",
-            "type": "RwLinkList",
+            "name": "link",
+            "type": "CAnimBlendLink",
             "offset": 0,
             "size": 8
         },
         {
-            "name": "m_nNumBones",
+            "name": "m_nNumFrames",
             "type": "int",
             "offset": 8,
             "size": 4
         },
         {
-            "name": "m_pvecPedPosition",
+            "name": "m_vecVelocity3d",
             "type": "CVector *",
             "offset": "0xC",
             "size": 4
         },
         {
-            "name": "m_pBones",
+            "name": "m_pFrames",
             "type": "AnimBlendFrameData *",
             "offset": "0x10",
-            "size": 4
+            "size": 4,
+            "comment": "order of frames is determined by RW hierarchy"
         }
     ]
 }

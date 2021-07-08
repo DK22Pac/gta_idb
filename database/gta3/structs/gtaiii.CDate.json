@@ -9,37 +9,37 @@
     "members": [
         {
             "name": "m_nSecond",
-            "type": "int",
+            "type": "unsigned int",
             "offset": 0,
             "size": 4
         },
         {
             "name": "m_nMinute",
-            "type": "int",
+            "type": "unsigned int",
             "offset": 4,
             "size": 4
         },
         {
             "name": "m_nHour",
-            "type": "int",
+            "type": "unsigned int",
             "offset": 8,
             "size": 4
         },
         {
             "name": "m_nDay",
-            "type": "int",
+            "type": "unsigned int",
             "offset": "0xC",
             "size": 4
         },
         {
             "name": "m_nMonth",
-            "type": "int",
+            "type": "unsigned int",
             "offset": "0x10",
             "size": 4
         },
         {
             "name": "m_nYear",
-            "type": "int",
+            "type": "unsigned int",
             "offset": "0x14",
             "size": 4
         }

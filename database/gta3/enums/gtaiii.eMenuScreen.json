@@ -1,0 +1,249 @@
+{
+    "name": "eMenuScreen",
+    "module": "CMenuManager",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "MENUPAGE_NONE",
+            "value": 0
+        },
+        {
+            "name": "MENUPAGE_STATS",
+            "value": 1
+        },
+        {
+            "name": "MENUPAGE_NEW_GAME",
+            "value": 2
+        },
+        {
+            "name": "MENUPAGE_BRIEFS",
+            "value": 3
+        },
+        {
+            "name": "MENUPAGE_CONTROLLER_SETTINGS",
+            "value": 4
+        },
+        {
+            "name": "MENUPAGE_SOUND_SETTINGS",
+            "value": 5
+        },
+        {
+            "name": "MENUPAGE_DISPLAY_SETTINGS",
+            "value": 6
+        },
+        {
+            "name": "MENUPAGE_LANGUAGE_SETTINGS",
+            "value": 7
+        },
+        {
+            "name": "MENUPAGE_CHOOSE_LOAD_SLOT",
+            "value": 8
+        },
+        {
+            "name": "MENUPAGE_CHOOSE_DELETE_SLOT",
+            "value": 9
+        },
+        {
+            "name": "MENUPAGE_NEW_GAME_RELOAD",
+            "value": 10
+        },
+        {
+            "name": "MENUPAGE_LOAD_SLOT_CONFIRM",
+            "value": 11
+        },
+        {
+            "name": "MENUPAGE_DELETE_SLOT_CONFIRM",
+            "value": 12
+        },
+        {
+            "name": "MENUPAGE_NO_MEMORY_CARD",
+            "value": 13
+        },
+        {
+            "name": "MENUPAGE_LOADING_IN_PROGRESS",
+            "value": 14
+        },
+        {
+            "name": "MENUPAGE_DELETING_IN_PROGRESS",
+            "value": 15
+        },
+        {
+            "name": "MENUPAGE_PS2_LOAD_FAILED",
+            "value": 16
+        },
+        {
+            "name": "MENUPAGE_DELETE_FAILED",
+            "value": 17
+        },
+        {
+            "name": "MENUPAGE_DEBUG_MENU",
+            "value": 18
+        },
+        {
+            "name": "MENUPAGE_MEMORY_CARD_DEBUG",
+            "value": 19
+        },
+        {
+            "name": "MENUPAGE_MEMORY_CARD_TEST",
+            "value": 20
+        },
+        {
+            "name": "MENUPAGE_MULTIPLAYER_MAIN",
+            "value": 21
+        },
+        {
+            "name": "MENUPAGE_PS2_SAVE_FAILED",
+            "value": 22
+        },
+        {
+            "name": "MENUPAGE_PS2_SAVE_FAILED_2",
+            "value": 23
+        },
+        {
+            "name": "MENUPAGE_SAVE",
+            "value": 24
+        },
+        {
+            "name": "MENUPAGE_NO_MEMORY_CARD_2",
+            "value": 25
+        },
+        {
+            "name": "MENUPAGE_CHOOSE_SAVE_SLOT",
+            "value": 26
+        },
+        {
+            "name": "MENUPAGE_SAVE_OVERWRITE_CONFIRM",
+            "value": 27
+        },
+        {
+            "name": "MENUPAGE_MULTIPLAYER_MAP",
+            "value": 28
+        },
+        {
+            "name": "MENUPAGE_MULTIPLAYER_CONNECTION",
+            "value": 29
+        },
+        {
+            "name": "MENUPAGE_MULTIPLAYER_FIND_GAME",
+            "value": 30
+        },
+        {
+            "name": "MENUPAGE_MULTIPLAYER_MODE",
+            "value": 31
+        },
+        {
+            "name": "MENUPAGE_MULTIPLAYER_CREATE",
+            "value": 32
+        },
+        {
+            "name": "MENUPAGE_MULTIPLAYER_START",
+            "value": 33
+        },
+        {
+            "name": "MENUPAGE_SKIN_SELECT_OLD",
+            "value": 34
+        },
+        {
+            "name": "MENUPAGE_CONTROLLER_PC",
+            "value": 35
+        },
+        {
+            "name": "MENUPAGE_CONTROLLER_PC_OLD1",
+            "value": 36
+        },
+        {
+            "name": "MENUPAGE_CONTROLLER_PC_OLD2",
+            "value": 37
+        },
+        {
+            "name": "MENUPAGE_CONTROLLER_PC_OLD3",
+            "value": 38
+        },
+        {
+            "name": "MENUPAGE_CONTROLLER_PC_OLD4",
+            "value": 39
+        },
+        {
+            "name": "MENUPAGE_CONTROLLER_DEBUG",
+            "value": 40
+        },
+        {
+            "name": "MENUPAGE_OPTIONS",
+            "value": 41
+        },
+        {
+            "name": "MENUPAGE_EXIT",
+            "value": 42
+        },
+        {
+            "name": "MENUPAGE_SAVING_IN_PROGRESS",
+            "value": 43
+        },
+        {
+            "name": "MENUPAGE_SAVE_SUCCESSFUL",
+            "value": 44
+        },
+        {
+            "name": "MENUPAGE_DELETING",
+            "value": 45
+        },
+        {
+            "name": "MENUPAGE_DELETE_SUCCESS",
+            "value": 46
+        },
+        {
+            "name": "MENUPAGE_SAVE_FAILED",
+            "value": 47
+        },
+        {
+            "name": "MENUPAGE_LOAD_FAILED",
+            "value": 48
+        },
+        {
+            "name": "MENUPAGE_LOAD_FAILED_2",
+            "value": 49
+        },
+        {
+            "name": "MENUPAGE_FILTER_GAME",
+            "value": 50
+        },
+        {
+            "name": "MENUPAGE_START_MENU",
+            "value": 51
+        },
+        {
+            "name": "MENUPAGE_PAUSE_MENU",
+            "value": 52
+        },
+        {
+            "name": "MENUPAGE_CHOOSE_MODE",
+            "value": 53
+        },
+        {
+            "name": "MENUPAGE_SKIN_SELECT",
+            "value": 54
+        },
+        {
+            "name": "MENUPAGE_KEYBOARD_CONTROLS",
+            "value": 55
+        },
+        {
+            "name": "MENUPAGE_MOUSE_CONTROLS",
+            "value": 56
+        },
+        {
+            "name": "MENUPAGE_MISSION_RETRY",
+            "value": 57
+        },
+        {
+            "name": "MENUPAGE_58",
+            "value": 58
+        }
+    ]
+}

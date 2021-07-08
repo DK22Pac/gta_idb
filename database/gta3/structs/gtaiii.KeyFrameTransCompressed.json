@@ -1,0 +1,25 @@
+{
+    "name": "KeyFrameTransCompressed",
+    "module": "CAnimBlendSequence",
+    "scope": "",
+    "kind": "struct",
+    "size": "0x10",
+    "alignment": 1,
+    "comment": "",
+    "members": [
+        {
+            "name": "base",
+            "type": "KeyFrameCompressed",
+            "offset": 0,
+            "size": "0xA",
+            "isBase": true
+        },
+        {
+            "name": "trans",
+            "type": "__int16[3]",
+            "offset": "0xA",
+            "size": 6,
+            "comment": "128"
+        }
+    ]
+}

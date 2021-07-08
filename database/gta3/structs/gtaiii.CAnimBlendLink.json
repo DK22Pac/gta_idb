@@ -1,6 +1,6 @@
 {
-    "name": "CAnimBlendAssocGroup",
-    "module": "CAnimBlendAssocGroup",
+    "name": "CAnimBlendLink",
+    "module": "",
     "scope": "",
     "kind": "class",
     "size": 8,
@@ -8,14 +8,14 @@
     "comment": "",
     "members": [
         {
-            "name": "m_pAssociations",
-            "type": "CAnimBlendAssociation *",
+            "name": "m_pNext",
+            "type": "CAnimBlendLink *",
             "offset": 0,
             "size": 4
         },
         {
-            "name": "m_nNumAssociations",
-            "type": "unsigned int",
+            "name": "m_pPrev",
+            "type": "CAnimBlendLink *",
             "offset": 4,
             "size": 4
         }

@@ -1,6 +1,6 @@
 {
     "name": "CMenuManager",
-    "module": "",
+    "module": "CMenuManager",
     "scope": "",
     "kind": "class",
     "size": "0x564",
@@ -8,141 +8,117 @@
     "comment": "",
     "members": [
         {
-            "name": "m_nResolution",
+            "name": "m_nPrefsVideoMode",
             "type": "int",
             "offset": 0,
             "size": 4
         },
         {
-            "name": "m_nAppliedResolution",
+            "name": "m_nDisplayVideoMode",
             "type": "int",
             "offset": 4,
             "size": 4
         },
         {
-            "name": "m_bAudioHardware",
+            "name": "m_nPrefsAudio3DProviderIndex",
             "type": "char",
             "offset": 8,
             "size": 1
         },
         {
-            "name": "gap9",
-            "type": "char",
+            "name": "m_bKeyChangeNotProcessed",
+            "type": "bool",
             "offset": 9,
             "size": 1
         },
         {
-            "name": "m_aCurrentSkinName",
-            "type": "char[256]",
+            "name": "_pad0A",
+            "type": "char[2]",
             "offset": "0xA",
+            "size": 2
+        },
+        {
+            "name": "m_aSkinName",
+            "type": "char[256]",
+            "offset": "0xC",
             "size": "0x100"
         },
         {
-            "name": "field_10A",
-            "type": "char",
-            "offset": "0x10A",
-            "size": 1
-        },
-        {
-            "name": "field_10B",
-            "type": "char",
-            "offset": "0x10B",
-            "size": 1
-        },
-        {
-            "name": "field_10C",
+            "name": "m_nHelperTextMsgId",
             "type": "int",
             "offset": "0x10C",
             "size": 4
         },
         {
-            "name": "field_110",
-            "type": "char",
+            "name": "m_bLanguageLoaded",
+            "type": "bool",
             "offset": "0x110",
             "size": 1
         },
         {
-            "name": "m_bIsActive",
+            "name": "m_bMenuActive",
             "type": "bool",
             "offset": "0x111",
             "size": 1
         },
         {
-            "name": "gap112",
-            "type": "char",
+            "name": "m_bMenuStateChanged",
+            "type": "bool",
             "offset": "0x112",
             "size": 1
         },
         {
-            "name": "field_113",
-            "type": "char",
+            "name": "m_bWaitingForNewKeyBind",
+            "type": "bool",
             "offset": "0x113",
             "size": 1
         },
         {
-            "name": "doGameReload",
-            "type": "char",
+            "name": "m_bWantToRestart",
+            "type": "bool",
             "offset": "0x114",
             "size": 1
         },
         {
-            "name": "byte115",
-            "type": "_BYTE",
+            "name": "m_bFirstTime",
+            "type": "bool",
             "offset": "0x115",
             "size": 1
         },
         {
-            "name": "m_bMainMenuSwitch",
+            "name": "m_bGameNotLoaded",
             "type": "bool",
             "offset": "0x116",
             "size": 1
         },
         {
-            "name": "m_nWidth",
+            "name": "m_nMousePosX",
             "type": "int",
             "offset": "0x118",
             "size": 4
         },
         {
-            "name": "m_nHeight",
+            "name": "m_nMousePosY",
             "type": "int",
             "offset": "0x11C",
             "size": 4
         },
         {
-            "name": "m_fCurrMousePosLeft_NotClipped",
-            "type": "_DWORD",
+            "name": "m_nMouseTempPosX",
+            "type": "int",
             "offset": "0x120",
             "size": 4
         },
         {
-            "name": "m_fMousePosTop_NotClipped",
-            "type": "_DWORD",
+            "name": "m_nMouseTempPosY",
+            "type": "int",
             "offset": "0x124",
             "size": 4
         },
         {
-            "name": "byte128",
-            "type": "_BYTE",
+            "name": "m_bShowMouse",
+            "type": "bool",
             "offset": "0x128",
-            "size": 1
-        },
-        {
-            "name": "gap129",
-            "type": "char",
-            "offset": "0x129",
-            "size": 1
-        },
-        {
-            "name": "field_12A",
-            "type": "char",
-            "offset": "0x12A",
-            "size": 1
-        },
-        {
-            "name": "field_12B",
-            "type": "char",
-            "offset": "0x12B",
             "size": 1
         },
         {
@@ -152,50 +128,50 @@
             "size": "0x308"
         },
         {
-            "name": "m_pSkinList",
+            "name": "m_pSelectedSkin",
             "type": "CPlayerSkinData *",
             "offset": "0x434",
             "size": 4
         },
         {
-            "name": "dword438",
-            "type": "_DWORD",
+            "name": "m_nFirstVisibleRowOnList",
+            "type": "int",
             "offset": "0x438",
             "size": 4
         },
         {
-            "name": "dword43C",
-            "type": "_DWORD",
+            "name": "m_fScrollbarTopMargin",
+            "type": "float",
             "offset": "0x43C",
             "size": 4
         },
         {
-            "name": "gap440",
-            "type": "_BYTE[4]",
+            "name": "m_nTotalListRow",
+            "type": "int",
             "offset": "0x440",
             "size": 4
         },
         {
-            "name": "m_nTotalSkins",
+            "name": "m_nSkinsTotal",
             "type": "int",
             "offset": "0x444",
             "size": 4
         },
         {
-            "name": "gap448",
-            "type": "_BYTE[4]",
+            "name": "field_448",
+            "type": "char[4]",
             "offset": "0x448",
             "size": 4
         },
         {
-            "name": "dword44C",
-            "type": "_DWORD",
+            "name": "m_nSelectedListRow",
+            "type": "int",
             "offset": "0x44C",
             "size": 4
         },
         {
             "name": "m_bSkinsEnumerated",
-            "type": "char",
+            "type": "bool",
             "offset": "0x450",
             "size": 1
         },
@@ -206,32 +182,32 @@
             "size": 1
         },
         {
-            "name": "byte452",
-            "type": "_BYTE",
+            "name": "m_bRenderGameInMenu",
+            "type": "bool",
             "offset": "0x452",
             "size": 1
         },
         {
-            "name": "byte453",
-            "type": "_BYTE",
+            "name": "m_bSaveMenuActive",
+            "type": "bool",
             "offset": "0x453",
             "size": 1
         },
         {
-            "name": "m_bLoadingData",
+            "name": "m_bWantToLoad",
             "type": "bool",
             "offset": "0x454",
             "size": 1
         },
         {
-            "name": "byte455",
-            "type": "_BYTE",
+            "name": "field_455",
+            "type": "char",
             "offset": "0x455",
             "size": 1
         },
         {
-            "name": "gap456",
-            "type": "char",
+            "name": "m_bStartWaitingForKeyBind",
+            "type": "bool",
             "offset": "0x456",
             "size": 1
         },
@@ -260,88 +236,52 @@
             "size": 4
         },
         {
-            "name": "dword51C",
+            "name": "m_nMenuFadeAlpha",
             "type": "int",
             "offset": "0x51C",
             "size": 4
         },
         {
-            "name": "gap520",
-            "type": "char",
+            "name": "m_bPressedPgUpOnList",
+            "type": "bool",
             "offset": "0x520",
             "size": 1
         },
         {
-            "name": "field_521",
-            "type": "char",
+            "name": "m_bPressedPgDnOnList",
+            "type": "bool",
             "offset": "0x521",
             "size": 1
         },
         {
-            "name": "field_522",
-            "type": "char",
+            "name": "m_bPressedUpOnList",
+            "type": "bool",
             "offset": "0x522",
             "size": 1
         },
         {
-            "name": "field_523",
-            "type": "char",
+            "name": "m_bPressedDownOnList",
+            "type": "bool",
             "offset": "0x523",
             "size": 1
         },
         {
-            "name": "field_524",
-            "type": "char",
+            "name": "m_bPressedScrollButton",
+            "type": "bool",
             "offset": "0x524",
             "size": 1
         },
         {
-            "name": "field_525",
-            "type": "char",
-            "offset": "0x525",
-            "size": 1
-        },
-        {
-            "name": "field_526",
-            "type": "char",
-            "offset": "0x526",
-            "size": 1
-        },
-        {
-            "name": "field_527",
-            "type": "char",
-            "offset": "0x527",
-            "size": 1
-        },
-        {
-            "name": "field_528",
+            "name": "m_CurrCntrlAction",
             "type": "int",
             "offset": "0x528",
             "size": 4
         },
         {
             "name": "field_52C",
-            "type": "char",
+            "type": "char[4]",
             "offset": "0x52C",
-            "size": 1
-        },
-        {
-            "name": "field_52D",
-            "type": "char",
-            "offset": "0x52D",
-            "size": 1
-        },
-        {
-            "name": "field_52E",
-            "type": "char",
-            "offset": "0x52E",
-            "size": 1
-        },
-        {
-            "name": "field_52F",
-            "type": "char",
-            "offset": "0x52F",
-            "size": 1
+            "size": 4
         },
         {
             "name": "m_nSelectedContSetupColumn",
@@ -350,8 +290,8 @@
             "size": 4
         },
         {
-            "name": "field_534",
-            "type": "char",
+            "name": "m_bKeyIsOK",
+            "type": "bool",
             "offset": "0x534",
             "size": 1
         },
@@ -362,61 +302,55 @@
             "size": 1
         },
         {
-            "name": "field_536",
+            "name": "m_nCurrExLayer",
             "type": "char",
             "offset": "0x536",
             "size": 1
         },
         {
-            "name": "field_537",
-            "type": "char",
-            "offset": "0x537",
-            "size": 1
-        },
-        {
-            "name": "field_538",
+            "name": "m_nHelperTextAlpha",
             "type": "int",
             "offset": "0x538",
             "size": 4
         },
         {
-            "name": "dword53C",
-            "type": "_DWORD",
+            "name": "m_nMouseOldPosX",
+            "type": "int",
             "offset": "0x53C",
             "size": 4
         },
         {
-            "name": "dword540",
-            "type": "_DWORD",
+            "name": "m_nMouseOldPosY",
+            "type": "int",
             "offset": "0x540",
             "size": 4
         },
         {
-            "name": "dword544",
-            "type": "_DWORD",
+            "name": "m_nHoverOption",
+            "type": "int",
             "offset": "0x544",
             "size": 4
         },
         {
-            "name": "m_nCurrentMenuScreen",
+            "name": "m_nCurrScreen",
             "type": "int",
             "offset": "0x548",
             "size": 4
         },
         {
-            "name": "m_nCurrentMenuEntry",
+            "name": "m_nCurrOption",
             "type": "int",
             "offset": "0x54C",
             "size": 4
         },
         {
-            "name": "field_550",
+            "name": "m_nOptionMouseHovering",
             "type": "int",
             "offset": "0x550",
             "size": 4
         },
         {
-            "name": "m_nPreviousMenuScreen",
+            "name": "m_nPrevScreen",
             "type": "int",
             "offset": "0x554",
             "size": 4
@@ -428,13 +362,13 @@
             "size": 4
         },
         {
-            "name": "m_nChosenSaveSlot",
+            "name": "m_nCurrSaveSlot",
             "type": "int",
             "offset": "0x55C",
             "size": 4
         },
         {
-            "name": "m_nTime",
+            "name": "m_nScreenChangeDelayTimer",
             "type": "int",
             "offset": "0x560",
             "size": 4

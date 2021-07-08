@@ -1,6 +1,6 @@
 {
     "name": "CAnimBlendHierarchy",
-    "module": "",
+    "module": "CAnimBlendHierarchy",
     "scope": "",
     "kind": "class",
     "size": "0x28",
@@ -8,8 +8,8 @@
     "comment": "",
     "members": [
         {
-            "name": "name",
-            "type": "_BYTE[24]",
+            "name": "szName",
+            "type": "char[24]",
             "offset": 0,
             "size": "0x18"
         },
@@ -26,7 +26,7 @@
             "size": 2
         },
         {
-            "name": "m_nLoadSpecial",
+            "name": "m_nCompressed",
             "type": "__int16",
             "offset": "0x1E",
             "size": 2
@@ -39,7 +39,8 @@
         },
         {
             "name": "linkPtr",
-            "type": "CLink<CAnimBlendHierarchy> *",
+            "type": "void *",
+            "rawType": "CLink<CAnimBlendHierarchy*>*",
             "offset": "0x24",
             "size": 4
         }

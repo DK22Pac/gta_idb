@@ -8,7 +8,7 @@
     "comment": "",
     "members": [
         {
-            "name": "entries",
+            "name": "m_aParticles",
             "type": "tParticleSystemData[68]",
             "offset": 0,
             "size": "0x2420"

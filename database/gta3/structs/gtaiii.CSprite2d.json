@@ -1,6 +1,6 @@
 {
     "name": "CSprite2d",
-    "module": "",
+    "module": "CSprite2d",
     "scope": "",
     "kind": "class",
     "size": 4,

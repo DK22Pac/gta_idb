@@ -44,7 +44,6 @@
 0x5EDECC,CPickups,aWeaponGreens,aWeaponGreens,unsigned __int8[16],,16,,"unsigned char aWeaponGreens[16] = { 0, 255, 128, 255, 0, 255, 128, 255, 0, 255, 255, 0, 255, 0, 255, 0 };",0
 0x5EDEDC,CPickups,aWeaponBlues,aWeaponBlues,unsigned __int8[16],,16,,"unsigned char aWeaponBlues[16] = { 0, 0, 255, 0, 255, 255, 0, 128, 255, 0, 255, 0, 128, 255, 0, 0 };",0
 0x5EDEEC,CPickups,aWeaponScale,aWeaponScale,float[15],,60,,"float aWeaponScale[15] = { 1.0f, 2.0f, 1.5f, 1.0f, 1.0f, 1.5f, 1.0f, 2.0f, 1.0f, 2.0f, 2.5f, 1.0f, 1.0f, 1.0f, 1.0f };",0
-0x5EDF34,,scale,scale,const float,,4,1.0f,,0
 0x5EDF3C,,drawDistance,drawDistance,const float,,4,40.0f,,0
 0x5EDF44,,sideY,sideY,const float,,4,-2.0f,,0
 0x5EE520,,_ZZ21RemoveUnusedCollisionvE15dontDeleteArray,RemoveUnusedCollision(void)::dontDeleteArray,const char *[],,64,,,0
@@ -65,24 +64,26 @@
 0x5F0FE4,,_ZL15BannerWindTabel,BannerWindTabel,float[32],,128,,,0
 0x5F11A8,,_ZTV7CEntity,`vtable for'CEntity,,,1,,,0
 0x5F18F8,,_ZN8CFileMgr14ms_rootDirNameE,CFileMgr::ms_rootDirName,char[128],,128,,,0
-0x5F2E40,,_ZL16MENU_TEXT_SIZE_X,MENU_TEXT_SIZE_X,float,,4,,,0
-0x5F2E44,,_ZL16MENU_TEXT_SIZE_Y,MENU_TEXT_SIZE_Y,float,,4,,,0
-0x5F2E48,,_ZN12CMenuManager16m_PrefsSfxVolumeE,CMenuManager::m_PrefsSfxVolume,int,,4,,,0
-0x5F2E4C,,_ZN12CMenuManager18m_PrefsMusicVolumeE,CMenuManager::m_PrefsMusicVolume,int,,4,,,0
-0x5F2E50,,_ZN12CMenuManager17m_PrefsBrightnessE,CMenuManager::m_PrefsBrightness,int,,4,,,0
-0x5F2E54,,_ZN12CMenuManager20m_PrefsShowSubtitlesE,CMenuManager::m_PrefsShowSubtitles,bool,,1,,,0
-0x5F2E58,,_ZN12CMenuManager12m_PrefsVsyncE,CMenuManager::m_PrefsVsync,bool,,1,,,0
-0x5F2E5C,,_ZN12CMenuManager16m_PrefsVsyncDispE,CMenuManager::m_PrefsVsyncDisp,bool,,1,,,0
-0x5F2E60,,_ZN12CMenuManager19m_PrefsFrameLimiterE,CMenuManager::m_PrefsFrameLimiter,bool,,1,,,0
-0x5F2E64,,_ZN12CMenuManager21m_PrefsAllowNastyGameE,CMenuManager::m_PrefsAllowNastyGame,char,,1,,,0
-0x5F2E68,,_ZN12CMenuManager16m_PrefsPlayerRedE,CMenuManager::m_PrefsPlayerRed,unsigned __int8,,1,,,0
-0x5F2E6C,,_ZN12CMenuManager18m_PrefsPlayerGreenE,CMenuManager::m_PrefsPlayerGreen,unsigned __int8,,1,,,0
-0x5F2E70,,_ZN12CMenuManager16m_KeyPressedCodeE,CMenuManager::m_KeyPressedCode,int,,4,,,0
-0x5F2F74,,_ZN12CMenuManager10m_PrefsDMAE,CMenuManager::m_PrefsDMA,bool,,1,,,0
-0x5F2F78,,_ZN12CMenuManager11OS_LanguageE,CMenuManager::OS_Language,int,,4,,,0
+0x5F2E40,CMenuManager,_ZL16MENU_TEXT_SIZE_X,MENU_TEXT_SIZE_X,float,,4,,0.45f,0
+0x5F2E44,CMenuManager,_ZL16MENU_TEXT_SIZE_Y,MENU_TEXT_SIZE_Y,float,,4,,0.7f,0
+0x5F2E48,CMenuManager,_ZN12CMenuManager16m_PrefsSfxVolumeE,CMenuManager::m_PrefsSfxVolume,int,,4,,102,0
+0x5F2E4C,CMenuManager,_ZN12CMenuManager18m_PrefsMusicVolumeE,CMenuManager::m_PrefsMusicVolume,int,,4,,102,0
+0x5F2E50,CMenuManager,_ZN12CMenuManager17m_PrefsBrightnessE,CMenuManager::m_PrefsBrightness,int,,4,,256,0
+0x5F2E54,CMenuManager,_ZN12CMenuManager20m_PrefsShowSubtitlesE,CMenuManager::m_PrefsShowSubtitles,char,,1,,1,0
+0x5F2E58,CMenuManager,_ZN12CMenuManager12m_PrefsVsyncE,CMenuManager::m_PrefsVsync,char,,1,,1,0
+0x5F2E5C,CMenuManager,_ZN12CMenuManager16m_PrefsVsyncDispE,CMenuManager::m_PrefsVsyncDisp,char,,1,,1,0
+0x5F2E60,CMenuManager,_ZN12CMenuManager19m_PrefsFrameLimiterE,CMenuManager::m_PrefsFrameLimiter,char,,1,,1,0
+0x5F2E64,CMenuManager,_ZN12CMenuManager21m_PrefsAllowNastyGameE,CMenuManager::m_PrefsAllowNastyGame,bool,,1,,true,0
+0x5F2E68,CMenuManager,_ZN12CMenuManager16m_PrefsPlayerRedE,CMenuManager::m_PrefsPlayerRed,unsigned __int8,,1,,255,0
+0x5F2E6C,CMenuManager,_ZN12CMenuManager18m_PrefsPlayerGreenE,CMenuManager::m_PrefsPlayerGreen,unsigned __int8,,1,,128,0
+0x5F2E70,CMenuManager,_ZN12CMenuManager16m_KeyPressedCodeE,CMenuManager::m_KeyPressedCode,int,,4,,-1,0
+0x5F2F74,CMenuManager,_ZN12CMenuManager10m_PrefsDMAE,CMenuManager::m_PrefsDMA,char,,1,,1,0
+0x5F2F78,CMenuManager,_ZN12CMenuManager11OS_LanguageE,CMenuManager::OS_Language,int,,4,,9,0
 0x5F311C,,_ZL17FrontEndFilenames,FrontEndFilenames,TextureData[],,224,,,0
 0x5F3344,,_ZL13MenuFilenames,MenuFilenames,TextureData[],,160,,,0
 0x5F33E4,,gErrorSampleTriggered,gErrorSampleTriggered,,,1,,,0
+0x5F37E4,,y,y,const float,,4,0.6f,,0
+0x5F37F4,,x,x,const float,,4,0.4f,,0
 0x5F4DD0,,_ZN5CGame9bDemoModeE,CGame::bDemoMode,bool,,1,,,0
 0x5F4DD4,,_ZN5CGame9nastyGameE,CGame::nastyGame,bool,,1,,,0
 0x5F556C,,splashTxdId,splashTxdId,int,,4,,,0
@@ -330,6 +331,8 @@
 0x5FE020,,_ZTV15CClumpModelInfo,`vtable for'CClumpModelInfo,,,1,,,0
 0x5FE044,,_ZTV19CXtraCompsModelInfo,`vtable for'CXtraCompsModelInfo,,,1,,,0
 0x5FE068,,_ZTV9CInstance,`vtable for'CInstance,,,1,,,0
+0x5FE3F4,,nParticleCreationInterval,nParticleCreationInterval,int,,4,,,0
+0x5FE4AC,,particleColor3,particleColor3,RwRGBA,,4,,,0
 0x5FE678,,ParticleFilename,ParticleFilename,char *,,4,,,0
 0x5FE7A4,CPedModelInfo,_ZN13CPedModelInfo9m_pPedIdsE,CPedModelInfo::m_pPedIds,RwObjectNameIdAssocation *[12],,144,,,0
 0x5FE9E4,CRubbish,_ZL11aAnimations,aAnimations,float[3][34],,408,,,0
@@ -362,6 +365,7 @@
 0x5FF988,CVehicleModelInfo,_ZN17CVehicleModelInfo15ms_vehicleDescsE,CVehicleModelInfo::ms_vehicleDescs,RwObjectNameIdAssocation *[6],,24,,,0
 0x5FF9A0,,wheelIds,wheelIds,int[4],,16,,,0
 0x5FF9DC,,VehicleExtras,VehicleExtras,int[6],,24,,,0
+0x5FF9FC,,white,white,RwRGBA,,4,,,0
 0x5FFABC,,Reflection,Reflection,char *[6],,24,,,0
 0x5FFBAC,CWeather,Windyness,Windyness,float[6],,24,,"0.0f - WEATHER_SUNNY, 0.7f - WEATHER_CLOUDY, 1.0f - WEATHER_RAINY, 0.5f - WEATHER_FOGGY, 0.0f, 0.0f",0
 0x5FFBC4,CWeather,_ZN8CWeather11SoundHandleE,CWeather::SoundHandle,int,,4,,,0
@@ -369,11 +373,11 @@
 0x600068,,_ZL15numberGeometrys,numberGeometrys,,,1,,,0
 0x60006C,,_ZL9gGeomList,gGeomList,rpGeometryList,,8,,,0
 0x60009C,,pExtraDirectionals,pExtraDirectionals,RpLight *[4],,16,,,0
-0x60010C,,_ZL14UpperCaseTable,UpperCaseTable,__int16[],,24,,,0
+0x60010C,,_ZL14UpperCaseTable,UpperCaseTable,wchar_t[12],,24,,,0
 0x600124,,_ZN18CVisibilityPlugins21ms_atomicPluginOffsetE,CVisibilityPlugins::ms_atomicPluginOffset,,,1,,,0
 0x600128,,_ZN18CVisibilityPlugins20ms_framePluginOffsetE,CVisibilityPlugins::ms_framePluginOffset,,,1,,,0
 0x60012C,,_ZN18CVisibilityPlugins20ms_clumpPluginOffsetE,CVisibilityPlugins::ms_clumpPluginOffset,,,1,,,0
-0x60020C,,_ZL20FrenchUpperCaseTable,FrenchUpperCaseTable,__int16[256],,512,,,0
+0x60020C,,_ZL20FrenchUpperCaseTable,FrenchUpperCaseTable,wchar_t[256],,512,,,0
 0x6004F8,,volume,volume,const float,,4,0.0f,,0
 0x600638,,divisor,divisor,const float,,4,2.0f,,0
 0x600758,,m_ColorParticle,m_ColorParticle,RwRGBA[4],,16,,,0
@@ -822,19 +826,19 @@
 0x628CC8,,_ZL18gpRelatedModelInfo,gpRelatedModelInfo,CSimpleModelInfo *,,4,,,0
 0x628CD8,,_ZN12CFireManager9DSOHandleE,CFireManager::DSOHandle,DSOHandle,,12,,,0
 0x628CE8,,_ZN5CRGBA9DSOHandleE,CRGBA::DSOHandle,DSOHandle,,12,,,0
-0x628CF8,,_ZL20TimeToStopPadShaking,TimeToStopPadShaking,unsigned int,,4,,,0
-0x628CFC,,_ZL25bFrontEnd_ReloadObrTxtGxt,bFrontEnd_ReloadObrTxtGxt,bool,,1,,,0
-0x628D00,,_ZL11pEditString,pEditString,char *,,4,,,0
-0x628D08,,_ZL12pControlEdit,pControlEdit,int *,,4,,,0
-0x628D0C,,_ZL22MouseButtonJustClicked,MouseButtonJustClicked,int,,4,,,0
-0x628D10,,_ZL20JoyButtonJustClicked,JoyButtonJustClicked,int,,4,,,0
-0x628D14,,_ZL24DisplayComboButtonErrMsg,DisplayComboButtonErrMsg,bool,,1,,,0
+0x628CF8,CMenuManager,_ZL20TimeToStopPadShaking,TimeToStopPadShaking,unsigned int,,4,,,0
+0x628CFC,CMenuManager,_ZL25bFrontEnd_ReloadObrTxtGxt,bFrontEnd_ReloadObrTxtGxt,bool,,1,,,0
+0x628D00,CMenuManager,_ZL11pEditString,pEditString,char *,,4,,,0
+0x628D08,CMenuManager,_ZL12pControlEdit,pControlEdit,int *,,4,,,0
+0x628D0C,CMenuManager,_ZL22MouseButtonJustClicked,MouseButtonJustClicked,int,,4,,,0
+0x628D10,CMenuManager,_ZL20JoyButtonJustClicked,JoyButtonJustClicked,int,,4,,,0
+0x628D14,CMenuManager,_ZL24DisplayComboButtonErrMsg,DisplayComboButtonErrMsg,bool,,1,,,0
 0x628D18,,_ZN12CMenuManager9DSOHandleE,CMenuManager::DSOHandle,DSOHandle,,12,,,0
 0x628D30,,_ZL10TEXT_COLOR,TEXT_COLOR,CRGBA,,4,,,0
 0x628D34,,_ZZN12CMenuManager18DrawFrontEndNormalEvE8LastFade,CMenuManager::DrawFrontEndNormal(void)::LastFade,int,,4,,,0
 0x628D3C,,oldOption,oldOption,,,1,,,0
 0x628D5C,,_ZZN12CMenuManager20ProcessButtonPressesEvE12LastKeyPress,CMenuManager::ProcessButtonPresses(void)::LastKeyPress,int,,4,,,0
-0x628D64,,_ZZN12CMenuManager20ProcessButtonPressesEvE12LastKeyPress_0,CMenuManager::ProcessButtonPresses(void)::LastKeyPress,,,1,,,0
+0x628D64,,_ZZN12CMenuManager20ProcessButtonPressesEvE12LastKeyPress_0,CMenuManager::ProcessButtonPresses(void)::LastKeyPress,int,,4,,,0
 0x628D69,,_ZZN12CMenuManager28DrawContollerScreenExtraTextEiiiE12ColourSwitch,"CMenuManager::DrawContollerScreenExtraText(int,int,int)::ColourSwitch",bool,,1,,,0
 0x628D6C,,_ZZN12CMenuManager28DrawContollerScreenExtraTextEiiiE9LastFlash,"CMenuManager::DrawContollerScreenExtraText(int,int,int)::LastFlash",int,,4,,,0
 0x628D71,,_ZZN12CMenuManager19DrawControllerBoundEiiiaE12ColourSwitch,"CMenuManager::DrawControllerBound(int,int,int,signed char)::ColourSwitch",char,,1,,,0
@@ -899,56 +903,64 @@
 0x62F75C,,_ZZN17CFallingGlassPane6UpdateEvE9nFrameGen,CFallingGlassPane::Update(void)::nFrameGen,char,,1,,,0
 0x62F760,,_ZN4CHud9DSOHandleE,CHud::DSOHandle,DSOHandle,,12,,,0
 0x62F780,CMBlur,_ZL6Vertex,Vertex,RwIm2DVertex[4],,112,,,0
-0x62F88C,,_ZL14gParticleArray,gParticleArray,CParticle[1000],,104000,,,0
-0x648ECC,,_ZL11gpFlame1Tex,gpFlame1Tex,RwTexture *,,4,,,0
-0x648ED0,,_ZL14gpFlame1Raster,gpFlame1Raster,RwRaster *,,4,,,0
-0x648ED4,,_ZL11gpFlame5Tex,gpFlame5Tex,RwTexture *,,4,,,0
-0x648ED8,,_ZL14gpFlame5Raster,gpFlame5Raster,RwRaster *,,4,,,0
-0x648EDC,,_ZL10gpSmokeTex,gpSmokeTex,RwTexture *[5],,20,,,0
-0x648EF0,,_ZL13gpSmokeRaster,gpSmokeRaster,RwRaster *[5],,20,,,0
-0x648F04,,_ZL11gpSmoke2Tex,gpSmoke2Tex,RwTexture *[5],,20,,,0
-0x648F18,,_ZL14gpSmoke2Raster,gpSmoke2Raster,RwRaster *[5],,20,,,0
-0x648F2C,,_ZL13gpGunFlashTex,gpGunFlashTex,RwTexture *[4],,16,,,0
-0x648F3C,,_ZL16gpGunFlashRaster,gpGunFlashRaster,RwRaster *[4],,16,,,0
-0x648F4C,,_ZL10gpBloodTex,gpBloodTex,RwTexture *,,4,,,0
-0x648F50,,_ZL13gpBloodRaster,gpBloodRaster,RwRaster *,,4,,,0
-0x648F54,,_ZL15gpPointlightTex,gpPointlightTex,RwTexture *,,4,,,0
-0x648F58,,_ZL11gpRubberTex,gpRubberTex,RwTexture *[5],,20,,,0
-0x648F6C,,_ZL14gpRubberRaster,gpRubberRaster,RwRaster *[5],,20,,,0
-0x648F80,,_ZL15gpRainSplashTex,gpRainSplashTex,RwTexture *[5],,20,,,0
-0x648F94,,_ZL18gpRainSplashRaster,gpRainSplashRaster,RwRaster *[5],,20,,,0
-0x648FA8,,_ZL15gpWatersprayTex,gpWatersprayTex,RwTexture *[3],,12,,,0
-0x648FB4,,_ZL18gpWatersprayRaster,gpWatersprayRaster,RwRaster *[3],,12,,,0
-0x648FC0,,_ZL14gpCarSplashTex,gpCarSplashTex,RwTexture *[4],,16,,,0
-0x648FD0,,_ZL17gpCarSplashRaster,gpCarSplashRaster,RwRaster *[4],,16,,,0
-0x648FE0,,_ZL18gpRainDropSmallTex,gpRainDropSmallTex,RwTexture *,,4,,,0
-0x648FE4,,_ZL21gpRainDropSmallRaster,gpRainDropSmallRaster,RwRaster *,,4,,,0
-0x648FE8,,_ZL17gpRainSplashupTex,gpRainSplashupTex,RwTexture *[2],,8,,,0
-0x648FF0,,_ZL20gpRainSplashupRaster,gpRainSplashupRaster,RwRaster *[2],,8,,,0
-0x648FF8,,_ZL9gpLeafTex,gpLeafTex,RwTexture *,,4,,,0
-0x648FFC,,_ZL12gpLeafRaster,gpLeafRaster,RwRaster *,,4,,,0
-0x649000,,_ZL10gpGungeTex,gpGungeTex,RwTexture *,,4,,,0
-0x649004,,_ZL13gpGungeRaster,gpGungeRaster,RwRaster *,,4,,,0
-0x649008,,_ZL20gpExplosionMediumTex,gpExplosionMediumTex,RwTexture *[6],,24,,,0
-0x649020,,_ZL23gpExplosionMediumRaster,gpExplosionMediumRaster,RwRaster *[6],,24,,,0
-0x649038,,_ZL11gpCloudTex1,gpCloudTex1,RwTexture *,,4,,,0
-0x64903C,,_ZL14gpCloudRaster1,gpCloudRaster1,RwRaster *,,4,,,0
-0x649040,,_ZL11gpCloudTex4,gpCloudTex4,RwTexture *,,4,,,0
-0x649044,,_ZL14gpCloudRaster4,gpCloudRaster4,RwRaster *,,4,,,0
-0x649048,,_ZL15gpBloodSmallTex,gpBloodSmallTex,RwTexture *,,4,,,0
-0x64904C,,_ZL18gpBloodSmallRaster,gpBloodSmallRaster,RwRaster *,,4,,,0
-0x649050,,_ZL14gpBulletHitTex,gpBulletHitTex,RwTexture *,,4,,,0
-0x649054,,_ZL17gpBulletHitRaster,gpBulletHitRaster,RwRaster *,,4,,,0
-0x649058,,_ZL19gpCollisionSmokeTex,gpCollisionSmokeTex,RwTexture *,,4,,,0
-0x64905C,,_ZL22gpCollisionSmokeRaster,gpCollisionSmokeRaster,RwRaster *,,4,,,0
-0x649060,,_ZL14gpCarDebrisTex,gpCarDebrisTex,RwTexture *[4],,16,,,0
-0x649070,,_ZL17gpCarDebrisRaster,gpCarDebrisRaster,RwRaster *[4],,16,,,0
-0x649080,,_ZL14gpBirdfrontTex,gpBirdfrontTex,RwTexture *[4],,16,,,0
-0x649090,,_ZL17gpBirdfrontRaster,gpBirdfrontRaster,RwRaster *[4],,16,,,0
-0x6490A0,,_ZL13gpGunShellTex,gpGunShellTex,RwTexture *,,4,,,0
-0x6490A4,,_ZL16gpGunShellRaster,gpGunShellRaster,RwRaster *,,4,,,0
-0x6490A8,,_ZL12gpWakeOldTex,gpWakeOldTex,RwTexture *,,4,,,0
-0x6490AC,,_ZL15gpWakeOldRaster,gpWakeOldRaster,RwRaster *,,4,,,0
+0x62F88C,CParticle,_ZL14gParticleArray,gParticleArray,CParticle[1000],,104000,,,0
+0x648ECC,CParticle,_ZL11gpFlame1Tex,gpFlame1Tex,RwTexture *,,4,,,0
+0x648ED0,CParticle,_ZL14gpFlame1Raster,gpFlame1Raster,RwRaster *,,4,,,0
+0x648ED4,CParticle,_ZL11gpFlame5Tex,gpFlame5Tex,RwTexture *,,4,,,0
+0x648ED8,CParticle,_ZL14gpFlame5Raster,gpFlame5Raster,RwRaster *,,4,,,0
+0x648EDC,CParticle,_ZL10gpSmokeTex,gpSmokeTex,RwTexture *[5],,20,,,0
+0x648EF0,CParticle,_ZL13gpSmokeRaster,gpSmokeRaster,RwRaster *[5],,20,,,0
+0x648F04,CParticle,_ZL11gpSmoke2Tex,gpSmoke2Tex,RwTexture *[5],,20,,,0
+0x648F18,CParticle,_ZL14gpSmoke2Raster,gpSmoke2Raster,RwRaster *[5],,20,,,0
+0x648F2C,CParticle,_ZL13gpGunFlashTex,gpGunFlashTex,RwTexture *[4],,16,,,0
+0x648F3C,CParticle,_ZL16gpGunFlashRaster,gpGunFlashRaster,RwRaster *[4],,16,,,0
+0x648F4C,CParticle,_ZL10gpBloodTex,gpBloodTex,RwTexture *,,4,,,0
+0x648F50,CParticle,_ZL13gpBloodRaster,gpBloodRaster,RwRaster *,,4,,,0
+0x648F54,CParticle,_ZL15gpPointlightTex,gpPointlightTex,RwTexture *,,4,,,0
+0x648F58,CParticle,_ZL11gpRubberTex,gpRubberTex,RwTexture *[5],,20,,,0
+0x648F6C,CParticle,_ZL14gpRubberRaster,gpRubberRaster,RwRaster *[5],,20,,,0
+0x648F80,CParticle,_ZL15gpRainSplashTex,gpRainSplashTex,RwTexture *[5],,20,,,0
+0x648F94,CParticle,_ZL18gpRainSplashRaster,gpRainSplashRaster,RwRaster *[5],,20,,,0
+0x648FA8,CParticle,_ZL15gpWatersprayTex,gpWatersprayTex,RwTexture *[3],,12,,,0
+0x648FB4,CParticle,_ZL18gpWatersprayRaster,gpWatersprayRaster,RwRaster *[3],,12,,,0
+0x648FC0,CParticle,_ZL14gpCarSplashTex,gpCarSplashTex,RwTexture *[4],,16,,,0
+0x648FD0,CParticle,_ZL17gpCarSplashRaster,gpCarSplashRaster,RwRaster *[4],,16,,,0
+0x648FE0,CParticle,_ZL18gpRainDropSmallTex,gpRainDropSmallTex,RwTexture *,,4,,,0
+0x648FE4,CParticle,_ZL21gpRainDropSmallRaster,gpRainDropSmallRaster,RwRaster *,,4,,,0
+0x648FE8,CParticle,_ZL17gpRainSplashupTex,gpRainSplashupTex,RwTexture *[2],,8,,,0
+0x648FF0,CParticle,_ZL20gpRainSplashupRaster,gpRainSplashupRaster,RwRaster *[2],,8,,,0
+0x648FF8,CParticle,_ZL9gpLeafTex,gpLeafTex,RwTexture *,,4,,,0
+0x648FFC,CParticle,_ZL12gpLeafRaster,gpLeafRaster,RwRaster *,,4,,,0
+0x649000,CParticle,_ZL10gpGungeTex,gpGungeTex,RwTexture *,,4,,,0
+0x649004,CParticle,_ZL13gpGungeRaster,gpGungeRaster,RwRaster *,,4,,,0
+0x649008,CParticle,_ZL20gpExplosionMediumTex,gpExplosionMediumTex,RwTexture *[6],,24,,,0
+0x649020,CParticle,_ZL23gpExplosionMediumRaster,gpExplosionMediumRaster,RwRaster *[6],,24,,,0
+0x649038,CParticle,_ZL11gpCloudTex1,gpCloudTex1,RwTexture *,,4,,,0
+0x64903C,CParticle,_ZL14gpCloudRaster1,gpCloudRaster1,RwRaster *,,4,,,0
+0x649040,CParticle,_ZL11gpCloudTex4,gpCloudTex4,RwTexture *,,4,,,0
+0x649044,CParticle,_ZL14gpCloudRaster4,gpCloudRaster4,RwRaster *,,4,,,0
+0x649048,CParticle,_ZL15gpBloodSmallTex,gpBloodSmallTex,RwTexture *,,4,,,0
+0x64904C,CParticle,_ZL18gpBloodSmallRaster,gpBloodSmallRaster,RwRaster *,,4,,,0
+0x649050,CParticle,_ZL14gpBulletHitTex,gpBulletHitTex,RwTexture *,,4,,,0
+0x649054,CParticle,_ZL17gpBulletHitRaster,gpBulletHitRaster,RwRaster *,,4,,,0
+0x649058,CParticle,_ZL19gpCollisionSmokeTex,gpCollisionSmokeTex,RwTexture *,,4,,,0
+0x64905C,CParticle,_ZL22gpCollisionSmokeRaster,gpCollisionSmokeRaster,RwRaster *,,4,,,0
+0x649060,CParticle,_ZL14gpCarDebrisTex,gpCarDebrisTex,RwTexture *[4],,16,,,0
+0x649070,CParticle,_ZL17gpCarDebrisRaster,gpCarDebrisRaster,RwRaster *[4],,16,,,0
+0x649080,CParticle,_ZL14gpBirdfrontTex,gpBirdfrontTex,RwTexture *[4],,16,,,0
+0x649090,CParticle,_ZL17gpBirdfrontRaster,gpBirdfrontRaster,RwRaster *[4],,16,,,0
+0x6490A0,CParticle,_ZL13gpGunShellTex,gpGunShellTex,RwTexture *,,4,,,0
+0x6490A4,CParticle,_ZL16gpGunShellRaster,gpGunShellRaster,RwRaster *,,4,,,0
+0x6490A8,CParticle,_ZL12gpWakeOldTex,gpWakeOldTex,RwTexture *,,4,,,0
+0x6490AC,CParticle,_ZL15gpWakeOldRaster,gpWakeOldRaster,RwRaster *,,4,,,0
+0x6490B0,,particleRandomizer,particleRandomizer,int,,4,,,0
+0x6490B4,,particleColor,particleColor,RwRGBA,,4,,,0
+0x6490BC,,particlePos,particlePos,CVector,,12,,,0
+0x6490C8,,particleLastTestGroundZ,particleLastTestGroundZ,float,,4,,,0
+0x6490CC,,particleValidGroundFound,particleValidGroundFound,bool,,1,,,0
+0x6490D0,,particleZGround,particleZGround,float,,4,,,0
+0x6490D4,,particleZFound,particleZFound,bool,,1,,,0
+0x6490D5,,particleColor2,particleColor2,RwRGBA,,4,,,0
 0x6490E0,CRubbish,_ZL16RubbishIndexList,RubbishIndexList,RwImVertexIndex[6],,12,,,0
 0x6490EC,CRubbish,_ZL17RubbishIndexList2,RubbishIndexList2,RwImVertexIndex[6],,12,,,0
 0x6490F8,CRubbish,_ZL15RubbishVertices,RubbishVertices,RwIm3DVertex[4],,144,,,0
@@ -972,8 +984,10 @@
 0x649A80,CSprite,_ZL18nSpriteBufferIndex,nSpriteBufferIndex,int,,4,,,0
 0x649A84,CSprite,_ZL17SpriteBufferVerts,SpriteBufferVerts,RwIm2DVertex[384],,10752,,,0
 0x64C484,CSprite,_ZL5verts,verts,RwIm2DVertex[4],,112,,,0
-0x64C4F8,,gpWhiteTexture,gpWhiteTexture,RwTexture *,,4,,,0
-0x64C510,,_ZL19pMatFxIdentityFrame,pMatFxIdentityFrame,RwFrame *,,4,,,0
+0x64C4F8,CVehicleModelInfo,gpWhiteTexture,gpWhiteTexture,RwTexture *,,4,,,0
+0x64C4FC,,okdam,okdam,RpAtomic *[2],,8,,,0
+0x64C504,,scale,scale,RwV3d,,12,,,0
+0x64C510,CVehicleModelInfo,_ZL19pMatFxIdentityFrame,pMatFxIdentityFrame,RwFrame *,,4,,,0
 0x64C514,,_ZL11initialised,initialised,bool,,1,,,0
 0x64C518,CWaterCannon,_ZL20WaterCannonIndexList,WaterCannonIndexList,RwImVertexIndex[12],,24,,,0
 0x64C530,CWaterCannon,_ZL19WaterCannonVertices,WaterCannonVertices,RwIm3DVertex[4],,144,,,0
@@ -989,7 +1003,7 @@
 0x64C608,,_ZL24NumExtraDirLightsInWorld,NumExtraDirLightsInWorld,int,,4,,,0
 0x64C610,NodeName,_ZL13gPluginOffset,gPluginOffset,int,,4,,,0
 0x64C624,,_ZZ14UnicodeToAsciiPtE4aStr,UnicodeToAscii(ushort *)::aStr,char[256],,256,,,0
-0x64C724,,_ZZ25UnicodeToAsciiForSaveLoadPtE4aStr,UnicodeToAsciiForSaveLoad(ushort *)::aStr,char[420],,420,,,0
+0x64C724,,_ZZ25UnicodeToAsciiForSaveLoadPtE4aStr,UnicodeToAsciiForSaveLoad(ushort *)::aStr,char[256],,256,,,0
 0x64C8C8,CAutomobile,_ZL24vecDAMAGE_ENGINE_POS_BIG,vecDAMAGE_ENGINE_POS_BIG,CVector,,12,,,0
 0x64C8D4,CAutomobile,_ZL26vecDAMAGE_ENGINE_POS_SMALL,vecDAMAGE_ENGINE_POS_SMALL,CVector,,12,,,0
 0x64C8E0,CAutomobile,_ZL14aTempPedColPts_0,aTempPedColPts,CColPoint[32],,1280,,,0
@@ -1363,13 +1377,13 @@
 0x6E8DA8,CTimeCycle,_ZN10CTimeCycle24m_nFluffyCloudsBottomRedE,CTimeCycle::m_nFluffyCloudsBottomRed,int[24][4],,384,,,0
 0x6E8F28,,_ZN4CHud17m_LastHelpMessageE,CHud::m_LastHelpMessage,wchar_t[256],,512,,,0
 0x6E9128,,_ZN6CStats12FastestTimesE,CStats::FastestTimes,int[16],,64,,,0
-0x6E9168,,_ZN9CSprite2d10maVerticesE,CSprite2d::maVertices,RwIm2DVertex[8],,224,,,0
+0x6E9168,CSprite2d,_ZN9CSprite2d10maVerticesE,CSprite2d::maVertices,RwIm2DVertex[8],,224,,,0
 0x6E9248,CPopulation,_ZN11CPopulation13ms_pPedGroupsE,CPopulation::ms_pPedGroups,int[31][8],,992,,,0
 0x6E9628,CPed,gapTempPedList,gapTempPedList,CPed *[50],,200,,,0
 0x6E96F0,CTimeCycle,_ZN10CTimeCycle19m_fSpriteBrightnessE,CTimeCycle::m_fSpriteBrightness,float[24][4],,384,,,0
 0x6E9870,,SubZo3Label,SubZo3Label,char[8],,8,,,0
 0x6E9878,CShotInfo,_ZN9CShotInfo14ms_afRandTableE,CShotInfo::ms_afRandTable,float[20],,80,,,0
-0x6E98C8,,_ZN9CParticle14ms_afRandTableE,CParticle::ms_afRandTable,float[20],,80,,,0
+0x6E98C8,CParticle,_ZN9CParticle14ms_afRandTableE,CParticle::ms_afRandTable,float[20],,80,,,0
 0x6E9918,,SubZo2Label,SubZo2Label,char[8],,8,,,0
 0x6E9920,CRenderer,_ZN9CRenderer21ms_aVisibleEntityPtrsE,CRenderer::ms_aVisibleEntityPtrs,CEntity *[2000],,8000,,,0
 0x6EB860,CCarCtrl,_ZN8CCarCtrl9CarArraysE,CCarCtrl::CarArrays,int[7][256],,7168,,,0
@@ -1401,13 +1415,13 @@
 0x6F1808,,nnn,nnn,wchar_t,,1280,,,0
 0x6F1D08,,dgGGlobals,dgGGlobals,RwRwDeviceGlobals,,8,,,0
 0x6F1D10,,AmbientLightColourForFrame_PedsCarsAndObjects,AmbientLightColourForFrame_PedsCarsAndObjects,RwRGBAReal,,16,,,0
-0x6F1D20,,_ZN8CRestart21PoliceRestartHeadingsE,CRestart::PoliceRestartHeadings,float[8],,32,,,0
-0x6F1D40,,_ZN8CRestart23HospitalRestartHeadingsE,CRestart::HospitalRestartHeadings,float[8],,32,,,0
+0x6F1D20,CRestart,_ZN8CRestart21PoliceRestartHeadingsE,CRestart::PoliceRestartHeadings,float[8],,32,,,0
+0x6F1D40,CRestart,_ZN8CRestart23HospitalRestartHeadingsE,CRestart::HospitalRestartHeadings,float[8],,32,,,0
 0x6F1D60,CRenderer,_ZN9CRenderer14aBlockedRangesE,CRenderer::aBlockedRanges,BlockedRange[16],,256,,,0
 0x6F1E60,,_ZN4CPad26PCTempMouseControllerStateE,CPad::PCTempMouseControllerState,CMouseControllerState,,16,,,0
 0x6F1E70,,_ZN4CPad11OldKeyStateE,CPad::OldKeyState,CKeyboardState,,624,,,0
 0x6F20E0,,mod_ParticleSystemManager,mod_ParticleSystemManager,cParticleSystemMgr,,9248,,,0
-0x6F4500,,_ZN9CSprite2d14mCurrentSpriteE,CSprite2d::mCurrentSprite,CSprite2d[10],,40,,,0
+0x6F4500,CSprite2d,_ZN9CSprite2d14mCurrentSpriteE,CSprite2d::mCurrentSprite,CSprite2d[10],,40,,,0
 0x6F4528,CTimeCycle,_ZN10CTimeCycle19m_nDirectionalGreenE,CTimeCycle::m_nDirectionalGreen,int[24][4],,384,,,0
 0x6F46A8,CRecordDataForChase,_ZN19CRecordDataForChase10pChaseCarsE,CRecordDataForChase::pChaseCars,CAutomobile *[20],,80,,,0
 0x6F46F8,,AmbientLightColourForFrame,AmbientLightColourForFrame,RwRGBAReal,,16,,,0
@@ -1439,7 +1453,7 @@
 0x70D838,CTrain,aLineBits,aLineBits,CTrainInterpolationLine[17],,340,,,0
 0x70D990,,version_name,version_name,char[64],,64,,,0
 0x70D9D0,CCutsceneMgr,_ZN12CCutsceneMgr15ms_cutsceneNameE,CCutsceneMgr::ms_cutsceneName,char[8],,8,,,0
-0x70DA18,,_ZN9CParticle10m_CosTableE,CParticle::m_CosTable,float[1024],,4096,,,0
+0x70DA18,CParticle,_ZN9CParticle10m_CosTableE,CParticle::m_CosTable,float[1024],,4096,,,0
 0x70EA18,CRecordDataForChase,_ZN19CRecordDataForChase14pBaseMemForCarE,CRecordDataForChase::pBaseMemForCar,CCarStateEachFrame *[20],,80,,,0
 0x70EA68,,_ZN11CTheScripts14IntroTextLinesE,CTheScripts::IntroTextLines,CTextLine[2],,2088,,,0
 0x70F290,,OsVersion,OsVersion,unsigned int,,4,,,0
@@ -1519,10 +1533,10 @@
 0x773A48,,_ZN5CGame8aDatFileE,CGame::aDatFile,char[32],,32,,,0
 0x773A68,CTimeCycle,_ZN10CTimeCycle14m_nSunCoreBlueE,CTimeCycle::m_nSunCoreBlue,int[24][4],,384,,,0
 0x773BE8,,_ZN8CShadows14aStaticShadowsE,CShadows::aStaticShadows,CStaticShadow[64],,4096,,,0
-0x774BE8,,_ZN9CSprite2d10mBankStartE,CSprite2d::mBankStart,int[10],,40,,,0
+0x774BE8,CSprite2d,_ZN9CSprite2d10mBankStartE,CSprite2d::mBankStart,int[10],,40,,,0
 0x774C10,CTimeCycle,_ZN10CTimeCycle12m_fBlurGreenE,CTimeCycle::m_fBlurGreen,float[24][4],,384,,,0
 0x774D90,CTrain,_ZN6CTrain15aStationCoors_SE,CTrain::aStationCoors_S,CVector[4],,48,,,0
-0x774DC0,,_ZN9CSprite2d14mpBankTexturesE,CSprite2d::mpBankTextures,RwTexture *[10],,40,,,0
+0x774DC0,CSprite2d,_ZN9CSprite2d14mpBankTexturesE,CSprite2d::mpBankTextures,RwTexture *[10],,40,,,0
 0x774DE8,,_ZN4CPad12TempKeyStateE,CPad::TempKeyState,CKeyboardState,,624,,,0
 0x775058,,_ZN11CWaterLevel19aWaterFineBlockListE,CWaterLevel::aWaterFineBlockList,char[16384],,16384,,,0
 0x779058,,_ZN8CShadows15asShadowsStoredE,CShadows::asShadowsStored,CRegisteredShadow[48],,2304,,,0
@@ -1533,9 +1547,9 @@
 0x83D108,CTimeCycle,_ZN10CTimeCycle27m_fLightsOnGroundBrightnessE,CTimeCycle::m_fLightsOnGroundBrightness,float[24][4],,384,,,0
 0x83D288,CTimeCycle,_ZN10CTimeCycle16m_nSkyBottomBlueE,CTimeCycle::m_nSkyBottomBlue,int[24][4],,384,,,0
 0x83D408,CModelInfo,_ZN10CModelInfo16ms_modelInfoPtrsE,CModelInfo::ms_modelInfoPtrs,CBaseModelInfo *[5500],,22000,,,0
-0x8429F8,,_ZN9CSprite2d14maBankVerticesE,CSprite2d::maBankVertices,RwIm2DVertex[500],,14000,,,0
+0x8429F8,CSprite2d,_ZN9CSprite2d14maBankVerticesE,CSprite2d::maBankVertices,RwIm2DVertex[500],,14000,,,0
 0x8460A8,CTimeCycle,_ZN10CTimeCycle14m_nSkyTopGreenE,CTimeCycle::m_nSkyTopGreen,int[24][4],,384,,,0
-0x846228,,_ZN8CRestart19PoliceRestartPointsE,CRestart::PoliceRestartPoints,CVector[8],,96,,,0
+0x846228,CRestart,_ZN8CRestart19PoliceRestartPointsE,CRestart::PoliceRestartPoints,CVector[8],,96,,,0
 0x846288,RenderBuffer,TempBufferRenderIndexList,TempBufferRenderIndexList,RwImVertexIndex[1024],,2048,,,0
 0x846A88,,_rxExecCtxGlobal,_rxExecCtxGlobal,RxExecutionContext,,24,,,0
 0x8472A0,,_ZN4CPad23OldMouseControllerStateE,CPad::OldMouseControllerState,CMouseControllerState,,16,,,0
@@ -1562,7 +1576,7 @@
 0x86BEE0,,_ZN9CTheZones9ZoneArrayE,CTheZones::ZoneArray,CZone[50],,2800,,,0
 0x86C9D0,,_ZN10CCullZones35aPointersToBigBuildingsForBuildingsE,CCullZones::aPointersToBigBuildingsForBuildings,unsigned __int16[5500],,11000,,,0
 0x86F4C8,,_ZN8CShadows12aPolyBunchesE,CShadows::aPolyBunches,CPolyBunch[300],,32400,,,0
-0x877358,,_ZN9CParticle10m_SinTableE,CParticle::m_SinTable,float[1024],,4096,,,0
+0x877358,CParticle,_ZN9CParticle10m_SinTableE,CParticle::m_SinTable,float[1024],,4096,,,0
 0x878358,,_ZN8CGarages15MessageIDStringE,CGarages::MessageIDString,char[8],,8,,,0
 0x878360,CTimeCycle,_ZN10CTimeCycle13m_nSunCoreRedE,CTimeCycle::m_nSunCoreRed,int[24][4],,384,,,0
 0x8784E0,CTimeCycle,_ZN10CTimeCycle11m_fBlurBlueE,CTimeCycle::m_fBlurBlue,float[24][4],,384,,,0
@@ -1576,7 +1590,7 @@
 0x87BDD8,,_ZN14CTempColModels17ms_colModelPanel1E,CTempColModels::ms_colModelPanel1,CColModel,,88,,,0
 0x87BE30,,_ZN14CTempColModels20ms_colModelBodyPart2E,CTempColModels::ms_colModelBodyPart2,CColModel,,88,,,0
 0x87BE88,,_ZN14CTempColModels20ms_colModelBodyPart1E,CTempColModels::ms_colModelBodyPart1,CColModel,,88,,,0
-0x87BEE0,,gpRainDropRaster,gpRainDropRaster,RwRaster *[4],,16,,,0
+0x87BEE0,CParticle,gpRainDropRaster,gpRainDropRaster,RwRaster *[4],,16,,,0
 0x87BEF0,,LightStrengths,LightStrengths,int[4],,16,,,0
 0x87BF00,,rightStickPos,rightStickPos,RwV2d,,8,,,0
 0x87BF08,CTimeCycle,_ZN10CTimeCycle17m_nLowCloudsGreenE,CTimeCycle::m_nLowCloudsGreen,int[24][4],,384,,,0
@@ -1596,7 +1610,7 @@
 0x87F820,CTimeCycle,_ZN10CTimeCycle13m_fSpriteSizeE,CTimeCycle::m_fSpriteSize,float[24][4],,384,,,0
 0x87F9A0,,nSampleBankDiscStartOffset,nSampleBankDiscStartOffset,int[2],,8,,,0
 0x87F9A8,CCarCtrl,aCarsToKeepTime,aCarsToKeepTime,unsigned int[2],,8,,,0
-0x87F9B0,,_ZN8CRestart21HospitalRestartPointsE,CRestart::HospitalRestartPoints,CVector[8],,96,,,0
+0x87F9B0,CRestart,_ZN8CRestart21HospitalRestartPointsE,CRestart::HospitalRestartPoints,CVector[8],,96,,,0
 0x87FA10,CTimeCycle,_ZN10CTimeCycle16m_nLowCloudsBlueE,CTimeCycle::m_nLowCloudsBlue,int[24][4],,384,,,0
 0x87FB90,CTimeCycle,_ZN10CTimeCycle12m_nSkyTopRedE,CTimeCycle::m_nSkyTopRed,int[24][4],,384,,,0
 0x87FD10,CAccidentManager,gAccidentManager,gAccidentManager,CAccidentManager,,240,,,0
@@ -1607,7 +1621,7 @@
 0x880480,,_ZN14CTempColModels23ms_colModelPedGroundHitE,CTempColModels::ms_colModelPedGroundHit,CColModel,,88,,,0
 0x8804D8,,_ZN7CReplay12BufferStatusE,CReplay::BufferStatus,char[8],,8,,,0
 0x8804E0,CTimeCycle,_ZN10CTimeCycle10m_fFarClipE,CTimeCycle::m_fFarClip,float[24][4],,384,,,0
-0x880660,,gpRainDropTex,gpRainDropTex,RwTexture *[4],,16,,,0
+0x880660,CParticle,gpRainDropTex,gpRainDropTex,RwTexture *[4],,16,,,0
 0x880670,,_ZN14CTempColModels16ms_colModelBoot1E,CTempColModels::ms_colModelBoot1,CColModel,,88,,,0
 0x8806C8,CTimeCycle,_ZN10CTimeCycle11m_fFogStartE,CTimeCycle::m_fFogStart,float[24][4],,384,,,0
 0x880848,CTrain,EngineTrackSpeed,EngineTrackSpeed,float[2],,8,,,0
@@ -1618,7 +1632,7 @@
 0x880A00,CMotionBlurStreaks,_ZN18CMotionBlurStreaks8aStreaksE,CMotionBlurStreaks::aStreaks,CRegisteredMotionBlurStreak[4],,336,,,0
 0x880B50,CRenderer,_ZN9CRenderer23ms_aInVisibleEntityPtrsE,CRenderer::ms_aInVisibleEntityPtrs,CEntity *[150],,600,,,0
 0x880DA8,,_ZN10CCullZones29CurrentWantedLevelDrop_PlayerE,CCullZones::CurrentWantedLevelDrop_Player,int,,4,,,0
-0x880DB4,,_ZN9CSprite2d13RecipNearClipE,CSprite2d::RecipNearClip,float,,4,,,0
+0x880DB4,CSprite2d,_ZN9CSprite2d13RecipNearClipE,CSprite2d::RecipNearClip,float,,4,,,0
 0x880DB8,,_ZN10CStreaming15ms_channelErrorE,CStreaming::ms_channelError,int,,4,,,0
 0x880DBC,,_ZN6CStats20PedsKilledOfThisTypeE,CStats::PedsKilledOfThisType,int[23],,92,,,0
 0x880E18,,_ZN8CGarages13CarsCollectedE,CGarages::CarsCollected,int,,4,,,0
@@ -1695,7 +1709,7 @@
 0x8E286C,,_ZN8CGarages17CarTypesCollectedE,CGarages::CarTypesCollected,int[3],,12,,,0
 0x8E2878,,startupDeactivate,startupDeactivate,int,,4,,,0
 0x8E287C,,_ZN6CStats24NumberKillFrenziesPassedE,CStats::NumberKillFrenziesPassed,int,,4,,,0
-0x8E2880,,_ZN12CMenuManager13m_SelectedMapE,CMenuManager::m_SelectedMap,int,,4,,,0
+0x8E2880,CMenuManager,_ZN12CMenuManager13m_SelectedMapE,CMenuManager::m_SelectedMap,int,,4,,,0
 0x8E2884,,_ZN6CStats23TotalNumberKillFrenziesE,CStats::TotalNumberKillFrenzies,int,,4,,,0
 0x8E2888,C3dMarkers,_ZN10C3dMarkers15m_pRpClumpArrayE,C3dMarkers::m_pRpClumpArray,RpClump *[5],,20,,,0
 0x8E289C,CPickups,_ZN8CPickups18StaticCamStartTimeE,CPickups::StaticCamStartTime,unsigned int,,4,,,0
@@ -1741,7 +1755,7 @@
 0x8E2BF4,,_ZN11CTheScripts14pActiveScriptsE,CTheScripts::pActiveScripts,CRunningScript *,,4,,,0
 0x8E2BF8,CWeather,_ZN8CWeather4WindE,CWeather::Wind,float,,4,,,0
 0x8E2BFC,CWeather,_ZN8CWeather4RainE,CWeather::Rain,float,,4,,,0
-0x8E2C00,,_ZN8CRestart16OverridePositionE,CRestart::OverridePosition,CVector,,12,,,0
+0x8E2C00,CRestart,_ZN8CRestart16OverridePositionE,CRestart::OverridePosition,CVector,,12,,,0
 0x8E2C0C,CWeather,_ZN8CWeather24LightningFlashLastChangeE,CWeather::LightningFlashLastChange,unsigned int,,4,,,0
 0x8E2C10,,_ZN10CStreaming21ms_numModelsRequestedE,CStreaming::ms_numModelsRequested,int,,4,,,0
 0x8E2C14,,_ZN8CGarages22MessageNumberInString2E,CGarages::MessageNumberInString2,int,,4,,,0
@@ -1814,7 +1828,7 @@
 0x8F1AE4,CPathFind,InfoForTilePeds,InfoForTilePeds,CPathInfoForObject *,,4,,,0
 0x8F1AE8,CFallingGlassPane,TempBufferVerticesStoredShattered,TempBufferVerticesStoredShattered,int,,4,,,0
 0x8F1AEC,CRecordDataForChase,_ZN19CRecordDataForChase13AnimStartTimeE,CRecordDataForChase::AnimStartTime,unsigned int,,4,,,0
-0x8F1AF4,,_ZN9CSprite2d12mCurrentBankE,CSprite2d::mCurrentBank,int,,4,,,0
+0x8F1AF4,CSprite2d,_ZN9CSprite2d12mCurrentBankE,CSprite2d::mCurrentBank,int,,4,,,0
 0x8F1AF8,CReferences,_ZN11CReferences10pEmptyListE,CReferences::pEmptyList,CReference *,,4,,,0
 0x8F1AFC,CPlane,PlanePath4Speed,PlanePath4Speed,float,,4,,,0
 0x8F1B00,,_ZN10CSceneEdit13m_nPedmodelIdE,CSceneEdit::m_nPedmodelId,unsigned int,,4,,,0
@@ -1897,7 +1911,7 @@
 0x8F2A0C,,_ZN7CReplay24fAlphaAngleLookAroundCamE,CReplay::fAlphaAngleLookAroundCam,float,,4,,,0
 0x8F2A10,CSpecialParticleStuff,_ZN21CSpecialParticleStuff13BoatFoamStartE,CSpecialParticleStuff::BoatFoamStart,unsigned int,,4,,,0
 0x8F2A14,,_ZN4CHud18m_VehicleNameTimerE,CHud::m_VehicleNameTimer,int,,4,,,0
-0x8F2A18,,_ZN8CRestart15OverrideHeadingE,CRestart::OverrideHeading,float,,4,,,0
+0x8F2A18,CRestart,_ZN8CRestart15OverrideHeadingE,CRestart::OverrideHeading,float,,4,,,0
 0x8F2A1C,CBridge,_ZN7CBridge5StateE,CBridge::State,eBridgeState,,4,,,0
 0x8F2A20,CBridge,_ZN7CBridge8OldStateE,CBridge::OldState,eBridgeState,,4,,,0
 0x8F2A24,,_ZN11CTheScripts14MissionCleanUpE,CTheScripts::MissionCleanUp,CMissionCleanup,,404,,,0
@@ -1952,12 +1966,12 @@
 0x8F31C4,,_ZN10CStreaming22ms_numPriorityRequestsE,CStreaming::ms_numPriorityRequests,int,,4,,,0
 0x8F31CC,,_ZN10CEventList22ms_nFirstFreeSlotIndexE,CEventList::ms_nFirstFreeSlotIndex,int,,4,,,0
 0x8F31D0,CFireManager,gFireManager,gFireManager,CFireManager,,1924,,,0
-0x8F3958,,_ZN9CParticle17m_pUnusedListHeadE,CParticle::m_pUnusedListHead,CParticle *,,4,,,0
+0x8F3958,CParticle,_ZN9CParticle17m_pUnusedListHeadE,CParticle::m_pUnusedListHead,CParticle *,,4,,,0
 0x8F395C,,maxSamples,maxSamples,unsigned int,,4,,,0
 0x8F3960,CTimeCycle,_ZN10CTimeCycle32m_nCurrentFluffyCloudsBottomBlueE,CTimeCycle::m_nCurrentFluffyCloudsBottomBlue,int,,4,,,0
 0x8F3964,cMusicManager,gMusicManager,gMusicManager,cMusicManager,,2396,,,0
 0x8F42C0,,gColourBottom,gColourBottom,CRGBA,,4,,,0
-0x8F42C4,,_ZN12CMenuManager10m_PrefsLODE,CMenuManager::m_PrefsLOD,float,,4,,,0
+0x8F42C4,CMenuManager,_ZN12CMenuManager10m_PrefsLODE,CMenuManager::m_PrefsLOD,float,,4,,,0
 0x8F42E0,,ChannelSample,ChannelSample,int[],,4,,,0
 0x8F42E4,,_ZN18CVisibilityPlugins11m_alphaListE,CVisibilityPlugins::m_alphaList,CLinkList<CAlphaObjectInfo>,,68,,,0
 0x8F4328,,gColourTop,gColourTop,RwRGBA,,4,,,0
@@ -1998,7 +2012,7 @@
 0x8F5F70,CPopulation,_ZN11CPopulation20ms_nTotalMissionPedsE,CPopulation::ms_nTotalMissionPeds,unsigned int,,4,,,0
 0x8F5F74,,_ZN6CRadar10SaveSpriteE,CRadar::SaveSprite,CSprite2d,,4,,,0
 0x8F5F78,RenderBuffer,TempBufferVerticesStored,TempBufferVerticesStored,int,,4,,,0
-0x8F5F7C,,_ZN12CMenuManager15m_ControlMethodE,CMenuManager::m_ControlMethod,int,,4,,,0
+0x8F5F7C,CMenuManager,_ZN12CMenuManager15m_ControlMethodE,CMenuManager::m_ControlMethod,int,,4,,,0
 0x8F5F80,CPlane,pDrugRunCesna,pDrugRunCesna,CPlane *,,4,,,0
 0x8F5F84,CWeather,_ZN8CWeather14LightningStartE,CWeather::LightningStart,unsigned int,,4,,,0
 0x8F5F88,CCutsceneMgr,_ZN12CCutsceneMgr15ms_pCutsceneDirE,CCutsceneMgr::ms_pCutsceneDir,CDirectory *,,4,,,0
@@ -2011,7 +2025,7 @@
 0x8F5FD4,,gpWaterRaster,gpWaterRaster,RwRaster *,,4,,,0
 0x8F5FD8,CTimeCycle,_ZN10CTimeCycle17m_fCurrentFarClipE,CTimeCycle::m_fCurrentFarClip,float,,4,,,0
 0x8F5FDC,CTimeCycle,_ZN10CTimeCycle26m_fCurrentSpriteBrightnessE,CTimeCycle::m_fCurrentSpriteBrightness,float,,4,,,0
-0x8F5FE0,,gpPointlightRaster,gpPointlightRaster,RwRaster *,,4,,,0
+0x8F5FE0,CParticle,gpPointlightRaster,gpPointlightRaster,RwRaster *,,4,,,0
 0x8F5FE4,,_ZN6CStats19LongestFlightInDodoE,CStats::LongestFlightInDodo,int,,4,,,0
 0x8F5FE8,CUserDisplay,_ZN12CUserDisplay14CurrentVehicleE,CUserDisplay::CurrentVehicle,CCurrentVehicle,,4,,,0
 0x8F5FEC,,_ZN6CStats17FiresExtinguishedE,CStats::FiresExtinguished,int,,4,,,0
@@ -2084,7 +2098,7 @@
 0x9411C0,CClouds,gpCloudTex,gpCloudTex,RwTexture *[5],,20,,"RwTexture* gpCloudTex[5] = {cloud1, cloud2, cloud3, cloudhilit, cloudmasked};",0
 0x9411F0,CCarCtrl,_ZN8CCarCtrl19NumFireTrucksOnDutyE,CCarCtrl::NumFireTrucksOnDuty,int,,4,,,0
 0x9411F4,CRubbish,_ZN8CRubbish13EndMoversListE,CRubbish::EndMoversList,COneSheet,,68,,,0
-0x941238,,_ZN12CMenuManager15m_PrefsLanguageE,CMenuManager::m_PrefsLanguage,int,,4,,,0
+0x941238,CMenuManager,_ZN12CMenuManager15m_PrefsLanguageE,CMenuManager::m_PrefsLanguage,int,,4,,,0
 0x941240,CRubbish,_ZN8CRubbish14StartEmptyListE,CRubbish::StartEmptyList,COneSheet,,68,,,0
 0x941284,,_ZN7CReplay18BigBuildingPtrListE,CReplay::BigBuildingPtrList,CPtrNode *,,4,,,0
 0x941288,,_ZN6CStats12CarsExplodedE,CStats::CarsExploded,int,,4,,,0
@@ -2120,7 +2134,7 @@
 0x941514,,_ZN5CGame9currLevelE,CGame::currLevel,eLevelName,,4,,,0
 0x941518,,_ZN6CStats23DistanceTravelledOnFootE,CStats::DistanceTravelledOnFoot,float,,4,,,0
 0x94151C,,_ZN7CReplay15OldRadioStationE,CReplay::OldRadioStation,int,,4,,,0
-0x941520,,TheText,TheText,CText,,20,,,0
+0x941520,CText,TheText,TheText,CText,,20,,,0
 0x941534,,_ZN6CRadar12WeaponSpriteE,CRadar::WeaponSprite,CSprite2d,,4,,,0
 0x941538,CPlane,PlanePathSpeed,PlanePathSpeed,float[3],,12,,,0
 0x941544,,_ZN6CStats17MoneyMadeWithTaxiE,CStats::MoneyMadeWithTaxi,int,,4,,,0
@@ -2140,7 +2154,7 @@
 0x942F74,,CameraFocusY,CameraFocusY,float,,4,,,0
 0x942F78,CParticleObject,_ZN15CParticleObject12pFarListHeadE,CParticleObject::pFarListHead,CParticleObject *,,4,,,0
 0x942F7C,,_ZN7CReplay6RecordE,CReplay::Record,CAddressInReplayBuffer,,12,,,0
-0x942F88,,_ZN12CMenuManager18m_SelectedGameTypeE,CMenuManager::m_SelectedGameType,int,,4,,,0
+0x942F88,CMenuManager,_ZN12CMenuManager18m_SelectedGameTypeE,CMenuManager::m_SelectedGameType,int,,4,,,0
 0x942F8C,,_ZN10CSceneEdit15m_vecCamHeadingE,CSceneEdit::m_vecCamHeading,CVector,,12,,,0
 0x942F98,,_ZN11CTheScripts23NextFreeCollectiveIndexE,CTheScripts::NextFreeCollectiveIndex,int,,4,,,0
 0x942F9C,,nSampleDataSize,nSampleDataSize,int,,4,,,0
@@ -2220,8 +2234,8 @@
 0x95CC3E,CPointLights,_ZN12CPointLights9NumLightsE,CPointLights::NumLights,unsigned __int16,,2,,,0
 0x95CC40,,_ZN9CTheZones9FindIndexE,CTheZones::FindIndex,unsigned __int16,,2,,,0
 0x95CC42,,_ZN11CTheScripts19NumScriptDebugLinesE,CTheScripts::NumScriptDebugLines,__int16,,2,,,0
-0x95CC44,,_ZN8CRestart22NumberOfPoliceRestartsE,CRestart::NumberOfPoliceRestarts,unsigned __int16,,2,,,0
-0x95CC46,,_ZN8CRestart24NumberOfHospitalRestartsE,CRestart::NumberOfHospitalRestarts,unsigned __int16,,2,,,0
+0x95CC44,CRestart,_ZN8CRestart22NumberOfPoliceRestartsE,CRestart::NumberOfPoliceRestarts,unsigned __int16,,2,,,0
+0x95CC46,CRestart,_ZN8CRestart24NumberOfHospitalRestartsE,CRestart::NumberOfHospitalRestarts,unsigned __int16,,2,,,0
 0x95CC48,,_ZN10CSceneEdit22m_nCurrentMovieCommandE,CSceneEdit::m_nCurrentMovieCommand,signed __int16,,2,,,0
 0x95CC4A,,PagerSoundPlayed,PagerSoundPlayed,__int16,,2,,,0
 0x95CC4C,,bSampleBankLoaded,bSampleBankLoaded,bool[2],,2,,,0
@@ -2276,14 +2290,14 @@
 0x95CCB0,,_ZN10CSceneEdit13m_nWeaponTypeE,CSceneEdit::m_nWeaponType,__int16,,2,,,0
 0x95CCB2,CVehicleModelInfo,CVehicleModelInfo::ms_compsUsed,CVehicleModelInfo::ms_compsUsed,char[2],,2,,,0
 0x95CCB4,CDarkel,_ZN7CDarkel6StatusE,CDarkel::Status,unsigned __int16,,2,,,0
-0x95CCB6,,WideErrorString,WideErrorString,__int16[25],,50,,,0
+0x95CCB6,CText,WideErrorString,WideErrorString,wchar_t[25],,50,,,0
 0x95CCE8,,_ZN10CSceneEdit11m_nVehicle2E,CSceneEdit::m_nVehicle2,__int16,,2,,,0
 0x95CCEA,,_ZN7CReplay14OldWeatherTypeE,CReplay::OldWeatherType,__int16,,2,,,0
 0x95CCEC,CWeather,_ZN8CWeather14OldWeatherTypeE,CWeather::OldWeatherType,__int16,,2,,,0
 0x95CCEE,,_ZN8CShadows25ShadowsStoredToBeRenderedE,CShadows::ShadowsStoredToBeRendered,unsigned __int16,,2,,,0
 0x95CCF0,,_ZN10CSceneEdit10m_nVehicleE,CSceneEdit::m_nVehicle,__int16,,2,,,0
 0x95CCF2,,DebugCamMode,DebugCamMode,__int16,,2,,,0
-0x95CCF4,,_ZN12CMenuManager27m_bStartUpFrontEndRequestedE,CMenuManager::m_bStartUpFrontEndRequested,bool,,1,,,0
+0x95CCF4,CMenuManager,_ZN12CMenuManager27m_bStartUpFrontEndRequestedE,CMenuManager::m_bStartUpFrontEndRequested,bool,,1,,,0
 0x95CCF5,CCutsceneMgr,_ZN12CCutsceneMgr10ms_runningE,CCutsceneMgr::ms_running,bool,,1,,,0
 0x95CCF6,CPopulation,_ZN11CPopulation19ms_bGivePedsWeaponsE,CPopulation::ms_bGivePedsWeapons,bool,,1,,,0
 0x95CCF7,,_ZN4CHud18m_HelpMessageQuickE,CHud::m_HelpMessageQuick,bool,,1,,,0
@@ -2292,7 +2306,7 @@
 0x95CD1F,,_ZN10CSceneEdit12m_bRecordingE,CSceneEdit::m_bRecording,bool,,1,,,0
 0x95CD21,CAutomobile,_ZN11CAutomobile16m_sAllTaxiLightsE,CAutomobile::m_sAllTaxiLights,bool,,1,,,0
 0x95CD22,,bSampmanInitialised,bSampmanInitialised,bool,,1,,,0
-0x95CD23,,_ZN12CMenuManager20m_PrefsUseWideScreenE,CMenuManager::m_PrefsUseWideScreen,char,,1,,,0
+0x95CD23,CMenuManager,_ZN12CMenuManager20m_PrefsUseWideScreenE,CMenuManager::m_PrefsUseWideScreen,char,,1,,,0
 0x95CD24,,nChannelVolume,nChannelVolume,unsigned __int8[29],,29,,,0
 0x95CD41,,_ZN11CTheScripts18FailCurrentMissionE,CTheScripts::FailCurrentMission,bool,,1,,,0
 0x95CD42,,gbShowCollisionPolys,gbShowCollisionPolys,bool,,1,,,0
@@ -2304,11 +2318,11 @@
 0x95CD49,CCoronas,_ZN8CCoronas10bSmallMoonE,CCoronas::bSmallMoon,bool,,1,,,0
 0x95CD4A,,_ZN10CCullZones18bCullZonesDisabledE,CCullZones::bCullZonesDisabled,bool,,1,,,0
 0x95CD4B,CAutomobile,bAllCarCheat,bAllCarCheat,bool,,1,,,0
-0x95CD4C,,_ZN8CRestart21OverrideHospitalLevelE,CRestart::OverrideHospitalLevel,unsigned __int8,,1,,,0
-0x95CD4D,,gSpecialSuspectLastSeenReport,gSpecialSuspectLastSeenReport,char,,1,,,0
+0x95CD4C,CRestart,_ZN8CRestart21OverrideHospitalLevelE,CRestart::OverrideHospitalLevel,unsigned __int8,,1,,,0
+0x95CD4D,,gSpecialSuspectLastSeenReport,gSpecialSuspectLastSeenReport,unsigned __int8,,1,,,0
 0x95CD4E,,gbBigWhiteDebugLightSwitchedOn,gbBigWhiteDebugLightSwitchedOn,bool,,1,,,0
 0x95CD4F,CPopulation,_ZN11CPopulation24m_CountDownToPedsAtStartE,CPopulation::m_CountDownToPedsAtStart,char,,1,,,0
-0x95CD50,,_ZN8CRestart26OverridePoliceStationLevelE,CRestart::OverridePoliceStationLevel,unsigned __int8,,1,,,0
+0x95CD50,CRestart,_ZN8CRestart26OverridePoliceStationLevelE,CRestart::OverridePoliceStationLevel,unsigned __int8,,1,,,0
 0x95CD51,,_ZN11CTheScripts27CountdownToMakePlayerUnsafeE,CTheScripts::CountdownToMakePlayerUnsafe,char,,1,,,0
 0x95CD52,,_ZN4CPad27bDisplayNoControllerMessageE,CPad::bDisplayNoControllerMessage,bool,,1,,,0
 0x95CD53,CDraw,_ZN5CDraw8FadeBlueE,CDraw::FadeBlue,unsigned __int8,,1,,,0
@@ -2320,8 +2334,8 @@
 0x95CD59,CPed,_ZN4CPed10bPedCheat3E,CPed::bPedCheat3,bool,,1,,,0
 0x95CD5A,CPed,_ZN4CPed10bPedCheat2E,CPed::bPedCheat2,bool,,1,,,0
 0x95CD5B,,_ZN7CReplay4ModeE,CReplay::Mode,char,,1,,,0
-0x95CD5C,,_ZN12CMenuManager17m_PrefsPlayerBlueE,CMenuManager::m_PrefsPlayerBlue,unsigned __int8,,1,,,0
-0x95CD5D,,_ZN8CRestart16bOverrideRestartE,CRestart::bOverrideRestart,bool,,1,,,0
+0x95CD5C,CMenuManager,_ZN12CMenuManager17m_PrefsPlayerBlueE,CMenuManager::m_PrefsPlayerBlue,unsigned __int8,,1,,,0
+0x95CD5D,CRestart,_ZN8CRestart16bOverrideRestartE,CRestart::bOverrideRestart,bool,,1,,,0
 0x95CD5E,CGameLogic,_ZN10CGameLogic13ActivePlayersE,CGameLogic::ActivePlayers,unsigned __int8,,1,,,0
 0x95CD5F,,_ZN7CReplay10CameraModeE,CReplay::CameraMode,unsigned __int8,,1,,,0
 0x95CD60,CDarkel,_ZN7CDarkel17InterruptedWeaponE,CDarkel::InterruptedWeapon,unsigned __int8,,1,,,0
@@ -2333,11 +2347,11 @@
 0x95CD66,CVehicle,_ZN8CVehicle7bCheat3E,CVehicle::bCheat3,bool,,1,,,0
 0x95CD67,,CounterOnLastFrame,CounterOnLastFrame,bool,,1,,,0
 0x95CD68,CDraw,_ZN5CDraw9FadeValueE,CDraw::FadeValue,unsigned __int8,,1,,,0
-0x95CD69,,_ZN8CRestart22bFadeInAfterNextArrestE,CRestart::bFadeInAfterNextArrest,bool,,1,,,0
-0x95CD6A,,_ZN12CMenuManager28m_bShutDownFrontEndRequestedE,CMenuManager::m_bShutDownFrontEndRequested,bool,,1,,,0
+0x95CD69,CRestart,_ZN8CRestart22bFadeInAfterNextArrestE,CRestart::bFadeInAfterNextArrest,bool,,1,,,0
+0x95CD6A,CMenuManager,_ZN12CMenuManager28m_bShutDownFrontEndRequestedE,CMenuManager::m_bShutDownFrontEndRequested,bool,,1,,,0
 0x95CD6B,,usingMilesFast2D,usingMilesFast2D,bool,,1,,,0
 0x95CD6C,,_ZN6CWorld20bForceProcessControlE,CWorld::bForceProcessControl,bool,,1,,,0
-0x95CD6D,,gbShowPedRoadGroups,gbShowPedRoadGroups,,,1,,,0
+0x95CD6D,,gbShowPedRoadGroups,gbShowPedRoadGroups,bool,,1,,,0
 0x95CD6E,,_ZN10CStreaming19ms_disableStreamingE,CStreaming::ms_disableStreaming,bool,,1,,,0
 0x95CD6F,CPacManPickups,_ZN14CPacManPickups9bPMActiveE,CPacManPickups::bPMActive,bool,,1,,,0
 0x95CD70,CPickups,_ZN8CPickups19bPickUpcamActivatedE,CPickups::bPickUpcamActivated,bool,,1,,,0
@@ -2354,7 +2368,7 @@
 0x95CD7B,,_ZN6CClock25ms_Stored_nGameClockHoursE,CClock::ms_Stored_nGameClockHours,unsigned __int8,,1,,,0
 0x95CD7C,CTimer,_ZN6CTimer11m_UserPauseE,CTimer::m_UserPause,bool,,1,,,0
 0x95CD7D,CWeather,_ZN8CWeather17bScriptsForceRainE,CWeather::bScriptsForceRain,bool,,1,,,0
-0x95CD7E,,_ZN12CMenuManager15m_PrefsSpeakersE,CMenuManager::m_PrefsSpeakers,char,,1,,,0
+0x95CD7E,CMenuManager,_ZN12CMenuManager15m_PrefsSpeakersE,CMenuManager::m_PrefsSpeakers,char,,1,,,0
 0x95CD7F,,_ZN10CSceneEdit16m_bCommandActiveE,CSceneEdit::m_bCommandActive,bool,,1,,,0
 0x95CD80,,gbShowCullZoneDebugStuff,gbShowCullZoneDebugStuff,,,1,,,0
 0x95CD81,CBulletInfo,bPlayerSniperBullet,bPlayerSniperBullet,bool,,1,,,0
@@ -2369,11 +2383,11 @@
 0x95CD8A,CCarCtrl,_ZN8CCarCtrl26bCarsGeneratedAroundCameraE,CCarCtrl::bCarsGeneratedAroundCamera,bool,,1,,,0
 0x95CD8B,,_ZN6CWorld20bProcessCutsceneOnlyE,CWorld::bProcessCutsceneOnly,bool,,1,,,0
 0x95CD8C,,_ZN6CWorld19bDoingCarCollisionsE,CWorld::bDoingCarCollisions,bool,,1,,,0
-0x95CD8D,,_ZN12CMenuManager25m_DisplayControllerOnFootE,CMenuManager::m_DisplayControllerOnFoot,,,1,,,0
+0x95CD8D,CMenuManager,_ZN12CMenuManager25m_DisplayControllerOnFootE,CMenuManager::m_DisplayControllerOnFoot,char,,1,,,0
 0x95CD8E,,g_bMissionAudioLoadFailed,g_bMissionAudioLoadFailed,bool,,1,,,0
 0x95CD8F,,_ZN6CWorld16bIncludeDeadPedsE,CWorld::bIncludeDeadPeds,bool,,1,,,0
 0x95CD90,CDraw,_ZN5CDraw7FadeRedE,CDraw::FadeRed,unsigned __int8,,1,,,0
-0x95CD92,,_ZN12CMenuManager19m_PrefsUseVibrationE,CMenuManager::m_PrefsUseVibration,bool,,1,,,0
+0x95CD92,CMenuManager,_ZN12CMenuManager19m_PrefsUseVibrationE,CMenuManager::m_PrefsUseVibration,char,,1,,,0
 0x95CD93,,gbModelViewer,gbModelViewer,bool,,1,,,0
 0x95CD94,,bIsMp3Active,bIsMp3Active,bool,,1,,,0
 0x95CD95,CCutsceneMgr,_ZN12CCutsceneMgr9ms_loadedE,CCutsceneMgr::ms_loaded,bool,,1,,,0
@@ -2383,13 +2397,13 @@
 0x95CD99,GenericGameStorage,StillToFadeOut,StillToFadeOut,bool,,1,,,0
 0x95CD9B,,_ZN6CClock27ms_Stored_nGameClockMinutesE,CClock::ms_Stored_nGameClockMinutes,unsigned __int8,,1,,,0
 0x95CD9C,,g_SlowMode,g_SlowMode,bool,,1,,,0
-0x95CD9D,,_ZN8CRestart21bFadeInAfterNextDeathE,CRestart::bFadeInAfterNextDeath,bool,,1,,,0
+0x95CD9D,CRestart,_ZN8CRestart21bFadeInAfterNextDeathE,CRestart::bFadeInAfterNextDeath,bool,,1,,,0
 0x95CD9F,CCutsceneMgr,_ZN12CCutsceneMgr21ms_cutsceneProcessingE,CCutsceneMgr::ms_cutsceneProcessing,bool,,1,,,0
 0x95CDA0,CCutsceneMgr,_ZN12CCutsceneMgr13ms_animLoadedE,CCutsceneMgr::ms_animLoaded,bool,,1,,,0
 0x95CDA1,,_ZN10CSceneEdit18m_bVehicleSelectedE,CSceneEdit::m_bVehicleSelected,bool,,1,,,0
 0x95CDA2,,_ZN7CReplay12ClockMinutesE,CReplay::ClockMinutes,char,,1,,,0
 0x95CDA3,CWeather,_ZN8CWeather14LightningFlashE,CWeather::LightningFlash,bool,,1,,,0
-0x95CDA4,,_ZN12CMenuManager19m_PrefsRadioStationE,CMenuManager::m_PrefsRadioStation,char,,1,,,0
+0x95CDA4,CMenuManager,_ZN12CMenuManager19m_PrefsRadioStationE,CMenuManager::m_PrefsRadioStation,char,,1,,,0
 0x95CDA5,,_ZN10CCullZones25bCurrentSubwayIsInvisibleE,CCullZones::bCurrentSubwayIsInvisible,bool,,1,,,0
 0x95CDA6,,_ZN6CClock18ms_nGameClockHoursE,CClock::ms_nGameClockHours,unsigned __int8,,1,,,0
 0x95CDA7,,TimerOnLastFrame,TimerOnLastFrame,bool,,1,,,0

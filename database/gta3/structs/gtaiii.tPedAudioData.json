@@ -1,11 +1,11 @@
 {
     "name": "tPedAudioData",
-    "module": "",
+    "module": "CPed",
     "scope": "",
     "kind": "struct",
     "size": "0x10",
     "alignment": 2,
-    "comment": "vodule:CPed isstruct:true",
+    "comment": "",
     "members": [
         {
             "name": "m_nFixedDelayTime",

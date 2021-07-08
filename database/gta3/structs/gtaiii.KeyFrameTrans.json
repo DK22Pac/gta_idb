@@ -1,0 +1,24 @@
+{
+    "name": "KeyFrameTrans",
+    "module": "CAnimBlendSequence",
+    "scope": "",
+    "kind": "struct",
+    "size": "0x20",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "base",
+            "type": "KeyFrame",
+            "offset": 0,
+            "size": "0x14",
+            "isBase": true
+        },
+        {
+            "name": "translation",
+            "type": "CVector",
+            "offset": "0x14",
+            "size": "0xC"
+        }
+    ]
+}

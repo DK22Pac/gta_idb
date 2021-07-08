@@ -1,0 +1,29 @@
+{
+    "name": "eFrameDataFlag",
+    "module": "AnimBlendFrameData",
+    "scope": "",
+    "width": 1,
+    "isClass": false,
+    "isHexademical": true,
+    "isSigned": false,
+    "isBitfield": true,
+    "comment": "",
+    "members": [
+        {
+            "name": "IGNORE_ROTATION",
+            "value": "0x2"
+        },
+        {
+            "name": "IGNORE_TRANSLATION",
+            "value": "0x4"
+        },
+        {
+            "name": "VELOCITY_EXTRACTION",
+            "value": "0x8"
+        },
+        {
+            "name": "VELOCITY_EXTRACTION_3D",
+            "value": "0x10"
+        }
+    ]
+}

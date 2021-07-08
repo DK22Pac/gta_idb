@@ -1,6 +1,6 @@
 {
     "name": "eAnimationFlags",
-    "module": "",
+    "module": "CAnimBlendAssociation",
     "scope": "",
     "width": 4,
     "isClass": false,
@@ -10,56 +10,62 @@
     "comment": "",
     "members": [
         {
-            "name": "ANIMATION_STARTED",
+            "name": "ASSOC_RUNNING",
             "value": "0x1"
         },
         {
-            "name": "ANIMATION_LOOPED",
+            "name": "ASSOC_REPEAT",
             "value": "0x2"
         },
         {
-            "name": "ANIMATION_HASPARTIALBLEND",
+            "name": "ASSOC_DELETEFADEDOUT",
             "value": "0x4"
         },
         {
-            "name": "ANIMATION_FLAG8",
+            "name": "ASSOC_FADEOUTWHENDONE",
             "value": "0x8"
         },
         {
-            "name": "ANIMATION_PARTIAL",
+            "name": "ASSOC_PARTIAL",
             "value": "0x10"
         },
         {
-            "name": "ANIMATION_MOVEMENT",
+            "name": "ASSOC_MOVEMENT",
             "value": "0x20"
         },
         {
-            "name": "ANIMATION_CUTSCENEANIM",
+            "name": "ASSOC_HAS_TRANSLATION",
             "value": "0x40"
         },
         {
-            "name": "ANIMATION_FLAG80",
-            "value": "0x80"
+            "name": "ASSOC_WALK",
+            "value": "0x80",
+            "comment": "for CPed::PlayFootSteps(void)"
         },
         {
-            "name": "ANIMATION_FLAG100",
-            "value": "0x100"
+            "name": "ASSOC_IDLE",
+            "value": "0x100",
+            "comment": "only used by xpress scratch, see CPed::Chat(void)"
         },
         {
-            "name": "ANIMATION_FLAG200",
-            "value": "0x200"
+            "name": "ASSOC_NOWALK",
+            "value": "0x200",
+            "comment": "see CPed::PlayFootSteps(void)"
         },
         {
-            "name": "ANIMATION_FLAG400",
-            "value": "0x400"
+            "name": "ASSOC_BLOCK",
+            "value": "0x400",
+            "comment": "unused in assoc description, blocks other anims from being played"
         },
         {
-            "name": "ANIMATION_FLAG800",
-            "value": "0x800"
+            "name": "ASSOC_FRONTAL",
+            "value": "0x800",
+            "comment": "anims that we fall to front"
         },
         {
-            "name": "ANIMATION_PLAYER_LR",
-            "value": "0x1000"
+            "name": "ASSOC_HAS_X_TRANSLATION",
+            "value": "0x1000",
+            "comment": "for 2d velocity extraction"
         }
     ]
 }

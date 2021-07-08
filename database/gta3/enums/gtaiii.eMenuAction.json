@@ -1,0 +1,473 @@
+{
+    "name": "eMenuAction",
+    "module": "CMenuManager",
+    "scope": "",
+    "width": 0,
+    "isClass": false,
+    "isHexademical": false,
+    "isSigned": false,
+    "isBitfield": false,
+    "comment": "",
+    "members": [
+        {
+            "name": "MENUACTION_NOTHING",
+            "value": 0
+        },
+        {
+            "name": "MENUACTION_LABEL",
+            "value": 1
+        },
+        {
+            "name": "MENUACTION_CHANGEMENU",
+            "value": 2
+        },
+        {
+            "name": "MENUACTION_CTRLVIBRATION",
+            "value": 3
+        },
+        {
+            "name": "MENUACTION_CTRLCONFIG",
+            "value": 4
+        },
+        {
+            "name": "MENUACTION_CTRLDISPLAY",
+            "value": 5
+        },
+        {
+            "name": "MENUACTION_FRAMESYNC",
+            "value": 6
+        },
+        {
+            "name": "MENUACTION_FRAMELIMIT",
+            "value": 7
+        },
+        {
+            "name": "MENUACTION_TRAILS",
+            "value": 8
+        },
+        {
+            "name": "MENUACTION_SUBTITLES",
+            "value": 9
+        },
+        {
+            "name": "MENUACTION_WIDESCREEN",
+            "value": 10
+        },
+        {
+            "name": "MENUACTION_BRIGHTNESS",
+            "value": 11
+        },
+        {
+            "name": "MENUACTION_DRAWDIST",
+            "value": 12
+        },
+        {
+            "name": "MENUACTION_MUSICVOLUME",
+            "value": 13
+        },
+        {
+            "name": "MENUACTION_SFXVOLUME",
+            "value": 14
+        },
+        {
+            "name": "MENUACTION_UNK15",
+            "value": 15
+        },
+        {
+            "name": "MENUACTION_RADIO",
+            "value": 16
+        },
+        {
+            "name": "MENUACTION_LANG_ENG",
+            "value": 17
+        },
+        {
+            "name": "MENUACTION_LANG_FRE",
+            "value": 18
+        },
+        {
+            "name": "MENUACTION_LANG_GER",
+            "value": 19
+        },
+        {
+            "name": "MENUACTION_LANG_ITA",
+            "value": 20
+        },
+        {
+            "name": "MENUACTION_LANG_SPA",
+            "value": 21
+        },
+        {
+            "name": "MENUACTION_POPULATESLOTS_CHANGEMENU",
+            "value": 22
+        },
+        {
+            "name": "MENUACTION_CHECKSAVE",
+            "value": 23
+        },
+        {
+            "name": "MENUACTION_UNK24",
+            "value": 24
+        },
+        {
+            "name": "MENUACTION_NEWGAME",
+            "value": 25
+        },
+        {
+            "name": "MENUACTION_RELOADIDE",
+            "value": 26
+        },
+        {
+            "name": "MENUACTION_RELOADIPL",
+            "value": 27
+        },
+        {
+            "name": "MENUACTION_SETDBGFLAG",
+            "value": 28
+        },
+        {
+            "name": "MENUACTION_SWITCHBIGWHITEDEBUGLIGHT",
+            "value": 29
+        },
+        {
+            "name": "MENUACTION_PEDROADGROUPS",
+            "value": 30
+        },
+        {
+            "name": "MENUACTION_CARROADGROUPS",
+            "value": 31
+        },
+        {
+            "name": "MENUACTION_COLLISIONPOLYS",
+            "value": 32
+        },
+        {
+            "name": "MENUACTION_REGMEMCARD1",
+            "value": 33
+        },
+        {
+            "name": "MENUACTION_TESTFORMATMEMCARD1",
+            "value": 34
+        },
+        {
+            "name": "MENUACTION_TESTUNFORMATMEMCARD1",
+            "value": 35
+        },
+        {
+            "name": "MENUACTION_CREATEROOTDIR",
+            "value": 36
+        },
+        {
+            "name": "MENUACTION_CREATELOADICONS",
+            "value": 37
+        },
+        {
+            "name": "MENUACTION_FILLWITHGUFF",
+            "value": 38
+        },
+        {
+            "name": "MENUACTION_SAVEONLYTHEGAME",
+            "value": 39
+        },
+        {
+            "name": "MENUACTION_SAVEGAME",
+            "value": 40
+        },
+        {
+            "name": "MENUACTION_SAVEGAMEUNDERGTA",
+            "value": 41
+        },
+        {
+            "name": "MENUACTION_CREATECOPYPROTECTED",
+            "value": 42
+        },
+        {
+            "name": "MENUACTION_TESTSAVE",
+            "value": 43
+        },
+        {
+            "name": "MENUACTION_TESTLOAD",
+            "value": 44
+        },
+        {
+            "name": "MENUACTION_TESTDELETE",
+            "value": 45
+        },
+        {
+            "name": "MENUACTION_PARSEHEAP",
+            "value": 46
+        },
+        {
+            "name": "MENUACTION_SHOWCULL",
+            "value": 47
+        },
+        {
+            "name": "MENUACTION_MEMCARDSAVECONFIRM",
+            "value": 48
+        },
+        {
+            "name": "MENUACTION_RESUME_FROM_SAVEZONE",
+            "value": 49
+        },
+        {
+            "name": "MENUACTION_UNK50",
+            "value": 50
+        },
+        {
+            "name": "MENUACTION_DEBUGSTREAM",
+            "value": 51
+        },
+        {
+            "name": "MENUACTION_MPMAP_LIBERTY",
+            "value": 52
+        },
+        {
+            "name": "MENUACTION_MPMAP_REDLIGHT",
+            "value": 53
+        },
+        {
+            "name": "MENUACTION_MPMAP_CHINATOWN",
+            "value": 54
+        },
+        {
+            "name": "MENUACTION_MPMAP_TOWER",
+            "value": 55
+        },
+        {
+            "name": "MENUACTION_MPMAP_SEWER",
+            "value": 56
+        },
+        {
+            "name": "MENUACTION_MPMAP_INDUSTPARK",
+            "value": 57
+        },
+        {
+            "name": "MENUACTION_MPMAP_DOCKS",
+            "value": 58
+        },
+        {
+            "name": "MENUACTION_MPMAP_STAUNTON",
+            "value": 59
+        },
+        {
+            "name": "MENUACTION_MPMAP_DEATHMATCH1",
+            "value": 60
+        },
+        {
+            "name": "MENUACTION_MPMAP_DEATHMATCH2",
+            "value": 61
+        },
+        {
+            "name": "MENUACTION_MPMAP_TEAMDEATH1",
+            "value": 62
+        },
+        {
+            "name": "MENUACTION_MPMAP_TEAMDEATH2",
+            "value": 63
+        },
+        {
+            "name": "MENUACTION_MPMAP_STASH",
+            "value": 64
+        },
+        {
+            "name": "MENUACTION_MPMAP_CAPTURE",
+            "value": 65
+        },
+        {
+            "name": "MENUACTION_MPMAP_RATRACE",
+            "value": 66
+        },
+        {
+            "name": "MENUACTION_MPMAP_DOMINATION",
+            "value": 67
+        },
+        {
+            "name": "MENUACTION_STARTMP",
+            "value": 68
+        },
+        {
+            "name": "MENUACTION_UNK69",
+            "value": 69
+        },
+        {
+            "name": "MENUACTION_UNK70",
+            "value": 70
+        },
+        {
+            "name": "MENUACTION_FINDMP",
+            "value": 71
+        },
+        {
+            "name": "MENUACTION_KEYBOARDCTRLS",
+            "value": 72
+        },
+        {
+            "name": "MENUACTION_UNK73",
+            "value": 73
+        },
+        {
+            "name": "MENUACTION_INITMP",
+            "value": 74
+        },
+        {
+            "name": "MENUACTION_MP_PLAYERCOLOR",
+            "value": 75
+        },
+        {
+            "name": "MENUACTION_MP_PLAYERNAME",
+            "value": 76
+        },
+        {
+            "name": "MENUACTION_MP_GAMENAME",
+            "value": 77
+        },
+        {
+            "name": "MENUACTION_GETKEY",
+            "value": 78
+        },
+        {
+            "name": "MENUACTION_SHOWHEADBOB",
+            "value": 79
+        },
+        {
+            "name": "MENUACTION_UNK80",
+            "value": 80
+        },
+        {
+            "name": "MENUACTION_INVVERT",
+            "value": 81
+        },
+        {
+            "name": "MENUACTION_CANCELGAME",
+            "value": 82
+        },
+        {
+            "name": "MENUACTION_MP_PLAYERNUMBER",
+            "value": 83
+        },
+        {
+            "name": "MENUACTION_MOUSESENS",
+            "value": 84
+        },
+        {
+            "name": "MENUACTION_CHECKMPGAMES",
+            "value": 85
+        },
+        {
+            "name": "MENUACTION_CHECKMPPING",
+            "value": 86
+        },
+        {
+            "name": "MENUACTION_MP_SERVER",
+            "value": 87
+        },
+        {
+            "name": "MENUACTION_MP_MAP",
+            "value": 88
+        },
+        {
+            "name": "MENUACTION_MP_GAMETYPE",
+            "value": 89
+        },
+        {
+            "name": "MENUACTION_MP_LAN",
+            "value": 90
+        },
+        {
+            "name": "MENUACTION_MP_INTERNET",
+            "value": 91
+        },
+        {
+            "name": "MENUACTION_RESUME",
+            "value": 92
+        },
+        {
+            "name": "MENUACTION_DONTCANCEL",
+            "value": 93
+        },
+        {
+            "name": "MENUACTION_SCREENRES",
+            "value": 94
+        },
+        {
+            "name": "MENUACTION_AUDIOHW",
+            "value": 95
+        },
+        {
+            "name": "MENUACTION_SPEAKERCONF",
+            "value": 96
+        },
+        {
+            "name": "MENUACTION_PLAYERSETUP",
+            "value": 97
+        },
+        {
+            "name": "MENUACTION_RESTOREDEF",
+            "value": 98
+        },
+        {
+            "name": "MENUACTION_CTRLMETHOD",
+            "value": 99
+        },
+        {
+            "name": "MENUACTION_DYNAMICACOUSTIC",
+            "value": 100
+        },
+        {
+            "name": "MENUACTION_LOADRADIO",
+            "value": 101
+        },
+        {
+            "name": "MENUACTION_MOUSESTEER",
+            "value": 102
+        },
+        {
+            "name": "MENUACTION_UNK103",
+            "value": 103
+        },
+        {
+            "name": "MENUACTION_UNK104",
+            "value": 104
+        },
+        {
+            "name": "MENUACTION_UNK105",
+            "value": 105
+        },
+        {
+            "name": "MENUACTION_UNK106",
+            "value": 106
+        },
+        {
+            "name": "MENUACTION_UNK107",
+            "value": 107
+        },
+        {
+            "name": "MENUACTION_UNK108",
+            "value": 108
+        },
+        {
+            "name": "MENUACTION_UNK109",
+            "value": 109
+        },
+        {
+            "name": "MENUACTION_UNK110",
+            "value": 110
+        },
+        {
+            "name": "MENUACTION_UNK111",
+            "value": 111
+        },
+        {
+            "name": "MENUACTION_UNK112",
+            "value": 112
+        },
+        {
+            "name": "MENUACTION_REJECT_RETRY",
+            "value": 113
+        },
+        {
+            "name": "MENUACTION_UNK114",
+            "value": 114
+        }
+    ]
+}

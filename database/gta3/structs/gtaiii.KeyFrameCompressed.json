@@ -1,0 +1,25 @@
+{
+    "name": "KeyFrameCompressed",
+    "module": "CAnimBlendSequence",
+    "scope": "",
+    "kind": "struct",
+    "size": "0xA",
+    "alignment": 1,
+    "comment": "",
+    "members": [
+        {
+            "name": "rot",
+            "type": "__int16[4]",
+            "offset": 0,
+            "size": 8,
+            "comment": "4096"
+        },
+        {
+            "name": "deltaTime",
+            "type": "__int16",
+            "offset": 8,
+            "size": 2,
+            "comment": "60"
+        }
+    ]
+}

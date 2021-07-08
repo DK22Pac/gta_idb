@@ -1,10 +1,10 @@
 {
     "name": "CAnimBlendAssociation",
-    "module": "",
+    "module": "CAnimBlendAssociation",
     "scope": "",
     "kind": "class",
     "size": "0x40",
-    "alignment": 3,
+    "alignment": 2,
     "vtableAddress": "0x5EA02C",
     "vtableSize": 1,
     "comment": "",
@@ -16,16 +16,10 @@
             "size": 4
         },
         {
-            "name": "m_pPrev",
-            "type": "CAnimBlendAssociation *",
+            "name": "link",
+            "type": "CAnimBlendLink",
             "offset": 4,
-            "size": 4
-        },
-        {
-            "name": "m_pAnimBlendClumpData",
-            "type": "CAnimBlendClumpData *",
-            "offset": 8,
-            "size": 4
+            "size": 8
         },
         {
             "name": "m_nNumBlendNodes",
@@ -55,7 +49,8 @@
             "name": "m_fBlendDelta",
             "type": "float",
             "offset": "0x1C",
-            "size": 4
+            "size": 4,
+            "comment": "how much blendAmount changes over time"
         },
         {
             "name": "m_fCurrentTime",
@@ -91,7 +86,8 @@
             "name": "m_nCallbackType",
             "type": "int",
             "offset": "0x34",
-            "size": 4
+            "size": 4,
+            "comment": "see eCallbackType"
         },
         {
             "name": "m_pCallbackFunc",

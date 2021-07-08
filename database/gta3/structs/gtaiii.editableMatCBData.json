@@ -1,26 +1,26 @@
 {
-    "name": "CDirectory",
-    "module": "CDirectory",
+    "name": "editableMatCBData",
+    "module": "",
     "scope": "",
     "kind": "class",
     "size": "0xC",
     "alignment": 2,
-    "comment": "http://www.gtamodding.com/wiki/IMG_archive#Version_1_-_GTA_III_.26_VC;;",
+    "comment": "",
     "members": [
         {
-            "name": "m_pEntries",
-            "type": "DirectoryInfo *",
+            "name": "info",
+            "type": "CVehicleModelInfo *",
             "offset": 0,
             "size": 4
         },
         {
-            "name": "m_nCapacity",
+            "name": "numMats1",
             "type": "int",
             "offset": 4,
             "size": 4
         },
         {
-            "name": "m_nNumEntries",
+            "name": "numMats2",
             "type": "int",
             "offset": 8,
             "size": 4

@@ -1,6 +1,6 @@
 {
     "name": "CKeyArray",
-    "module": "",
+    "module": "CText",
     "scope": "",
     "kind": "class",
     "size": 8,
@@ -9,12 +9,12 @@
     "members": [
         {
             "name": "m_pEntries",
-            "type": "wchar_t *",
+            "type": "CKeyEntry *",
             "offset": 0,
             "size": 4
         },
         {
-            "name": "m_nTotal",
+            "name": "m_nNumEntries",
             "type": "int",
             "offset": 4,
             "size": 4
