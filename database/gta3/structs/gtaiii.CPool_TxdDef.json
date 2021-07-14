@@ -1,32 +1,32 @@
 {
-    "name": "CdStreamQueueInfo",
+    "name": "CPool_TxdDef",
     "module": "",
     "scope": "",
     "kind": "class",
     "size": "0x10",
-    "alignment": 0,
+    "alignment": 2,
     "comment": "",
     "members": [
         {
-            "name": "queueData",
-            "type": "int *",
+            "name": "m_pObjects",
+            "type": "TxdDef *",
             "offset": 0,
             "size": 4
         },
         {
-            "name": "queueStart",
-            "type": "int",
+            "name": "m_byteMap",
+            "type": "unsigned __int8 *",
             "offset": 4,
             "size": 4
         },
         {
-            "name": "queueCurrent",
+            "name": "m_nSize",
             "type": "int",
             "offset": 8,
             "size": 4
         },
         {
-            "name": "queueMax",
+            "name": "m_nFirstFree",
             "type": "int",
             "offset": "0xC",
             "size": 4

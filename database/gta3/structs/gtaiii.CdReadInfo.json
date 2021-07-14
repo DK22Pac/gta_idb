@@ -1,0 +1,72 @@
+{
+    "name": "CdReadInfo",
+    "module": "CdStream",
+    "scope": "",
+    "kind": "class",
+    "size": "0x30",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "m_nSectorOffset",
+            "type": "unsigned int",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "m_nSectorsToRead",
+            "type": "unsigned int",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "m_pBuffer",
+            "type": "LPVOID",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "field_C",
+            "type": "char",
+            "offset": "0xC",
+            "size": 1
+        },
+        {
+            "name": "m_bLocked",
+            "type": "bool",
+            "offset": "0xD",
+            "size": 1
+        },
+        {
+            "name": "m_bInUse",
+            "type": "bool",
+            "offset": "0xE",
+            "size": 1
+        },
+        {
+            "name": "m_nStatus",
+            "type": "int",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "hSemaphore",
+            "type": "HANDLE",
+            "offset": "0x14",
+            "size": 4,
+            "comment": "used for CdStreamSync"
+        },
+        {
+            "name": "hFile",
+            "type": "HANDLE",
+            "offset": "0x18",
+            "size": 4
+        },
+        {
+            "name": "m_Overlapped",
+            "type": "OVERLAPPED",
+            "offset": "0x1C",
+            "size": "0x14"
+        }
+    ]
+}

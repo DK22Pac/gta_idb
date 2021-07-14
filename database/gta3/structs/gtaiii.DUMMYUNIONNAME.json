@@ -1,0 +1,23 @@
+{
+    "name": "DUMMYUNIONNAME",
+    "module": "",
+    "scope": "",
+    "kind": "union",
+    "size": 8,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "Offset",
+            "type": "DUMMYSTRUCTNAME",
+            "offset": 0,
+            "size": 8
+        },
+        {
+            "name": "Pointer",
+            "type": "PVOID",
+            "offset": 0,
+            "size": 4
+        }
+    ]
+}

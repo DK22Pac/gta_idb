@@ -87,7 +87,7 @@
         },
         {
             "name": "SetNotifyWindow",
-            "type": "HRESULT (__stdcall *)(IMediaEventEx *This, HWND hwnd, __int32 lMsg, __int32 lInstanceData)",
+            "type": "HRESULT (__stdcall *)(IMediaEventEx *this, OAHWND hwnd, int lMsg, LONG_PTR lInstanceData)",
             "offset": "0x34",
             "size": 4
         },

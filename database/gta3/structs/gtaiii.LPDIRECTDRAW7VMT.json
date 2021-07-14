@@ -1,0 +1,53 @@
+{
+    "name": "LPDIRECTDRAW7VMT",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x1C",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "medod1",
+            "type": "void *",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "medod2",
+            "type": "void *",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "medod4",
+            "type": "void *",
+            "offset": 8,
+            "size": 4
+        },
+        {
+            "name": "medod5",
+            "type": "void *",
+            "offset": "0xC",
+            "size": 4
+        },
+        {
+            "name": "Release",
+            "type": "RwUInt32 (__stdcall *)(LPDIRECTDRAW7 *)",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "GetAvailableVidMem",
+            "type": "HRESULT (__stdcall *)(LPDIRECTDRAW7 *, LPDDSCAPS2, LPDWORD, LPDWORD)",
+            "offset": "0x14",
+            "size": 4
+        },
+        {
+            "name": "medod6",
+            "type": "void *",
+            "offset": "0x18",
+            "size": 4
+        }
+    ]
+}

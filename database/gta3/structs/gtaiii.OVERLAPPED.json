@@ -1,0 +1,35 @@
+{
+    "name": "OVERLAPPED",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x14",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "Internal",
+            "type": "ULONG_PTR",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "InternalHigh",
+            "type": "ULONG_PTR",
+            "offset": 4,
+            "size": 4
+        },
+        {
+            "name": "un",
+            "type": "DUMMYUNIONNAME",
+            "offset": 8,
+            "size": 8
+        },
+        {
+            "name": "hEvent",
+            "type": "HANDLE",
+            "offset": "0x10",
+            "size": 4
+        }
+    ]
+}

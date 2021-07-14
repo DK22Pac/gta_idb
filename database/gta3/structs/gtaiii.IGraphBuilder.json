@@ -1,0 +1,17 @@
+{
+    "name": "IGraphBuilder",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 4,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "vtable",
+            "type": "IGraphBuilderVMT *",
+            "offset": 0,
+            "size": 4
+        }
+    ]
+}

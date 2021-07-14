@@ -1,6 +1,6 @@
 {
     "name": "eEventStatus",
-    "module": "",
+    "module": "eEventStatus",
     "scope": "",
     "width": 4,
     "isClass": false,

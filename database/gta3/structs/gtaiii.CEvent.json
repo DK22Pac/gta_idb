@@ -1,6 +1,6 @@
 {
     "name": "CEvent",
-    "module": "",
+    "module": "CEventList",
     "scope": "",
     "kind": "class",
     "size": "0x24",
@@ -39,7 +39,7 @@
         },
         {
             "name": "m_nExpiryTime",
-            "type": "int",
+            "type": "unsigned int",
             "offset": "0x1C",
             "size": 4
         },

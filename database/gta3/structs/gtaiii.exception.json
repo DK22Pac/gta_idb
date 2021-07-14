@@ -1,0 +1,19 @@
+{
+    "name": "exception",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 4,
+    "alignment": 2,
+    "vtableAddress": "0x618A40",
+    "vtableSize": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "vtable",
+            "type": "void *",
+            "offset": 0,
+            "size": 4
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "name": "CLIPLINE",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": "0x20",
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "ptfxA",
+            "type": "POINTFIX",
+            "offset": 0,
+            "size": 8
+        },
+        {
+            "name": "ptfxB",
+            "type": "POINTFIX",
+            "offset": 8,
+            "size": 8
+        },
+        {
+            "name": "lStyleState",
+            "type": "LONG",
+            "offset": "0x10",
+            "size": 4
+        },
+        {
+            "name": "c",
+            "type": "ULONG",
+            "offset": "0x14",
+            "size": 4
+        },
+        {
+            "name": "arun",
+            "type": "RUN[1]",
+            "offset": "0x18",
+            "size": 8
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "POINTFIX",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 8,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "x",
+            "type": "FIX",
+            "offset": 0,
+            "size": 4
+        },
+        {
+            "name": "y",
+            "type": "FIX",
+            "offset": 4,
+            "size": 4
+        }
+    ]
+}

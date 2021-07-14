@@ -63,7 +63,7 @@
 0x5F0FA4,,_ZL9WindTabel,WindTabel,float[16],,64,,,0
 0x5F0FE4,,_ZL15BannerWindTabel,BannerWindTabel,float[32],,128,,,0
 0x5F11A8,,_ZTV7CEntity,`vtable for'CEntity,,,1,,,0
-0x5F18F8,,_ZN8CFileMgr14ms_rootDirNameE,CFileMgr::ms_rootDirName,char[128],,128,,,0
+0x5F18F8,CFileMgr,_ZN8CFileMgr14ms_rootDirNameE,CFileMgr::ms_rootDirName,char[128],,128,,,0
 0x5F2E40,CMenuManager,_ZL16MENU_TEXT_SIZE_X,MENU_TEXT_SIZE_X,float,,4,,0.45f,0
 0x5F2E44,CMenuManager,_ZL16MENU_TEXT_SIZE_Y,MENU_TEXT_SIZE_Y,float,,4,,0.7f,0
 0x5F2E48,CMenuManager,_ZN12CMenuManager16m_PrefsSfxVolumeE,CMenuManager::m_PrefsSfxVolume,int,,4,,102,0
@@ -82,6 +82,7 @@
 0x5F311C,,_ZL17FrontEndFilenames,FrontEndFilenames,TextureData[],,224,,,0
 0x5F3344,,_ZL13MenuFilenames,MenuFilenames,TextureData[],,160,,,0
 0x5F33E4,,gErrorSampleTriggered,gErrorSampleTriggered,,,1,,,0
+0x5F3528,,value,value,const float,,4,38.0f,,0
 0x5F37E4,,y,y,const float,,4,0.6f,,0
 0x5F37F4,,x,x,const float,,4,0.4f,,0
 0x5F4DD0,,_ZN5CGame9bDemoModeE,CGame::bDemoMode,bool,,1,,,0
@@ -472,7 +473,7 @@
 0x60ED84,,g_nMissionAudioSfx,g_nMissionAudioSfx,eAudioSamples,,4,,,0
 0x60ED88,,g_nMissionAudioPlayingStatus,g_nMissionAudioPlayingStatus,,,1,,,0
 0x60EFFC,,_videoModeNotSelected,_videoModeNotSelected,BOOL,,4,,,0
-0x60F000,,dwIsCameraNotBeingUpdated,dwIsCameraNotBeingUpdated,RwBool,,4,,,0
+0x60F000,,ForegroundApp,ForegroundApp,RwBool,,4,,,0
 0x60F018,,_lpClassName,_lpClassName,LPCSTR,,4,,,0
 0x60F73C,,szNullStringDir,szNullStringDir,char,,1,,,0
 0x61033C,,_ZL16DefaultVideoMode,DefaultVideoMode,int,,4,,,0
@@ -497,6 +498,8 @@
 0x618370,,ctype,ctype,char[],,256,,,0
 0x618980,,atomicTKList,atomicTKList,RwPluginRegistry,,24,,,0
 0x618998,,clumpTKList,clumpTKList,RwPluginRegistry,,24,,,0
+0x618A30,,_ZTV9bad_alloc,`vtable for'bad_alloc,,,1,,,0
+0x618A40,,_ZTV9exception,`vtable for'exception,,,1,,,0
 0x618E58,,engineTKList,engineTKList,RwPluginRegistry,,24,,,0
 0x618F8C,,frameTKList,frameTKList,RwPluginRegistry,,24,,,0
 0x619134,,cameraTKList,cameraTKList,RwPluginRegistry,,24,,,0
@@ -532,7 +535,7 @@
 0x619C30,,file,file,FILE,,32,,,0
 0x619D8C,,_rxHeapInitialSize,_rxHeapInitialSize,RwUInt32,,4,,,0
 0x619D90,,_rxPipelineMaxNodes,_rxPipelineMaxNodes,,,1,,,0
-0x61A0C8,,_TlsIndex,_TlsIndex,int,,4,,,0
+0x61A0C8,,_TlsIndex,_TlsIndex,DWORD,,4,,,0
 0x61A884,,MeshopStatic,MeshopStatic,RpMeshopStatic,,24,,,0
 0x61A89C,,sectorTKList,sectorTKList,RwPluginRegistry,,24,,,0
 0x61A8B8,,BumpMapPShaderPixelShader,BumpMapPShaderPixelShader,RwUInt32[],,96,,,0
@@ -633,23 +636,23 @@
 0x61BDBC,,RxClLights,RxClLights,RxClusterDefinition,,16,,,0
 0x61BDCC,,TlsIndex,TlsIndex,int,,4,,,0
 0x61BDD0,,TlsCallbacks,TlsCallbacks,,,1,,,0
-0x621000,,_ZL16gpAnimBlendClump,gpAnimBlendClump,CAnimBlendClumpData *,,4,,,0
+0x621000,RpAnimBlend,_ZL16gpAnimBlendClump,gpAnimBlendClump,CAnimBlendClumpData *,,4,,,0
 0x621008,,_ZN12CAnimManager9DSOHandleE,CAnimManager::DSOHandle,DSOHandle,,12,,,0
 0x621018,,_ZN20CAnimBlendAssocGroup9DSOHandleE,CAnimBlendAssocGroup::DSOHandle,DSOHandle,,12,,,0
-0x621028,,_ZL15pFrameDataFound,pFrameDataFound,AnimBlendFrameData *,,4,,,0
-0x621030,,_ZL13gCdImageNames,gCdImageNames,char[576],,576,,,0
-0x621270,,_ZL10gNumImages,gNumImages,unsigned int,,4,,,0
-0x621274,,CdStreamTotalThreads,CdStreamTotalThreads,int,,4,,,0
-0x621278,,hObject,hObject,HANDLE[8],,32,,,0
-0x621298,,hThread,hThread,HANDLE,,4,,,0
-0x62129C,,hHandle,hHandle,HANDLE,,4,,,0
-0x6212A0,,ThreadId,ThreadId,int,,4,,,0
-0x6212A4,,channelFile,channelFile,CdStreamData *,,4,,,0
-0x6212A8,,QueueInfo,QueueInfo,CdStreamQueueInfo,,16,,,0
-0x6212B8,,lastPosnRead,lastPosnRead,int,,4,,,0
-0x6212BC,,CdStreamUsingAsyncLoading,CdStreamUsingAsyncLoading,int,,4,,,0
-0x6212C0,,CdStreamChannelsExist,CdStreamChannelsExist,int,,4,,,0
-0x6212C4,,CdStreamFlags,CdStreamFlags,unsigned int,,4,,,0
+0x621028,RpAnimBlend,_ZL15pFrameDataFound,pFrameDataFound,AnimBlendFrameData *,,4,,,0
+0x621030,CdStream,_ZL13gCdImageNames,gCdImageNames,char[9][64],,576,,,0
+0x621270,CdStream,_ZL10gNumImages,gNumImages,int,,4,,,0
+0x621274,CdStream,_ZL12gNumChannels,gNumChannels,int,,4,,,0
+0x621278,CdStream,gImgFiles,gImgFiles,HANDLE[8],,32,,,0
+0x621298,CdStream,gCdStreamThread,gCdStreamThread,HANDLE,,4,,,0
+0x62129C,CdStream,gCdStreamSemaphore,gCdStreamSemaphore,HANDLE,,4,,,0
+0x6212A0,CdStream,gCdStreamThreadId,gCdStreamThreadId,DWORD,,4,,,0
+0x6212A4,CdStream,gpReadInfo,gpReadInfo,CdReadInfo *,,4,,,0
+0x6212A8,CdStream,channelFile,channelFile,Queue,,16,,,0
+0x6212B8,CdStream,lastPosnRead,lastPosnRead,int,,4,,,0
+0x6212BC,CdStream,gbCdStreamOverlapped,gbCdStreamOverlapped,BOOL,,4,,,0
+0x6212C0,CdStream,CdStreamChannelsExist,CdStreamChannelsExist,BOOL,,4,,,0
+0x6212C4,CdStream,CdStreamFlags,CdStreamFlags,DWORD,,4,,,0
 0x6212C8,,_ZL15islandLODindust,islandLODindust,int,,4,,,0
 0x6212CC,,_ZL15islandLODcomInd,islandLODcomInd,int,,4,,,0
 0x6212D0,,_ZL15islandLODcomSub,islandLODcomSub,int,,4,,,0
@@ -1199,7 +1202,8 @@
 0x6510C8,,GcurSel,GcurSel,RwInt32,,4,,,0
 0x6510CC,,GcurSelVM,GcurSelVM,RwInt32,,4,,,0
 0x6510D4,,useDefault,useDefault,BOOL,,4,,,0
-0x6510D8,,szUserFiles,szUserFiles,char[260],,260,,,0
+0x6510D8,,szUserFiles,szUserFiles,CHAR[256],,256,,,0
+0x6511DC,,noMemory,noMemory,,,1,,,0
 0x6511E4,,dwMainVar,dwMainVar,int,,4,,,0
 0x6511E8,,bMainVarInit,bMainVarInit,char,,1,,,0
 0x6511EC,,Count,Count,,,1,,,0
@@ -1399,10 +1403,11 @@
 0x6EE040,,vertexbufferA,vertexbufferA,RwIm3DVertex[2],,72,,,0
 0x6EE088,CTimeCycle,_ZN10CTimeCycle15m_nSunCoreGreenE,CTimeCycle::m_nSunCoreGreen,int[24][4],,384,,,0
 0x6EE270,,CriticalSection,CriticalSection,struct _RTL_CRITICAL_SECTION,,24,,,0
+0x6EE2B8,,nSECTION,nSECTION,struct _RTL_CRITICAL_SECTION,,24,,,0
 0x6EE2D0,CTimeCycle,_ZN10CTimeCycle25m_nFluffyCloudsBottomBlueE,CTimeCycle::m_nFluffyCloudsBottomBlue,int[24][4],,384,,,0
 0x6EE450,,_ZN11CTheScripts14UpsideDownCarsE,CTheScripts::UpsideDownCars,CUpsideDownCarCheck,,48,,,0
 0x6EE480,CGlass,_ZN6CGlass11aGlassPanesE,CGlass::aGlassPanes,CFallingGlassPane[45],,5040,,,0
-0x6EF830,,gaEvent,gaEvent,CEvent[64],,2304,,,0
+0x6EF830,CEventList,gaEvent,gaEvent,CEvent[64],,2304,,,0
 0x6F0130,,NewCoorsForRecordedCars,NewCoorsForRecordedCars,float[28],,112,,,0
 0x6F01A0,CAnimManager,_ZN12CAnimManager14ms_aAnimBlocksE,CAnimManager::ms_aAnimBlocks,CAnimBlock[2],,64,,,0
 0x6F01E0,CTimeCycle,_ZN10CTimeCycle17m_nSunCoronaGreenE,CTimeCycle::m_nSunCoronaGreen,int[24][4],,384,,,0
@@ -1472,7 +1477,7 @@
 0x712AC0,CRubbish,_ZN8CRubbish7aSheetsE_0,CRubbish::aSheets,COneSheet[64],,4352,,,0
 0x713BC0,,_ZN9CTheZones14AudioZoneArrayE,CTheZones::AudioZoneArray,__int16[36],,72,,,0
 0x713C08,,_ZN9CMessages14PreviousBriefsE,CMessages::PreviousBriefs,tPreviousBrief[5],,160,,,0
-0x713CA8,,_ZN8CFileMgr10ms_dirNameE,CFileMgr::ms_dirName,char[128],,128,,,0
+0x713CA8,CFileMgr,_ZN8CFileMgr10ms_dirNameE,CFileMgr::ms_dirName,char[128],,128,,,0
 0x713D28,,_ZN10CSceneEdit5MovieE,CSceneEdit::Movie,CMovie[20],,720,,,0
 0x7143F8,,_rwIm3DModule,_rwIm3DModule,RwModuleInfo,,8,,,0
 0x714400,,_ZN9CTheZones13ZoneInfoArrayE,CTheZones::ZoneInfoArray,CZoneInfo[100],,5800,,,0
@@ -1658,7 +1663,7 @@
 0x880FA8,,_ZN6CStats14Record4x4ThreeE,CStats::Record4x4Three,int,,4,,,0
 0x880FAC,,_ZN7CReplay11pReferencesE,CReplay::pReferences,CReference *,,4,,,0
 0x880FB0,,pMediaSeeking,pMediaSeeking,IMediaSeeking *,,4,,,0
-0x880FB4,,pGraphBuilder,pGraphBuilder,LPVOID,,4,,,0
+0x880FB4,,pGraphBuilder,pGraphBuilder,IGraphBuilder *,,4,,,0
 0x880FB8,CTimeCycle,_ZN10CTimeCycle14m_FogReductionE,CTimeCycle::m_FogReduction,int,,4,,,0
 0x880FBC,,pMediaControl,pMediaControl,IMediaControl *,,4,,,0
 0x880FC0,,gAudioManager,gAudioManager,cAudioManager,,19220,,,0
@@ -1859,7 +1864,7 @@
 0x8F1B78,CRenderer,_ZN9CRenderer25ms_nNoOfInVisibleEntitiesE,CRenderer::ms_nNoOfInVisibleEntities,int,,4,,,0
 0x8F1B7C,,_ZN6CStats20PeopleKilledByPlayerE,CStats::PeopleKilledByPlayer,int,,4,,,0
 0x8F1B80,,_ZN6CRadar8ElSpriteE,CRadar::ElSprite,CSprite2d,,4,,,0
-0x8F1B84,,ClumpOffset,ClumpOffset,int,,4,,,0
+0x8F1B84,RpAnimBlend,ClumpOffset,ClumpOffset,RwInt32,,4,,,0
 0x8F1B8C,,_ZN10CCullZones36aPointersToBigBuildingsForTreadablesE,CCullZones::aPointersToBigBuildingsForTreadables,unsigned __int16[],,2428,,,0
 0x8F2508,,_ZN10CCullZones17EntityIndicesUsedE,CCullZones::EntityIndicesUsed,,,1,,,0
 0x8F250C,CTimeCycle,_ZN10CTimeCycle18m_fCurrentBlurBlueE,CTimeCycle::m_fCurrentBlurBlue,float,,4,,,0
@@ -1964,7 +1969,7 @@
 0x8F317C,,_ZN5CFont7DetailsE,CFont::Details,CFontDetails,,68,,,0
 0x8F31C0,CClouds,_ZN7CClouds11ms_horizonZE,CClouds::ms_horizonZ,float,,4,,,0
 0x8F31C4,,_ZN10CStreaming22ms_numPriorityRequestsE,CStreaming::ms_numPriorityRequests,int,,4,,,0
-0x8F31CC,,_ZN10CEventList22ms_nFirstFreeSlotIndexE,CEventList::ms_nFirstFreeSlotIndex,int,,4,,,0
+0x8F31CC,CEventList,_ZN10CEventList22ms_nFirstFreeSlotIndexE,CEventList::ms_nFirstFreeSlotIndex,int,,4,,,0
 0x8F31D0,CFireManager,gFireManager,gFireManager,CFireManager,,1924,,,0
 0x8F3958,CParticle,_ZN9CParticle17m_pUnusedListHeadE,CParticle::m_pUnusedListHead,CParticle *,,4,,,0
 0x8F395C,,maxSamples,maxSamples,unsigned int,,4,,,0
@@ -1994,7 +1999,7 @@
 0x8F582C,,gpReflectionTex,gpReflectionTex,RwTexture *,,4,,,0
 0x8F5830,,_ZN6CRadar9LizSpriteE,CRadar::LizSprite,CSprite2d,,4,,,0
 0x8F5834,,gpSniperSightTex,gpSniperSightTex,RwTexture *,,4,,,0
-0x8F5838,,gGameState,gGameState,,,1,,,0
+0x8F5838,,gGameState,gGameState,RwUInt32,,4,,,0
 0x8F583C,CAnimManager,_ZN12CAnimManager19ms_aAnimAssocGroupsE,CAnimManager::ms_aAnimAssocGroups,CAnimBlendAssocGroup *,,4,,,0
 0x8F5840,,_ZN7CReplay10PlayerInfoE,CReplay::PlayerInfo,CPlayerInfo,,316,,,0
 0x8F597C,,_ZN8CGarages14MessageEndTimeE,CGarages::MessageEndTime,int,,4,,,0
@@ -2019,7 +2024,7 @@
 0x8F5F8C,CTrain,_ZN6CTrain13aStationCoorsE,CTrain::aStationCoors,CVector[3],,36,,,0
 0x8F5FB0,CSprite,_ZN7CSprite31m_bFlushSpriteBufferSwitchZTestE,CSprite::m_bFlushSpriteBufferSwitchZTest,int,,4,,,0
 0x8F5FB4,,_ZN6CRadar10BombSpriteE,CRadar::BombSprite,CSprite2d,,4,,,0
-0x8F5FB8,CTxdStore,_ZN9CTxdStore11ms_pTxdPoolE,CTxdStore::ms_pTxdPool,CPool_CTxdDef *,CPool<TxdDef> *,4,,,0
+0x8F5FB8,CTxdStore,_ZN9CTxdStore11ms_pTxdPoolE,CTxdStore::ms_pTxdPool,CPool_TxdDef *,CPool<TxdDef> *,4,,,0
 0x8F5FBC,CPlane,OldPlanePathPosition,OldPlanePathPosition,float[3],,12,,,0
 0x8F5FC8,CPlane,PlanePathPosition,PlanePathPosition,float[3],,12,,,0
 0x8F5FD4,,gpWaterRaster,gpWaterRaster,RwRaster *,,4,,,0
@@ -2075,6 +2080,7 @@
 0x940590,,_ZN10CSceneEdit20m_bCameraFollowActorE,CSceneEdit::m_bCameraFollowActor,int,,4,,,0
 0x940594,CTimeCycle,_ZN10CTimeCycle26m_fCurrentDirectionalGreenE,CTimeCycle::m_fCurrentDirectionalGreen,float,,4,,,0
 0x940598,CWeather,_ZN8CWeather7RainbowE,CWeather::Rainbow,float,,4,,,0
+0x94059C,,ptr,ptr,void *,,4,,,0
 0x9405A0,CTimeCycle,_ZN10CTimeCycle19m_fCurrentBlurGreenE,CTimeCycle::m_fCurrentBlurGreen,float,,4,,,0
 0x9405A4,,_ZN11CTheScripts14MainScriptSizeE,CTheScripts::MainScriptSize,int,,4,,,0
 0x9405A8,,RpHAnimAtomicGlobals,RpHAnimAtomicGlobals,RpHAnimAtomicGlobalVars,,8,,,0

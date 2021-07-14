@@ -1,0 +1,17 @@
+{
+    "name": "LPDIRECTDRAW7",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 4,
+    "alignment": 2,
+    "comment": "",
+    "members": [
+        {
+            "name": "vtable",
+            "type": "LPDIRECTDRAW7VMT *",
+            "offset": 0,
+            "size": 4
+        }
+    ]
+}

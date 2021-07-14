@@ -1,0 +1,20 @@
+{
+    "name": "bad_alloc",
+    "module": "",
+    "scope": "",
+    "kind": "class",
+    "size": 4,
+    "alignment": 2,
+    "vtableAddress": "0x618A30",
+    "vtableSize": 3,
+    "comment": "",
+    "members": [
+        {
+            "name": "base",
+            "type": "exception",
+            "offset": 0,
+            "size": 4,
+            "isBase": true
+        }
+    ]
+}

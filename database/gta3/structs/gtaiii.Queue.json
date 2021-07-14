@@ -1,32 +1,32 @@
 {
-    "name": "CPool_CTxdDef",
-    "module": "",
+    "name": "Queue",
+    "module": "CdStream",
     "scope": "",
     "kind": "class",
     "size": "0x10",
-    "alignment": 0,
+    "alignment": 2,
     "comment": "",
     "members": [
         {
-            "name": "m_pObjects",
-            "type": "CTxdDef *",
+            "name": "items",
+            "type": "int *",
             "offset": 0,
             "size": 4
         },
         {
-            "name": "m_byteMap",
-            "type": "unsigned __int8 *",
+            "name": "head",
+            "type": "int",
             "offset": 4,
             "size": 4
         },
         {
-            "name": "m_nSize",
+            "name": "tail",
             "type": "int",
             "offset": 8,
             "size": 4
         },
         {
-            "name": "m_nFirstFree",
+            "name": "size",
             "type": "int",
             "offset": "0xC",
             "size": 4
