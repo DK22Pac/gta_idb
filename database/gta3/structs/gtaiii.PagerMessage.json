@@ -1,8 +1,8 @@
 {
     "name": "PagerMessage",
-    "module": "",
+    "module": "CPager",
     "scope": "",
-    "kind": "class",
+    "kind": "struct",
     "size": "0x2C",
     "alignment": 2,
     "comment": "",
@@ -39,21 +39,16 @@
         },
         {
             "name": "m_nTimeToChangePosition",
-            "type": "int",
+            "type": "unsigned int",
             "offset": "0xC",
             "size": 4
         },
         {
             "name": "field_10",
-            "type": "__int16",
+            "type": "unsigned __int16",
             "offset": "0x10",
-            "size": 2
-        },
-        {
-            "name": "_pad12",
-            "type": "char[2]",
-            "offset": "0x12",
-            "size": 2
+            "size": 2,
+            "comment": "but still set in SCM. importance? ringtone?"
         },
         {
             "name": "m_nNumber",

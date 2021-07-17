@@ -1,49 +1,49 @@
 {
     "name": "eBlipType",
-    "module": "",
+    "module": "CRadar",
     "scope": "",
-    "width": 0,
+    "width": 4,
     "isClass": false,
-    "isHexademical": true,
+    "isHexademical": false,
     "isSigned": false,
     "isBitfield": false,
     "comment": "",
     "members": [
         {
             "name": "BLIP_NONE",
-            "value": "0x0"
+            "value": 0
         },
         {
             "name": "BLIP_CAR",
-            "value": "0x1"
+            "value": 1
         },
         {
             "name": "BLIP_CHAR",
-            "value": "0x2"
+            "value": 2
         },
         {
             "name": "BLIP_OBJECT",
-            "value": "0x3"
+            "value": 3
         },
         {
             "name": "BLIP_COORD",
-            "value": "0x4"
+            "value": 4
         },
         {
             "name": "BLIP_CONTACTPOINT",
-            "value": "0x5"
+            "value": 5
         },
         {
             "name": "BLIP_SPOTLIGHT",
-            "value": "0x6"
+            "value": 6
         },
         {
             "name": "BLIP_PICKUP",
-            "value": "0x7"
+            "value": 7
         },
         {
             "name": "BLIP_AIRSTRIP",
-            "value": "0x8"
+            "value": 8
         }
     ]
 }

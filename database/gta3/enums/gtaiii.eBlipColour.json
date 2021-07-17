@@ -1,49 +1,41 @@
 {
     "name": "eBlipColour",
-    "module": "",
+    "module": "CRadar",
     "scope": "",
-    "width": 0,
+    "width": 4,
     "isClass": false,
-    "isHexademical": true,
+    "isHexademical": false,
     "isSigned": false,
     "isBitfield": false,
     "comment": "",
     "members": [
         {
             "name": "BLIP_COLOUR_RED",
-            "value": "0x0"
+            "value": 0
         },
         {
             "name": "BLIP_COLOUR_GREEN",
-            "value": "0x1"
+            "value": 1
         },
         {
-            "name": "BLIP_COLOUR_BLUE",
-            "value": "0x2"
+            "name": "BLIP_COLOUR_LIGHT_BLUE",
+            "value": 2
         },
         {
-            "name": "BLIP_COLOUR_WHITE",
-            "value": "0x3"
+            "name": "BLIP_COLOUR_GRAY",
+            "value": 3
         },
         {
             "name": "BLIP_COLOUR_YELLOW",
-            "value": "0x4"
+            "value": 4
         },
         {
-            "name": "BLIP_COLOUR_REDCOPY",
-            "value": "0x5"
+            "name": "BLIP_COLOUR_MAGENTA",
+            "value": 5
         },
         {
-            "name": "BLIP_COLOUR_BLUECOPY",
-            "value": "0x6"
-        },
-        {
-            "name": "BLIP_COLOUR_THREAT",
-            "value": "0x7"
-        },
-        {
-            "name": "BLIP_COLOUR_DESTINATION",
-            "value": "0x8"
+            "name": "BLIP_COLOUR_CYAN",
+            "value": 6
         }
     ]
 }

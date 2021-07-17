@@ -1,44 +1,44 @@
 {
-    "name": "PedComponentInfo",
+    "name": "ColNodeInfo",
     "module": "",
     "scope": "",
     "kind": "class",
     "size": "0x18",
-    "alignment": 0,
+    "alignment": 2,
     "comment": "",
     "members": [
         {
-            "name": "m_aName",
+            "name": "name",
             "type": "char *",
             "offset": 0,
             "size": 4
         },
         {
-            "name": "field_4",
+            "name": "pedNode",
             "type": "int",
             "offset": 4,
             "size": 4
         },
         {
-            "name": "m_nFlag",
+            "name": "pieceType",
             "type": "int",
             "offset": 8,
             "size": 4
         },
         {
-            "name": "field_12",
+            "name": "x",
             "type": "float",
             "offset": "0xC",
             "size": 4
         },
         {
-            "name": "field_16",
+            "name": "y",
             "type": "float",
             "offset": "0x10",
             "size": 4
         },
         {
-            "name": "m_fRadius",
+            "name": "radius",
             "type": "float",
             "offset": "0x14",
             "size": 4

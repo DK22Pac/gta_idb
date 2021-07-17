@@ -1,29 +1,29 @@
 {
     "name": "eBlipDisplay",
-    "module": "",
+    "module": "CRadar",
     "scope": "",
     "width": 2,
     "isClass": false,
-    "isHexademical": true,
+    "isHexademical": false,
     "isSigned": false,
     "isBitfield": false,
     "comment": "",
     "members": [
         {
             "name": "BLIP_DISPLAY_NEITHER",
-            "value": "0x0"
+            "value": 0
         },
         {
-            "name": "BLIP_DISPLAY_MARKERONLY",
-            "value": "0x1"
+            "name": "BLIP_DISPLAY_MARKER_ONLY",
+            "value": 1
         },
         {
-            "name": "BLIP_DISPLAY_BLIPONLY",
-            "value": "0x2"
+            "name": "BLIP_DISPLAY_BLIP_ONLY",
+            "value": 2
         },
         {
             "name": "BLIP_DISPLAY_BOTH",
-            "value": "0x3"
+            "value": 3
         }
     ]
 }

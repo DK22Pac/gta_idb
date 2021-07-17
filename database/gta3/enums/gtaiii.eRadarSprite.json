@@ -1,6 +1,6 @@
 {
     "name": "eRadarSprite",
-    "module": "",
+    "module": "CRadar",
     "scope": "",
     "width": 2,
     "isClass": false,
@@ -92,6 +92,10 @@
         {
             "name": "RADAR_SPRITE_WEAPON",
             "value": 20
+        },
+        {
+            "name": "RADAR_SPRITE_COUNT",
+            "value": 21
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "name": "CControllerState",
-    "module": "",
+    "module": "CControllerState",
     "scope": "",
     "kind": "class",
     "size": "0x2A",
@@ -11,19 +11,22 @@
             "name": "LeftStickX",
             "type": "signed __int16",
             "offset": 0,
-            "size": 2
+            "size": 2,
+            "comment": "move/steer left (-128?)/right (+128)"
         },
         {
             "name": "LeftStickY",
             "type": "signed __int16",
             "offset": 2,
-            "size": 2
+            "size": 2,
+            "comment": "move back(+128)/forwards(-128?)"
         },
         {
             "name": "RightStickX",
             "type": "signed __int16",
             "offset": 4,
-            "size": 2
+            "size": 2,
+            "comment": "numpad 6(+128)/numpad 4(-128?)"
         },
         {
             "name": "RightStickY",
@@ -47,7 +50,8 @@
             "name": "RightShoulder1",
             "type": "signed __int16",
             "offset": "0xC",
-            "size": 2
+            "size": 2,
+            "comment": "target / hand brake"
         },
         {
             "name": "RightShoulder2",
@@ -59,37 +63,43 @@
             "name": "DPadUp",
             "type": "signed __int16",
             "offset": "0x10",
-            "size": 2
+            "size": 2,
+            "comment": "radio change up           Next radio station / Call gang forward/Recruit gang member"
         },
         {
             "name": "DPadDown",
             "type": "signed __int16",
             "offset": "0x12",
-            "size": 2
+            "size": 2,
+            "comment": "radio change down       Previous radio station / Gang stay back/Release gang (hold)"
         },
         {
             "name": "DPadLeft",
             "type": "signed __int16",
             "offset": "0x14",
-            "size": 2
+            "size": 2,
+            "comment": "Skip trip/Action / Negative talk reply"
         },
         {
             "name": "DPadRight",
             "type": "signed __int16",
             "offset": "0x16",
-            "size": 2
+            "size": 2,
+            "comment": "Next user MP3 track / Positive talk reply"
         },
         {
             "name": "Start",
             "type": "signed __int16",
             "offset": "0x18",
-            "size": 2
+            "size": 2,
+            "comment": "Pause"
         },
         {
             "name": "Select",
             "type": "signed __int16",
             "offset": "0x1A",
-            "size": 2
+            "size": 2,
+            "comment": "Camera modes"
         },
         {
             "name": "ButtonSquare",

@@ -1,6 +1,6 @@
 {
     "name": "CPager",
-    "module": "",
+    "module": "CPager",
     "scope": "",
     "kind": "class",
     "size": "0x164",
@@ -11,12 +11,6 @@
             "name": "m_nNumDisplayLetters",
             "type": "__int16",
             "offset": 0,
-            "size": 2
-        },
-        {
-            "name": "_pad2",
-            "type": "char[2]",
-            "offset": 2,
             "size": 2
         },
         {
